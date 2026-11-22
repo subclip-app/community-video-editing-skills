@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vox explainer, adapted for Subclip</title>
+  <desc id="desc">An editorial paper collage with a cutout globe, chart, captions and film frames on a warm cream background.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#d2c8b4" stroke-width="1"/></pattern>
+    <pattern id="paper" width="17" height="19" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".8" fill="#302f29" opacity=".12"/><path d="M11 15h3" stroke="#fff" opacity=".5"/></pattern>
+  </defs>
+  <path fill="#eee7d7" d="M0 0h1600v900H0z"/>
+  <path fill="url(#grid)" d="M820 0h780v900H820z"/>
+  <path fill="#e2dac8" d="M0 735l170-12 90 16 180-8 102 10 160-12 150 12 120-8 195 10 120-18 170 14 143-10v171H0z"/>
+  <path fill="url(#paper)" d="M0 0h1600v900H0z"/>
+  <path d="M89 87h68v8H89z" fill="#e55231"/>
+  <text x="180" y="103" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="5" fill="#393a34">COMMUNITY SKILLS / 001</text>
+  <g transform="rotate(-2 450 330)">
+    <path fill="#f9d63e" d="M72 220l580-9 9 152-580 17z"/>
+    <text x="99" y="340" font-family="Arial, Helvetica, sans-serif" font-size="131" font-weight="900" letter-spacing="-8" fill="#252a27">VOX</text>
+  </g>
+  <text x="84" y="475" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" letter-spacing="-5" fill="#252a27">explainer</text>
+  <text x="92" y="545" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#55584f">One topic. A story worth watching.</text>
+  <g transform="rotate(2 346 650)"><path fill="#e55231" d="M87 613h510v67H87z"/><text x="112" y="658" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#fff8e8">Adapted for Subclip</text></g>
+  <g transform="rotate(7 1195 440)">
+    <path fill="#b7af9c" opacity=".6" d="M934 165l513 15-10 476-494-14z"/>
+    <path fill="#faf6e9" d="M912 147l515 15-10 476-494-14z"/>
+    <path fill="#c7d4cf" d="M938 181h460v331H938z"/>
+    <path d="M940 429l76-68 62 16 82-116 74 40 83-68 79 94v185H938z" fill="#8ba79d"/>
+    <circle cx="1169" cy="339" r="136" fill="#253f45" stroke="#fbf5e5" stroke-width="11"/>
+    <path d="M1074 251l61-34 41 21-12 52 44 23-15 54-42 4-4 70-35-34-14-48-38-27zM1242 275l36 49 20 44-40 43-39-14-21-40 30-25z" fill="#f4d853"/>
+    <path d="M1040 339h258M1169 208c-78 70-78 197 0 262M1169 208c78 70 78 197 0 262" fill="none" stroke="#fbf5e5" stroke-width="2" opacity=".4"/>
+    <path d="M957 546h286v13H957zM957 573h201v8H957z" fill="#292f2c"/>
+  </g>
+  <g transform="rotate(-9 1000 640)">
+    <path d="M837 546h337v196H837z" fill="#fffaf0" stroke="#d5ccba" stroke-width="2"/>
+    <path d="M872 701h267M876 684l69-32 64 10 75-69 48-9" fill="none" stroke="#303c36" stroke-width="3"/>
+    <path d="M876 684l69-32 64 10 75-69 48-9" fill="none" stroke="#e55231" stroke-width="10"/>
+    <text x="868" y="578" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#333b34">THE BIG PICTURE</text>
+  </g>
+  <g transform="rotate(3 1343 694)"><path d="M1223 632h282v134h-282z" fill="#283d3c"/><path d="M1237 647h18m18 0h18m18 0h18m18 0h18m18 0h18m18 0h18m18 0h18" stroke="#f5edda" stroke-width="6"/><text x="1243" y="708" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#fff7e4">MAKE IT MAKE SENSE</text><path d="M1245 736h147" stroke="#f8d63b" stroke-width="7"/></g>
+  <path d="M87 808h1426" stroke="#aaa591" stroke-width="2"/>
+  <text x="91" y="851" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#53584c" letter-spacing="2">SCRIPT / VOICE / COLLAGE / MOTION / SOUND</text>
+  <text x="1285" y="851" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#30382f">subclip.app</text>
+</svg>

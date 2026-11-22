@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "repository": "subclip-app/community-video-editing-skills",
+  "skills": [
+    {
+      "slug": "vox-explainer",
+      "name": "Vox explainer",
+      "summary": "One topic in, a finished Vox-style explainer.",
+      "category": "explainers",
+      "tags": [
+        "vox",
+        "documentary",
+        "collage"
+      ],
+      "path": "skills/vox-explainer",
+      "skills": [
+        "vox-explainer"
+      ],
+      "cover": "skills/vox-explainer/cover.svg",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "CK42BB/vox-explainer-skill",
+        "url": "https://github.com/CK42BB/vox-explainer-skill",
+        "author": "Kingsley",
+        "license": "MIT"
+      },
+      "addedAt": "2026-11-23"
+    }
+  ]
+}

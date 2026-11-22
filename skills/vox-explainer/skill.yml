@@ -1,0 +1,10 @@
+slug: vox-explainer
+name: Vox explainer
+summary: One topic in, a finished Vox-style explainer.
+category: explainers
+tags: [vox, documentary, collage]
+cover: cover.svg
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: CK42BB/vox-explainer-skill, author: Kingsley, license: MIT }
+addedAt: 2026-11-23
