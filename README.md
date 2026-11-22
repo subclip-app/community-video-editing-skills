@@ -17,6 +17,7 @@ This table is generated from each folder's `skill.yml`. Run `npm run build` afte
 | Cover | Skill | Summary | Credit |
 | --- | --- | --- | --- |
 | <img src="skills/bang-motion/cover.jpg" alt="Bang Motion cover" width="240"> | [Bang Motion](skills/bang-motion) | Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers. | Adapted from [bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion) by bangtutorial |
+| <img src="skills/huashu-art-motion/cover.svg" alt="Huashu art motion cover" width="240"> | [Huashu art motion](skills/huashu-art-motion) | Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline. | Adapted from [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) by alchaincyf |
 | <img src="skills/vox-explainer/cover.svg" alt="Vox explainer cover" width="240"> | [Vox explainer](skills/vox-explainer) | One topic in, a finished Vox-style explainer. | Adapted from [CK42BB/vox-explainer-skill](https://github.com/CK42BB/vox-explainer-skill) by Kingsley |
 
 <!-- skills:end -->

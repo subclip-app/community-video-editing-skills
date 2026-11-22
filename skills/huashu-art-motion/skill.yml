@@ -1,0 +1,10 @@
+slug: huashu-art-motion
+name: Huashu art motion
+summary: Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.
+category: motion
+tags: [art, painting, animation, motion, explainers]
+cover: cover.svg
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: alchaincyf/huashu-art-motion, author: alchaincyf, license: MIT }
+addedAt: 2026-11-23

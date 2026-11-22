@@ -31,6 +31,33 @@
       "addedAt": "2026-11-23"
     },
     {
+      "slug": "huashu-art-motion",
+      "name": "Huashu art motion",
+      "summary": "Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.",
+      "category": "motion",
+      "tags": [
+        "art",
+        "painting",
+        "animation",
+        "motion",
+        "explainers"
+      ],
+      "path": "skills/huashu-art-motion",
+      "skills": [
+        "huashu-art-motion"
+      ],
+      "cover": "skills/huashu-art-motion/cover.svg",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "alchaincyf/huashu-art-motion",
+        "url": "https://github.com/alchaincyf/huashu-art-motion",
+        "author": "alchaincyf",
+        "license": "MIT"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
       "slug": "vox-explainer",
       "name": "Vox explainer",
       "summary": "One topic in, a finished Vox-style explainer.",
