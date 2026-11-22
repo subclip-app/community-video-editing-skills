@@ -18,9 +18,10 @@ async function fixture(t) {
 
 test('build derives contract fields, sorts packs, stays deterministic and check never writes', async t => {
   const dir = await fixture(t); const skills = await build(dir);
-  assert.equal(skills[0].upstream.url,'https://github.com/CK42BB/vox-explainer-skill');
-  assert.deepEqual(skills[0].skills,['vox-explainer']);
-  assert.equal(skills[0].cover,'skills/vox-explainer/cover.svg');
+  const vox = skills.find(s => s.slug === 'vox-explainer');
+  assert.equal(vox.upstream.url,'https://github.com/CK42BB/vox-explainer-skill');
+  assert.deepEqual(vox.skills,['vox-explainer']);
+  assert.equal(vox.cover,'skills/vox-explainer/cover.svg');
   const first = await readFile(resolve(dir,'registry.json'),'utf8');
   await build(dir); await build(dir,true);
   assert.equal(await readFile(resolve(dir,'registry.json'),'utf8'),first);
@@ -34,11 +35,11 @@ test('build derives contract fields, sorts packs, stays deterministic and check 
   await build(dir);
   const pack = resolve(dir,'skills/vox-explainer/extra'); await mkdir(pack);
   await writeFile(resolve(pack,'SKILL.md'),'---\nname: another-skill\ndescription: Another entry point.\n---\n');
-  assert.deepEqual((await build(dir))[0].skills,['another-skill','vox-explainer']);
+  assert.deepEqual((await build(dir)).find(s => s.slug === 'vox-explainer').skills,['another-skill','vox-explainer']);
   const second = resolve(dir,'skills/a-skill'); await cp(resolve(dir,'skills/vox-explainer'),second,{recursive:true});
   const metadata = await readFile(resolve(second,'skill.yml'),'utf8');
   await writeFile(resolve(second,'skill.yml'),metadata.replace('slug: vox-explainer','slug: a-skill'));
-  assert.deepEqual((await build(dir)).map(s => s.slug),['a-skill','vox-explainer']);
+  assert.deepEqual((await build(dir)).map(s => s.slug),['a-skill',...skills.map(s => s.slug)].sort((a,b) => a.localeCompare(b,'en')));
 });
 
 test('schema rejects invalid fields, licensing, dates and exceptions', async () => {

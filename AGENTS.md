@@ -14,7 +14,7 @@ The tool names below were checked against those two source files on 2026-11-23. 
 
 ## Read media context first
 
-Begin project work with `get_project_outline`, then `read_project_section` for only the required lanes and fields. Use `list_editor_assets` for real item and file IDs. Keep the same explicit project ID on every call.
+Begin project work with `get_project_outline`, then `read_project_section` for only the required lanes and fields. Use `list_editor_assets` for real item and file IDs. Keep the same explicit project ID on every project-scoped call. Discovery, pricing and source validation tools may have no project ID field; follow their schemas and do not add unsupported fields.
 
 Before rescanning, transcribing or extracting frames, call `get_media_context`. Read descriptions and video contact sheets with `includeContactSheet: true`. If needed, inspect specific moments with `fileId` and `inspectAtSeconds`, at most six moments, before requesting wider analysis. Reuse an existing transcript when it answers the question.
 

@@ -1,0 +1,10 @@
+slug: bang-motion
+name: Bang Motion
+summary: Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers.
+category: motion
+tags: [motion-design, kinetic-typography, openers, product-demos, explainers, hyperframes]
+cover: cover.jpg
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: bangtutorial/bang-motion, author: bangtutorial, license: MIT }
+addedAt: 2026-11-23
