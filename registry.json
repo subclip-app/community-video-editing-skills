@@ -86,20 +86,30 @@
   ],
   "installYourself": [
     {
+      "slug": "lemo-opuscar",
       "name": "Lemo OpusCar",
       "repo": "lemomo-ai/lemo-opuscar",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "category": "motion",
       "what": "A toolbox of 99 film styles made in code, each a style prompt plus a demo film.",
-      "why": "The skill and style text use CC BY-NC 4.0. Changes are allowed only for non-commercial use.",
-      "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar"
+      "why": "The skill and style text use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
+      "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar",
+      "gallery": [
+        "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/f9e204293930952b61ba921cd8944d05f121beee/styles/art-deco/poster.jpg",
+        "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/f9e204293930952b61ba921cd8944d05f121beee/styles/bauhaus-shapes/poster.jpg"
+      ],
+      "galleryCredit": "Demo film posters by Lemomo (LemoLab), CC BY 4.0."
     },
     {
+      "slug": "opus-video-prompts",
       "name": "Opus video prompts",
       "repo": "joeseesun/opus-video-prompts",
       "url": "https://github.com/joeseesun/opus-video-prompts",
+      "category": "workflow",
       "what": "Copy-ready prompts and 54 cases of code-rendered videos.",
-      "why": "No license. The README says every prompt and video belongs to its original author, so permission to copy or change them has not been granted.",
-      "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts"
+      "why": "No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.",
+      "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts",
+      "gallery": []
     }
   ]
 }

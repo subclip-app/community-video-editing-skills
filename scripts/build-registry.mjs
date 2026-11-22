@@ -75,11 +75,14 @@ export async function readInstallYourself(root) {
   const list = parseYaml(raw);
   assert(Array.isArray(list), 'install-yourself.yml must be a list');
   return list.map((item, i) => {
-    keys(item, ['name','repo','what','why','preview'], `install-yourself.yml item ${i + 1}`);
+    keys(item, ['slug','name','repo','category','what','why','preview','gallery','galleryCredit'], `install-yourself.yml item ${i + 1}`);
+    assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? ''), `install-yourself.yml item ${i + 1} needs a kebab-case slug`);
+    assert(item.category === undefined || CATEGORY_LABELS[item.category], `Unknown install-yourself category: ${item.category}`);
+    const gallery = item.gallery ?? []; assert(Array.isArray(gallery) && gallery.every(u => typeof u === 'string' && u.startsWith('https://')), 'install-yourself gallery must list https URLs');
     text(item.name, 'install-yourself name', 80); text(item.what, 'install-yourself what', 300); text(item.why, 'install-yourself why', 400);
     assert(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(item.repo), `Invalid install-yourself repo: ${item.repo}`);
     for (const v of [item.name, item.what, item.why]) assert(!/[—·]/u.test(v), 'install-yourself.yml contains an em dash or middle dot');
-    return { name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}` };
+    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
   });
 }
 export function installYourselfMarkdown(items) {
