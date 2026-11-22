@@ -23,7 +23,9 @@ export function validateMetadata(m, slug) {
   assert(licenses.includes(m.license), 'License is not on the allowed list');
   assert(typeof m.addedAt === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(m.addedAt) && new Date(`${m.addedAt}T00:00:00Z`).toISOString().slice(0,10) === m.addedAt, 'addedAt must be a real YYYY-MM-DD date');
   if (m.upstream !== null) {
-    keys(m.upstream, ['repo','url','author','license'], 'upstream');
+    keys(m.upstream, ['repo','url','author','license','commit','syncedAt'], 'upstream');
+    assert(m.upstream.commit === undefined || /^[0-9a-f]{40}$/.test(m.upstream.commit), 'upstream.commit must be a full 40-character commit SHA');
+    assert(m.upstream.syncedAt === undefined || /^\d{4}-\d{2}-\d{2}$/.test(m.upstream.syncedAt), 'upstream.syncedAt must be YYYY-MM-DD');
     assert(/^[\w.-]+\/[\w.-]+$/.test(m.upstream.repo), 'upstream.repo must be owner/repo');
     text(m.upstream.author, 'upstream.author');
     assert(licenses.includes(m.upstream.license), 'Upstream license must allow changes and commercial use');
@@ -107,7 +109,7 @@ export async function build(root = process.cwd(), check = false) {
       assert(!names.includes(front.name), `Duplicate skill name: ${front.name}`); names.push(front.name);
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
-    const upstream = m.upstream === null ? null : { repo: m.upstream.repo, url: `https://github.com/${m.upstream.repo}`, author: m.upstream.author, license: m.upstream.license };
+    const upstream = m.upstream === null ? null : { repo: m.upstream.repo, url: `https://github.com/${m.upstream.repo}`, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}) };
     skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt });
   }
   const installYourself = await readInstallYourself(root);

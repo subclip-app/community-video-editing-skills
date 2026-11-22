@@ -69,6 +69,10 @@ allowlist:
 
 An optional `file` matches an exact finding path, not a glob. Aggregate findings such as `external-provider` have no file. Exceptions stay visible in scan output. High-risk findings fail CI unless explicitly allowlisted with a reason; an exception is still subject to Subclip review.
 
+## Keeping adapted skills in sync
+
+Adapted skills record the original's commit and the date we last synced in `skill.yml`: `upstream: { repo, author, license, commit: "<40-character SHA>", syncedAt: "YYYY-MM-DD" }`. `npm run upstream:check` lists originals that changed since then, and a weekly workflow opens or updates an "Original skills have updates" issue. After porting the changes into the Subclip version, update `commit` and `syncedAt`.
+
 ## Cover and preview
 
 Provide a 16:9 cover that shows what the skill makes. Use WebP, PNG, JPG/JPEG or static self-contained SVG, strictly under 300 KB (300,000 bytes). A 1600 by 900 image works well. Use a still from a test render or an upstream demo when its license permits. If none exists, make a clear designed card naming the skill and saying "Adapted for Subclip" for an adaptation. Keep text readable at thumbnail size.

@@ -1,0 +1,27 @@
+name: upstream updates
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Compare adapted skills with their originals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/check-upstream.mjs --markdown > upstream.md && cat upstream.md
+      - name: Open or update the tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "in sync" upstream.md; then exit 0; fi
+          number=$(gh issue list --state open --label upstream-update --json number --jq '.[0].number')
+          if [ -n "$number" ]; then gh issue edit "$number" --body-file upstream.md; else gh label create upstream-update --color 26c9d5 --force; gh issue create --title "Original skills have updates" --label upstream-update --body-file upstream.md; fi
