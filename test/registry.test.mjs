@@ -88,8 +88,8 @@ test('media parser checks raster dimensions and MP4 duration, size, silent video
   await writeFile(cover,png); await checkCover(cover);
   png.writeUInt32BE(1000,16); await writeFile(cover,png); await assert.rejects(checkCover(cover),/16:9/);
   const preview = resolve(dir,'test.mp4');
-  await writeFile(preview,mp4(6)); await checkPreview(preview);
-  for (const bytes of [mp4(6.1),mp4(5,true),Buffer.alloc(2_000_000),Buffer.from('invalid'),mp4(0)]) {
+  await writeFile(preview,mp4(25)); await checkPreview(preview);
+  for (const bytes of [mp4(25.1),mp4(5,true),Buffer.alloc(2_000_000),Buffer.from('invalid'),mp4(0)]) {
     await writeFile(preview,bytes); await assert.rejects(checkPreview(preview));
   }
 });
