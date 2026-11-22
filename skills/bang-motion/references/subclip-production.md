@@ -16,6 +16,8 @@ Only write through named tools. Serialize project mutations and re-read the affe
 
 Keep the creator's own assets first. Before images/video, honor a prior generator choice. If none exists, follow `subclip-ai-generation` and its `references/creator-cli-generators.md` to offer a working signed-in creator generator once. Do not require it or collect credentials. Use Subclip for an explicit Subclip choice, unavailable CLI, or an unsupported CLI capability. Import external results with `import_external_media`, providing exactly one source: absolute path, public HTTPS URL or base64. Confirm files exist and inspect outputs. External provider cost is separate from Subclip credits.
 
+Models: the original makes its photos, portraits and cutouts with GPT Image 2.5, so images default to the creator's own Codex CLI (GPT image generation) and, on Subclip, to `gpt-image-2.5-flare` (GPT Image 2.5). Check `list_ai_models` first; pick another model only when the live catalog lacks it, and say which.
+
 Subclip image/video flow:
 
 1. Call `list_ai_models` for the requested kind. Read its actual operation, aspect ratio, resolution, reference roles, duration and settings support. Do not preserve upstream provider IDs or rate-limit recipes.

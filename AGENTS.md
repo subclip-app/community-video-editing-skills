@@ -37,7 +37,14 @@ Remove instructions to create provider accounts, collect API keys, set provider 
 | Attached media | `import_attachment_to_timeline`, or `import_attachment_to_project_media` when only a media file is needed, such as a 3D screen source. |
 | Licensed stock result | `import_public_asset_to_timeline` with the search query and returned attribution. |
 
-Before image or video generation, offer the creator's own signed-in, working Codex CLI for images or Grok CLI for images and video. Ask once if no generator is chosen. Read Subclip's `subclip-ai-generation` reference `references/creator-cli-generators.md` for supported checks and commands. Respect a prior choice. Import the resulting files with `import_external_media`. This route uses no Subclip credits; do not promise the outside provider is free. Do not require those CLIs or ask for their credentials. Use Subclip when chosen, when no CLI works or for capabilities those CLIs do not provide.
+### Which model to use
+
+Keep the source skill's own model choices; they are part of its craft.
+
+- **Images:** first offer the creator's own signed-in, working Codex CLI (GPT image generation), which is the preferred image route. When Codex is not available or the creator chose Subclip, use Subclip's `generate_ai_media` with the image model the source skill names (find it in `list_ai_models`). Only when the source names no model, or Subclip does not offer it, pick Subclip's best match and say which and why.
+- **Video and audio:** use the model the source skill names (for example a specific video, voice or music model) through Subclip when `list_ai_models` offers it; that beats Subclip's own default. If it is missing, use the closest Subclip model and name the swap in the skill. The Grok CLI may also be offered for video when it is signed in and working.
+
+Ask once if no generator is chosen. Read Subclip's `subclip-ai-generation` reference `references/creator-cli-generators.md` for supported checks and commands. Respect a prior choice. Import files made by a creator CLI with `import_external_media`. That route uses no Subclip credits; do not promise the outside provider is free. Do not require those CLIs or ask for their credentials.
 
 Before spending credits, quote the model, number and duration of outputs, settings, estimated total and retry allowance. Use the live catalog; copied model names and prices are examples only. Quote video with `estimate_ai_generation` using the exact source durations and settings. Get approval for the quoted scope when it has not already been authorized. An existing approval covers the same scope; a larger bill needs a new decision. Pass confirmation fields only when the request authorizes the exact operation. Stop on credit or storage limits.
 

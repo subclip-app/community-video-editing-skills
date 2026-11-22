@@ -6,13 +6,15 @@ Read the current internal generation skills before using these examples. No prov
 
 The expanded model catalog was read on 2026-11-23. These IDs and names are examples, not a frozen selection or price list. Call `list_ai_models` for the current requested kind before choosing. Check live modalities, settings, pricing and source limits. Use the tool's top-level generation fields and `sourceAssets` for project media; do not paste asset IDs or provider URLs into `settings`.
 
+The original skill makes its paintings with GPT Image and animates them with Seedance, so those are the defaults here. For images, first offer the creator's own Codex CLI (GPT image generation); on Subclip use GPT Image 2.5 below. For video use Seedance 2.5. Use the others only when a shot needs what they add.
+
 | Need | Catalog model | Useful source capabilities |
 | --- | --- | --- |
-| Anchor painting or pose references | `seedream-5-lite`, Seedream 5 Lite | 2K/3K size, image references, 16:9 and 9:16 |
+| Anchor painting or pose references (default) | `gpt-image-2.5-flare`, GPT Image 2.5 Flare | Reference images, transparent background setting, quality levels |
+| Living painting or endpoint animation (default) | `seedance-2.5`, Seedance 2.5 | First/last frames or reference inputs, 480p/720p; the two input modes cannot be mixed |
+| Cheaper still alternative | `seedream-5-lite`, Seedream 5 Lite | 2K/3K size, image references, 16:9 and 9:16 |
 | Multiple reference images | `nano-banana-2.1`, Nano Banana 2.1 | Up to 14 image references, 1K/2K/4K |
-| Transparent character or separated prop | `gpt-image-2.5-flare`, GPT Image 2.5 Flare | Reference images, transparent background setting, quality levels |
-| A short living painting with endpoints | `p-video-2`, P-Video 2 | First and last image, 1 to 20 s, 720p/1080p, 24/48 fps |
-| Structured production brief or endpoint animation | `seedance-2.5`, Seedance 2.5 | First/last frames or reference inputs, 480p/720p; the two input modes cannot be mixed |
+| Longer or 1080p living painting | `p-video-2`, P-Video 2 | First and last image, 1 to 20 s, 720p/1080p, 24/48 fps |
 | A single-image organic-motion alternative | `grok-imagine-video`, Grok Imagine Video | Image input, 1 to 15 s, 480p/720p; no endpoint binding in the checked catalog |
 
 These run through `generate_ai_media`, including models whose names identify outside providers. They do not mean a direct provider call. Match required first/last-frame semantics to the live tool's supported roles. Seedance's checked first/last mode requires adaptive aspect; its source schema may allow more references than Subclip's tool accepts. The checked tool caps `sourceAssets` at 15, so the tool limit wins. Do not send original reference videos as prompt context; use inspected stills and a motion brief.

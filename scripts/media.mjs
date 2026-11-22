@@ -57,5 +57,5 @@ export async function checkPreview(path) {
     }
   }
   boxes(0, b.length);
-  if (!ftyp || !video || !Number.isFinite(duration) || duration <= 0 || duration > 6 || audio) throw Error('Preview must be a silent MP4 video no longer than 6 seconds');
+  if (!ftyp || !video || !Number.isFinite(duration) || duration <= 0 || duration > 25 || audio) throw Error('Preview must be a silent MP4 video no longer than 25 seconds');
 }

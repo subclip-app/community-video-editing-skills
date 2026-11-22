@@ -20,6 +20,7 @@
         "bang-motion"
       ],
       "cover": "skills/bang-motion/cover.jpg",
+      "preview": "skills/bang-motion/preview.mp4",
       "adaptedBySubclip": true,
       "license": "MIT",
       "upstream": {

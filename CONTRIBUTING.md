@@ -73,7 +73,7 @@ An optional `file` matches an exact finding path, not a glob. Aggregate findings
 
 Provide a 16:9 cover that shows what the skill makes. Use WebP, PNG, JPG/JPEG or static self-contained SVG, strictly under 300 KB (300,000 bytes). A 1600 by 900 image works well. Use a still from a test render or an upstream demo when its license permits. If none exists, make a clear designed card naming the skill and saying "Adapted for Subclip" for an adaptation. Keep text readable at thumbnail size.
 
-An optional preview must be a silent MP4 video, strictly under 2 MB (2,000,000 bytes), no longer than 6 seconds. Make it loop cleanly. Media paths must stay inside the skill folder.
+An optional preview must be a silent MP4 video, strictly under 2 MB (2,000,000 bytes), no longer than 25 seconds. Make it loop cleanly; a short carousel of the skill's best results works well. Media paths must stay inside the skill folder.
 
 ## License and credit
 
@@ -100,7 +100,7 @@ Repeat that credit at the end of `SKILL.md`. Link to the original project, even 
 - [ ] The workflow reads media context first, serializes edits and quotes credits before paid work.
 - [ ] The creator's own Codex/Grok generators are offered first when available.
 - [ ] skill.yml is complete; slug, category, tags, license and date are correct.
-- [ ] Cover is 16:9 and under 300 KB; optional silent preview is under 2 MB and at most 6 seconds.
+- [ ] Cover is 16:9 and under 300 KB; optional silent preview is under 2 MB and at most 25 seconds.
 - [ ] Any scanner allowlist entry has a narrow, concrete reason.
 - [ ] No em dash, middle dot, secrets or hidden instructions remain.
 - [ ] A Subclip test used local speech and at most three animated scenes; describe the result and any limits. Do not claim a test you did not run.
