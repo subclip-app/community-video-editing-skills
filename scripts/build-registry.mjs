@@ -41,6 +41,33 @@ export function validateMetadata(m, slug) {
 }
 export async function readMetadata(folder) { return validateMetadata(parseYaml(await readFile(resolve(folder, 'skill.yml'), 'utf8')), basename(folder)); }
 function cell(s) { return s.replaceAll('&', '&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('|','&#124;').replaceAll('[','&#91;').replaceAll(']','&#93;'); }
+const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows' };
+function attr(s) { return s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
+/** README catalog: one section per category, a 3-column grid of cover thumbnails with name, summary and credit. */
+export function catalog(skills) {
+  const order = Object.keys(CATEGORY_LABELS);
+  const groups = [...new Set(skills.map(s => s.category))].sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99) || a.localeCompare(b));
+  const cellHtml = s => [
+    `<td width="33%" valign="top">`,
+    `<a href="${attr(s.path)}"><img src="${attr(s.cover)}" alt="${attr(s.name)}" width="100%"></a><br>`,
+    `<a href="${attr(s.path)}"><b>${attr(s.name)}</b></a><br>`,
+    `<sub>${attr(s.summary)}</sub><br>`,
+    `<sub>${s.upstream ? `Adapted from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo)}</a> by ${attr(s.upstream.author)}` : 'Written for Subclip'}</sub>`,
+    `</td>`,
+  ].join('\n');
+  const out = [`<p><b>${skills.length}</b> skill${skills.length === 1 ? '' : 's'} in ${groups.length} categor${groups.length === 1 ? 'y' : 'ies'}.</p>`];
+  for (const group of groups) {
+    const items = skills.filter(s => s.category === group);
+    out.push('', `### ${CATEGORY_LABELS[group] ?? group}`, '', '<table>');
+    for (let i = 0; i < items.length; i += 3) {
+      const row = items.slice(i, i + 3).map(cellHtml);
+      while (row.length < 3) row.push('<td width="33%"></td>');
+      out.push('<tr>', ...row, '</tr>');
+    }
+    out.push('</table>');
+  }
+  return out.join('\n');
+}
 export async function build(root = process.cwd(), check = false) {
   const skills = [];
   const entries = await readdir(resolve(root, 'skills'), { withFileTypes: true });
@@ -65,7 +92,7 @@ export async function build(root = process.cwd(), check = false) {
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills}, null, 2) + '\n';
   const readmePath = resolve(root, 'README.md'); const readme = await readFile(readmePath,'utf8');
   assert((readme.match(/<!-- skills:start -->/g) ?? []).length === 1 && (readme.match(/<!-- skills:end -->/g) ?? []).length === 1 && readme.indexOf('<!-- skills:start -->') < readme.indexOf('<!-- skills:end -->'), 'README needs one ordered pair of skills markers');
-  const table = ['| Cover | Skill | Summary | Credit |','| --- | --- | --- | --- |', ...skills.map(s => `| <img src="${s.cover}" alt="${cell(s.name).replaceAll('"','&quot;')} cover" width="240"> | [${cell(s.name)}](${s.path}) | ${cell(s.summary)} | ${s.upstream ? `Adapted from [${cell(s.upstream.repo)}](${s.upstream.url}) by ${cell(s.upstream.author)}` : 'Written for Subclip'} |`)].join('\n');
+  const table = catalog(skills);
   const nextReadme = readme.replace(/<!-- skills:start -->[\s\S]*?<!-- skills:end -->/, `<!-- skills:start -->\n\n${table}\n\n<!-- skills:end -->`);
   for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme]]) {
     const current = await readFile(file,'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });

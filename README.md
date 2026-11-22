@@ -1,24 +1,66 @@
+<div align="center">
+
 # Community video editing skills for AI agents
 
-Video editing skills for the [Subclip AI video editor](https://www.subclip.app), used by Claude Code, Codex, Cursor and the in-app agent. Each skill gives an agent a practical workflow for making videos on an editable Subclip timeline, from explainers and motion graphics to captions and sound.
+**Ready-made video editing workflows for Claude Code, Codex, Cursor and the in-app agent of the [Subclip AI video editor](https://www.subclip.app).**
 
-Browse the [community skill directory](https://www.subclip.app/agent-skills/community) on the web.
+[![Browse on subclip.app](https://img.shields.io/badge/browse-subclip.app-153592?style=flat-square)](https://www.subclip.app/agent-skills/community)
+[![Submit a skill](https://img.shields.io/badge/submit-a%20skill-26c9d5?style=flat-square)](CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-3fa34d?style=flat-square)](LICENSE)
+
+</div>
+
+Each skill teaches an agent one way of making videos on an editable Subclip timeline: explainers, motion graphics, slides, 3D, pixel art, captions, music and more. Skills adapted from other projects credit their original authors and keep their licenses.
 
 ## Install a skill
 
-Inside the Subclip app, open **Skills > Community**, choose a skill and install it. You can also copy a skill folder link from this directory and paste it in **Skills > Add skill**. Subclip scans the files, your own agent reviews them, and you confirm installation.
+- **In the Subclip app:** open **Skills > Browse Community**, choose a skill and install it.
+- **From a link:** paste a skill page link (for example `https://www.subclip.app/agent-skills/community/vox-explainer`) or a skill folder link from this repo in **Skills > Add skill**.
+
+Subclip scans the files, your own agent reviews them, and you confirm the install. No Subclip credits are used for the check.
 
 ## Skill directory
 
-This table is generated from each folder's `skill.yml`. Run `npm run build` after updating a listing.
+Generated from each folder's `skill.yml` by `npm run build`.
 
 <!-- skills:start -->
 
-| Cover | Skill | Summary | Credit |
-| --- | --- | --- | --- |
-| <img src="skills/bang-motion/cover.jpg" alt="Bang Motion cover" width="240"> | [Bang Motion](skills/bang-motion) | Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers. | Adapted from [bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion) by bangtutorial |
-| <img src="skills/huashu-art-motion/cover.svg" alt="Huashu art motion cover" width="240"> | [Huashu art motion](skills/huashu-art-motion) | Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline. | Adapted from [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) by alchaincyf |
-| <img src="skills/vox-explainer/cover.svg" alt="Vox explainer cover" width="240"> | [Vox explainer](skills/vox-explainer) | One topic in, a finished Vox-style explainer. | Adapted from [CK42BB/vox-explainer-skill](https://github.com/CK42BB/vox-explainer-skill) by Kingsley |
+<p><b>3</b> skills in 2 categories.</p>
+
+### Explainers
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="skills/vox-explainer"><img src="skills/vox-explainer/cover.svg" alt="Vox explainer" width="100%"></a><br>
+<a href="skills/vox-explainer"><b>Vox explainer</b></a><br>
+<sub>One topic in, a finished Vox-style explainer.</sub><br>
+<sub>Adapted from <a href="https://github.com/CK42BB/vox-explainer-skill">CK42BB/vox-explainer-skill</a> by Kingsley</sub>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+### Motion graphics
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="skills/bang-motion"><img src="skills/bang-motion/cover.jpg" alt="Bang Motion" width="100%"></a><br>
+<a href="skills/bang-motion"><b>Bang Motion</b></a><br>
+<sub>Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers.</sub><br>
+<sub>Adapted from <a href="https://github.com/bangtutorial/bang-motion">bangtutorial/bang-motion</a> by bangtutorial</sub>
+</td>
+<td width="33%" valign="top">
+<a href="skills/huashu-art-motion"><img src="skills/huashu-art-motion/cover.svg" alt="Huashu art motion" width="100%"></a><br>
+<a href="skills/huashu-art-motion"><b>Huashu art motion</b></a><br>
+<sub>Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.</sub><br>
+<sub>Adapted from <a href="https://github.com/alchaincyf/huashu-art-motion">alchaincyf/huashu-art-motion</a> by alchaincyf</sub>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
 
 <!-- skills:end -->
 
