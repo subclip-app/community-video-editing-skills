@@ -2,6 +2,8 @@
 
 These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.
 
+This file is generated from `install-yourself.yml` by `npm run build`.
+
 | Preview | Skill | What it does | Why it is not adapted |
 | --- | --- | --- | --- |
 | [<img src="https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar" alt="lemomo-ai/lemo-opuscar on GitHub" width="240">](https://github.com/lemomo-ai/lemo-opuscar) | **[Lemo OpusCar](https://github.com/lemomo-ai/lemo-opuscar)**<br>lemomo-ai/lemo-opuscar | A toolbox of 99 film styles made in code, each a style prompt plus a demo film. | The skill and style text use CC BY-NC 4.0. Changes are allowed only for non-commercial use. |

@@ -83,5 +83,23 @@
       },
       "addedAt": "2026-11-23"
     }
+  ],
+  "installYourself": [
+    {
+      "name": "Lemo OpusCar",
+      "repo": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "what": "A toolbox of 99 film styles made in code, each a style prompt plus a demo film.",
+      "why": "The skill and style text use CC BY-NC 4.0. Changes are allowed only for non-commercial use.",
+      "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar"
+    },
+    {
+      "name": "Opus video prompts",
+      "repo": "joeseesun/opus-video-prompts",
+      "url": "https://github.com/joeseesun/opus-video-prompts",
+      "what": "Copy-ready prompts and 54 cases of code-rendered videos.",
+      "why": "No license. The README says every prompt and video belongs to its original author, so permission to copy or change them has not been granted.",
+      "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts"
+    }
   ]
 }

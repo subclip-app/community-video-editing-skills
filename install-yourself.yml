@@ -1,0 +1,9 @@
+# Skills whose license does not let us adapt them. build-registry.mjs writes INSTALL_YOURSELF.md and registry.json from this file.
+- name: Lemo OpusCar
+  repo: lemomo-ai/lemo-opuscar
+  what: A toolbox of 99 film styles made in code, each a style prompt plus a demo film.
+  why: The skill and style text use CC BY-NC 4.0. Changes are allowed only for non-commercial use.
+- name: Opus video prompts
+  repo: joeseesun/opus-video-prompts
+  what: Copy-ready prompts and 54 cases of code-rendered videos.
+  why: No license. The README says every prompt and video belongs to its original author, so permission to copy or change them has not been granted.

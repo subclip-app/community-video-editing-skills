@@ -68,6 +68,24 @@ export function catalog(skills) {
   }
   return out.join('\n');
 }
+/** install-yourself.yml: skills listed but not adapted because of their license. Preview = GitHub's social card. */
+export async function readInstallYourself(root) {
+  const raw = await readFile(resolve(root, 'install-yourself.yml'), 'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });
+  if (raw === null) return null;
+  const list = parseYaml(raw);
+  assert(Array.isArray(list), 'install-yourself.yml must be a list');
+  return list.map((item, i) => {
+    keys(item, ['name','repo','what','why','preview'], `install-yourself.yml item ${i + 1}`);
+    text(item.name, 'install-yourself name', 80); text(item.what, 'install-yourself what', 300); text(item.why, 'install-yourself why', 400);
+    assert(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(item.repo), `Invalid install-yourself repo: ${item.repo}`);
+    for (const v of [item.name, item.what, item.why]) assert(!/[—·]/u.test(v), 'install-yourself.yml contains an em dash or middle dot');
+    return { name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}` };
+  });
+}
+export function installYourselfMarkdown(items) {
+  const rows = items.map(i => `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url}) | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)} | ${cell(i.what)} | ${cell(i.why)} |`);
+  return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
+}
 export async function build(root = process.cwd(), check = false) {
   const skills = [];
   const entries = await readdir(resolve(root, 'skills'), { withFileTypes: true });
@@ -89,12 +107,13 @@ export async function build(root = process.cwd(), check = false) {
     const upstream = m.upstream === null ? null : { repo: m.upstream.repo, url: `https://github.com/${m.upstream.repo}`, author: m.upstream.author, license: m.upstream.license };
     skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt });
   }
-  const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills}, null, 2) + '\n';
+  const installYourself = await readInstallYourself(root);
+  const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';
   const readmePath = resolve(root, 'README.md'); const readme = await readFile(readmePath,'utf8');
   assert((readme.match(/<!-- skills:start -->/g) ?? []).length === 1 && (readme.match(/<!-- skills:end -->/g) ?? []).length === 1 && readme.indexOf('<!-- skills:start -->') < readme.indexOf('<!-- skills:end -->'), 'README needs one ordered pair of skills markers');
   const table = catalog(skills);
   const nextReadme = readme.replace(/<!-- skills:start -->[\s\S]*?<!-- skills:end -->/, `<!-- skills:start -->\n\n${table}\n\n<!-- skills:end -->`);
-  for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme]]) {
+  for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme], ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
     const current = await readFile(file,'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });
     if (current !== next) { assert(!check, `${basename(file)} is stale. Run npm run build.`); await writeFile(file,next); }
   }
