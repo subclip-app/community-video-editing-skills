@@ -1,5 +1,6 @@
 slug: cartoon-episodes
 name: Cartoon episodes
+seoTitle: "Cartoon Episodes: Make Animated Series Episodes With AI Video"
 summary: Define a show once, then turn one-sentence scenes into consistent AI cartoon clips and cut them into an episode.
 category: animation
 tags: [cartoon, series, character-sheets, episodes]
@@ -15,10 +16,10 @@ allowlist:
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
   - file: examples/juniper-cast-sheet.jpg
-    caption: Juniper the watering can robot from three angles, with three expressions.
+    caption: "Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2."
   - file: examples/greenhouse-set.jpg
-    caption: Empty greenhouse establishing view in the same flat ink and pastel style.
+    caption: "Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2."
   - file: examples/juniper-and-the-greenhouse.mp4
-    caption: Juniper’s character sheet dissolves into the pastel greenhouse set.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
 examplesKind: test

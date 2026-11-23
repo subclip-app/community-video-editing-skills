@@ -1,5 +1,6 @@
 slug: 3d-myth-short
 name: 3D myth short
+seoTitle: "3D Myth Short Video Workflow for AI Agents"
 summary: One idea in, a narrated 30 second 3D animated short: the myth, the twist and the real mechanism, built on the timeline.
 category: 3d
 tags: [3d-animation, short-form, narrated, storytelling]
@@ -15,10 +16,10 @@ allowlist:
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
   - file: examples/seasons-style-key.jpg
-    caption: Style key for a seasons explainer, with a wooden globe and warm studio light.
+    caption: "Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2."
   - file: examples/tilted-globe-sheet.jpg
-    caption: Tilted globe reference sheet with the same painted finish and a brass cradle.
+    caption: "Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2."
   - file: examples/seasons-globe.mp4
-    caption: A slow push from the warm studio globe to its tilted reference sheet.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "A slow push from the warm studio globe to its tilted reference sheet. Clip: ffmpeg push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
 examplesKind: test

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+  <title id="t">44 cinematic camera angles prompt guide, adapted for Subclip</title>
+  <desc id="d">Forty-four camera angles for AI video.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="24" height="900" fill="url(#g)"/>
+  <circle cx="1480" cy="90" r="260" fill="#26c9d5" opacity=".08"/>
+  <text x="90" y="110" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#26c9d5">COMMUNITY SKILLS</text>
+  <text x="84" y="320" font-family="Arial, Helvetica, sans-serif" font-size="190" font-weight="900" letter-spacing="-6" fill="#153592">44</text>
+  <text x="84" y="440" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="900" letter-spacing="-3" fill="#26c9d5">CAMERA ANGLES</text>
+  <text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#3a4466">Prompts, native fakes and cuts for AI video.</text>
+  <rect x="90" y="580" width="420" height="68" rx="34" fill="url(#g)"/>
+  <text x="300" y="625" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Adapted for Subclip</text>
+  <text x="90" y="780" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#5a6385">Angle list from Digital Windows AI</text>
+  <text x="90" y="830" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#153592">subclip.app</text>
+  <rect x="900" y="190" width="640" height="360" rx="18" fill="#153592"/>
+  <rect x="940" y="230" width="560" height="280" rx="10" fill="#e6ecfb"/>
+  <polygon points="1120,480 1220,300 1320,480" fill="#26c9d5"/>
+  <circle cx="1220" cy="268" r="26" fill="#153592"/>
+  <circle cx="1120" cy="680" r="70" fill="#fff" stroke="#153592" stroke-width="10"/><circle cx="1120" cy="680" r="30" fill="#26c9d5"/>
+  <rect x="1240" y="640" width="300" height="80" rx="12" fill="#153592"/><polygon points="1540,640 1600,610 1600,750 1540,720" fill="#26c9d5"/>
+</svg>

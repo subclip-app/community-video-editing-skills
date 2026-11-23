@@ -1,5 +1,6 @@
 slug: ai-edit-battle
 name: AI edit battle
+seoTitle: "AI Edit Battle: Compare Two AI Video Models on One Edit (sferro21)"
 summary: Two AI models or agents edit the same clip from the same brief in cloned projects. Compare, score and pick a winner.
 category: workflow
 tags: [edit-battle, model-comparison, talking-head, motion-design, side-by-side]
@@ -17,5 +18,5 @@ examples:
     caption: "Illustrative blind scorecard with pass checks, seven scored categories, and evidence."
   - file: examples/blind-scorecard-reveal.mp4
     caption: Seven scoring rows appear before the sample totals for the two blind edits.
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

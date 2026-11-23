@@ -1,5 +1,6 @@
 slug: higgsfield-to-subclip
 name: Relight and background swap
+seoTitle: "Relight and Background Swap for Video (Higgsfield Workflow in Subclip)"
 summary: Change the background or lighting of real footage and keep face, lips and timing. Five relight looks, edit by prompt and a stacked reel, all in Subclip.
 category: workflow
 tags: [relight, background-swap, video-to-video, talking-head, lighting]
@@ -15,12 +16,12 @@ allowlist:
     reason: "Model and service names describe Subclip's live catalog and the guide's origin; the workflow uses Subclip tools only, no outside provider calls."
 examples:
   - file: examples/ceramicist-source.jpg
-    caption: "Neutral source still with soft daylight from the studio window."
+    caption: "Neutral source still with soft daylight from the studio window. Image: gpt-image-2."
   - file: examples/amber.jpg
-    caption: "Amber sunset through the same window creates a warm rim against teal shadows."
+    caption: "Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2."
   - file: examples/rain.jpg
-    caption: "Cold blue storm light with rain confined to the window glass."
+    caption: "Cold blue storm light with rain confined to the window glass. Image: gpt-image-2."
   - file: examples/ceramicist-lighting-study.mp4
-    caption: Daylight gives way to amber sunset, then cold storm light in the same ceramic studio.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
 examplesKind: test

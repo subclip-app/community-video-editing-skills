@@ -12,6 +12,22 @@ Tell your agent: "Use documentary-case-file: <one sentence about the story>". Ap
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/empty-gauge-case-file.jpg" alt="Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model." width="720"><br><sub>Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model.</sub></p>
+
+<p align="center"><img src="examples/greenhouse-location.jpg" alt="LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2." width="720"><br><sub>LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/float-gauge-prop.jpg" alt="PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2." width="720"><br><sub>PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2.</sub></p>
+
+<p align="center"><video src="examples/empty-gauge-chapter-plan.mp4" controls muted loop playsinline width="720"></video><br><sub>Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent.</sub></p>
+
+<!-- examples:end -->
+
 ## Source and license
 
 The skill's own page on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179

@@ -1,5 +1,6 @@
 slug: code-motion-styles
 name: Motion style prompts
+seoTitle: "16 Code-Built Motion Style Prompts for Video (Applied AI Styles)"
 summary: Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.
 category: motion
 tags: [motion-graphics, code-animation, styles, hyperframes, canvas, diagrams]
@@ -45,7 +46,7 @@ examples:
     caption: "15 Matrix ring style line"
   - file: examples/16-minimal-mono-ring.mp4
     caption: "16 Minimal mono ring style line"
-examplesCredit: "Clips and posters made by Subclip from our own prompts; style ideas from Applied AI (its-applied-ai.com/r/styles)"
+examplesCredit: "Clips and posters rendered in code by Subclip from our own prompts (HyperFrames, Three.js for the 3D styles), no image, video or audio model; style ideas from Applied AI (its-applied-ai.com/r/styles)"
 examplesKind: original
 allowlist:
   - code: external-provider

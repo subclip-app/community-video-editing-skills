@@ -1,0 +1,36 @@
+slug: remotion-motion-layers
+name: Remotion motion layers
+seoTitle: "Remotion Motion Graphics in Subclip: Editable React Video Layers (Remotion)"
+preinstalled: true
+summary: Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.
+category: motion
+tags: [remotion, react, motion-graphics, typed-props, maps, three-js, preinstalled]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: false
+license: MIT
+upstream: null
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-remotion-motion-layers.mp4
+    caption: "Capability reference: maps, charts, titles and device scenes as Remotion layers"
+  - file: examples/remotion-map-explainer.mp4
+    caption: "Remotion template: Cesium globe route between two cities"
+  - file: examples/remotion-river-sequence.mp4
+    caption: "Remotion template: flat vector map with an ordered route line"
+  - file: examples/remotion-animated-pie-chart.mp4
+    caption: "Remotion template: animated pie chart with a legend, driven by props"
+  - file: examples/remotion-glitch-text.mp4
+    caption: "Remotion template: glitch text title"
+  - file: examples/remotion-golden-bounce-3d.mp4
+    caption: "Remotion template: 3D golden spheres bouncing, rendered with Three.js"
+  - file: examples/remotion-phone-frame.mp4
+    caption: "Remotion template: phone frame holding a clip on screen"
+  - file: examples/remotion-terminal-simulator.mp4
+    caption: "Remotion template: terminal simulator with a typed command"
+examplesCredit: "Subclip motion graphics template previews, each listed as a Remotion template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy."
+examplesKind: original
+allowlist:
+  - code: external-provider
+    reason: Remotion is named only as the open-source engine behind these layers, and HeyGen only as the maker of the other built-in engine. Nothing calls those services.

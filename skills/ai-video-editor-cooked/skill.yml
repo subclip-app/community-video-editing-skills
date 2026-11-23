@@ -1,5 +1,6 @@
 slug: ai-video-editor-cooked
 name: Cooked edit method
+seoTitle: "Cooked Edit Method: AI Video Editor Workflow (ai-video-editor-cooked)"
 summary: "A talking-head edit method: retake-aware cuts, a measured reference style, real visuals timed to the words, and a ban list of AI-made looks."
 category: workflow
 tags: [talking-head, jump-cut, style-matching, captions]
@@ -17,5 +18,5 @@ examples:
     caption: "A numeric style brief and a visual cue tied to the exact word that triggers it."
   - file: examples/retake-log-to-style-brief.mp4
     caption: "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

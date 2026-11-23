@@ -13,3 +13,21 @@ Use this skill for storyboards, coverage, styling and motion direction. Use [Vox
 - [Presenter, photo and layered motion recipes](references/production.md)
 
 The original MIT notice is in [LICENSE](LICENSE). The cover is original artwork.
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/early-football.mp4" controls muted loop playsinline width="720"></video><br><sub>An excerpt on early football told with animated paper cutouts</sub></p>
+
+<p align="center"><video src="examples/early-money.mp4" controls muted loop playsinline width="720"></video><br><sub>A vertical collage excerpt about barter and early coins</sub></p>
+
+<p align="center"><video src="examples/silk-road.mp4" controls muted loop playsinline width="720"></video><br><sub>An illustrated Tang dynasty excerpt with a Silk Road caravan</sub></p>
+
+<p align="center"><img src="examples/football-collage.jpg" alt="A football and a bold date layered over old paper" width="720"><br><sub>A football and a bold date layered over old paper</sub></p>
+
+<p align="center"><img src="examples/street-food-collage.jpg" alt="A Mexican street food collage with hand-cut illustrations" width="720"><br><sub>A Mexican street food collage with hand-cut illustrations</sub></p>
+
+<p align="center"><sub>Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director</sub></p>
+
+<!-- examples:end -->

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1a4a"/><stop offset="1" stop-color="#153592"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="80" y="330" font-size="120" font-weight="800" fill="#fff">39 animation</text>
+    <text x="80" y="450" font-size="120" font-weight="800" fill="#26c9d5">styles in code</text>
+    <text x="80" y="540" font-size="40" fill="#cfd8ff">One story, redrawn in any look. No AI credits.</text>
+    <text x="80" y="800" font-size="30" fill="#8fa3e8">Adapted for Subclip</text>
+  </g>
+  <g transform="translate(900 110)">
+    <rect x="0" y="0" width="200" height="250" rx="14" fill="#f7f7f2" stroke="#26c9d5" stroke-width="3"/>
+    <path d="M30 190 L60 90 L100 150 L130 70 L170 190" fill="none" stroke="#1a1a1a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="230" y="0" width="200" height="250" rx="14" fill="#1b4f9c" stroke="#26c9d5" stroke-width="3"/>
+    <circle cx="330" cy="125" r="60" fill="none" stroke="#e8f1ff" stroke-width="3"/><path d="M270 125 H390 M330 65 V185" stroke="#e8f1ff" stroke-width="2"/>
+    <rect x="460" y="0" width="200" height="250" rx="14" fill="#c8202a" stroke="#26c9d5" stroke-width="3"/>
+    <path d="M520 190 C520 120 600 120 600 190 M560 190 V90 M530 100 L560 70 L590 100" fill="none" stroke="#f6e7d0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="0" y="280" width="200" height="250" rx="14" fill="#2f1f4a" stroke="#26c9d5" stroke-width="3"/>
+    <g fill="#ffd84a"><rect x="60" y="400" width="30" height="30"/><rect x="90" y="370" width="30" height="30"/><rect x="120" y="400" width="30" height="30"/></g><g fill="#6fd0ff"><rect x="60" y="430" width="90" height="30"/></g>
+    <rect x="230" y="280" width="200" height="250" rx="14" fill="#05121c" stroke="#26c9d5" stroke-width="3"/>
+    <path d="M270 470 L330 330 L390 470 Z" fill="none" stroke="#26c9d5" stroke-width="3"/><path d="M270 470 H390 M300 410 H360" stroke="#26c9d5" stroke-width="2"/>
+    <rect x="460" y="280" width="200" height="250" rx="14" fill="#0e3b43" stroke="#26c9d5" stroke-width="3"/>
+    <path d="M520 480 L560 340 L600 480 M530 440 H590 M540 400 H580" fill="none" stroke="#d4a64a" stroke-width="5"/>
+    <rect x="0" y="560" width="660" height="150" rx="14" fill="#0b1a4a" stroke="#26c9d5" stroke-width="3"/>
+    <text x="30" y="650" font-family="system-ui, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#fff">Whiteboard, blueprint, papercut,</text>
+    <text x="30" y="695" font-family="system-ui, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#26c9d5">pixel art, hologram, art deco</text>
+  </g>
+</svg>

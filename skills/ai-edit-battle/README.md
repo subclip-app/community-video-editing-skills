@@ -23,6 +23,20 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 - Every model name the guide used is kept when Subclip's live catalog offers it. Where it does not, the closest model is named with the swap.
 - Credits are quoted before anything is generated, and edits run one at a time on the native timeline.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/shared-edit-brief.jpg" alt="Sample frozen brief with a shared source, voice cues, and delivery constraints." width="720"><br><sub>Sample frozen brief with a shared source, voice cues, and delivery constraints.</sub></p>
+
+<p align="center"><img src="examples/blind-scorecard.jpg" alt="Illustrative blind scorecard with pass checks, seven scored categories, and evidence." width="720"><br><sub>Illustrative blind scorecard with pass checks, seven scored categories, and evidence.</sub></p>
+
+<p align="center"><video src="examples/blind-scorecard-reveal.mp4" controls muted loop playsinline width="720"></video><br><sub>Seven scoring rows appear before the sample totals for the two blind edits.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+
+<!-- examples:end -->
+
 ## Credit and license
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words. The creator's guides state no license, so please confirm permission with the creator before relying on this skill.

@@ -1,5 +1,6 @@
 slug: character-animation-qa
 name: Character animation QA
+seoTitle: "Character Animation QA Checklist for AI Video"
 summary: Review a character animation with sampled frames, motion checks and a pass, revise or fail verdict.
 category: animation
 tags: [qa, character, review]
@@ -17,5 +18,5 @@ examples:
     caption: "The same five sample times after the shoulder translation was removed."
   - file: examples/robot-wave-shoulder-review.mp4
     caption: "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

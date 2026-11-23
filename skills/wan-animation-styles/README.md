@@ -22,6 +22,24 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 - Every model name the guide used is kept when Subclip's live catalog offers it. Where it does not, the closest model is named with the swap.
 - Credits are quoted before anything is generated, and edits run one at a time on the native timeline.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/german-expressionism.jpg" alt="German Expressionism" width="720"><br><sub>German Expressionism</sub></p>
+
+<p align="center"><img src="examples/rubber-hose.jpg" alt="Rubber Hose" width="720"><br><sub>Rubber Hose</sub></p>
+
+<p align="center"><img src="examples/gothic-toon.jpg" alt="Gothic Toon" width="720"><br><sub>Gothic Toon</sub></p>
+
+<p align="center"><img src="examples/surreal-spooky.jpg" alt="Surreal Spooky" width="720"><br><sub>Surreal Spooky</sub></p>
+
+<p align="center"><img src="examples/low-poly-ps1.jpg" alt="Low Poly PS1" width="720"><br><sub>Low Poly PS1</sub></p>
+
+<p align="center"><sub>Example images from the guides by sferro21 (instagram.com/sferro21)</sub></p>
+
+<!-- examples:end -->
+
 ## Credit and license
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words. The creator's guides state no license, so please confirm permission with the creator before relying on this skill.

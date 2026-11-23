@@ -23,3 +23,17 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 ## What changed from the original
 
 The original is a Node library with render tools, a gallery, sprite sheet export and game engine integration. Those were dropped. The effect catalog is kept as text, the method and quality bar are kept, and the engine is a short original rewrite of the same design so it runs inside a Subclip layer. The demo GIFs and the Patch Pixel font were not included. The example code was checked headlessly for loop seams and seek stability, and was not judged visually.
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/pixel-effects.mp4" controls muted loop playsinline width="720"></video><br><sub>Looping pixel effects include fire, waterfalls and portals</sub></p>
+
+<p align="center"><video src="examples/character-effects.mp4" controls muted loop playsinline width="720"></video><br><sub>A pixel dummy winds up and strikes as sparks and impacts play</sub></p>
+
+<p align="center"><img src="examples/elemental-effects.jpg" alt="A close look at five effects from the original gallery grid" width="720"><br><sub>A close look at five effects from the original gallery grid</sub></p>
+
+<p align="center"><sub>Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx</sub></p>
+
+<!-- examples:end -->

@@ -1,0 +1,32 @@
+slug: ugc-ad-engine
+name: UGC ad engine
+seoTitle: "UGC Ad Engine: AI UGC Ads From a Product and an Avatar"
+summary: Product and avatar in, finished vertical UGC ad out: angles, one gate, script, prompt sheet, avatar clips, captions and CTA on the timeline.
+category: promos
+tags: [ugc, ads, avatar, script, direct-response]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0", author: Website Learners, license: Not stated, note: "Login-walled community post and a YouTube tutorial. Creator permission has not been confirmed. All wording is our own; only the ideas and the structure are kept." }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-ugc-ad.mp4
+    caption: "Capability reference: a 16 s UGC ad for a fictional mug, three avatar clips, captions, hook, AI label, call to action"
+  - file: examples/angles.jpg
+    caption: "Phase 1 output: the angle table the creator picks from (the single gate)"
+  - file: examples/prompt-sheet.jpg
+    caption: "Phase 3 output: one finished block for one clip"
+  - file: examples/fictional-avatar.jpg
+    caption: "Fictional avatar image made with the 6C method for the example run. Image: gpt-image-2."
+  - file: examples/reference-avatar.jpg
+    caption: "Reference avatar image the run starts from"
+  - file: examples/reference-generated.jpg
+    caption: "Image generated from that reference"
+examplesCredit: "Example ad made for this repository with a fictional product and avatar. Avatar image: gpt-image-2 (Codex CLI image generation). Avatar clips: p-video-avatar. Voice: elevenlabs-flash-v2.5. Reference images supplied by the Subclip owner (generation model not recorded)."
+examplesKind: test
+sourceVideo: { youtube: UplOo693FMg, title: "How To Create Ultra Real AI Avatar", channel: "Website Learners", license: "Standard YouTube License" }
+allowlist:
+  - code: external-provider
+    reason: Model family names (Kling, Veo) describe entries to look for in Subclip's live list_ai_models catalog, not direct provider API calls.

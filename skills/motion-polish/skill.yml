@@ -1,5 +1,6 @@
 slug: motion-polish
 name: Motion polish
+seoTitle: "Motion Polish: Animation Craft Rules for Editable Video (emilkowalski/skills)"
 summary: Eight skills to animate, review, simplify and name motion on video layers, text and transitions with a high craft bar.
 category: animation
 tags: [animation, easing, springs, motion-design, review, keyframes]
@@ -19,5 +20,5 @@ examples:
     caption: "Settled illustrated check marker in the tide pool guide."
   - file: examples/spring-marker.mp4
     caption: "A check marker lands with a small overshoot before it settles."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

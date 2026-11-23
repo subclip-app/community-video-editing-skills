@@ -15,10 +15,10 @@ function object(value, label) { assert(value && typeof value === 'object' && !Ar
 function keys(value, allowed, label) { object(value, label); for (const key of Object.keys(value)) assert(allowed.includes(key), `Unknown ${label} field: ${key}`); }
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
-  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','updatedAt','allowlist','examples','examplesCredit','examplesKind','sourceVideo'], 'skill.yml');
+  keys(m, ['slug','name','seoTitle','preinstalled','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','updatedAt','allowlist','examples','examplesCredit','examplesKind','sourceVideo'], 'skill.yml');
   const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
-  text(m.name, 'name', 100); text(m.summary, 'summary', 160);
+  text(m.name, 'name', 100); text(m.summary, 'summary', 160); assert(m.preinstalled === undefined || typeof m.preinstalled === 'boolean', 'preinstalled must be true or false'); assert(m.seoTitle === undefined || (typeof m.seoTitle === 'string' && m.seoTitle.length >= 20 && m.seoTitle.length <= 120 && !/[\u2014\u00b7\u2026]/u.test(m.seoTitle)), 'Invalid seoTitle (20 to 120 characters, no em dash, middle dot or ellipsis)');
   assert(categories.includes(m.category), 'Unknown category');
   assert(Array.isArray(m.tags) && m.tags.every(t => typeof t === 'string' && slugPattern.test(t)) && new Set(m.tags).size === m.tags.length, 'tags must be unique kebab-case strings');
   assert(typeof m.adaptedBySubclip === 'boolean', 'adaptedBySubclip must be boolean');
@@ -74,25 +74,57 @@ export async function readMetadata(folder) { return validateMetadata(parseYaml(a
 function cell(s) { return s.replaceAll('&', '&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('|','&#124;').replaceAll('[','&#91;').replaceAll(']','&#93;'); }
 const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows', broll: 'B-roll', clipping: 'Clipping' };
 function attr(s) { return s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
-/** README catalog: one section per category, a 3-column grid of cover thumbnails with name, summary and credit. */
+/** The "Examples" section of a skill README, generated from skill.yml so GitHub shows the same references and examples as subclip.app. */
+export function examplesBlock(m) {
+  const items = m.examples ?? [];
+  if (!items.length) return null;
+  const out = ['<!-- examples:start -->', '', '## Examples', ''];
+  if (m.sourceVideo) out.push(`<p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=${attr(m.sourceVideo.youtube)}">${attr(m.sourceVideo.title)}</a>, ${attr(m.sourceVideo.channel)}, ${attr(m.sourceVideo.license)}</sub></p>`, '');
+  for (const item of items) {
+    const src = item.file.split('/').map(encodeURIComponent).join('/');
+    const caption = item.caption ? `<br><sub>${attr(item.caption)}</sub>` : '';
+    out.push(/\.mp4$/i.test(item.file)
+      ? `<p align="center"><video src="${src}" controls muted loop playsinline width="720"></video>${caption}</p>`
+      : `<p align="center"><img src="${src}" alt="${attr(item.caption ?? m.name)}" width="720">${caption}</p>`, '');
+  }
+  if (m.examplesCredit) out.push(`<p align="center"><sub>${attr(m.examplesCredit)}</sub></p>`, '');
+  out.push('<!-- examples:end -->');
+  return out.join('\n');
+}
+function withExamples(readme, block) {
+  if (block === null) return readme;
+  if (/<!-- examples:start -->[\s\S]*?<!-- examples:end -->/.test(readme)) return readme.replace(/<!-- examples:start -->[\s\S]*?<!-- examples:end -->/, () => block);
+  const at = readme.search(/^##\s+(?:credits?|sources?|source and licen[sc]e|license|acknowledg)/im);
+  return at === -1 ? `${readme.replace(/\s*$/, '')}\n\n${block}\n` : `${readme.slice(0, at)}${block}\n\n${readme.slice(at)}`;
+}
+/** Looping preview GIFs for the README (GitHub cannot play repo MP4s inline). Made from each skill's preview.mp4 and hosted on the public CDN (see subclip-web scripts/publish-community-readme-previews.mjs). */
+export const README_PREVIEW_BASE = 'https://subclipweb.subclip.app/agent-skills/community-readme';
+const SITE_SKILL = 'https://www.subclip.app/agent-skills/community';
+/** README catalog: a jump bar, then one section per category with a 2-column grid of looping previews, name, summary, credit and links. */
 export function catalog(skills) {
   const order = Object.keys(CATEGORY_LABELS);
   const groups = [...new Set(skills.map(s => s.category))].sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99) || a.localeCompare(b));
+  const anchor = g => (CATEGORY_LABELS[g] ?? g).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const cellHtml = s => [
-    `<td width="33%" valign="top">`,
-    `<a href="${attr(s.path)}"><img src="${attr(s.cover)}" alt="${attr(s.name)}" width="100%"></a><br>`,
-    `<a href="${attr(s.path)}"><b>${attr(s.name)}</b></a><br>`,
+    `<td width="50%" valign="top">`,
+    `<a href="${attr(s.path)}"><img src="${s.preview ? `${README_PREVIEW_BASE}/${attr(s.slug)}.gif` : attr(s.cover)}" alt="${attr(s.name)} preview" width="100%"></a><br>`,
+    `<h4><a href="${attr(s.path)}">${attr(s.name)}</a></h4>`,
     `<sub>${attr(s.summary)}</sub><br>`,
-    `<sub>${s.upstream ? `Adapted from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo ?? s.upstream.url.replace(/^https:\/\//, ''))}</a> by ${attr(s.upstream.author)}` : 'Written for Subclip'}</sub>`,
+    `<sub><b>${s.preinstalled ? 'Pre-installed in Subclip' : s.upstream ? 'Adapted' : 'Original'}</b> &nbsp;|&nbsp; ${attr(s.license)} &nbsp;|&nbsp; ${s.upstream ? `from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo ?? s.upstream.url.replace(/^https:\/\//, ''))}</a> by ${attr(s.upstream.author)}` : 'written for Subclip'}</sub><br>`,
+    `<sub>Updated ${attr(s.updatedAt ?? s.addedAt)} &nbsp;|&nbsp; <a href="${attr(s.path)}">Folder</a> &nbsp;|&nbsp; <a href="${SITE_SKILL}/${attr(s.slug)}">Open on subclip.app</a></sub>`,
     `</td>`,
   ].join('\n');
-  const out = [`<p><b>${skills.length}</b> skill${skills.length === 1 ? '' : 's'} in ${groups.length} categor${groups.length === 1 ? 'y' : 'ies'}.</p>`];
+  const out = [
+    `<p align="center"><b>${skills.length}</b> skill${skills.length === 1 ? '' : 's'} in ${groups.length} categor${groups.length === 1 ? 'y' : 'ies'}. Newest first inside each category.</p>`,
+    '',
+    `<p align="center">${groups.map(g => `<a href="#${anchor(g)}">${CATEGORY_LABELS[g] ?? g}</a> <sub>(${skills.filter(s => s.category === g).length})</sub>`).join(' &nbsp;|&nbsp; ')}</p>`,
+  ];
   for (const group of groups) {
-    const items = skills.filter(s => s.category === group);
+    const items = skills.filter(s => s.category === group).sort((a, b) => (b.addedAt).localeCompare(a.addedAt) || a.name.localeCompare(b.name));
     out.push('', `### ${CATEGORY_LABELS[group] ?? group}`, '', '<table>');
-    for (let i = 0; i < items.length; i += 3) {
-      const row = items.slice(i, i + 3).map(cellHtml);
-      while (row.length < 3) row.push('<td width="33%"></td>');
+    for (let i = 0; i < items.length; i += 2) {
+      const row = items.slice(i, i + 2).map(cellHtml);
+      while (row.length < 2) row.push('<td width="50%"></td>');
       out.push('<tr>', ...row, '</tr>');
     }
     out.push('</table>');
@@ -145,7 +177,7 @@ export function installYourselfMarkdown(items) {
   return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
 }
 export async function build(root = process.cwd(), check = false) {
-  const skills = [];
+  const skills = []; const readmeWrites = [];
   const entries = await readdir(resolve(root, 'skills'), { withFileTypes: true });
   for (const entry of entries.sort((a,b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) {
     assert(entry.isDirectory() && !entry.isSymbolicLink(), `Expected skill folder: ${entry.name}`);
@@ -161,6 +193,7 @@ export async function build(root = process.cwd(), check = false) {
       assert(size > 0 && size <= (video ? 8_000_000 : 600_000), `Example too large (images 600 KB, videos 8 MB): ${item.file}`);
       examples.push({ path: `skills/${m.slug}/${item.file}`, kind: video ? 'video' : 'image', ...(item.caption ? { caption: item.caption } : {}) });
     }
+    { const file = resolve(folder, 'README.md'); const current = await readFile(file, 'utf8'); readmeWrites.push([file, withExamples(current, examplesBlock(m))]); }
     const names = [];
     for (const file of files.filter(f => basename(f) === 'SKILL.md')) {
       const front = readSkillFrontmatter(await readFile(file, 'utf8'));
@@ -169,7 +202,7 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
-    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, updatedAt:m.updatedAt ?? m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
+    skills.push({ slug:m.slug, name:m.name, ...(m.seoTitle ? { seoTitle: m.seoTitle } : {}), ...(m.preinstalled ? { preinstalled: true } : {}), summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, updatedAt:m.updatedAt ?? m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';
@@ -177,7 +210,7 @@ export async function build(root = process.cwd(), check = false) {
   assert((readme.match(/<!-- skills:start -->/g) ?? []).length === 1 && (readme.match(/<!-- skills:end -->/g) ?? []).length === 1 && readme.indexOf('<!-- skills:start -->') < readme.indexOf('<!-- skills:end -->'), 'README needs one ordered pair of skills markers');
   const table = catalog(skills);
   const nextReadme = readme.replace(/<!-- skills:start -->[\s\S]*?<!-- skills:end -->/, `<!-- skills:start -->\n\n${table}\n\n<!-- skills:end -->`);
-  for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme], ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
+  for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme], ...readmeWrites, ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
     const current = await readFile(file,'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });
     if (current !== next) { assert(!check, `${basename(file)} is stale. Run npm run build.`); await writeFile(file,next); }
   }

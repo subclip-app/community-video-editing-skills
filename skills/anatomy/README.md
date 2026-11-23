@@ -23,6 +23,24 @@ Tell your agent: "Use anatomy to make a 30 second explainer clip of how a token 
 - WebGL shaders (fire, water, caustics, lamp light) and the 3D turning mode: they need a live WebGL canvas and per-frame JavaScript that the layer runtime cannot guarantee for seek-by-time rendering. Use plain SVG shapes, gradients and eased motion instead. A deterministic Three.js layer is possible in Subclip but is a different skill.
 - React and Next.js figures, pointer and keyboard interaction, reduced-motion code: the output is video, not a page.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/raptor-engine-firing.webp" alt="Isometric rocket engine test stand during a firing." width="720"><br><sub>Isometric rocket engine test stand during a firing.</sub></p>
+
+<p align="center"><img src="examples/raptor-engine-apart.webp" alt="Exploded view of the engine, piping and test stand." width="720"><br><sub>Exploded view of the engine, piping and test stand.</sub></p>
+
+<p align="center"><img src="examples/ripple-tank.webp" alt="A ripple tank shows where two sets of waves meet." width="720"><br><sub>A ripple tank shows where two sets of waves meet.</sub></p>
+
+<p align="center"><img src="examples/turning-dial.webp" alt="A mechanical hand turns a combination dial." width="720"><br><sub>A mechanical hand turns a combination dial.</sub></p>
+
+<p align="center"><img src="examples/dial-indicator.webp" alt="A dial indicator measures a block on a sliding carriage." width="720"><br><sub>A dial indicator measures a block on a sliding carriage.</sub></p>
+
+<p align="center"><sub>Examples by Ryan, MIT, from github.com/wheresryan22/anatomy</sub></p>
+
+<!-- examples:end -->
+
 ## Source and license
 
 Original project: https://github.com/wheresryan22/anatomy. MIT license, kept unchanged in LICENSE. Synced at commit 1482e8469b0a9e0d8cc18ea2740a01423d29ae80 on 2026-11-23.

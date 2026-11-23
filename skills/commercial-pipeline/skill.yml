@@ -1,5 +1,6 @@
 slug: commercial-pipeline
 name: Commercial pipeline
+seoTitle: "AI Commercial Pipeline: Product Ad Video Workflow"
 summary: Plan 5 to 8 locked reference images, then assemble a 30 second multi-cut AI commercial and fix only what broke.
 category: promos
 tags: [commercial, product-film, reference-images, multi-cut]
@@ -15,10 +16,10 @@ allowlist:
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
   - file: examples/desk-lamp-off.jpg
-    caption: Hero product reference for a mustard desk lamp in its off state on white.
+    caption: "Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2."
   - file: examples/desk-lamp-on.jpg
-    caption: After-state reference for the same lamp, switched on in matching framing.
+    caption: "After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2."
   - file: examples/desk-lamp-switch-on.mp4
-    caption: The mustard desk lamp fades from off to on in matching framing.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
 examplesKind: test

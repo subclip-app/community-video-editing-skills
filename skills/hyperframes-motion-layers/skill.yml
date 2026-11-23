@@ -1,0 +1,38 @@
+slug: hyperframes-motion-layers
+name: HyperFrames motion layers
+seoTitle: "HyperFrames Motion Graphics in Subclip: Editable HTML and GSAP Video Layers (HeyGen HyperFrames)"
+preinstalled: true
+summary: Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.
+category: motion
+tags: [hyperframes, motion-graphics, gsap, lottie, captions, maps, charts, preinstalled]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: false
+license: MIT
+upstream: null
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-hyperframes-motion-layers.mp4
+    caption: "Capability reference: charts, maps, captions and device scenes as HyperFrames layers"
+  - file: examples/hyperframes-line-graph-highlight-point.mp4
+    caption: "HyperFrames layer: line graph that draws in and highlights one point"
+  - file: examples/hyperframes-bar-chart-race.mp4
+    caption: "HyperFrames layer: bar chart race with a ticking year label"
+  - file: examples/hyperframes-us-flow-map.mp4
+    caption: "HyperFrames layer: flow map with animated connections between cities"
+  - file: examples/hyperframes-caption-camera-follow.mp4
+    caption: "HyperFrames layer: kinetic caption words with a camera that follows them"
+  - file: examples/hyperframes-subclip-hinged-laptop-showcase.mp4
+    caption: "HyperFrames layer: hinged laptop device scene for a product reveal"
+  - file: examples/hyperframes-terminal-code-reveal.mp4
+    caption: "HyperFrames layer: terminal line that types out your title"
+  - file: examples/hyperframes-saas-launch-logo-reveal.mp4
+    caption: "HyperFrames layer: title reveal with a glowing purple floor"
+  - file: examples/hyperframes-hand-drawn-circle-highlight.mp4
+    caption: "HyperFrames layer: hand-drawn arc and highlighted label (template text)"
+examplesCredit: "Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy."
+examplesKind: original
+allowlist:
+  - code: external-provider
+    reason: HeyGen is named only as the maker of the open-source HyperFrames engine, and Remotion only as the other built-in engine. Nothing calls those services.

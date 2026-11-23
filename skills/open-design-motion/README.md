@@ -12,3 +12,17 @@ These six skills replace Open Design artifact pages, provider dispatch and rende
 - [mockup-device-3d](mockup-device-3d/SKILL.md) Build a native 3D phone and optional laptop product showcase with real screen media and an optional turntable.
 
 The cover is an original illustration of the Motion Frames recipe. Open Design provides the creative reference.
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/studio-motion-demo.mp4" controls muted loop playsinline width="720"></video><br><sub>Open Design Studio preview of an animated product headline and scrolling text.</sub></p>
+
+<p align="center"><img src="examples/studio-title-frame.jpg" alt="Studio still with a lime highlight and a line of scrolling deliverables." width="720"><br><sub>Studio still with a lime highlight and a line of scrolling deliverables.</sub></p>
+
+<p align="center"><img src="examples/motion-template-explainer.jpg" alt="A typographic explainer about what goes into a design template." width="720"><br><sub>A typographic explainer about what goes into a design template.</sub></p>
+
+<p align="center"><sub>Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design</sub></p>
+
+<!-- examples:end -->

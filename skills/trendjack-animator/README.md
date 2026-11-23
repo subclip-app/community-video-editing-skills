@@ -38,6 +38,50 @@ The agent asks for the product photo, real size and offer, pitches three scripts
 
 A 9-shot 15 second ad is roughly 3 plates, 9 stills and 7 clips plus one song or voice take. Quote your own with the live catalog before spending. Pairs of shots, still-only inserts, free local speech and your own Codex CLI for images bring it down.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/capability-trending-animated-ad.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music.</sub></p>
+
+<p align="center"><video src="examples/format-product-song.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro.</sub></p>
+
+<p align="center"><video src="examples/format-narrated-story.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice.</sub></p>
+
+<p align="center"><video src="examples/format-3d-explainer.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice.</sub></p>
+
+<p align="center"><video src="examples/format-skeleton-xray.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects.</sub></p>
+
+<p align="center"><video src="examples/format-photoreal-clone.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice.</sub></p>
+
+<p align="center"><img src="examples/format-drama-song-plates.jpg" alt="Format 1 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 1 plates, made before any scene still. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-drama-song-stills.jpg" alt="Format 1 stills, one per line. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 1 stills, one per line. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><img src="examples/format-product-song-plates.jpg" alt="Format 2 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 2 plates, made before any scene still. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-product-song-stills.jpg" alt="Format 2 stills, one per line. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 2 stills, one per line. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><img src="examples/format-narrated-story-plates.jpg" alt="Format 3 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 3 plates, made before any scene still. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-narrated-story-stills.jpg" alt="Format 3 stills, one per line. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 3 stills, one per line. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><img src="examples/format-3d-explainer-plates.jpg" alt="Format 4 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 4 plates, made before any scene still. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-3d-explainer-stills.jpg" alt="Format 4 stills, one per line. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 4 stills, one per line. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><img src="examples/format-skeleton-xray-plates.jpg" alt="Format 5 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 5 plates, made before any scene still. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-skeleton-xray-stills.jpg" alt="Format 5 stills, one per line. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 5 stills, one per line. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><img src="examples/format-photoreal-clone-plates.jpg" alt="Format 6 plates: reference creator and fan next to the new creator and lamp. Image: gpt-image-2." width="720"><br><sub>Format 6 plates: reference creator and fan next to the new creator and lamp. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/format-photoreal-clone-stills.jpg" alt="Format 6 stills: reference shots next to clone shots. Image: gpt-image-2. Video: p-video-2." width="720"><br><sub>Format 6 stills: reference shots next to clone shots. Image: gpt-image-2. Video: p-video-2.</sub></p>
+
+<p align="center"><sub>Made with this skill in Subclip for fictional products. Images: gpt-image-2 (Codex CLI). Video: p-video-2 and songs by Subclip models. Voices: local TTS.</sub></p>
+
+<!-- examples:end -->
+
 ## Credits and license
 
 MIT. See `LICENSE` and `NOTICE`.

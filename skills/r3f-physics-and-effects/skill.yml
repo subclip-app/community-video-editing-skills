@@ -1,5 +1,6 @@
 slug: r3f-physics-and-effects
 name: R3F Physics and Effects
+seoTitle: "R3F Physics and Effects: React Three Fiber Scenes for Video (react-three-rapier)"
 summary: Build editable 3D impact shots with bouncing bodies, contact cues, and luminous accents.
 category: 3d
 tags: [r3f, threejs, physics, bloom, needs-runtime]

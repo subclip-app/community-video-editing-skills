@@ -39,6 +39,20 @@ The agent writes the script in beats, voices it first (narration length drives a
 
 A 7-beat, 60-second film with 3 animated beats is about 100 Subclip credits (frames about 21, animation about 69, music about 7, cloud voice about 4 or free with local voice). Animating every beat is about 150.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/paper-fan-anchor.jpg" alt="Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2." width="720"><br><sub>Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/accordion-cross-section.jpg" alt="A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2." width="720"><br><sub>A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2.</sub></p>
+
+<p align="center"><video src="examples/paper-fan-pleats.mp4" controls muted loop playsinline width="720"></video><br><sub>A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: ffmpeg push-in, no video model.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+
+<!-- examples:end -->
+
 ## Credits
 
 Based on [vox-explainer](https://github.com/CK42BB/vox-explainer-skill) by Kingsley (MIT). The original runs on the Atlas Cloud API with local ffmpeg; this fork moves every step into Subclip.

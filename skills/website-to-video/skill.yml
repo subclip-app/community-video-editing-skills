@@ -1,5 +1,6 @@
 slug: website-to-video
 name: Website to video
+seoTitle: "Website to Video: Turn a URL Into a Branded Video"
 summary: "Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers."
 category: promos
 tags: [website, brand, storyboard, social-clip]
@@ -15,5 +16,5 @@ examples:
     caption: "A local field guide’s captured map pushes in behind a two-line tour opener."
   - file: examples/trail-closeup.jpg
     caption: "A close-up reuses the site’s original contour map to show how to spot the ridge."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

@@ -1,5 +1,6 @@
 slug: trendjack-animator
 name: Trending animated ads
+seoTitle: "Trending Animated Ads: Song, Story, 3D and Skeleton Ad Maker (trendjack-animator)"
 summary: Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.
 category: promos
 tags: [animated-ads, song-ad, vertical, audio-first, captions, character-lock]
@@ -15,24 +16,40 @@ allowlist:
     reason: Model names such as ElevenLabs v3 describe Subclip's live catalog and are used only through Subclip tools, not direct provider API calls.
 examples:
   - file: examples/capability-trending-animated-ad.mp4
-    caption: "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
+    caption: "Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music."
   - file: examples/format-product-song.mp4
-    caption: "Format 2, product song: hook, verse, chorus, chorus with a new shot, offer. Stand-in voice and click track."
+    caption: "Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro."
   - file: examples/format-narrated-story.mp4
-    caption: "Format 3, narrated cartoon story: problem, trusted person, how it works, payoff. Stand-in voice."
+    caption: "Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice."
   - file: examples/format-3d-explainer.mp4
-    caption: "Format 4, 3D how-it-works explainer: question, surprise, into the object, mechanism, payoff. Stand-in voice."
+    caption: "Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice."
   - file: examples/format-skeleton-xray.mp4
-    caption: "Format 5, skeleton demo: slumped hook, exaggerate, the swap, the fix with a glow. Stand-in voice."
+    caption: "Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects."
   - file: examples/format-photoreal-clone.mp4
-    caption: "Format 6, photoreal clone as a storyboard: reference shots next to recreated shots, safe zones shown."
-  - file: examples/plate-sheet.jpg
-    caption: "Plate sheet: the approved characters, made before any scene still"
-  - file: examples/still-1-the-sting.jpg
-    caption: "Still for the sting line, made with the plates attached"
-  - file: examples/still-3-the-mentor.jpg
-    caption: "Still for the mentor line: the product appears for the first time"
-  - file: examples/still-5-the-win.jpg
-    caption: "Still for the win line: same room, same people, the opposite of line 1"
-examplesCredit: "Made for this repository with the fictional Lumo lamp. Films rendered with HyperFrames."
-examplesKind: original
+    caption: "Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice."
+  - file: examples/format-drama-song-plates.jpg
+    caption: "Format 1 plates, made before any scene still. Image: gpt-image-2."
+  - file: examples/format-drama-song-stills.jpg
+    caption: "Format 1 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+  - file: examples/format-product-song-plates.jpg
+    caption: "Format 2 plates, made before any scene still. Image: gpt-image-2."
+  - file: examples/format-product-song-stills.jpg
+    caption: "Format 2 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+  - file: examples/format-narrated-story-plates.jpg
+    caption: "Format 3 plates, made before any scene still. Image: gpt-image-2."
+  - file: examples/format-narrated-story-stills.jpg
+    caption: "Format 3 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+  - file: examples/format-3d-explainer-plates.jpg
+    caption: "Format 4 plates, made before any scene still. Image: gpt-image-2."
+  - file: examples/format-3d-explainer-stills.jpg
+    caption: "Format 4 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+  - file: examples/format-skeleton-xray-plates.jpg
+    caption: "Format 5 plates, made before any scene still. Image: gpt-image-2."
+  - file: examples/format-skeleton-xray-stills.jpg
+    caption: "Format 5 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+  - file: examples/format-photoreal-clone-plates.jpg
+    caption: "Format 6 plates: reference creator and fan next to the new creator and lamp. Image: gpt-image-2."
+  - file: examples/format-photoreal-clone-stills.jpg
+    caption: "Format 6 stills: reference shots next to clone shots. Image: gpt-image-2. Video: p-video-2."
+examplesCredit: "Made with this skill in Subclip for fictional products. Images: gpt-image-2 (Codex CLI). Video: p-video-2 and songs by Subclip models. Voices: local TTS."
+examplesKind: test

@@ -26,7 +26,19 @@ How earshot-style synthesis works, so you can reason about sounds you cannot hea
 3. **Pick the route** per recipe (library first). Name credit costs and any install before doing them. Ask once, remember the answer.
 4. **Place sounds.** One timeline edit at a time. Import at the cue time: the sound's loudest moment must land on the frame (a whoosh starts 0.2 to 0.6 s before the cut, an impact starts about 0.2 s before its frame, a click lands on the press). Then `update_audio_item` for volume, fades and pan. Details and levels in `references/subclip-mixing.md`.
 5. **Mix.** Voice and music keep their own items. Duck the music, keep effects under the picture, vary repeated sounds (different takes, small level and timing changes), never the same whoosh on every cut.
-6. **Verify.** `view_current_frame` at cue times to check alignment with the picture, list audio items to check levels and overlaps. Say plainly what you could not hear and ask the creator for one listening pass. Export only when asked.
+6. **Verify by looking at the sound.** Call `get_audio_timeline_sheet` (Subclip native, read-only, no install) for the whole project or a window (`startSeconds`, `endSeconds`, up to 300 s). Read it as below, fix what the warnings name, then call it again for the changed window. Also `view_current_frame` at a few cue times. Say plainly what only a listening pass can judge (taste, harshness) and ask for one. Export only when asked.
+
+## Reading the sheet
+
+`get_audio_timeline_sheet` returns one image and a JSON summary built from the real decoded audio (item volumes, speed, trims and fades applied, muted items left out).
+
+- **Lanes**: voice, music, effects, other, each item with its name, time range and true waveform. Check that every cue in your sheet exists in the effects lane at its time, that voice is not buried, and that nothing runs past the end.
+- **Cut marks and green ticks**: orange marks are visual cuts, green ticks are moments a new sound starts. `cutSync.percentInSync` is the share of cuts with a new sound within 100 ms; `cutSync.missing` lists the cuts without one and the nearest sound. Aim for the cuts that matter (scene changes, reveals) at 70 percent or more; not every cut needs a hit. Move a sound with `update_audio_item` or add one from the recipes.
+- **Mix and spectrogram**: a red band is clipping, a shaded band is silence. Dense full-height blocks mean overlapping loud sounds; an empty spectrogram band mid-video is dead air.
+- **Loudness curve**: short-term LUFS against the -14 and -16 lines. Aim for an integrated -14 to -16 LUFS with `peaks.truePeakDbTP` under -1. Large swings between the opening and the body, or a drop at the end, are mix problems.
+- **Warnings**, with the usual fix: `true-peak` or `clipping`: lower the loudest items (volume, not the master); `long-silence`: add a bed, room tone or an effect, or tighten the cut; `overlapping-effects`: stagger or drop one; `music-too-loud` (voice under 4 dB above music): lower the music or split and duck it under the voice; `music-barely-audible` (over 25 dB): raise it a little; `loudness-off-target`: scale the music and effects together; `cuts-without-sound`: add whooshes, hits or music accents on the listed cuts.
+
+The tool measures but does not hear: it cannot tell a pleasant whoosh from a harsh one, and loudness assumes a centred stereo mix. For deeper event labelling (which sound is which), the optional local engine can render the same kind of sheet with named events; see `references/local-engine.md`, only after the creator agrees.
 
 ## Recipes
 
@@ -41,6 +53,6 @@ A short clip with its sound design markers on a waveform, the audio rendered loc
 - Do not run `pip`, `npx` or any script on your own. Ask, show the exact command, wait for yes.
 - Do not request, store or paste API keys. None are needed.
 - Do not put a whoosh on every cut or a hover sound on everything. Do not make effects louder to make them better.
-- Do not claim you heard a sound. Report levels and times instead.
+- Do not claim you heard a sound. Report what the sheet shows (levels, times, sync percent) instead.
 
 Adapted for Subclip from https://github.com/Leonxlnx/earshot by Leon Lin, MIT

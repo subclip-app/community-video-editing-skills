@@ -27,6 +27,18 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 Subclip captures up to 3 page screenshots plus logo and image candidates. It does not export every SVG or Lottie file on the page. Sound effects are generated or found, not bundled. The original `w2h-verify` script is replaced by a manual checklist.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/trail-tour.mp4" controls muted loop playsinline width="720"></video><br><sub>A local field guide’s captured map pushes in behind a two-line tour opener.</sub></p>
+
+<p align="center"><img src="examples/trail-closeup.jpg" alt="A close-up reuses the site’s original contour map to show how to spot the ridge." width="720"><br><sub>A close-up reuses the site’s original contour map to show how to spot the ridge.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+
+<!-- examples:end -->
+
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.

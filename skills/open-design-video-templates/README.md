@@ -11,3 +11,19 @@ Twenty-two motion recipes for title cards, statement frames, stat and chart reve
 What changed from the original: the original ships rendered preview videos, bundled fonts, vendored scripts and a render pipeline. This version keeps the design knowledge and drops the rest. Rendering, sound and export use Subclip's own tools. No outside API keys or scripts are needed.
 
 The cover is a collage of four of the original preview frames, used under the Apache-2.0 license.
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/glitch-title.mp4" controls muted loop playsinline width="720"></video><br><sub>A signal-loss title with split-color lettering and digital distortion.</sub></p>
+
+<p align="center"><video src="examples/light-leak-title.mp4" controls muted loop playsinline width="720"></video><br><sub>A cinematic title framed by an amber light leak.</sub></p>
+
+<p align="center"><video src="examples/logo-outro.mp4" controls muted loop playsinline width="720"></video><br><sub>A purple monogram reveals itself against a dark background.</sub></p>
+
+<p align="center"><img src="examples/liquid-background.jpg" alt="A bold headline over a soft field of blue and purple light." width="720"><br><sub>A bold headline over a soft field of blue and purple light.</sub></p>
+
+<p align="center"><sub>Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design</sub></p>
+
+<!-- examples:end -->

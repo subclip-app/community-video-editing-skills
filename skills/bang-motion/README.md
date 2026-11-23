@@ -189,3 +189,21 @@ The scanner reports the optional Grok choice required by the conversion guide an
 There is no automatic equivalent in this skill for the upstream raster pupil/mouth expression script or standalone HTML player delivery. Use the vector face recipe or approved generated variants. Audio-reactive graphics use supplied beat times or a stated procedural approximation, not an invented automatic beat-analysis tool. These limits do not block the native motion workflow.
 
 The cover is the upstream hero grid and the gallery images come from the upstream docs/gallery folder (MIT). The silent preview was built in Subclip with animated headlines, framed gallery cards and editable Remotion layers. Upstream says gallery brands and data are fictional. No executable source scripts are included. Original copyright and MIT terms are preserved byte for byte in [LICENSE](LICENSE).
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/grainy-gradient.jpg" alt="A glowing blue opener with layered shapes and soft grain" width="720"><br><sub>A glowing blue opener with layered shapes and soft grain</sub></p>
+
+<p align="center"><img src="examples/kinetic-typography.jpg" alt="Oversized words cropped across bright poster blocks" width="720"><br><sub>Oversized words cropped across bright poster blocks</sub></p>
+
+<p align="center"><img src="examples/flat-vector.jpg" alt="A product promo made with flat shapes and illustrated controls" width="720"><br><sub>A product promo made with flat shapes and illustrated controls</sub></p>
+
+<p align="center"><img src="examples/continuous-action.jpg" alt="A train explainer that places the speed readout in the scene" width="720"><br><sub>A train explainer that places the speed readout in the scene</sub></p>
+
+<p align="center"><img src="examples/cartoon-collage.jpg" alt="A volcano explainer with illustrated cutouts on a paper background" width="720"><br><sub>A volcano explainer with illustrated cutouts on a paper background</sub></p>
+
+<p align="center"><sub>Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion</sub></p>
+
+<!-- examples:end -->

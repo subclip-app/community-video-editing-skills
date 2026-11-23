@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><rect width="1600" height="900" fill="#fff"/>
+<text x="90" y="170" font-family="Helvetica,Arial,sans-serif" font-size="110" font-weight="700" fill="#153592">UGC ad director</text>
+<text x="94" y="240" font-family="Helvetica,Arial,sans-serif" font-size="46" fill="#26c9d5">Adapted for Subclip</text>
+<rect x="90" y="270" width="260" height="8" rx="4" fill="#26c9d5"/>
+<g><rect x="150" y="360" width="270" height="480" rx="20" fill="#fff" stroke="#153592" stroke-width="5"/><circle cx="285" cy="470" r="50" fill="#153592"/><rect x="215" y="540" width="140" height="150" rx="40" fill="#153592"/></g>
+<g><rect x="470" y="360" width="270" height="480" rx="20" fill="#fff" stroke="#26c9d5" stroke-width="5"/><rect x="545" y="450" width="120" height="260" rx="22" fill="#26c9d5"/><rect x="545" y="450" width="120" height="40" rx="14" fill="#153592"/></g>
+<g><rect x="790" y="360" width="270" height="480" rx="20" fill="#fff" stroke="#153592" stroke-width="5"/><rect x="825" y="420" width="200" height="110" rx="10" fill="none" stroke="#153592" stroke-width="6"/><rect x="825" y="570" width="200" height="110" rx="10" fill="none" stroke="#153592" stroke-width="6"/><line x1="825" y1="730" x2="1025" y2="730" stroke="#153592" stroke-width="6"/></g>
+<g><rect x="1110" y="360" width="270" height="480" rx="20" fill="#fff" stroke="#26c9d5" stroke-width="5"/><rect x="1135" y="385" width="100" height="130" rx="8" fill="#26c9d5"/><rect x="1255" y="385" width="100" height="130" rx="8" fill="#153592"/><rect x="1135" y="545" width="100" height="130" rx="8" fill="#153592"/><rect x="1255" y="545" width="100" height="130" rx="8" fill="#26c9d5"/><rect x="1135" y="705" width="100" height="105" rx="8" fill="#26c9d5"/><rect x="1255" y="705" width="100" height="105" rx="8" fill="#153592"/></g>
+</svg>

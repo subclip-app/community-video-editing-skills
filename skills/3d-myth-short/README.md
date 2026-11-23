@@ -12,6 +12,20 @@ Tell your agent: "Use 3d-myth-short to make a short about <idea>". It writes the
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/seasons-style-key.jpg" alt="Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2." width="720"><br><sub>Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/tilted-globe-sheet.jpg" alt="Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2." width="720"><br><sub>Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2.</sub></p>
+
+<p align="center"><video src="examples/seasons-globe.mp4" controls muted loop playsinline width="720"></video><br><sub>A slow push from the warm studio globe to its tilted reference sheet. Clip: ffmpeg push-in, no video model.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+
+<!-- examples:end -->
+
 ## Source and license
 
 The skill's own page on the list: https://app.notion.com/p/3ffb5f1fde2d812cabb9d81b0c4e309a

@@ -12,6 +12,20 @@ Tell your agent: "Use paper-cut-motion on this image" and attach the image. It r
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/sailboat-collage.jpg" alt="Finished torn paper sailboat with layered teal waves and visible torn edges. Image: gpt-image-2." width="720"><br><sub>Finished torn paper sailboat with layered teal waves and visible torn edges. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/sailboat-storyboard.jpg" alt="Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2." width="720"><br><sub>Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2.</sub></p>
+
+<p align="center"><video src="examples/sailboat-assembly.mp4" controls muted loop playsinline width="720"></video><br><sub>Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation in headless Chrome encoded with ffmpeg, no video model. Silent.</sub></p>
+
+<!-- examples:end -->
+
 ## Source and license
 
 The skill's own page on the list: https://app.notion.com/p/38db5f1fde2d80b4a7a0ecb96e5f6770

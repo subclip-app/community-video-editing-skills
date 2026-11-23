@@ -1,5 +1,6 @@
 slug: cartoon-animation
 name: Cartoon animation
+seoTitle: "Cartoon Animation Workflow for AI Video Agents"
 summary: Hand-painted cartoon shots with boiling ink linework, acted emotions and brush-wipe transitions in motion layers.
 category: animation
 tags: [cartoon, hand-painted, character-acting, storyboard]
@@ -19,5 +20,5 @@ examples:
     caption: "Closer painted shot of the snail peeking out while rain falls around the leaf."
   - file: examples/snail-peeks-out.mp4
     caption: "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
 examplesKind: test

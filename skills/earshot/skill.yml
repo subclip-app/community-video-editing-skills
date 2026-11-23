@@ -1,5 +1,6 @@
 slug: earshot
 name: Sound effects from words
+seoTitle: "Sound Effects From Words: AI Sound Design for Video (earshot)"
 summary: Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.
 category: audio
 tags: [sound-effects, sound-design, whoosh, foley, mixing]
@@ -19,5 +20,5 @@ examples:
     caption: "By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync)."
   - file: examples/earshot-launch-frames.png
     caption: "By the original author: frames of the earshot launch film, which was cut to its own code-made sounds."
-examplesCredit: "Clip and waveform frame made for Subclip with HyperFrames, sounds rendered locally with earshot. Launch sheet and frames from the earshot README by Leon Lin (MIT)."
+examplesCredit: "Clip and waveform frame made for Subclip in code with HyperFrames, sounds synthesized locally with earshot, no image or video model. Launch sheet and frames from the earshot README by Leon Lin (MIT)."
 examplesKind: original

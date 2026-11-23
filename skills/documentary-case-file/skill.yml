@@ -1,5 +1,6 @@
 slug: documentary-case-file
 name: Documentary case file
+seoTitle: "Documentary Case File: AI Documentary Video Workflow"
 summary: One sentence in, a documentary plan with chapters, locked stills, scene clips and a narrator, assembled on the Subclip timeline.
 category: explainers
 tags: [documentary, case-file, narrator, 3d-reconstruction]
@@ -15,12 +16,12 @@ allowlist:
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
   - file: examples/empty-gauge-case-file.jpg
-    caption: Fictional case file with three timed chapters, asset IDs and narrator direction.
+    caption: "Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model."
   - file: examples/greenhouse-location.jpg
-    caption: LOC-01, the empty greenhouse at blue hour with its lit utility alcove.
+    caption: "LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2."
   - file: examples/float-gauge-prop.jpg
-    caption: PROP-01, a brass gauge with its needle stuck at the low end.
+    caption: "PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2."
   - file: examples/empty-gauge-chapter-plan.mp4
-    caption: Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames."
+examplesCredit: "Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent."
 examplesKind: test

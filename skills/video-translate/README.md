@@ -24,6 +24,20 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 Subclip's `subclip-dubbing` skill and tools (dubbing workspace, voices, transcription). Lip-sync needs a lip-sync capable model in the live catalog.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/french-cue-fit.jpg" alt="French paper-folding cues with original timing windows and measured speech fit." width="720"><br><sub>French paper-folding cues with original timing windows and measured speech fit.</sub></p>
+
+<p align="center"><img src="examples/spanish-cue-fit.jpg" alt="Spanish paper-folding cues with original timing windows and measured speech fit." width="720"><br><sub>Spanish paper-folding cues with original timing windows and measured speech fit.</sub></p>
+
+<p align="center"><video src="examples/dubbing-cue-fit.mp4" controls muted loop playsinline width="720"></video><br><sub>French and Spanish paper-folding cues appear with their original time windows and measured speech fit.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML cards and HyperFrames): no image or video model. Speech fit measured with the local Supertonic speech model, the clip is silent.</sub></p>
+
+<!-- examples:end -->
+
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.

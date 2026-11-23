@@ -5,6 +5,7 @@
     {
       "slug": "3d-myth-short",
       "name": "3D myth short",
+      "seoTitle": "3D Myth Short Video Workflow for AI Agents",
       "summary": "One idea in, a narrated 30 second 3D animated short: the myth, the twist and the real mechanism, built on the timeline.",
       "category": "3d",
       "tags": [
@@ -33,25 +34,26 @@
         {
           "path": "skills/3d-myth-short/examples/seasons-style-key.jpg",
           "kind": "image",
-          "caption": "Style key for a seasons explainer, with a wooden globe and warm studio light."
+          "caption": "Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2."
         },
         {
           "path": "skills/3d-myth-short/examples/tilted-globe-sheet.jpg",
           "kind": "image",
-          "caption": "Tilted globe reference sheet with the same painted finish and a brass cradle."
+          "caption": "Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2."
         },
         {
           "path": "skills/3d-myth-short/examples/seasons-globe.mp4",
           "kind": "video",
-          "caption": "A slow push from the warm studio globe to its tilted reference sheet."
+          "caption": "A slow push from the warm studio globe to its tilted reference sheet. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "ai-ad-formats",
       "name": "AI ad formats",
+      "seoTitle": "AI Ad Formats: 5 Video Ad Styles Prompt Guide (PYNK Society)",
       "summary": "Five ad formats from one product photo: claymation (4 styles), paper animation (5 styles), singing ad, talking object and skeleton progression.",
       "category": "promos",
       "tags": [
@@ -111,62 +113,62 @@
         {
           "path": "skills/ai-ad-formats/examples/sharpener-style-lock.jpg",
           "kind": "image",
-          "caption": "Test output: claymation style lock with a cobalt hand-crank sharpener and a pencil character."
+          "caption": "Test output: claymation style lock with a cobalt hand-crank sharpener and a pencil character. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/sharpening-beat.jpg",
           "kind": "image",
-          "caption": "Test output: use beat with the crank, the inserted pencil and shavings falling into the drawer."
+          "caption": "Test output: use beat with the crank, the inserted pencil and shavings falling into the drawer. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/sharpener-payoff.jpg",
           "kind": "image",
-          "caption": "Test output: payoff beat with the sharpened pencil beside the same clay sharpener."
+          "caption": "Test output: payoff beat with the sharpened pencil beside the same clay sharpener. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/sharpener-in-action.mp4",
           "kind": "video",
-          "caption": "Test output: a clay pencil meets the crank sharpener, then returns with a freshly sharpened tip."
+          "caption": "Test output: a clay pencil meets the crank sharpener, then returns with a freshly sharpened tip. Clip: ffmpeg push-in, no video model."
         },
         {
           "path": "skills/ai-ad-formats/examples/claymation-premium-plasticine.jpg",
           "kind": "image",
-          "caption": "Test output: claymation in premium studio plasticine, with a hand-crank sharpener and a freshly sharpened pencil."
+          "caption": "Test output: claymation in premium studio plasticine, with a hand-crank sharpener and a freshly sharpened pencil. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/claymation-clip.mp4",
           "kind": "video",
-          "caption": "Test output: claymation in premium studio plasticine, with a slow push toward the sharpener."
+          "caption": "Test output: claymation in premium studio plasticine, with a slow push toward the sharpener. Clip: ffmpeg push-in, no video model."
         },
         {
           "path": "skills/ai-ad-formats/examples/paper-animation-layered.jpg",
           "kind": "image",
-          "caption": "Test output: paper animation in layered papercraft, with a sage bottle in a stacked card landscape."
+          "caption": "Test output: paper animation in layered papercraft, with a sage bottle in a stacked card landscape. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/paper-animation-origami.jpg",
           "kind": "image",
-          "caption": "Test output: paper animation in origami, with the same sage bottle in a folded paper landscape."
+          "caption": "Test output: paper animation in origami, with the same sage bottle in a folded paper landscape. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/paper-animation-clip.mp4",
           "kind": "video",
-          "caption": "Test output: paper animation, with a slow push and crossfade from layered papercraft to origami."
+          "caption": "Test output: paper animation, with a slow push and crossfade from layered papercraft to origami. Clip: ffmpeg push-in, no video model."
         },
         {
           "path": "skills/ai-ad-formats/examples/singing-ad-lead.jpg",
           "kind": "image",
-          "caption": "Test output: singing ad in stylized 3D, with the lead creature and its lantern under a spotlight."
+          "caption": "Test output: singing ad in stylized 3D, with the lead creature and its lantern under a spotlight. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/singing-ad-performance.jpg",
           "kind": "image",
-          "caption": "Test output: singing ad in stylized 3D, with the lead creature singing into a microphone."
+          "caption": "Test output: singing ad in stylized 3D, with the lead creature singing into a microphone. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/singing-ad-payoff.jpg",
           "kind": "image",
-          "caption": "Test output: singing ad in stylized 3D, with the lantern lighting a campsite map."
+          "caption": "Test output: singing ad in stylized 3D, with the lantern lighting a campsite map. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/singing-ad-clip.mp4",
@@ -176,30 +178,31 @@
         {
           "path": "skills/ai-ad-formats/examples/talking-object-squeegee.jpg",
           "kind": "image",
-          "caption": "Test output: talking object in stylized 3D. I am a squeegee. I sweep water away. So your counter stays dry."
+          "caption": "Test output: talking object in stylized 3D. I am a squeegee. I sweep water away. So your counter stays dry. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/talking-object-clip.mp4",
           "kind": "video",
-          "caption": "Test output: talking object in stylized 3D, with a silent push in on a squeegee clearing a spill."
+          "caption": "Test output: talking object in stylized 3D, with a silent push in on a squeegee clearing a spill. Clip: ffmpeg push-in, no video model."
         },
         {
           "path": "skills/ai-ad-formats/examples/skeleton-progression-board.jpg",
           "kind": "image",
-          "caption": "Test output: skeleton progression in cinematic 3D, with a garden growing from Day 1 to Day 365."
+          "caption": "Test output: skeleton progression in cinematic 3D, with a garden growing from Day 1 to Day 365. Image: gpt-image-2."
         },
         {
           "path": "skills/ai-ad-formats/examples/skeleton-progression-clip.mp4",
           "kind": "video",
-          "caption": "Test output: skeleton progression in cinematic 3D, with Day 1, Day 30 and Day 365 shown in sequence."
+          "caption": "Test output: skeleton progression in cinematic 3D, with Day 1, Day 30 and Day 365 shown in sequence. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Images from the Claude Creative Skill Library Vol 2 by PYNK Society, plus our own test outputs made with this skill in Subclip",
+      "examplesCredit": "Notion images from the Claude Creative Skill Library Vol 2 by PYNK Society. Our own test outputs made with this skill in Subclip: images gpt-image-2 (Codex CLI image generation); clips are ffmpeg crossfades and push-ins of those stills, no video model; silent.",
       "examplesKind": "test"
     },
     {
       "slug": "ai-camera-shots",
       "name": "AI camera shots",
+      "seoTitle": "20 AI Camera Shots Prompt Formula for Video (sferro21 Guide)",
       "summary": "One frame, twenty camera angles. Prompt formula, a catalog of 20 shots, Subclip video models and native keyframe fakes, cut to the beat.",
       "category": "broll",
       "tags": [
@@ -333,6 +336,7 @@
     {
       "slug": "ai-edit-battle",
       "name": "AI edit battle",
+      "seoTitle": "AI Edit Battle: Compare Two AI Video Models on One Edit (sferro21)",
       "summary": "Two AI models or agents edit the same clip from the same brief in cloned projects. Compare, score and pick a winner.",
       "category": "workflow",
       "tags": [
@@ -375,12 +379,13 @@
           "caption": "Seven scoring rows appear before the sample totals for the two blind edits."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "ai-illustration-styles",
       "name": "AI illustration styles",
+      "seoTitle": "AI Illustration Styles Prompt Guide for Video (sferro21)",
       "summary": "Restyle any photo or video frame into 12 illustration looks (UPA, noir, superflat, risograph, anime, gouache and more) with one reusable prompt wrapper.",
       "category": "templates",
       "tags": [
@@ -474,6 +479,7 @@
     {
       "slug": "ai-style-atlas",
       "name": "AI Style Atlas",
+      "seoTitle": "AI Style Atlas: 86 Visual Styles for Explainer Videos (Futurepedia)",
       "summary": "Pick any of 86 visual styles by name or mood and restyle an explainer on your topic in that look, built as editable layers.",
       "category": "animation",
       "tags": [
@@ -941,6 +947,7 @@
     {
       "slug": "ai-video-editor-cooked",
       "name": "Cooked edit method",
+      "seoTitle": "Cooked Edit Method: AI Video Editor Workflow (ai-video-editor-cooked)",
       "summary": "A talking-head edit method: retake-aware cuts, a measured reference style, real visuals timed to the words, and a ban list of AI-made looks.",
       "category": "workflow",
       "tags": [
@@ -984,12 +991,13 @@
           "caption": "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "anatomy",
       "name": "Anatomy isometric figures",
+      "seoTitle": "Anatomy: Isometric SVG Explainer Figures for Video (wheresryan22/anatomy)",
       "summary": "Isometric explainer figures for video: a real object, many small parts and calm motion, built as HyperFrames scenes with optional narration.",
       "category": "explainers",
       "tags": [
@@ -1050,6 +1058,7 @@
     {
       "slug": "bang-motion",
       "name": "Bang Motion",
+      "seoTitle": "Bang Motion: Code-Driven Motion Graphics for Video (bangtutorial/bang-motion)",
       "summary": "Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers.",
       "category": "motion",
       "tags": [
@@ -1111,6 +1120,7 @@
     {
       "slug": "blender-to-subclip",
       "name": "Blender to Subclip",
+      "seoTitle": "Blender to Subclip: Render 3D Shots Into the Video Timeline (mcp-for-blender)",
       "summary": "Build and review a short Blender shot, then place the rendered clip or stills on an editable Subclip timeline.",
       "category": "3d",
       "tags": [
@@ -1148,8 +1158,129 @@
       "examplesKind": "original"
     },
     {
+      "slug": "camera-angle-prompts-guide",
+      "name": "44 cinematic camera angles",
+      "seoTitle": "44 Cinematic Camera Angles Prompt Guide for AI Video (Digital Windows AI)",
+      "summary": "All 44 camera angles with prompts, a pick-by-emotion table, native fakes and credit-quoted video models, plus a guide to cutting them.",
+      "category": "broll",
+      "tags": [
+        "camera-angles",
+        "cinematography",
+        "prompt-guide",
+        "b-roll",
+        "video-generation",
+        "shot-list"
+      ],
+      "path": "skills/camera-angle-prompts-guide",
+      "skills": [
+        "camera-angle-prompts-guide"
+      ],
+      "cover": "skills/camera-angle-prompts-guide/cover.svg",
+      "preview": "skills/camera-angle-prompts-guide/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.digital-windows.co.uk/guides/camera-angles",
+        "author": "Digital Windows AI",
+        "license": "Not stated",
+        "note": "Free email-gated guide with no stated license. Permission to adapt has not been confirmed. Angle names are used as facts; all wording, prompts and images are ours."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/capability-camera-angles.mp4",
+          "kind": "video",
+          "caption": "Capability reference, ten camera angles in one montage with labels"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/worms-eye.jpg",
+          "kind": "image",
+          "caption": "05 Worm's eye: camera on the floor, subject towers above"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/knee-level.jpg",
+          "kind": "image",
+          "caption": "36 Knee level: low height, whole figure in frame"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/cowboy-shot.jpg",
+          "kind": "image",
+          "caption": "23 Cowboy shot: head to mid-thigh, hands in view"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/pov.jpg",
+          "kind": "image",
+          "caption": "14 POV: first person, no hands visible"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/hidden-camera.jpg",
+          "kind": "image",
+          "caption": "29 Hidden camera: a real object blocks part of the frame"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/dolly-zoom.jpg",
+          "kind": "image",
+          "caption": "32 Dolly zoom: same face size, stretched background"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/fisheye.jpg",
+          "kind": "image",
+          "caption": "34 Fisheye: ultra wide lens inches from the face"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/whip-pan.jpg",
+          "kind": "image",
+          "caption": "21 Whip pan: heavy motion blur landing on the subject"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/drone-overview.jpg",
+          "kind": "image",
+          "caption": "20 Drone: sweeping high view of the whole place"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/snorricam.jpg",
+          "kind": "image",
+          "caption": "31 Snorricam: face locked, world swings behind"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/crash-zoom.jpg",
+          "kind": "image",
+          "caption": "30 Crash zoom: sudden punch-in to the face"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/extreme-wide.jpg",
+          "kind": "image",
+          "caption": "12 Extreme wide: tiny subject framed through an arch"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/insert.jpg",
+          "kind": "image",
+          "caption": "24 Insert: detail of the hands, face out of frame"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/split-diopter.jpg",
+          "kind": "image",
+          "caption": "39 Split diopter: near mug and far subject both sharp"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/steadicam-follow.jpg",
+          "kind": "image",
+          "caption": "42 Steadicam: smooth glide behind the subject"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/hip-shot.jpg",
+          "kind": "image",
+          "caption": "37 Hip shot: loose low camera angled up"
+        }
+      ],
+      "examplesCredit": "Original illustrated frames made for this skill by Subclip. Images: gpt-image-2 (Codex CLI image generation). Montage clip assembled from those frames, no video model.",
+      "examplesKind": "original"
+    },
+    {
       "slug": "cartoon-animation",
       "name": "Cartoon animation",
+      "seoTitle": "Cartoon Animation Workflow for AI Video Agents",
       "summary": "Hand-painted cartoon shots with boiling ink linework, acted emotions and brush-wipe transitions in motion layers.",
       "category": "animation",
       "tags": [
@@ -1198,12 +1329,13 @@
           "caption": "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "cartoon-episodes",
       "name": "Cartoon episodes",
+      "seoTitle": "Cartoon Episodes: Make Animated Series Episodes With AI Video",
       "summary": "Define a show once, then turn one-sentence scenes into consistent AI cartoon clips and cut them into an episode.",
       "category": "animation",
       "tags": [
@@ -1232,25 +1364,26 @@
         {
           "path": "skills/cartoon-episodes/examples/juniper-cast-sheet.jpg",
           "kind": "image",
-          "caption": "Juniper the watering can robot from three angles, with three expressions."
+          "caption": "Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2."
         },
         {
           "path": "skills/cartoon-episodes/examples/greenhouse-set.jpg",
           "kind": "image",
-          "caption": "Empty greenhouse establishing view in the same flat ink and pastel style."
+          "caption": "Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2."
         },
         {
           "path": "skills/cartoon-episodes/examples/juniper-and-the-greenhouse.mp4",
           "kind": "video",
-          "caption": "Juniper’s character sheet dissolves into the pastel greenhouse set."
+          "caption": "Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "character-animation-qa",
       "name": "Character animation QA",
+      "seoTitle": "Character Animation QA Checklist for AI Video",
       "summary": "Review a character animation with sampled frames, motion checks and a pass, revise or fail verdict.",
       "category": "animation",
       "tags": [
@@ -1293,12 +1426,13 @@
           "caption": "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "claude-drawing-skill",
       "name": "Claude Drawing",
+      "seoTitle": "Claude Drawing Skill: Hand-Drawn Animation for Video (cloveric)",
       "summary": "Draw ink washes, paper collages and line art in code, then reveal the marks in editable Subclip motion layers.",
       "category": "animation",
       "tags": [
@@ -1361,8 +1495,248 @@
       "examplesKind": "original"
     },
     {
+      "slug": "code-animation-styles-remotion",
+      "name": "39 code-drawn animation styles",
+      "seoTitle": "39 Code-Drawn Animation Styles for Explainer Videos (animation-styles, Remotion)",
+      "summary": "Pick one of 39 code-drawn looks (whiteboard, papercut, pixel art, hologram and more) and retell your story in it as an editable layer, with no AI credits.",
+      "category": "animation",
+      "tags": [
+        "animation-styles",
+        "remotion",
+        "hyperframes",
+        "code-animation",
+        "explainer",
+        "styles",
+        "whiteboard",
+        "pixel-art"
+      ],
+      "path": "skills/code-animation-styles-remotion",
+      "skills": [
+        "code-animation-styles-remotion"
+      ],
+      "cover": "skills/code-animation-styles-remotion/cover.svg",
+      "preview": "skills/code-animation-styles-remotion/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "deenukhan/animation-styles",
+        "url": "https://github.com/deenukhan/animation-styles",
+        "author": "deenukhan",
+        "license": "MIT",
+        "commit": "7f7afbd4c5a216135e51be354cb245dcfabedb3a",
+        "syncedAt": "2026-11-24"
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/code-animation-styles-remotion/examples/capability-animation-styles.mp4",
+          "kind": "video",
+          "caption": "Capability reference: ten of the 39 styles in a 20 second montage"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/01-whiteboard.mp4",
+          "kind": "video",
+          "caption": "01 Whiteboard: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/02-chalkboard.mp4",
+          "kind": "video",
+          "caption": "02 Chalkboard: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/05-notepad-doodle.mp4",
+          "kind": "video",
+          "caption": "05 Notepad doodle: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/06-blueprint.mp4",
+          "kind": "video",
+          "caption": "06 Blueprint: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/08-hand-drawn.mp4",
+          "kind": "video",
+          "caption": "08 Hand-drawn pencil sketch: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/09-urban-sketch.mp4",
+          "kind": "video",
+          "caption": "09 Urban sketch: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/10-crayon-book.mp4",
+          "kind": "video",
+          "caption": "10 Crayon book: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/11-watercolour.mp4",
+          "kind": "video",
+          "caption": "11 Watercolour: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/13-one-line.mp4",
+          "kind": "video",
+          "caption": "13 One line: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/16-cel-line-boil.mp4",
+          "kind": "video",
+          "caption": "16 Cel line boil: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/17-flat-vector.mp4",
+          "kind": "video",
+          "caption": "17 Flat vector: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/21-cel-anime-80s.mp4",
+          "kind": "video",
+          "caption": "21 80s cel anime: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/22-stick-figure.mp4",
+          "kind": "video",
+          "caption": "22 Stick figure: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/23-cut-out.mp4",
+          "kind": "video",
+          "caption": "23 Cut-out collage: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/24-red-papercut.mp4",
+          "kind": "video",
+          "caption": "24 Red papercut: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/25-paper-pop-up.mp4",
+          "kind": "video",
+          "caption": "25 Paper pop-up: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/27-shadow-puppet.mp4",
+          "kind": "video",
+          "caption": "27 Shadow puppet: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/28-woodcut.mp4",
+          "kind": "video",
+          "caption": "28 Woodcut: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/29-engraving.mp4",
+          "kind": "video",
+          "caption": "29 Engraving: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/31-silkscreen-poster.mp4",
+          "kind": "video",
+          "caption": "31 Silkscreen poster: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/33-ukiyo-e.mp4",
+          "kind": "video",
+          "caption": "33 Ukiyo-e: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/34-art-deco.mp4",
+          "kind": "video",
+          "caption": "34 Art deco: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/35-stained-glass.mp4",
+          "kind": "video",
+          "caption": "35 Stained glass: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/39-memphis-diorama.mp4",
+          "kind": "video",
+          "caption": "39 Memphis diorama: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/51-sticker-explainer.mp4",
+          "kind": "video",
+          "caption": "51 Sticker explainer: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/52-math-diagram.mp4",
+          "kind": "video",
+          "caption": "52 Math diagram: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/57-low-poly-island.mp4",
+          "kind": "video",
+          "caption": "57 Low-poly island: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/58-brick-toy.mp4",
+          "kind": "video",
+          "caption": "58 Brick toy: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/59-glass-product.mp4",
+          "kind": "video",
+          "caption": "59 Glass product: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/62-claymation.mp4",
+          "kind": "video",
+          "caption": "62 Claymation: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/80-lidar-survey.mp4",
+          "kind": "video",
+          "caption": "80 Lidar survey: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/70-silent-film.mp4",
+          "kind": "video",
+          "caption": "70 Silent film: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/71-newsreel.mp4",
+          "kind": "video",
+          "caption": "71 Newsreel: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/64-pixel-art-rpg.mp4",
+          "kind": "video",
+          "caption": "64 Pixel art RPG: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/81-microscope.mp4",
+          "kind": "video",
+          "caption": "81 Microscope: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/84-hologram-hud.mp4",
+          "kind": "video",
+          "caption": "84 Hologram HUD: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/85-circuit-board.mp4",
+          "kind": "video",
+          "caption": "85 Circuit board: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/87-liquid-motion.mp4",
+          "kind": "video",
+          "caption": "87 Liquid motion: the 5 second chai film"
+        },
+        {
+          "path": "skills/code-animation-styles-remotion/examples/89-generative-abstract.mp4",
+          "kind": "video",
+          "caption": "89 Generative abstract: the 5 second chai film"
+        }
+      ],
+      "examplesCredit": "Examples by deenukhan, MIT, from the animation-styles repo (github.com/deenukhan/animation-styles)",
+      "examplesKind": "original"
+    },
+    {
       "slug": "code-motion-styles",
       "name": "Motion style prompts",
+      "seoTitle": "16 Code-Built Motion Style Prompts for Video (Applied AI Styles)",
       "summary": "Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.",
       "category": "motion",
       "tags": [
@@ -1476,12 +1850,13 @@
           "caption": "16 Minimal mono ring style line"
         }
       ],
-      "examplesCredit": "Clips and posters made by Subclip from our own prompts; style ideas from Applied AI (its-applied-ai.com/r/styles)",
+      "examplesCredit": "Clips and posters rendered in code by Subclip from our own prompts (HyperFrames, Three.js for the 3D styles), no image, video or audio model; style ideas from Applied AI (its-applied-ai.com/r/styles)",
       "examplesKind": "original"
     },
     {
       "slug": "code-video-recipes",
       "name": "Code video recipes",
+      "seoTitle": "Code Video Recipes: Build Videos From Code on the Timeline",
       "summary": "Turn code-made video references into editable Subclip motion graphics, explainers, 3D shots and scripted demos.",
       "category": "workflow",
       "tags": [
@@ -1531,12 +1906,13 @@
           "caption": "A seekable butterfly study uses one shared phase for both wings and loops at the boundary."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "commercial-pipeline",
       "name": "Commercial pipeline",
+      "seoTitle": "AI Commercial Pipeline: Product Ad Video Workflow",
       "summary": "Plan 5 to 8 locked reference images, then assemble a 30 second multi-cut AI commercial and fix only what broke.",
       "category": "promos",
       "tags": [
@@ -1565,25 +1941,26 @@
         {
           "path": "skills/commercial-pipeline/examples/desk-lamp-off.jpg",
           "kind": "image",
-          "caption": "Hero product reference for a mustard desk lamp in its off state on white."
+          "caption": "Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2."
         },
         {
           "path": "skills/commercial-pipeline/examples/desk-lamp-on.jpg",
           "kind": "image",
-          "caption": "After-state reference for the same lamp, switched on in matching framing."
+          "caption": "After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2."
         },
         {
           "path": "skills/commercial-pipeline/examples/desk-lamp-switch-on.mp4",
           "kind": "video",
-          "caption": "The mustard desk lamp fades from off to on in matching framing."
+          "caption": "The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "cut-to-the-beat",
       "name": "Cut to the beat",
+      "seoTitle": "Cut to the Beat: Beat-Synced Video Editing With AI",
       "summary": "Cut footage, captions and motion graphics to the music's beat with a beat map, a frame-snapped cut list and checks.",
       "category": "audio",
       "tags": [
@@ -1615,12 +1992,13 @@
           "caption": "Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "documentary-case-file",
       "name": "Documentary case file",
+      "seoTitle": "Documentary Case File: AI Documentary Video Workflow",
       "summary": "One sentence in, a documentary plan with chapters, locked stills, scene clips and a narrator, assembled on the Subclip timeline.",
       "category": "explainers",
       "tags": [
@@ -1649,30 +2027,31 @@
         {
           "path": "skills/documentary-case-file/examples/empty-gauge-case-file.jpg",
           "kind": "image",
-          "caption": "Fictional case file with three timed chapters, asset IDs and narrator direction."
+          "caption": "Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model."
         },
         {
           "path": "skills/documentary-case-file/examples/greenhouse-location.jpg",
           "kind": "image",
-          "caption": "LOC-01, the empty greenhouse at blue hour with its lit utility alcove."
+          "caption": "LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2."
         },
         {
           "path": "skills/documentary-case-file/examples/float-gauge-prop.jpg",
           "kind": "image",
-          "caption": "PROP-01, a brass gauge with its needle stuck at the low end."
+          "caption": "PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2."
         },
         {
           "path": "skills/documentary-case-file/examples/empty-gauge-chapter-plan.mp4",
           "kind": "video",
-          "caption": "Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge."
+          "caption": "Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "earshot",
       "name": "Sound effects from words",
+      "seoTitle": "Sound Effects From Words: AI Sound Design for Video (earshot)",
       "summary": "Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.",
       "category": "audio",
       "tags": [
@@ -1722,12 +2101,13 @@
           "caption": "By the original author: frames of the earshot launch film, which was cut to its own code-made sounds."
         }
       ],
-      "examplesCredit": "Clip and waveform frame made for Subclip with HyperFrames, sounds rendered locally with earshot. Launch sheet and frames from the earshot README by Leon Lin (MIT).",
+      "examplesCredit": "Clip and waveform frame made for Subclip in code with HyperFrames, sounds synthesized locally with earshot, no image or video model. Launch sheet and frames from the earshot README by Leon Lin (MIT).",
       "examplesKind": "original"
     },
     {
       "slug": "frontend-slides",
       "name": "Frontend Slides",
+      "seoTitle": "Frontend Slides: Turn Slide Outlines Into Animated Video (zarazhangrui)",
       "summary": "Turn a slide outline into editable animated scenes with optional narration and captions, ready to export as video.",
       "category": "slides",
       "tags": [
@@ -1776,12 +2156,13 @@
           "caption": "Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "gbro-collage-broll",
       "name": "Collage B-roll",
+      "seoTitle": "Collage B-Roll for Video (gbro-collage-broll)",
       "summary": "Turn one spoken line into a halftone paper-collage B-roll clip, approved at two gates before any video credits are spent.",
       "category": "broll",
       "tags": [
@@ -1836,6 +2217,7 @@
     {
       "slug": "higgsfield-to-subclip",
       "name": "Relight and background swap",
+      "seoTitle": "Relight and Background Swap for Video (Higgsfield Workflow in Subclip)",
       "summary": "Change the background or lighting of real footage and keep face, lips and timing. Five relight looks, edit by prompt and a stacked reel, all in Subclip.",
       "category": "workflow",
       "tags": [
@@ -1865,30 +2247,31 @@
         {
           "path": "skills/higgsfield-to-subclip/examples/ceramicist-source.jpg",
           "kind": "image",
-          "caption": "Neutral source still with soft daylight from the studio window."
+          "caption": "Neutral source still with soft daylight from the studio window. Image: gpt-image-2."
         },
         {
           "path": "skills/higgsfield-to-subclip/examples/amber.jpg",
           "kind": "image",
-          "caption": "Amber sunset through the same window creates a warm rim against teal shadows."
+          "caption": "Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2."
         },
         {
           "path": "skills/higgsfield-to-subclip/examples/rain.jpg",
           "kind": "image",
-          "caption": "Cold blue storm light with rain confined to the window glass."
+          "caption": "Cold blue storm light with rain confined to the window glass. Image: gpt-image-2."
         },
         {
           "path": "skills/higgsfield-to-subclip/examples/ceramicist-lighting-study.mp4",
           "kind": "video",
-          "caption": "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio."
+          "caption": "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "huashu-art-motion",
       "name": "Huashu art motion",
+      "seoTitle": "Huashu Art Motion: Living Paintings and Art-History Videos (alchaincyf)",
       "summary": "Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.",
       "category": "motion",
       "tags": [
@@ -1915,8 +2298,53 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-24",
       "examples": [
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-mario-claude.mp4",
+          "kind": "video",
+          "caption": "Huashu runs a whole Mario level: a brick asks for a membership, the cursor moves from OpenAI to Claude, a star power-up makes him big."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-mario-combo.mp4",
+          "kind": "video",
+          "caption": "Stomp and kick combo: pixel Sam and Dario cameo as enemies, a kicked shell knocks over the character ahead, then the bricks break."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-mario-pipe.mp4",
+          "kind": "video",
+          "caption": "Down the pipe: the camera rides a green tunnel into a coin room, then a scanline whip pan returns to the ground."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-clawd-vangogh.mp4",
+          "kind": "video",
+          "caption": "Clawd jumps into Van Gogh's Wheat Field with Cypresses and is repainted in thick strokes that follow the original's stroke directions."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-clawd-trex.mp4",
+          "kind": "video",
+          "caption": "Museum night: a T. rex skeleton chases the flashlight beam like a cat chasing a laser dot."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-clawd-dawn.mp4",
+          "kind": "video",
+          "caption": "Dawn: Clawd poses as an exhibit in a picture frame, the guard puts down his coffee, and Clawd blinks once."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-monet.mp4",
+          "kind": "video",
+          "caption": "Walking through paintings: a stone skip on Monet's Japanese Bridge sends ripples across the water, scene drawn in code."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-egypt.mp4",
+          "kind": "video",
+          "caption": "Ancient Egypt: the hero interacts with a scarab beetle inside a code-drawn mural scene."
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/showcase-pixel.mp4",
+          "kind": "video",
+          "caption": "8-bit world: the hero hits a block from below and a coin pops out. Same crossing film, scene drawn in code."
+        },
         {
           "path": "skills/huashu-art-motion/examples/neural-network.jpg",
           "kind": "image",
@@ -1938,12 +2366,91 @@
           "caption": "Bold type and color blocks introduce three stages of AI coding"
         }
       ],
-      "examplesCredit": "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion",
+      "examplesCredit": "Examples by alchaincyf, MIT, from the README of github.com/alchaincyf/huashu-art-motion. The showcase captions are translated to English by Subclip; the film clips are the original GIFs converted to MP4.",
+      "examplesKind": "original"
+    },
+    {
+      "slug": "hyperframes-motion-layers",
+      "name": "HyperFrames motion layers",
+      "seoTitle": "HyperFrames Motion Graphics in Subclip: Editable HTML and GSAP Video Layers (HeyGen HyperFrames)",
+      "preinstalled": true,
+      "summary": "Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.",
+      "category": "motion",
+      "tags": [
+        "hyperframes",
+        "motion-graphics",
+        "gsap",
+        "lottie",
+        "captions",
+        "maps",
+        "charts",
+        "preinstalled"
+      ],
+      "path": "skills/hyperframes-motion-layers",
+      "skills": [
+        "hyperframes-motion-layers"
+      ],
+      "cover": "skills/hyperframes-motion-layers/cover.svg",
+      "preview": "skills/hyperframes-motion-layers/preview.mp4",
+      "adaptedBySubclip": false,
+      "license": "MIT",
+      "upstream": null,
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/hyperframes-motion-layers/examples/capability-hyperframes-motion-layers.mp4",
+          "kind": "video",
+          "caption": "Capability reference: charts, maps, captions and device scenes as HyperFrames layers"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-line-graph-highlight-point.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: line graph that draws in and highlights one point"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-bar-chart-race.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: bar chart race with a ticking year label"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-us-flow-map.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: flow map with animated connections between cities"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-caption-camera-follow.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: kinetic caption words with a camera that follows them"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-subclip-hinged-laptop-showcase.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: hinged laptop device scene for a product reveal"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-terminal-code-reveal.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: terminal line that types out your title"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-saas-launch-logo-reveal.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: title reveal with a glowing purple floor"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/hyperframes-hand-drawn-circle-highlight.mp4",
+          "kind": "video",
+          "caption": "HyperFrames layer: hand-drawn arc and highlighted label (template text)"
+        }
+      ],
+      "examplesCredit": "Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.",
       "examplesKind": "original"
     },
     {
       "slug": "long-to-shorts",
       "name": "Long video to shorts",
+      "seoTitle": "Long Video to Shorts: Podcast Clipping With Captions and Hooks",
       "summary": "Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.",
       "category": "clipping",
       "tags": [
@@ -1991,7 +2498,7 @@
           "caption": "Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions."
         }
       ],
-      "examplesCredit": "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI",
+      "examplesCredit": "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI. Real footage, no image, video or audio generation model.",
       "examplesKind": "test",
       "sourceVideo": {
         "youtube": "aXMPh927_fI",
@@ -2003,6 +2510,7 @@
     {
       "slug": "manim-composer",
       "name": "Manim composer",
+      "seoTitle": "Manim Composer: 3Blue1Brown-Style Math Explainer Videos (OpenMontage)",
       "summary": "Plan and build a 3Blue1Brown-style math explainer as animated, narrated motion-layer scenes.",
       "category": "explainers",
       "tags": [
@@ -2041,12 +2549,13 @@
           "caption": "The settled comparison explains area preservation by comparing equal-width rows."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (SVG animation in headless Chrome, ffmpeg): no image or video model. Timing used local text-to-speech, the clip is silent.",
       "examplesKind": "test"
     },
     {
       "slug": "motion-polish",
       "name": "Motion polish",
+      "seoTitle": "Motion Polish: Animation Craft Rules for Editable Video (emilkowalski/skills)",
       "summary": "Eight skills to animate, review, simplify and name motion on video layers, text and transitions with a high craft bar.",
       "category": "animation",
       "tags": [
@@ -2105,12 +2614,13 @@
           "caption": "A check marker lands with a small overshoot before it settles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "music-to-video",
       "name": "Music to video",
+      "seoTitle": "Music to Video: AI Music Video Workflow",
       "summary": "Turn a music track into a beat-synced video with kinetic type, your own clips and editable motion layers.",
       "category": "audio",
       "tags": [
@@ -2149,12 +2659,13 @@
           "caption": "A still message over the midpoint of a drifting field for the track’s sparse pad."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "open-design-motion",
       "name": "Open Design Motion",
+      "seoTitle": "Open Design Motion: Motion Design Skill for Video (nexu-io/open-design)",
       "summary": "Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.",
       "category": "motion",
       "tags": [
@@ -2212,6 +2723,7 @@
     {
       "slug": "open-design-video-templates",
       "name": "Open Design Video Templates",
+      "seoTitle": "Open Design Video Templates for Motion Graphics (nexu-io/open-design)",
       "summary": "22 editable Subclip motion recipes for kinetic type, editorial data, product promos, diagrams and brand frames.",
       "category": "templates",
       "tags": [
@@ -2267,6 +2779,7 @@
     {
       "slug": "paper-cut-motion",
       "name": "Paper-cut motion",
+      "seoTitle": "Paper-Cut Motion: Layered Paper Animation for Video",
       "summary": "Turn any image into a torn paper collage and a video where the scene assembles piece by piece, finished on the Subclip timeline.",
       "category": "animation",
       "tags": [
@@ -2295,25 +2808,26 @@
         {
           "path": "skills/paper-cut-motion/examples/sailboat-collage.jpg",
           "kind": "image",
-          "caption": "Finished torn paper sailboat with layered teal waves and visible torn edges."
+          "caption": "Finished torn paper sailboat with layered teal waves and visible torn edges. Image: gpt-image-2."
         },
         {
           "path": "skills/paper-cut-motion/examples/sailboat-storyboard.jpg",
           "kind": "image",
-          "caption": "Nine panels showing how the sailboat scene builds from an empty sheet."
+          "caption": "Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2."
         },
         {
           "path": "skills/paper-cut-motion/examples/sailboat-assembly.mp4",
           "kind": "video",
-          "caption": "Silent seven-second paper assembly, following the storyboard order before holding on the collage."
+          "caption": "Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation in headless Chrome encoded with ffmpeg, no video model. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "pixelfx",
       "name": "Pixelfx",
+      "seoTitle": "Pixelfx: Pixel Art Video Effects and Animation (patch-gg/pixelfx)",
       "summary": "244 pixel art effect recipes (fire, magic, impacts, weather, UI, transitions) for canvas motion layers in Subclip.",
       "category": "pixel-art",
       "tags": [
@@ -2365,6 +2879,7 @@
     {
       "slug": "portrait-style-prompts",
       "name": "Portrait style prompts",
+      "seoTitle": "Portrait Style Prompts for AI Video and Avatars",
       "summary": "Turn a frame of your video into a styled portrait (anime, watercolour, pixel art, noir, paper cut) with a seven-slot prompt, then make a video in that style.",
       "category": "templates",
       "tags": [
@@ -2394,30 +2909,31 @@
         {
           "path": "skills/portrait-style-prompts/examples/ceramicist-source.jpg",
           "kind": "image",
-          "caption": "Fictional ceramicist source still with a clear gaze and both hands visible."
+          "caption": "Fictional ceramicist source still with a clear gaze and both hands visible. Image: gpt-image-2."
         },
         {
           "path": "skills/portrait-style-prompts/examples/anime.jpg",
           "kind": "image",
-          "caption": "Cel-shaded restyle with a hard window beam and bold shadows."
+          "caption": "Cel-shaded restyle with a hard window beam and bold shadows. Image: gpt-image-2."
         },
         {
           "path": "skills/portrait-style-prompts/examples/watercolour.jpg",
           "kind": "image",
-          "caption": "Watercolour restyle with soft light, bleeding pigment, and visible paper grain."
+          "caption": "Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2."
         },
         {
           "path": "skills/portrait-style-prompts/examples/ceramicist-style-study.mp4",
           "kind": "video",
-          "caption": "The same ceramicist portrait shifts from the source still to cel shading and watercolour."
+          "caption": "The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "r3f-physics-and-effects",
       "name": "R3F Physics and Effects",
+      "seoTitle": "R3F Physics and Effects: React Three Fiber Scenes for Video (react-three-rapier)",
       "summary": "Build editable 3D impact shots with bouncing bodies, contact cues, and luminous accents.",
       "category": "3d",
       "tags": [
@@ -2475,8 +2991,81 @@
       "examplesKind": "original"
     },
     {
+      "slug": "remotion-motion-layers",
+      "name": "Remotion motion layers",
+      "seoTitle": "Remotion Motion Graphics in Subclip: Editable React Video Layers (Remotion)",
+      "preinstalled": true,
+      "summary": "Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.",
+      "category": "motion",
+      "tags": [
+        "remotion",
+        "react",
+        "motion-graphics",
+        "typed-props",
+        "maps",
+        "three-js",
+        "preinstalled"
+      ],
+      "path": "skills/remotion-motion-layers",
+      "skills": [
+        "remotion-motion-layers"
+      ],
+      "cover": "skills/remotion-motion-layers/cover.svg",
+      "preview": "skills/remotion-motion-layers/preview.mp4",
+      "adaptedBySubclip": false,
+      "license": "MIT",
+      "upstream": null,
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/remotion-motion-layers/examples/capability-remotion-motion-layers.mp4",
+          "kind": "video",
+          "caption": "Capability reference: maps, charts, titles and device scenes as Remotion layers"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-map-explainer.mp4",
+          "kind": "video",
+          "caption": "Remotion template: Cesium globe route between two cities"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-river-sequence.mp4",
+          "kind": "video",
+          "caption": "Remotion template: flat vector map with an ordered route line"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-animated-pie-chart.mp4",
+          "kind": "video",
+          "caption": "Remotion template: animated pie chart with a legend, driven by props"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-glitch-text.mp4",
+          "kind": "video",
+          "caption": "Remotion template: glitch text title"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-golden-bounce-3d.mp4",
+          "kind": "video",
+          "caption": "Remotion template: 3D golden spheres bouncing, rendered with Three.js"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-phone-frame.mp4",
+          "kind": "video",
+          "caption": "Remotion template: phone frame holding a clip on screen"
+        },
+        {
+          "path": "skills/remotion-motion-layers/examples/remotion-terminal-simulator.mp4",
+          "kind": "video",
+          "caption": "Remotion template: terminal simulator with a typed command"
+        }
+      ],
+      "examplesCredit": "Subclip motion graphics template previews, each listed as a Remotion template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.",
+      "examplesKind": "original"
+    },
+    {
       "slug": "svg-character-animation",
       "name": "SVG character animation",
+      "seoTitle": "SVG Character Animation for Explainer Videos",
       "summary": "Rig and animate an SVG character in an editable Subclip motion layer with readable acting.",
       "category": "animation",
       "tags": [
@@ -2515,12 +3104,13 @@
           "caption": "A jointed SVG robot notices something, waves, blinks and settles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     },
     {
       "slug": "threejs-3d-scenes",
       "name": "Three.js 3D scenes",
+      "seoTitle": "Three.js 3D Scenes for Video (mrdoob/three.js)",
       "summary": "Build editable 3D device reveals, camera moves, and product turntables in Subclip.",
       "category": "3d",
       "tags": [
@@ -2575,6 +3165,7 @@
     {
       "slug": "trendjack-animator",
       "name": "Trending animated ads",
+      "seoTitle": "Trending Animated Ads: Song, Story, 3D and Skeleton Ad Maker (trendjack-animator)",
       "summary": "Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.",
       "category": "promos",
       "tags": [
@@ -2606,60 +3197,236 @@
         {
           "path": "skills/trendjack-animator/examples/capability-trending-animated-ad.mp4",
           "kind": "video",
-          "caption": "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
+          "caption": "Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music."
         },
         {
           "path": "skills/trendjack-animator/examples/format-product-song.mp4",
           "kind": "video",
-          "caption": "Format 2, product song: hook, verse, chorus, chorus with a new shot, offer. Stand-in voice and click track."
+          "caption": "Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro."
         },
         {
           "path": "skills/trendjack-animator/examples/format-narrated-story.mp4",
           "kind": "video",
-          "caption": "Format 3, narrated cartoon story: problem, trusted person, how it works, payoff. Stand-in voice."
+          "caption": "Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice."
         },
         {
           "path": "skills/trendjack-animator/examples/format-3d-explainer.mp4",
           "kind": "video",
-          "caption": "Format 4, 3D how-it-works explainer: question, surprise, into the object, mechanism, payoff. Stand-in voice."
+          "caption": "Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice."
         },
         {
           "path": "skills/trendjack-animator/examples/format-skeleton-xray.mp4",
           "kind": "video",
-          "caption": "Format 5, skeleton demo: slumped hook, exaggerate, the swap, the fix with a glow. Stand-in voice."
+          "caption": "Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects."
         },
         {
           "path": "skills/trendjack-animator/examples/format-photoreal-clone.mp4",
           "kind": "video",
-          "caption": "Format 6, photoreal clone as a storyboard: reference shots next to recreated shots, safe zones shown."
+          "caption": "Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice."
         },
         {
-          "path": "skills/trendjack-animator/examples/plate-sheet.jpg",
+          "path": "skills/trendjack-animator/examples/format-drama-song-plates.jpg",
           "kind": "image",
-          "caption": "Plate sheet: the approved characters, made before any scene still"
+          "caption": "Format 1 plates, made before any scene still. Image: gpt-image-2."
         },
         {
-          "path": "skills/trendjack-animator/examples/still-1-the-sting.jpg",
+          "path": "skills/trendjack-animator/examples/format-drama-song-stills.jpg",
           "kind": "image",
-          "caption": "Still for the sting line, made with the plates attached"
+          "caption": "Format 1 stills, one per line. Image: gpt-image-2. Video: p-video-2."
         },
         {
-          "path": "skills/trendjack-animator/examples/still-3-the-mentor.jpg",
+          "path": "skills/trendjack-animator/examples/format-product-song-plates.jpg",
           "kind": "image",
-          "caption": "Still for the mentor line: the product appears for the first time"
+          "caption": "Format 2 plates, made before any scene still. Image: gpt-image-2."
         },
         {
-          "path": "skills/trendjack-animator/examples/still-5-the-win.jpg",
+          "path": "skills/trendjack-animator/examples/format-product-song-stills.jpg",
           "kind": "image",
-          "caption": "Still for the win line: same room, same people, the opposite of line 1"
+          "caption": "Format 2 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-narrated-story-plates.jpg",
+          "kind": "image",
+          "caption": "Format 3 plates, made before any scene still. Image: gpt-image-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-narrated-story-stills.jpg",
+          "kind": "image",
+          "caption": "Format 3 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-3d-explainer-plates.jpg",
+          "kind": "image",
+          "caption": "Format 4 plates, made before any scene still. Image: gpt-image-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-3d-explainer-stills.jpg",
+          "kind": "image",
+          "caption": "Format 4 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-skeleton-xray-plates.jpg",
+          "kind": "image",
+          "caption": "Format 5 plates, made before any scene still. Image: gpt-image-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-skeleton-xray-stills.jpg",
+          "kind": "image",
+          "caption": "Format 5 stills, one per line. Image: gpt-image-2. Video: p-video-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-photoreal-clone-plates.jpg",
+          "kind": "image",
+          "caption": "Format 6 plates: reference creator and fan next to the new creator and lamp. Image: gpt-image-2."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-photoreal-clone-stills.jpg",
+          "kind": "image",
+          "caption": "Format 6 stills: reference shots next to clone shots. Image: gpt-image-2. Video: p-video-2."
         }
       ],
-      "examplesCredit": "Made for this repository with the fictional Lumo lamp. Films rendered with HyperFrames.",
-      "examplesKind": "original"
+      "examplesCredit": "Made with this skill in Subclip for fictional products. Images: gpt-image-2 (Codex CLI). Video: p-video-2 and songs by Subclip models. Voices: local TTS.",
+      "examplesKind": "test"
+    },
+    {
+      "slug": "ugc-ad-director",
+      "name": "UGC ad director",
+      "seoTitle": "UGC Ad Director: Stage-Gated AI UGC Ad Production",
+      "summary": "Stage-gated UGC ad director: character, product and location sheets, concepts, script, storyboard and a consistency check before any video is made.",
+      "category": "promos",
+      "tags": [
+        "ugc",
+        "ads",
+        "storyboard",
+        "character-sheet",
+        "vertical"
+      ],
+      "path": "skills/ugc-ad-director",
+      "skills": [
+        "ugc-ad-director"
+      ],
+      "cover": "skills/ugc-ad-director/cover.svg",
+      "preview": "skills/ugc-ad-director/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit",
+        "author": "Lyra Ai (video) / unknown (doc)",
+        "license": "Not stated",
+        "note": "Google Doc master prompt of unknown authorship, shown in the Lyra Ai course video. Permission has not been confirmed. The wording in this skill is our own and the workflow is rebuilt for Subclip tools."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/ugc-ad-director/examples/capability-ugc-ad-director.mp4",
+          "kind": "video",
+          "caption": "The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard."
+        },
+        {
+          "path": "skills/ugc-ad-director/examples/character-sheet.jpg",
+          "kind": "image",
+          "caption": "Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions)."
+        },
+        {
+          "path": "skills/ugc-ad-director/examples/product-sheet.jpg",
+          "kind": "image",
+          "caption": "Product sheet: a fictional tumbler in every view, so the product never changes between shots."
+        },
+        {
+          "path": "skills/ugc-ad-director/examples/location-sheet.jpg",
+          "kind": "image",
+          "caption": "Location sheet: one fictional kitchen from five angles, with no person and no story."
+        },
+        {
+          "path": "skills/ugc-ad-director/examples/storyboard.jpg",
+          "kind": "image",
+          "caption": "Storyboard image: six 9:16 phone-style panels using the locked character, product and location."
+        }
+      ],
+      "examplesCredit": "Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI image generation). No video model used. Workflow idea from the Lyra Ai course video.",
+      "examplesKind": "test",
+      "sourceVideo": {
+        "youtube": "nqRugrnnKmc",
+        "title": "How to Create AI UGC Ads with ChatGPT + Google Flow Agent Mode (Full Course)",
+        "channel": "Lyra Ai",
+        "license": "Standard YouTube License"
+      }
+    },
+    {
+      "slug": "ugc-ad-engine",
+      "name": "UGC ad engine",
+      "seoTitle": "UGC Ad Engine: AI UGC Ads From a Product and an Avatar",
+      "summary": "Product and avatar in, finished vertical UGC ad out: angles, one gate, script, prompt sheet, avatar clips, captions and CTA on the timeline.",
+      "category": "promos",
+      "tags": [
+        "ugc",
+        "ads",
+        "avatar",
+        "script",
+        "direct-response"
+      ],
+      "path": "skills/ugc-ad-engine",
+      "skills": [
+        "ugc-ad-engine"
+      ],
+      "cover": "skills/ugc-ad-engine/cover.svg",
+      "preview": "skills/ugc-ad-engine/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0",
+        "author": "Website Learners",
+        "license": "Not stated",
+        "note": "Login-walled community post and a YouTube tutorial. Creator permission has not been confirmed. All wording is our own; only the ideas and the structure are kept."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/ugc-ad-engine/examples/capability-ugc-ad.mp4",
+          "kind": "video",
+          "caption": "Capability reference: a 16 s UGC ad for a fictional mug, three avatar clips, captions, hook, AI label, call to action"
+        },
+        {
+          "path": "skills/ugc-ad-engine/examples/angles.jpg",
+          "kind": "image",
+          "caption": "Phase 1 output: the angle table the creator picks from (the single gate)"
+        },
+        {
+          "path": "skills/ugc-ad-engine/examples/prompt-sheet.jpg",
+          "kind": "image",
+          "caption": "Phase 3 output: one finished block for one clip"
+        },
+        {
+          "path": "skills/ugc-ad-engine/examples/fictional-avatar.jpg",
+          "kind": "image",
+          "caption": "Fictional avatar image made with the 6C method for the example run. Image: gpt-image-2."
+        },
+        {
+          "path": "skills/ugc-ad-engine/examples/reference-avatar.jpg",
+          "kind": "image",
+          "caption": "Reference avatar image the run starts from"
+        },
+        {
+          "path": "skills/ugc-ad-engine/examples/reference-generated.jpg",
+          "kind": "image",
+          "caption": "Image generated from that reference"
+        }
+      ],
+      "examplesCredit": "Example ad made for this repository with a fictional product and avatar. Avatar image: gpt-image-2 (Codex CLI image generation). Avatar clips: p-video-avatar. Voice: elevenlabs-flash-v2.5. Reference images supplied by the Subclip owner (generation model not recorded).",
+      "examplesKind": "test",
+      "sourceVideo": {
+        "youtube": "UplOo693FMg",
+        "title": "How To Create Ultra Real AI Avatar",
+        "channel": "Website Learners",
+        "license": "Standard YouTube License"
+      }
     },
     {
       "slug": "video-shotcraft",
       "name": "Video Shotcraft",
+      "seoTitle": "Video Shotcraft: Shot Planning for AI Video (Vincentwei1021/video-shotcraft)",
       "summary": "Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.",
       "category": "promos",
       "tags": [
@@ -2720,6 +3487,7 @@
     {
       "slug": "video-translate",
       "name": "Video translate",
+      "seoTitle": "Video Translate: Dub and Subtitle Videos Into New Languages",
       "summary": "Translate and dub a video into one or more languages with per-speaker voices, timing checks and optional lip-sync.",
       "category": "workflow",
       "tags": [
@@ -2763,12 +3531,13 @@
           "caption": "French and Spanish paper-folding cues appear with their original time windows and measured speech fit."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML cards and HyperFrames): no image or video model. Speech fit measured with the local Supertonic speech model, the clip is silent.",
       "examplesKind": "test"
     },
     {
       "slug": "vox-director",
       "name": "Vox director",
+      "seoTitle": "Vox Director: Paper-Collage Explainer Direction (Alisa0808/vox-director)",
       "summary": "Direct paper-collage explainers with beat maps, theme comparisons, wide-to-detail shot plans and editable motion in Subclip.",
       "category": "explainers",
       "tags": [
@@ -2828,6 +3597,7 @@
     {
       "slug": "vox-explainer",
       "name": "Vox explainer",
+      "seoTitle": "Vox Explainer: One Topic to a Vox-Style Video (vox-explainer-skill)",
       "summary": "One topic in, a finished Vox-style explainer.",
       "category": "explainers",
       "tags": [
@@ -2857,25 +3627,26 @@
         {
           "path": "skills/vox-explainer/examples/paper-fan-anchor.jpg",
           "kind": "image",
-          "caption": "Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid."
+          "caption": "Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2."
         },
         {
           "path": "skills/vox-explainer/examples/accordion-cross-section.jpg",
           "kind": "image",
-          "caption": "A close view of alternating creases, generated using the paper fan keyframe as a style reference."
+          "caption": "A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2."
         },
         {
           "path": "skills/vox-explainer/examples/paper-fan-pleats.mp4",
           "kind": "video",
-          "caption": "A slow push into a paper fan crossfades to a close view of its alternating accordion creases."
+          "caption": "A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: ffmpeg push-in, no video model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.",
       "examplesKind": "test"
     },
     {
       "slug": "wan-animation-styles",
       "name": "Wan animation styles",
+      "seoTitle": "Wan Animation Styles: AI Video Style Prompts (sferro21)",
       "summary": "Photo to style frame to animation in five looks (Expressionism, rubber hose, gothic toon, surreal cartoon, PS1) with Wan 3, plus a multi-shot scene recipe.",
       "category": "animation",
       "tags": [
@@ -2934,6 +3705,7 @@
     {
       "slug": "website-to-video",
       "name": "Website to video",
+      "seoTitle": "Website to Video: Turn a URL Into a Branded Video",
       "summary": "Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.",
       "category": "promos",
       "tags": [
@@ -2972,7 +3744,7 @@
           "caption": "A close-up reuses the site’s original contour map to show how to spot the ridge."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
       "examplesKind": "test"
     }
   ],

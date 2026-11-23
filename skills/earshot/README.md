@@ -24,6 +24,22 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 No API keys, and the agent never installs or runs anything without your yes. Credit costs are quoted before any generation.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/capability-sound-design.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS.</sub></p>
+
+<p align="center"><img src="examples/waveform-markers.jpg" alt="Frame from the reference clip at the impact, with cue labels on the mixed waveform." width="720"><br><sub>Frame from the reference clip at the impact, with cue labels on the mixed waveform.</sub></p>
+
+<p align="center"><img src="examples/earshot-launch-sheet.jpg" alt="By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync)." width="720"><br><sub>By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync).</sub></p>
+
+<p align="center"><img src="examples/earshot-launch-frames.png" alt="By the original author: frames of the earshot launch film, which was cut to its own code-made sounds." width="720"><br><sub>By the original author: frames of the earshot launch film, which was cut to its own code-made sounds.</sub></p>
+
+<p align="center"><sub>Clip and waveform frame made for Subclip in code with HyperFrames, sounds synthesized locally with earshot, no image or video model. Launch sheet and frames from the earshot README by Leon Lin (MIT).</sub></p>
+
+<!-- examples:end -->
+
 ## Credits
 
 Adapted for Subclip from [earshot](https://github.com/Leonxlnx/earshot) by Leon Lin, MIT licensed (see `LICENSE`). The recipes summarise earshot's motion-design sound notes and its way of asking for sounds in words. The reference clip uses sounds rendered with earshot and was built with HyperFrames. The launch sheet and launch frames shown as examples are from the earshot README.

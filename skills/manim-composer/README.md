@@ -24,6 +24,18 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 | `references/scene-examples.md` | Example scene breakdowns (dot product, Fourier series, matrices) |
 | `references/scenes-template.md` | Blank scene plan template |
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/shear-area.mp4" controls muted loop playsinline width="720"></video><br><sub>A rectangle shears slowly while its highlighted horizontal rows keep the same length.</sub></p>
+
+<p align="center"><img src="examples/equal-row-widths.jpg" alt="The settled comparison explains area preservation by comparing equal-width rows." width="720"><br><sub>The settled comparison explains area preservation by comparing equal-width rows.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (SVG animation in headless Chrome, ffmpeg): no image or video model. Timing used local text-to-speech, the clip is silent.</sub></p>
+
+<!-- examples:end -->
+
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`. If you host a modified version as a network service, the AGPL asks you to offer its source.

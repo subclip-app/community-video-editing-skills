@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2468"/><stop offset="1" stop-color="#153592"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif">
+    <rect x="80" y="110" width="400" height="56" rx="28" fill="#26c9d5"/>
+    <text x="280" y="148" text-anchor="middle" font-size="30" font-weight="700" fill="#0b1f5c">Pre-installed in Subclip</text>
+    <text x="80" y="360" font-size="104" font-weight="800" fill="#fff">Remotion</text>
+    <text x="80" y="480" font-size="104" font-weight="800" fill="#26c9d5">motion layers</text>
+    <text x="80" y="570" font-size="38" fill="#cfd8ff">Editable React layers with typed props for titles, charts, maps and 3D</text>
+  </g>
+  <g transform="translate(900 150)" fill="none" stroke="#26c9d5" stroke-width="4">
+    <rect x="0" y="0" width="620" height="360" rx="22" fill="#06143c"/>
+    <rect x="40" y="40" width="300" height="40" rx="10" fill="#fff" stroke="none"/>
+    <rect x="40" y="110" width="200" height="22" rx="8" fill="#26c9d5" stroke="none"/>
+    <path d="M40 300 L150 240 L250 270 L360 170 L470 200 L580 90" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="580" cy="90" r="14" fill="#fff" stroke="none"/>
+  </g>
+  <g transform="translate(900 560)" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#0b1f5c">
+    <rect x="0" y="0" width="129" height="52" rx="26" fill="#26c9d5"/><text x="64" y="35" text-anchor="middle">React</text><rect x="143" y="0" width="95" height="52" rx="26" fill="#26c9d5"/><text x="190" y="35" text-anchor="middle">TSX</text><rect x="252" y="0" width="129" height="52" rx="26" fill="#26c9d5"/><text x="316" y="35" text-anchor="middle">Props</text><rect x="395" y="0" width="180" height="52" rx="26" fill="#26c9d5"/><text x="485" y="35" text-anchor="middle">Three.js</text>
+  </g>
+</svg>

@@ -12,6 +12,20 @@ Tell your agent: "Use commercial-pipeline for <product and idea>". Describe the 
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/desk-lamp-off.jpg" alt="Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2." width="720"><br><sub>Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2.</sub></p>
+
+<p align="center"><img src="examples/desk-lamp-on.jpg" alt="After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2." width="720"><br><sub>After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2.</sub></p>
+
+<p align="center"><video src="examples/desk-lamp-switch-on.mp4" controls muted loop playsinline width="720"></video><br><sub>The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+
+<!-- examples:end -->
+
 ## Source and license
 
 The skill's own page on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5

@@ -1,5 +1,6 @@
 slug: manim-composer
 name: Manim composer
+seoTitle: "Manim Composer: 3Blue1Brown-Style Math Explainer Videos (OpenMontage)"
 summary: Plan and build a 3Blue1Brown-style math explainer as animated, narrated motion-layer scenes.
 category: explainers
 tags: [math, education, 3b1b, explainer]
@@ -15,5 +16,5 @@ examples:
     caption: "A rectangle shears slowly while its highlighted horizontal rows keep the same length."
   - file: examples/equal-row-widths.jpg
     caption: "The settled comparison explains area preservation by comparing equal-width rows."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (SVG animation in headless Chrome, ffmpeg): no image or video model. Timing used local text-to-speech, the clip is silent."
 examplesKind: test

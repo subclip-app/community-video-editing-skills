@@ -1,0 +1,27 @@
+slug: ugc-ad-director
+name: UGC ad director
+seoTitle: "UGC Ad Director: Stage-Gated AI UGC Ad Production"
+summary: Stage-gated UGC ad director: character, product and location sheets, concepts, script, storyboard and a consistency check before any video is made.
+category: promos
+tags: [ugc, ads, storyboard, character-sheet, vertical]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit", author: "Lyra Ai (video) / unknown (doc)", license: Not stated, note: "Google Doc master prompt of unknown authorship, shown in the Lyra Ai course video. Permission has not been confirmed. The wording in this skill is our own and the workflow is rebuilt for Subclip tools." }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-ugc-ad-director.mp4
+    caption: "The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard."
+  - file: examples/character-sheet.jpg
+    caption: "Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions)."
+  - file: examples/product-sheet.jpg
+    caption: "Product sheet: a fictional tumbler in every view, so the product never changes between shots."
+  - file: examples/location-sheet.jpg
+    caption: "Location sheet: one fictional kitchen from five angles, with no person and no story."
+  - file: examples/storyboard.jpg
+    caption: "Storyboard image: six 9:16 phone-style panels using the locked character, product and location."
+examplesCredit: "Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI image generation). No video model used. Workflow idea from the Lyra Ai course video."
+examplesKind: test
+sourceVideo: { youtube: nqRugrnnKmc, title: "How to Create AI UGC Ads with ChatGPT + Google Flow Agent Mode (Full Course)", channel: "Lyra Ai", license: "Standard YouTube License" }

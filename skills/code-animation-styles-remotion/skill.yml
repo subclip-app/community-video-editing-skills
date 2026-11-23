@@ -1,0 +1,96 @@
+slug: code-animation-styles-remotion
+name: 39 code-drawn animation styles
+seoTitle: "39 Code-Drawn Animation Styles for Explainer Videos (animation-styles, Remotion)"
+summary: Pick one of 39 code-drawn looks (whiteboard, papercut, pixel art, hologram and more) and retell your story in it as an editable layer, with no AI credits.
+category: animation
+tags: [animation-styles, remotion, hyperframes, code-animation, explainer, styles, whiteboard, pixel-art]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: deenukhan/animation-styles, author: deenukhan, license: MIT, commit: "7f7afbd4c5a216135e51be354cb245dcfabedb3a", syncedAt: "2026-11-24" }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-animation-styles.mp4
+    caption: "Capability reference: ten of the 39 styles in a 20 second montage"
+  - file: examples/01-whiteboard.mp4
+    caption: "01 Whiteboard: the 5 second chai film"
+  - file: examples/02-chalkboard.mp4
+    caption: "02 Chalkboard: the 5 second chai film"
+  - file: examples/05-notepad-doodle.mp4
+    caption: "05 Notepad doodle: the 5 second chai film"
+  - file: examples/06-blueprint.mp4
+    caption: "06 Blueprint: the 5 second chai film"
+  - file: examples/08-hand-drawn.mp4
+    caption: "08 Hand-drawn pencil sketch: the 5 second chai film"
+  - file: examples/09-urban-sketch.mp4
+    caption: "09 Urban sketch: the 5 second chai film"
+  - file: examples/10-crayon-book.mp4
+    caption: "10 Crayon book: the 5 second chai film"
+  - file: examples/11-watercolour.mp4
+    caption: "11 Watercolour: the 5 second chai film"
+  - file: examples/13-one-line.mp4
+    caption: "13 One line: the 5 second chai film"
+  - file: examples/16-cel-line-boil.mp4
+    caption: "16 Cel line boil: the 5 second chai film"
+  - file: examples/17-flat-vector.mp4
+    caption: "17 Flat vector: the 5 second chai film"
+  - file: examples/21-cel-anime-80s.mp4
+    caption: "21 80s cel anime: the 5 second chai film"
+  - file: examples/22-stick-figure.mp4
+    caption: "22 Stick figure: the 5 second chai film"
+  - file: examples/23-cut-out.mp4
+    caption: "23 Cut-out collage: the 5 second chai film"
+  - file: examples/24-red-papercut.mp4
+    caption: "24 Red papercut: the 5 second chai film"
+  - file: examples/25-paper-pop-up.mp4
+    caption: "25 Paper pop-up: the 5 second chai film"
+  - file: examples/27-shadow-puppet.mp4
+    caption: "27 Shadow puppet: the 5 second chai film"
+  - file: examples/28-woodcut.mp4
+    caption: "28 Woodcut: the 5 second chai film"
+  - file: examples/29-engraving.mp4
+    caption: "29 Engraving: the 5 second chai film"
+  - file: examples/31-silkscreen-poster.mp4
+    caption: "31 Silkscreen poster: the 5 second chai film"
+  - file: examples/33-ukiyo-e.mp4
+    caption: "33 Ukiyo-e: the 5 second chai film"
+  - file: examples/34-art-deco.mp4
+    caption: "34 Art deco: the 5 second chai film"
+  - file: examples/35-stained-glass.mp4
+    caption: "35 Stained glass: the 5 second chai film"
+  - file: examples/39-memphis-diorama.mp4
+    caption: "39 Memphis diorama: the 5 second chai film"
+  - file: examples/51-sticker-explainer.mp4
+    caption: "51 Sticker explainer: the 5 second chai film"
+  - file: examples/52-math-diagram.mp4
+    caption: "52 Math diagram: the 5 second chai film"
+  - file: examples/57-low-poly-island.mp4
+    caption: "57 Low-poly island: the 5 second chai film"
+  - file: examples/58-brick-toy.mp4
+    caption: "58 Brick toy: the 5 second chai film"
+  - file: examples/59-glass-product.mp4
+    caption: "59 Glass product: the 5 second chai film"
+  - file: examples/62-claymation.mp4
+    caption: "62 Claymation: the 5 second chai film"
+  - file: examples/80-lidar-survey.mp4
+    caption: "80 Lidar survey: the 5 second chai film"
+  - file: examples/70-silent-film.mp4
+    caption: "70 Silent film: the 5 second chai film"
+  - file: examples/71-newsreel.mp4
+    caption: "71 Newsreel: the 5 second chai film"
+  - file: examples/64-pixel-art-rpg.mp4
+    caption: "64 Pixel art RPG: the 5 second chai film"
+  - file: examples/81-microscope.mp4
+    caption: "81 Microscope: the 5 second chai film"
+  - file: examples/84-hologram-hud.mp4
+    caption: "84 Hologram HUD: the 5 second chai film"
+  - file: examples/85-circuit-board.mp4
+    caption: "85 Circuit board: the 5 second chai film"
+  - file: examples/87-liquid-motion.mp4
+    caption: "87 Liquid motion: the 5 second chai film"
+  - file: examples/89-generative-abstract.mp4
+    caption: "89 Generative abstract: the 5 second chai film"
+examplesCredit: "Examples by deenukhan, MIT, from the animation-styles repo (github.com/deenukhan/animation-styles)"
+examplesKind: original

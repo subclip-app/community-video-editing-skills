@@ -38,3 +38,23 @@ The three example shorts were cut in Subclip from the first 35 minutes of the [A
 - `references/export-and-schedule.md`: exporting a batch and scheduling it safely.
 
 It uses only Subclip's own tools. No outside API keys, no scripts to run.
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=aXMPh927_fI">Alexander H. King Interview</a>, Purdue University Archives and Special Collections, CC BY</sub></p>
+
+<p align="center"><video src="examples/short-1.mp4" controls muted loop playsinline width="720"></video><br><sub>King takes up fencing to avoid rugby and goes on to represent the United Kingdom.</sub></p>
+
+<p align="center"><video src="examples/short-2.mp4" controls muted loop playsinline width="720"></video><br><sub>A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line.</sub></p>
+
+<p align="center"><video src="examples/short-3.mp4" controls muted loop playsinline width="720"></video><br><sub>King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool.</sub></p>
+
+<p align="center"><img src="examples/plan.jpg" alt="Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions." width="720"><br><sub>Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions.</sub></p>
+
+<p align="center"><img src="examples/timeline.jpg" alt="Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions." width="720"><br><sub>Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions.</sub></p>
+
+<p align="center"><sub>Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI. Real footage, no image, video or audio generation model.</sub></p>
+
+<!-- examples:end -->

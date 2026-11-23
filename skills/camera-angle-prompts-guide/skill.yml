@@ -1,0 +1,53 @@
+slug: camera-angle-prompts-guide
+name: 44 cinematic camera angles
+seoTitle: "44 Cinematic Camera Angles Prompt Guide for AI Video (Digital Windows AI)"
+summary: All 44 camera angles with prompts, a pick-by-emotion table, native fakes and credit-quoted video models, plus a guide to cutting them.
+category: broll
+tags: [camera-angles, cinematography, prompt-guide, b-roll, video-generation, shot-list]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://www.digital-windows.co.uk/guides/camera-angles", author: "Digital Windows AI", license: Not stated, note: "Free email-gated guide with no stated license. Permission to adapt has not been confirmed. Angle names are used as facts; all wording, prompts and images are ours." }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+allowlist:
+  - code: external-provider
+    reason: "Model names describe Subclip's live catalog, not direct provider API calls."
+examples:
+  - file: examples/capability-camera-angles.mp4
+    caption: Capability reference, ten camera angles in one montage with labels
+  - file: examples/worms-eye.jpg
+    caption: 05 Worm's eye: camera on the floor, subject towers above
+  - file: examples/knee-level.jpg
+    caption: 36 Knee level: low height, whole figure in frame
+  - file: examples/cowboy-shot.jpg
+    caption: 23 Cowboy shot: head to mid-thigh, hands in view
+  - file: examples/pov.jpg
+    caption: 14 POV: first person, no hands visible
+  - file: examples/hidden-camera.jpg
+    caption: 29 Hidden camera: a real object blocks part of the frame
+  - file: examples/dolly-zoom.jpg
+    caption: 32 Dolly zoom: same face size, stretched background
+  - file: examples/fisheye.jpg
+    caption: 34 Fisheye: ultra wide lens inches from the face
+  - file: examples/whip-pan.jpg
+    caption: 21 Whip pan: heavy motion blur landing on the subject
+  - file: examples/drone-overview.jpg
+    caption: 20 Drone: sweeping high view of the whole place
+  - file: examples/snorricam.jpg
+    caption: 31 Snorricam: face locked, world swings behind
+  - file: examples/crash-zoom.jpg
+    caption: 30 Crash zoom: sudden punch-in to the face
+  - file: examples/extreme-wide.jpg
+    caption: 12 Extreme wide: tiny subject framed through an arch
+  - file: examples/insert.jpg
+    caption: 24 Insert: detail of the hands, face out of frame
+  - file: examples/split-diopter.jpg
+    caption: 39 Split diopter: near mug and far subject both sharp
+  - file: examples/steadicam-follow.jpg
+    caption: 42 Steadicam: smooth glide behind the subject
+  - file: examples/hip-shot.jpg
+    caption: 37 Hip shot: loose low camera angled up
+examplesCredit: "Original illustrated frames made for this skill by Subclip. Images: gpt-image-2 (Codex CLI image generation). Montage clip assembled from those frames, no video model."
+examplesKind: original

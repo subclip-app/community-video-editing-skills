@@ -1,5 +1,6 @@
 slug: long-to-shorts
 name: Long video to shorts
+seoTitle: "Long Video to Shorts: Podcast Clipping With Captions and Hooks"
 summary: Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.
 category: clipping
 tags: [shorts, reels, clipping, podcast, captions]
@@ -21,6 +22,6 @@ examples:
     caption: "Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions."
   - file: examples/timeline.jpg
     caption: "Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions."
-examplesCredit: "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI"
+examplesCredit: "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI. Real footage, no image, video or audio generation model."
 examplesKind: test
 sourceVideo: { youtube: aXMPh927_fI, title: "Alexander H. King Interview", channel: "Purdue University Archives and Special Collections", license: "CC BY" }

@@ -26,6 +26,22 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 The p5.brush look (WebGL watercolor, pigment mixing) is approximated in plain canvas. The original mascot and model sheets are left out on purpose, because the character is a brand mascot and the repository license is a code license.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><img src="examples/snail-dashes-for-cover.jpg" alt="Wide shot of a painted snail reaching the shelter of a leaf." width="720"><br><sub>Wide shot of a painted snail reaching the shelter of a leaf.</sub></p>
+
+<p align="center"><video src="examples/snail-dashes-for-cover.mp4" controls muted loop playsinline width="720"></video><br><sub>A raindrop startles the snail into a dash, followed by the outgoing brush wipe.</sub></p>
+
+<p align="center"><img src="examples/snail-peeks-out.jpg" alt="Closer painted shot of the snail peeking out while rain falls around the leaf." width="720"><br><sub>Closer painted shot of the snail peeking out while rain falls around the leaf.</sub></p>
+
+<p align="center"><video src="examples/snail-peeks-out.mp4" controls muted loop playsinline width="720"></video><br><sub>The brush wipe reveals the sheltered snail, which peeks out before the iris closes.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+
+<!-- examples:end -->
+
 ## License
 
 MIT, same as the original code. See `LICENSE`.

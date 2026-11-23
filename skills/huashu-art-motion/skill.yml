@@ -1,5 +1,6 @@
 slug: huashu-art-motion
 name: Huashu art motion
+seoTitle: "Huashu Art Motion: Living Paintings and Art-History Videos (alchaincyf)"
 summary: Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.
 category: motion
 tags: [art, painting, animation, motion, explainers]
@@ -9,8 +10,26 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: alchaincyf/huashu-art-motion, author: alchaincyf, license: MIT, commit: "a97c45018d46e950d56d61981138e08f4e092909", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-24
 examples:
+  - file: examples/showcase-mario-claude.mp4
+    caption: "Huashu runs a whole Mario level: a brick asks for a membership, the cursor moves from OpenAI to Claude, a star power-up makes him big."
+  - file: examples/showcase-mario-combo.mp4
+    caption: "Stomp and kick combo: pixel Sam and Dario cameo as enemies, a kicked shell knocks over the character ahead, then the bricks break."
+  - file: examples/showcase-mario-pipe.mp4
+    caption: "Down the pipe: the camera rides a green tunnel into a coin room, then a scanline whip pan returns to the ground."
+  - file: examples/showcase-clawd-vangogh.mp4
+    caption: "Clawd jumps into Van Gogh's Wheat Field with Cypresses and is repainted in thick strokes that follow the original's stroke directions."
+  - file: examples/showcase-clawd-trex.mp4
+    caption: "Museum night: a T. rex skeleton chases the flashlight beam like a cat chasing a laser dot."
+  - file: examples/showcase-clawd-dawn.mp4
+    caption: "Dawn: Clawd poses as an exhibit in a picture frame, the guard puts down his coffee, and Clawd blinks once."
+  - file: examples/showcase-monet.mp4
+    caption: "Walking through paintings: a stone skip on Monet's Japanese Bridge sends ripples across the water, scene drawn in code."
+  - file: examples/showcase-egypt.mp4
+    caption: "Ancient Egypt: the hero interacts with a scarab beetle inside a code-drawn mural scene."
+  - file: examples/showcase-pixel.mp4
+    caption: "8-bit world: the hero hits a block from below and a coin pops out. Same crossing film, scene drawn in code."
   - file: examples/neural-network.jpg
     caption: "A pixel grid becomes the input to a neural network diagram"
   - file: examples/product-launch.jpg
@@ -19,4 +38,4 @@ examples:
     caption: "A sequence of bar, line and candlestick charts with highlighted values"
   - file: examples/kinetic-type.jpg
     caption: "Bold type and color blocks introduce three stages of AI coding"
-examplesCredit: "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion"
+examplesCredit: "Examples by alchaincyf, MIT, from the README of github.com/alchaincyf/huashu-art-motion. The showcase captions are translated to English by Subclip; the film clips are the original GIFs converted to MP4."

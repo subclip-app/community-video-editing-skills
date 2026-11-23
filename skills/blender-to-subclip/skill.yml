@@ -1,5 +1,6 @@
 slug: blender-to-subclip
 name: Blender to Subclip
+seoTitle: "Blender to Subclip: Render 3D Shots Into the Video Timeline (mcp-for-blender)"
 summary: Build and review a short Blender shot, then place the rendered clip or stills on an editable Subclip timeline.
 category: 3d
 tags: [blender, rendering, animation, workflow]

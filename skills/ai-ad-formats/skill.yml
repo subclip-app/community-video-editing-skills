@@ -1,5 +1,6 @@
 slug: ai-ad-formats
 name: AI ad formats
+seoTitle: "AI Ad Formats: 5 Video Ad Styles Prompt Guide (PYNK Society)"
 summary: Five ad formats from one product photo: claymation (4 styles), paper animation (5 styles), singing ad, talking object and skeleton progression.
 category: promos
 tags: [ads, claymation, paper-animation, singing-ad, talking-object]
@@ -27,38 +28,38 @@ examples:
   - file: examples/notion-skeleton-ads.jpg
     caption: "From the creator's list: skeleton progression ad, a see-through body with a cartoon-eyed skeleton."
   - file: examples/sharpener-style-lock.jpg
-    caption: "Test output: claymation style lock with a cobalt hand-crank sharpener and a pencil character."
+    caption: "Test output: claymation style lock with a cobalt hand-crank sharpener and a pencil character. Image: gpt-image-2."
   - file: examples/sharpening-beat.jpg
-    caption: "Test output: use beat with the crank, the inserted pencil and shavings falling into the drawer."
+    caption: "Test output: use beat with the crank, the inserted pencil and shavings falling into the drawer. Image: gpt-image-2."
   - file: examples/sharpener-payoff.jpg
-    caption: "Test output: payoff beat with the sharpened pencil beside the same clay sharpener."
+    caption: "Test output: payoff beat with the sharpened pencil beside the same clay sharpener. Image: gpt-image-2."
   - file: examples/sharpener-in-action.mp4
-    caption: "Test output: a clay pencil meets the crank sharpener, then returns with a freshly sharpened tip."
+    caption: "Test output: a clay pencil meets the crank sharpener, then returns with a freshly sharpened tip. Clip: ffmpeg push-in, no video model."
   - file: examples/claymation-premium-plasticine.jpg
-    caption: "Test output: claymation in premium studio plasticine, with a hand-crank sharpener and a freshly sharpened pencil."
+    caption: "Test output: claymation in premium studio plasticine, with a hand-crank sharpener and a freshly sharpened pencil. Image: gpt-image-2."
   - file: examples/claymation-clip.mp4
-    caption: "Test output: claymation in premium studio plasticine, with a slow push toward the sharpener."
+    caption: "Test output: claymation in premium studio plasticine, with a slow push toward the sharpener. Clip: ffmpeg push-in, no video model."
   - file: examples/paper-animation-layered.jpg
-    caption: "Test output: paper animation in layered papercraft, with a sage bottle in a stacked card landscape."
+    caption: "Test output: paper animation in layered papercraft, with a sage bottle in a stacked card landscape. Image: gpt-image-2."
   - file: examples/paper-animation-origami.jpg
-    caption: "Test output: paper animation in origami, with the same sage bottle in a folded paper landscape."
+    caption: "Test output: paper animation in origami, with the same sage bottle in a folded paper landscape. Image: gpt-image-2."
   - file: examples/paper-animation-clip.mp4
-    caption: "Test output: paper animation, with a slow push and crossfade from layered papercraft to origami."
+    caption: "Test output: paper animation, with a slow push and crossfade from layered papercraft to origami. Clip: ffmpeg push-in, no video model."
   - file: examples/singing-ad-lead.jpg
-    caption: "Test output: singing ad in stylized 3D, with the lead creature and its lantern under a spotlight."
+    caption: "Test output: singing ad in stylized 3D, with the lead creature and its lantern under a spotlight. Image: gpt-image-2."
   - file: examples/singing-ad-performance.jpg
-    caption: "Test output: singing ad in stylized 3D, with the lead creature singing into a microphone."
+    caption: "Test output: singing ad in stylized 3D, with the lead creature singing into a microphone. Image: gpt-image-2."
   - file: examples/singing-ad-payoff.jpg
-    caption: "Test output: singing ad in stylized 3D, with the lantern lighting a campsite map."
+    caption: "Test output: singing ad in stylized 3D, with the lantern lighting a campsite map. Image: gpt-image-2."
   - file: examples/singing-ad-clip.mp4
     caption: "Test output: singing ad in stylized 3D, with three silent storyboard beats from lead to lantern payoff."
   - file: examples/talking-object-squeegee.jpg
-    caption: "Test output: talking object in stylized 3D. I am a squeegee. I sweep water away. So your counter stays dry."
+    caption: "Test output: talking object in stylized 3D. I am a squeegee. I sweep water away. So your counter stays dry. Image: gpt-image-2."
   - file: examples/talking-object-clip.mp4
-    caption: "Test output: talking object in stylized 3D, with a silent push in on a squeegee clearing a spill."
+    caption: "Test output: talking object in stylized 3D, with a silent push in on a squeegee clearing a spill. Clip: ffmpeg push-in, no video model."
   - file: examples/skeleton-progression-board.jpg
-    caption: "Test output: skeleton progression in cinematic 3D, with a garden growing from Day 1 to Day 365."
+    caption: "Test output: skeleton progression in cinematic 3D, with a garden growing from Day 1 to Day 365. Image: gpt-image-2."
   - file: examples/skeleton-progression-clip.mp4
-    caption: "Test output: skeleton progression in cinematic 3D, with Day 1, Day 30 and Day 365 shown in sequence."
-examplesCredit: "Images from the Claude Creative Skill Library Vol 2 by PYNK Society, plus our own test outputs made with this skill in Subclip"
+    caption: "Test output: skeleton progression in cinematic 3D, with Day 1, Day 30 and Day 365 shown in sequence. Clip: ffmpeg push-in, no video model."
+examplesCredit: "Notion images from the Claude Creative Skill Library Vol 2 by PYNK Society. Our own test outputs made with this skill in Subclip: images gpt-image-2 (Codex CLI image generation); clips are ffmpeg crossfades and push-ins of those stills, no video model; silent."
 examplesKind: test

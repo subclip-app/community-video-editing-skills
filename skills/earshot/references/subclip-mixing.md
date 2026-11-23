@@ -24,7 +24,7 @@ Tools named here are in the Subclip AI Editor catalog. If the live catalog diffe
 | Riser | 0.6 to 0.8 | peak at the cue |
 | Impact | 1.0 | loudest cue in the mix, rare |
 
-Judge by relative numbers, since the master target is about -14 to -16 LUFS with true peak under -1 dBTP. You cannot measure loudness with these tools, so say it is unmeasured and ask for a listening pass.
+Judge by relative numbers, since the master target is about -14 to -16 LUFS with true peak under -1 dBTP. Measure it with `get_audio_timeline_sheet` (integrated LUFS, true peak, voice versus music in dB while the voice speaks) and fix what its warnings list. A listening pass is still needed for taste.
 
 ## Ducking
 Subclip has no automatic sidechain tool. Do it by hand:
@@ -38,5 +38,5 @@ Subclip has no automatic sidechain tool. Do it by hand:
 
 ## Check
 - `view_current_frame` at each cue time to confirm the visual moment matches.
-- List audio items and check no two effects overlap in the same band at the same time, and that nothing runs past the project end.
+- `get_audio_timeline_sheet` for the cue window and then the whole project: effects lane, overlaps, clipping, silence, loudness curve and `cutSync`. Re-run it for the changed window after every fix.
 - Say what is unverified: you did not hear the mix.

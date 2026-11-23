@@ -30,6 +30,18 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 Subclip has no beat detection tool yet, so the beat grid is measured by hand from the waveform or taken from a known tempo. Play the preview and tell the agent if cuts feel early or late; it shifts every anchor together.
 
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/percussive-cascade.mp4" controls muted loop playsinline width="720"></video><br><sub>A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line.</sub></p>
+
+<p align="center"><img src="examples/held-pad-message.jpg" alt="A still message over the midpoint of a drifting field for the track’s sparse pad." width="720"><br><sub>A still message over the midpoint of a drifting field for the track’s sparse pad.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+
+<!-- examples:end -->
+
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.

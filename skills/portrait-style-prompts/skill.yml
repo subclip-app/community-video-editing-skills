@@ -1,5 +1,6 @@
 slug: portrait-style-prompts
 name: Portrait style prompts
+seoTitle: "Portrait Style Prompts for AI Video and Avatars"
 summary: Turn a frame of your video into a styled portrait (anime, watercolour, pixel art, noir, paper cut) with a seven-slot prompt, then make a video in that style.
 category: templates
 tags: [style-transfer, portrait, video-frame, anime, watercolor]
@@ -15,12 +16,12 @@ allowlist:
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
 examples:
   - file: examples/ceramicist-source.jpg
-    caption: "Fictional ceramicist source still with a clear gaze and both hands visible."
+    caption: "Fictional ceramicist source still with a clear gaze and both hands visible. Image: gpt-image-2."
   - file: examples/anime.jpg
-    caption: "Cel-shaded restyle with a hard window beam and bold shadows."
+    caption: "Cel-shaded restyle with a hard window beam and bold shadows. Image: gpt-image-2."
   - file: examples/watercolour.jpg
-    caption: "Watercolour restyle with soft light, bleeding pigment, and visible paper grain."
+    caption: "Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2."
   - file: examples/ceramicist-style-study.mp4
-    caption: The same ceramicist portrait shifts from the source still to cel shading and watercolour.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
 examplesKind: test

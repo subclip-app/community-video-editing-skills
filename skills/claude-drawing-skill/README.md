@@ -13,3 +13,23 @@ Try asking your agent to draw a small red kite over an ink-wash ridge in six sec
 - [Workflow](SKILL.md)
 - [Art direction and style recipes](references/art-direction.md)
 - [SVG draw-on recipe](references/svg-draw-on.md)
+
+<!-- examples:start -->
+
+## Examples
+
+<p align="center"><video src="examples/moon-river.mp4" controls muted loop playsinline width="720"></video><br><sub>An ink wash landscape takes shape in successive drawing passes</sub></p>
+
+<p align="center"><img src="examples/paper-balloons.jpg" alt="Layered paper balloons float over a cutout landscape" width="720"><br><sub>Layered paper balloons float over a cutout landscape</sub></p>
+
+<p align="center"><img src="examples/snowy-village.jpg" alt="A snowy village rendered with the rough marks of a linocut" width="720"><br><sub>A snowy village rendered with the rough marks of a linocut</sub></p>
+
+<p align="center"><img src="examples/graphite-bicycle.jpg" alt="A bicycle study with graphite texture and soft shading" width="720"><br><sub>A bicycle study with graphite texture and soft shading</sub></p>
+
+<p align="center"><img src="examples/watercolor-autumn.jpg" alt="Autumn trees and a red boat painted in soft washes" width="720"><br><sub>Autumn trees and a red boat painted in soft washes</sub></p>
+
+<p align="center"><img src="examples/cyanotype-botanicals.jpg" alt="Fern and flower silhouettes on a deep blue ground" width="720"><br><sub>Fern and flower silhouettes on a deep blue ground</sub></p>
+
+<p align="center"><sub>Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill</sub></p>
+
+<!-- examples:end -->

@@ -1,5 +1,6 @@
 slug: video-translate
 name: Video translate
+seoTitle: "Video Translate: Dub and Subtitle Videos Into New Languages"
 summary: Translate and dub a video into one or more languages with per-speaker voices, timing checks and optional lip-sync.
 category: workflow
 tags: [translation, dubbing, localization, lip-sync]
@@ -17,5 +18,5 @@ examples:
     caption: "Spanish paper-folding cues with original timing windows and measured speech fit."
   - file: examples/dubbing-cue-fit.mp4
     caption: "French and Spanish paper-folding cues appear with their original time windows and measured speech fit."
-examplesCredit: "Test outputs made with this skill in Subclip"
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML cards and HyperFrames): no image or video model. Speech fit measured with the local Supertonic speech model, the clip is silent."
 examplesKind: test
