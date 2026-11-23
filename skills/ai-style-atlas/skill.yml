@@ -1,22 +1,188 @@
 slug: ai-style-atlas
 name: AI Style Atlas
-summary: Pick a visual style by name or mood and restyle an explainer on your topic in that look, built as editable layers.
+summary: Pick any of 86 visual styles by name or mood and restyle an explainer on your topic in that look, built as editable layers.
 category: animation
 tags: [styles, explainer, art-direction, catalog]
 cover: cover.svg
 preview: preview.mp4
 adaptedBySubclip: true
 license: Not stated
-upstream: { url: "https://www.futurepedia.io/resources/ai-style-atlas/view", author: Futurepedia, license: Not stated, note: "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed." }
+upstream: { url: "https://www.futurepedia.io/resources/ai-style-atlas/view", author: Futurepedia, license: Not stated, note: "Public catalog page with no stated license. Prompts and media are reproduced with credit and a link to every entry at the Subclip owner's request. Creator permission has not been confirmed." }
 addedAt: 2026-11-23
 examples:
-  - file: examples/shadow-puppet.jpg
-    caption: "Shadow Puppet Theatre still with a cutout dinosaur against an amber cloth screen."
-  - file: examples/shadow-puppet.mp4
-    caption: "Shadow Puppet Theatre motion test with stepped neck rotation at a pinned joint."
-  - file: examples/halftone-pop-panel.jpg
-    caption: "Halftone Pop Panel still with regular dots, heavy ink, and a leaf litter fact."
-  - file: examples/halftone-pop-panel.mp4
-    caption: "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
-examplesCredit: "Test outputs made with this skill in Subclip"
-examplesKind: test
+  - file: examples/atlas-overview.mp4
+    caption: The AI Style Atlas overview video by Futurepedia
+  - file: examples/01-flat-vector-science.jpg
+    caption: "01 Flat-Vector Science (Popular Explainer Looks)"
+  - file: examples/02-watercolor-wash.jpg
+    caption: "02 Watercolor Wash (Painterly)"
+  - file: examples/03-shadow-puppet-theatre.jpg
+    caption: "03 Shadow Puppet Theatre (Paper & Craft)"
+  - file: examples/04-whiteboard-explainer.jpg
+    caption: "04 Whiteboard Explainer (Hand-Drawn)"
+  - file: examples/05-psychedelic-poster.jpg
+    caption: "05 Psychedelic Poster (Cosmic & Psychedelic)"
+  - file: examples/06-tech-glow-explainer.jpg
+    caption: "06 Tech Glow Explainer (Popular Explainer Looks)"
+  - file: examples/07-papercraft-models.jpg
+    caption: "07 Papercraft Models (Popular Explainer Looks)"
+  - file: examples/08-1940s-film-noir.jpg
+    caption: "08 1940s Film Noir (Light & Imaging)"
+  - file: examples/09-manim-style-math.jpg
+    caption: "09 Manim-Style Math (Popular Explainer Looks)"
+  - file: examples/10-illuminated-manuscript.jpg
+    caption: "10 Illuminated Manuscript (Illustration)"
+  - file: examples/11-editorial-essay-collage.jpg
+    caption: "11 Editorial Essay Collage (Popular Explainer Looks)"
+  - file: examples/12-bioluminescent-deep-sea.jpg
+    caption: "12 Bioluminescent Deep Sea (Light & Imaging)"
+  - file: examples/13-product-launch-reveal.jpg
+    caption: "13 Product Launch Reveal (Popular Explainer Looks)"
+  - file: examples/14-halftone-pop-panel.jpg
+    caption: "14 Halftone Pop Panel (Print)"
+  - file: examples/15-isometric-pastel.jpg
+    caption: "15 Isometric Pastel (Dimensional)"
+  - file: examples/16-oscilloscope-vector-art.jpg
+    caption: "16 Oscilloscope Vector Art (Retro Digital)"
+  - file: examples/17-risograph-zine.jpg
+    caption: "17 Risograph Zine (Print)"
+  - file: examples/18-claymation-set.jpg
+    caption: "18 Claymation Set (Paper & Craft)"
+  - file: examples/19-neon-sign-at-night.jpg
+    caption: "19 Neon Sign at Night (Light & Imaging)"
+  - file: examples/20-kawaii-anime.jpg
+    caption: "20 Kawaii Anime (Popular Explainer Looks)"
+  - file: examples/21-ukiyo-e-woodblock.jpg
+    caption: "21 Ukiyo-e Woodblock (Art & Design Movements)"
+  - file: examples/22-16-bit-pixel-odyssey.jpg
+    caption: "22 16-Bit Pixel Odyssey (Retro Digital)"
+  - file: examples/23-chalkboard-lesson.jpg
+    caption: "23 Chalkboard Lesson (Hand-Drawn)"
+  - file: examples/24-cut-paper-diorama.jpg
+    caption: "24 Cut-Paper Diorama (Paper & Craft)"
+  - file: examples/25-cathedral-glass.jpg
+    caption: "25 Cathedral Glass (Painterly)"
+  - file: examples/26-editorial-chart.jpg
+    caption: "26 Editorial Chart (Data & Information)"
+  - file: examples/27-synthwave-outrun.jpg
+    caption: "27 Synthwave Outrun (Retro UI & Neon)"
+  - file: examples/28-origami-studio.jpg
+    caption: "28 Origami Studio (Paper & Craft)"
+  - file: examples/29-linocut-relief-print.jpg
+    caption: "29 Linocut Relief Print (Print)"
+  - file: examples/30-holographic-foil-card.jpg
+    caption: "30 Holographic Foil Card (Light & Imaging)"
+  - file: examples/31-voxel-diorama.jpg
+    caption: "31 Voxel Diorama (Dimensional)"
+  - file: examples/32-sumi-e-ink-wash.jpg
+    caption: "32 Sumi-e Ink Wash (Painterly)"
+  - file: examples/33-etch-a-sketch-toy.jpg
+    caption: "33 Etch A Sketch Toy (Hand-Drawn)"
+  - file: examples/34-cosmic-star-chart.jpg
+    caption: "34 Cosmic Star Chart (Cosmic & Psychedelic)"
+  - file: examples/35-punk-zine-collage.jpg
+    caption: "35 Punk Zine Collage (Paper & Craft)"
+  - file: examples/36-thermal-camera.jpg
+    caption: "36 Thermal Camera (Light & Imaging)"
+  - file: examples/37-engineering-blueprint.jpg
+    caption: "37 Engineering Blueprint (Hand-Drawn)"
+  - file: examples/38-impasto-night.jpg
+    caption: "38 Impasto Night (Painterly)"
+  - file: examples/39-win95-desktop.jpg
+    caption: "39 Win95 Desktop (Retro UI & Neon)"
+  - file: examples/40-low-poly-faceted.jpg
+    caption: "40 Low-Poly Faceted (Dimensional)"
+  - file: examples/41-manga-page.jpg
+    caption: "41 Manga Page (Illustration)"
+  - file: examples/42-wood-type-letterpress.jpg
+    caption: "42 Wood Type Letterpress (Print)"
+  - file: examples/43-light-painting.jpg
+    caption: "43 Light Painting (Light & Imaging)"
+  - file: examples/44-felt-and-patchwork.jpg
+    caption: "44 Felt & Patchwork (Paper & Craft)"
+  - file: examples/45-phosphor-terminal.jpg
+    caption: "45 Phosphor Terminal (Retro Digital)"
+  - file: examples/46-glassmorphism-ui.jpg
+    caption: "46 Glassmorphism UI (Dimensional)"
+  - file: examples/47-tarot-card.jpg
+    caption: "47 Tarot Card (Illustration)"
+  - file: examples/48-transit-map.jpg
+    caption: "48 Transit Map (Data & Information)"
+  - file: examples/49-gouache-travel-poster.jpg
+    caption: "49 Gouache Travel Poster (Painterly)"
+  - file: examples/50-napkin-sketch.jpg
+    caption: "50 Napkin Sketch (Hand-Drawn)"
+  - file: examples/51-art-deco-foil.jpg
+    caption: "51 Art Deco Foil (Art & Design Movements)"
+  - file: examples/52-radiograph-on-lightbox.jpg
+    caption: "52 Radiograph on Lightbox (Light & Imaging)"
+  - file: examples/53-vaporwave.jpg
+    caption: "53 Vaporwave (Retro UI & Neon)"
+  - file: examples/54-ebru-paper-marbling.jpg
+    caption: "54 Ebru Paper Marbling (Generative & Type)"
+  - file: examples/55-isotype-pictograms.jpg
+    caption: "55 ISOTYPE Pictograms (Data & Information)"
+  - file: examples/56-soft-3d-clay.jpg
+    caption: "56 Soft 3D Clay (Dimensional)"
+  - file: examples/57-cross-stitch-sampler.jpg
+    caption: "57 Cross-Stitch Sampler (Paper & Craft)"
+  - file: examples/58-constructivist-propaganda.jpg
+    caption: "58 Constructivist Propaganda (Art & Design Movements)"
+  - file: examples/59-pocket-monochrome.jpg
+    caption: "59 Pocket Monochrome (Retro Digital)"
+  - file: examples/60-botanical-plate.jpg
+    caption: "60 Botanical Plate (Illustration)"
+  - file: examples/61-kinetic-type.jpg
+    caption: "61 Kinetic Type (Generative & Type)"
+  - file: examples/62-byzantine-mosaic.jpg
+    caption: "62 Byzantine Mosaic (Illustration)"
+  - file: examples/63-y2k-liquid-chrome.jpg
+    caption: "63 Y2K Liquid Chrome (Retro UI & Neon)"
+  - file: examples/64-sticky-note-wall.jpg
+    caption: "64 Sticky-Note Wall (Illustration)"
+  - file: examples/65-vintage-newsprint.jpg
+    caption: "65 Vintage Newsprint (Print)"
+  - file: examples/66-hidden-line-wireframe.jpg
+    caption: "66 Hidden-Line Wireframe (Dimensional)"
+  - file: examples/67-memphis-group.jpg
+    caption: "67 Memphis Group (Art & Design Movements)"
+  - file: examples/68-ballpoint-notebook.jpg
+    caption: "68 Ballpoint Notebook (Hand-Drawn)"
+  - file: examples/69-op-art-sphere.jpg
+    caption: "69 Op Art Sphere (Generative & Type)"
+  - file: examples/70-topographic-survey.jpg
+    caption: "70 Topographic Survey (Data & Information)"
+  - file: examples/71-pointillist-afternoon.jpg
+    caption: "71 Pointillist Afternoon (Painterly)"
+  - file: examples/72-vector-arcade-1980.jpg
+    caption: "72 Vector Arcade 1980 (Retro Digital)"
+  - file: examples/73-patent-drawing.jpg
+    caption: "73 Patent Drawing (Illustration)"
+  - file: examples/74-bauhaus-poster.jpg
+    caption: "74 Bauhaus Poster (Art & Design Movements)"
+  - file: examples/75-bitmap-paint-doodle.jpg
+    caption: "75 Bitmap Paint Doodle (Retro UI & Neon)"
+  - file: examples/76-nail-and-thread-string-art.jpg
+    caption: "76 Nail & Thread String Art (Generative & Type)"
+  - file: examples/77-ridgeline.jpg
+    caption: "77 Ridgeline (Data & Information)"
+  - file: examples/78-sketchbook-graphite.jpg
+    caption: "78 Sketchbook Graphite (Hand-Drawn)"
+  - file: examples/79-teletext-page.jpg
+    caption: "79 Teletext Page (Retro UI & Neon)"
+  - file: examples/80-silkscreen-grid.jpg
+    caption: "80 Silkscreen Grid (Print)"
+  - file: examples/81-guilloche-security-print.jpg
+    caption: "81 Guilloché Security Print (Generative & Type)"
+  - file: examples/82-ascii-demoscene.jpg
+    caption: "82 ASCII Demoscene (Retro Digital)"
+  - file: examples/83-international-typographic-style.jpg
+    caption: "83 International Typographic Style (Art & Design Movements)"
+  - file: examples/84-flow-field.jpg
+    caption: "84 Flow Field (Data & Information)"
+  - file: examples/85-macpaint-1984.jpg
+    caption: "85 MacPaint 1984 (Retro Digital)"
+  - file: examples/86-multi-scale-truchet.jpg
+    caption: "86 Multi-scale Truchet (Generative & Type)"
+examplesCredit: "Media and prompts from the AI Style Atlas by Futurepedia (futurepedia.io/resources/ai-style-atlas/view)"
+examplesKind: original

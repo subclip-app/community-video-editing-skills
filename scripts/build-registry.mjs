@@ -44,7 +44,7 @@ export function validateMetadata(m, slug) {
   }
   assert(!m.adaptedBySubclip || m.upstream !== null, 'Adapted skills need upstream credit');
   if (m.examples !== undefined) {
-    assert(Array.isArray(m.examples) && m.examples.length >= 1 && m.examples.length <= 24, 'examples must list 1 to 24 files');
+    assert(Array.isArray(m.examples) && m.examples.length >= 1 && m.examples.length <= 100, 'examples must list 1 to 100 files');
     const seen = new Set();
     for (const item of m.examples) {
       keys(item, ['file','caption'], 'examples item'); text(item.file, 'examples file', 200);

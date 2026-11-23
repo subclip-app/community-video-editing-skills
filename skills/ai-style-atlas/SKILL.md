@@ -7,9 +7,9 @@ description: Restyle an explainer video in a named visual style from a catalog (
 
 A style catalog plus a workflow. The creator picks a style by name or mood. You make an explainer on their topic in that style, inside Subclip, with every scene editable.
 
-Catalog: `references/` has one file per category. Each entry has our own description of the look and a recipe (engine, palette, motion rules, one check). Each links to the source atlas.
+Catalog: `references/` has one file per category (14 files) and `references/index.md` lists all 86 styles. Each entry has a poster, the atlas description, the atlas style card (look, motion, how it explains) in a code block, our own Subclip recipe (engine, palette, motion, one check) and a link back to the atlas. The full atlas Copy prompt text for every style (reference animation source plus sound kit) is in `references/prompts/NN-name.txt`.
 
-Coverage today: 15 of the atlas's 86 styles (see `references/index.md`). If the creator asks for a style that is not listed, say so and offer the closest listed style or build a custom look using the same recipe pattern.
+Coverage: all 86 styles of the atlas. If the creator asks for a look that is not listed, offer the closest listed style or build a custom look using the same recipe pattern.
 
 ## Before you start
 
@@ -22,10 +22,10 @@ Coverage today: 15 of the atlas's 86 styles (see `references/index.md`). If the 
 ## Workflow
 
 1. **Choose the style.** Ask for the topic, length (default 45 to 60 seconds, landscape) and a style name or a mood. Map moods to the catalog (calm and handmade: Watercolor Wash, Whiteboard Explainer; sleek and techy: Tech Glow Explainer, Product Launch Reveal; moody: 1940s Film Noir, Bioluminescent Deep Sea). Offer two or three candidates when unsure and let the creator pick.
-2. **Read the recipe** for the chosen style in `references/`. It names the engine:
+2. **Load the style.** Find the style in `references/index.md`, open its category file and read the style card and recipe. Use the card (Look, Motion, How it explains) as the style prompt: paste it into the `generate_ai_media` prompt for images or video, or follow it as design direction for HyperFrames or Remotion layers. Open the full prompt file `references/prompts/NN-name.txt` only when you need the reference animation source (it is about 70 KB); never paste it whole into a generation prompt. The recipe names the engine:
    - HyperFrames layer (`add_runtime_layer`): default for CSS, SVG and canvas looks.
    - Remotion layer: only when the creator asks for React or a Remotion template.
-   - Generated image or video (`generate_ai_media`): for painterly, photographic or illustrated looks that code cannot fake. Write a style prompt of your own from the recipe's palette and texture notes.
+   - Generated image or video (`generate_ai_media`): for painterly, photographic or illustrated looks that code cannot fake. Use the style card plus the recipe's palette and texture notes as the style prompt.
    - Native edit: titles, captions and simple moves (`add_text_overlay`, `add_media_keyframe`).
 3. **Storyboard in the style.** 6 to 8 beats, one idea each. For every beat write narration, the visual in the style's vocabulary, and the motion rule. Save it with `update_project_director_brief` with the style name, palette hex values and the source link.
 4. **Voice first.** `get_voice_samples` then `set_approved_voice` then `generate_speech`, or `generate_local_speech` for a free test. Import and use real audio durations as the beat clock (`set_project_duration` to match).
@@ -44,8 +44,25 @@ Record results with `write_session_summary`. Do not claim a visual check you did
 - Never copy an artist's or brand's artwork. Describe a look by its qualities, not by tracing a work.
 - Keep facts true. Style never excuses an invented number.
 
+## All 86 styles
+
+- [Popular Explainer Looks](references/popular-explainer-looks.md): 01 Flat-Vector Science, 06 Tech Glow Explainer, 07 Papercraft Models, 09 Manim-Style Math, 11 Editorial Essay Collage, 13 Product Launch Reveal, 20 Kawaii Anime
+- [Painterly](references/painterly.md): 02 Watercolor Wash, 25 Cathedral Glass, 32 Sumi-e Ink Wash, 38 Impasto Night, 49 Gouache Travel Poster, 71 Pointillist Afternoon
+- [Print](references/print.md): 14 Halftone Pop Panel, 17 Risograph Zine, 29 Linocut Relief Print, 42 Wood Type Letterpress, 65 Vintage Newsprint, 80 Silkscreen Grid
+- [Paper & Craft](references/paper-and-craft.md): 03 Shadow Puppet Theatre, 18 Claymation Set, 24 Cut-Paper Diorama, 28 Origami Studio, 35 Punk Zine Collage, 44 Felt & Patchwork, 57 Cross-Stitch Sampler
+- [Hand-Drawn](references/hand-drawn.md): 04 Whiteboard Explainer, 23 Chalkboard Lesson, 33 Etch A Sketch Toy, 37 Engineering Blueprint, 50 Napkin Sketch, 68 Ballpoint Notebook, 78 Sketchbook Graphite
+- [Illustration](references/illustration.md): 10 Illuminated Manuscript, 41 Manga Page, 47 Tarot Card, 60 Botanical Plate, 62 Byzantine Mosaic, 64 Sticky-Note Wall, 73 Patent Drawing
+- [Art & Design Movements](references/art-and-design-movements.md): 21 Ukiyo-e Woodblock, 51 Art Deco Foil, 58 Constructivist Propaganda, 67 Memphis Group, 74 Bauhaus Poster, 83 International Typographic Style
+- [Retro Digital](references/retro-digital.md): 16 Oscilloscope Vector Art, 22 16-Bit Pixel Odyssey, 45 Phosphor Terminal, 59 Pocket Monochrome, 72 Vector Arcade 1980, 82 ASCII Demoscene, 85 MacPaint 1984
+- [Retro UI & Neon](references/retro-ui-and-neon.md): 27 Synthwave Outrun, 39 Win95 Desktop, 53 Vaporwave, 63 Y2K Liquid Chrome, 75 Bitmap Paint Doodle, 79 Teletext Page
+- [Dimensional](references/dimensional.md): 15 Isometric Pastel, 31 Voxel Diorama, 40 Low-Poly Faceted, 46 Glassmorphism UI, 56 Soft 3D Clay, 66 Hidden-Line Wireframe
+- [Light & Imaging](references/light-and-imaging.md): 08 1940s Film Noir, 12 Bioluminescent Deep Sea, 19 Neon Sign at Night, 30 Holographic Foil Card, 36 Thermal Camera, 43 Light Painting, 52 Radiograph on Lightbox
+- [Data & Information](references/data-and-information.md): 26 Editorial Chart, 48 Transit Map, 55 ISOTYPE Pictograms, 70 Topographic Survey, 77 Ridgeline, 84 Flow Field
+- [Generative & Type](references/generative-and-type.md): 54 Ebru Paper Marbling, 61 Kinetic Type, 69 Op Art Sphere, 76 Nail & Thread String Art, 81 Guilloché Security Print, 86 Multi-scale Truchet
+- [Cosmic & Psychedelic](references/cosmic-and-psychedelic.md): 05 Psychedelic Poster, 34 Cosmic Star Chart
+
 ## Credit
 
-Style names and categories come from the AI Style Atlas by Futurepedia. All descriptions and recipes here are our own wording. See LICENSE and the project REFERENCES.md.
+Style names, categories, descriptions, prompts and poster images come from the AI Style Atlas by Futurepedia and are reproduced with credit and a link to every entry, at the Subclip owner's request. The atlas states no license. The Subclip recipes and checks are our own wording. See LICENSE and the project REFERENCES.md.
 
 Adapted for Subclip from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resources/ai-style-atlas/view)

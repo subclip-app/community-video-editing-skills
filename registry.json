@@ -374,7 +374,7 @@
     {
       "slug": "ai-style-atlas",
       "name": "AI Style Atlas",
-      "summary": "Pick a visual style by name or mood and restyle an explainer on your topic in that look, built as editable layers.",
+      "summary": "Pick any of 86 visual styles by name or mood and restyle an explainer on your topic in that look, built as editable layers.",
       "category": "animation",
       "tags": [
         "styles",
@@ -394,33 +394,448 @@
         "url": "https://www.futurepedia.io/resources/ai-style-atlas/view",
         "author": "Futurepedia",
         "license": "Not stated",
-        "note": "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed."
+        "note": "Public catalog page with no stated license. Prompts and media are reproduced with credit and a link to every entry at the Subclip owner's request. Creator permission has not been confirmed."
       },
       "addedAt": "2026-11-23",
       "examples": [
         {
-          "path": "skills/ai-style-atlas/examples/shadow-puppet.jpg",
-          "kind": "image",
-          "caption": "Shadow Puppet Theatre still with a cutout dinosaur against an amber cloth screen."
-        },
-        {
-          "path": "skills/ai-style-atlas/examples/shadow-puppet.mp4",
+          "path": "skills/ai-style-atlas/examples/atlas-overview.mp4",
           "kind": "video",
-          "caption": "Shadow Puppet Theatre motion test with stepped neck rotation at a pinned joint."
+          "caption": "The AI Style Atlas overview video by Futurepedia"
         },
         {
-          "path": "skills/ai-style-atlas/examples/halftone-pop-panel.jpg",
+          "path": "skills/ai-style-atlas/examples/01-flat-vector-science.jpg",
           "kind": "image",
-          "caption": "Halftone Pop Panel still with regular dots, heavy ink, and a leaf litter fact."
+          "caption": "01 Flat-Vector Science (Popular Explainer Looks)"
         },
         {
-          "path": "skills/ai-style-atlas/examples/halftone-pop-panel.mp4",
-          "kind": "video",
-          "caption": "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
+          "path": "skills/ai-style-atlas/examples/02-watercolor-wash.jpg",
+          "kind": "image",
+          "caption": "02 Watercolor Wash (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/03-shadow-puppet-theatre.jpg",
+          "kind": "image",
+          "caption": "03 Shadow Puppet Theatre (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/04-whiteboard-explainer.jpg",
+          "kind": "image",
+          "caption": "04 Whiteboard Explainer (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/05-psychedelic-poster.jpg",
+          "kind": "image",
+          "caption": "05 Psychedelic Poster (Cosmic & Psychedelic)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/06-tech-glow-explainer.jpg",
+          "kind": "image",
+          "caption": "06 Tech Glow Explainer (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/07-papercraft-models.jpg",
+          "kind": "image",
+          "caption": "07 Papercraft Models (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/08-1940s-film-noir.jpg",
+          "kind": "image",
+          "caption": "08 1940s Film Noir (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/09-manim-style-math.jpg",
+          "kind": "image",
+          "caption": "09 Manim-Style Math (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/10-illuminated-manuscript.jpg",
+          "kind": "image",
+          "caption": "10 Illuminated Manuscript (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/11-editorial-essay-collage.jpg",
+          "kind": "image",
+          "caption": "11 Editorial Essay Collage (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/12-bioluminescent-deep-sea.jpg",
+          "kind": "image",
+          "caption": "12 Bioluminescent Deep Sea (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/13-product-launch-reveal.jpg",
+          "kind": "image",
+          "caption": "13 Product Launch Reveal (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/14-halftone-pop-panel.jpg",
+          "kind": "image",
+          "caption": "14 Halftone Pop Panel (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/15-isometric-pastel.jpg",
+          "kind": "image",
+          "caption": "15 Isometric Pastel (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/16-oscilloscope-vector-art.jpg",
+          "kind": "image",
+          "caption": "16 Oscilloscope Vector Art (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/17-risograph-zine.jpg",
+          "kind": "image",
+          "caption": "17 Risograph Zine (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/18-claymation-set.jpg",
+          "kind": "image",
+          "caption": "18 Claymation Set (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/19-neon-sign-at-night.jpg",
+          "kind": "image",
+          "caption": "19 Neon Sign at Night (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/20-kawaii-anime.jpg",
+          "kind": "image",
+          "caption": "20 Kawaii Anime (Popular Explainer Looks)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/21-ukiyo-e-woodblock.jpg",
+          "kind": "image",
+          "caption": "21 Ukiyo-e Woodblock (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/22-16-bit-pixel-odyssey.jpg",
+          "kind": "image",
+          "caption": "22 16-Bit Pixel Odyssey (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/23-chalkboard-lesson.jpg",
+          "kind": "image",
+          "caption": "23 Chalkboard Lesson (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/24-cut-paper-diorama.jpg",
+          "kind": "image",
+          "caption": "24 Cut-Paper Diorama (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/25-cathedral-glass.jpg",
+          "kind": "image",
+          "caption": "25 Cathedral Glass (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/26-editorial-chart.jpg",
+          "kind": "image",
+          "caption": "26 Editorial Chart (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/27-synthwave-outrun.jpg",
+          "kind": "image",
+          "caption": "27 Synthwave Outrun (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/28-origami-studio.jpg",
+          "kind": "image",
+          "caption": "28 Origami Studio (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/29-linocut-relief-print.jpg",
+          "kind": "image",
+          "caption": "29 Linocut Relief Print (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/30-holographic-foil-card.jpg",
+          "kind": "image",
+          "caption": "30 Holographic Foil Card (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/31-voxel-diorama.jpg",
+          "kind": "image",
+          "caption": "31 Voxel Diorama (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/32-sumi-e-ink-wash.jpg",
+          "kind": "image",
+          "caption": "32 Sumi-e Ink Wash (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/33-etch-a-sketch-toy.jpg",
+          "kind": "image",
+          "caption": "33 Etch A Sketch Toy (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/34-cosmic-star-chart.jpg",
+          "kind": "image",
+          "caption": "34 Cosmic Star Chart (Cosmic & Psychedelic)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/35-punk-zine-collage.jpg",
+          "kind": "image",
+          "caption": "35 Punk Zine Collage (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/36-thermal-camera.jpg",
+          "kind": "image",
+          "caption": "36 Thermal Camera (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/37-engineering-blueprint.jpg",
+          "kind": "image",
+          "caption": "37 Engineering Blueprint (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/38-impasto-night.jpg",
+          "kind": "image",
+          "caption": "38 Impasto Night (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/39-win95-desktop.jpg",
+          "kind": "image",
+          "caption": "39 Win95 Desktop (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/40-low-poly-faceted.jpg",
+          "kind": "image",
+          "caption": "40 Low-Poly Faceted (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/41-manga-page.jpg",
+          "kind": "image",
+          "caption": "41 Manga Page (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/42-wood-type-letterpress.jpg",
+          "kind": "image",
+          "caption": "42 Wood Type Letterpress (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/43-light-painting.jpg",
+          "kind": "image",
+          "caption": "43 Light Painting (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/44-felt-and-patchwork.jpg",
+          "kind": "image",
+          "caption": "44 Felt & Patchwork (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/45-phosphor-terminal.jpg",
+          "kind": "image",
+          "caption": "45 Phosphor Terminal (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/46-glassmorphism-ui.jpg",
+          "kind": "image",
+          "caption": "46 Glassmorphism UI (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/47-tarot-card.jpg",
+          "kind": "image",
+          "caption": "47 Tarot Card (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/48-transit-map.jpg",
+          "kind": "image",
+          "caption": "48 Transit Map (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/49-gouache-travel-poster.jpg",
+          "kind": "image",
+          "caption": "49 Gouache Travel Poster (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/50-napkin-sketch.jpg",
+          "kind": "image",
+          "caption": "50 Napkin Sketch (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/51-art-deco-foil.jpg",
+          "kind": "image",
+          "caption": "51 Art Deco Foil (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/52-radiograph-on-lightbox.jpg",
+          "kind": "image",
+          "caption": "52 Radiograph on Lightbox (Light & Imaging)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/53-vaporwave.jpg",
+          "kind": "image",
+          "caption": "53 Vaporwave (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/54-ebru-paper-marbling.jpg",
+          "kind": "image",
+          "caption": "54 Ebru Paper Marbling (Generative & Type)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/55-isotype-pictograms.jpg",
+          "kind": "image",
+          "caption": "55 ISOTYPE Pictograms (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/56-soft-3d-clay.jpg",
+          "kind": "image",
+          "caption": "56 Soft 3D Clay (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/57-cross-stitch-sampler.jpg",
+          "kind": "image",
+          "caption": "57 Cross-Stitch Sampler (Paper & Craft)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/58-constructivist-propaganda.jpg",
+          "kind": "image",
+          "caption": "58 Constructivist Propaganda (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/59-pocket-monochrome.jpg",
+          "kind": "image",
+          "caption": "59 Pocket Monochrome (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/60-botanical-plate.jpg",
+          "kind": "image",
+          "caption": "60 Botanical Plate (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/61-kinetic-type.jpg",
+          "kind": "image",
+          "caption": "61 Kinetic Type (Generative & Type)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/62-byzantine-mosaic.jpg",
+          "kind": "image",
+          "caption": "62 Byzantine Mosaic (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/63-y2k-liquid-chrome.jpg",
+          "kind": "image",
+          "caption": "63 Y2K Liquid Chrome (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/64-sticky-note-wall.jpg",
+          "kind": "image",
+          "caption": "64 Sticky-Note Wall (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/65-vintage-newsprint.jpg",
+          "kind": "image",
+          "caption": "65 Vintage Newsprint (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/66-hidden-line-wireframe.jpg",
+          "kind": "image",
+          "caption": "66 Hidden-Line Wireframe (Dimensional)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/67-memphis-group.jpg",
+          "kind": "image",
+          "caption": "67 Memphis Group (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/68-ballpoint-notebook.jpg",
+          "kind": "image",
+          "caption": "68 Ballpoint Notebook (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/69-op-art-sphere.jpg",
+          "kind": "image",
+          "caption": "69 Op Art Sphere (Generative & Type)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/70-topographic-survey.jpg",
+          "kind": "image",
+          "caption": "70 Topographic Survey (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/71-pointillist-afternoon.jpg",
+          "kind": "image",
+          "caption": "71 Pointillist Afternoon (Painterly)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/72-vector-arcade-1980.jpg",
+          "kind": "image",
+          "caption": "72 Vector Arcade 1980 (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/73-patent-drawing.jpg",
+          "kind": "image",
+          "caption": "73 Patent Drawing (Illustration)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/74-bauhaus-poster.jpg",
+          "kind": "image",
+          "caption": "74 Bauhaus Poster (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/75-bitmap-paint-doodle.jpg",
+          "kind": "image",
+          "caption": "75 Bitmap Paint Doodle (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/76-nail-and-thread-string-art.jpg",
+          "kind": "image",
+          "caption": "76 Nail & Thread String Art (Generative & Type)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/77-ridgeline.jpg",
+          "kind": "image",
+          "caption": "77 Ridgeline (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/78-sketchbook-graphite.jpg",
+          "kind": "image",
+          "caption": "78 Sketchbook Graphite (Hand-Drawn)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/79-teletext-page.jpg",
+          "kind": "image",
+          "caption": "79 Teletext Page (Retro UI & Neon)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/80-silkscreen-grid.jpg",
+          "kind": "image",
+          "caption": "80 Silkscreen Grid (Print)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/81-guilloche-security-print.jpg",
+          "kind": "image",
+          "caption": "81 Guilloché Security Print (Generative & Type)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/82-ascii-demoscene.jpg",
+          "kind": "image",
+          "caption": "82 ASCII Demoscene (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/83-international-typographic-style.jpg",
+          "kind": "image",
+          "caption": "83 International Typographic Style (Art & Design Movements)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/84-flow-field.jpg",
+          "kind": "image",
+          "caption": "84 Flow Field (Data & Information)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/85-macpaint-1984.jpg",
+          "kind": "image",
+          "caption": "85 MacPaint 1984 (Retro Digital)"
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/86-multi-scale-truchet.jpg",
+          "kind": "image",
+          "caption": "86 Multi-scale Truchet (Generative & Type)"
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
-      "examplesKind": "test"
+      "examplesCredit": "Media and prompts from the AI Style Atlas by Futurepedia (futurepedia.io/resources/ai-style-atlas/view)",
+      "examplesKind": "original"
     },
     {
       "slug": "ai-video-editor-cooked",

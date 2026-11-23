@@ -164,7 +164,7 @@ Generated from each folder's `skill.yml` by `npm run build`.
 <td width="33%" valign="top">
 <a href="skills/ai-style-atlas"><img src="skills/ai-style-atlas/cover.svg" alt="AI Style Atlas" width="100%"></a><br>
 <a href="skills/ai-style-atlas"><b>AI Style Atlas</b></a><br>
-<sub>Pick a visual style by name or mood and restyle an explainer on your topic in that look, built as editable layers.</sub><br>
+<sub>Pick any of 86 visual styles by name or mood and restyle an explainer on your topic in that look, built as editable layers.</sub><br>
 <sub>Adapted from <a href="https://www.futurepedia.io/resources/ai-style-atlas/view">www.futurepedia.io/resources/ai-style-atlas/view</a> by Futurepedia</sub>
 </td>
 <td width="33%" valign="top">

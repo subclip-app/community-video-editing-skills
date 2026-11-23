@@ -4,10 +4,6 @@ Adapted for Subclip from the AI Style Atlas by Futurepedia (https://www.futurepe
 
 Pick a visual style by name or mood, and the agent restyles an explainer on your topic in that look inside Subclip: a storyboard in the style, scenes as editable layers or generated images, narration, captions and export.
 
-The catalog in `references/` lists styles by category with our own short description and a Subclip recipe for each. Every entry links to the original atlas page.
+The catalog covers all 86 styles of the atlas in 14 category files under `references/`. Every style has a poster, the atlas description and style card, the full atlas Copy prompt text in `references/prompts/`, a Subclip recipe with a check, and a link back to the atlas entry. See `references/index.md` for the full list.
 
-Coverage: this first version lists 15 of the atlas's 86 styles. The rest are added as they become readable. See SKILL.md.
-
-No license is stated by the source. Nothing is copied from the atlas; see LICENSE.
-
-Adapted for Subclip from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resources/ai-style-atlas/view)
+The atlas states no license. Its prompts and media are reproduced here with credit and a link to every entry at the Subclip owner's request; the Subclip recipes are our own. See LICENSE.
