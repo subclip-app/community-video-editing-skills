@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: mrdoob/three.js, author: "mrdoob and the three.js contributors", license: MIT, commit: "b2dce982c57ff795d7709f5da993ea24c2b07aa1", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/camera-views.jpg
+    caption: "A split view shows the scene and the position of its active camera."
+  - file: examples/extruded-shapes.jpg
+    caption: "Flat outlines become solid shapes with depth and curved paths."
+  - file: examples/colored-spotlights.jpg
+    caption: "Colored spotlights cross above a dark stage."
+  - file: examples/selective-bloom.jpg
+    caption: "Selected spheres glow among neighboring objects with the bloom effect switched off."
+examplesCredit: "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js"

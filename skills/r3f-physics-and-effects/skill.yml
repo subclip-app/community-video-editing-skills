@@ -9,3 +9,15 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: pmndrs/react-three-rapier, author: Poimandres, license: MIT, commit: "ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/attractors.jpg
+    caption: "Small rigid bodies gather around a central attractor."
+  - file: examples/automatic-colliders.jpg
+    caption: "Wireframes show automatic colliders around different meshes."
+  - file: examples/compound-colliders.jpg
+    caption: "Several collider shapes surround a single rigid body."
+  - file: examples/physics-joints.jpg
+    caption: "A jointed chain of spheres hangs between supports."
+  - file: examples/goal-sensor.jpg
+    caption: "A ball approaches a goal that demonstrates a physics sensor."
+examplesCredit: "Examples by Poimandres, MIT, from github.com/pmndrs/react-three-rapier"

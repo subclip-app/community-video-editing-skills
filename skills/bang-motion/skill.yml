@@ -9,3 +9,15 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: bangtutorial/bang-motion, author: bangtutorial, license: MIT, commit: "c1aa65e921c970d858705fcb4a53a8294d1a4131", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/grainy-gradient.jpg
+    caption: "A glowing blue opener with layered shapes and soft grain"
+  - file: examples/kinetic-typography.jpg
+    caption: "Oversized words cropped across bright poster blocks"
+  - file: examples/flat-vector.jpg
+    caption: "A product promo made with flat shapes and illustrated controls"
+  - file: examples/continuous-action.jpg
+    caption: "A train explainer that places the speed readout in the scene"
+  - file: examples/cartoon-collage.jpg
+    caption: "A volcano explainer with illustrated cutouts on a paper background"
+examplesCredit: "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion"

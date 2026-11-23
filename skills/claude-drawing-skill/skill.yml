@@ -9,3 +9,17 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: cloveric/claude-drawing-skill, author: cloveric, license: MIT, commit: "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/moon-river.mp4
+    caption: "An ink wash landscape takes shape in successive drawing passes"
+  - file: examples/paper-balloons.jpg
+    caption: "Layered paper balloons float over a cutout landscape"
+  - file: examples/snowy-village.jpg
+    caption: "A snowy village rendered with the rough marks of a linocut"
+  - file: examples/graphite-bicycle.jpg
+    caption: "A bicycle study with graphite texture and soft shading"
+  - file: examples/watercolor-autumn.jpg
+    caption: "Autumn trees and a red boat painted in soft washes"
+  - file: examples/cyanotype-botanicals.jpg
+    caption: "Fern and flower silhouettes on a deep blue ground"
+examplesCredit: "Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill"

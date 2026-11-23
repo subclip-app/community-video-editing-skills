@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: pyang5166/gbro-collage-broll, author: pyang5166, license: MIT, commit: "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/chessboard-blocking.mp4
+    caption: A paper chessboard becomes a staging plan under a projector beam.
+  - file: examples/cutting-film.mp4
+    caption: A map, camera and filmstrip assemble before scissors cut the strip.
+  - file: examples/printing-press.mp4
+    caption: A printing press turns one flawed picture into a run of copies.
+  - file: examples/film-collage-still.jpg
+    caption: The finished teal collage shows a camera, a filmstrip and red scissors.
+examplesCredit: "Examples by pyang5166, MIT, from github.com/pyang5166/gbro-collage-broll"

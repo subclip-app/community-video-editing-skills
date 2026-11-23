@@ -12,3 +12,45 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
+examples:
+  - file: examples/top-down.jpg
+    caption: Top-down shot, example from the original guide
+  - file: examples/silhouette.jpg
+    caption: Silhouette shot, example from the original guide
+  - file: examples/inside-the-object.jpg
+    caption: Inside the object shot, example from the original guide
+  - file: examples/frame-in-frame.jpg
+    caption: Frame in frame shot, example from the original guide
+  - file: examples/reflection.jpg
+    caption: Reflection shot, example from the original guide
+  - file: examples/extreme-macro.jpg
+    caption: Extreme macro shot, example from the original guide
+  - file: examples/wide-shot.jpg
+    caption: Wide shot shot, example from the original guide
+  - file: examples/side-profile.jpg
+    caption: Side profile shot, example from the original guide
+  - file: examples/security-cam.jpg
+    caption: Security cam shot, example from the original guide
+  - file: examples/low-angle.jpg
+    caption: Low angle shot, example from the original guide
+  - file: examples/foreground-occlusion.jpg
+    caption: Foreground occlusion shot, example from the original guide
+  - file: examples/lens-flare.jpg
+    caption: Lens flare shot, example from the original guide
+  - file: examples/peek-through.jpg
+    caption: Peek through shot, example from the original guide
+  - file: examples/through-glass.jpg
+    caption: Through glass shot, example from the original guide
+  - file: examples/high-angle.jpg
+    caption: High angle shot, example from the original guide
+  - file: examples/shallow-focus.jpg
+    caption: Shallow focus shot, example from the original guide
+  - file: examples/dutch-angle.jpg
+    caption: Dutch angle shot, example from the original guide
+  - file: examples/ground-level.jpg
+    caption: Ground level shot, example from the original guide
+  - file: examples/eye-level.jpg
+    caption: Eye level shot, example from the original guide
+  - file: examples/over-the-shoulder.jpg
+    caption: Over the shoulder shot, example from the original guide
+examplesCredit: "Example images from the guide by sferro21 (instagram.com/sferro21)"

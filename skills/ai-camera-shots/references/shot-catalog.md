@@ -28,3 +28,88 @@ Camera sentence to paste into block 2 (replace the bracketed parts), what it giv
 ## Set order that cuts well
 
 Start on a wide or top-down to place the viewer, alternate close and far, put two strange angles (inside the object, reflection, security cam) in the middle, and end on a quiet eye-level or over-the-shoulder.
+
+## Reference images
+
+Example result of each shot, from the original guide by sferro21.
+
+### 1. Top-down
+
+![Top-down shot example](../examples/top-down.jpg)
+
+### 2. Silhouette
+
+![Silhouette shot example](../examples/silhouette.jpg)
+
+### 3. Inside the object
+
+![Inside the object shot example](../examples/inside-the-object.jpg)
+
+### 4. Frame in frame
+
+![Frame in frame shot example](../examples/frame-in-frame.jpg)
+
+### 5. Reflection
+
+![Reflection shot example](../examples/reflection.jpg)
+
+### 6. Extreme macro
+
+![Extreme macro shot example](../examples/extreme-macro.jpg)
+
+### 7. Wide shot
+
+![Wide shot shot example](../examples/wide-shot.jpg)
+
+### 8. Side profile
+
+![Side profile shot example](../examples/side-profile.jpg)
+
+### 9. Security cam
+
+![Security cam shot example](../examples/security-cam.jpg)
+
+### 10. Low angle
+
+![Low angle shot example](../examples/low-angle.jpg)
+
+### 11. Foreground occlusion
+
+![Foreground occlusion shot example](../examples/foreground-occlusion.jpg)
+
+### 12. Lens flare
+
+![Lens flare shot example](../examples/lens-flare.jpg)
+
+### 13. Peek through
+
+![Peek through shot example](../examples/peek-through.jpg)
+
+### 14. Through glass
+
+![Through glass shot example](../examples/through-glass.jpg)
+
+### 15. High angle
+
+![High angle shot example](../examples/high-angle.jpg)
+
+### 16. Shallow focus
+
+![Shallow focus shot example](../examples/shallow-focus.jpg)
+
+### 17. Dutch angle
+
+![Dutch angle shot example](../examples/dutch-angle.jpg)
+
+### 18. Ground level
+
+![Ground level shot example](../examples/ground-level.jpg)
+
+### 19. Eye level
+
+![Eye level shot example](../examples/eye-level.jpg)
+
+### 20. Over the shoulder
+
+![Over the shoulder shot example](../examples/over-the-shoulder.jpg)
+

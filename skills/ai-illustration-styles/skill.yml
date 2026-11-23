@@ -12,3 +12,29 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
+examples:
+  - file: examples/cartoon-modern-upa.jpg
+    caption: "Cartoon Modern (UPA)"
+  - file: examples/graphic-noir.jpg
+    caption: "Graphic Noir"
+  - file: examples/superflat.jpg
+    caption: "Superflat"
+  - file: examples/caricature.jpg
+    caption: "Caricature"
+  - file: examples/risograph.jpg
+    caption: "Risograph"
+  - file: examples/neon-punk-anime.jpg
+    caption: "Neon Punk Anime"
+  - file: examples/ligne-claire.jpg
+    caption: "Ligne claire"
+  - file: examples/gouache-illustration.jpg
+    caption: "Gouache Illustration"
+  - file: examples/constructivism.jpg
+    caption: "Constructivism"
+  - file: examples/neo-expressionism.jpg
+    caption: "Neo-expressionism"
+  - file: examples/persian-miniature.jpg
+    caption: "Persian Miniature"
+  - file: examples/cel-shaded-mecha.jpg
+    caption: "Cel-shaded Mecha"
+examplesCredit: "Example images from the guides by sferro21 (instagram.com/sferro21)"

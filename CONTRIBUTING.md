@@ -115,3 +115,16 @@ Repeat that credit at the end of `SKILL.md`. Link to the original project, even 
 CI checks the schema, folder files, media limits, allowed license identifiers and generated output. It scans with the desktop rules for secrets, hidden or obfuscated instructions, outside AI providers and API key requests, remote code and executable scripts. Warnings are reported; high risk fails the scan. Subclip then reviews the workflow, licensing, credit, exceptions and video quality. CI passing is not an endorsement or a replacement for review.
 
 After merge, the skill is listed on [subclip.app](https://www.subclip.app/agent-skills/community) and in **Skills > Community** on the next site build. The desktop app still scans the files at installation and asks the creator to confirm.
+
+## Examples from the original author
+
+For an adapted skill whose license allows reusing its media, copy a few of the original author's example images or videos into `examples/` and list them in `skill.yml`:
+
+```yaml
+examples:
+  - file: examples/flame-loop.jpg
+    caption: A flame loop made with the original skill
+examplesCredit: "Examples by pixelfx authors, MIT, from github.com/patch-gg/pixelfx"
+```
+
+Use 1 to 24 files in `examples/`: images (JPG, PNG, WebP or GIF) up to 600 KB each and MP4 videos up to 8 MB. Keep the original license's media terms: leave out files the license excludes (for example character art) and anything with no clear right to reuse. Skills without a stated license do not copy media: link to the creator instead. The skill's page on subclip.app shows these files under "Examples by the original author" with the credit line.

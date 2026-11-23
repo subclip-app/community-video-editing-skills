@@ -6,6 +6,8 @@ Banned in every look: realistic portrait, photographic textures, text, logos. Ke
 
 ## 1. German Expressionism (1920s silent horror, in colour)
 
+![German Expressionism](../examples/german-expressionism.jpg)
+
 - **Character:** tall, angular figure; sharp cheekbones; long face; dark-ringed eyes; pale theatrical skin; simple dark clothes with crisp angular folds.
 - **Set:** a painted stage: steeply slanted walls, crooked windows, a tilted door, zigzag stairs, jagged shadows painted onto walls and floor.
 - **Palette and light:** acid green, blood red, deep violet, bone white. Flat painted surfaces, hard stage light, distorted tilted perspective, light film grain.
@@ -15,6 +17,8 @@ Banned in every look: realistic portrait, photographic textures, text, logos. Ke
 - **Sound:** footsteps on cobblestones, low wind, a creaking door. No music.
 
 ## 2. Rubber hose (1930s cartoon)
+
+![Rubber Hose](../examples/rubber-hose.jpg)
 
 - **Character:** round head, big pie-cut eyes, a huge grin, noodle arms and legs, white four-fingered gloves, big round black shoes. Keep hair and clothing colours.
 - **Set:** a cheerful rounded room: wobbly furniture, a round window with a sunny sky and puffy clouds, squash and stretch in every shape.
@@ -26,6 +30,8 @@ Banned in every look: realistic portrait, photographic textures, text, logos. Ke
 
 ## 3. Gothic toon (whimsical gothic fairy tale)
 
+![Gothic Toon](../examples/gothic-toon.jpg)
+
 - **Character:** tall, spindly; long thin limbs and fingers; pale skin; huge round eyes with dark circles; slightly messy hair; dark simple clothes with a few black and white stripes.
 - **Set:** a crooked room at night: a tall narrow window with an enormous full moon, curling iron details, a lopsided lamp, bare twisted branches, a skinny black cat.
 - **Palette and light:** slate blue, violet, grey, bone white, with small warm orange candle accents. Smooth stylised forms, soft moonlit shading, crisp silhouettes, a gentle painterly texture.
@@ -36,6 +42,8 @@ Banned in every look: realistic portrait, photographic textures, text, logos. Ke
 
 ## 4. Surreal spooky (early 2000s TV cartoon)
 
+![Surreal Spooky](../examples/surreal-spooky.jpg)
+
 - **Character:** wobbly and nervous; huge bulging eyes with tiny pupils; trembling outlines; flying sweat drops; a worried gaping mouth; clothing simplified into flat shapes with bold uneven outlines.
 - **Set:** an eerie lonely place: a crooked window onto a flat empty desert with odd rock spires, a mint-turquoise sky with salmon-pink clouds that have big blinking eyes, and one oversized creepy detail that stares.
 - **Palette and line:** flat muted colours with rust orange, mint and pink accents; bold uneven black outlines; wobbly hand-drawn lines; light grain. Unsettling but funny.
@@ -45,6 +53,8 @@ Banned in every look: realistic portrait, photographic textures, text, logos. Ke
 - **Sound:** frantic footsteps, a wet eyelid squelch, a low eerie hum. No music.
 
 ## 5. Low poly PS1 (1990s console cutscene)
+
+![Low Poly PS1](../examples/low-poly-ps1.jpg)
 
 - **Character:** a very low-poly 3D model of a few hundred flat triangles; faceted head; visible polygon edges; mitten-like blocky hands; tiny painted textures for eyes and mouth; hair as a few hard chunks. Keep hair and clothing colours.
 - **Set:** a simple low-poly room of boxy furniture, a window showing a flat painted skybox, thick draw-distance fog.

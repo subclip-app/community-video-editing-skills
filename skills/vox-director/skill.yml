@@ -9,3 +9,15 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: Alisa0808/vox-director, author: Alisa0808, license: MIT, commit: "6a85a7c341610442a6a5b1885e6e0217ab82a11f", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/early-football.mp4
+    caption: "An excerpt on early football told with animated paper cutouts"
+  - file: examples/early-money.mp4
+    caption: "A vertical collage excerpt about barter and early coins"
+  - file: examples/silk-road.mp4
+    caption: "An illustrated Tang dynasty excerpt with a Silk Road caravan"
+  - file: examples/football-collage.jpg
+    caption: "A football and a bold date layered over old paper"
+  - file: examples/street-food-collage.jpg
+    caption: "A Mexican street food collage with hand-cut illustrations"
+examplesCredit: "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director"

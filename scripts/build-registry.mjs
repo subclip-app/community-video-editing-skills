@@ -1,4 +1,4 @@
-import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { readFile, writeFile, readdir, stat } from 'node:fs/promises';
 import { resolve, relative, basename } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { parseYaml } from './yaml.mjs';
@@ -15,7 +15,7 @@ function object(value, label) { assert(value && typeof value === 'object' && !Ar
 function keys(value, allowed, label) { object(value, label); for (const key of Object.keys(value)) assert(allowed.includes(key), `Unknown ${label} field: ${key}`); }
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
-  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist'], 'skill.yml');
+  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit'], 'skill.yml');
   const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
   text(m.name, 'name', 100); text(m.summary, 'summary', 160);
@@ -43,6 +43,16 @@ export function validateMetadata(m, slug) {
     }
   }
   assert(!m.adaptedBySubclip || m.upstream !== null, 'Adapted skills need upstream credit');
+  if (m.examples !== undefined) {
+    assert(Array.isArray(m.examples) && m.examples.length >= 1 && m.examples.length <= 24, 'examples must list 1 to 24 files');
+    const seen = new Set();
+    for (const item of m.examples) {
+      keys(item, ['file','caption'], 'examples item'); text(item.file, 'examples file', 200);
+      assert(/^examples\/[A-Za-z0-9_.-]+\.(?:jpe?g|png|webp|gif|mp4)$/i.test(item.file) && !seen.has(item.file), 'examples files live in examples/, are images or mp4 and are unique');
+      seen.add(item.file); if (item.caption !== undefined) text(item.caption, 'examples caption', 140);
+    }
+    text(m.examplesCredit, 'examplesCredit', 300);
+  } else assert(m.examplesCredit === undefined, 'examplesCredit needs examples');
   if (m.allowlist !== undefined) {
     assert(Array.isArray(m.allowlist), 'allowlist must be a list');
     for (const item of m.allowlist) {
@@ -124,6 +134,12 @@ export async function build(root = process.cwd(), check = false) {
     const license = await readFile(await localFile(folder, 'LICENSE'), 'utf8'); assert(license.trim(), 'LICENSE must not be empty');
     const cover = await localFile(folder, m.cover); await checkCover(cover);
     if (m.preview !== undefined) await checkPreview(await localFile(folder, m.preview));
+    const examples = [];
+    for (const item of m.examples ?? []) {
+      const file = await localFile(folder, item.file); const size = (await stat(file)).size; const video = /\.mp4$/i.test(item.file);
+      assert(size > 0 && size <= (video ? 8_000_000 : 600_000), `Example too large (images 600 KB, videos 8 MB): ${item.file}`);
+      examples.push({ path: `skills/${m.slug}/${item.file}`, kind: video ? 'video' : 'image', ...(item.caption ? { caption: item.caption } : {}) });
+    }
     const names = [];
     for (const file of files.filter(f => basename(f) === 'SKILL.md')) {
       const front = readSkillFrontmatter(await readFile(file, 'utf8'));
@@ -132,7 +148,7 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
-    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt });
+    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';

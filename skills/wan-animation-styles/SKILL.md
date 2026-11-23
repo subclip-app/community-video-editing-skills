@@ -63,6 +63,8 @@ Import each finished clip with `import_ai_operation_to_timeline`. Trim with `tri
 - Number of frames or seconds can come back slightly short. Check the imported duration before building the timeline on it.
 - No on-screen text from the model. Add titles natively.
 
+See [examples/](examples/) for an image for every style from [sferro21’s guides](https://www.instagram.com/sferro21).
+
 ## Credit
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words; the creator's guides state no license, so please confirm permission with the creator before relying on this skill.

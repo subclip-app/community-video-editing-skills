@@ -12,3 +12,15 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
+examples:
+  - file: examples/german-expressionism.jpg
+    caption: "German Expressionism"
+  - file: examples/rubber-hose.jpg
+    caption: "Rubber Hose"
+  - file: examples/gothic-toon.jpg
+    caption: "Gothic Toon"
+  - file: examples/surreal-spooky.jpg
+    caption: "Surreal Spooky"
+  - file: examples/low-poly-ps1.jpg
+    caption: "Low Poly PS1"
+examplesCredit: "Example images from the guides by sferro21 (instagram.com/sferro21)"

@@ -9,3 +9,15 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: wheresryan22/anatomy, author: Ryan, license: MIT, commit: "1482e8469b0a9e0d8cc18ea2740a01423d29ae80", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/raptor-engine-firing.webp
+    caption: Isometric rocket engine test stand during a firing.
+  - file: examples/raptor-engine-apart.webp
+    caption: Exploded view of the engine, piping and test stand.
+  - file: examples/ripple-tank.webp
+    caption: A ripple tank shows where two sets of waves meet.
+  - file: examples/turning-dial.webp
+    caption: A mechanical hand turns a combination dial.
+  - file: examples/dial-indicator.webp
+    caption: A dial indicator measures a block on a sliding carriage.
+examplesCredit: "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy"

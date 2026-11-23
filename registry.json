@@ -83,7 +83,110 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-camera-shots/examples/top-down.jpg",
+          "kind": "image",
+          "caption": "Top-down shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/silhouette.jpg",
+          "kind": "image",
+          "caption": "Silhouette shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/inside-the-object.jpg",
+          "kind": "image",
+          "caption": "Inside the object shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/frame-in-frame.jpg",
+          "kind": "image",
+          "caption": "Frame in frame shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/reflection.jpg",
+          "kind": "image",
+          "caption": "Reflection shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/extreme-macro.jpg",
+          "kind": "image",
+          "caption": "Extreme macro shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/wide-shot.jpg",
+          "kind": "image",
+          "caption": "Wide shot shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/side-profile.jpg",
+          "kind": "image",
+          "caption": "Side profile shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/security-cam.jpg",
+          "kind": "image",
+          "caption": "Security cam shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/low-angle.jpg",
+          "kind": "image",
+          "caption": "Low angle shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/foreground-occlusion.jpg",
+          "kind": "image",
+          "caption": "Foreground occlusion shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/lens-flare.jpg",
+          "kind": "image",
+          "caption": "Lens flare shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/peek-through.jpg",
+          "kind": "image",
+          "caption": "Peek through shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/through-glass.jpg",
+          "kind": "image",
+          "caption": "Through glass shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/high-angle.jpg",
+          "kind": "image",
+          "caption": "High angle shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/shallow-focus.jpg",
+          "kind": "image",
+          "caption": "Shallow focus shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/dutch-angle.jpg",
+          "kind": "image",
+          "caption": "Dutch angle shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/ground-level.jpg",
+          "kind": "image",
+          "caption": "Ground level shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/eye-level.jpg",
+          "kind": "image",
+          "caption": "Eye level shot, example from the original guide"
+        },
+        {
+          "path": "skills/ai-camera-shots/examples/over-the-shoulder.jpg",
+          "kind": "image",
+          "caption": "Over the shoulder shot, example from the original guide"
+        }
+      ],
+      "examplesCredit": "Example images from the guide by sferro21 (instagram.com/sferro21)"
     },
     {
       "slug": "ai-edit-battle",
@@ -139,7 +242,70 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-illustration-styles/examples/cartoon-modern-upa.jpg",
+          "kind": "image",
+          "caption": "Cartoon Modern (UPA)"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/graphic-noir.jpg",
+          "kind": "image",
+          "caption": "Graphic Noir"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/superflat.jpg",
+          "kind": "image",
+          "caption": "Superflat"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/caricature.jpg",
+          "kind": "image",
+          "caption": "Caricature"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/risograph.jpg",
+          "kind": "image",
+          "caption": "Risograph"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/neon-punk-anime.jpg",
+          "kind": "image",
+          "caption": "Neon Punk Anime"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/ligne-claire.jpg",
+          "kind": "image",
+          "caption": "Ligne claire"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/gouache-illustration.jpg",
+          "kind": "image",
+          "caption": "Gouache Illustration"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/constructivism.jpg",
+          "kind": "image",
+          "caption": "Constructivism"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/neo-expressionism.jpg",
+          "kind": "image",
+          "caption": "Neo-expressionism"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/persian-miniature.jpg",
+          "kind": "image",
+          "caption": "Persian Miniature"
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/cel-shaded-mecha.jpg",
+          "kind": "image",
+          "caption": "Cel-shaded Mecha"
+        }
+      ],
+      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)"
     },
     {
       "slug": "ai-style-atlas",
@@ -225,7 +391,35 @@
         "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/anatomy/examples/raptor-engine-firing.webp",
+          "kind": "image",
+          "caption": "Isometric rocket engine test stand during a firing."
+        },
+        {
+          "path": "skills/anatomy/examples/raptor-engine-apart.webp",
+          "kind": "image",
+          "caption": "Exploded view of the engine, piping and test stand."
+        },
+        {
+          "path": "skills/anatomy/examples/ripple-tank.webp",
+          "kind": "image",
+          "caption": "A ripple tank shows where two sets of waves meet."
+        },
+        {
+          "path": "skills/anatomy/examples/turning-dial.webp",
+          "kind": "image",
+          "caption": "A mechanical hand turns a combination dial."
+        },
+        {
+          "path": "skills/anatomy/examples/dial-indicator.webp",
+          "kind": "image",
+          "caption": "A dial indicator measures a block on a sliding carriage."
+        }
+      ],
+      "examplesCredit": "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy"
     },
     {
       "slug": "bang-motion",
@@ -256,7 +450,35 @@
         "commit": "c1aa65e921c970d858705fcb4a53a8294d1a4131",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/bang-motion/examples/grainy-gradient.jpg",
+          "kind": "image",
+          "caption": "A glowing blue opener with layered shapes and soft grain"
+        },
+        {
+          "path": "skills/bang-motion/examples/kinetic-typography.jpg",
+          "kind": "image",
+          "caption": "Oversized words cropped across bright poster blocks"
+        },
+        {
+          "path": "skills/bang-motion/examples/flat-vector.jpg",
+          "kind": "image",
+          "caption": "A product promo made with flat shapes and illustrated controls"
+        },
+        {
+          "path": "skills/bang-motion/examples/continuous-action.jpg",
+          "kind": "image",
+          "caption": "A train explainer that places the speed readout in the scene"
+        },
+        {
+          "path": "skills/bang-motion/examples/cartoon-collage.jpg",
+          "kind": "image",
+          "caption": "A volcano explainer with illustrated cutouts on a paper background"
+        }
+      ],
+      "examplesCredit": "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion"
     },
     {
       "slug": "blender-to-subclip",
@@ -285,7 +507,15 @@
         "commit": "a5a8acf2c6ae44a73670e0caf34663f16456d645",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/blender-to-subclip/examples/wooden-pyramid.jpg",
+          "kind": "image",
+          "caption": "A wooden pyramid selected in the Blender viewport."
+        }
+      ],
+      "examplesCredit": "Examples by Siddharth Ahuja, MIT, from github.com/ahujasid/mcp-for-blender"
     },
     {
       "slug": "cartoon-animation",
@@ -398,7 +628,40 @@
         "commit": "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/claude-drawing-skill/examples/moon-river.mp4",
+          "kind": "video",
+          "caption": "An ink wash landscape takes shape in successive drawing passes"
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/paper-balloons.jpg",
+          "kind": "image",
+          "caption": "Layered paper balloons float over a cutout landscape"
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/snowy-village.jpg",
+          "kind": "image",
+          "caption": "A snowy village rendered with the rough marks of a linocut"
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/graphite-bicycle.jpg",
+          "kind": "image",
+          "caption": "A bicycle study with graphite texture and soft shading"
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/watercolor-autumn.jpg",
+          "kind": "image",
+          "caption": "Autumn trees and a red boat painted in soft washes"
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/cyanotype-botanicals.jpg",
+          "kind": "image",
+          "caption": "Fern and flower silhouettes on a deep blue ground"
+        }
+      ],
+      "examplesCredit": "Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill"
     },
     {
       "slug": "code-video-recipes",
@@ -562,7 +825,30 @@
         "commit": "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/gbro-collage-broll/examples/chessboard-blocking.mp4",
+          "kind": "video",
+          "caption": "A paper chessboard becomes a staging plan under a projector beam."
+        },
+        {
+          "path": "skills/gbro-collage-broll/examples/cutting-film.mp4",
+          "kind": "video",
+          "caption": "A map, camera and filmstrip assemble before scissors cut the strip."
+        },
+        {
+          "path": "skills/gbro-collage-broll/examples/printing-press.mp4",
+          "kind": "video",
+          "caption": "A printing press turns one flawed picture into a run of copies."
+        },
+        {
+          "path": "skills/gbro-collage-broll/examples/film-collage-still.jpg",
+          "kind": "image",
+          "caption": "The finished teal collage shows a camera, a filmstrip and red scissors."
+        }
+      ],
+      "examplesCredit": "Examples by pyang5166, MIT, from github.com/pyang5166/gbro-collage-broll"
     },
     {
       "slug": "higgsfield-to-subclip",
@@ -620,7 +906,30 @@
         "commit": "a97c45018d46e950d56d61981138e08f4e092909",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/huashu-art-motion/examples/neural-network.jpg",
+          "kind": "image",
+          "caption": "A pixel grid becomes the input to a neural network diagram"
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/product-launch.jpg",
+          "kind": "image",
+          "caption": "A product reveal with frosted cards and large metrics"
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/finance-charts.jpg",
+          "kind": "image",
+          "caption": "A sequence of bar, line and candlestick charts with highlighted values"
+        },
+        {
+          "path": "skills/huashu-art-motion/examples/kinetic-type.jpg",
+          "kind": "image",
+          "caption": "Bold type and color blocks introduce three stages of AI coding"
+        }
+      ],
+      "examplesCredit": "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion"
     },
     {
       "slug": "long-to-shorts",
@@ -777,7 +1086,25 @@
         "commit": "e033aad1d15a9d4084316e5223f2c6597fd32619",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/open-design-motion/examples/studio-motion-demo.mp4",
+          "kind": "video",
+          "caption": "Open Design Studio preview of an animated product headline and scrolling text."
+        },
+        {
+          "path": "skills/open-design-motion/examples/studio-title-frame.jpg",
+          "kind": "image",
+          "caption": "Studio still with a lime highlight and a line of scrolling deliverables."
+        },
+        {
+          "path": "skills/open-design-motion/examples/motion-template-explainer.jpg",
+          "kind": "image",
+          "caption": "A typographic explainer about what goes into a design template."
+        }
+      ],
+      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"
     },
     {
       "slug": "open-design-video-templates",
@@ -807,7 +1134,30 @@
         "commit": "e033aad1d15a9d4084316e5223f2c6597fd32619",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/open-design-video-templates/examples/glitch-title.mp4",
+          "kind": "video",
+          "caption": "A signal-loss title with split-color lettering and digital distortion."
+        },
+        {
+          "path": "skills/open-design-video-templates/examples/light-leak-title.mp4",
+          "kind": "video",
+          "caption": "A cinematic title framed by an amber light leak."
+        },
+        {
+          "path": "skills/open-design-video-templates/examples/logo-outro.mp4",
+          "kind": "video",
+          "caption": "A purple monogram reveals itself against a dark background."
+        },
+        {
+          "path": "skills/open-design-video-templates/examples/liquid-background.jpg",
+          "kind": "image",
+          "caption": "A bold headline over a soft field of blue and purple light."
+        }
+      ],
+      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"
     },
     {
       "slug": "paper-cut-motion",
@@ -865,7 +1215,25 @@
         "commit": "5294518ce7c72e48b6100a744596e0acf57f2826",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/pixelfx/examples/pixel-effects.mp4",
+          "kind": "video",
+          "caption": "Looping pixel effects include fire, waterfalls and portals"
+        },
+        {
+          "path": "skills/pixelfx/examples/character-effects.mp4",
+          "kind": "video",
+          "caption": "A pixel dummy winds up and strikes as sparks and impacts play"
+        },
+        {
+          "path": "skills/pixelfx/examples/elemental-effects.jpg",
+          "kind": "image",
+          "caption": "A close look at five effects from the original gallery grid"
+        }
+      ],
+      "examplesCredit": "Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx"
     },
     {
       "slug": "portrait-style-prompts",
@@ -922,7 +1290,35 @@
         "license": "MIT",
         "commit": "ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/r3f-physics-and-effects/examples/attractors.jpg",
+          "kind": "image",
+          "caption": "Small rigid bodies gather around a central attractor."
+        },
+        {
+          "path": "skills/r3f-physics-and-effects/examples/automatic-colliders.jpg",
+          "kind": "image",
+          "caption": "Wireframes show automatic colliders around different meshes."
+        },
+        {
+          "path": "skills/r3f-physics-and-effects/examples/compound-colliders.jpg",
+          "kind": "image",
+          "caption": "Several collider shapes surround a single rigid body."
+        },
+        {
+          "path": "skills/r3f-physics-and-effects/examples/physics-joints.jpg",
+          "kind": "image",
+          "caption": "A jointed chain of spheres hangs between supports."
+        },
+        {
+          "path": "skills/r3f-physics-and-effects/examples/goal-sensor.jpg",
+          "kind": "image",
+          "caption": "A ball approaches a goal that demonstrates a physics sensor."
+        }
+      ],
+      "examplesCredit": "Examples by Poimandres, MIT, from github.com/pmndrs/react-three-rapier"
     },
     {
       "slug": "svg-character-animation",
@@ -980,7 +1376,30 @@
         "commit": "b2dce982c57ff795d7709f5da993ea24c2b07aa1",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/threejs-3d-scenes/examples/camera-views.jpg",
+          "kind": "image",
+          "caption": "A split view shows the scene and the position of its active camera."
+        },
+        {
+          "path": "skills/threejs-3d-scenes/examples/extruded-shapes.jpg",
+          "kind": "image",
+          "caption": "Flat outlines become solid shapes with depth and curved paths."
+        },
+        {
+          "path": "skills/threejs-3d-scenes/examples/colored-spotlights.jpg",
+          "kind": "image",
+          "caption": "Colored spotlights cross above a dark stage."
+        },
+        {
+          "path": "skills/threejs-3d-scenes/examples/selective-bloom.jpg",
+          "kind": "image",
+          "caption": "Selected spheres glow among neighboring objects with the bloom effect switched off."
+        }
+      ],
+      "examplesCredit": "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js"
     },
     {
       "slug": "video-shotcraft",
@@ -1010,7 +1429,35 @@
         "commit": "59f3e9b9e936ff2bce0e18446226d770a3f2f61f",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/video-shotcraft/examples/exploded-view.mp4",
+          "kind": "video",
+          "caption": "A camera tilts around an interface as its panels separate"
+        },
+        {
+          "path": "skills/video-shotcraft/examples/chart-rescale.mp4",
+          "kind": "video",
+          "caption": "A spike in monthly renders forces the chart axis to rescale"
+        },
+        {
+          "path": "skills/video-shotcraft/examples/spotlight-title.mp4",
+          "kind": "video",
+          "caption": "A moving spotlight reveals a title against a dark stage"
+        },
+        {
+          "path": "skills/video-shotcraft/examples/text-mask.jpg",
+          "kind": "image",
+          "caption": "A dashboard shows through oversized title letters"
+        },
+        {
+          "path": "skills/video-shotcraft/examples/card-entrance.jpg",
+          "kind": "image",
+          "caption": "A product showcase card pairs a large metric with a small line chart"
+        }
+      ],
+      "examplesCredit": "Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft"
     },
     {
       "slug": "video-translate",
@@ -1068,7 +1515,35 @@
         "commit": "6a85a7c341610442a6a5b1885e6e0217ab82a11f",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/vox-director/examples/early-football.mp4",
+          "kind": "video",
+          "caption": "An excerpt on early football told with animated paper cutouts"
+        },
+        {
+          "path": "skills/vox-director/examples/early-money.mp4",
+          "kind": "video",
+          "caption": "A vertical collage excerpt about barter and early coins"
+        },
+        {
+          "path": "skills/vox-director/examples/silk-road.mp4",
+          "kind": "video",
+          "caption": "An illustrated Tang dynasty excerpt with a Silk Road caravan"
+        },
+        {
+          "path": "skills/vox-director/examples/football-collage.jpg",
+          "kind": "image",
+          "caption": "A football and a bold date layered over old paper"
+        },
+        {
+          "path": "skills/vox-director/examples/street-food-collage.jpg",
+          "kind": "image",
+          "caption": "A Mexican street food collage with hand-cut illustrations"
+        }
+      ],
+      "examplesCredit": "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director"
     },
     {
       "slug": "vox-explainer",
@@ -1124,7 +1599,35 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/wan-animation-styles/examples/german-expressionism.jpg",
+          "kind": "image",
+          "caption": "German Expressionism"
+        },
+        {
+          "path": "skills/wan-animation-styles/examples/rubber-hose.jpg",
+          "kind": "image",
+          "caption": "Rubber Hose"
+        },
+        {
+          "path": "skills/wan-animation-styles/examples/gothic-toon.jpg",
+          "kind": "image",
+          "caption": "Gothic Toon"
+        },
+        {
+          "path": "skills/wan-animation-styles/examples/surreal-spooky.jpg",
+          "kind": "image",
+          "caption": "Surreal Spooky"
+        },
+        {
+          "path": "skills/wan-animation-styles/examples/low-poly-ps1.jpg",
+          "kind": "image",
+          "caption": "Low Poly PS1"
+        }
+      ],
+      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)"
     },
     {
       "slug": "website-to-video",

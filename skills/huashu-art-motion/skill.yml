@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: alchaincyf/huashu-art-motion, author: alchaincyf, license: MIT, commit: "a97c45018d46e950d56d61981138e08f4e092909", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/neural-network.jpg
+    caption: "A pixel grid becomes the input to a neural network diagram"
+  - file: examples/product-launch.jpg
+    caption: "A product reveal with frosted cards and large metrics"
+  - file: examples/finance-charts.jpg
+    caption: "A sequence of bar, line and candlestick charts with highlighted values"
+  - file: examples/kinetic-type.jpg
+    caption: "Bold type and color blocks introduce three stages of AI coding"
+examplesCredit: "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion"

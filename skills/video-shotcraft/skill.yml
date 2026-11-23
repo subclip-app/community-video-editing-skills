@@ -12,3 +12,15 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: ElevenLabs names identify models called only through Subclip's live catalog and native generate_music tool.
+examples:
+  - file: examples/exploded-view.mp4
+    caption: "A camera tilts around an interface as its panels separate"
+  - file: examples/chart-rescale.mp4
+    caption: "A spike in monthly renders forces the chart axis to rescale"
+  - file: examples/spotlight-title.mp4
+    caption: "A moving spotlight reveals a title against a dark stage"
+  - file: examples/text-mask.jpg
+    caption: "A dashboard shows through oversized title letters"
+  - file: examples/card-entrance.jpg
+    caption: "A product showcase card pairs a large metric with a small line chart"
+examplesCredit: "Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft"
