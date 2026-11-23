@@ -3,6 +3,7 @@
 - slug: lemo-opuscar
   name: Lemo OpusCar
   repo: lemomo-ai/lemo-opuscar
+  video: install-yourself/lemo-opuscar/preview.mp4
   category: motion
   what: A toolbox of 99 film styles made in code, each a style prompt plus a demo film.
   why: The skill and style text use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.
@@ -13,6 +14,7 @@
 - slug: opus-video-prompts
   name: Opus video prompts
   repo: joeseesun/opus-video-prompts
+  video: install-yourself/opus-video-prompts/preview.mp4
   category: workflow
   what: Copy-ready prompts and 54 cases of code-rendered videos.
   why: No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.

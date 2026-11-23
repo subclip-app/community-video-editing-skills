@@ -76,19 +76,30 @@ export async function readInstallYourself(root) {
   if (raw === null) return null;
   const list = parseYaml(raw);
   assert(Array.isArray(list), 'install-yourself.yml must be a list');
-  return list.map((item, i) => {
-    keys(item, ['slug','name','repo','category','what','why','preview','gallery','galleryCredit'], `install-yourself.yml item ${i + 1}`);
+  return Promise.all(list.map(async (item, i) => {
+    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit'], `install-yourself.yml item ${i + 1}`);
     assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? ''), `install-yourself.yml item ${i + 1} needs a kebab-case slug`);
     assert(item.category === undefined || CATEGORY_LABELS[item.category], `Unknown install-yourself category: ${item.category}`);
     const gallery = item.gallery ?? []; assert(Array.isArray(gallery) && gallery.every(u => typeof u === 'string' && u.startsWith('https://')), 'install-yourself gallery must list https URLs');
     text(item.name, 'install-yourself name', 80); text(item.what, 'install-yourself what', 300); text(item.why, 'install-yourself why', 400);
     assert(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(item.repo), `Invalid install-yourself repo: ${item.repo}`);
     for (const v of [item.name, item.what, item.why]) assert(!/[—·]/u.test(v), 'install-yourself.yml contains an em dash or middle dot');
-    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
-  });
+    let video;
+    if (item.video !== undefined) {
+      const prefix = `install-yourself/${item.slug}/`;
+      assert(typeof item.video === 'string' && item.video.startsWith(prefix), `Install-yourself video must be under ${prefix}`);
+      const file = await localFile(root, item.video);
+      await checkPreview(file);
+      video = item.video.split('/').filter(Boolean).join('/');
+    }
+    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
+  }));
 }
 export function installYourselfMarkdown(items) {
-  const rows = items.map(i => `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url}) | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)} | ${cell(i.what)} | ${cell(i.why)} |`);
+  const rows = items.map(i => {
+    const video = i.video ? `<br><a href="${i.video.split('/').map(encodeURIComponent).join('/')}">Watch the silent preview</a>` : '';
+    return `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url})${video} | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)} | ${cell(i.what)} | ${cell(i.why)} |`;
+  });
   return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
 }
 export async function build(root = process.cwd(), check = false) {

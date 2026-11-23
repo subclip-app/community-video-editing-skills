@@ -3,11 +3,32 @@ import assert from 'node:assert/strict';
 import { mkdtemp, cp, readFile, writeFile, mkdir, rm, symlink } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
-import { build, readMetadata, validateMetadata } from '../scripts/build-registry.mjs';
+import { build, readInstallYourself, readMetadata, validateMetadata } from '../scripts/build-registry.mjs';
 import { scan, scanSkillFiles, applyAllowlist } from '../scripts/scan-skills.mjs';
 import { parseYaml } from '../scripts/yaml.mjs';
 import { checkCover, checkPreview } from '../scripts/media.mjs';
 const root = resolve(import.meta.dirname,'..');
+
+test('install-yourself videos must exist, fit the preview limit and stay under their slug', async t => {
+  const dir = await mkdtemp(resolve(tmpdir(), 'community-preview-test-'));
+  t.after(() => rm(dir, { recursive: true, force: true }));
+  const video = 'install-yourself/example/preview.mp4';
+  const metadata = resolve(dir, 'install-yourself.yml');
+  const entry = '- slug: example\n  name: Example\n  repo: owner/example\n  what: Makes videos.\n  why: Separate license.\n';
+  await mkdir(resolve(dir, 'install-yourself/example'), { recursive: true });
+  await writeFile(metadata, entry);
+  assert.equal((await readInstallYourself(dir))[0].video, undefined);
+  await writeFile(metadata, entry + `  video: ${video}\n`);
+  await assert.rejects(readInstallYourself(dir), { code: 'ENOENT' });
+  await writeFile(resolve(dir, video), Buffer.alloc(2_000_000));
+  await assert.rejects(readInstallYourself(dir), /Preview must be MP4 under 2 MB/);
+  await cp(resolve(root, 'skills/vox-explainer/preview.mp4'), resolve(dir, video));
+  assert.equal((await readInstallYourself(dir))[0].video, video);
+  await writeFile(metadata, entry + '  video: install-yourself/other/preview.mp4\n');
+  await assert.rejects(readInstallYourself(dir), /video must be under install-yourself\/example\//);
+  await writeFile(metadata, entry + '  video: install-yourself/example/../../preview.mp4\n');
+  await assert.rejects(readInstallYourself(dir), /Invalid relative path/);
+});
 async function fixture(t) {
   const dir = await mkdtemp(resolve(tmpdir(),'community-skills-test-'));
   t.after(() => rm(dir,{recursive:true,force:true}));

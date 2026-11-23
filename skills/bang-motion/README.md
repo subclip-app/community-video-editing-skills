@@ -16,6 +16,8 @@ Openers, promos, product demos, kinetic typography and explainers, built as edit
 
 <img src="media/gallery/hero.jpg" alt="A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos, visual journalism explainer, continuous action explainer, cartoon collage explainer" width="100%">
 
+[Watch the silent preview](preview.mp4).
+
 [What you can make](#what-you-can-make) - [Style gallery](#style-gallery) - [Install](#install) - [Example prompts](#example-prompts) - [Models](#models) - [What changed](#what-changed)
 
 </div>
@@ -186,4 +188,4 @@ The scanner reports the optional Grok choice required by the conversion guide an
 
 There is no automatic equivalent in this skill for the upstream raster pupil/mouth expression script or standalone HTML player delivery. Use the vector face recipe or approved generated variants. Audio-reactive graphics use supplied beat times or a stated procedural approximation, not an invented automatic beat-analysis tool. These limits do not block the native motion workflow.
 
-The cover is the upstream hero grid and the gallery images come from the upstream docs/gallery folder (MIT); preview.mp4 is a carousel made from them. They are design examples, not Subclip test renders. Upstream says gallery brands and data are fictional. No executable source scripts are included. Original copyright and MIT terms are preserved byte for byte in [LICENSE](LICENSE).
+The cover is the upstream hero grid and the gallery images come from the upstream docs/gallery folder (MIT). The silent preview was built in Subclip with animated headlines, framed gallery cards and editable Remotion layers. Upstream says gallery brands and data are fictional. No executable source scripts are included. Original copyright and MIT terms are preserved byte for byte in [LICENSE](LICENSE).

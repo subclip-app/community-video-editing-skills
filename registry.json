@@ -102,6 +102,7 @@
       "what": "A toolbox of 99 film styles made in code, each a style prompt plus a demo film.",
       "why": "The skill and style text use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar",
+      "video": "install-yourself/lemo-opuscar/preview.mp4",
       "gallery": [
         "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/f9e204293930952b61ba921cd8944d05f121beee/styles/art-deco/poster.jpg",
         "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/f9e204293930952b61ba921cd8944d05f121beee/styles/bauhaus-shapes/poster.jpg"
@@ -117,6 +118,7 @@
       "what": "Copy-ready prompts and 54 cases of code-rendered videos.",
       "why": "No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts",
+      "video": "install-yourself/opus-video-prompts/preview.mp4",
       "gallery": []
     }
   ]
