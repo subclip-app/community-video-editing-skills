@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Shadow Puppet Theatre](../examples/03-shadow-puppet-theatre.jpg)
 
+[Watch the style clip](../examples/03-shadow-puppet-theatre.mp4)
+
 Black cut-out silhouettes with punched lace-like cut-work, pinned joints and thin control rods, pressed against a backlit cloth screen glowing amber at the lamp and falling to red-brown at the edges, with coloured gels in the openings.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #03](https://www.futurepedia.io/resources/ai
 ## 18. Claymation Set
 
 ![Claymation Set](../examples/18-claymation-set.jpg)
+
+[Watch the style clip](../examples/18-claymation-set.mp4)
 
 A plasticine stop-motion still: chunky hand-squished characters and props with soft waxy subsurface shading, thumbprints, tool marks and lumpy silhouettes on a sculpted clay set, shot with shallow depth of field.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #18](https://www.futurepedia.io/resources/ai
 
 ![Cut-Paper Diorama](../examples/24-cut-paper-diorama.jpg)
 
+[Watch the style clip](../examples/24-cut-paper-diorama.mp4)
+
 A layered cardstock shadow-box: every shape is a separate scissor-cut sheet with fibre texture, a lit paper edge and a soft drop shadow onto the sheet behind it; torn edges show the white core of the paper.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #24](https://www.futurepedia.io/resources/ai
 ## 28. Origami Studio
 
 ![Origami Studio](../examples/28-origami-studio.jpg)
+
+[Watch the style clip](../examples/28-origami-studio.mp4)
 
 Folded-paper models shot on a seamless studio sweep: every form is flat facets with consistent fold shading, crisp crease lines, two-tone paper and soft table shadows.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #28](https://www.futurepedia.io/resources/ai
 
 ![Punk Zine Collage](../examples/35-punk-zine-collage.jpg)
 
+[Watch the style clip](../examples/35-punk-zine-collage.mp4)
+
 A photocopied cut-and-paste zine spread: torn halftone scraps, ransom-note letters cut from mismatched magazines, masking tape and staples, crushed to high-contrast black toner with one fluoro-pink spot ink overprinted off-register.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #35](https://www.futurepedia.io/resources/ai
 
 ![Felt & Patchwork](../examples/44-felt-and-patchwork.jpg)
 
+[Watch the style clip](../examples/44-felt-and-patchwork.mp4)
+
 A cosy patchwork quilt of cotton prints with puffy quilted squares, topped with fuzzy felt appliqué edged in blanket stitch, button "nodes" sewn on and joined by running-stitch thread, plus an embroidered label.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #44](https://www.futurepedia.io/resources/ai
 ## 57. Cross-Stitch Sampler
 
 ![Cross-Stitch Sampler](../examples/57-cross-stitch-sampler.jpg)
+
+[Watch the style clip](../examples/57-cross-stitch-sampler.mp4)
 
 Pixel art worked as real counted cross-stitch on cream aida: every cell is an X of two-strand floss with sheen and twist, top legs all leaning the same way, dark backstitch outlines, all stretched in a wooden hoop.
 

@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Psychedelic Poster](../examples/05-psychedelic-poster.jpg)
 
+[Watch the style clip](../examples/05-psychedelic-poster.mp4)
+
 1960s San Francisco concert-poster psychedelia: full-strength inks in vibrating complementary pairs, liquid churning ring bands, sunbursts and a mirror-symmetric eye-flower, with bulbous melting Shrikhand lettering on worn poster stock.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #05](https://www.futurepedia.io/resources/ai
 ## 34. Cosmic Star Chart
 
 ![Cosmic Star Chart](../examples/34-cosmic-star-chart.jpg)
+
+[Watch the style clip](../examples/34-cosmic-star-chart.mp4)
 
 Deep-space illustration crossed with an engraved celestial atlas: fbm nebulae in teal, violet, rose and gold, a lit ringed gas giant with cratered moons, comets and a diffraction-spiked star, overlaid with hairline gold and pale-cyan chart work (dotted orbits with arrowheads, degree rings, ring markers, small-caps serif labels).
 

@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Editorial Chart](../examples/26-editorial-chart.jpg)
 
+[Watch the style clip](../examples/26-editorial-chart.mp4)
+
 A prestige-newspaper data graphic on FT salmon: serif headline and dek, hairline grid, one claret highlight series against quiet greys, direct labels and hand-annotated callouts, small-caps source line.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #26](https://www.futurepedia.io/resources/ai
 ## 48. Transit Map
 
 ![Transit Map](../examples/48-transit-map.jpg)
+
+[Watch the style clip](../examples/48-transit-map.mp4)
 
 A Beck-style metro diagram of an AI pipeline: fat coloured lines locked to 0/45/90 degrees with rounded bends, line-colour station ticks, black-ringed interchanges, a river and a boxed legend, all in clean sans lettering.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #48](https://www.futurepedia.io/resources/ai
 
 ![ISOTYPE Pictograms](../examples/55-isotype-pictograms.jpg)
 
+[Watch the style clip](../examples/55-isotype-pictograms.mp4)
+
 Vienna Method pictorial statistics: rows of identical flat pictograms where each symbol is a fixed quantity, partial symbols for remainders, three muted litho inks on a strict grid with geometric sans lettering.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #55](https://www.futurepedia.io/resources/ai
 ## 70. Topographic Survey
 
 ![Topographic Survey](../examples/70-topographic-survey.jpg)
+
+[Watch the style clip](../examples/70-topographic-survey.mp4)
 
 A vintage survey quadrangle of a "loss landscape": brown contour lines with heavier labelled index contours, soft hillshade and woodland tint, a water-lined lake, a red dashed switchback trail and a full printed collar with scale bar and north arrow.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #70](https://www.futurepedia.io/resources/ai
 
 ![Ridgeline](../examples/77-ridgeline.jpg)
 
+[Watch the style clip](../examples/77-ridgeline.mp4)
+
 Sixty stacked traces of noisy signal, each filled black so it occludes the one behind, drawn as thin white lines in a perfectly centred block with a tiny typographic caption.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #77](https://www.futurepedia.io/resources/ai
 ## 84. Flow Field
 
 ![Flow Field](../examples/84-flow-field.jpg)
+
+[Watch the style clip](../examples/84-flow-field.mp4)
 
 Thousands of hairline streamlines traced through a curl-noise field that parts around an unseen core; additive colour from a refined gradient builds luminous braids on dark paper.
 

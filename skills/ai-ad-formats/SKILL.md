@@ -15,19 +15,23 @@ Five formats, one method. Pick a format, lock one style and one character, then 
 4. Quote before spending: model, number of outputs, duration, settings and the total from `estimate_ai_generation` with the exact inputs, plus a retry allowance. Get approval for that scope. A larger bill needs a new decision. Pass `confirmed: true` only when the request authorizes that exact generation.
 5. Create or reuse one project with `create_project`. Make one editing call at a time. Independent generations may run together inside the approved budget.
 
-Model families: an image model for the beat pictures (the creator's Codex CLI first, else a Seedream or GPT image class model), a video model that takes a start frame (Seedance class, `seedance-2.5`, or Gemini Omni class), and for the singing format `generate_music` plus a lip sync or avatar capable model if `list_ai_models` shows one. Verify before quoting.
+Model families (names are examples, the live catalog wins): an image model for the beat pictures (the creator's Codex CLI first, else a Seedream or GPT image class model), a video model that takes a start frame (Seedance class, `seedance-2.5`, or Gemini Omni class), and for the singing format `generate_music` plus a lip sync or avatar capable model if `list_ai_models` shows one. Verify before quoting.
 
 ## Pick the format
 
-| Format | Use when | Reference file |
-|---|---|---|
-| Claymation | Fun, tactile, memorable brand | `references/claymation.md` |
-| Paper animation | Craft, calm, premium handmade | `references/paper-animation.md` |
-| Singing ad | The product needs emotion and repeat views | `references/singing-ad.md` |
-| Talking object | The thing itself is the hero (product, ingredient, organ) | `references/talking-object.md` |
-| Skeleton progression | A time based claim told as a visual countdown | `references/skeleton-progression.md` |
+The original pack uses one command per format. In Subclip, say the command or the format name and read its reference file first.
 
-If the creator is undecided, offer the two that best match the product and the audience, in one line each.
+| Format | Original command | Use when | Reference file |
+|---|---|---|---|
+| Claymation (4 sub-styles: goofy clay, clean simple clay, stop-motion puppet, premium studio plasticine) | `/claymation` | Fun, tactile, memorable brand, or a premium hand-made look | `references/claymation.md` |
+| Paper animation (5 sub-styles: layered papercraft, flat construction-paper cutout, handmade stop-motion paper, mixed-media collage, origami) | `/paper-animation` | Craft, calm, premium hand-made, or a story told through paper transitions | `references/paper-animation.md` |
+| Singing ad | `/song-style-ad` | The product needs emotion and repeat views; an original song carries the ad | `references/singing-ad.md` |
+| Talking object | `/talking-object` | The thing itself is the hero (product, ingredient, organ, animal, person) and talks to camera | `references/talking-object.md` |
+| Skeleton progression | `/skeleton-ads` | A time, quantity or stage claim told as a "what happens if you ___" countdown (4 skeleton styles) | `references/skeleton-progression.md` |
+
+Two formats decide how the ad looks (claymation, paper animation: a rendering style on top of any storyboard). Three decide what the ad is (singing ad, talking object, skeleton progression). The talking object can be rendered in the claymation or paper look, so pick a look and a format together when that suits the brand.
+
+Picker questions, in order: Is there a time or quantity story (day 1 to day 365)? Skeleton. Should the thing speak? Talking object. Is emotion and a hummable hook the point? Singing ad. Otherwise choose the look: tactile and funny or moody is claymation, calm and crafted is paper. If the creator is undecided, offer the two that best match the product and audience, one line each, and when they choose a claymation or paper look, show the sub-style menu from the reference file and let them pick by name or number.
 
 ## Shared workflow
 

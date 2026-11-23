@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Halftone Pop Panel](../examples/14-halftone-pop-panel.jpg)
 
+[Watch the style clip](../examples/14-halftone-pop-panel.mp4)
+
 A Lichtenstein-style blown-up comic panel: fat tapering black brush outlines, mechanical Ben-Day dot fields in red and blue, flat primary yellow, a tearful close-up and hand-lettered balloon.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #14](https://www.futurepedia.io/resources/ai
 ## 17. Risograph Zine
 
 ![Risograph Zine](../examples/17-risograph-zine.jpg)
+
+[Watch the style clip](../examples/17-risograph-zine.mp4)
 
 Three fluorescent spot inks (pink, medium blue, yellow) laid down as separate drum passes and multiplied on off-white stock - misregistered plates, grainy patchy solids, dotted tints and roller streaks.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #17](https://www.futurepedia.io/resources/ai
 
 ![Linocut Relief Print](../examples/29-linocut-relief-print.jpg)
 
+[Watch the style clip](../examples/29-linocut-relief-print.mp4)
+
 A hand-carved two-colour relief print: tapering white gouge strokes cut from dense black, parallel carving for tone, a red reduction layer, salty uneven ink on cream rice paper, signed and numbered in pencil.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #29](https://www.futurepedia.io/resources/ai
 ## 42. Wood Type Letterpress
 
 ![Wood Type Letterpress](../examples/42-wood-type-letterpress.jpg)
+
+[Watch the style clip](../examples/42-wood-type-letterpress.mp4)
 
 A two-ink wood-type broadside on cream stock: mixed display faces set block by block, each letter inked a little differently, wood grain and worn edges in the solids, ink squeezed to the rims and the whole forme bitten into the paper.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #42](https://www.futurepedia.io/resources/ai
 
 ![Vintage Newsprint](../examples/65-vintage-newsprint.jpg)
 
+[Watch the style clip](../examples/65-vintage-newsprint.mp4)
+
 A 1950s broadsheet front page: blackletter masthead, condensed banner headline, dense justified greeked columns and a coarse halftone wire photo, printed in thin uneven ink on yellowed pulp with show-through from the reverse.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #65](https://www.futurepedia.io/resources/ai
 ## 80. Silkscreen Grid
 
 ![Silkscreen Grid](../examples/80-silkscreen-grid.jpg)
+
+[Watch the style clip](../examples/80-silkscreen-grid.mp4)
 
 A Warhol-style repeat portrait: the same robot pulled eight times through a grainy black photo screen over loose, hand-cut flat colour plates in garish combinations, each pull misregistered and streaked by the squeegee.
 

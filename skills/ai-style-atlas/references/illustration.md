@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Illuminated Manuscript](../examples/10-illuminated-manuscript.jpg)
 
+[Watch the style clip](../examples/10-illuminated-manuscript.mp4)
+
 A Book of Hours folio: mottled vellum with ruling and pricking, textura in iron-gall ink with vermilion rubrics, a historiated initial on raised burnished gold, lapis, rose and malachite with white-lead filigree, ivy-leaf rinceaux with gold bezants, and drolleries in the margins.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #10](https://www.futurepedia.io/resources/ai
 ## 41. Manga Page
 
 ![Manga Page](../examples/41-manga-page.jpg)
+
+[Watch the style clip](../examples/41-manga-page.mp4)
 
 A black-and-white manga page: slanted panel gutters, brush-tapered ink, radiating focus lines, true halftone screentone gradients, katakana sound effects with white knock-out borders and hand-lettered speech balloons.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #41](https://www.futurepedia.io/resources/ai
 
 ![Tarot Card](../examples/47-tarot-card.jpg)
 
+[Watch the style clip](../examples/47-tarot-card.mp4)
+
 An aged art-nouveau tarot trump on crushed velvet: bold even outlines, flat muted lithograph colours, gold-foil halos and borders, celestial symbols and a worn, foxed cardstock with frayed corners.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #47](https://www.futurepedia.io/resources/ai
 ## 60. Botanical Plate
 
 ![Botanical Plate](../examples/60-botanical-plate.jpg)
+
+[Watch the style clip](../examples/60-botanical-plate.mp4)
 
 A hand-coloured copperplate natural-history plate: swelling engraved hatching that follows every form, loose transparent watercolour tints laid over the print, numbered figures, Latin italic captions and foxed rag paper with a pressed plate mark.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #60](https://www.futurepedia.io/resources/ai
 
 ![Byzantine Mosaic](../examples/62-byzantine-mosaic.jpg)
 
+[Watch the style clip](../examples/62-byzantine-mosaic.mp4)
+
 A Byzantine wall mosaic built from thousands of hand-cut tesserae laid in rows that echo every contour (andamento), with mortar grout, bevelled tile edges, per-tile colour variation and a glinting gold-smalti ground.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #62](https://www.futurepedia.io/resources/ai
 
 ![Sticky-Note Wall](../examples/64-sticky-note-wall.jpg)
 
+[Watch the style clip](../examples/64-sticky-note-wall.mp4)
+
 A brainstorming cork board: curling Post-its with adhesive bands and lifted-corner shadows, marker handwriting and doodles, a taped index card, push pins and red yarn connecting the ideas.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #64](https://www.futurepedia.io/resources/ai
 ## 73. Patent Drawing
 
 ![Patent Drawing](../examples/73-patent-drawing.jpg)
+
+[Watch the style clip](../examples/73-patent-drawing.mp4)
 
 A 1930s US patent sheet: ruling-pen black ink line art with shade lines, parallel-line and stipple shading, section hatching, reference numerals on curved leaders, typeset header and inked signatures on yellowed paper.
 

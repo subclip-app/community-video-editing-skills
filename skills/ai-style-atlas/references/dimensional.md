@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Isometric Pastel](../examples/15-isometric-pastel.jpg)
 
+[Watch the style clip](../examples/15-isometric-pastel.mp4)
+
 Clean vector isometric illustration: true 30° projection, flat three-tone face shading, soft pastel palette with a single coral accent, tiny people for scale and long soft shadows on a floating tile.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #15](https://www.futurepedia.io/resources/ai
 ## 31. Voxel Diorama
 
 ![Voxel Diorama](../examples/31-voxel-diorama.jpg)
+
+[Watch the style clip](../examples/31-voxel-diorama.mp4)
 
 MagicaVoxel-style diorama: a floating voxel island with a waving robot, chunky trees and a pond - three-tone cube faces, per-vertex ambient occlusion in the creases, ray-marched soft shadows and a warm toy palette.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #31](https://www.futurepedia.io/resources/ai
 
 ![Low-Poly Faceted](../examples/40-low-poly-faceted.jpg)
 
+[Watch the style clip](../examples/40-low-poly-faceted.mp4)
+
 Faceted low-poly 3D: a triangulated noise terrain with flat per-face Lambert shading, atmospheric depth fog, cone trees and a faceted rocket lifting off into a dawn gradient sky.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #40](https://www.futurepedia.io/resources/ai
 ## 46. Glassmorphism UI
 
 ![Glassmorphism UI](../examples/46-glassmorphism-ui.jpg)
+
+[Watch the style clip](../examples/46-glassmorphism-ui.mp4)
 
 Frosted-glass UI: translucent panels that genuinely blur the vivid gradient blobs and orbs behind them, with 1px light borders, a diagonal specular sheen, fine frost grain and crisp Inter type.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #46](https://www.futurepedia.io/resources/ai
 
 ![Soft 3D Clay](../examples/56-soft-3d-clay.jpg)
 
+[Watch the style clip](../examples/56-soft-3d-clay.mp4)
+
 Dribbble-style “puffy” 3D icons: pastel matte-clay objects with chunky rounded extrusions, soft core shadows, bright bounce-light rims, glossy specular blobs and blurry contact shadows on a seamless pastel sweep.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #56](https://www.futurepedia.io/resources/ai
 ## 66. Hidden-Line Wireframe
 
 ![Hidden-Line Wireframe](../examples/66-hidden-line-wireframe.jpg)
+
+[Watch the style clip](../examples/66-hidden-line-wireframe.mp4)
 
 Vector-display 3D: a perspective wire-mesh landscape with true hidden-line removal (back-to-front quads filled with the night before stroking), a wireframe moon, phosphor-cyan lines with bloom on deep navy, and HUD coordinate labels.
 

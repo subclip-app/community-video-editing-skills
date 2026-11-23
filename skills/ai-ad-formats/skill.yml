@@ -1,25 +1,63 @@
 slug: ai-ad-formats
 name: AI ad formats
-summary: Five ad formats from one product photo: claymation, paper animation, singing ad, talking object and skeleton progression.
+summary: Five ad formats from one product photo: claymation (4 styles), paper animation (5 styles), singing ad, talking object and skeleton progression.
 category: promos
 tags: [ads, claymation, paper-animation, singing-ad, talking-object]
 cover: cover.svg
 preview: preview.mp4
 adaptedBySubclip: true
 license: Not stated
-upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill description on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c" }
+upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill pack and the entry page on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c" }
 addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
+  - file: examples/notion-claymation.jpg
+    caption: "From the creator's list: claymation ad, a clay character holding the product in a clay bathroom."
+  - file: examples/notion-claymation-styles.jpg
+    caption: "From the creator's list: the four claymation sub-styles side by side, goofy to premium studio plasticine."
+  - file: examples/notion-paper-animation.jpg
+    caption: "From the creator's list: paper animation entry, a Vox-style animated documentary title card."
+  - file: examples/notion-singing-ad.jpg
+    caption: "From the creator's list: singing ad, an animated purple creature sings into a mic in a misty forest."
+  - file: examples/notion-talking-object.jpg
+    caption: "From the creator's list: talking object, an old leather book with a face sitting on a rainy library bench."
+  - file: examples/notion-skeleton-ads.jpg
+    caption: "From the creator's list: skeleton progression ad, a see-through body with a cartoon-eyed skeleton."
   - file: examples/sharpener-style-lock.jpg
-    caption: Claymation style lock with a cobalt hand-crank sharpener and a pencil character.
+    caption: "Test output: claymation style lock with a cobalt hand-crank sharpener and a pencil character."
   - file: examples/sharpening-beat.jpg
-    caption: Use beat showing the crank, the inserted pencil and shavings falling into the drawer.
+    caption: "Test output: use beat with the crank, the inserted pencil and shavings falling into the drawer."
   - file: examples/sharpener-payoff.jpg
-    caption: Payoff beat with the sharpened pencil beside the same clay sharpener.
+    caption: "Test output: payoff beat with the sharpened pencil beside the same clay sharpener."
   - file: examples/sharpener-in-action.mp4
-    caption: A clay pencil meets the crank sharpener, then returns with a freshly sharpened tip.
-examplesCredit: "Test outputs made with this skill in Subclip"
+    caption: "Test output: a clay pencil meets the crank sharpener, then returns with a freshly sharpened tip."
+  - file: examples/claymation-premium-plasticine.jpg
+    caption: "Test output: claymation in premium studio plasticine, with a hand-crank sharpener and a freshly sharpened pencil."
+  - file: examples/claymation-clip.mp4
+    caption: "Test output: claymation in premium studio plasticine, with a slow push toward the sharpener."
+  - file: examples/paper-animation-layered.jpg
+    caption: "Test output: paper animation in layered papercraft, with a sage bottle in a stacked card landscape."
+  - file: examples/paper-animation-origami.jpg
+    caption: "Test output: paper animation in origami, with the same sage bottle in a folded paper landscape."
+  - file: examples/paper-animation-clip.mp4
+    caption: "Test output: paper animation, with a slow push and crossfade from layered papercraft to origami."
+  - file: examples/singing-ad-lead.jpg
+    caption: "Test output: singing ad in stylized 3D, with the lead creature and its lantern under a spotlight."
+  - file: examples/singing-ad-performance.jpg
+    caption: "Test output: singing ad in stylized 3D, with the lead creature singing into a microphone."
+  - file: examples/singing-ad-payoff.jpg
+    caption: "Test output: singing ad in stylized 3D, with the lantern lighting a campsite map."
+  - file: examples/singing-ad-clip.mp4
+    caption: "Test output: singing ad in stylized 3D, with three silent storyboard beats from lead to lantern payoff."
+  - file: examples/talking-object-squeegee.jpg
+    caption: "Test output: talking object in stylized 3D. I am a squeegee. I sweep water away. So your counter stays dry."
+  - file: examples/talking-object-clip.mp4
+    caption: "Test output: talking object in stylized 3D, with a silent push in on a squeegee clearing a spill."
+  - file: examples/skeleton-progression-board.jpg
+    caption: "Test output: skeleton progression in cinematic 3D, with a garden growing from Day 1 to Day 365."
+  - file: examples/skeleton-progression-clip.mp4
+    caption: "Test output: skeleton progression in cinematic 3D, with Day 1, Day 30 and Day 365 shown in sequence."
+examplesCredit: "Images from the Claude Creative Skill Library Vol 2 by PYNK Society, plus our own test outputs made with this skill in Subclip"
 examplesKind: test

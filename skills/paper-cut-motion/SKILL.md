@@ -5,10 +5,10 @@ description: Turn an image into a paper-cut collage motion video in Subclip. Use
 
 # Paper-cut motion (Subclip edition)
 
-Three prompts, one finished video. The still defines the look, the storyboard defines the order in which pieces appear, and the video model follows that order.
+Three prompts, one finished video (the original calls them the paper-cut prompt, the 9-panel sheet prompt and the animation prompt). The still defines the look, the storyboard defines the order in which pieces appear, and the video model follows that order.
 
 ```
-IMAGE -> 1 Paper-cut still -> 2 Nine panel storyboard sheet -> 3 Animation -> 4 Timeline
+IMAGE -> 1 Paper-cut still -> 2 Motion choice -> 3 Nine panel storyboard sheet -> 4 Animation -> 5 Timeline
 ```
 
 ## Before you start
@@ -27,38 +27,45 @@ If the image is in the project, call `get_media_context` with `includeContactShe
 
 ## Step 1: Paper-cut still
 
-Write an image prompt that recreates the scene as layered torn paper: ragged white edges on every piece, visible paper fibers, slight shadows between layers, flat colors with subtle grain, a plain background. Keep the composition, the subject and the palette of the source. See `references/prompts.md`.
+Read `references/prompts.md`. Describe what is really in the source (subject, pose, colors, layout, any text or numbers) in a sentence or two, then add the fixed style block from the reference: layered cut and torn pieces, each a separate flat cutout with rough torn edges, paper grain, a hard drop shadow, small white slivers of negative space between pieces, muted slightly desaturated color, soft directional light, no gradients, no gloss. Keep subject, composition and colors; change only the material to paper. Never name real public figures, famous artworks or brands: describe them generically.
 
 Generate with the source as the reference (`sourceAssets`, `role: "reference"`). Generate two or four versions and let the creator pick. Everything after depends on this still.
 
-## Step 2: Storyboard sheet
+## Step 2: Ask about motion
 
-Write a prompt for one image with nine panels, in reading order, showing the same scene assembling from empty background to complete scene, a few pieces added per panel, the same camera in every panel. Attach the chosen still as the reference. Review the sheet: panels must agree with each other and with the still.
+Every paper-cut motion starts with the scene assembling itself out of torn paper, then settling. After assembly the creator may add one simple action (the car drives off, the figure lifts away on a balloon, a ball is kicked and confetti scatters). Ask once: motion at the end, or pure assembly? Store the answer; pure assembly is the safe default.
 
-## Step 3: Animation
+## Step 3: Storyboard sheet
 
-Write the video prompt: the scene builds itself from torn paper following the panel order, pieces slide, flip and settle into place with small paper-like overshoots, no hands, then one simple end action only if the creator wants it (the car drives off, the card lifts away), otherwise end on the finished scene. Attach the storyboard sheet and the still. Generate with `generate_ai_media` `kind: "video"`, 16:9 (or the source ratio), 10 seconds, 720p, `generateAudio: true`. Import with `import_ai_operation_to_timeline`.
+Write one prompt for one image with a 3 by 3 grid of nine sequential panels, thin borders, absolutely no text, labels, captions or numbers. Order far to near: panel 1 a nearly empty frame with the first background pieces sliding in, then ground, set pieces, crowd, props, then the hero assembling part by part, the second-to-last panel showing the action beat if one was requested, and the last panel the complete scene matching the still. Keep the same paper look in every panel and end by restating that there is no text. Attach the chosen still. Generate in the aspect ratio of the final video (16:9, 9:16 or 1:1). Review: the panels must agree with each other and with the still.
+
+## Step 4: Animation
+
+Write the animation prompt in the fixed order from `references/prompts.md`: constant opening, assembly body (back to front: backdrop, ground, set pieces, crowd, props, hero last and part by part, each with an entry direction and a hard paper shadow), the optional "as the final beat" action using only paper-legal verbs (slide, drop, rotate, tumble, lift, plant, scatter, tip, swing, snap forward, drive off; no morphing, folding or bending), then the constant style, negative and sound closings. Pieces are rigid flat cutouts that reposition; nothing folds or morphs.
+
+Attach the storyboard sheet as the start or reference frame (seeding from the sheet gives the smoothest, most coherent build), plus the still. Generate with `generate_ai_media` `kind: "video"`, the ratio of the sheet, 10 seconds, 720p, `generateAudio: true`. Import with `import_ai_operation_to_timeline`.
 
 Renders differ each time. Offer 2 variants if budget allows; a set of variants in the same style makes a nice series.
 
-## Step 4: Timeline
+## Step 5: Timeline
 
 - Trim head and tail with `trim_media_item` so the first frame is not empty for too long.
 - Title or words: add them as native text with `add_text_overlay`, never ask the model for lettering. Place them after `get_timeline_contact_sheet` shows the clear paper areas. Use a paper-like look (cream chip, slight rotation of -2 to 2 degrees) with `update_text_item`.
-- Sound: keep the model's paper sound at a low volume or replace with a soft bed from `generate_music` (instrumental, volume about 0.2 with fades) imported through `import_ai_operation_to_timeline`.
+- Sound: the model's paper-only foley (slides, taps, shuffles, drops) is the intended sound; keep it, or lower it under a soft bed from `generate_music` (instrumental, volume about 0.2 with fades) imported through `import_ai_operation_to_timeline`.
 - Check frames at the start, mid assembly and the end with `view_current_frame`.
 - Export only when asked.
 
 ## Tips
 
-- One clear motion at the end works best. Skip it for pure assembly.
-- A polished source gives clean pieces.
-- Keep the same still and sheet to make a family of videos with different end actions.
+- Start with a clean, finished, poster-like image; the more polished the source, the cleaner the result.
+- Keep actions simple: one clear motion at the end ("drives off", "lifts away", a kick then a scatter), or skip it for pure assembly. Multi-step actions get messy.
+- Recommended settings: 10 seconds, 720p, audio on.
+- Run it again for variations. Each render comes out a little different, so make a whole set in the same style; keep the same still and sheet and change only the end action to build a family.
 
 ## Verification
 
 - The finished frame matches the still's composition.
-- Pieces appear in the sheet's order and nothing pops in without a paper move.
+- Pieces appear in the sheet's order, back to front, hero last, and nothing pops in without a paper move; nothing folds, bends or morphs.
 - Any text is native and correct.
 
 ---

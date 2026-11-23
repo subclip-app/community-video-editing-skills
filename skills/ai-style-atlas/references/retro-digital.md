@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Oscilloscope Vector Art](../examples/16-oscilloscope-vector-art.jpg)
 
+[Watch the style clip](../examples/16-oscilloscope-vector-art.mp4)
+
 Oscilloscope-music XY art on an analogue lab scope: one P31 green beam draws everything, bright where it slows at turns and dim on fast retrace lines, with bloom and halation behind an internal 8x10 graticule, framed by a moulded CRT bezel and a knobbed instrument front panel.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #16](https://www.futurepedia.io/resources/ai
 ## 22. 16-Bit Pixel Odyssey
 
 ![16-Bit Pixel Odyssey](../examples/22-16-bit-pixel-odyssey.jpg)
+
+[Watch the style clip](../examples/22-16-bit-pixel-odyssey.mp4)
 
 A SNES-era cutscene: 320x180 hand-placed pixels blown up 4x, a strict ~40-colour palette, banded sky with checkerboard dither transitions, layered parallax and an RPG dialog box.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #22](https://www.futurepedia.io/resources/ai
 
 ![Phosphor Terminal](../examples/45-phosphor-terminal.jpg)
 
+[Watch the style clip](../examples/45-phosphor-terminal.mp4)
+
 A green P1-phosphor CRT: VT323 boot log with bloom and halation, curved scanlines, true per-pixel barrel distortion with RGB fringing at the edges, tube vignette, hum bar, and a glass face catching the room light inside a plastic bezel.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #45](https://www.futurepedia.io/resources/ai
 ## 59. Pocket Monochrome
 
 ![Pocket Monochrome](../examples/59-pocket-monochrome.jpg)
+
+[Watch the style clip](../examples/59-pocket-monochrome.mp4)
 
 An original DMG handheld frame: 160x144 pixels in exactly four pea-soup greens, a visible LCD pixel grid with each pixel casting a faint shadow on the reflective backing, motion ghosting, and the purple-grey bezel with its striped DOT MATRIX label.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #59](https://www.futurepedia.io/resources/ai
 
 ![Vector Arcade 1980](../examples/72-vector-arcade-1980.jpg)
 
+[Watch the style clip](../examples/72-vector-arcade-1980.mp4)
+
 An XY vector monitor cabinet game: hair-thin phosphor beams on pure black, additive bloom, brighter dwell dots where the beam pauses at vertices, dimmer long strokes, wireframe 3D in perspective and a hand-built stroke font.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #72](https://www.futurepedia.io/resources/ai
 
 ![ASCII Demoscene](../examples/82-ascii-demoscene.jpg)
 
+[Watch the style clip](../examples/82-ascii-demoscene.mp4)
+
 A ray-marched 3D torus rasterised into a strict monospace character grid via a luminance ramp, colour-coded like a 90s demoscene intro: box-drawn title panel, plasma backdrop, copper bars and a sine scroller.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #82](https://www.futurepedia.io/resources/ai
 ## 85. MacPaint 1984
 
 ![MacPaint 1984](../examples/85-macpaint-1984.jpg)
+
+[Watch the style clip](../examples/85-macpaint-1984.mp4)
 
 Pure 1-bit black & white at the original 72-dpi grain: real Atkinson-dithered grayscale (blown-out highlights, crunchy shadows), 8x8 fill patterns, striped title bars, marching ants and bitmap type.
 

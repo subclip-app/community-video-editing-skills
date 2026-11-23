@@ -249,7 +249,7 @@ Generated from each folder's `skill.yml` by `npm run build`.
 <td width="33%" valign="top">
 <a href="skills/ai-ad-formats"><img src="skills/ai-ad-formats/cover.svg" alt="AI ad formats" width="100%"></a><br>
 <a href="skills/ai-ad-formats"><b>AI ad formats</b></a><br>
-<sub>Five ad formats from one product photo: claymation, paper animation, singing ad, talking object and skeleton progression.</sub><br>
+<sub>Five ad formats from one product photo: claymation (4 styles), paper animation (5 styles), singing ad, talking object and skeleton progression.</sub><br>
 <sub>Adapted from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub>
 </td>
 <td width="33%" valign="top">

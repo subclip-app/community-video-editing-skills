@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Synthwave Outrun](../examples/27-synthwave-outrun.jpg)
 
+[Watch the style clip](../examples/27-synthwave-outrun.mp4)
+
 80s outrun poster: neon grid highway to a striped sunset, wireframe vector mountains, chrome-beveled italic title with a horizon reflection and a hot-pink neon script, all bathed in bloom.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #27](https://www.futurepedia.io/resources/ai
 ## 39. Win95 Desktop
 
 ![Win95 Desktop](../examples/39-win95-desktop.jpg)
+
+[Watch the style clip](../examples/39-win95-desktop.mp4)
 
 A mid-90s beige-box desktop at 2x pixel scale: teal wallpaper, 2-pixel bevelled grey chrome, navy title bars, aliased system text and a trail of frozen error dialogs.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #39](https://www.futurepedia.io/resources/ai
 
 ![Vaporwave](../examples/53-vaporwave.jpg)
 
+[Watch the style clip](../examples/53-vaporwave.mp4)
+
 Pastel-neon dreamscape: sliced sunset sun, glowing grid floor, a glitching marble bust on a checkerboard plinth, palm silhouettes, katakana, and a chewed-up VHS tape finish.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #53](https://www.futurepedia.io/resources/ai
 ## 63. Y2K Liquid Chrome
 
 ![Y2K Liquid Chrome](../examples/63-y2k-liquid-chrome.jpg)
+
+[Watch the style clip](../examples/63-y2k-liquid-chrome.mp4)
 
 Millennium-futurist liquid chrome: environment-mapped metaball blobs and inflated chrome bubble letters with thin-film iridescence, soap bubbles, starburst glints and frosted pill UI in silver, ice-blue and lilac.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #63](https://www.futurepedia.io/resources/ai
 
 ![Bitmap Paint Doodle](../examples/75-bitmap-paint-doodle.jpg)
 
+[Watch the style clip](../examples/75-bitmap-paint-doodle.mp4)
+
 A proudly crude early-2000s bitmap painting: aliased pencil lines, real flood fills that leak through gaps, airbrush speckle, double-drawn rectangles and an opaque text-tool box, all inside a grey paint-program window.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #75](https://www.futurepedia.io/resources/ai
 ## 79. Teletext Page
 
 ![Teletext Page](../examples/79-teletext-page.jpg)
+
+[Watch the style clip](../examples/79-teletext-page.mp4)
 
 A broadcast teletext page: strict 40x25 character grid, eight saturated colours, 2x3 sextant mosaic graphics with one colour per cell, double-height headlines and Fastext links, seen through a CRT.
 

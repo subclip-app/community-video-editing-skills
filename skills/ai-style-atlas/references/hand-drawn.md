@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Whiteboard Explainer](../examples/04-whiteboard-explainer.jpg)
 
+[Watch the style clip](../examples/04-whiteboard-explainer.mp4)
+
 Dry-erase marker on a glossy whiteboard: streaky chisel-tip strokes with pooled edges, wobbly double-traced boxes and arrows, a ghost of the last erased lesson, and a soft ceiling-light sheen.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #04](https://www.futurepedia.io/resources/ai
 ## 23. Chalkboard Lesson
 
 ![Chalkboard Lesson](../examples/23-chalkboard-lesson.jpg)
+
+[Watch the style clip](../examples/23-chalkboard-lesson.mp4)
 
 Dusty chalk on a green slate: grainy, broken strokes that skip over the board tooth, colored chalk accents, cloudy eraser smears from past lessons, and a worn oak frame with a dusty chalk tray.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #23](https://www.futurepedia.io/resources/ai
 
 ![Etch A Sketch Toy](../examples/33-etch-a-sketch-toy.jpg)
 
+[Watch the style clip](../examples/33-etch-a-sketch-toy.mp4)
+
 The classic red line-drawing toy: glossy rounded red plastic with hard specular streaks, two white knurled knobs, and a grainy silver aluminium-powder screen where everything is one thin dark line that never lifts: crisp horizontals and verticals, stair-stepped diagonals and curves, and visible travel lines joining every letter and shape.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #33](https://www.futurepedia.io/resources/ai
 ## 37. Engineering Blueprint
 
 ![Engineering Blueprint](../examples/37-engineering-blueprint.jpg)
+
+[Watch the style clip](../examples/37-engineering-blueprint.mp4)
 
 A drafted cyanotype: white line-work bleeding slightly into mottled, sun-faded Prussian-blue paper, orthographic front/side views with a hatched section, dimension chains, a zoned border, title block and worn fold creases.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #37](https://www.futurepedia.io/resources/ai
 
 ![Napkin Sketch](../examples/50-napkin-sketch.jpg)
 
+[Watch the style clip](../examples/50-napkin-sketch.mp4)
+
 A back-of-the-napkin startup pitch in black Sharpie: ink feathering into soft tissue fibers, an embossed napkin border, quarter-fold creases and crumples, a coffee ring, all lying on a warm wooden cafe table.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #50](https://www.futurepedia.io/resources/ai
 
 ![Ballpoint Notebook](../examples/68-ballpoint-notebook.jpg)
 
+[Watch the style clip](../examples/68-ballpoint-notebook.mp4)
+
 A blue Bic doodle in the back of a college-ruled notebook: dense crosshatching for darks, pressure-varied lines with ink blobs where strokes start, bubble lettering with a hatched drop shadow and compulsive margin doodles.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #68](https://www.futurepedia.io/resources/ai
 ## 78. Sketchbook Graphite
 
 ![Sketchbook Graphite](../examples/78-sketchbook-graphite.jpg)
+
+[Watch the style clip](../examples/78-sketchbook-graphite.mp4)
 
 A graphite study in a spiral sketchbook: faint construction circles and axes under confident darker contours, directional hatching that breaks on the paper tooth, smudged tones, kneaded-eraser highlights and a margin note.
 

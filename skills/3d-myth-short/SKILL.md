@@ -23,25 +23,25 @@ Model families to look for: an image model that accepts reference images (Seedre
 
 ## Stage 1: Brief (no tool call, the creator approves)
 
-Research the idea with what you already know and say what you are unsure of. Then write:
+Read `references/script-and-plan.md` and `references/house-style.md` first.
 
-- **Myth**: the common belief, stated in one punchy line. Open on it.
-- **Twist**: the fact that breaks it.
-- **Mechanism**: the real cause, shown as something you can see happening.
-- **Kicker**: one closing line that changes how the viewer sees the topic.
-- A **style key**: one sentence for the look (for example soft stylized 3D, warm key light, shallow depth of field).
-- A **shot table** for three blocks of 10 seconds: time range, what is on screen, camera move, what the narrator says. Each shot is 2 to 4 seconds.
+1. Topic and angle. If the creator has no idea, offer to find one: search what is trending, turn the top three into a numbered list (topic, why it is hot, the hidden angle) and let them pick. Whatever the topic, state the angle in one sentence: everyone believes X, but now people think Y and the real mechanism is Z. It must flip the familiar story.
+2. Settings with defaults: length 30 s (20 to 60 s, every 10 s is a block), aspect 9:16 (or 16:9), edit mode full (zoom-ins and shakes) or zooms only or clean.
+3. Research. Cross-check each claim against two sources, keep a sources list, never invent a number, and keep mechanisms to true claims someone holds ("others think" is the honesty valve). Say what you are unsure of.
+4. Write the 5 beat script (myth, twist, mechanism A, mechanism B, kicker) at about 2.7 words a second (30 s is about 75 to 85 words) and run the rewrite pass in the reference.
+5. Write the style formula once (house look from `house-style.md`, adapted to the topic) and the asset roster: at most 6 sheets including the style key.
+6. Write the shot table per block: 6 to 9 hard cuts per 10 s, each line `[time] SIZE/ANGLE, subject and action, annotation, assets`, with the signature shots (macro eyes, a gag beat, a whip-in opener).
+7. Offer the narrator voices (calm deep US male, measured British male, warm US female) with `get_voice_samples`.
+8. Show the brief: angle, script lines labelled by beat, a compact table per block, the roster. End with "All good, or change anything?" and loop until approved.
 
-Keep the narration at about 70 to 80 words in total, about 2.5 words a second. Facts must be true. Mark anything the creator should verify.
-
-Save the approved brief with `update_project_director_brief`.
+Keep facts true and mark anything the creator should verify. Save the approved brief with `update_project_director_brief`.
 
 ## Stage 2: Reference sheets
 
-Make one image for the style key and one image per recurring character, place and key object. Sheets are what keep the three blocks consistent, so each one needs a plain background, one subject, a clear silhouette and no text.
+Make one image for the style key and one image per recurring character, place and key object. Sheets are what keep the blocks consistent, so each one needs a plain background, one subject, a clear silhouette and no text. Follow the sheet specs in `references/house-style.md`: people 2:3 full body, props 1:1 isolated, environments empty (carry the subject-bleed guard), damage states made from the base sheet.
 
 1. Generate the style key first. Review it. If it is wrong, fix the prompt before anything else.
-2. Generate the rest with the style key attached as a reference (`sourceAssets` with `role: "reference"`, sourced from an item or file already in the project).
+2. Generate the rest in that order (environments, characters, props, damage states) with the style key attached as a reference (`sourceAssets` with `role: "reference"`, sourced from an item or file already in the project).
 3. Bring Codex images in with `import_external_media` and `addToTimeline: false`. Cloud results come through `get_ai_operation` and `import_ai_operation_to_timeline`; remove drafts from the timeline when you only need them as media.
 4. Name each sheet by what it is (`hero`, `lab-room`) and keep the list in the director brief.
 
@@ -51,11 +51,11 @@ Generate two or four versions of anything that matters and keep the cleanest. Si
 
 Write one prompt per 10 second block and attach only the sheets that block needs.
 
-Prompt layout: the style key line, then a timestamped list such as `0-3s: ...`, `3-6s: ...`, `6-10s: ...`, each with subject, action, camera and lighting; then a line for ambient sound and effects. Ask for no spoken voice, because the narrator is added separately and stays the same across blocks. See `references/block-prompts.md`.
+Prompt layout: the style formula unchanged, then a hard-cut shot list with timecodes (6 to 9 cuts per block, see `references/script-and-plan.md` for the template and the negative line), annotation directions, then a line for scene sound and effects. Characters never talk and nothing is spoken, because the narrator is added separately and stays the same across blocks. Attach at most 3 sheets per block, in this order: environment, character, prop. See `references/block-prompts.md` and `references/script-and-plan.md`.
 
-`generate_ai_media` with `kind: "video"`, the chosen video model, `aspectRatio` 16:9 unless the creator wants vertical, `durationSeconds` 10, `generateAudio: true` for scene sound, and every needed sheet in `sourceAssets`. Poll `get_ai_operation` sparingly (every 15 to 30 seconds, or wait for the completion event in the app). Do not submit duplicates for a slow job. Import each finished block with `import_ai_operation_to_timeline` at 0, 10 and 20 seconds.
+`generate_ai_media` with `kind: "video"`, the chosen video model, `aspectRatio` 9:16 by default (16:9 if the creator chose landscape, and the same ratio on the sheets), `durationSeconds` 10, `generateAudio: true` for scene sound, and every needed sheet in `sourceAssets`. Poll `get_ai_operation` sparingly (every 15 to 30 seconds, or wait for the completion event in the app). Do not submit duplicates for a slow job. Import each finished block with `import_ai_operation_to_timeline` at 0, 10 and 20 seconds.
 
-If a block breaks a rule (a character changes, a prop vanishes), tell the creator what actually came out, then rewrite only the part of the prompt that caused it.
+If a block breaks a rule (a character changes, a prop vanishes, the cuts collapse into one long shot), tell the creator what actually came out, then rewrite only the part of the prompt that caused it. Use the retry ladder in `references/script-and-plan.md` (same prompt twice, soften violent words, reframe the beat). Never drop a block.
 
 ## Stage 4: Voice
 
@@ -71,7 +71,7 @@ Keep the narrator in its own audio item.
 Read `references/subclip-assembly.md`. In short:
 
 - Place the three blocks back to back and trim with `trim_media_item` or `update_media_item` so the cuts land on a narration beat.
-- Zoom-ins on reveals: `add_media_keyframe` with `scale` from 1 to 1.12 over the reveal beat. Impact shakes: three or four quick keyframes of small `x` and `y` offsets (about 1 to 2 percent), then back to rest.
+- Zoom-ins (punches) on 3 to 6 reveals: `add_media_keyframe` with `scale` from 1 to about 1.08 to 1.12 over about 0.4 s. Shakes at every block boundary and impact, never stacked on a punch (grammar in `references/script-and-plan.md`). Impact shakes: three or four quick keyframes of small `x` and `y` offsets (about 1 to 2 percent), then back to rest.
 - Mix: use `update_audio_item` for the narrator (volume near 1) and `update_media_item` for each video block's own sound (volume about 0.35 to 0.5).
 - Optional captions with `transcribe_project`, local mode, then `update_caption_style`.
 - `set_project_duration` to the end of the last block plus a short tail. Check with `get_timeline_contact_sheet` and `view_current_frame` at every cut and every effect. Export only when asked, using `get_export_configuration`, `list_render_queue`, then `export_video`.
@@ -80,7 +80,9 @@ Read `references/subclip-assembly.md`. In short:
 ## Verification
 
 - Every character looks the same in all three blocks.
-- The narration matches what is on screen at each beat.
+- The narration matches what is on screen at each beat, and ends 1 to 1.5 seconds before the film.
+- Green annotations mark reveals and red marks danger; no words are baked into a frame; no brand names; nobody lip syncs.
+- At least one macro eye shot and one gag beat, and the kicker closes the loop opened by the first line.
 - No text or number baked into a frame disagrees with the script. Add exact words as native text, never rely on generated text.
 - Sound: tell the creator which parts need a listen, you cannot hear the mix.
 

@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![1940s Film Noir](../examples/08-1940s-film-noir.jpg)
 
+[Watch the style clip](../examples/08-1940s-film-noir.mp4)
+
 A high-contrast black-and-white still from a forties detective picture: venetian-blind light slicing across a fedora silhouette, a glowing terminal as the only other light, cigarette smoke hanging in the beams, with heavy nitrate grain, gate weave, dust and scratches.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #08](https://www.futurepedia.io/resources/ai
 ## 12. Bioluminescent Deep Sea
 
 ![Bioluminescent Deep Sea](../examples/12-bioluminescent-deep-sea.jpg)
+
+[Watch the style clip](../examples/12-bioluminescent-deep-sea.mp4)
 
 The midnight zone: near-black water with parallax marine snow, and nothing lit but living light - a jellyfish whose nerve net glows like a neural network, a siphonophore chain, a rainbow-rippling comb jelly and an anglerfish lure. Additive cyan, teal and electric-blue glow with magenta and amber accents; type is bioluminescent.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #12](https://www.futurepedia.io/resources/ai
 
 ![Neon Sign at Night](../examples/19-neon-sign-at-night.jpg)
 
+[Watch the style clip](../examples/19-neon-sign-at-night.mp4)
+
 Hand-bent glass neon on an old brick wall after rain: white-hot tube cores, saturated colour halos, painted-out blockout tube, clips and electrodes, light spilling across the brickwork and smearing in the wet pavement.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #19](https://www.futurepedia.io/resources/ai
 ## 30. Holographic Foil Card
 
 ![Holographic Foil Card](../examples/30-holographic-foil-card.jpg)
+
+[Watch the style clip](../examples/30-holographic-foil-card.mp4)
 
 A holo-rare trading card and die-cut sticker: cracked-ice foil whose rainbow diffraction shifts with angle and surface normals, embossed robot, sunburst and lettering catching specular glints, printed ink sitting on top, glitter flecks and rainbow spill on the desk.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #30](https://www.futurepedia.io/resources/ai
 
 ![Thermal Camera](../examples/36-thermal-camera.jpg)
 
+[Watch the style clip](../examples/36-thermal-camera.mp4)
+
 A handheld IR camera frame in ironbow: soft low-res heat field, cold glasses and warm breath, hot coffee and GPU racks, edge-enhanced outlines, sensor noise and the camera’s own HUD with spot meter, box measurement and scale bar.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #36](https://www.futurepedia.io/resources/ai
 
 ![Light Painting](../examples/43-light-painting.jpg)
 
+[Watch the style clip](../examples/43-light-painting.mp4)
+
 A 30-second exposure in a dark field: a neural network drawn in the air with an LED wand and a twisting rainbow light-tube ribbon, hand-jittered trails with hot cores and coloured falloff, a ghost of the painter, pinpoint stars, horizon bokeh and colour spill on the grass.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #43](https://www.futurepedia.io/resources/ai
 ## 52. Radiograph on Lightbox
 
 ![Radiograph on Lightbox](../examples/52-radiograph-on-lightbox.jpg)
+
+[Watch the style clip](../examples/52-radiograph-on-lightbox.mp4)
 
 A blue-base X-ray film clipped to a glowing viewer: additive translucent density of a robot hand - hollow-shelled bones, pivot pins, screws, tendons, battery cell and gears - with collimation borders, lead markers, an ID flash, grease-pencil notes, scratches and dust.
 

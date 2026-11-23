@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Ebru Paper Marbling](../examples/54-ebru-paper-marbling.jpg)
 
+[Watch the style clip](../examples/54-ebru-paper-marbling.mp4)
+
 Turkish ebru on laid paper: a battal stone ground of floated pigments raked into gel-git chevrons and combed, then suminagashi ring-drops pulled by a stylus into tulips - built with the exact drop and tine transforms.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #54](https://www.futurepedia.io/resources/ai
 ## 61. Kinetic Type
 
 ![Kinetic Type](../examples/61-kinetic-type.jpg)
+
+[Watch the style clip](../examples/61-kinetic-type.mp4)
 
 A typographic music-video frame: condensed words cropped edge to edge with zero leading, filled vs outlined, strobe echoes, a slice glitch and one word stretched and filled with a halftone dreamscape - strictly two colours.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #61](https://www.futurepedia.io/resources/ai
 
 ![Op Art Sphere](../examples/69-op-art-sphere.jpg)
 
+[Watch the style clip](../examples/69-op-art-sphere.mp4)
+
 Hard-edged black/ivory checkerboard that swells into a lens-like sphere and ripples at the margins - Vasarely and Riley optical vibration, flat acrylic on primed canvas.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #69](https://www.futurepedia.io/resources/ai
 ## 76. Nail & Thread String Art
 
 ![Nail & Thread String Art](../examples/76-nail-and-thread-string-art.jpg)
+
+[Watch the style clip](../examples/76-nail-and-thread-string-art.mp4)
 
 Taut cotton threads strung between brass nails on a stained walnut board; every curve is an envelope of straight chords, with thread translucency, sheen and cast shadows, plus pyrography lettering.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #76](https://www.futurepedia.io/resources/ai
 
 ![Guilloché Security Print](../examples/81-guilloche-security-print.jpg)
 
+[Watch the style clip](../examples/81-guilloche-security-print.mp4)
+
 Banknote-grade lathe work: hairline hypotrochoid rosettes and woven sine-ring meshes in split-fountain iris inks on fibred security paper, with engraved serif lettering, microtext and red serials.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #81](https://www.futurepedia.io/resources/ai
 ## 86. Multi-scale Truchet
 
 ![Multi-scale Truchet](../examples/86-multi-scale-truchet.jpg)
+
+[Watch the style clip](../examples/86-multi-scale-truchet.mp4)
 
 Bold two-ink multi-scale Truchet tiling of winged quarter-circle tiles whose paths flow continuously across three scales; a third ink fills only the closed regions that fall inside the letters "AI", so the word surfaces from the maze.
 

@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Flat-Vector Science](../examples/01-flat-vector-science.jpg)
 
+[Watch the style clip](../examples/01-flat-vector-science.mp4)
+
 Flat-vector science-explainer illustration: deep navy-to-violet space gradients, chunky outline-free shapes with rich multi-stop gradients, flat crescent shadows and rim highlights, soft radial glows, sparkly star fields, banded ringed planets and cute big-eyed round characters.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #01](https://www.futurepedia.io/resources/ai
 ## 06. Tech Glow Explainer
 
 ![Tech Glow Explainer](../examples/06-tech-glow-explainer.jpg)
+
+[Watch the style clip](../examples/06-tech-glow-explainer.mp4)
 
 The polished AI / tech YouTube motion-graphics look: deep navy-to-indigo space with drifting electric glows and a perspective grid, gradient-stroked icon tiles wired into node diagrams with light pulses racing along the connectors, dark cards with thin neon borders, gradient headline type and bloom on everything bright.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #06](https://www.futurepedia.io/resources/ai
 
 ![Papercraft Models](../examples/07-papercraft-models.jpg)
 
+[Watch the style clip](../examples/07-papercraft-models.mp4)
+
 Printed-cardstock kit models: boxy low-poly robots, cats and charts assembled from flat printed faces with dotted fold lines, glue tabs and hairline seam gaps, Lambert-lit by a warm key light on a green self-healing cutting mat with craft tools at the edges.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #07](https://www.futurepedia.io/resources/ai
 ## 09. Manim-Style Math
 
 ![Manim-Style Math](../examples/09-manim-style-math.jpg)
+
+[Watch the style clip](../examples/09-manim-style-math.mp4)
 
 The math-explainer look of Manim, the open-source library behind 3Blue1Brown: pure black, crisp anti-aliased vector lines, a restrained palette of Manim blue, teal, yellow, red and green, LaTeX-like serif math with italic variables, axes with tick marks, curves, arrows, braces and surrounding rectangles.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #09](https://www.futurepedia.io/resources/ai
 
 ![Editorial Essay Collage](../examples/11-editorial-essay-collage.jpg)
 
+[Watch the style clip](../examples/11-editorial-essay-collage.mp4)
+
 The editorial "animated essay" collage: warm grainy paper, archival halftone prints with torn white borders and soft shadows, newspaper clippings in serif type with a translucent yellow highlighter sweep, masking tape, flat colour blocks and big cut-out condensed headlines.
 
 ```text
@@ -101,6 +111,8 @@ Source: [Futurepedia AI Style Atlas #11](https://www.futurepedia.io/resources/ai
 
 ![Product Launch Reveal](../examples/13-product-launch-reveal.jpg)
 
+[Watch the style clip](../examples/13-product-launch-reveal.mp4)
+
 A big-tech keynote product film: one glossy hero object on a near-black stage, lit like a studio shot with soft key, rim light, a sweeping specular highlight and a floor reflection, huge tight-tracked sans headlines, gradient key numbers with a soft glow and hairline spec callouts.
 
 ```text
@@ -119,6 +131,8 @@ Source: [Futurepedia AI Style Atlas #13](https://www.futurepedia.io/resources/ai
 ## 20. Kawaii Anime
 
 ![Kawaii Anime](../examples/20-kawaii-anime.jpg)
+
+[Watch the style clip](../examples/20-kawaii-anime.mp4)
 
 Flat 2D kawaii anime illustration: chibi characters with big glossy anime eyes and blush marks, chunky rounded shapes in strawberry-milk pink, mint, butter, lavender and sky, soft plum outlines of even weight, one cel-shadow tone and a small highlight, on polka-dot and star patterns.
 

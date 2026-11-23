@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Ukiyo-e Woodblock](../examples/21-ukiyo-e-woodblock.jpg)
 
+[Watch the style clip](../examples/21-ukiyo-e-woodblock.mp4)
+
 An Edo-period woodblock print in the manner of Hokusai: Prussian-blue bokashi gradients, a towering wave with claw-like foam whose spray breaks into data cubes, a cargo ship stacked with server racks in the trough, flat colour blocks with carved keyblock outlines, wood grain and washi fibre, a vertical-text cartouche and vermilion seal.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #21](https://www.futurepedia.io/resources/ai
 ## 51. Art Deco Foil
 
 ![Art Deco Foil](../examples/51-art-deco-foil.jpg)
+
+[Watch the style clip](../examples/51-art-deco-foil.mp4)
 
 A 1920s Art Deco poster in black lacquer and stamped gold foil: a symmetrical stepped ziggurat skyscraper built from server racks, sunburst fans radiating behind it, a stepped geometric border, and Limelight / Poiret One lettering with cream accents.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #51](https://www.futurepedia.io/resources/ai
 
 ![Constructivist Propaganda](../examples/58-constructivist-propaganda.jpg)
 
+[Watch the style clip](../examples/58-constructivist-propaganda.mp4)
+
 A 1920s Rodchenko / El Lissitzky agitprop poster: red, black and cream only, a halftone photomontage robot bellowing through a megaphone, beams radiating from its voice, a red disc and hard diagonal bars, and heavy condensed lettering set on the slant - litho ink mottle on cheap paper.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #58](https://www.futurepedia.io/resources/ai
 ## 67. Memphis Group
 
 ![Memphis Group](../examples/67-memphis-group.jpg)
+
+[Watch the style clip](../examples/67-memphis-group.mp4)
 
 Early-80s Memphis Milano maximalism: pastel grounds clashing with bold primaries, thick black outlines and hard offset shadows, squiggles, zigzags, dot grids, terrazzo chips and confetti triangles, all orbiting a chunky tilted chat-bubble headline.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #67](https://www.futurepedia.io/resources/ai
 
 ![Bauhaus Poster](../examples/74-bauhaus-poster.jpg)
 
+[Watch the style clip](../examples/74-bauhaus-poster.mp4)
+
 A 1920s Bauhaus exhibition poster: primary red, yellow and blue plus black on aged cream stock, a robot face built only from circles, squares, semicircles and triangles on a strict grid, with constructed geometric lettering and lithographic ink mottle.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #74](https://www.futurepedia.io/resources/ai
 ## 83. International Typographic Style
 
 ![International Typographic Style](../examples/83-international-typographic-style.jpg)
+
+[Watch the style clip](../examples/83-international-typographic-style.mp4)
 
 A 1960s Zürich-school concert-style poster: strict 12-column modular grid, enormous flush-left grotesk set tight, an asymmetric field of rotating concentric arc segments over a red disc, and small precise info blocks hung from the grid - red, black and white only.
 

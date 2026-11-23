@@ -6,6 +6,8 @@ Styles from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resour
 
 ![Watercolor Wash](../examples/02-watercolor-wash.jpg)
 
+[Watch the style clip](../examples/02-watercolor-wash.mp4)
+
 Transparent pigment glazed in dozens of ragged low-opacity layers on cold-press paper: dark pooled edges, wet-in-wet bleeds, cauliflower blooms, granulation and untouched white paper for the lights, over a faint pencil sketch.
 
 ```text
@@ -24,6 +26,8 @@ Source: [Futurepedia AI Style Atlas #02](https://www.futurepedia.io/resources/ai
 ## 25. Cathedral Glass
 
 ![Cathedral Glass](../examples/25-cathedral-glass.jpg)
+
+[Watch the style clip](../examples/25-cathedral-glass.mp4)
 
 A leaded Gothic window: hand-cut pieces of streaky, seedy antique glass held in thick dark came, painted grisaille details, and light blazing through into a dim stone interior with dusty rays.
 
@@ -44,6 +48,8 @@ Source: [Futurepedia AI Style Atlas #25](https://www.futurepedia.io/resources/ai
 
 ![Sumi-e Ink Wash](../examples/32-sumi-e-ink-wash.jpg)
 
+[Watch the style clip](../examples/32-sumi-e-ink-wash.mp4)
+
 Monochrome Japanese ink painting on fibrous rice paper: dilute grey washes that bleed and fade into mist, a few confident loaded-brush strokes that split into dry bristle tracks, vast negative space, a vertical calligraphy column and a vermilion seal.
 
 ```text
@@ -62,6 +68,8 @@ Source: [Futurepedia AI Style Atlas #32](https://www.futurepedia.io/resources/ai
 ## 38. Impasto Night
 
 ![Impasto Night](../examples/38-impasto-night.jpg)
+
+[Watch the style clip](../examples/38-impasto-night.mp4)
 
 Thick oil paint in short loaded strokes that follow a swirling flow field, Post-Impressionist night-sky style; every stroke stands off the canvas with a lit ridge and a shadowed edge, colour broken within each stroke.
 
@@ -82,6 +90,8 @@ Source: [Futurepedia AI Style Atlas #38](https://www.futurepedia.io/resources/ai
 
 ![Gouache Travel Poster](../examples/49-gouache-travel-poster.jpg)
 
+[Watch the style clip](../examples/49-gouache-travel-poster.mp4)
+
 Mid-century travel poster hand-painted in gouache: six flat, opaque, matte colours stacked in receding layers, dry-brush streaks where the paint thins at each edge, and a bold hand-lettered block.
 
 ```text
@@ -100,6 +110,8 @@ Source: [Futurepedia AI Style Atlas #49](https://www.futurepedia.io/resources/ai
 ## 71. Pointillist Afternoon
 
 ![Pointillist Afternoon](../examples/71-pointillist-afternoon.jpg)
+
+[Watch the style clip](../examples/71-pointillist-afternoon.mp4)
 
 Neo-Impressionist divisionism: every form is built from small dabs of unmixed pigment - complementary hues side by side that blend optically - with the canvas weave peeking between the dots and a dotted painted border.
 

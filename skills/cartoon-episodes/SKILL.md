@@ -23,19 +23,19 @@ Model families to look for: an image model that takes reference images (Seedream
 
 ## Stage 1: Show bible
 
-Ask the creator for the lead, the world and the kind of comedy or story. Then write the bible in a short project note (`update_project_director_brief`):
+Read `references/show-bible.md`. Ask once, in one compact message, for the lead, the world and the kind of comedy or story (a logline, characters with look, personality and how they talk, recurring places and props, art style, aspect ratio); if they say "just build it", fill the gaps yourself. Then write the bible in a short project note (`update_project_director_brief`):
 
 - **Art style**: one paragraph used verbatim in every prompt (line quality, palette, lighting, background style).
-- **Characters**: for each one a visual lock (shape, colors, clothing, one unique feature, size relative to the others), a voice description and a speech habit.
-- **Locations**: each with the views you will need (wide, close, reverse).
+- **Characters**: for each one a visual lock (shape, colors, clothing, one unique feature, size relative to the others), a voice line a video model can act (for example "lazy teenage boy, low, dry, slightly nasal", or "no voice, barks") and a speech habit.
+- **Locations**: two views each, a master wide and a counter angle or detail.
 - **Props**: only the ones that recur.
 - **Rules of the world**: what is possible, what is never shown.
 
-Get approval before generating anything.
+Original cast only: no real people, existing characters or brand names. Show the bible back as a compact table with aspect (16:9 or 9:16) and scene length (default 15 s). Get approval before generating anything.
 
 ## Stage 2: Cast and world sheets
 
-One image per character (front, three-quarter, back, with three expressions), per location view and per prop.
+One style key first (a representative scene, which locks the look), then one image per character (full body, neutral pose, front three-quarter view, plain backdrop, 2:3), two views per location (empty plates, with the empty-plate guard from the reference) and one per prop (1:1). A turnaround with three expressions is a good extra for complex characters. Generate a few variations of each character and keep the one that feels like the face of the show. Check that every bible asset has a sheet before directing any scene.
 
 - Generate the main character first and review it. Then use it as a reference for the others so the style matches.
 - Use Codex first for images when the creator has it, otherwise `generate_ai_media` with `kind: "image"`.
@@ -46,13 +46,13 @@ One image per character (front, three-quarter, back, with three expressions), pe
 
 The creator describes a scene in one sentence. You return the production plan, then generate.
 
-1. Plan the shots: how many, how long (2 to 4 seconds each), camera for each, blocking, and the dialogue with timing. A 10 second scene fits about 25 spoken words.
-2. Name the sheets the scene needs, never more than the model can use (see the attachment limit in `list_ai_models`).
+1. Plan the shots with the chain in `references/scene-prompt.md`: you decide how many (3 to 5 seconds each, timestamps tiling the duration exactly), the camera for each with `CUT TO:` or `CONTINUOUS,` transitions, the blocking, and the dialogue about 2 words per second, each line labelled with the speaker's name and voice line. Default scene length 15 seconds.
+2. Name the sheets the scene needs, characters first, then one location view, then props, at most 4 and never more than the model can use (see the attachment limit in `list_ai_models`). One location per generation; a bigger episode is split into numbered scenes.
 3. Write the prompt: art style line, then timestamped shots, then dialogue lines in quotes with the speaker named, then sound effects. See `references/scene-prompt.md`.
-4. Quote, get approval, then `generate_ai_media` with `kind: "video"`, `durationSeconds`, `aspectRatio` 16:9, `generateAudio: true` when dialogue should come from the model, and the sheets in `sourceAssets` with `role: "reference"`.
+4. Quote, get approval, then `generate_ai_media` with `kind: "video"`, `durationSeconds`, `aspectRatio` from the bible (16:9 by default), `generateAudio: true` when dialogue should come from the model, and the sheets in `sourceAssets` with `role: "reference"`.
 5. Wait for `get_ai_operation` to finish, import with `import_ai_operation_to_timeline`, look at it with `view_current_frame` at the start, middle and end. Judge against the sheets. Do not generate the next scene until this one is accepted or the creator accepts it as is.
 
-Run two or more versions of an important scene and keep the best. When something breaks, say in plain words what came out wrong and rewrite only the lines that caused it.
+Run two or more versions of an important scene and keep the best. When something breaks, say in plain words what came out wrong and rewrite only the lines or the one shot that caused it (fix table in `references/scene-prompt.md`). Trim a small glitch at the start or end on the timeline instead of regenerating.
 
 ## Stage 4: Episode cut
 

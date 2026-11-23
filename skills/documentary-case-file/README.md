@@ -16,7 +16,7 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 The skill's own page on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179
 
-The list shows no license for this skill. This folder copies no upstream text, code or images; it describes the method in new words. See LICENSE for the notice.
+The list shows no license for this skill. The skill's page and its download pack were read, and this folder describes the method in new words; no upstream text, code or images are copied. See LICENSE for the notice.
 
 ## Credits: Claude Creative Skill Library Vol 2
 
