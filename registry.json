@@ -2669,6 +2669,28 @@
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "category": "motion",
       "mirror": "subclip-app/lemo-opuscar",
+      "examples": [
+        {
+          "path": "install-yourself/lemo-opuscar/examples/example.mp4",
+          "kind": "video",
+          "caption": "Our own example: Three code-drawn film styles in eight seconds."
+        },
+        {
+          "path": "install-yourself/lemo-opuscar/examples/art-deco.jpg",
+          "kind": "image",
+          "caption": "Our own example: A gold sun sits behind a stepped Art Deco tower."
+        },
+        {
+          "path": "install-yourself/lemo-opuscar/examples/bauhaus.jpg",
+          "kind": "image",
+          "caption": "Our own example: A circle, triangle and square overlap on a Bauhaus grid."
+        },
+        {
+          "path": "install-yourself/lemo-opuscar/examples/neon-noir.jpg",
+          "kind": "image",
+          "caption": "Our own example: A pink sun sets behind a dark city and a neon street grid."
+        }
+      ],
       "what": "A toolbox of 99 film styles made in code, each a style prompt plus a demo film.",
       "why": "The skill and style text use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar",
@@ -2686,6 +2708,28 @@
       "url": "https://github.com/joeseesun/opus-video-prompts",
       "category": "workflow",
       "mirror": "subclip-app/opus-video-prompts",
+      "examples": [
+        {
+          "path": "install-yourself/opus-video-prompts/examples/example.mp4",
+          "kind": "video",
+          "caption": "Our own example: An invented prompt opens a reel of moving type, a sun-hours chart and colored light."
+        },
+        {
+          "path": "install-yourself/opus-video-prompts/examples/kinetic-type.jpg",
+          "kind": "image",
+          "caption": "Our own example: Three words slide into a tilted stack."
+        },
+        {
+          "path": "install-yourself/opus-video-prompts/examples/animated-chart.jpg",
+          "kind": "image",
+          "caption": "Our own example: Five bars rise to show a fictional week of sunlight."
+        },
+        {
+          "path": "install-yourself/opus-video-prompts/examples/gradient-field.jpg",
+          "kind": "image",
+          "caption": "Our own example: Bands of colored light bend across a dark field."
+        }
+      ],
       "what": "Copy-ready prompts and 54 cases of code-rendered videos.",
       "why": "No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts",
@@ -2699,6 +2743,28 @@
       "url": "https://github.com/feitangyuan/onetake",
       "category": "motion",
       "mirror": "subclip-app/onetake",
+      "examples": [
+        {
+          "path": "install-yourself/onetake/examples/example.mp4",
+          "kind": "video",
+          "caption": "Our own example: A garden watering planner unfolds into a dashboard, a chart and a display in one take."
+        },
+        {
+          "path": "install-yourself/onetake/examples/card-to-ui.jpg",
+          "kind": "image",
+          "caption": "Our own example: The watering planner card has expanded into a dashboard."
+        },
+        {
+          "path": "install-yourself/onetake/examples/ui-to-chart.jpg",
+          "kind": "image",
+          "caption": "Our own example: The dashboard has narrowed to its weekly watering chart."
+        },
+        {
+          "path": "install-yourself/onetake/examples/chart-to-screen.jpg",
+          "kind": "image",
+          "caption": "Our own example: The chart has opened into a freestanding garden display."
+        }
+      ],
       "what": "Product launch films and teasers where every beat grows out of the one before, as one continuous take.",
       "why": "PolyForm Noncommercial 1.0.0 allows noncommercial use only (the author sells a commercial Pro licence), so Subclip cannot adapt or redistribute it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/feitangyuan/onetake",
@@ -2712,6 +2778,28 @@
       "url": "https://github.com/lemomo-ai/lemo-wake",
       "category": "animation",
       "mirror": "subclip-app/lemo-wake",
+      "examples": [
+        {
+          "path": "install-yourself/lemo-wake/examples/example.mp4",
+          "kind": "video",
+          "caption": "Our own example: A sailboat, clouds and ripples move through a five-second loop."
+        },
+        {
+          "path": "install-yourself/lemo-wake/examples/before.jpg",
+          "kind": "image",
+          "caption": "Our own example: The original flat illustration of a sailboat on a mountain lake."
+        },
+        {
+          "path": "install-yourself/lemo-wake/examples/after.jpg",
+          "kind": "image",
+          "caption": "Our own example: The boat and clouds drift as the sun rises above the lake."
+        },
+        {
+          "path": "install-yourself/lemo-wake/examples/return-motion.jpg",
+          "kind": "image",
+          "caption": "Our own example: The boat tilts as it sails back toward the opening pose."
+        }
+      ],
       "what": "One picture in, a seamless loop of about five seconds out: it takes the image apart and rebuilds it in code as a short film.",
       "why": "The code and documentation use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-wake",

@@ -99,7 +99,7 @@ export async function readInstallYourself(root) {
   const list = parseYaml(raw);
   assert(Array.isArray(list), 'install-yourself.yml must be a list');
   return Promise.all(list.map(async (item, i) => {
-    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit','mirror'], `install-yourself.yml item ${i + 1}`);
+    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit','mirror','examples'], `install-yourself.yml item ${i + 1}`);
     assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? ''), `install-yourself.yml item ${i + 1} needs a kebab-case slug`);
     assert(item.category === undefined || CATEGORY_LABELS[item.category], `Unknown install-yourself category: ${item.category}`);
     const gallery = item.gallery ?? []; assert(Array.isArray(gallery) && gallery.every(u => typeof u === 'string' && u.startsWith('https://')), 'install-yourself gallery must list https URLs');
@@ -114,7 +114,20 @@ export async function readInstallYourself(root) {
       await checkPreview(file);
       video = item.video.split('/').filter(Boolean).join('/');
     }
-    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', ...(item.mirror ? { mirror: item.mirror } : {}), what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
+    const examples = [];
+    if (item.examples !== undefined) {
+      assert(Array.isArray(item.examples) && item.examples.length >= 1 && item.examples.length <= 12, 'install-yourself examples must list 1 to 12 files');
+      const prefix = `install-yourself/${item.slug}/examples/`;
+      for (const ex of item.examples) {
+        keys(ex, ['file','caption'], 'install-yourself examples item'); text(ex.file, 'install-yourself example file', 200); text(ex.caption, 'install-yourself example caption', 140);
+        assert(ex.file.startsWith(prefix) && /^[A-Za-z0-9_.\/-]+\.(?:jpe?g|png|webp|gif|mp4)$/i.test(ex.file) && !ex.file.includes('..'), `install-yourself examples live under ${prefix}`);
+        assert(!/[\u2014\u00b7]/u.test(ex.caption), 'install-yourself example caption contains an em dash or middle dot');
+        const size = (await stat(await localFile(root, ex.file))).size; const isVideo = /\.mp4$/i.test(ex.file);
+        assert(size > 0 && size <= (isVideo ? 8_000_000 : 600_000), `Example too large: ${ex.file}`);
+        examples.push({ path: ex.file, kind: isVideo ? 'video' : 'image', caption: ex.caption });
+      }
+    }
+    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', ...(item.mirror ? { mirror: item.mirror } : {}), ...(examples.length ? { examples } : {}), what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
   }));
 }
 export function installYourselfMarkdown(items) {
