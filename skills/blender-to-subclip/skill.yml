@@ -1,0 +1,11 @@
+slug: blender-to-subclip
+name: Blender to Subclip
+summary: Build and review a short Blender shot, then place the rendered clip or stills on an editable Subclip timeline.
+category: 3d
+tags: [blender, rendering, animation, workflow]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: ahujasid/mcp-for-blender, author: Siddharth Ahuja, license: MIT, commit: "a5a8acf2c6ae44a73670e0caf34663f16456d645", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

@@ -1,0 +1,11 @@
+slug: long-to-shorts
+name: Long video to shorts
+summary: Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.
+category: clipping
+tags: [shorts, reels, clipping, podcast, captions]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: false
+license: MIT
+upstream: null
+addedAt: 2026-11-23

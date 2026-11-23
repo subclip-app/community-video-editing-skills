@@ -18,3 +18,17 @@
   category: workflow
   what: Copy-ready prompts and 54 cases of code-rendered videos.
   why: No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.
+- slug: onetake
+  name: onetake
+  repo: feitangyuan/onetake
+  video: install-yourself/onetake/preview.mp4
+  category: motion
+  what: Product launch films and teasers where every beat grows out of the one before, as one continuous take.
+  why: PolyForm Noncommercial 1.0.0 allows noncommercial use only (the author sells a commercial Pro licence), so Subclip cannot adapt or redistribute it. Install the original yourself.
+- slug: lemo-wake
+  name: lemo-wake
+  repo: lemomo-ai/lemo-wake
+  video: install-yourself/lemo-wake/preview.mp4
+  category: animation
+  what: One picture in, a seamless loop of about five seconds out: it takes the image apart and rebuilds it in code as a short film.
+  why: The code and documentation use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.

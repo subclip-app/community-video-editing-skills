@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">Open Design Motion</title><desc id="d">A wireframe globe with orbiting rings, a pixel sprite, a phone and an audio wave, as six editable motion workflows.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="0" y="0" width="1600" height="14" fill="url(#g)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="80" y="130" font-size="26" letter-spacing="5" fill="#26c9d5" font-weight="700">SIX MOTION WORKFLOWS</text>
+<text x="80" y="225" font-size="92" font-weight="700" fill="#153592">Open Design</text>
+<text x="80" y="320" font-size="92" font-weight="700" fill="#153592">Motion</text>
+<text x="84" y="385" font-size="30" fill="#4b5563">Posters, shots, sprites, audio, scenes, 3D devices.</text>
+<g font-size="24" fill="#153592" font-weight="700">
+<rect x="80" y="450" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="108" y="484">motion-frames</text>
+<rect x="388" y="450" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="416" y="484">video-shortform</text>
+<rect x="80" y="520" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="108" y="554">sprite-animation</text>
+<rect x="388" y="520" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="416" y="554">audio-jingle</text>
+<rect x="80" y="590" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="108" y="624">video-hyperframes</text>
+<rect x="388" y="590" width="290" height="52" rx="26" fill="none" stroke="#153592" stroke-width="2"/><text x="416" y="624">mockup-device-3d</text>
+</g>
+<text x="80" y="830" font-size="26" fill="#6b7280">Adapted for Subclip from nexu-io/open-design</text>
+</g>
+<g transform="translate(1130 430)" fill="none" stroke="#153592">
+<circle r="300" stroke-width="1.5" stroke-dasharray="4 10" opacity="0.5"/>
+<circle r="240" stroke-width="2" opacity="0.7"/>
+<circle r="150" stroke="url(#g)" stroke-width="5"/>
+<ellipse rx="150" ry="52" stroke-width="3"/><ellipse rx="150" ry="104" stroke-width="3"/><ellipse rx="52" ry="150" stroke-width="3"/><ellipse rx="104" ry="150" stroke-width="3"/>
+<path d="M-150 0H150M0 -150V150" stroke-width="3"/>
+<circle cx="0" cy="-240" r="14" fill="#26c9d5" stroke="none"/><circle cx="208" cy="120" r="14" fill="#153592" stroke="none"/><circle cx="-208" cy="120" r="14" fill="#26c9d5" stroke="none"/>
+<circle cx="212" cy="-212" r="9" fill="#153592" stroke="none"/>
+</g>
+<g fill="#26c9d5"><rect x="1370" y="140" width="24" height="24"/><rect x="1394" y="164" width="24" height="24"/><rect x="1346" y="164" width="24" height="24"/><rect x="1370" y="188" width="24" height="24"/></g>
+<g transform="translate(0 50)" stroke="#153592" stroke-width="8" stroke-linecap="round"><path d="M880 780v-30M910 790v-50M940 780v-30M970 795v-70M1000 780v-30"/></g>
+</svg>

@@ -1,0 +1,11 @@
+slug: ai-edit-battle
+name: AI edit battle
+summary: Two AI models or agents edit the same clip from the same brief in cloned projects. Compare, score and pick a winner.
+category: workflow
+tags: [edit-battle, model-comparison, talking-head, motion-design, side-by-side]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
+addedAt: 2026-11-23

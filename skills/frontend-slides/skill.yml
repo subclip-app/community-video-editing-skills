@@ -1,0 +1,11 @@
+slug: frontend-slides
+name: Frontend Slides
+summary: Turn a slide outline into editable animated scenes with optional narration and captions, ready to export as video.
+category: slides
+tags: [slides, presentations, hyperframes, narration]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: zarazhangrui/frontend-slides, author: zarazhangrui, license: MIT, commit: "9906a34d640d2111f724544cbc50f7f130569ae1", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

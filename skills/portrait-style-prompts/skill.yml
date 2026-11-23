@@ -1,0 +1,14 @@
+slug: portrait-style-prompts
+name: Portrait style prompts
+summary: Turn a frame of your video into a styled portrait (anime, watercolour, pixel art, noir, paper cut) with a seven-slot prompt, then make a video in that style.
+category: templates
+tags: [style-transfer, portrait, video-frame, anime, watercolor]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
+addedAt: 2026-11-23
+allowlist:
+  - code: external-provider
+    reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."

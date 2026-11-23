@@ -1,0 +1,11 @@
+slug: cartoon-animation
+name: Cartoon animation
+summary: Hand-painted cartoon shots with boiling ink linework, acted emotions and brush-wipe transitions in motion layers.
+category: animation
+tags: [cartoon, hand-painted, character-acting, storyboard]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: JohnHeibel/ClaudeAnimationBase, author: JohnHeibel, license: MIT, commit: "0ac8bf2b31942376cb6b8c4074715595d512acd2", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

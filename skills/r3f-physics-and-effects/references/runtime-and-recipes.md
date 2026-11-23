@@ -1,0 +1,34 @@
+# Runtime and shot recipes
+
+## Choose the route
+
+The native 3D model renderer uses React Three Fiber internally. Its editor tools expose approved models, materials, cameras and keyframes. The authored 3D route uses a HyperFrames or Remotion layer. In the checked app source, neither `@react-three/rapier` nor `@react-three/postprocessing` is in `package.json`, the Remotion import allowlist in `src/shared/runtime-layer-validation.ts`, or the injected package map in `remotion-runtime-packages.tsx`. Direct `@react-three/fiber` imports are also unavailable to authored Remotion layers.
+
+To support the wrappers, the app needs compatible versions of `@react-three/rapier` and `@react-three/postprocessing`, including packaged `@dimforge/rapier3d-compat` with working WASM initialization and a compatible `postprocessing` peer. Share the host's React, Three.js and Fiber instances. Expose only supported modules through validation and the runtime package map, and wire initialization, simulation steps and effect rendering to the same frame clock in preview and export. Verify depth buffers, HDR glow and alpha compositing in both paths. A package allowlist change alone cannot guarantee that the composer draws before capture.
+
+### Current fallback
+
+- **HyperFrames** uses the bundled Three.js adapter and its pinned import. Compute transforms from the layer-local time supplied by the adapter, then render at that time.
+- **Remotion** uses `ThreeCanvas` from `@remotion/three` with explicit dimensions from the video config, lights and `gl={{preserveDrawingBuffer:true}}`. Derive transforms directly from `useCurrentFrame() / fps`. Use `layout="none"` on sequences inside the canvas.
+- **A future R3F layer with an approved Fiber hook** can apply the same hand-written physics in `useFrame` using the host's requested timeline time. Keep the clock outside that hook. For current authored Remotion, use frame-derived transforms directly because `useFrame` imports are unavailable.
+- **Material glow** uses a small emissive core and a soft, camera-facing halo with an additive transparent material, depth testing on and depth writing off. Use a procedural alpha falloff that fades to zero at the edge. Match the halo to the impact pulse and check it against the intended canvas background. Emissive material alone lights the surface color without spreading light into nearby pixels.
+
+## Build the beat
+
+**One drop, one readable bounce.** Put a cyan sphere on a dark stage with a fixed three-quarter camera and a slow final hold. Measure the initial height `h` from the sphere's bottom to the floor. With downward acceleration `g`, a drop from rest has first contact at `sqrt(2*h/g)`. For a floor at `floorY` and ball radius `r`, before contact use center height `floorY + r + h - 0.5*g*t*t`, where `t` is time since release. After contact, use `floorY + r + v*u - 0.5*g*u*u` until its next contact, where `u` is time since impact and `v = restitution*g*impactTime`. At the next contact, settle or repeat with the outgoing speed multiplied by restitution again. Stop once bounces are smaller than a frame or visually negligible.
+
+Start at `h = 1.8`, `g = 9.8`, restitution `0.42`, and radius `0.35` in scene units. The first contact is about 0.61 seconds after release. Pulse the halo and expand a thin ground ring for 0.2 seconds from that contact. Keep the camera steady through the impact so the viewer sees the point of contact. Expose the height, restitution, glow tint and release time as editable controls. Keep the pulse anchored to the computed contact instead of giving it a second independent clock.
+
+**A stack or burst.** For multiple simple bodies, simulate from the same initial state at a fixed step such as 1/120 second, then sample adjacent poses for the requested time. Cache poses when scene inputs are unchanged. Use seeded starting offsets, fixed object order, simple sphere or box contact tests and a small object count. For a scripted stack with only a few objects, author timed poses and settle curves when convincing pile dynamics cannot be achieved. Never advance the simulation using changes in the playback clock, since a backward seek or isolated export frame otherwise starts at the wrong state.
+
+## Preserve the upstream techniques
+
+**Rapier, when supported.** Put `Physics` inside `Suspense` and wait for its WASM readiness before declaring the layer render-ready. Use dynamic bodies for moving pieces, a fixed floor, and position-based kinematic bodies for driven colliders. Prefer cuboids or balls for simple objects and a convex hull or a few primitive colliders for compound objects. Reserve triangle meshes for detailed static surfaces. Keep the collider centered on the body and inspect debug shapes for offsets. Use contact force or collision events to identify accents and sensors when overlap should trigger a cue without deflecting motion. Keep a fixed simulation step and matching body creation order. Disable autonomous stepping and use explicit timeline steps or baked poses. Restore the matching initial state or checkpoint before a backward seek. Derive impact effects from the recorded contact time.
+
+**Composer effects, when supported.** Place `EffectComposer` in the same scene as the subject. Start with one effect and assess the composed frame before adding another.
+
+- **Bloom.** Start with a luminance threshold near 1 and control which surfaces glow through HDR emission. Use `toneMapped={false}` on those surfaces when needed to retain values above 1. Adjust intensity and smoothing until the subject's silhouette still reads. Keep light spill off titles.
+- **Glitch.** Use one brief gated burst around impact with stable per-frame offsets. For the current fallback, split duplicate accents into two slightly offset colors for two or three frames and then restore alignment. Keep native text outside the effect.
+- **Depth of field.** Focus on the hero object via a world-space target or a camera-to-subject focus distance. Keep the contact plane within the focus range if it explains the motion. For the current fallback, reduce contrast and detail in distant geometry and separate subject from backdrop with lighting. Exact optical blur requires a depth-aware render pass.
+
+Upstream references are the [Rapier README and recipes](https://github.com/pmndrs/react-three-rapier/blob/ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98/README.md) and react-postprocessing's [Bloom](https://github.com/pmndrs/react-postprocessing/blob/e07ef9a890c8a202a3b20eac0249032cff4e7805/docs/effects/bloom.mdx), [Glitch](https://github.com/pmndrs/react-postprocessing/blob/e07ef9a890c8a202a3b20eac0249032cff4e7805/docs/effects/glitch.mdx), and [Depth of field](https://github.com/pmndrs/react-postprocessing/blob/e07ef9a890c8a202a3b20eac0249032cff4e7805/docs/effects/depth-of-field.mdx) references.

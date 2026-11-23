@@ -1,0 +1,11 @@
+slug: open-design-motion
+name: Open Design Motion
+summary: Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.
+category: motion
+tags: [hyperframes, motion-design, pixel-art, shortform, audio, 3d]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Apache-2.0
+upstream: { repo: nexu-io/open-design, author: nexu-io, license: Apache-2.0, commit: "e033aad1d15a9d4084316e5223f2c6597fd32619", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

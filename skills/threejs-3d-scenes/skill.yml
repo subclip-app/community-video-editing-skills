@@ -1,0 +1,11 @@
+slug: threejs-3d-scenes
+name: Three.js 3D scenes
+summary: Build editable 3D device reveals, camera moves, and product turntables in Subclip.
+category: 3d
+tags: [three-js, device-mockups, camera-moves, product-video]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: mrdoob/three.js, author: "mrdoob and the three.js contributors", license: MIT, commit: "b2dce982c57ff795d7709f5da993ea24c2b07aa1", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

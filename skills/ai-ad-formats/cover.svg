@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>AI Ad Formats</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="0" y="0" width="1600" height="14" fill="url(#g)"/>
+<rect x="80" y="90" width="1440" height="720" rx="36" fill="#f4f8fd" stroke="#d6e2f3" stroke-width="4"/>
+<text x="140" y="230" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#153592">AI Ad Formats</text>
+<text x="140" y="305" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#3b4b6b">Five short ad styles built from one product photo</text>
+<rect x="140" y="720" width="430" height="60" rx="30" fill="url(#g)"/>
+<text x="175" y="762" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Adapted for Subclip</text>
+<g transform="translate(760,430) scale(0.75)">
+<rect x="0" y="0" width="150" height="210" rx="20" fill="#153592"/><rect x="170" y="0" width="150" height="210" rx="20" fill="#26c9d5"/><rect x="340" y="0" width="150" height="210" rx="20" fill="#2a56c2"/><rect x="510" y="0" width="150" height="210" rx="20" fill="#7fe0e8"/><rect x="680" y="0" width="150" height="210" rx="20" fill="#d6e2f3"/>
+<circle cx="75" cy="105" r="42" fill="#ffffff"/><polygon points="255,60 290,150 220,150" fill="#ffffff"/><rect x="385" y="75" width="60" height="60" rx="10" fill="#ffffff"/><circle cx="585" cy="85" r="26" fill="#153592"/><rect x="565" y="115" width="40" height="60" rx="10" fill="#153592"/><rect x="745" y="40" width="20" height="130" rx="10" fill="#153592"/><rect x="715" y="60" width="80" height="16" rx="8" fill="#153592"/>
+<rect x="0" y="250" width="830" height="14" rx="7" fill="#d6e2f3"/></g>
+</svg>

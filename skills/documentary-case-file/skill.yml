@@ -1,0 +1,14 @@
+slug: documentary-case-file
+name: Documentary case file
+summary: One sentence in, a documentary plan with chapters, locked stills, scene clips and a narrator, assembled on the Subclip timeline.
+category: explainers
+tags: [documentary, case-file, narrator, 3d-reconstruction]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill description on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179" }
+addedAt: 2026-11-23
+allowlist:
+  - code: external-provider
+    reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.

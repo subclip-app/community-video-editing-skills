@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Three.js 3D scenes, Adapted for Subclip</title>
+  <rect width="1600" height="900" fill="#fff"/>
+  <path d="M0 842H1600" stroke="#153592" stroke-width="8"/>
+  <path d="M0 853H1600" stroke="#26c9d5" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" fill="#153592" font-weight="700">
+    <text x="105" y="376" font-size="104">Three.js</text>
+    <text x="105" y="490" font-size="104">3D scenes</text>
+    <text x="108" y="595" font-size="41">Adapted for Subclip</text>
+  </g>
+  <g fill="none" stroke="#26c9d5">
+    <ellipse cx="1120" cy="644" rx="335" ry="85" stroke-width="4" opacity=".45"/>
+    <ellipse cx="1120" cy="644" rx="250" ry="56" stroke-width="2" opacity=".4"/>
+    <path d="M795 661c52 64 258 99 431 75 118-16 213-46 231-84" stroke-width="8"/>
+    <path d="m1428 661 29-9 5 29" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g stroke="#153592" stroke-width="5" stroke-linejoin="round">
+    <path d="m990 283 237-93 80 40-239 94z" fill="#5d82d1"/>
+    <path d="m990 283 78 41 0 345-78-40z" fill="#153592"/>
+    <path d="m1068 324 239-94v345l-239 94z" fill="#224cb5"/>
+    <path d="m1085 340 204-80v298l-204 81z" fill="#e8fbfc"/>
+  </g>
+  <g transform="matrix(1 -.394 0 1 1085 340)">
+    <rect x="20" y="22" width="42" height="10" rx="5" fill="#153592"/>
+    <rect x="20" y="53" width="164" height="106" rx="9" fill="#26c9d5"/>
+    <path d="m38 134 38-37 28 17 31-36 29 56z" fill="#153592" opacity=".8"/>
+    <rect x="20" y="173" width="114" height="10" rx="5" fill="#153592"/>
+    <rect x="20" y="197" width="164" height="7" rx="3" fill="#75a9cb"/>
+    <rect x="20" y="228" width="164" height="42" rx="8" fill="#153592"/>
+    <rect x="68" y="245" width="68" height="7" rx="3.5" fill="#fff"/>
+  </g>
+</svg>

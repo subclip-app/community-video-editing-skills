@@ -1,0 +1,14 @@
+slug: ai-ad-formats
+name: AI ad formats
+summary: Five ad formats from one product photo: claymation, paper animation, singing ad, talking object and skeleton progression.
+category: promos
+tags: [ads, claymation, paper-animation, singing-ad, talking-object]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill description on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c" }
+addedAt: 2026-11-23
+allowlist:
+  - code: external-provider
+    reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.

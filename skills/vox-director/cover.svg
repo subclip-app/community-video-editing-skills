@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Vox director, adapted for Subclip</title>
+  <defs>
+    <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.5" fill="#153592" opacity=".23"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#fff"/>
+  <path d="M0 775H1600V900H0Z" fill="#153592"/>
+  <path d="M0 766h1600v9H0Z" fill="#26c9d5"/>
+  <text x="98" y="256" fill="#153592" font-family="Arial, sans-serif" font-weight="800" font-size="126">Vox</text>
+  <text x="98" y="389" fill="#153592" font-family="Arial, sans-serif" font-weight="800" font-size="126">director</text>
+  <path fill="#26c9d5" d="M100 443l507-5-9 71-494 7 8-19-14-14 9-14Z"/>
+  <text x="127" y="487" fill="#153592" font-family="Arial, sans-serif" font-weight="700" font-size="34">Adapted for Subclip</text>
+  <g transform="translate(755 148) rotate(-8 226 155)">
+    <rect x="12" y="14" width="485" height="318" fill="#153592" opacity=".15"/>
+    <path d="M0 0h485v318H0Z" fill="#153592"/>
+    <circle cx="369" cy="88" r="49" fill="#26c9d5"/>
+    <path d="M14 267l34-14 64 15 58-23 76 14 76-45 38 10 55-12 56 29v63H14Z" fill="#fff"/>
+    <path d="M14 267l34-14 64 15 58-23 76 14 76-45 38 10 55-12 56 29v63H14Z" fill="url(#dots)"/>
+    <path d="M113 250V81h174l43 28H149v141Z" fill="#26c9d5"/>
+    <path d="M277 108v52h-40v26h98v-26h-39v-52Z" fill="#fff"/>
+    <path d="M251 196h69v47h-69Z" fill="#26c9d5"/>
+    <path d="M252 199h66v40h-66Z" fill="url(#dots)"/>
+    <path d="M51-16l120 4-3 31-122 4Z" fill="#c0f0f3"/>
+  </g>
+  <g transform="translate(1027 378) rotate(10 210 133)">
+    <rect x="13" y="12" width="417" height="273" fill="#153592" opacity=".18"/>
+    <path d="M0 0h417v273H0Z" fill="#153592"/>
+    <path d="M12 12h393v249H12Z" fill="#fff"/>
+    <path d="M12 134h393v127H12Z" fill="url(#dots)"/>
+    <path d="M38 72l329 5 16 109-18 22-322-5-16-23Z" fill="#26c9d5" stroke="#153592" stroke-width="8"/>
+    <path d="M79 98v83m43-83v83m43-83v83m43-83v83m43-83v83m43-83v83m43-83v83" stroke="#153592" stroke-width="6" opacity=".36"/>
+    <path d="M236 88v107m28-107v107m-28-55h47v13h-47" fill="none" stroke="#153592" stroke-width="8"/>
+    <path d="M269-16l116 1-2 34-123 1Z" fill="#c0f0f3"/>
+  </g>
+  <text x="100" y="850" fill="#fff" font-family="Arial, sans-serif" font-weight="700" font-size="32">Paper collage shot design</text>
+</svg>

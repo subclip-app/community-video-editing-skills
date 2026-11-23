@@ -1,0 +1,20 @@
+---
+name: r3f-physics-and-effects
+description: Create editable 3D impact and motion shots in Subclip. Use for R3F or Rapier physics, falling or bouncing bodies, contact-triggered glow, glitched impacts, and shallow-focus 3D reveals.
+---
+
+# R3F Physics and Effects
+
+Read [runtime and recipes](references/runtime-and-recipes.md) for the supported fallback, shot design, and future package requirements. This skill carries the `needs-runtime` tag for direct Rapier and react-postprocessing use.
+
+1. Read `subclip-video-editor` with `read_subclip_skill`, then the bundled skill for the selected layer type and its 3D reference. Begin project work with `get_project_outline` and a narrow `read_project_section`. Use `list_editor_assets` for IDs and `get_project_director_brief` for existing decisions. Keep the same explicit project ID on project-scoped calls.
+2. For source media, read `get_media_context` with `includeContactSheet: true` before extracting frames, scanning or transcribing. Use `fileId` and `inspectAtSeconds` for up to six specific moments per call. Reuse transcripts. If context is missing, find it with `list_media_without_context`, run `generate_media_context` during editing, inspect the sheets, and save observations with `describe_media`.
+3. Pick the subject, visible contact or reveal, shot window, camera and one main effect. Honor the project ratio or the explicit request. Default a fresh standalone shot to landscape 16:9. If narration drives the sequence, time the beats to the imported narration item. This procedural workflow uses no generation credits or external assets by default.
+4. Use HyperFrames with the bundled Three.js adapter for a new custom scene. Use Remotion with `@remotion/three` for explicit R3F, React, TSX or Remotion authoring, or when revising a compatible existing Remotion layer. Tell the creator when an exact Rapier simulation or composer effect requires runtime support. For a bundled device shot, use `list_3d_models`, `add_3d_layer` and `set_3d_keyframe_sequence`. Bind requested screen media with `set_3d_screen_content` and check `verify_3d_layer_setup`. Device transforms can suggest a landing, while arbitrary physics geometry belongs in the authored scene.
+5. Check the shot window with `get_timeline_contact_sheet`. Validate the source and matching props or variables with `validate_runtime_layer_source`, then insert it with `add_runtime_layer` using the intended start, duration and placement. For an existing shot use `read_layer_source` and `edit_layer_source` with the returned hash for targeted edits, or `update_runtime_layer` for full replacement. Keep manual edits and layer IDs. Make one timeline write at a time and re-read the changed section after each coherent edit. For a standalone shot set an intentional end with `set_project_duration`.
+6. Use `view_current_frame` at release, just before impact, at the effect peak, at the settled pose and at the last visible frame. Use the layer's item ID and `targetType: "motion-graphics"` for authored scenes or `"3d"` for native models. Revisit the impact after seeking past it and compare the same frame. Confirm that the sphere meets the floor at its radius, the halo follows the subject, the effect reads against the rest of the canvas, and the cut leaves no blank tail. For sound, keep the audio item editable and verify impact alignment and audible balance where possible.
+7. Record the implementation, frame checks and any missing checks with `update_project_director_brief` and `write_session_summary`. Export only on request. Use `get_export_configuration` and `list_render_queue`, then call `export_video` once. Omit range fields for the full film. External clients can check `get_export_status`; in-app agents resume on completion.
+
+Adapted for Subclip from [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier) by Poimandres, MIT.
+
+Adapted for Subclip from [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing) by Poimandres, MIT.

@@ -3,6 +3,231 @@
   "repository": "subclip-app/community-video-editing-skills",
   "skills": [
     {
+      "slug": "3d-myth-short",
+      "name": "3D myth short",
+      "summary": "One idea in, a narrated 30 second 3D animated short: the myth, the twist and the real mechanism, built on the timeline.",
+      "category": "3d",
+      "tags": [
+        "3d-animation",
+        "short-form",
+        "narrated",
+        "storytelling"
+      ],
+      "path": "skills/3d-myth-short",
+      "skills": [
+        "3d-myth-short"
+      ],
+      "cover": "skills/3d-myth-short/cover.svg",
+      "preview": "skills/3d-myth-short/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d812cabb9d81b0c4e309a"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-ad-formats",
+      "name": "AI ad formats",
+      "summary": "Five ad formats from one product photo: claymation, paper animation, singing ad, talking object and skeleton progression.",
+      "category": "promos",
+      "tags": [
+        "ads",
+        "claymation",
+        "paper-animation",
+        "singing-ad",
+        "talking-object"
+      ],
+      "path": "skills/ai-ad-formats",
+      "skills": [
+        "ai-ad-formats"
+      ],
+      "cover": "skills/ai-ad-formats/cover.svg",
+      "preview": "skills/ai-ad-formats/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-camera-shots",
+      "name": "AI camera shots",
+      "summary": "One frame, twenty camera angles. Prompt formula, a catalog of 20 shots, Subclip video models and native keyframe fakes, cut to the beat.",
+      "category": "broll",
+      "tags": [
+        "camera-angles",
+        "b-roll",
+        "video-generation",
+        "seedance",
+        "reel"
+      ],
+      "path": "skills/ai-camera-shots",
+      "skills": [
+        "ai-camera-shots"
+      ],
+      "cover": "skills/ai-camera-shots/cover.svg",
+      "preview": "skills/ai-camera-shots/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-edit-battle",
+      "name": "AI edit battle",
+      "summary": "Two AI models or agents edit the same clip from the same brief in cloned projects. Compare, score and pick a winner.",
+      "category": "workflow",
+      "tags": [
+        "edit-battle",
+        "model-comparison",
+        "talking-head",
+        "motion-design",
+        "side-by-side"
+      ],
+      "path": "skills/ai-edit-battle",
+      "skills": [
+        "ai-edit-battle"
+      ],
+      "cover": "skills/ai-edit-battle/cover.svg",
+      "preview": "skills/ai-edit-battle/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-illustration-styles",
+      "name": "AI illustration styles",
+      "summary": "Restyle any photo or video frame into 12 illustration looks (UPA, noir, superflat, risograph, anime, gouache and more) with one reusable prompt wrapper.",
+      "category": "templates",
+      "tags": [
+        "illustration",
+        "image-restyle",
+        "art-styles",
+        "thumbnails",
+        "prompts"
+      ],
+      "path": "skills/ai-illustration-styles",
+      "skills": [
+        "ai-illustration-styles"
+      ],
+      "cover": "skills/ai-illustration-styles/cover.svg",
+      "preview": "skills/ai-illustration-styles/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-style-atlas",
+      "name": "AI Style Atlas",
+      "summary": "Pick a visual style by name or mood and restyle an explainer on your topic in that look, built as editable layers.",
+      "category": "animation",
+      "tags": [
+        "styles",
+        "explainer",
+        "art-direction",
+        "catalog"
+      ],
+      "path": "skills/ai-style-atlas",
+      "skills": [
+        "ai-style-atlas"
+      ],
+      "cover": "skills/ai-style-atlas/cover.svg",
+      "preview": "skills/ai-style-atlas/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+        "author": "Futurepedia",
+        "license": "Not stated",
+        "note": "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "ai-video-editor-cooked",
+      "name": "Cooked edit method",
+      "summary": "A talking-head edit method: retake-aware cuts, a measured reference style, real visuals timed to the words, and a ban list of AI-made looks.",
+      "category": "workflow",
+      "tags": [
+        "talking-head",
+        "jump-cut",
+        "style-matching",
+        "captions"
+      ],
+      "path": "skills/ai-video-editor-cooked",
+      "skills": [
+        "ai-video-editor-cooked"
+      ],
+      "cover": "skills/ai-video-editor-cooked/cover.svg",
+      "preview": "skills/ai-video-editor-cooked/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "nextwork-projects/ai-video-editor-cooked",
+        "url": "https://github.com/nextwork-projects/ai-video-editor-cooked",
+        "author": "NextWork",
+        "license": "MIT",
+        "commit": "e56fad2c46ed0998dfa74ecd414d81aa3dc53b59",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "anatomy",
+      "name": "Anatomy isometric figures",
+      "summary": "Isometric explainer figures for video: a real object, many small parts and calm motion, built as HyperFrames scenes with optional narration.",
+      "category": "explainers",
+      "tags": [
+        "isometric",
+        "svg",
+        "technical-explainer",
+        "hyperframes",
+        "diagram"
+      ],
+      "path": "skills/anatomy",
+      "skills": [
+        "anatomy"
+      ],
+      "cover": "skills/anatomy/cover.svg",
+      "preview": "skills/anatomy/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "wheresryan22/anatomy",
+        "url": "https://github.com/wheresryan22/anatomy",
+        "author": "Ryan",
+        "license": "MIT",
+        "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
       "slug": "bang-motion",
       "name": "Bang Motion",
       "summary": "Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers.",
@@ -30,6 +255,340 @@
         "license": "MIT",
         "commit": "c1aa65e921c970d858705fcb4a53a8294d1a4131",
         "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "blender-to-subclip",
+      "name": "Blender to Subclip",
+      "summary": "Build and review a short Blender shot, then place the rendered clip or stills on an editable Subclip timeline.",
+      "category": "3d",
+      "tags": [
+        "blender",
+        "rendering",
+        "animation",
+        "workflow"
+      ],
+      "path": "skills/blender-to-subclip",
+      "skills": [
+        "blender-to-subclip"
+      ],
+      "cover": "skills/blender-to-subclip/cover.svg",
+      "preview": "skills/blender-to-subclip/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "ahujasid/mcp-for-blender",
+        "url": "https://github.com/ahujasid/mcp-for-blender",
+        "author": "Siddharth Ahuja",
+        "license": "MIT",
+        "commit": "a5a8acf2c6ae44a73670e0caf34663f16456d645",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "cartoon-animation",
+      "name": "Cartoon animation",
+      "summary": "Hand-painted cartoon shots with boiling ink linework, acted emotions and brush-wipe transitions in motion layers.",
+      "category": "animation",
+      "tags": [
+        "cartoon",
+        "hand-painted",
+        "character-acting",
+        "storyboard"
+      ],
+      "path": "skills/cartoon-animation",
+      "skills": [
+        "cartoon-animation"
+      ],
+      "cover": "skills/cartoon-animation/cover.svg",
+      "preview": "skills/cartoon-animation/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "JohnHeibel/ClaudeAnimationBase",
+        "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+        "author": "JohnHeibel",
+        "license": "MIT",
+        "commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "cartoon-episodes",
+      "name": "Cartoon episodes",
+      "summary": "Define a show once, then turn one-sentence scenes into consistent AI cartoon clips and cut them into an episode.",
+      "category": "animation",
+      "tags": [
+        "cartoon",
+        "series",
+        "character-sheets",
+        "episodes"
+      ],
+      "path": "skills/cartoon-episodes",
+      "skills": [
+        "cartoon-episodes"
+      ],
+      "cover": "skills/cartoon-episodes/cover.svg",
+      "preview": "skills/cartoon-episodes/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d8143b8ead2e99edf1796"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "character-animation-qa",
+      "name": "Character animation QA",
+      "summary": "Review a character animation with sampled frames, motion checks and a pass, revise or fail verdict.",
+      "category": "animation",
+      "tags": [
+        "qa",
+        "character",
+        "review"
+      ],
+      "path": "skills/character-animation-qa",
+      "skills": [
+        "character-animation-qa"
+      ],
+      "cover": "skills/character-animation-qa/cover.svg",
+      "preview": "skills/character-animation-qa/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "claude-drawing-skill",
+      "name": "Claude Drawing",
+      "summary": "Draw ink washes, paper collages and line art in code, then reveal the marks in editable Subclip motion layers.",
+      "category": "animation",
+      "tags": [
+        "illustration",
+        "draw-on",
+        "svg",
+        "hyperframes"
+      ],
+      "path": "skills/claude-drawing-skill",
+      "skills": [
+        "claude-drawing-skill"
+      ],
+      "cover": "skills/claude-drawing-skill/cover.jpg",
+      "preview": "skills/claude-drawing-skill/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "cloveric/claude-drawing-skill",
+        "url": "https://github.com/cloveric/claude-drawing-skill",
+        "author": "cloveric",
+        "license": "MIT",
+        "commit": "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "code-video-recipes",
+      "name": "Code video recipes",
+      "summary": "Turn code-made video references into editable Subclip motion graphics, explainers, 3D shots and scripted demos.",
+      "category": "workflow",
+      "tags": [
+        "hyperframes",
+        "motion-graphics",
+        "explainers",
+        "3d",
+        "prompt-recipes"
+      ],
+      "path": "skills/code-video-recipes",
+      "skills": [
+        "code-video-recipes"
+      ],
+      "cover": "skills/code-video-recipes/cover.svg",
+      "preview": "skills/code-video-recipes/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "yihui-dev/awesome-opus5-5-videos",
+        "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+        "author": "yihui-dev",
+        "license": "MIT",
+        "commit": "92aee2f586ac0715cb3cbcb6384834f98a33383d",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "commercial-pipeline",
+      "name": "Commercial pipeline",
+      "summary": "Plan 5 to 8 locked reference images, then assemble a 30 second multi-cut AI commercial and fix only what broke.",
+      "category": "promos",
+      "tags": [
+        "commercial",
+        "product-film",
+        "reference-images",
+        "multi-cut"
+      ],
+      "path": "skills/commercial-pipeline",
+      "skills": [
+        "commercial-pipeline"
+      ],
+      "cover": "skills/commercial-pipeline/cover.svg",
+      "preview": "skills/commercial-pipeline/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "cut-to-the-beat",
+      "name": "Cut to the beat",
+      "summary": "Cut footage, captions and motion graphics to the music's beat with a beat map, a frame-snapped cut list and checks.",
+      "category": "audio",
+      "tags": [
+        "beat-sync",
+        "music",
+        "montage",
+        "rhythm"
+      ],
+      "path": "skills/cut-to-the-beat",
+      "skills": [
+        "cut-to-the-beat"
+      ],
+      "cover": "skills/cut-to-the-beat/cover.svg",
+      "preview": "skills/cut-to-the-beat/preview.mp4",
+      "adaptedBySubclip": false,
+      "license": "ISC",
+      "upstream": null,
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "documentary-case-file",
+      "name": "Documentary case file",
+      "summary": "One sentence in, a documentary plan with chapters, locked stills, scene clips and a narrator, assembled on the Subclip timeline.",
+      "category": "explainers",
+      "tags": [
+        "documentary",
+        "case-file",
+        "narrator",
+        "3d-reconstruction"
+      ],
+      "path": "skills/documentary-case-file",
+      "skills": [
+        "documentary-case-file"
+      ],
+      "cover": "skills/documentary-case-file/cover.svg",
+      "preview": "skills/documentary-case-file/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "frontend-slides",
+      "name": "Frontend Slides",
+      "summary": "Turn a slide outline into editable animated scenes with optional narration and captions, ready to export as video.",
+      "category": "slides",
+      "tags": [
+        "slides",
+        "presentations",
+        "hyperframes",
+        "narration"
+      ],
+      "path": "skills/frontend-slides",
+      "skills": [
+        "frontend-slides"
+      ],
+      "cover": "skills/frontend-slides/cover.svg",
+      "preview": "skills/frontend-slides/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "zarazhangrui/frontend-slides",
+        "url": "https://github.com/zarazhangrui/frontend-slides",
+        "author": "zarazhangrui",
+        "license": "MIT",
+        "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "gbro-collage-broll",
+      "name": "Collage B-roll",
+      "summary": "Turn one spoken line into a halftone paper-collage B-roll clip, approved at two gates before any video credits are spent.",
+      "category": "broll",
+      "tags": [
+        "collage",
+        "b-roll",
+        "halftone",
+        "paper"
+      ],
+      "path": "skills/gbro-collage-broll",
+      "skills": [
+        "gbro-collage-broll"
+      ],
+      "cover": "skills/gbro-collage-broll/cover.svg",
+      "preview": "skills/gbro-collage-broll/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "pyang5166/gbro-collage-broll",
+        "url": "https://github.com/pyang5166/gbro-collage-broll",
+        "author": "pyang5166",
+        "license": "MIT",
+        "commit": "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "higgsfield-to-subclip",
+      "name": "Relight and background swap",
+      "summary": "Change the background or lighting of real footage and keep face, lips and timing. Five relight looks, edit by prompt and a stacked reel, all in Subclip.",
+      "category": "workflow",
+      "tags": [
+        "relight",
+        "background-swap",
+        "video-to-video",
+        "talking-head",
+        "lighting"
+      ],
+      "path": "skills/higgsfield-to-subclip",
+      "skills": [
+        "higgsfield-to-subclip"
+      ],
+      "cover": "skills/higgsfield-to-subclip/cover.svg",
+      "preview": "skills/higgsfield-to-subclip/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23"
     },
@@ -64,6 +623,454 @@
       "addedAt": "2026-11-23"
     },
     {
+      "slug": "long-to-shorts",
+      "name": "Long video to shorts",
+      "summary": "Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.",
+      "category": "clipping",
+      "tags": [
+        "shorts",
+        "reels",
+        "clipping",
+        "podcast",
+        "captions"
+      ],
+      "path": "skills/long-to-shorts",
+      "skills": [
+        "long-to-shorts"
+      ],
+      "cover": "skills/long-to-shorts/cover.svg",
+      "preview": "skills/long-to-shorts/preview.mp4",
+      "adaptedBySubclip": false,
+      "license": "MIT",
+      "upstream": null,
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "manim-composer",
+      "name": "Manim composer",
+      "summary": "Plan and build a 3Blue1Brown-style math explainer as animated, narrated motion-layer scenes.",
+      "category": "explainers",
+      "tags": [
+        "math",
+        "education",
+        "3b1b",
+        "explainer"
+      ],
+      "path": "skills/manim-composer",
+      "skills": [
+        "manim-composer"
+      ],
+      "cover": "skills/manim-composer/cover.svg",
+      "preview": "skills/manim-composer/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "motion-polish",
+      "name": "Motion polish",
+      "summary": "Eight skills to animate, review, simplify and name motion on video layers, text and transitions with a high craft bar.",
+      "category": "animation",
+      "tags": [
+        "animation",
+        "easing",
+        "springs",
+        "motion-design",
+        "review",
+        "keyframes"
+      ],
+      "path": "skills/motion-polish",
+      "skills": [
+        "animate",
+        "animate-expo",
+        "animation-performance",
+        "animation-vocabulary",
+        "find-animation-opportunities",
+        "improve-animations",
+        "motion-polish",
+        "remove-animations",
+        "review-animations"
+      ],
+      "cover": "skills/motion-polish/cover.svg",
+      "preview": "skills/motion-polish/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "emilkowalski/skills",
+        "url": "https://github.com/emilkowalski/skills",
+        "author": "Emil Kowalski",
+        "license": "MIT",
+        "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "music-to-video",
+      "name": "Music to video",
+      "summary": "Turn a music track into a beat-synced video with kinetic type, your own clips and editable motion layers.",
+      "category": "audio",
+      "tags": [
+        "music",
+        "beat-sync",
+        "kinetic-typography",
+        "lyric-video"
+      ],
+      "path": "skills/music-to-video",
+      "skills": [
+        "music-to-video"
+      ],
+      "cover": "skills/music-to-video/cover.svg",
+      "preview": "skills/music-to-video/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "open-design-motion",
+      "name": "Open Design Motion",
+      "summary": "Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.",
+      "category": "motion",
+      "tags": [
+        "hyperframes",
+        "motion-design",
+        "pixel-art",
+        "shortform",
+        "audio",
+        "3d"
+      ],
+      "path": "skills/open-design-motion",
+      "skills": [
+        "audio-jingle",
+        "mockup-device-3d",
+        "motion-frames",
+        "open-design-motion",
+        "sprite-animation",
+        "video-hyperframes",
+        "video-shortform"
+      ],
+      "cover": "skills/open-design-motion/cover.svg",
+      "preview": "skills/open-design-motion/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design",
+        "author": "nexu-io",
+        "license": "Apache-2.0",
+        "commit": "e033aad1d15a9d4084316e5223f2c6597fd32619",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "open-design-video-templates",
+      "name": "Open Design Video Templates",
+      "summary": "22 editable Subclip motion recipes for kinetic type, editorial data, product promos, diagrams and brand frames.",
+      "category": "templates",
+      "tags": [
+        "hyperframes",
+        "motion-design",
+        "typography",
+        "data-viz",
+        "promos"
+      ],
+      "path": "skills/open-design-video-templates",
+      "skills": [
+        "open-design-video-templates"
+      ],
+      "cover": "skills/open-design-video-templates/cover.jpg",
+      "preview": "skills/open-design-video-templates/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design",
+        "author": "nexu-io",
+        "license": "Apache-2.0",
+        "commit": "e033aad1d15a9d4084316e5223f2c6597fd32619",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "paper-cut-motion",
+      "name": "Paper-cut motion",
+      "summary": "Turn any image into a torn paper collage and a video where the scene assembles piece by piece, finished on the Subclip timeline.",
+      "category": "animation",
+      "tags": [
+        "paper-cut",
+        "collage",
+        "storyboard",
+        "image-to-video"
+      ],
+      "path": "skills/paper-cut-motion",
+      "skills": [
+        "paper-cut-motion"
+      ],
+      "cover": "skills/paper-cut-motion/cover.svg",
+      "preview": "skills/paper-cut-motion/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1",
+        "author": "PYNK Society",
+        "license": "Not stated",
+        "note": "Written in new words from the skill description on the list: https://app.notion.com/p/38db5f1fde2d80b4a7a0ecb96e5f6770"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "pixelfx",
+      "name": "Pixelfx",
+      "summary": "244 pixel art effect recipes (fire, magic, impacts, weather, UI, transitions) for canvas motion layers in Subclip.",
+      "category": "pixel-art",
+      "tags": [
+        "pixel-art",
+        "vfx",
+        "sprites",
+        "game-juice",
+        "canvas",
+        "effects"
+      ],
+      "path": "skills/pixelfx",
+      "skills": [
+        "pixelfx"
+      ],
+      "cover": "skills/pixelfx/cover.svg",
+      "preview": "skills/pixelfx/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "patch-gg/pixelfx",
+        "url": "https://github.com/patch-gg/pixelfx",
+        "author": "patch-gg",
+        "license": "MIT",
+        "commit": "5294518ce7c72e48b6100a744596e0acf57f2826",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "portrait-style-prompts",
+      "name": "Portrait style prompts",
+      "summary": "Turn a frame of your video into a styled portrait (anime, watercolour, pixel art, noir, paper cut) with a seven-slot prompt, then make a video in that style.",
+      "category": "templates",
+      "tags": [
+        "style-transfer",
+        "portrait",
+        "video-frame",
+        "anime",
+        "watercolor"
+      ],
+      "path": "skills/portrait-style-prompts",
+      "skills": [
+        "portrait-style-prompts"
+      ],
+      "cover": "skills/portrait-style-prompts/cover.svg",
+      "preview": "skills/portrait-style-prompts/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "r3f-physics-and-effects",
+      "name": "R3F Physics and Effects",
+      "summary": "Build editable 3D impact shots with bouncing bodies, contact cues, and luminous accents.",
+      "category": "3d",
+      "tags": [
+        "r3f",
+        "threejs",
+        "physics",
+        "bloom",
+        "needs-runtime"
+      ],
+      "path": "skills/r3f-physics-and-effects",
+      "skills": [
+        "r3f-physics-and-effects"
+      ],
+      "cover": "skills/r3f-physics-and-effects/cover.svg",
+      "preview": "skills/r3f-physics-and-effects/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "pmndrs/react-three-rapier",
+        "url": "https://github.com/pmndrs/react-three-rapier",
+        "author": "Poimandres",
+        "license": "MIT",
+        "commit": "ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "svg-character-animation",
+      "name": "SVG character animation",
+      "summary": "Rig and animate an SVG character in an editable Subclip motion layer with readable acting.",
+      "category": "animation",
+      "tags": [
+        "svg",
+        "character",
+        "rig",
+        "gsap"
+      ],
+      "path": "skills/svg-character-animation",
+      "skills": [
+        "svg-character-animation"
+      ],
+      "cover": "skills/svg-character-animation/cover.svg",
+      "preview": "skills/svg-character-animation/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "threejs-3d-scenes",
+      "name": "Three.js 3D scenes",
+      "summary": "Build editable 3D device reveals, camera moves, and product turntables in Subclip.",
+      "category": "3d",
+      "tags": [
+        "three-js",
+        "device-mockups",
+        "camera-moves",
+        "product-video"
+      ],
+      "path": "skills/threejs-3d-scenes",
+      "skills": [
+        "threejs-3d-scenes"
+      ],
+      "cover": "skills/threejs-3d-scenes/cover.svg",
+      "preview": "skills/threejs-3d-scenes/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "mrdoob/three.js",
+        "url": "https://github.com/mrdoob/three.js",
+        "author": "mrdoob and the three.js contributors",
+        "license": "MIT",
+        "commit": "b2dce982c57ff795d7709f5da993ea24c2b07aa1",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "video-shotcraft",
+      "name": "Video Shotcraft",
+      "summary": "Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.",
+      "category": "promos",
+      "tags": [
+        "product-promo",
+        "shot-recipes",
+        "beat-sync",
+        "sound-design",
+        "hyperframes"
+      ],
+      "path": "skills/video-shotcraft",
+      "skills": [
+        "video-shotcraft"
+      ],
+      "cover": "skills/video-shotcraft/cover.svg",
+      "preview": "skills/video-shotcraft/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "Vincentwei1021/video-shotcraft",
+        "url": "https://github.com/Vincentwei1021/video-shotcraft",
+        "author": "Vincentwei1021",
+        "license": "Apache-2.0",
+        "commit": "59f3e9b9e936ff2bce0e18446226d770a3f2f61f",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "video-translate",
+      "name": "Video translate",
+      "summary": "Translate and dub a video into one or more languages with per-speaker voices, timing checks and optional lip-sync.",
+      "category": "workflow",
+      "tags": [
+        "translation",
+        "dubbing",
+        "localization",
+        "lip-sync"
+      ],
+      "path": "skills/video-translate",
+      "skills": [
+        "video-translate"
+      ],
+      "cover": "skills/video-translate/cover.svg",
+      "preview": "skills/video-translate/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "vox-director",
+      "name": "Vox director",
+      "summary": "Direct paper-collage explainers with beat maps, theme comparisons, wide-to-detail shot plans and editable motion in Subclip.",
+      "category": "explainers",
+      "tags": [
+        "vox",
+        "documentary",
+        "collage",
+        "shot-design"
+      ],
+      "path": "skills/vox-director",
+      "skills": [
+        "vox-director"
+      ],
+      "cover": "skills/vox-director/cover.svg",
+      "preview": "skills/vox-director/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Alisa0808/vox-director",
+        "url": "https://github.com/Alisa0808/vox-director",
+        "author": "Alisa0808",
+        "license": "MIT",
+        "commit": "6a85a7c341610442a6a5b1885e6e0217ab82a11f",
+        "syncedAt": "2026-11-23"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
       "slug": "vox-explainer",
       "name": "Vox explainer",
       "summary": "One topic in, a finished Vox-style explainer.",
@@ -88,6 +1095,63 @@
         "license": "MIT",
         "commit": "7003225dc3ed1dee9e2ef8b91b05b82c04691aa9",
         "syncedAt": "2026-11-22"
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "wan-animation-styles",
+      "name": "Wan animation styles",
+      "summary": "Photo to style frame to animation in five looks (Expressionism, rubber hose, gothic toon, surreal cartoon, PS1) with Wan 3, plus a multi-shot scene recipe.",
+      "category": "animation",
+      "tags": [
+        "animation",
+        "wan-3",
+        "style-frame",
+        "cartoon",
+        "multi-shot"
+      ],
+      "path": "skills/wan-animation-styles",
+      "skills": [
+        "wan-animation-styles"
+      ],
+      "cover": "skills/wan-animation-styles/cover.svg",
+      "preview": "skills/wan-animation-styles/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.instagram.com/sferro21",
+        "author": "sferro21",
+        "license": "Not stated",
+        "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
+      },
+      "addedAt": "2026-11-23"
+    },
+    {
+      "slug": "website-to-video",
+      "name": "Website to video",
+      "summary": "Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.",
+      "category": "promos",
+      "tags": [
+        "website",
+        "brand",
+        "storyboard",
+        "social-clip"
+      ],
+      "path": "skills/website-to-video",
+      "skills": [
+        "website-to-video"
+      ],
+      "cover": "skills/website-to-video/cover.svg",
+      "preview": "skills/website-to-video/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "AGPL-3.0",
+      "upstream": {
+        "repo": "OpenMontageInc/OpenMontage",
+        "url": "https://github.com/OpenMontageInc/OpenMontage",
+        "author": "OpenMontageInc",
+        "license": "AGPL-3.0",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23"
     }
@@ -119,6 +1183,30 @@
       "why": "No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts",
       "video": "install-yourself/opus-video-prompts/preview.mp4",
+      "gallery": []
+    },
+    {
+      "slug": "onetake",
+      "name": "onetake",
+      "repo": "feitangyuan/onetake",
+      "url": "https://github.com/feitangyuan/onetake",
+      "category": "motion",
+      "what": "Product launch films and teasers where every beat grows out of the one before, as one continuous take.",
+      "why": "PolyForm Noncommercial 1.0.0 allows noncommercial use only (the author sells a commercial Pro licence), so Subclip cannot adapt or redistribute it. Install the original yourself.",
+      "preview": "https://opengraph.githubassets.com/1/feitangyuan/onetake",
+      "video": "install-yourself/onetake/preview.mp4",
+      "gallery": []
+    },
+    {
+      "slug": "lemo-wake",
+      "name": "lemo-wake",
+      "repo": "lemomo-ai/lemo-wake",
+      "url": "https://github.com/lemomo-ai/lemo-wake",
+      "category": "animation",
+      "what": "One picture in, a seamless loop of about five seconds out: it takes the image apart and rebuilds it in code as a short film.",
+      "why": "The code and documentation use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
+      "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-wake",
+      "video": "install-yourself/lemo-wake/preview.mp4",
       "gallery": []
     }
   ]

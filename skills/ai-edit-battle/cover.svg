@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+  <title id="t">AI edit battle, adapted for Subclip</title>
+  <desc id="d">Two models. One clip. One brief.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="24" height="900" fill="url(#g)"/>
+  <circle cx="1480" cy="90" r="260" fill="#26c9d5" opacity=".08"/>
+  <text x="90" y="110" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#26c9d5">COMMUNITY SKILLS</text>
+  <text x="84" y="300" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="900" letter-spacing="-4" fill="#153592">AI EDIT</text>
+  <text x="84" y="430" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" letter-spacing="-3" fill="#26c9d5">BATTLE</text>
+  <text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#3a4466">Two models. One clip. One brief.</text>
+  <rect x="90" y="580" width="420" height="68" rx="34" fill="url(#g)"/>
+  <text x="300" y="625" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Adapted for Subclip</text>
+  <text x="90" y="780" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#5a6385">Guides by sferro21</text>
+  <text x="90" y="830" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#153592">subclip.app</text>
+  <rect x="900" y="170" width="300" height="540" rx="24" fill="#fff" stroke="#153592" stroke-width="8"/><rect x="1240" y="170" width="300" height="540" rx="24" fill="#fff" stroke="#26c9d5" stroke-width="8"/><rect x="930" y="200" width="240" height="140" rx="12" fill="#153592" opacity=".12"/><rect x="1270" y="200" width="240" height="140" rx="12" fill="#26c9d5" opacity=".18"/><path d="M930 400h240M930 440h180M930 480h210M930 520h120" stroke="#153592" stroke-width="12" stroke-linecap="round"/><path d="M1270 400h240M1270 440h210M1270 480h160M1270 520h200" stroke="#26c9d5" stroke-width="12" stroke-linecap="round"/><circle cx="1220" cy="440" r="64" fill="url(#g)"/><text x="1220" y="462" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="900" fill="#fff" text-anchor="middle">VS</text><path d="M930 620h240v50H930zM1270 620h240v50h-240z" fill="#f0f4ff"/>
+</svg>

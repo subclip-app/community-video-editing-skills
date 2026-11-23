@@ -1,0 +1,11 @@
+slug: claude-drawing-skill
+name: Claude Drawing
+summary: Draw ink washes, paper collages and line art in code, then reveal the marks in editable Subclip motion layers.
+category: animation
+tags: [illustration, draw-on, svg, hyperframes]
+cover: cover.jpg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: cloveric/claude-drawing-skill, author: cloveric, license: MIT, commit: "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

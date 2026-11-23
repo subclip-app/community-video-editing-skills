@@ -1,0 +1,11 @@
+slug: character-animation-qa
+name: Character animation QA
+summary: Review a character animation with sampled frames, motion checks and a pass, revise or fail verdict.
+category: animation
+tags: [qa, character, review]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: AGPL-3.0
+upstream: { repo: OpenMontageInc/OpenMontage, author: OpenMontageInc, license: AGPL-3.0, commit: "2e003e65fa99a0f329478a2c1cdcf26bc481933a", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

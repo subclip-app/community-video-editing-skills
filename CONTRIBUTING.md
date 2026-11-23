@@ -53,7 +53,7 @@ addedAt: 2026-11-23
 | `preview` | Optional relative path to a silent MP4 loop. |
 | `adaptedBySubclip` | Required boolean. True for Subclip adaptations; false for an author's skill written for Subclip. |
 | `license` | Required license identifier from the allowed list below. |
-| `upstream` | Required: `null` for original Subclip skills, otherwise `repo`, `author`, `license` and optional `url` matching the GitHub repo. |
+| `upstream` | Required: `null` for original Subclip skills, otherwise `repo`, `author`, `license` and optional `url` matching the GitHub repo. For a non-GitHub source with no stated license, omit `repo` and give `url` (https), `author`, `license: Not stated` and an optional `note`. Then the skill's own `license` is also `Not stated`. |
 | `addedAt` | Required real date in `YYYY-MM-DD` form. Keep it stable after adding the skill. |
 | `allowlist` | Optional list of scanner exceptions, each with `code`, optional exact relative `file`, and a specific `reason`. Reviewers check every exception. |
 
@@ -85,7 +85,7 @@ Only submit sources whose licenses allow both changes and commercial use. Keep t
 
 Allowed identifiers: `MIT`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `ISC`, `AGPL-3.0`, `GPL-3.0`, `MPL-2.0`, `CC-BY-4.0`, `CC0-1.0`, `Unlicense`. The builder checks identifiers and the presence of LICENSE; reviewers verify the actual license text and provenance.
 
-If there is no license, or it is non-commercial or no-derivatives, do not copy the skill. Propose its original link in [INSTALL_YOURSELF.md](INSTALL_YOURSELF.md) instead.
+If there is no license, or it is non-commercial or no-derivatives, do not copy the skill. One exception: a creator's non-GitHub guides with no stated license may be rewritten entirely in your own words (no copied text, images or logos) when the creator is credited prominently and the maintainers have agreed to list them. Use `upstream: { url, author, license: Not stated, note }`, write a `LICENSE` file that says the source states no license and that the adaptation needs the creator's confirmation, and have the maintainers confirm permission with the creator. Propose its original link in [INSTALL_YOURSELF.md](INSTALL_YOURSELF.md) instead.
 
 Start an adapted README with:
 

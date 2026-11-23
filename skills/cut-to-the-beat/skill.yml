@@ -1,0 +1,11 @@
+slug: cut-to-the-beat
+name: Cut to the beat
+summary: Cut footage, captions and motion graphics to the music's beat with a beat map, a frame-snapped cut list and checks.
+category: audio
+tags: [beat-sync, music, montage, rhythm]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: false
+license: ISC
+upstream: null
+addedAt: 2026-11-23

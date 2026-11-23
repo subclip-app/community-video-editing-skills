@@ -1,0 +1,11 @@
+slug: ai-style-atlas
+name: AI Style Atlas
+summary: Pick a visual style by name or mood and restyle an explainer on your topic in that look, built as editable layers.
+category: animation
+tags: [styles, explainer, art-direction, catalog]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Not stated
+upstream: { url: "https://www.futurepedia.io/resources/ai-style-atlas/view", author: Futurepedia, license: Not stated, note: "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed." }
+addedAt: 2026-11-23

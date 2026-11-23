@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>Commercial Pipeline</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="0" y="0" width="1600" height="14" fill="url(#g)"/>
+<rect x="80" y="90" width="1440" height="720" rx="36" fill="#f4f8fd" stroke="#d6e2f3" stroke-width="4"/>
+<text x="140" y="230" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#153592">Commercial Pipeline</text>
+<text x="140" y="305" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#3b4b6b">Lock every reference, then assemble a 30 second commercial</text>
+<rect x="140" y="720" width="430" height="60" rx="30" fill="url(#g)"/>
+<text x="175" y="762" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Adapted for Subclip</text>
+<g transform="translate(700,420) scale(0.78)">
+<g fill="#26c9d5"><rect x="0" y="0" width="150" height="110" rx="14"/><rect x="170" y="0" width="150" height="110" rx="14" fill="#153592"/><rect x="340" y="0" width="150" height="110" rx="14"/></g>
+<g fill="#2a56c2"><rect x="0" y="130" width="150" height="110" rx="14"/><rect x="170" y="130" width="150" height="110" rx="14" fill="#7fe0e8"/><rect x="340" y="130" width="150" height="110" rx="14" fill="#153592"/></g>
+<polygon points="520,120 580,120 580,100 640,170 580,240 580,220 520,220" fill="#153592"/>
+<rect x="650" y="40" width="260" height="190" rx="18" fill="#153592"/><polygon points="740,90 740,180 820,135" fill="#ffffff"/></g>
+</svg>

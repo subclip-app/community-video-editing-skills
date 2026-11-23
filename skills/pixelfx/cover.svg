@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" shape-rendering="crispEdges">
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="60" y="130" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#153592">Pixelfx</text>
+<text x="60" y="190" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#334155">244 pixel art effects for Subclip motion layers</text>
+<rect x="60" y="250" width="1480" height="540" fill="#0c1430"/>
+<g id="p">
+<rect x="700" y="640" width="40" height="40" fill="#ffae35"/><rect x="660" y="600" width="40" height="40" fill="#f2701f"/><rect x="740" y="600" width="40" height="40" fill="#f2701f"/>
+<rect x="700" y="560" width="40" height="40" fill="#ffe27a"/><rect x="620" y="560" width="40" height="40" fill="#cc3a1a"/><rect x="780" y="560" width="40" height="40" fill="#cc3a1a"/>
+<rect x="700" y="520" width="40" height="40" fill="#fff8d6"/><rect x="660" y="520" width="40" height="40" fill="#ffae35"/><rect x="740" y="520" width="40" height="40" fill="#ffae35"/>
+<rect x="700" y="480" width="40" height="40" fill="#ffe27a"/><rect x="660" y="440" width="40" height="40" fill="#f2701f"/><rect x="740" y="440" width="40" height="40" fill="#cc3a1a"/>
+<rect x="700" y="400" width="40" height="40" fill="#f2701f"/><rect x="700" y="340" width="40" height="40" fill="#8c1d1c"/>
+</g>
+<g fill="#58b4ec"><rect x="300" y="420" width="40" height="40"/><rect x="260" y="460" width="40" height="40" fill="#9bdcff"/><rect x="340" y="460" width="40" height="40" fill="#9bdcff"/><rect x="300" y="460" width="40" height="40" fill="#ffffff"/><rect x="300" y="500" width="40" height="40"/><rect x="220" y="460" width="40" height="40" fill="#2f7fcc"/><rect x="380" y="460" width="40" height="40" fill="#2f7fcc"/><rect x="300" y="380" width="40" height="40" fill="#2f7fcc"/><rect x="300" y="540" width="40" height="40" fill="#2f7fcc"/></g>
+<g fill="#ffe066"><rect x="1120" y="440" width="120" height="120" fill="#c48412"/><rect x="1140" y="460" width="80" height="80" fill="#f0b424"/><rect x="1160" y="480" width="40" height="40" fill="#fff6c4"/><rect x="1260" y="400" width="20" height="20" fill="#ffffff"/><rect x="1080" y="400" width="20" height="20" fill="#ffffff"/><rect x="1180" y="380" width="20" height="20" fill="#ffffff"/></g>
+<g fill="#f53cd1"><rect x="900" y="300" width="20" height="20"/><rect x="1380" y="620" width="20" height="20" fill="#3cc8ff"/><rect x="960" y="660" width="20" height="20" fill="#ffe03c"/><rect x="1400" y="340" width="20" height="20" fill="#5ad84a"/><rect x="540" y="340" width="20" height="20" fill="#7a6cff"/></g>
+<text x="60" y="850" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#26a5b0">Adapted for Subclip</text>
+</svg>

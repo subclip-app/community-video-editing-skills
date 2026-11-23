@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Website to video, adapted for subclip</title>
+  <desc id="desc">A URL in, a branded video out. Community skill card with a blue and cyan illustration panel.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="800" y="0" width="800" height="900" fill="url(#g)"/>
+  <rect x="90" y="110" width="80" height="10" fill="#26c9d5"/>
+  <text x="90" y="170" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6" fill="#5b6b8f">COMMUNITY SKILL / PROMOS</text>
+  <text x="90" y="330" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" letter-spacing="-3" fill="#153592">Website to</text><text x="90" y="435" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" letter-spacing="-3" fill="#153592">video</text>
+  <text x="92" y="560" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#394a73">A URL in, a branded video out</text>
+  <rect x="90" y="740" width="420" height="74" rx="37" fill="#26c9d5"/>
+  <text x="300" y="790" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#06224f">Adapted for Subclip</text>
+  <rect x="860" y="250" width="380" height="300" rx="18" fill="#fff"/><rect x="860" y="250" width="380" height="50" rx="18" fill="#dfe8f7"/><circle cx="890" cy="275" r="8" fill="#153592"/><circle cx="915" cy="275" r="8" fill="#26c9d5"/><rect x="890" y="330" width="200" height="30" rx="8" fill="#153592"/><rect x="890" y="380" width="320" height="16" rx="8" fill="#9fb0d6"/><rect x="890" y="410" width="260" height="16" rx="8" fill="#9fb0d6"/><rect x="890" y="450" width="120" height="70" rx="10" fill="#26c9d5"/><path d="M1260 400 H1330" stroke="#fff" stroke-width="10" stroke-linecap="round"/><path d="M1315 375 L1345 400 L1315 425" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><rect x="1360" y="330" width="170" height="300" rx="16" fill="#fff"/><path d="M1415 420 L1415 540 L1490 480 Z" fill="#153592"/>
+</svg>

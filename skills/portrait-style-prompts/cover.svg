@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+  <title id="t">Portrait style prompts, adapted for Subclip</title>
+  <desc id="d">Frame to style to video.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="24" height="900" fill="url(#g)"/>
+  <circle cx="1480" cy="90" r="260" fill="#26c9d5" opacity=".08"/>
+  <text x="90" y="110" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#26c9d5">COMMUNITY SKILLS</text>
+  <text x="84" y="300" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="900" letter-spacing="-4" fill="#153592">PORTRAIT</text>
+  <text x="84" y="430" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900" letter-spacing="-3" fill="#26c9d5">STYLE PROMPTS</text>
+  <text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#3a4466">Frame to style to video.</text>
+  <rect x="90" y="580" width="420" height="68" rx="34" fill="url(#g)"/>
+  <text x="300" y="625" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Adapted for Subclip</text>
+  <text x="90" y="780" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#5a6385">Guides by sferro21</text>
+  <text x="90" y="830" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#153592">subclip.app</text>
+  <rect x="920" y="170" width="280" height="380" rx="20" fill="#e6ecfb"/><circle cx="1060" cy="310" r="80" fill="#153592"/><path d="M930 550c10-110 80-150 130-150s120 40 130 150z" fill="#153592"/><path d="M1240 330h110" stroke="#26c9d5" stroke-width="12" stroke-linecap="round"/><path d="M1330 300l40 30-40 30" fill="none" stroke="#26c9d5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><rect x="1390" y="170" width="170" height="380" rx="20" fill="#26c9d5" opacity=".25"/><circle cx="1475" cy="310" r="50" fill="#26c9d5"/><path d="M1400 550c8-80 50-110 75-110s67 30 75 110z" fill="#26c9d5"/><rect x="920" y="590" width="640" height="26" rx="13" fill="#e6ecfb"/><rect x="920" y="590" width="360" height="26" rx="13" fill="#153592"/>
+</svg>

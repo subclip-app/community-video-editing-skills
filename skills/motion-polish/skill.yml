@@ -1,0 +1,11 @@
+slug: motion-polish
+name: Motion polish
+summary: Eight skills to animate, review, simplify and name motion on video layers, text and transitions with a high craft bar.
+category: animation
+tags: [animation, easing, springs, motion-design, review, keyframes]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: emilkowalski/skills, author: Emil Kowalski, license: MIT, commit: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

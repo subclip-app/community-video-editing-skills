@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+  <title id="t">Relight and background swap, adapted for Subclip</title>
+  <desc id="d">Same take, five looks.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="24" height="900" fill="url(#g)"/>
+  <circle cx="1480" cy="90" r="260" fill="#26c9d5" opacity=".08"/>
+  <text x="90" y="110" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#26c9d5">COMMUNITY SKILLS</text>
+  <text x="84" y="300" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="900" letter-spacing="-4" fill="#153592">RELIGHT</text>
+  <text x="84" y="430" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" letter-spacing="-3" fill="#26c9d5">AND SWAP</text>
+  <text x="90" y="520" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#3a4466">Same take, five looks.</text>
+  <rect x="90" y="580" width="420" height="68" rx="34" fill="url(#g)"/>
+  <text x="300" y="625" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Adapted for Subclip</text>
+  <text x="90" y="780" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#5a6385">Guides by sferro21</text>
+  <text x="90" y="830" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#153592">subclip.app</text>
+  <rect x="900" y="170" width="660" height="540" rx="24" fill="#0f1b45"/><path d="M1560 170L1320 710h160l80-360z" fill="#26c9d5" opacity=".35"/><path d="M1560 170L1180 710h120l260-420z" fill="#26c9d5" opacity=".25"/><circle cx="1220" cy="400" r="74" fill="#fff"/><path d="M1090 710c10-160 80-215 130-215s120 55 130 215z" fill="#fff"/><rect x="900" y="170" width="660" height="540" rx="24" fill="none" stroke="#153592" stroke-width="8"/><g fill="#26c9d5"><rect x="930" y="740" width="110" height="26" rx="13"/><rect x="1060" y="740" width="110" height="26" rx="13" opacity=".7"/><rect x="1190" y="740" width="110" height="26" rx="13" opacity=".5"/><rect x="1320" y="740" width="110" height="26" rx="13" opacity=".35"/><rect x="1450" y="740" width="110" height="26" rx="13" opacity=".2"/></g>
+</svg>

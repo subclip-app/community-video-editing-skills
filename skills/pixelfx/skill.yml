@@ -1,0 +1,11 @@
+slug: pixelfx
+name: Pixelfx
+summary: 244 pixel art effect recipes (fire, magic, impacts, weather, UI, transitions) for canvas motion layers in Subclip.
+category: pixel-art
+tags: [pixel-art, vfx, sprites, game-juice, canvas, effects]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: patch-gg/pixelfx, author: patch-gg, license: MIT, commit: "5294518ce7c72e48b6100a744596e0acf57f2826", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

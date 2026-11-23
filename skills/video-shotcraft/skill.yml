@@ -1,0 +1,14 @@
+slug: video-shotcraft
+name: Video Shotcraft
+summary: Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.
+category: promos
+tags: [product-promo, shot-recipes, beat-sync, sound-design, hyperframes]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Apache-2.0
+upstream: { repo: Vincentwei1021/video-shotcraft, author: Vincentwei1021, license: Apache-2.0, commit: "59f3e9b9e936ff2bce0e18446226d770a3f2f61f", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23
+allowlist:
+  - code: external-provider
+    reason: ElevenLabs names identify models called only through Subclip's live catalog and native generate_music tool.

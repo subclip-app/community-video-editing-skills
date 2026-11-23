@@ -1,0 +1,11 @@
+slug: anatomy
+name: Anatomy isometric figures
+summary: Isometric explainer figures for video: a real object, many small parts and calm motion, built as HyperFrames scenes with optional narration.
+category: explainers
+tags: [isometric, svg, technical-explainer, hyperframes, diagram]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: wheresryan22/anatomy, author: Ryan, license: MIT, commit: "1482e8469b0a9e0d8cc18ea2740a01423d29ae80", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

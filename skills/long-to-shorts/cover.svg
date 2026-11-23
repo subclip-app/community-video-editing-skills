@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="60" y="250" width="720" height="405" rx="28" fill="#f1f5f9" stroke="#153592" stroke-width="4"/>
+<rect x="90" y="470" width="660" height="26" rx="13" fill="#d5dbe6"/>
+<rect x="90" y="470" width="130" height="26" rx="13" fill="#26c9d5"/>
+<rect x="330" y="470" width="90" height="26" rx="13" fill="#26c9d5"/>
+<rect x="560" y="470" width="150" height="26" rx="13" fill="#26c9d5"/>
+<text x="90" y="560" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#153592">45 min podcast</text>
+<circle cx="160" cy="360" r="46" fill="#153592"/><rect x="110" y="410" width="100" height="40" rx="20" fill="#153592"/>
+<circle cx="290" cy="360" r="46" fill="#26c9d5"/><rect x="240" y="410" width="100" height="40" rx="20" fill="#26c9d5"/>
+<path d="M810 452 L890 452 M870 425 L900 452 L870 479" stroke="#153592" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g>
+<rect x="940" y="180" width="170" height="300" rx="22" fill="url(#g)"/>
+<rect x="960" y="380" width="130" height="34" rx="10" fill="#ffffff" opacity="0.95"/>
+<text x="975" y="404" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#153592">HOOK</text>
+<rect x="1140" y="260" width="170" height="300" rx="22" fill="url(#g)"/>
+<rect x="1160" y="460" width="130" height="34" rx="10" fill="#ffffff" opacity="0.95"/>
+<text x="1175" y="484" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#153592">94/100</text>
+<rect x="1340" y="340" width="170" height="300" rx="22" fill="url(#g)"/>
+<rect x="1360" y="540" width="130" height="34" rx="10" fill="#ffffff" opacity="0.95"/>
+<text x="1375" y="564" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#153592">87/100</text>
+</g>
+<text x="60" y="130" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#153592">Long video to shorts</text>
+<text x="60" y="190" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#334155">Scored clips, 9:16, captions, hook, export</text>
+<text x="60" y="830" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#26a5b0">Original Subclip skill</text>
+</svg>

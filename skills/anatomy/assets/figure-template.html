@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+  #scene { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #ffffff; font-family: Helvetica, Arial, sans-serif; }
+  svg { position: absolute; left: 0; top: 0; }
+  /* four-tone solids: top, left face (+y), right face (+x). hi = subject, mid = structure, lo = base. */
+  .s path { stroke: #153592; stroke-width: 1.2; stroke-linejoin: round; }
+  .s-hi .top { fill: #ffffff } .s-hi .l { fill: #eaf1fc } .s-hi .r { fill: #cddcf5 }
+  .s-mid .top { fill: #e3ebf8 } .s-mid .l { fill: #cbd9ef } .s-mid .r { fill: #b3c5e3 }
+  .s-lo .top { fill: #c3d1e8 } .s-lo .l { fill: #a9bbd9 } .s-lo .r { fill: #8da3c8 }
+  .s-lit .top { fill: #8cf0f6 } .s-lit .l { fill: #4fdbe4 } .s-lit .r { fill: #26c9d5 }
+  .ink { fill: none; stroke: #153592; stroke-width: 1.1; stroke-linecap: round; }
+  .faint { stroke: #153592; stroke-opacity: .28 }
+  .dot { fill: #153592 }
+  .card-t { font-size: 34px; font-weight: 700; fill: #153592 }
+  .card-s { font-size: 24px; fill: #3b4b6b }
+  .num { font-size: 52px; font-weight: 700; fill: #153592 }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+</head>
+<body>
+<div id="scene" data-composition-id="scene" data-start="0" data-duration="12" data-width="1920" data-height="1080">
+  <svg id="fig" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+</div>
+<script>
+/* ===== ISO MINI KIT (start) =====
+   Derived from the projection and tone ideas of the MIT licensed Anatomy kit by wheresryan22.
+   World units: x and y on the floor, z up. Camera: azimuth 45, elevation 30. */
+const ISO = (() => {
+  const R = Math.PI / 180, K = Math.sqrt(1.6);
+  const cam = { a: 45, e: 30, s: 1, o: [0, 0] };
+  const sA = () => Math.sin(cam.a * R), cA = () => Math.cos(cam.a * R), sE = () => Math.sin(cam.e * R), cE = () => Math.cos(cam.e * R);
+  const P = (x, y, z) => [cam.o[0] + (x * sA() - y * cA()) * K * cam.s, cam.o[1] + ((x * cA() + y * sA()) * sE() - z * cE()) * K * cam.s];
+  const f = n => Math.round(n * 10) / 10;
+  const path = (pts, close) => pts.map((p, i) => (i ? 'L' : 'M') + f(p[0]) + ' ' + f(p[1])).join('') + (close ? 'Z' : '');
+  /** Fit a list of [x,y,z] points into a box w x h with padding. Call before drawing. */
+  function fit(points, w, h, pad, at) {
+    cam.s = 1; cam.o = [0, 0];
+    const q = points.map(p => P(p[0], p[1], p[2]));
+    const xs = q.map(p => p[0]), ys = q.map(p => p[1]);
+    const bw = Math.max(...xs) - Math.min(...xs), bh = Math.max(...ys) - Math.min(...ys);
+    cam.s = Math.min((w - 2 * pad) / bw, (h - 2 * pad) / bh);
+    const q2 = points.map(p => P(p[0], p[1], p[2]));
+    const mx = (Math.min(...q2.map(p => p[0])) + Math.max(...q2.map(p => p[0]))) / 2;
+    const my = (Math.min(...q2.map(p => p[1])) + Math.max(...q2.map(p => p[1]))) / 2;
+    cam.o = [at[0] - mx, at[1] - my];
+    return cam.s;
+  }
+  /** Painter key: larger is nearer to the viewer. Draw ascending. */
+  const depth = (x, y, z) => (x * cA() + y * sA()) * cE() + z * sE();
+  /** Screen vector for a world move, to use with GSAP x and y on a group. */
+  const vec = (dx, dy, dz) => [(dx * sA() - dy * cA()) * K * cam.s, ((dx * cA() + dy * sA()) * sE() - dz * cE()) * K * cam.s];
+  /** Box: three visible faces (top, +y on the left, +x on the right). */
+  function box(x, y, z, w, d, h, tone, cls) {
+    const T = [P(x, y, z + h), P(x + w, y, z + h), P(x + w, y + d, z + h), P(x, y + d, z + h)];
+    const L = [P(x, y + d, z + h), P(x + w, y + d, z + h), P(x + w, y + d, z), P(x, y + d, z)];
+    const Rr = [P(x + w, y, z + h), P(x + w, y + d, z + h), P(x + w, y + d, z), P(x + w, y, z)];
+    return `<g class="s s-${tone} ${cls || ''}"><path class="l" d="${path(L, 1)}"/><path class="r" d="${path(Rr, 1)}"/><path class="top" d="${path(T, 1)}"/></g>`;
+  }
+  const ring = (cx, cy, r, z, n = 40) => Array.from({ length: n }, (_, i) => P(cx + r * Math.cos(2 * Math.PI * i / n), cy + r * Math.sin(2 * Math.PI * i / n), z));
+  function hull(pts) {
+    const s = [...pts].sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const cr = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lo = [], up = [];
+    for (const p of s) { while (lo.length > 1 && cr(lo[lo.length - 2], lo[lo.length - 1], p) <= 0) lo.pop(); lo.push(p); }
+    for (const p of [...s].reverse()) { while (up.length > 1 && cr(up[up.length - 2], up[up.length - 1], p) <= 0) up.pop(); up.push(p); }
+    return lo.slice(0, -1).concat(up.slice(0, -1));
+  }
+  /** Vertical cylinder: silhouette of the two end ellipses, then the top ellipse. */
+  function cyl(cx, cy, r, z, h, tone, cls) {
+    const top = ring(cx, cy, r, z + h), bot = ring(cx, cy, r, z);
+    return `<g class="s s-${tone} ${cls || ''}"><path class="l" d="${path(hull(top.concat(bot)), 1)}"/><path class="top" d="${path(top, 1)}"/></g>`;
+  }
+  const line = (pts3, cls) => `<path class="ink ${cls || ''}" d="${path(pts3.map(p => P(p[0], p[1], p[2])))}"/>`;
+  const dots = (pts3, r = 2.2) => pts3.map(p => { const q = P(p[0], p[1], p[2]); return `<circle class="dot" cx="${f(q[0])}" cy="${f(q[1])}" r="${r}"/>`; }).join('');
+  /** Ruler ticks on a top plane along x, hanging from the edge y. Every nth tick is longer. */
+  function ticks(x0, x1, step, every, y, z, minor = 3, major = 6) {
+    let d = '';
+    for (let x = x0, i = 0; x <= x1 + 1e-6; x += step, i++) {
+      const L = i % every === 0 ? major : minor, a = P(x, y, z), b = P(x, y + L, z);
+      d += `M${f(a[0])} ${f(a[1])}L${f(b[0])} ${f(b[1])}`;
+    }
+    return `<path class="ink" d="${d}"/>`;
+  }
+  /** Coil spring along x between x0 and x1, centred on (cy, cz). */
+  function coil(x0, x1, cy, cz, r, turns, per = 14) {
+    const pts = [], n = turns * per;
+    for (let i = 0; i <= n; i++) { const t = i / n, a = 2 * Math.PI * turns * t; pts.push(P(x0 + (x1 - x0) * t, cy + r * Math.cos(a), cz + r * Math.sin(a))); }
+    return `<path class="ink" d="${path(pts)}"/>`;
+  }
+  return { cam, P, fit, depth, vec, box, cyl, ring, line, dots, ticks, coil, path };
+})();
+/* ===== ISO MINI KIT (end) ===== */
+
+/* ===== THE MODEL (truth first) =====
+   One small pure function drives every part and every number. Replace with your own. */
+const TRAVEL = 120;                 // world units the carriage can slide
+const reading = p => Math.round(p * 100);   // the readout is a function of position p in 0..1
+const needleDeg = p => -120 + 240 * p;      // the needle angle is too
+
+/* ===== THE FIGURE (a carriage on a rail that moves a dial needle) ===== */
+const fig = document.getElementById('fig');
+const W = 1920, H = 1080;
+ISO.fit([[0, 0, -4], [220, 0, -4], [220, 100, -4], [0, 100, -4], [0, 0, 80], [220, 100, 80]], 1560, 800, 20, [W / 2, 550]);
+let svg = '';
+// base (lo), feet, rail (mid), ruler ticks
+svg += ISO.box(0, 0, 0, 220, 100, 8, 'lo');
+svg += [[10, 10], [200, 10], [10, 80], [200, 80]].map(([x, y]) => ISO.cyl(x + 5, y + 5, 5, -4, 4, 'lo')).join('');
+svg += ISO.box(15, 30, 8, 190, 40, 6, 'mid');
+svg += ISO.ticks(20, 200, 4, 5, 70, 14);
+svg += ISO.line([[20, 50, 14], [200, 50, 14]], 'faint');       // groove along the rail
+svg += ISO.dots([[18, 34, 14], [202, 34, 14], [18, 66, 14], [202, 66, 14]]);
+// left stop, carriage (moves), right stop, then the dial post in front of them
+svg += ISO.box(15, 30, 14, 6, 40, 18, 'mid');
+// moving carriage group (built once at rest, moved with a screen vector)
+const carriage = ISO.box(24, 34, 14, 26, 32, 14, 'hi') + ISO.cyl(37, 50, 5, 28, 6, 'lit') + ISO.coil(50, 78, 50, 21, 4, 6);
+svg += `<g id="carriage">${carriage}</g>`;
+svg += ISO.box(199, 30, 14, 6, 40, 18, 'mid');
+// dial post and dial (subject, hi)
+
+svg += ISO.box(180, 74, 8, 14, 14, 50, 'mid');
+const dialCx = 187, dialCy = 81, dialZ = 70;
+svg += ISO.cyl(dialCx, dialCy, 22, dialZ, 8, 'hi');
+svg += `<path class="ink faint" d="${ISO.path(ISO.ring(dialCx, dialCy, 17, dialZ + 8))}"/>`;
+let dialTicks = '';
+for (let i = 0; i <= 20; i++) { const a = (-210 + 240 * i / 20) * Math.PI / 180, r1 = 17, r2 = i % 5 === 0 ? 13 : 15; dialTicks += ISO.line([[dialCx + r1 * Math.cos(a), dialCy + r1 * Math.sin(a), dialZ + 8], [dialCx + r2 * Math.cos(a), dialCy + r2 * Math.sin(a), dialZ + 8]]); }
+svg += dialTicks;
+// needle: a line from the dial centre, rotated about the centre on screen
+const c = ISO.P(dialCx, dialCy, dialZ + 8), tip = ISO.P(dialCx + 14, dialCy, dialZ + 8);
+svg += `<g id="needle"><path class="ink" style="stroke:#26c9d5;stroke-width:3" d="M${c[0].toFixed(1)} ${c[1].toFixed(1)}L${tip[0].toFixed(1)} ${tip[1].toFixed(1)}"/></g>`;
+svg += `<circle class="dot" cx="${c[0].toFixed(1)}" cy="${c[1].toFixed(1)}" r="3"/>`;
+// card: Fig n top left, title top right, hint bottom left, readout bottom right (readout states are stacked text)
+svg += `<text class="card-t" x="80" y="100">Fig 1</text><text class="card-t" x="${W - 80}" y="100" text-anchor="end">Carriage and dial</text>`;
+svg += `<text class="card-s" x="80" y="${H - 70}">Slide the carriage, watch the dial</text>`;
+const STATES = [0, 25, 50, 75, 100];
+svg += STATES.map(v => `<text class="num r-${v}" x="${W - 80}" y="${H - 64}" text-anchor="end" opacity="0">${v}</text>`).join('');
+fig.innerHTML = svg;
+
+/* ===== MOTION (deterministic, seek-safe) ===== */
+const tl = gsap.timeline({ paused: true });
+const move = ISO.vec(TRAVEL, 0, 0);
+gsap.set('#needle', { svgOrigin: `${c[0].toFixed(1)} ${c[1].toFixed(1)}`, rotation: needleDeg(0) });
+tl.fromTo('#fig', { opacity: 0 }, { opacity: 1, duration: 0.6, ease: 'power2.out' }, 0);
+// each leg: carriage and needle move together, from the same model value
+const legs = [[0, 0.25, 1.0], [0.25, 0.5, 1.0], [0.5, 1.0, 1.4], [1.0, 0.5, 1.4], [0.5, 0, 1.4]];
+let t = 1, pPrev = 0;
+tl.set('.r-0', { opacity: 1 }, 0);
+legs.forEach(([from, to, dur]) => {
+  tl.fromTo('#carriage', { x: move[0] * from, y: move[1] * from }, { x: move[0] * to, y: move[1] * to, duration: dur, ease: 'power2.inOut' }, t);
+  tl.fromTo('#needle', { rotation: needleDeg(from) }, { rotation: needleDeg(to), duration: dur, ease: 'power2.inOut' }, t);
+  // the readout shows the nearest stored state at the end of the leg
+  const v = STATES.reduce((a, b) => Math.abs(b - reading(to)) < Math.abs(a - reading(to)) ? b : a);
+  STATES.forEach(s => tl.set('.r-' + s, { opacity: s === v ? 1 : 0 }, t + dur * 0.5));
+  t += dur + 0.5;
+});
+window.__timelines = window.__timelines || {};
+window.__timelines['scene'] = tl;
+</script>
+</body>
+</html>

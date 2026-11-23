@@ -1,0 +1,11 @@
+slug: open-design-video-templates
+name: Open Design Video Templates
+summary: 22 editable Subclip motion recipes for kinetic type, editorial data, product promos, diagrams and brand frames.
+category: templates
+tags: [hyperframes, motion-design, typography, data-viz, promos]
+cover: cover.jpg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Apache-2.0
+upstream: { repo: nexu-io/open-design, author: nexu-io, license: Apache-2.0, commit: "e033aad1d15a9d4084316e5223f2c6597fd32619", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

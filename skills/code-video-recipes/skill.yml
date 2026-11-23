@@ -1,0 +1,11 @@
+slug: code-video-recipes
+name: Code video recipes
+summary: Turn code-made video references into editable Subclip motion graphics, explainers, 3D shots and scripted demos.
+category: workflow
+tags: [hyperframes, motion-graphics, explainers, 3d, prompt-recipes]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: yihui-dev/awesome-opus5-5-videos, author: yihui-dev, license: MIT, commit: "92aee2f586ac0715cb3cbcb6384834f98a33383d", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

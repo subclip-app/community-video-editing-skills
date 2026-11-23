@@ -1,0 +1,11 @@
+slug: gbro-collage-broll
+name: Collage B-roll
+summary: Turn one spoken line into a halftone paper-collage B-roll clip, approved at two gates before any video credits are spent.
+category: broll
+tags: [collage, b-roll, halftone, paper]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: pyang5166/gbro-collage-broll, author: pyang5166, license: MIT, commit: "a1a4ee2e2abf7d44e460026b706d0c72c2cf8a91", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23

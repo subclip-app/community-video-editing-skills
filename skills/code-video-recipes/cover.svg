@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Code video recipes. Adapted for Subclip.</title>
+  <rect width="1600" height="900" fill="#fff"/>
+  <text x="110" y="322" fill="#153592" font-family="Arial, sans-serif" font-size="122" font-weight="700" letter-spacing="-6">Code video</text>
+  <text x="110" y="454" fill="#153592" font-family="Arial, sans-serif" font-size="122" font-weight="700" letter-spacing="-6">recipes</text>
+  <rect x="115" y="520" width="76" height="9" rx="4" fill="#26c9d5"/>
+  <text x="114" y="601" fill="#153592" font-family="Arial, sans-serif" font-size="42">Adapted for Subclip</text>
+  <g transform="translate(838 160)">
+    <rect width="650" height="465" rx="34" fill="#153592"/>
+    <rect x="31" y="30" width="588" height="405" rx="23" fill="#eef5ff"/>
+    <path d="M65 355H580M65 288H580M65 221H580M65 154H580M65 87H580M133 64V398M223 64V398M313 64V398M403 64V398M493 64V398" fill="none" stroke="#153592" stroke-opacity=".12" stroke-width="2"/>
+    <path d="M90 353C183 356 183 177 292 190S401 390 550 127" fill="none" stroke="#26c9d5" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="90" cy="353" r="12" fill="#153592"/>
+    <circle cx="550" cy="127" r="12" fill="#153592"/>
+    <path d="m328 119 90 48v98l-90 51-91-51v-98z" fill="#fff" stroke="#153592" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m237 167 91 50 90-50-90-48z" fill="#26c9d5" stroke="#153592" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m328 217 90-50v98l-90 51z" fill="#b9eaf4" stroke="#153592" stroke-width="6" stroke-linejoin="round"/>
+    <g transform="translate(0 507)">
+      <rect width="650" height="58" rx="16" fill="#eef5ff"/>
+      <rect x="18" y="15" width="117" height="28" rx="8" fill="#153592"/>
+      <rect x="144" y="15" width="208" height="28" rx="8" fill="#26c9d5"/>
+      <rect x="361" y="15" width="183" height="28" rx="8" fill="#153592"/>
+      <path d="M287-9v78" stroke="#153592" stroke-width="4"/>
+      <circle cx="287" cy="-9" r="8" fill="#153592"/>
+    </g>
+  </g>
+</svg>

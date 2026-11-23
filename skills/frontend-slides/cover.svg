@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Frontend Slides, Adapted for Subclip</title>
+  <rect width="1600" height="900" fill="#fff"/>
+  <g font-family="Arial, sans-serif" fill="#153592">
+    <text x="100" y="286" font-size="102" font-weight="700">Frontend</text>
+    <text x="100" y="397" font-size="102" font-weight="700">Slides</text>
+    <rect x="108" y="445" width="85" height="8" fill="#26c9d5"/>
+    <text x="105" y="530" font-size="35">Adapted for Subclip</text>
+  </g>
+  <g stroke="#153592" stroke-width="4">
+    <rect x="784" y="126" width="610" height="343" rx="16" fill="#eef3ff"/>
+    <rect x="834" y="173" width="610" height="343" rx="16" fill="#26c9d5"/>
+    <rect x="884" y="220" width="610" height="343" rx="16" fill="#153592"/>
+  </g>
+  <g fill="#fff">
+    <rect x="940" y="297" width="150" height="9" rx="4"/>
+    <rect x="940" y="335" width="226" height="24" rx="4"/>
+    <rect x="940" y="372" width="171" height="24" rx="4"/>
+    <rect x="940" y="451" width="129" height="9" rx="4"/>
+  </g>
+  <circle cx="1324" cy="389" r="103" fill="#26c9d5"/>
+  <path d="M1221 389h206m-103-103v206" stroke="#153592" stroke-width="3"/>
+  <circle cx="1324" cy="389" r="64" fill="none" stroke="#153592" stroke-width="3"/>
+  <g fill="#eef3ff">
+    <rect x="105" y="643" width="1390" height="75" rx="12"/>
+    <rect x="105" y="732" width="1390" height="74" rx="12"/>
+  </g>
+  <g fill="#153592">
+    <rect x="119" y="657" width="329" height="47" rx="7"/>
+    <rect x="456" y="657" width="528" height="47" rx="7"/>
+    <rect x="992" y="657" width="382" height="47" rx="7"/>
+  </g>
+  <g stroke="#26c9d5" stroke-width="6" stroke-linecap="round">
+    <path d="M145 771v-6m18 14v-22m18 29v-36m18 25v-14m18 19v-24m18 32v-40m18 29v-18m18 15v-12m18 21v-30m18 35v-40m18 28v-16m18 18v-20m18 26v-32m18 21v-10m18 9v-8"/>
+    <path d="M492 771v-6m18 13v-20m18 30v-40m18 25v-10m18 21v-32m18 25v-18m18 20v-22m18 28v-34m18 25v-16m18 20v-24m18 29v-34m18 23v-12m18 19v-26m18 17v-8"/>
+  </g>
+  <path d="M461 622h22l-11 15zM472 630v183" fill="#26c9d5" stroke="#26c9d5" stroke-width="3"/>
+</svg>

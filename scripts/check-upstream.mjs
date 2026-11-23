@@ -7,7 +7,7 @@ const markdown = process.argv.includes('--markdown');
 const rows = [];
 for (const skill of registry.skills) {
   const up = skill.upstream;
-  if (!up?.commit) continue;
+  if (!up?.commit || !up.repo) continue;
   const response = await fetch(`https://api.github.com/repos/${up.repo}/compare/${up.commit}...HEAD`, { headers });
   if (!response.ok) { rows.push({ skill, status: `could not check (HTTP ${response.status})` }); continue; }
   const compare = await response.json();

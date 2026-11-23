@@ -6,7 +6,8 @@ import { walk, localFile } from './files.mjs';
 import { checkCover, checkPreview } from './media.mjs';
 import { readSkillFrontmatter } from './desktop-scan.mjs';
 export const licenses = ['MIT','Apache-2.0','BSD-2-Clause','BSD-3-Clause','ISC','AGPL-3.0','GPL-3.0','MPL-2.0','CC-BY-4.0','CC0-1.0','Unlicense'];
-export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow'];
+export const notStated = 'Not stated';
+export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow','broll','clipping'];
 export const flagCodes = ['prompt-injection','exfiltration','remote-code','api-key','html-injection','hidden-text','missing-frontmatter','scripts','external-provider','files-skipped'];
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 function assert(ok, message) { if (!ok) throw Error(message); }
@@ -15,21 +16,31 @@ function keys(value, allowed, label) { object(value, label); for (const key of O
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
   keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist'], 'skill.yml');
+  const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
   text(m.name, 'name', 100); text(m.summary, 'summary', 160);
   assert(categories.includes(m.category), 'Unknown category');
   assert(Array.isArray(m.tags) && m.tags.every(t => typeof t === 'string' && slugPattern.test(t)) && new Set(m.tags).size === m.tags.length, 'tags must be unique kebab-case strings');
   assert(typeof m.adaptedBySubclip === 'boolean', 'adaptedBySubclip must be boolean');
-  assert(licenses.includes(m.license), 'License is not on the allowed list');
+  assert(licenses.includes(m.license) || (external && m.license === notStated && m.upstream.license === notStated), 'License is not on the allowed list');
   assert(typeof m.addedAt === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(m.addedAt) && new Date(`${m.addedAt}T00:00:00Z`).toISOString().slice(0,10) === m.addedAt, 'addedAt must be a real YYYY-MM-DD date');
   if (m.upstream !== null) {
-    keys(m.upstream, ['repo','url','author','license','commit','syncedAt'], 'upstream');
+    keys(m.upstream, ['repo','url','author','license','commit','syncedAt','note'], 'upstream');
     assert(m.upstream.commit === undefined || /^[0-9a-f]{40}$/.test(m.upstream.commit), 'upstream.commit must be a full 40-character commit SHA');
     assert(m.upstream.syncedAt === undefined || /^\d{4}-\d{2}-\d{2}$/.test(m.upstream.syncedAt), 'upstream.syncedAt must be YYYY-MM-DD');
-    assert(/^[\w.-]+\/[\w.-]+$/.test(m.upstream.repo), 'upstream.repo must be owner/repo');
     text(m.upstream.author, 'upstream.author');
-    assert(licenses.includes(m.upstream.license), 'Upstream license must allow changes and commercial use');
-    assert(!m.upstream.url || m.upstream.url === `https://github.com/${m.upstream.repo}`, 'upstream.url must match its GitHub repository');
+    if (m.upstream.note !== undefined) text(m.upstream.note, 'upstream.note', 400);
+    if (external) {
+      // Non-GitHub source (for example a creator's guides). Credit only; the license is stated as "Not stated".
+      assert(typeof m.upstream.url === 'string' && /^https:\/\/[^\s]+$/.test(m.upstream.url) && m.upstream.url.length <= 300, 'upstream.url must be an https link when upstream.repo is absent');
+      assert(m.license === notStated, 'Skills without an upstream repo must have license "Not stated"');
+      assert(m.upstream.license === notStated, 'Upstream without a repo must have license "Not stated"');
+      assert(m.upstream.commit === undefined && m.upstream.syncedAt === undefined, 'upstream without a repo cannot record commit or syncedAt');
+    } else {
+      assert(/^[\w.-]+\/[\w.-]+$/.test(m.upstream.repo), 'upstream.repo must be owner/repo');
+      assert(licenses.includes(m.upstream.license), 'Upstream license must allow changes and commercial use');
+      assert(!m.upstream.url || m.upstream.url === `https://github.com/${m.upstream.repo}`, 'upstream.url must match its GitHub repository');
+    }
   }
   assert(!m.adaptedBySubclip || m.upstream !== null, 'Adapted skills need upstream credit');
   if (m.allowlist !== undefined) {
@@ -43,7 +54,7 @@ export function validateMetadata(m, slug) {
 }
 export async function readMetadata(folder) { return validateMetadata(parseYaml(await readFile(resolve(folder, 'skill.yml'), 'utf8')), basename(folder)); }
 function cell(s) { return s.replaceAll('&', '&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('|','&#124;').replaceAll('[','&#91;').replaceAll(']','&#93;'); }
-const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows' };
+const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows', broll: 'B-roll', clipping: 'Clipping' };
 function attr(s) { return s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
 /** README catalog: one section per category, a 3-column grid of cover thumbnails with name, summary and credit. */
 export function catalog(skills) {
@@ -54,7 +65,7 @@ export function catalog(skills) {
     `<a href="${attr(s.path)}"><img src="${attr(s.cover)}" alt="${attr(s.name)}" width="100%"></a><br>`,
     `<a href="${attr(s.path)}"><b>${attr(s.name)}</b></a><br>`,
     `<sub>${attr(s.summary)}</sub><br>`,
-    `<sub>${s.upstream ? `Adapted from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo)}</a> by ${attr(s.upstream.author)}` : 'Written for Subclip'}</sub>`,
+    `<sub>${s.upstream ? `Adapted from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo ?? s.upstream.url.replace(/^https:\/\//, ''))}</a> by ${attr(s.upstream.author)}` : 'Written for Subclip'}</sub>`,
     `</td>`,
   ].join('\n');
   const out = [`<p><b>${skills.length}</b> skill${skills.length === 1 ? '' : 's'} in ${groups.length} categor${groups.length === 1 ? 'y' : 'ies'}.</p>`];
@@ -120,7 +131,7 @@ export async function build(root = process.cwd(), check = false) {
       assert(!names.includes(front.name), `Duplicate skill name: ${front.name}`); names.push(front.name);
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
-    const upstream = m.upstream === null ? null : { repo: m.upstream.repo, url: `https://github.com/${m.upstream.repo}`, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}) };
+    const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
     skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt });
   }
   const installYourself = await readInstallYourself(root);

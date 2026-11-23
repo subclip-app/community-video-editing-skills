@@ -152,3 +152,14 @@ test('scan reports all findings; only unallowlisted danger fails and exceptions 
   const finding = {code:'prompt-injection',severity:'danger',file:'other.md'};
   assert.equal(applyAllowlist([finding],[{code:'prompt-injection',file:'danger.md',reason:'Scoped.'}])[0].allowlisted,undefined);
 });
+
+test('upstream without a GitHub repo needs an https url and license "Not stated"', async () => {
+  const good = await readMetadata(resolve(root,'skills/vox-explainer'));
+  const external = { ...good, license: 'Not stated', upstream: { url: 'https://www.instagram.com/someone', author: 'someone', license: 'Not stated', note: 'Guides without a license.' } };
+  assert.equal(validateMetadata(external,good.slug).upstream.repo,undefined);
+  for (const patch of [
+    { upstream: { ...external.upstream, url: undefined } }, { upstream: { ...external.upstream, url: 'http://example.com/x' } },
+    { upstream: { ...external.upstream, license: 'MIT' } }, { license: 'MIT' }, { upstream: { ...external.upstream, commit: 'a'.repeat(40) } },
+  ]) assert.throws(() => validateMetadata({ ...external, ...patch },good.slug));
+  assert.throws(() => validateMetadata({ ...good, license: 'Not stated' },good.slug));
+});

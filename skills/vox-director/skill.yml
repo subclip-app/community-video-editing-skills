@@ -1,0 +1,11 @@
+slug: vox-director
+name: Vox director
+summary: Direct paper-collage explainers with beat maps, theme comparisons, wide-to-detail shot plans and editable motion in Subclip.
+category: explainers
+tags: [vox, documentary, collage, shot-design]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: Alisa0808/vox-director, author: Alisa0808, license: MIT, commit: "6a85a7c341610442a6a5b1885e6e0217ab82a11f", syncedAt: "2026-11-23" }
+addedAt: 2026-11-23
