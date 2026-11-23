@@ -1769,23 +1769,39 @@
       "addedAt": "2026-11-23",
       "examples": [
         {
-          "path": "skills/long-to-shorts/examples/ranked-clip-picks.jpg",
-          "kind": "image",
-          "caption": "Two candidates scored against the five-part rubric, with source ranges, hooks and concrete reasons."
-        },
-        {
-          "path": "skills/long-to-shorts/examples/vertical-caption-plan.jpg",
-          "kind": "image",
-          "caption": "A 9:16 tutorial crop and timed opening caption pages for the crease clip."
-        },
-        {
-          "path": "skills/long-to-shorts/examples/ranked-picks-to-captions.mp4",
+          "path": "skills/long-to-shorts/examples/short-1.mp4",
           "kind": "video",
-          "caption": "Two ranked paper workshop clips, followed by the vertical crop and timed captions for the top pick."
+          "caption": "King takes up fencing to avoid rugby and goes on to represent the United Kingdom."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/short-2.mp4",
+          "kind": "video",
+          "caption": "A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/short-3.mp4",
+          "kind": "video",
+          "caption": "King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/plan.jpg",
+          "kind": "image",
+          "caption": "Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/timeline.jpg",
+          "kind": "image",
+          "caption": "Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip",
-      "examplesKind": "test"
+      "examplesCredit": "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI",
+      "examplesKind": "test",
+      "sourceVideo": {
+        "youtube": "aXMPh927_fI",
+        "title": "Alexander H. King Interview",
+        "channel": "Purdue University Archives and Special Collections",
+        "license": "CC BY"
+      }
     },
     {
       "slug": "manim-composer",

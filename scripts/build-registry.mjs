@@ -15,7 +15,7 @@ function object(value, label) { assert(value && typeof value === 'object' && !Ar
 function keys(value, allowed, label) { object(value, label); for (const key of Object.keys(value)) assert(allowed.includes(key), `Unknown ${label} field: ${key}`); }
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
-  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit','examplesKind'], 'skill.yml');
+  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit','examplesKind','sourceVideo'], 'skill.yml');
   const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
   text(m.name, 'name', 100); text(m.summary, 'summary', 160);
@@ -54,6 +54,12 @@ export function validateMetadata(m, slug) {
     text(m.examplesCredit, 'examplesCredit', 300);
     assert(m.examplesKind === undefined || ['original','test'].includes(m.examplesKind), 'examplesKind must be original or test');
   } else assert(m.examplesCredit === undefined && m.examplesKind === undefined, 'examplesCredit needs examples');
+  if (m.sourceVideo !== undefined) {
+    keys(m.sourceVideo, ['youtube','title','channel','license'], 'sourceVideo');
+    assert(/^[A-Za-z0-9_-]{11}$/.test(m.sourceVideo.youtube), 'sourceVideo.youtube must be an 11-character YouTube id');
+    text(m.sourceVideo.title, 'sourceVideo.title', 200); text(m.sourceVideo.channel, 'sourceVideo.channel', 100); text(m.sourceVideo.license, 'sourceVideo.license', 60);
+    assert(m.examples !== undefined, 'sourceVideo needs examples');
+  }
   if (m.allowlist !== undefined) {
     assert(Array.isArray(m.allowlist), 'allowlist must be a list');
     for (const item of m.allowlist) {
@@ -162,7 +168,7 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
-    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original' } : {}) });
+    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';

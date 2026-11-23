@@ -20,7 +20,7 @@ Check the first frame, the last frame, each shot or sentence boundary, and a fra
 ## Captions
 
 1. Reuse timing: `reuse_caption_timing_for_media_items` once all clip copies are trimmed. Keep `removeSourceCaptions` false until the copied words are verified.
-2. If no timing exists, `transcribe_project` with `purpose: "captions"` for each clip item, one at a time.
+2. If the creator supplies timestamped host captions, attach the source-relative cues with `import_caption_cues_for_media_item`. The tool accepts up to 2,000 cues and replaces the selected item's prior batch. Import to the exact trimmed item when the full transcript exceeds that limit. Otherwise use `transcribe_project` with `purpose: "captions"` one clip at a time if transcription is allowed.
 3. Read `subclip-dynamic-captions`. `list_dynamic_caption_presets`, pick the calmest preset that fits the voice, `apply_dynamic_caption_preset`, then `set_dynamic_caption_priorities` and `arrange_dynamic_caption_pages`.
 4. Only change style with `update_caption_style` when the creator asks or legibility needs it.
 5. Safe area for 9:16: keep captions out of the top 12 percent and bottom 20 percent, where app buttons and descriptions sit.

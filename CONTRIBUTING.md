@@ -130,3 +130,5 @@ examplesCredit: "Examples by pixelfx authors, MIT, from github.com/patch-gg/pixe
 Use 1 to 100 files in `examples/`: images (JPG, PNG, WebP or GIF) up to 600 KB each and MP4 videos up to 8 MB. Keep the original license's media terms: leave out files the license excludes (for example character art) and anything with no clear right to reuse. Skills without a stated license do not copy media: link to the creator instead. The skill's page on subclip.app shows these files under "Examples by the original author" with the credit line.
 
 If the examples are test outputs you made by following the skill (not the original author's media), add `examplesKind: test`; the page then titles them "Made with this skill" instead of "Examples by the original author".
+
+If the examples were cut from a long video that is licensed for reuse (for example a Creative Commons Attribution YouTube video), name it with `sourceVideo: { youtube: <11-character id>, title: "...", channel: "...", license: "CC BY" }`. The page embeds the original video above the examples and credits it.

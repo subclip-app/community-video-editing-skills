@@ -18,13 +18,17 @@ The agent shows you its picks and scores before it cuts anything, so you can dro
 
 ## What happens
 
-1. Transcribe the video (local is free, cloud is faster and can tell speakers apart).
+1. Read supplied timestamped captions or transcribe the video when needed.
 2. Read the whole transcript and score every candidate segment: hook, self-contained story, emotion, payoff, length.
 3. Show you a ranked list. You approve, drop or change.
 4. Cut each clip non-destructively, reframe it to 9:16, add Dynamic Captions and a short hook.
 5. Optional: quiet music under the speech.
 6. Export one file per clip.
 7. Optional: schedule the clips, one by one, after you confirm each account and time.
+
+## Example
+
+The three example shorts were cut in Subclip from the first 35 minutes of the [Alexander H. King Interview](https://www.youtube.com/watch?v=aXMPh927_fI), published under Creative Commons Attribution by Purdue University Archives and Special Collections. The [worked example](references/worked-example.md) documents the scores, caption import and framing choices.
 
 ## What is inside
 

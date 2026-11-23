@@ -2,10 +2,10 @@
 
 ## Export
 
-1. After the creator approves the clips, call `get_export_configuration`. Use MP4 (H.264) for social posting.
+1. When the creator requests exports or approves the clips for export, call `get_export_configuration`. Use MP4 (H.264) for social posting.
 2. Call `list_render_queue`. If an export of the same unchanged project is already queued or finished, reuse it. Do not start duplicates.
 3. For each clip, `export_video` with explicit start and end equal to that clip's OUTPUT range (not source time), and a distinct filename such as `short-01-why-the-number-is-wrong.mp4`. Run them one after another.
-4. The export is a snapshot. If you edit after export, export that clip again.
+4. Inspect the first and last encoded frames. If a rounded range start produces a blank opening frame, move the export start just inside the first intended timeline frame, then verify the new export edges. The export is a snapshot. If you edit after export, export that clip again.
 5. The in-app agent resumes when a render finishes. External clients poll `get_export_status`.
 6. Record each file path, range and result in the director brief with `update_project_director_brief`.
 

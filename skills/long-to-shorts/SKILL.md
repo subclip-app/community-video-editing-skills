@@ -1,6 +1,6 @@
 ---
 name: long-to-shorts
-description: Turn a long video (podcast, interview, webinar, lecture, stream, talk, screen recording) into several vertical shorts. Transcribes it, scores candidate moments with a rubric (hook, self-contained story, emotion, payoff, length), cuts and reframes to 9:16, adds dynamic captions and a hook, optional music, exports one file per clip and can schedule them. Use for "make shorts", "find the best clips", "repurpose this video", reels, TikToks, Shorts.
+description: Turn a long video (podcast, interview, webinar, lecture, stream, talk, screen recording) into several vertical shorts. Uses existing captions or transcribes it, scores candidate moments with a rubric (hook, self-contained story, emotion, payoff, length), cuts and reframes to 9:16, adds dynamic captions and a hook, optional music, exports one file per clip and can schedule them. Use for "make shorts", "find the best clips", "repurpose this video", reels, TikToks, Shorts.
 ---
 
 # Long video to shorts
@@ -18,7 +18,7 @@ Ask in one short message, with defaults, and skip anything the creator already s
 3. Where will they go? (TikTok, Reels, YouTube Shorts.) This sets the canvas and the length.
 4. Captions style? Default: Dynamic Captions, least distracting preset.
 5. Music? Default: none for speech-led clips; offer a quiet bed.
-6. Transcription mode? Local is free and fine for one language; cloud is faster and needed to tell speakers apart. Keep any earlier choice the creator made. Cloud may cost credits: say so before using it.
+6. Transcript source? Use the supplied timestamped captions when the creator provides them. If transcription is allowed and needed, ask for local or cloud mode. Local is free. Cloud can distinguish speakers and may cost credits.
 
 ## Workflow
 
@@ -29,13 +29,15 @@ Ask in one short message, with defaults, and skip anything the creator already s
 - If the source is not in the project, `import_external_media` (one path or URL) or `import_attachment_to_project_media`.
 - Reuse an existing transcript if the item and trim still match: `list_reference_transcripts`, `get_reference_transcript`.
 
-### 2. Transcribe
+### 2. Get the transcript
 
-`transcribe_project` with `purpose: "reference"` for the exact source `mediaItemId`. One item at a time; keep the job ID and wait for the result (the in-app agent is resumed when it finishes; an external client polls `get_transcription_status`). Use `detectSpeakers: true` only for multi-speaker video in cloud mode. Read the words back with `get_reference_transcript` in pages.
+When the creator supplies timestamped host captions, read them in source order to score candidates. Keep their timestamps relative to the original video. For word-timed captions, pass each word as its own cue with integer `startMs`, `endMs` and `text`. A cue with several words gets its duration divided evenly by the importer. The import limit is 2,000 cues per call and each import replaces that item's prior batch, so import the selected ranges together or attach cues separately to each trimmed short. Read the caption words back with `read_project_section` on the captions lane with `fields: ["captions"]`. A hosted-caption-only request uses this route throughout.
+
+When no trustworthy transcript exists and transcription is allowed, use `transcribe_project` with `purpose: "reference"` for the exact source `mediaItemId`. One item at a time; keep the job ID and wait for the result (the in-app agent is resumed when it finishes; an external client polls `get_transcription_status`). Use `detectSpeakers: true` only for multi-speaker video in cloud mode. Read the words back with `get_reference_transcript` in pages.
 
 ### 3. Find and score candidates
 
-Read [references/scoring-rubric.md](references/scoring-rubric.md) first. In short:
+Read [references/scoring-rubric.md](references/scoring-rubric.md) first. For a real run with YouTube captions, see [references/worked-example.md](references/worked-example.md). In short:
 
 - Read the whole transcript before choosing anything. Mark every spot that might open a clip.
 - For each candidate, find the real start (a sentence or thought boundary) and the real end (the payoff landed, or a clean beat after it).
@@ -46,7 +48,7 @@ Read [references/scoring-rubric.md](references/scoring-rubric.md) first. In shor
 
 ### 4. Show the plan and wait
 
-Present a ranked table: number, working title, source range (`M:SS` to `M:SS`), duration, score out of 100, the hook line in the speaker's own words, one concrete reason. Add the plan to the director brief with `update_project_director_brief`. Ask the creator to approve, drop, swap or shift edges. Do not cut until they answer. When the creator already said "just do it", continue, but still report the table at the end.
+Present a ranked table: number, working title, source range (`M:SS` to `M:SS`), duration, score out of 100, the hook line in the speaker's own words, one concrete reason. Add the plan to the director brief with `update_project_director_brief`. Ask the creator to approve, drop, swap or shift edges. Do not cut until they answer. When the creator already authorized the cuts, record the plan and continue. Report the table at the end.
 
 ### 5. Set up the canvas
 
@@ -64,11 +66,11 @@ Follow the exact assembly contract in `subclip-ai-clipping` (its selection-and-l
 
 ### 7. Reframe to 9:16
 
-Read [references/vertical-captions-hooks.md](references/vertical-captions-hooks.md). Pick the layout from the picture, not from habit: `fill_face` for one talker, `fill_faces_split` for two, `tutorial` for screen plus presenter, `fit_canvas` with a blurred background when the whole frame matters. Use `update_media_item` and `set_media_source_focus` for the crop, with one stable focus per shot. Split only at a real shot or speaker change. Do not use restless face-chasing keyframes.
+Read [references/vertical-captions-hooks.md](references/vertical-captions-hooks.md). Pick the layout from the picture, not from habit: `fill_face` for one talker, `fill_faces_split` for two, `tutorial` for screen plus presenter, `fit_canvas` with a blurred background when the whole frame matters. Use `update_media_item` and `set_media_source_focus` for the crop, with one stable focus per shot. In a 1080 by 1920 canvas, native media geometry uses canvas-width units for both axes. Full canvas starts at (0, 0) with width 1 and height 1920/1080. Source focus uses 0 to 1 on both axes. Check the composed frame before styling captions. Split only at a real shot or speaker change. Do not use restless face-chasing keyframes.
 
 ### 8. Captions and hook
 
-- Reuse timing where possible: `reuse_caption_timing_for_media_items` after all clip copies are trimmed. Otherwise transcribe each clip item (`purpose: "captions"`), one at a time.
+- Reuse timing with `reuse_caption_timing_for_media_items` after all clip copies are trimmed. If timestamped host captions are available, attach them with `import_caption_cues_for_media_item` to the source before reuse or directly to the trimmed items. For each short, verify exact word ownership and compare caption edges to the source audio. Transcribe each clip item (`purpose: "captions"`) only when timing is unavailable and the creator allows transcription.
 - Read `subclip-dynamic-captions`, then `list_dynamic_caption_presets`, `apply_dynamic_caption_preset`, `set_dynamic_caption_priorities` and `arrange_dynamic_caption_pages`. Keep emphasis sparse.
 - The hook is the first line the viewer reads. Under 12 words, in the speaker's language and voice, true to the clip, no clickbait. For a single face, let the opening caption page carry the hook. Add a separate title only in clear empty space, with `add_text_overlay` and `update_text_item`.
 - Before placing text, `get_timeline_contact_sheet` across its time range. After placing, look again with `view_current_frame`. Text must never cover a face or collide with captions.
@@ -83,7 +85,7 @@ For every clip, `view_current_frame` at its first spoken frame, midpoint and las
 
 ### 11. Export one file per clip
 
-Read [references/export-and-schedule.md](references/export-and-schedule.md). `get_export_configuration`, then `list_render_queue` (do not duplicate a render), then `export_video` with the clip's OUTPUT range and a distinct, meaningful filename. One export at a time. Export only after the creator approves the result. Report each file path.
+Read [references/export-and-schedule.md](references/export-and-schedule.md). `get_export_configuration`, then `list_render_queue` (do not duplicate a render), then `export_video` with the clip's OUTPUT range and a distinct, meaningful filename. One export at a time. Export when the creator asks for exported clips or approves the result for export. Report each file path.
 
 ### 12. Optional scheduling
 
