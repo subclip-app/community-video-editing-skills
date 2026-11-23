@@ -27,11 +27,3 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`. If you host a modified version as a network service, the AGPL asks you to offer its source.
-
-## Examples
-
-A silent SVG shear animation timed to local narration, plus a still of the resulting equal-width rows.
-
-[A rectangle shears slowly while its highlighted horizontal rows keep the same length.](examples/shear-area.mp4)
-
-![The settled comparison explains area preservation by comparing equal-width rows.](examples/equal-row-widths.jpg)

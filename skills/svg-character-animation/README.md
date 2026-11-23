@@ -25,11 +25,3 @@ Pair it with the `character-animation-qa` skill to review the result.
 ## License
 
 AGPL-3.0, same as the original project. The upstream skill file also carried an MIT license line; the repository license (AGPL-3.0) is the one kept here. See `LICENSE`.
-
-## Examples
-
-An original SVG robot rig driven by a paused GSAP timeline and rendered in headless Chrome.
-
-![The held wave pose after the eyes lead and the shoulder rotates.](examples/raised-wave-pose.jpg)
-
-[A jointed SVG robot notices something, waves, blinks and settles.](examples/robot-wave.mp4)

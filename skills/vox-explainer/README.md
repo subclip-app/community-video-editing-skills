@@ -46,11 +46,3 @@ Based on [vox-explainer](https://github.com/CK42BB/vox-explainer-skill) by Kings
 ## License
 
 MIT. See `LICENSE`.
-
-## Examples
-
-Two paper fan keyframes generated with Codex image generation. The first frame anchors the look of the second.
-
-![Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid.](examples/paper-fan-anchor.jpg)
-
-![A close view of alternating creases, generated using the paper fan keyframe as a style reference.](examples/accordion-cross-section.jpg)

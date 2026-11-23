@@ -30,11 +30,3 @@ Subclip captures up to 3 page screenshots plus logo and image candidates. It doe
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.
-
-## Examples
-
-A silent opener and a close-up from a local field guide built for the test. Both shots reuse its captured contour map.
-
-[A local field guide’s captured map pushes in behind a two-line tour opener.](examples/trail-tour.mp4)
-
-![A close-up reuses the site’s original contour map to show how to spot the ridge.](examples/trail-closeup.jpg)

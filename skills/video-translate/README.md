@@ -27,11 +27,3 @@ Subclip's `subclip-dubbing` skill and tools (dubbing workspace, voices, transcri
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.
-
-## Examples
-
-French and Spanish cue sheets for an original practice script, with durations measured using Subclip’s local Supertonic voice model.
-
-![French paper-folding cues with original timing windows and measured speech fit.](examples/french-cue-fit.jpg)
-
-![Spanish paper-folding cues with original timing windows and measured speech fit.](examples/spanish-cue-fit.jpg)

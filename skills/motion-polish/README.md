@@ -34,15 +34,3 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 ## What was dropped
 
 Hover and press states, keyboard shortcut rules, `prefers-reduced-motion` code, drag and gesture handling, haptics, Reanimated, Expo Router and every React Native specific recipe. A video has no cursor and no finger. Their ideas survive where they still apply (springs, momentum, interruptions become "do not restart a move that is already in flight").
-
-## Examples
-
-Local motion tests demonstrate a strong ease-out and a restrained overshoot. Each still shows the settled pose.
-
-![Settled callout with its leader anchored to the sea star in the diagram.](examples/anchored-callout.jpg)
-
-[Watch the clip](examples/anchored-callout.mp4)
-
-![Settled illustrated check marker in the tide pool guide.](examples/spring-marker.jpg)
-
-[Watch the clip](examples/spring-marker.mp4)

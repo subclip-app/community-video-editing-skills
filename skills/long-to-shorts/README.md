@@ -34,11 +34,3 @@ The agent shows you its picks and scores before it cuts anything, so you can dro
 - `references/export-and-schedule.md`: exporting a batch and scheduling it safely.
 
 It uses only Subclip's own tools. No outside API keys, no scripts to run.
-
-## Examples
-
-A scored shortlist and a vertical caption plan using an original practice transcript.
-
-![Two candidates scored against the five-part rubric, with source ranges, hooks and concrete reasons.](examples/ranked-clip-picks.jpg)
-
-![A 9:16 tutorial crop and timed opening caption pages for the crease clip.](examples/vertical-caption-plan.jpg)

@@ -27,13 +27,3 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 ## Credit and license
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words. The creator's guides state no license, so please confirm permission with the creator before relying on this skill.
-
-## Examples
-
-Codex ImageGen relit a fictional source still as a test of the first-frame workflow.
-
-![Neutral source still with soft daylight from the studio window.](examples/ceramicist-source.jpg)
-
-![Amber sunset through the same window creates a warm rim against teal shadows.](examples/amber.jpg)
-
-![Cold blue storm light with rain confined to the window glass.](examples/rain.jpg)

@@ -23,15 +23,3 @@ The list shows no license for this skill. This folder copies no upstream text, c
 This skill comes from the Notion list Claude Creative Skill Library Vol 2: https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1
 
 Author shown on the list: PYNK Society (PYNK Society - AI Creative Lab, https://www.skool.com/pynk-society/about).
-
-## Examples
-
-A browser-rendered case file and two Codex Image asset locks for a fictional greenhouse incident.
-
-These reference-stage tests were produced outside the Subclip editor.
-
-![Fictional case file with three timed chapters, asset IDs and narrator direction.](examples/empty-gauge-case-file.jpg)
-
-![LOC-01, the empty greenhouse at blue hour with its lit utility alcove.](examples/greenhouse-location.jpg)
-
-![PROP-01, a brass gauge with its needle stuck at the low end.](examples/float-gauge-prop.jpg)

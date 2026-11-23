@@ -29,11 +29,3 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 ## License
 
 The librosa license text (ISC) is kept in `LICENSE` because this skill's method credits it.
-
-## Examples
-
-A silent render and a beat frame from a montage cut against an original 120 BPM practice track.
-
-![The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid.](examples/third-beat-fan.jpg)
-
-[Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four.](examples/paper-beat-cuts.mp4)

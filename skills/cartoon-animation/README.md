@@ -29,15 +29,3 @@ The p5.brush look (WebGL watercolor, pigment mixing) is approximated in plain ca
 ## License
 
 MIT, same as the original code. See `LICENSE`.
-
-## Examples
-
-Two original shots about a snail in the rain, painted with the canvas brush kit and rendered locally.
-
-![Wide shot of a painted snail reaching the shelter of a leaf.](examples/snail-dashes-for-cover.jpg)
-
-[Watch the clip](examples/snail-dashes-for-cover.mp4)
-
-![Closer painted shot of the snail peeking out while rain falls around the leaf.](examples/snail-peeks-out.jpg)
-
-[Watch the clip](examples/snail-peeks-out.mp4)

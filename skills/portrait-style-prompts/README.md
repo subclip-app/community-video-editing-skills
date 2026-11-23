@@ -24,13 +24,3 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 ## Credit and license
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words. The creator's guides state no license, so please confirm permission with the creator before relying on this skill.
-
-## Examples
-
-Codex ImageGen supplied the fictional source and both seven-slot restyles.
-
-![Fictional ceramicist source still with a clear gaze and both hands visible.](examples/ceramicist-source.jpg)
-
-![Cel-shaded restyle with a hard window beam and bold shadows.](examples/anime.jpg)
-
-![Watercolour restyle with soft light, bleeding pigment, and visible paper grain.](examples/watercolour.jpg)

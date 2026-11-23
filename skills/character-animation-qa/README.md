@@ -23,11 +23,3 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 ## License
 
 AGPL-3.0, same as the original project. The upstream skill file also carried an MIT license line; the repository license (AGPL-3.0) is the one kept here. See `LICENSE`.
-
-## Examples
-
-Before-and-after review sheets built from sampled frames of an original robot animation.
-
-![A sampled contact sheet flags a detached shoulder at 1.36 seconds.](examples/wave-draft-review.jpg)
-
-![The same five sample times after the shoulder translation was removed.](examples/wave-fixed-review.jpg)
