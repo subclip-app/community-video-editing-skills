@@ -26,4 +26,4 @@ No API keys, and the agent never installs or runs anything without your yes. Cre
 
 ## Credits
 
-Adapted for Subclip from [earshot](https://github.com/Leonxlnx/earshot) by Leon Lin, MIT licensed (see `LICENSE`). The recipes summarise earshot's motion-design sound notes and its way of asking for sounds in words. The reference clip uses sounds rendered with earshot and was built with HyperFrames. Three illustrations were made with the Codex CLI.
+Adapted for Subclip from [earshot](https://github.com/Leonxlnx/earshot) by Leon Lin, MIT licensed (see `LICENSE`). The recipes summarise earshot's motion-design sound notes and its way of asking for sounds in words. The reference clip uses sounds rendered with earshot and was built with HyperFrames. The launch sheet and launch frames shown as examples are from the earshot README.

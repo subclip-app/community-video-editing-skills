@@ -1712,22 +1712,17 @@
           "caption": "Frame from the reference clip at the impact, with cue labels on the mixed waveform."
         },
         {
-          "path": "skills/earshot/examples/cue-sheet.jpg",
+          "path": "skills/earshot/examples/earshot-launch-sheet.jpg",
           "kind": "image",
-          "caption": "Cue sheet idea: markers pinned on a waveform lane (Codex CLI image)."
+          "caption": "By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync)."
         },
         {
-          "path": "skills/earshot/examples/riser-impact.jpg",
+          "path": "skills/earshot/examples/earshot-launch-frames.png",
           "kind": "image",
-          "caption": "A riser that builds into an impact (Codex CLI image)."
-        },
-        {
-          "path": "skills/earshot/examples/typing-ui.jpg",
-          "kind": "image",
-          "caption": "Typing and UI press sounds, one per key (Codex CLI image)."
+          "caption": "By the original author: frames of the earshot launch film, which was cut to its own code-made sounds."
         }
       ],
-      "examplesCredit": "Made for Subclip with HyperFrames. Sounds rendered locally with earshot by Leon Lin (MIT). Images generated with the Codex CLI.",
+      "examplesCredit": "Clip and waveform frame made for Subclip with HyperFrames, sounds rendered locally with earshot. Launch sheet and frames from the earshot README by Leon Lin (MIT).",
       "examplesKind": "original"
     },
     {
@@ -2614,6 +2609,31 @@
           "caption": "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
         },
         {
+          "path": "skills/trendjack-animator/examples/format-product-song.mp4",
+          "kind": "video",
+          "caption": "Format 2, product song: hook, verse, chorus, chorus with a new shot, offer. Stand-in voice and click track."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-narrated-story.mp4",
+          "kind": "video",
+          "caption": "Format 3, narrated cartoon story: problem, trusted person, how it works, payoff. Stand-in voice."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-3d-explainer.mp4",
+          "kind": "video",
+          "caption": "Format 4, 3D how-it-works explainer: question, surprise, into the object, mechanism, payoff. Stand-in voice."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-skeleton-xray.mp4",
+          "kind": "video",
+          "caption": "Format 5, skeleton demo: slumped hook, exaggerate, the swap, the fix with a glow. Stand-in voice."
+        },
+        {
+          "path": "skills/trendjack-animator/examples/format-photoreal-clone.mp4",
+          "kind": "video",
+          "caption": "Format 6, photoreal clone as a storyboard: reference shots next to recreated shots, safe zones shown."
+        },
+        {
           "path": "skills/trendjack-animator/examples/plate-sheet.jpg",
           "kind": "image",
           "caption": "Plate sheet: the approved characters, made before any scene still"
@@ -2634,7 +2654,7 @@
           "caption": "Still for the win line: same room, same people, the opposite of line 1"
         }
       ],
-      "examplesCredit": "Made for this repository with the fictional Lumo lamp. Images by the Codex CLI, film rendered with HyperFrames.",
+      "examplesCredit": "Made for this repository with the fictional Lumo lamp. Films rendered with HyperFrames.",
       "examplesKind": "original"
     },
     {

@@ -15,11 +15,9 @@ examples:
     caption: "Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS."
   - file: examples/waveform-markers.jpg
     caption: "Frame from the reference clip at the impact, with cue labels on the mixed waveform."
-  - file: examples/cue-sheet.jpg
-    caption: "Cue sheet idea: markers pinned on a waveform lane (Codex CLI image)."
-  - file: examples/riser-impact.jpg
-    caption: "A riser that builds into an impact (Codex CLI image)."
-  - file: examples/typing-ui.jpg
-    caption: "Typing and UI press sounds, one per key (Codex CLI image)."
-examplesCredit: "Made for Subclip with HyperFrames. Sounds rendered locally with earshot by Leon Lin (MIT). Images generated with the Codex CLI."
+  - file: examples/earshot-launch-sheet.jpg
+    caption: "By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync)."
+  - file: examples/earshot-launch-frames.png
+    caption: "By the original author: frames of the earshot launch film, which was cut to its own code-made sounds."
+examplesCredit: "Clip and waveform frame made for Subclip with HyperFrames, sounds rendered locally with earshot. Launch sheet and frames from the earshot README by Leon Lin (MIT)."
 examplesKind: original

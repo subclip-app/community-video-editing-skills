@@ -16,6 +16,16 @@ allowlist:
 examples:
   - file: examples/capability-trending-animated-ad.mp4
     caption: "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
+  - file: examples/format-product-song.mp4
+    caption: "Format 2, product song: hook, verse, chorus, chorus with a new shot, offer. Stand-in voice and click track."
+  - file: examples/format-narrated-story.mp4
+    caption: "Format 3, narrated cartoon story: problem, trusted person, how it works, payoff. Stand-in voice."
+  - file: examples/format-3d-explainer.mp4
+    caption: "Format 4, 3D how-it-works explainer: question, surprise, into the object, mechanism, payoff. Stand-in voice."
+  - file: examples/format-skeleton-xray.mp4
+    caption: "Format 5, skeleton demo: slumped hook, exaggerate, the swap, the fix with a glow. Stand-in voice."
+  - file: examples/format-photoreal-clone.mp4
+    caption: "Format 6, photoreal clone as a storyboard: reference shots next to recreated shots, safe zones shown."
   - file: examples/plate-sheet.jpg
     caption: "Plate sheet: the approved characters, made before any scene still"
   - file: examples/still-1-the-sting.jpg
@@ -24,5 +34,5 @@ examples:
     caption: "Still for the mentor line: the product appears for the first time"
   - file: examples/still-5-the-win.jpg
     caption: "Still for the win line: same room, same people, the opposite of line 1"
-examplesCredit: "Made for this repository with the fictional Lumo lamp. Images by the Codex CLI, film rendered with HyperFrames."
+examplesCredit: "Made for this repository with the fictional Lumo lamp. Films rendered with HyperFrames."
 examplesKind: original
