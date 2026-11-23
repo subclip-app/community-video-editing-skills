@@ -19,4 +19,7 @@ examples:
     caption: LOC-01, the empty greenhouse at blue hour with its lit utility alcove.
   - file: examples/float-gauge-prop.jpg
     caption: PROP-01, a brass gauge with its needle stuck at the low end.
+  - file: examples/empty-gauge-chapter-plan.mp4
+    caption: Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

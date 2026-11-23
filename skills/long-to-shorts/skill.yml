@@ -14,4 +14,7 @@ examples:
     caption: "Two candidates scored against the five-part rubric, with source ranges, hooks and concrete reasons."
   - file: examples/vertical-caption-plan.jpg
     caption: "A 9:16 tutorial crop and timed opening caption pages for the crease clip."
+  - file: examples/ranked-picks-to-captions.mp4
+    caption: "Two ranked paper workshop clips, followed by the vertical crop and timed captions for the top pick."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

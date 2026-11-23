@@ -15,3 +15,4 @@ examples:
   - file: examples/held-pad-message.jpg
     caption: "A still message over the midpoint of a drifting field for the track’s sparse pad."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

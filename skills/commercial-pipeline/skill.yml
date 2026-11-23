@@ -17,4 +17,7 @@ examples:
     caption: Hero product reference for a mustard desk lamp in its off state on white.
   - file: examples/desk-lamp-on.jpg
     caption: After-state reference for the same lamp, switched on in matching framing.
+  - file: examples/desk-lamp-switch-on.mp4
+    caption: The mustard desk lamp fades from off to on in matching framing.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

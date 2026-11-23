@@ -19,3 +19,4 @@ examples:
   - file: examples/spring-marker.mp4
     caption: "A check marker lands with a small overshoot before it settles."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

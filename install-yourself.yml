@@ -3,6 +3,7 @@
 - slug: lemo-opuscar
   name: Lemo OpusCar
   repo: lemomo-ai/lemo-opuscar
+  mirror: subclip-app/lemo-opuscar
   video: install-yourself/lemo-opuscar/preview.mp4
   category: motion
   what: A toolbox of 99 film styles made in code, each a style prompt plus a demo film.
@@ -14,6 +15,7 @@
 - slug: opus-video-prompts
   name: Opus video prompts
   repo: joeseesun/opus-video-prompts
+  mirror: subclip-app/opus-video-prompts
   video: install-yourself/opus-video-prompts/preview.mp4
   category: workflow
   what: Copy-ready prompts and 54 cases of code-rendered videos.
@@ -21,6 +23,7 @@
 - slug: onetake
   name: onetake
   repo: feitangyuan/onetake
+  mirror: subclip-app/onetake
   video: install-yourself/onetake/preview.mp4
   category: motion
   what: Product launch films and teasers where every beat grows out of the one before, as one continuous take.
@@ -28,6 +31,7 @@
 - slug: lemo-wake
   name: lemo-wake
   repo: lemomo-ai/lemo-wake
+  mirror: subclip-app/lemo-wake
   video: install-yourself/lemo-wake/preview.mp4
   category: animation
   what: One picture in, a seamless loop of about five seconds out: it takes the image apart and rebuilds it in code as a short film.

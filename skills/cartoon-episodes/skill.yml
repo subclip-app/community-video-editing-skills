@@ -17,4 +17,7 @@ examples:
     caption: Juniper the watering can robot from three angles, with three expressions.
   - file: examples/greenhouse-set.jpg
     caption: Empty greenhouse establishing view in the same flat ink and pastel style.
+  - file: examples/juniper-and-the-greenhouse.mp4
+    caption: Juniper’s character sheet dissolves into the pastel greenhouse set.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

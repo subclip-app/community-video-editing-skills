@@ -38,9 +38,15 @@
           "path": "skills/3d-myth-short/examples/tilted-globe-sheet.jpg",
           "kind": "image",
           "caption": "Tilted globe reference sheet with the same painted finish and a brass cradle."
+        },
+        {
+          "path": "skills/3d-myth-short/examples/seasons-globe.mp4",
+          "kind": "video",
+          "caption": "A slow push from the warm studio globe to its tilted reference sheet."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "ai-ad-formats",
@@ -84,9 +90,15 @@
           "path": "skills/ai-ad-formats/examples/sharpener-payoff.jpg",
           "kind": "image",
           "caption": "Payoff beat with the sharpened pencil beside the same clay sharpener."
+        },
+        {
+          "path": "skills/ai-ad-formats/examples/sharpener-in-action.mp4",
+          "kind": "video",
+          "caption": "A clay pencil meets the crank sharpener, then returns with a freshly sharpened tip."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "ai-camera-shots",
@@ -217,7 +229,8 @@
           "caption": "Over the shoulder shot, example from the original guide"
         }
       ],
-      "examplesCredit": "Example images from the guide by sferro21 (instagram.com/sferro21)"
+      "examplesCredit": "Example images from the guide by sferro21 (instagram.com/sferro21)",
+      "examplesKind": "original"
     },
     {
       "slug": "ai-edit-battle",
@@ -256,9 +269,15 @@
           "path": "skills/ai-edit-battle/examples/blind-scorecard.jpg",
           "kind": "image",
           "caption": "Illustrative blind scorecard with pass checks, seven scored categories, and evidence."
+        },
+        {
+          "path": "skills/ai-edit-battle/examples/blind-scorecard-reveal.mp4",
+          "kind": "video",
+          "caption": "Seven scoring rows appear before the sample totals for the two blind edits."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "ai-illustration-styles",
@@ -349,7 +368,8 @@
           "caption": "Cel-shaded Mecha"
         }
       ],
-      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)"
+      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)",
+      "examplesKind": "original"
     },
     {
       "slug": "ai-style-atlas",
@@ -399,7 +419,8 @@
           "caption": "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "ai-video-editor-cooked",
@@ -439,9 +460,15 @@
           "path": "skills/ai-video-editor-cooked/examples/default-style-brief.jpg",
           "kind": "image",
           "caption": "A numeric style brief and a visual cue tied to the exact word that triggers it."
+        },
+        {
+          "path": "skills/ai-video-editor-cooked/examples/retake-log-to-style-brief.mp4",
+          "kind": "video",
+          "caption": "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "anatomy",
@@ -499,7 +526,8 @@
           "caption": "A dial indicator measures a block on a sliding carriage."
         }
       ],
-      "examplesCredit": "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy"
+      "examplesCredit": "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy",
+      "examplesKind": "original"
     },
     {
       "slug": "bang-motion",
@@ -558,7 +586,8 @@
           "caption": "A volcano explainer with illustrated cutouts on a paper background"
         }
       ],
-      "examplesCredit": "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion"
+      "examplesCredit": "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion",
+      "examplesKind": "original"
     },
     {
       "slug": "blender-to-subclip",
@@ -595,7 +624,8 @@
           "caption": "A wooden pyramid selected in the Blender viewport."
         }
       ],
-      "examplesCredit": "Examples by Siddharth Ahuja, MIT, from github.com/ahujasid/mcp-for-blender"
+      "examplesCredit": "Examples by Siddharth Ahuja, MIT, from github.com/ahujasid/mcp-for-blender",
+      "examplesKind": "original"
     },
     {
       "slug": "cartoon-animation",
@@ -647,7 +677,8 @@
           "caption": "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "cartoon-episodes",
@@ -685,9 +716,15 @@
           "path": "skills/cartoon-episodes/examples/greenhouse-set.jpg",
           "kind": "image",
           "caption": "Empty greenhouse establishing view in the same flat ink and pastel style."
+        },
+        {
+          "path": "skills/cartoon-episodes/examples/juniper-and-the-greenhouse.mp4",
+          "kind": "video",
+          "caption": "Juniper’s character sheet dissolves into the pastel greenhouse set."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "character-animation-qa",
@@ -726,9 +763,15 @@
           "path": "skills/character-animation-qa/examples/wave-fixed-review.jpg",
           "kind": "image",
           "caption": "The same five sample times after the shoulder translation was removed."
+        },
+        {
+          "path": "skills/character-animation-qa/examples/robot-wave-shoulder-review.mp4",
+          "kind": "video",
+          "caption": "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "claude-drawing-skill",
@@ -790,7 +833,8 @@
           "caption": "Fern and flower silhouettes on a deep blue ground"
         }
       ],
-      "examplesCredit": "Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill"
+      "examplesCredit": "Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill",
+      "examplesKind": "original"
     },
     {
       "slug": "code-video-recipes",
@@ -843,7 +887,8 @@
           "caption": "A seekable butterfly study uses one shared phase for both wings and loops at the boundary."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "commercial-pipeline",
@@ -881,9 +926,15 @@
           "path": "skills/commercial-pipeline/examples/desk-lamp-on.jpg",
           "kind": "image",
           "caption": "After-state reference for the same lamp, switched on in matching framing."
+        },
+        {
+          "path": "skills/commercial-pipeline/examples/desk-lamp-switch-on.mp4",
+          "kind": "video",
+          "caption": "The mustard desk lamp fades from off to on in matching framing."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "cut-to-the-beat",
@@ -918,7 +969,8 @@
           "caption": "Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "documentary-case-file",
@@ -961,9 +1013,15 @@
           "path": "skills/documentary-case-file/examples/float-gauge-prop.jpg",
           "kind": "image",
           "caption": "PROP-01, a brass gauge with its needle stuck at the low end."
+        },
+        {
+          "path": "skills/documentary-case-file/examples/empty-gauge-chapter-plan.mp4",
+          "kind": "video",
+          "caption": "Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "frontend-slides",
@@ -1008,9 +1066,15 @@
           "path": "skills/frontend-slides/examples/field-notebook.jpg",
           "kind": "image",
           "caption": "Field notebook wildcard with ruled paper and a teal specimen drawing."
+        },
+        {
+          "path": "skills/frontend-slides/examples/forest-slide-openers.mp4",
+          "kind": "video",
+          "caption": "Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "gbro-collage-broll",
@@ -1062,7 +1126,8 @@
           "caption": "The finished teal collage shows a camera, a filmstrip and red scissors."
         }
       ],
-      "examplesCredit": "Examples by pyang5166, MIT, from github.com/pyang5166/gbro-collage-broll"
+      "examplesCredit": "Examples by pyang5166, MIT, from github.com/pyang5166/gbro-collage-broll",
+      "examplesKind": "original"
     },
     {
       "slug": "higgsfield-to-subclip",
@@ -1106,9 +1171,15 @@
           "path": "skills/higgsfield-to-subclip/examples/rain.jpg",
           "kind": "image",
           "caption": "Cold blue storm light with rain confined to the window glass."
+        },
+        {
+          "path": "skills/higgsfield-to-subclip/examples/ceramicist-lighting-study.mp4",
+          "kind": "video",
+          "caption": "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "huashu-art-motion",
@@ -1161,7 +1232,8 @@
           "caption": "Bold type and color blocks introduce three stages of AI coding"
         }
       ],
-      "examplesCredit": "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion"
+      "examplesCredit": "Examples by alchaincyf, MIT, from github.com/alchaincyf/huashu-art-motion",
+      "examplesKind": "original"
     },
     {
       "slug": "long-to-shorts",
@@ -1195,9 +1267,15 @@
           "path": "skills/long-to-shorts/examples/vertical-caption-plan.jpg",
           "kind": "image",
           "caption": "A 9:16 tutorial crop and timed opening caption pages for the crease clip."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/ranked-picks-to-captions.mp4",
+          "kind": "video",
+          "caption": "Two ranked paper workshop clips, followed by the vertical crop and timed captions for the top pick."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "manim-composer",
@@ -1239,7 +1317,8 @@
           "caption": "The settled comparison explains area preservation by comparing equal-width rows."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "motion-polish",
@@ -1301,7 +1380,8 @@
           "caption": "A check marker lands with a small overshoot before it settles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "music-to-video",
@@ -1343,7 +1423,8 @@
           "caption": "A still message over the midpoint of a drifting field for the track’s sparse pad."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "open-design-motion",
@@ -1398,7 +1479,8 @@
           "caption": "A typographic explainer about what goes into a design template."
         }
       ],
-      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"
+      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design",
+      "examplesKind": "original"
     },
     {
       "slug": "open-design-video-templates",
@@ -1451,7 +1533,8 @@
           "caption": "A bold headline over a soft field of blue and purple light."
         }
       ],
-      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"
+      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design",
+      "examplesKind": "original"
     },
     {
       "slug": "paper-cut-motion",
@@ -1496,7 +1579,8 @@
           "caption": "Silent seven-second paper assembly, following the storyboard order before holding on the collage."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "pixelfx",
@@ -1545,7 +1629,8 @@
           "caption": "A close look at five effects from the original gallery grid"
         }
       ],
-      "examplesCredit": "Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx"
+      "examplesCredit": "Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx",
+      "examplesKind": "original"
     },
     {
       "slug": "portrait-style-prompts",
@@ -1589,9 +1674,15 @@
           "path": "skills/portrait-style-prompts/examples/watercolour.jpg",
           "kind": "image",
           "caption": "Watercolour restyle with soft light, bleeding pigment, and visible paper grain."
+        },
+        {
+          "path": "skills/portrait-style-prompts/examples/ceramicist-style-study.mp4",
+          "kind": "video",
+          "caption": "The same ceramicist portrait shifts from the source still to cel shading and watercolour."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "r3f-physics-and-effects",
@@ -1648,7 +1739,8 @@
           "caption": "A ball approaches a goal that demonstrates a physics sensor."
         }
       ],
-      "examplesCredit": "Examples by Poimandres, MIT, from github.com/pmndrs/react-three-rapier"
+      "examplesCredit": "Examples by Poimandres, MIT, from github.com/pmndrs/react-three-rapier",
+      "examplesKind": "original"
     },
     {
       "slug": "svg-character-animation",
@@ -1690,7 +1782,8 @@
           "caption": "A jointed SVG robot notices something, waves, blinks and settles."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "threejs-3d-scenes",
@@ -1742,7 +1835,8 @@
           "caption": "Selected spheres glow among neighboring objects with the bloom effect switched off."
         }
       ],
-      "examplesCredit": "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js"
+      "examplesCredit": "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js",
+      "examplesKind": "original"
     },
     {
       "slug": "video-shotcraft",
@@ -1800,7 +1894,8 @@
           "caption": "A product showcase card pairs a large metric with a small line chart"
         }
       ],
-      "examplesCredit": "Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft"
+      "examplesCredit": "Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft",
+      "examplesKind": "original"
     },
     {
       "slug": "video-translate",
@@ -1840,9 +1935,15 @@
           "path": "skills/video-translate/examples/spanish-cue-fit.jpg",
           "kind": "image",
           "caption": "Spanish paper-folding cues with original timing windows and measured speech fit."
+        },
+        {
+          "path": "skills/video-translate/examples/dubbing-cue-fit.mp4",
+          "kind": "video",
+          "caption": "French and Spanish paper-folding cues appear with their original time windows and measured speech fit."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "vox-director",
@@ -1899,7 +2000,8 @@
           "caption": "A Mexican street food collage with hand-cut illustrations"
         }
       ],
-      "examplesCredit": "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director"
+      "examplesCredit": "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director",
+      "examplesKind": "original"
     },
     {
       "slug": "vox-explainer",
@@ -1938,9 +2040,15 @@
           "path": "skills/vox-explainer/examples/accordion-cross-section.jpg",
           "kind": "image",
           "caption": "A close view of alternating creases, generated using the paper fan keyframe as a style reference."
+        },
+        {
+          "path": "skills/vox-explainer/examples/paper-fan-pleats.mp4",
+          "kind": "video",
+          "caption": "A slow push into a paper fan crossfades to a close view of its alternating accordion creases."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     },
     {
       "slug": "wan-animation-styles",
@@ -1996,7 +2104,8 @@
           "caption": "Low Poly PS1"
         }
       ],
-      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)"
+      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)",
+      "examplesKind": "original"
     },
     {
       "slug": "website-to-video",
@@ -2038,7 +2147,8 @@
           "caption": "A close-up reuses the site’s original contour map to show how to spot the ridge."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip"
+      "examplesCredit": "Test outputs made with this skill in Subclip",
+      "examplesKind": "test"
     }
   ],
   "installYourself": [
@@ -2048,6 +2158,7 @@
       "repo": "lemomo-ai/lemo-opuscar",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "category": "motion",
+      "mirror": "subclip-app/lemo-opuscar",
       "what": "A toolbox of 99 film styles made in code, each a style prompt plus a demo film.",
       "why": "The skill and style text use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-opuscar",
@@ -2064,6 +2175,7 @@
       "repo": "joeseesun/opus-video-prompts",
       "url": "https://github.com/joeseesun/opus-video-prompts",
       "category": "workflow",
+      "mirror": "subclip-app/opus-video-prompts",
       "what": "Copy-ready prompts and 54 cases of code-rendered videos.",
       "why": "No license, and the README says every prompt and video belongs to its original author, so Subclip cannot copy or change it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/joeseesun/opus-video-prompts",
@@ -2076,6 +2188,7 @@
       "repo": "feitangyuan/onetake",
       "url": "https://github.com/feitangyuan/onetake",
       "category": "motion",
+      "mirror": "subclip-app/onetake",
       "what": "Product launch films and teasers where every beat grows out of the one before, as one continuous take.",
       "why": "PolyForm Noncommercial 1.0.0 allows noncommercial use only (the author sells a commercial Pro licence), so Subclip cannot adapt or redistribute it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/feitangyuan/onetake",
@@ -2088,6 +2201,7 @@
       "repo": "lemomo-ai/lemo-wake",
       "url": "https://github.com/lemomo-ai/lemo-wake",
       "category": "animation",
+      "mirror": "subclip-app/lemo-wake",
       "what": "One picture in, a seamless loop of about five seconds out: it takes the image apart and rebuilds it in code as a short film.",
       "why": "The code and documentation use CC BY-NC 4.0, which allows changes only for non-commercial use, so Subclip cannot adapt it. Install the original yourself.",
       "preview": "https://opengraph.githubassets.com/1/lemomo-ai/lemo-wake",

@@ -17,4 +17,7 @@ examples:
     caption: Style key for a seasons explainer, with a wooden globe and warm studio light.
   - file: examples/tilted-globe-sheet.jpg
     caption: Tilted globe reference sheet with the same painted finish and a brass cradle.
+  - file: examples/seasons-globe.mp4
+    caption: A slow push from the warm studio globe to its tilted reference sheet.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

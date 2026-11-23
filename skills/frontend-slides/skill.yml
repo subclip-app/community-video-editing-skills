@@ -16,4 +16,7 @@ examples:
     caption: "Grove opener with forest green, warm serif type, and a terracotta leaf study."
   - file: examples/field-notebook.jpg
     caption: "Field notebook wildcard with ruled paper and a teal specimen drawing."
+  - file: examples/forest-slide-openers.mp4
+    caption: "Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

@@ -19,3 +19,4 @@ examples:
   - file: examples/snail-peeks-out.mp4
     caption: "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

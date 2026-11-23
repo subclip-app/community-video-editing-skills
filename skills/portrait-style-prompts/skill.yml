@@ -19,4 +19,7 @@ examples:
     caption: "Cel-shaded restyle with a hard window beam and bold shadows."
   - file: examples/watercolour.jpg
     caption: "Watercolour restyle with soft light, bleeding pigment, and visible paper grain."
+  - file: examples/ceramicist-style-study.mp4
+    caption: The same ceramicist portrait shifts from the source still to cel shading and watercolour.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

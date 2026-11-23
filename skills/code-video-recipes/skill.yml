@@ -19,3 +19,4 @@ examples:
   - file: examples/butterfly-wing-loop.mp4
     caption: "A seekable butterfly study uses one shared phase for both wings and loops at the boundary."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

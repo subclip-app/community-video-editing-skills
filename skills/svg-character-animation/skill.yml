@@ -15,3 +15,4 @@ examples:
   - file: examples/robot-wave.mp4
     caption: "A jointed SVG robot notices something, waves, blinks and settles."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

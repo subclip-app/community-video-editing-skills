@@ -14,4 +14,7 @@ examples:
     caption: "A last-take-wins cut log with exact words, source ranges and the retained complete take."
   - file: examples/default-style-brief.jpg
     caption: "A numeric style brief and a visual cue tied to the exact word that triggers it."
+  - file: examples/retake-log-to-style-brief.mp4
+    caption: "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

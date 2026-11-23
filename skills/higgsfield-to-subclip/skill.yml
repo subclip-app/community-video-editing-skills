@@ -19,4 +19,7 @@ examples:
     caption: "Amber sunset through the same window creates a warm rim against teal shadows."
   - file: examples/rain.jpg
     caption: "Cold blue storm light with rain confined to the window glass."
+  - file: examples/ceramicist-lighting-study.mp4
+    caption: Daylight gives way to amber sunset, then cold storm light in the same ceramic studio.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

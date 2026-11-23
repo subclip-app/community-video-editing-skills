@@ -15,3 +15,4 @@ examples:
   - file: examples/paper-beat-cuts.mp4
     caption: "Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

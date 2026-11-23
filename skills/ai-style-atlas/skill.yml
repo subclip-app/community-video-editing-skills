@@ -19,3 +19,4 @@ examples:
   - file: examples/halftone-pop-panel.mp4
     caption: "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

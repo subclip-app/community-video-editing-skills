@@ -14,4 +14,7 @@ examples:
     caption: "Sample frozen brief with a shared source, voice cues, and delivery constraints."
   - file: examples/blind-scorecard.jpg
     caption: "Illustrative blind scorecard with pass checks, seven scored categories, and evidence."
+  - file: examples/blind-scorecard-reveal.mp4
+    caption: Seven scoring rows appear before the sample totals for the two blind edits.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

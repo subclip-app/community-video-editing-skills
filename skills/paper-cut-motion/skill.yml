@@ -20,3 +20,4 @@ examples:
   - file: examples/sailboat-assembly.mp4
     caption: Silent seven-second paper assembly, following the storyboard order before holding on the collage.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

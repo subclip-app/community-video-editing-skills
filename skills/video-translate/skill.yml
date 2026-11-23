@@ -14,4 +14,7 @@ examples:
     caption: "French paper-folding cues with original timing windows and measured speech fit."
   - file: examples/spanish-cue-fit.jpg
     caption: "Spanish paper-folding cues with original timing windows and measured speech fit."
+  - file: examples/dubbing-cue-fit.mp4
+    caption: "French and Spanish paper-folding cues appear with their original time windows and measured speech fit."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

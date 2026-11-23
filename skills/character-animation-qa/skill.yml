@@ -14,4 +14,7 @@ examples:
     caption: "A sampled contact sheet flags a detached shoulder at 1.36 seconds."
   - file: examples/wave-fixed-review.jpg
     caption: "The same five sample times after the shoulder translation was removed."
+  - file: examples/robot-wave-shoulder-review.mp4
+    caption: "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test

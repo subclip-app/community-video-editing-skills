@@ -15,7 +15,7 @@ function object(value, label) { assert(value && typeof value === 'object' && !Ar
 function keys(value, allowed, label) { object(value, label); for (const key of Object.keys(value)) assert(allowed.includes(key), `Unknown ${label} field: ${key}`); }
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
-  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit'], 'skill.yml');
+  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit','examplesKind'], 'skill.yml');
   const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
   text(m.name, 'name', 100); text(m.summary, 'summary', 160);
@@ -52,7 +52,8 @@ export function validateMetadata(m, slug) {
       seen.add(item.file); if (item.caption !== undefined) text(item.caption, 'examples caption', 140);
     }
     text(m.examplesCredit, 'examplesCredit', 300);
-  } else assert(m.examplesCredit === undefined, 'examplesCredit needs examples');
+    assert(m.examplesKind === undefined || ['original','test'].includes(m.examplesKind), 'examplesKind must be original or test');
+  } else assert(m.examplesCredit === undefined && m.examplesKind === undefined, 'examplesCredit needs examples');
   if (m.allowlist !== undefined) {
     assert(Array.isArray(m.allowlist), 'allowlist must be a list');
     for (const item of m.allowlist) {
@@ -98,7 +99,7 @@ export async function readInstallYourself(root) {
   const list = parseYaml(raw);
   assert(Array.isArray(list), 'install-yourself.yml must be a list');
   return Promise.all(list.map(async (item, i) => {
-    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit'], `install-yourself.yml item ${i + 1}`);
+    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit','mirror'], `install-yourself.yml item ${i + 1}`);
     assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? ''), `install-yourself.yml item ${i + 1} needs a kebab-case slug`);
     assert(item.category === undefined || CATEGORY_LABELS[item.category], `Unknown install-yourself category: ${item.category}`);
     const gallery = item.gallery ?? []; assert(Array.isArray(gallery) && gallery.every(u => typeof u === 'string' && u.startsWith('https://')), 'install-yourself gallery must list https URLs');
@@ -113,13 +114,13 @@ export async function readInstallYourself(root) {
       await checkPreview(file);
       video = item.video.split('/').filter(Boolean).join('/');
     }
-    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
+    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', ...(item.mirror ? { mirror: item.mirror } : {}), what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
   }));
 }
 export function installYourselfMarkdown(items) {
   const rows = items.map(i => {
     const video = i.video ? `<br><a href="${i.video.split('/').map(encodeURIComponent).join('/')}">Watch the silent preview</a>` : '';
-    return `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url})${video} | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)} | ${cell(i.what)} | ${cell(i.why)} |`;
+    return `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url})${video} | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)}${i.mirror ? `<br>Backup fork: [${cell(i.mirror)}](https://github.com/${i.mirror})` : ''} | ${cell(i.what)} | ${cell(i.why)} |`;
   });
   return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
 }
@@ -148,7 +149,7 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
-    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit } : {}) });
+    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original' } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';

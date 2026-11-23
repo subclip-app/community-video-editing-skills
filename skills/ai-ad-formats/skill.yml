@@ -19,4 +19,7 @@ examples:
     caption: Use beat showing the crank, the inserted pencil and shavings falling into the drawer.
   - file: examples/sharpener-payoff.jpg
     caption: Payoff beat with the sharpened pencil beside the same clay sharpener.
+  - file: examples/sharpener-in-action.mp4
+    caption: A clay pencil meets the crank sharpener, then returns with a freshly sharpened tip.
 examplesCredit: "Test outputs made with this skill in Subclip"
+examplesKind: test
