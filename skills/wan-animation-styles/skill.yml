@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."

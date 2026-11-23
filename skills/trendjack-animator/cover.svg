@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+  <title id="t">Trending animated ads, adapted for Subclip</title>
+  <desc id="d">A vertical phone frame with a warm animated living room, captions in the safe zone and a timeline of seven shots on a dark blue background.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1f4b"/><stop offset="1" stop-color="#3b1f4a"/></linearGradient>
+  <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffcf7a"/><stop offset="1" stop-color="#c8643a"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <text x="90" y="150" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="6" fill="#ffcf7a">COMMUNITY SKILLS</text>
+  <text x="90" y="290" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="800" fill="#fff">Trending</text>
+  <text x="90" y="410" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="800" fill="#fff">animated ads</text>
+  <text x="90" y="490" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#d9d6f2">Audio first. One picture per line.</text>
+  <text x="90" y="545" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#d9d6f2">Captions in the safe zone.</text>
+  <rect x="90" y="610" width="360" height="56" rx="28" fill="#ffcf7a"/>
+  <text x="270" y="648" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1b1f4b">Adapted for Subclip</text>
+  <g transform="translate(1000 70)">
+    <rect width="400" height="760" rx="44" fill="#0c0d1f" stroke="#fff" stroke-opacity=".5" stroke-width="4"/>
+    <rect x="18" y="18" width="364" height="724" rx="30" fill="url(#w)"/>
+    <circle cx="110" cy="360" r="62" fill="#f6d2a8"/><rect x="60" y="410" width="100" height="120" rx="30" fill="#4e6b3a"/>
+    <circle cx="270" cy="400" r="40" fill="#f6d2a8"/><rect x="235" y="440" width="70" height="90" rx="26" fill="#f0c52b"/>
+    <rect x="300" y="300" width="14" height="140" fill="#b8903c"/><ellipse cx="312" cy="296" rx="44" ry="34" fill="#fff6d8"/>
+    <rect x="70" y="580" width="260" height="56" rx="12" fill="#000" fill-opacity=".45"/>
+    <text x="200" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#fff">NOW I READ EVERY WORD</text>
+    <rect x="18" y="64" width="364" height="2" fill="#fff" fill-opacity="0"/>
+  </g>
+  <g transform="translate(90 740)" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#fff">
+    <rect width="76" height="60" rx="8" fill="#e8825a"/><rect x="84" width="76" height="60" rx="8" fill="#d9a35a"/><rect x="168" width="76" height="60" rx="8" fill="#c8643a"/><rect x="252" width="76" height="60" rx="8" fill="#e8825a"/><rect x="336" width="76" height="60" rx="8" fill="#d9a35a"/><rect x="420" width="76" height="60" rx="8" fill="#c8643a"/><rect x="504" width="76" height="60" rx="8" fill="#ffcf7a"/>
+  </g>
+</svg>

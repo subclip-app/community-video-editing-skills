@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: ahujasid/mcp-for-blender, author: Siddharth Ahuja, license: MIT, commit: "a5a8acf2c6ae44a73670e0caf34663f16456d645", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/wooden-pyramid.jpg
     caption: "A wooden pyramid selected in the Blender viewport."

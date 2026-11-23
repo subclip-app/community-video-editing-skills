@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: bangtutorial/bang-motion, author: bangtutorial, license: MIT, commit: "c1aa65e921c970d858705fcb4a53a8294d1a4131", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/grainy-gradient.jpg
     caption: "A glowing blue opener with layered shapes and soft grain"

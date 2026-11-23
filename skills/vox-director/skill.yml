@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: Alisa0808/vox-director, author: Alisa0808, license: MIT, commit: "6a85a7c341610442a6a5b1885e6e0217ab82a11f", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/early-football.mp4
     caption: "An excerpt on early football told with animated paper cutouts"

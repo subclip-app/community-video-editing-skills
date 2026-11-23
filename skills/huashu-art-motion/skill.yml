@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: alchaincyf/huashu-art-motion, author: alchaincyf, license: MIT, commit: "a97c45018d46e950d56d61981138e08f4e092909", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/neural-network.jpg
     caption: "A pixel grid becomes the input to a neural network diagram"

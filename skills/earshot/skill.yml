@@ -1,0 +1,25 @@
+slug: earshot
+name: Sound effects from words
+summary: Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.
+category: audio
+tags: [sound-effects, sound-design, whoosh, foley, mixing]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: Leonxlnx/earshot, author: Leon Lin, license: MIT, commit: "7a7f7c5c70d4a763a1eca4b3666af7c77e313f97", syncedAt: 2026-11-24 }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-sound-design.mp4
+    caption: "Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS."
+  - file: examples/waveform-markers.jpg
+    caption: "Frame from the reference clip at the impact, with cue labels on the mixed waveform."
+  - file: examples/cue-sheet.jpg
+    caption: "Cue sheet idea: markers pinned on a waveform lane (Codex CLI image)."
+  - file: examples/riser-impact.jpg
+    caption: "A riser that builds into an impact (Codex CLI image)."
+  - file: examples/typing-ui.jpg
+    caption: "Typing and UI press sounds, one per key (Codex CLI image)."
+examplesCredit: "Made for Subclip with HyperFrames. Sounds rendered locally with earshot by Leon Lin (MIT). Images generated with the Codex CLI."
+examplesKind: original

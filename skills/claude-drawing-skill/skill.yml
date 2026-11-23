@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: cloveric/claude-drawing-skill, author: cloveric, license: MIT, commit: "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/moon-river.mp4
     caption: "An ink wash landscape takes shape in successive drawing passes"

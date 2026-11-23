@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: wheresryan22/anatomy, author: Ryan, license: MIT, commit: "1482e8469b0a9e0d8cc18ea2740a01423d29ae80", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/raptor-engine-firing.webp
     caption: Isometric rocket engine test stand during a firing.

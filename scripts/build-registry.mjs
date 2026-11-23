@@ -15,7 +15,7 @@ function object(value, label) { assert(value && typeof value === 'object' && !Ar
 function keys(value, allowed, label) { object(value, label); for (const key of Object.keys(value)) assert(allowed.includes(key), `Unknown ${label} field: ${key}`); }
 function text(value, label, max = 300) { assert(typeof value === 'string' && value.trim() && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value), `Invalid ${label}`); }
 export function validateMetadata(m, slug) {
-  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','allowlist','examples','examplesCredit','examplesKind','sourceVideo'], 'skill.yml');
+  keys(m, ['slug','name','summary','category','tags','cover','preview','adaptedBySubclip','license','upstream','addedAt','updatedAt','allowlist','examples','examplesCredit','examplesKind','sourceVideo'], 'skill.yml');
   const external = m.upstream && typeof m.upstream === 'object' && m.upstream.repo === undefined;
   assert(slugPattern.test(m.slug) && m.slug === slug, 'slug must be kebab-case and equal its folder name');
   text(m.name, 'name', 100); text(m.summary, 'summary', 160);
@@ -24,6 +24,7 @@ export function validateMetadata(m, slug) {
   assert(typeof m.adaptedBySubclip === 'boolean', 'adaptedBySubclip must be boolean');
   assert(licenses.includes(m.license) || (external && m.license === notStated && m.upstream.license === notStated), 'License is not on the allowed list');
   assert(typeof m.addedAt === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(m.addedAt) && new Date(`${m.addedAt}T00:00:00Z`).toISOString().slice(0,10) === m.addedAt, 'addedAt must be a real YYYY-MM-DD date');
+  assert(m.updatedAt === undefined || (typeof m.updatedAt === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(m.updatedAt) && new Date(`${m.updatedAt}T00:00:00Z`).toISOString().slice(0,10) === m.updatedAt && m.updatedAt >= m.addedAt), 'updatedAt must be a real YYYY-MM-DD date, not before addedAt');
   if (m.upstream !== null) {
     keys(m.upstream, ['repo','url','author','license','commit','syncedAt','note'], 'upstream');
     assert(m.upstream.commit === undefined || /^[0-9a-f]{40}$/.test(m.upstream.commit), 'upstream.commit must be a full 40-character commit SHA');
@@ -168,7 +169,7 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
-    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
+    skills.push({ slug:m.slug, name:m.name, summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, updatedAt:m.updatedAt ?? m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';

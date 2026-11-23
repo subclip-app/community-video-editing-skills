@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.futurepedia.io/resources/ai-style-atlas/view", author: Futurepedia, license: Not stated, note: "Public catalog page with no stated license. Prompts and media are reproduced with credit and a link to every entry at the Subclip owner's request. Creator permission has not been confirmed." }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/atlas-overview.mp4
     caption: The AI Style Atlas overview video by Futurepedia

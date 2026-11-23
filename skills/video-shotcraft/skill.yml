@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: Apache-2.0
 upstream: { repo: Vincentwei1021/video-shotcraft, author: Vincentwei1021, license: Apache-2.0, commit: "59f3e9b9e936ff2bce0e18446226d770a3f2f61f", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: ElevenLabs names identify models called only through Subclip's live catalog and native generate_music tool.

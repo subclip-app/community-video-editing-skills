@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: zarazhangrui/frontend-slides, author: zarazhangrui, license: MIT, commit: "9906a34d640d2111f724544cbc50f7f130569ae1", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/swiss-modern.jpg
     caption: "Swiss Modern opener with a stark asymmetric grid and red botanical accent."

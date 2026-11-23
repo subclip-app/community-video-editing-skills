@@ -9,6 +9,7 @@ adaptedBySubclip: false
 license: ISC
 upstream: null
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/third-beat-fan.jpg
     caption: "The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid."

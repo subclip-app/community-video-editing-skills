@@ -9,6 +9,7 @@ adaptedBySubclip: false
 license: MIT
 upstream: null
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/short-1.mp4
     caption: "King takes up fencing to avoid rugby and goes on to represent the United Kingdom."

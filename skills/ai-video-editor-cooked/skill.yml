@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: nextwork-projects/ai-video-editor-cooked, author: NextWork, license: MIT, commit: "e56fad2c46ed0998dfa74ecd414d81aa3dc53b59", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/retake-cut-log.jpg
     caption: "A last-take-wins cut log with exact words, source ranges and the retained complete take."

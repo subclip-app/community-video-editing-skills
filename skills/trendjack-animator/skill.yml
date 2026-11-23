@@ -1,0 +1,28 @@
+slug: trendjack-animator
+name: Trending animated ads
+summary: Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.
+category: promos
+tags: [animated-ads, song-ad, vertical, audio-first, captions, character-lock]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: holy-templar/drama-song-ad, author: "Maxfusion AI s.r.o", license: MIT, note: "Adapted from the trendjack-animator skill in the Agent Chad pack (https://agentchad.io/, MIT), which adapts this repository. The builder requires a GitHub repo for an MIT upstream, so the MIT root is listed here. Original LICENSE and NOTICE kept." }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+allowlist:
+  - code: external-provider
+    reason: Model names such as ElevenLabs v3 describe Subclip's live catalog and are used only through Subclip tools, not direct provider API calls.
+examples:
+  - file: examples/capability-trending-animated-ad.mp4
+    caption: "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
+  - file: examples/plate-sheet.jpg
+    caption: "Plate sheet: the approved characters, made before any scene still"
+  - file: examples/still-1-the-sting.jpg
+    caption: "Still for the sting line, made with the plates attached"
+  - file: examples/still-3-the-mentor.jpg
+    caption: "Still for the mentor line: the product appears for the first time"
+  - file: examples/still-5-the-win.jpg
+    caption: "Still for the win line: same room, same people, the opposite of line 1"
+examplesCredit: "Made for this repository with the fictional Lumo lamp. Images by the Codex CLI, film rendered with HyperFrames."
+examplesKind: original

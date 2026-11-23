@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: emilkowalski/skills, author: Emil Kowalski, license: MIT, commit: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/anchored-callout.jpg
     caption: "Settled callout with its leader anchored to the sea star in the diagram."

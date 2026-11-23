@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: mrdoob/three.js, author: "mrdoob and the three.js contributors", license: MIT, commit: "b2dce982c57ff795d7709f5da993ea24c2b07aa1", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/camera-views.jpg
     caption: "A split view shows the scene and the position of its active camera."

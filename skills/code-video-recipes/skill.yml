@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: yihui-dev/awesome-opus5-5-videos, author: yihui-dev, license: MIT, commit: "92aee2f586ac0715cb3cbcb6384834f98a33383d", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/widget-line-draw.jpg
     caption: "Settled seedling count widget with the full plot and final data point."

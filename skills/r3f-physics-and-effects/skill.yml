@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: pmndrs/react-three-rapier, author: Poimandres, license: MIT, commit: "ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/attractors.jpg
     caption: "Small rigid bodies gather around a central attractor."

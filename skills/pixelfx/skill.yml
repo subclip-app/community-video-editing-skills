@@ -9,6 +9,7 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: patch-gg/pixelfx, author: patch-gg, license: MIT, commit: "5294518ce7c72e48b6100a744596e0acf57f2826", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+updatedAt: 2026-11-23
 examples:
   - file: examples/pixel-effects.mp4
     caption: "Looping pixel effects include fire, waterfalls and portals"

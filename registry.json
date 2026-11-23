@@ -28,6 +28,7 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d812cabb9d81b0c4e309a"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/3d-myth-short/examples/seasons-style-key.jpg",
@@ -75,6 +76,7 @@
         "note": "Written in new words from the skill pack and the entry page on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-ad-formats/examples/notion-claymation.jpg",
@@ -222,6 +224,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-camera-shots/examples/top-down.jpg",
@@ -354,6 +357,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-edit-battle/examples/shared-edit-brief.jpg",
@@ -401,6 +405,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-illustration-styles/examples/cartoon-modern-upa.jpg",
@@ -492,6 +497,7 @@
         "note": "Public catalog page with no stated license. Prompts and media are reproduced with credit and a link to every entry at the Subclip owner's request. Creator permission has not been confirmed."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-style-atlas/examples/atlas-overview.mp4",
@@ -960,6 +966,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/ai-video-editor-cooked/examples/retake-cut-log.jpg",
@@ -1009,6 +1016,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/anatomy/examples/raptor-engine-firing.webp",
@@ -1069,6 +1077,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/bang-motion/examples/grainy-gradient.jpg",
@@ -1127,6 +1136,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/blender-to-subclip/examples/wooden-pyramid.jpg",
@@ -1165,6 +1175,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/cartoon-animation/examples/snail-dashes-for-cover.jpg",
@@ -1216,6 +1227,7 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d8143b8ead2e99edf1796"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/cartoon-episodes/examples/juniper-cast-sheet.jpg",
@@ -1263,6 +1275,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/character-animation-qa/examples/wave-draft-review.jpg",
@@ -1311,6 +1324,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/claude-drawing-skill/examples/moon-river.mp4",
@@ -1347,6 +1361,125 @@
       "examplesKind": "original"
     },
     {
+      "slug": "code-motion-styles",
+      "name": "Motion style prompts",
+      "summary": "Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.",
+      "category": "motion",
+      "tags": [
+        "motion-graphics",
+        "code-animation",
+        "styles",
+        "hyperframes",
+        "canvas",
+        "diagrams"
+      ],
+      "path": "skills/code-motion-styles",
+      "skills": [
+        "code-motion-styles"
+      ],
+      "cover": "skills/code-motion-styles/cover.svg",
+      "preview": "skills/code-motion-styles/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://www.its-applied-ai.com/r/styles",
+        "author": "Applied AI",
+        "license": "Not stated",
+        "note": "Public page with no stated license. Only the list of styles and ideas is used; every prompt, clip and poster here is our own wording and render. Creator permission has not been confirmed."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/code-motion-styles/examples/capability-motion-styles.mp4",
+          "kind": "video",
+          "caption": "Capability reference: eight styles in one 26 second montage"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/01-falling-stack-chart.mp4",
+          "kind": "video",
+          "caption": "01 Falling-stack 3D chart"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/02-proof-machine.mp4",
+          "kind": "video",
+          "caption": "02 Proof machine (maths as a machine)"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/03-line-art-science-diagram.mp4",
+          "kind": "video",
+          "caption": "03 Line-art science diagram"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/04-chain-reaction.mp4",
+          "kind": "video",
+          "caption": "04 Chain reaction (flat rube-goldberg)"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/05-minimal-line-art.mp4",
+          "kind": "video",
+          "caption": "05 Minimal line art on black"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/06-glow-sketch.mp4",
+          "kind": "video",
+          "caption": "06 Glow sketch (dotted gold on black)"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/07-stickman-notebook.mp4",
+          "kind": "video",
+          "caption": "07 Stickman notebook doodle"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/08-cel-anime-launch.mp4",
+          "kind": "video",
+          "caption": "08 90s cel-anime launch"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/09-brick-built-world.mp4",
+          "kind": "video",
+          "caption": "09 Brick-built world"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/10-particle-galaxy.mp4",
+          "kind": "video",
+          "caption": "10 Particle galaxy"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/11-glitch-cut.mp4",
+          "kind": "video",
+          "caption": "11 Glitch smash cut"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/12-circuit-board.mp4",
+          "kind": "video",
+          "caption": "12 Circuit-board pulse"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/13-particle-ring-master.mp4",
+          "kind": "video",
+          "caption": "13 Particle ring master prompt (style swap)"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/14-fur-ring.mp4",
+          "kind": "video",
+          "caption": "14 Fur ring style line"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/15-matrix-ring.mp4",
+          "kind": "video",
+          "caption": "15 Matrix ring style line"
+        },
+        {
+          "path": "skills/code-motion-styles/examples/16-minimal-mono-ring.mp4",
+          "kind": "video",
+          "caption": "16 Minimal mono ring style line"
+        }
+      ],
+      "examplesCredit": "Clips and posters made by Subclip from our own prompts; style ideas from Applied AI (its-applied-ai.com/r/styles)",
+      "examplesKind": "original"
+    },
+    {
       "slug": "code-video-recipes",
       "name": "Code video recipes",
       "summary": "Turn code-made video references into editable Subclip motion graphics, explainers, 3D shots and scripted demos.",
@@ -1375,6 +1508,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/code-video-recipes/examples/widget-line-draw.jpg",
@@ -1426,6 +1560,7 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/commercial-pipeline/examples/desk-lamp-off.jpg",
@@ -1467,6 +1602,7 @@
       "license": "ISC",
       "upstream": null,
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/cut-to-the-beat/examples/third-beat-fan.jpg",
@@ -1508,6 +1644,7 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/documentary-case-file/examples/empty-gauge-case-file.jpg",
@@ -1532,6 +1669,66 @@
       ],
       "examplesCredit": "Test outputs made with this skill in Subclip",
       "examplesKind": "test"
+    },
+    {
+      "slug": "earshot",
+      "name": "Sound effects from words",
+      "summary": "Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.",
+      "category": "audio",
+      "tags": [
+        "sound-effects",
+        "sound-design",
+        "whoosh",
+        "foley",
+        "mixing"
+      ],
+      "path": "skills/earshot",
+      "skills": [
+        "earshot"
+      ],
+      "cover": "skills/earshot/cover.svg",
+      "preview": "skills/earshot/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Leonxlnx/earshot",
+        "url": "https://github.com/Leonxlnx/earshot",
+        "author": "Leon Lin",
+        "license": "MIT",
+        "commit": "7a7f7c5c70d4a763a1eca4b3666af7c77e313f97",
+        "syncedAt": "2026-11-24"
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/earshot/examples/capability-sound-design.mp4",
+          "kind": "video",
+          "caption": "Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS."
+        },
+        {
+          "path": "skills/earshot/examples/waveform-markers.jpg",
+          "kind": "image",
+          "caption": "Frame from the reference clip at the impact, with cue labels on the mixed waveform."
+        },
+        {
+          "path": "skills/earshot/examples/cue-sheet.jpg",
+          "kind": "image",
+          "caption": "Cue sheet idea: markers pinned on a waveform lane (Codex CLI image)."
+        },
+        {
+          "path": "skills/earshot/examples/riser-impact.jpg",
+          "kind": "image",
+          "caption": "A riser that builds into an impact (Codex CLI image)."
+        },
+        {
+          "path": "skills/earshot/examples/typing-ui.jpg",
+          "kind": "image",
+          "caption": "Typing and UI press sounds, one per key (Codex CLI image)."
+        }
+      ],
+      "examplesCredit": "Made for Subclip with HyperFrames. Sounds rendered locally with earshot by Leon Lin (MIT). Images generated with the Codex CLI.",
+      "examplesKind": "original"
     },
     {
       "slug": "frontend-slides",
@@ -1561,6 +1758,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/frontend-slides/examples/swiss-modern.jpg",
@@ -1614,6 +1812,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/gbro-collage-broll/examples/chessboard-blocking.mp4",
@@ -1666,6 +1865,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/higgsfield-to-subclip/examples/ceramicist-source.jpg",
@@ -1720,6 +1920,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/huashu-art-motion/examples/neural-network.jpg",
@@ -1767,6 +1968,7 @@
       "license": "MIT",
       "upstream": null,
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/long-to-shorts/examples/short-1.mp4",
@@ -1831,6 +2033,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/manim-composer/examples/shear-area.mp4",
@@ -1884,6 +2087,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/motion-polish/examples/anchored-callout.jpg",
@@ -1937,6 +2141,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/music-to-video/examples/percussive-cascade.mp4",
@@ -1988,6 +2193,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/open-design-motion/examples/studio-motion-demo.mp4",
@@ -2037,6 +2243,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/open-design-video-templates/examples/glitch-title.mp4",
@@ -2088,6 +2295,7 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/38db5f1fde2d80b4a7a0ecb96e5f6770"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/paper-cut-motion/examples/sailboat-collage.jpg",
@@ -2138,6 +2346,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/pixelfx/examples/pixel-effects.mp4",
@@ -2185,6 +2394,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/portrait-style-prompts/examples/ceramicist-source.jpg",
@@ -2238,6 +2448,7 @@
         "commit": "ae5c3fede5ca489fd7eaa8271e9d9c5eabc88e98"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/r3f-physics-and-effects/examples/attractors.jpg",
@@ -2296,6 +2507,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/svg-character-animation/examples/raised-wave-pose.jpg",
@@ -2339,6 +2551,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/threejs-3d-scenes/examples/camera-views.jpg",
@@ -2362,6 +2575,66 @@
         }
       ],
       "examplesCredit": "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js",
+      "examplesKind": "original"
+    },
+    {
+      "slug": "trendjack-animator",
+      "name": "Trending animated ads",
+      "summary": "Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.",
+      "category": "promos",
+      "tags": [
+        "animated-ads",
+        "song-ad",
+        "vertical",
+        "audio-first",
+        "captions",
+        "character-lock"
+      ],
+      "path": "skills/trendjack-animator",
+      "skills": [
+        "trendjack-animator"
+      ],
+      "cover": "skills/trendjack-animator/cover.svg",
+      "preview": "skills/trendjack-animator/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "holy-templar/drama-song-ad",
+        "url": "https://github.com/holy-templar/drama-song-ad",
+        "author": "Maxfusion AI s.r.o",
+        "license": "MIT",
+        "note": "Adapted from the trendjack-animator skill in the Agent Chad pack (https://agentchad.io/, MIT), which adapts this repository. The builder requires a GitHub repo for an MIT upstream, so the MIT root is listed here. Original LICENSE and NOTICE kept."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/trendjack-animator/examples/capability-trending-animated-ad.mp4",
+          "kind": "video",
+          "caption": "Capability reference: a 24 s song-ad style film for a fictional lamp, a picture per line, captions in the safe zone (local stand-in voice)"
+        },
+        {
+          "path": "skills/trendjack-animator/examples/plate-sheet.jpg",
+          "kind": "image",
+          "caption": "Plate sheet: the approved characters, made before any scene still"
+        },
+        {
+          "path": "skills/trendjack-animator/examples/still-1-the-sting.jpg",
+          "kind": "image",
+          "caption": "Still for the sting line, made with the plates attached"
+        },
+        {
+          "path": "skills/trendjack-animator/examples/still-3-the-mentor.jpg",
+          "kind": "image",
+          "caption": "Still for the mentor line: the product appears for the first time"
+        },
+        {
+          "path": "skills/trendjack-animator/examples/still-5-the-win.jpg",
+          "kind": "image",
+          "caption": "Still for the win line: same room, same people, the opposite of line 1"
+        }
+      ],
+      "examplesCredit": "Made for this repository with the fictional Lumo lamp. Images by the Codex CLI, film rendered with HyperFrames.",
       "examplesKind": "original"
     },
     {
@@ -2393,6 +2666,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/video-shotcraft/examples/exploded-view.mp4",
@@ -2451,6 +2725,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/video-translate/examples/french-cue-fit.jpg",
@@ -2499,6 +2774,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/vox-director/examples/early-football.mp4",
@@ -2556,6 +2832,7 @@
         "syncedAt": "2026-11-22"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/vox-explainer/examples/paper-fan-anchor.jpg",
@@ -2603,6 +2880,7 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/wan-animation-styles/examples/german-expressionism.jpg",
@@ -2661,6 +2939,7 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
       "examples": [
         {
           "path": "skills/website-to-video/examples/trail-tour.mp4",

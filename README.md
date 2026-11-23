@@ -25,7 +25,7 @@ Generated from each folder's `skill.yml` by `npm run build`.
 
 <!-- skills:start -->
 
-<p><b>40</b> skills in 12 categories.</p>
+<p><b>43</b> skills in 12 categories.</p>
 
 ### Explainers
 
@@ -93,17 +93,27 @@ Generated from each folder's `skill.yml` by `npm run build`.
 <sub>Adapted from <a href="https://github.com/bangtutorial/bang-motion">bangtutorial/bang-motion</a> by bangtutorial</sub>
 </td>
 <td width="33%" valign="top">
+<a href="skills/code-motion-styles"><img src="skills/code-motion-styles/cover.svg" alt="Motion style prompts" width="100%"></a><br>
+<a href="skills/code-motion-styles"><b>Motion style prompts</b></a><br>
+<sub>Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.</sub><br>
+<sub>Adapted from <a href="https://www.its-applied-ai.com/r/styles">www.its-applied-ai.com/r/styles</a> by Applied AI</sub>
+</td>
+<td width="33%" valign="top">
 <a href="skills/huashu-art-motion"><img src="skills/huashu-art-motion/cover.svg" alt="Huashu art motion" width="100%"></a><br>
 <a href="skills/huashu-art-motion"><b>Huashu art motion</b></a><br>
 <sub>Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.</sub><br>
 <sub>Adapted from <a href="https://github.com/alchaincyf/huashu-art-motion">alchaincyf/huashu-art-motion</a> by alchaincyf</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="skills/open-design-motion"><img src="skills/open-design-motion/cover.svg" alt="Open Design Motion" width="100%"></a><br>
 <a href="skills/open-design-motion"><b>Open Design Motion</b></a><br>
 <sub>Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.</sub><br>
 <sub>Adapted from <a href="https://github.com/nexu-io/open-design">nexu-io/open-design</a> by nexu-io</sub>
 </td>
+<td width="33%"></td>
+<td width="33%"></td>
 </tr>
 </table>
 
@@ -233,12 +243,17 @@ Generated from each folder's `skill.yml` by `npm run build`.
 <sub>Written for Subclip</sub>
 </td>
 <td width="33%" valign="top">
+<a href="skills/earshot"><img src="skills/earshot/cover.svg" alt="Sound effects from words" width="100%"></a><br>
+<a href="skills/earshot"><b>Sound effects from words</b></a><br>
+<sub>Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.</sub><br>
+<sub>Adapted from <a href="https://github.com/Leonxlnx/earshot">Leonxlnx/earshot</a> by Leon Lin</sub>
+</td>
+<td width="33%" valign="top">
 <a href="skills/music-to-video"><img src="skills/music-to-video/cover.svg" alt="Music to video" width="100%"></a><br>
 <a href="skills/music-to-video"><b>Music to video</b></a><br>
 <sub>Turn a music track into a beat-synced video with kinetic type, your own clips and editable motion layers.</sub><br>
 <sub>Adapted from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub>
 </td>
-<td width="33%"></td>
 </tr>
 </table>
 
@@ -259,20 +274,25 @@ Generated from each folder's `skill.yml` by `npm run build`.
 <sub>Adapted from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub>
 </td>
 <td width="33%" valign="top">
+<a href="skills/trendjack-animator"><img src="skills/trendjack-animator/cover.svg" alt="Trending animated ads" width="100%"></a><br>
+<a href="skills/trendjack-animator"><b>Trending animated ads</b></a><br>
+<sub>Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.</sub><br>
+<sub>Adapted from <a href="https://github.com/holy-templar/drama-song-ad">holy-templar/drama-song-ad</a> by Maxfusion AI s.r.o</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 <a href="skills/video-shotcraft"><img src="skills/video-shotcraft/cover.svg" alt="Video Shotcraft" width="100%"></a><br>
 <a href="skills/video-shotcraft"><b>Video Shotcraft</b></a><br>
 <sub>Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.</sub><br>
 <sub>Adapted from <a href="https://github.com/Vincentwei1021/video-shotcraft">Vincentwei1021/video-shotcraft</a> by Vincentwei1021</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="skills/website-to-video"><img src="skills/website-to-video/cover.svg" alt="Website to video" width="100%"></a><br>
 <a href="skills/website-to-video"><b>Website to video</b></a><br>
 <sub>Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.</sub><br>
 <sub>Adapted from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub>
 </td>
-<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
