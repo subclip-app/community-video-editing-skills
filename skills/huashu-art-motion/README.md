@@ -6,6 +6,8 @@ Make paintings that move, art-history journeys, horizontal painted worlds and na
 
 ![A painted landscape becomes geometric shapes](cover.svg)
 
+[Watch the silent preview](preview.mp4).
+
 The adaptation keeps Huashu's four production routes, 53 style recipe summaries, nine explainer grammars, material rendering methods, character checks, camera rules and musical timing ideas. Recipes are creative starting points, not installed renderers or promises of tested Subclip output. Later research recipes remain marked as research.
 
 ## Use it
@@ -26,10 +28,10 @@ Detailed methods are organized in [SKILL.md](SKILL.md) and its references. The [
 
 ## License and exclusions
 
-The original [LICENSE](LICENSE) is preserved byte for byte, including its copyright notice. The upstream README excludes Huashu's character artwork, its appearances in overview images and demos, and the Clawd fan-demo media from its MIT grant. None is included here. Bundled fonts and Arphic-derived stroke data are also omitted. The cover is an original vector design for this adaptation. No demo video is bundled.
+The original [LICENSE](LICENSE) is preserved byte for byte, including its copyright notice. The upstream README excludes Huashu's character artwork, its appearances in overview images and demos, and the Clawd fan-demo media from its MIT grant. None is included here. Bundled fonts and Arphic-derived stroke data are also omitted. The cover is an original vector design for this adaptation. The bundled preview uses original artwork made for this adaptation.
 
 Huashu credits Tak's [Art History Speedrun](https://x.com/cherry_mx_reds/status/2106095190285144331) as inspiration for the original fixed-scene art-history mechanism. This adaptation carries the method, not Tak's frames, sound, characters or compositions.
 
 ## Validation
 
-This conversion was checked against the Subclip source tools and expanded model catalog on 2026-11-23. Repository build, schema, static scan and tests are run for the package. No running app was touched, no credits were spent and no film was rendered. Frame, animation, export and listening verification remain for an authorized Subclip editing session.
+This conversion was checked against the Subclip source tools and expanded model catalog on 2026-11-23. Repository build, schema, static scan and tests are run for the package. The silent preview was built and exported in Subclip, then reviewed at half-second intervals and around each cut.

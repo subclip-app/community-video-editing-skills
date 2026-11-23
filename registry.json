@@ -50,6 +50,7 @@
         "huashu-art-motion"
       ],
       "cover": "skills/huashu-art-motion/cover.svg",
+      "preview": "skills/huashu-art-motion/preview.mp4",
       "adaptedBySubclip": true,
       "license": "MIT",
       "upstream": {
@@ -77,6 +78,7 @@
         "vox-explainer"
       ],
       "cover": "skills/vox-explainer/cover.svg",
+      "preview": "skills/vox-explainer/preview.mp4",
       "adaptedBySubclip": true,
       "license": "MIT",
       "upstream": {

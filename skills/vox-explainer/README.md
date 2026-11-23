@@ -6,6 +6,8 @@ A skill for AI agents working in [Subclip](https://subclip.app) that turns one t
 
 **One topic in, finished film out. No outside API keys, no ffmpeg.**
 
+[Watch the silent preview](preview.mp4).
+
 ```
 TOPIC → Script → Voiceover → Keyframes → Animation → Music → Assembly
         (agent)  (Gemini TTS  (Seedream 5  (P-Video 2)  (Lyria 3,   (Subclip

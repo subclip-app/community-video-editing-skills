@@ -4,6 +4,7 @@ summary: One topic in, a finished Vox-style explainer.
 category: explainers
 tags: [vox, documentary, collage]
 cover: cover.svg
+preview: preview.mp4
 adaptedBySubclip: true
 license: MIT
 upstream: { repo: CK42BB/vox-explainer-skill, author: Kingsley, license: MIT, commit: "7003225dc3ed1dee9e2ef8b91b05b82c04691aa9", syncedAt: "2026-11-22" }

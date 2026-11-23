@@ -4,6 +4,7 @@ summary: Living paintings, art-history journeys and nine explainer animation gra
 category: motion
 tags: [art, painting, animation, motion, explainers]
 cover: cover.svg
+preview: preview.mp4
 adaptedBySubclip: true
 license: MIT
 upstream: { repo: alchaincyf/huashu-art-motion, author: alchaincyf, license: MIT, commit: "a97c45018d46e950d56d61981138e08f4e092909", syncedAt: "2026-11-23" }
