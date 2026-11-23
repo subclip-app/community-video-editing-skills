@@ -23,3 +23,13 @@ The list shows no license for this skill. This folder copies no upstream text, c
 This skill comes from the Notion list Claude Creative Skill Library Vol 2: https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1
 
 Author shown on the list: PYNK Society (PYNK Society - AI Creative Lab, https://www.skool.com/pynk-society/about).
+
+## Examples
+
+Codex Image cast and location locks for a cartoon about a greenhouse robot.
+
+These reference-stage tests were produced outside the Subclip editor.
+
+![Juniper the watering can robot from three angles, with three expressions.](examples/juniper-cast-sheet.jpg)
+
+![Empty greenhouse establishing view in the same flat ink and pastel style.](examples/greenhouse-set.jpg)

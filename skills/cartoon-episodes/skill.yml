@@ -12,3 +12,9 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/juniper-cast-sheet.jpg
+    caption: Juniper the watering can robot from three angles, with three expressions.
+  - file: examples/greenhouse-set.jpg
+    caption: Empty greenhouse establishing view in the same flat ink and pastel style.
+examplesCredit: "Test outputs made with this skill in Subclip"

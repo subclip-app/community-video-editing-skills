@@ -12,3 +12,11 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/sailboat-collage.jpg
+    caption: Finished torn paper sailboat with layered teal waves and visible torn edges.
+  - file: examples/sailboat-storyboard.jpg
+    caption: Nine panels showing how the sailboat scene builds from an empty sheet.
+  - file: examples/sailboat-assembly.mp4
+    caption: Silent seven-second paper assembly, following the storyboard order before holding on the collage.
+examplesCredit: "Test outputs made with this skill in Subclip"

@@ -9,3 +9,9 @@ adaptedBySubclip: false
 license: MIT
 upstream: null
 addedAt: 2026-11-23
+examples:
+  - file: examples/ranked-clip-picks.jpg
+    caption: "Two candidates scored against the five-part rubric, with source ranges, hooks and concrete reasons."
+  - file: examples/vertical-caption-plan.jpg
+    caption: "A 9:16 tutorial crop and timed opening caption pages for the crease clip."
+examplesCredit: "Test outputs made with this skill in Subclip"

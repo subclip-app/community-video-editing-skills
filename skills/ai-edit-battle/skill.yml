@@ -9,3 +9,9 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
 addedAt: 2026-11-23
+examples:
+  - file: examples/shared-edit-brief.jpg
+    caption: "Sample frozen brief with a shared source, voice cues, and delivery constraints."
+  - file: examples/blind-scorecard.jpg
+    caption: "Illustrative blind scorecard with pass checks, seven scored categories, and evidence."
+examplesCredit: "Test outputs made with this skill in Subclip"

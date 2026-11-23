@@ -11,3 +11,15 @@ Coverage: this first version lists 15 of the atlas's 86 styles. The rest are add
 No license is stated by the source. Nothing is copied from the atlas; see LICENSE.
 
 Adapted for Subclip from the AI Style Atlas by Futurepedia (https://www.futurepedia.io/resources/ai-style-atlas/view)
+
+## Examples
+
+Original SVG scenes built from two atlas recipes and rendered in headless Chrome.
+
+![Shadow Puppet Theatre still with a cutout dinosaur against an amber cloth screen.](examples/shadow-puppet.jpg)
+
+[Watch the clip](examples/shadow-puppet.mp4)
+
+![Halftone Pop Panel still with regular dots, heavy ink, and a leaf litter fact.](examples/halftone-pop-panel.jpg)
+
+[Watch the clip](examples/halftone-pop-panel.mp4)

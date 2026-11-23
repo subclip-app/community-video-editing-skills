@@ -23,3 +23,15 @@ The list shows no license for this skill. This folder copies no upstream text, c
 This skill comes from the Notion list Claude Creative Skill Library Vol 2: https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1
 
 Author shown on the list: PYNK Society (PYNK Society - AI Creative Lab, https://www.skool.com/pynk-society/about).
+
+## Examples
+
+Codex Image collage artwork and a nine-panel build sequence for a paper sailboat, with a silent browser-rendered assembly test.
+
+These reference-stage tests were produced outside the Subclip editor.
+
+![Finished torn paper sailboat with layered teal waves and visible torn edges.](examples/sailboat-collage.jpg)
+
+![Nine panels showing how the sailboat scene builds from an empty sheet.](examples/sailboat-storyboard.jpg)
+
+[Silent seven-second paper assembly, following the storyboard order before holding on the collage.](examples/sailboat-assembly.mp4)

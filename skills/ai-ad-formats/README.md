@@ -23,3 +23,15 @@ The list shows no license for this skill. This folder copies no upstream text, c
 This skill comes from the Notion list Claude Creative Skill Library Vol 2: https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1
 
 Author shown on the list: PYNK Society (PYNK Society - AI Creative Lab, https://www.skool.com/pynk-society/about).
+
+## Examples
+
+Codex Image claymation test frames for an unbranded pencil sharpener ad.
+
+These reference-stage tests were produced outside the Subclip editor.
+
+![Claymation style lock with a cobalt hand-crank sharpener and a pencil character.](examples/sharpener-style-lock.jpg)
+
+![Use beat showing the crank, the inserted pencil and shavings falling into the drawer.](examples/sharpening-beat.jpg)
+
+![Payoff beat with the sharpened pencil beside the same clay sharpener.](examples/sharpener-payoff.jpg)

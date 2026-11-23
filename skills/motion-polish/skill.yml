@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: emilkowalski/skills, author: Emil Kowalski, license: MIT, commit: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/anchored-callout.jpg
+    caption: "Settled callout with its leader anchored to the sea star in the diagram."
+  - file: examples/anchored-callout.mp4
+    caption: "A short ease-out introduces the sea star callout, then it exits on the same path."
+  - file: examples/spring-marker.jpg
+    caption: "Settled illustrated check marker in the tide pool guide."
+  - file: examples/spring-marker.mp4
+    caption: "A check marker lands with a small overshoot before it settles."
+examplesCredit: "Test outputs made with this skill in Subclip"

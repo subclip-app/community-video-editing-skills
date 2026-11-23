@@ -26,3 +26,11 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 ## Credit and license
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words. The creator's guides state no license, so please confirm permission with the creator before relying on this skill.
+
+## Examples
+
+Illustrative artifacts for a fictional edit battle. The timings and scores are sample values.
+
+![Sample frozen brief with a shared source, voice cues, and delivery constraints.](examples/shared-edit-brief.jpg)
+
+![Illustrative blind scorecard with pass checks, seven scored categories, and evidence.](examples/blind-scorecard.jpg)

@@ -33,3 +33,11 @@ Subclip has no beat detection tool yet, so the beat grid is measured by hand fro
 ## License
 
 AGPL-3.0, same as the original project. See `LICENSE`.
+
+## Examples
+
+A silent kinetic type render and a phrase-flow still from two sections of an original practice track.
+
+[A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line.](examples/percussive-cascade.mp4)
+
+![A still message over the midpoint of a drifting field for the track’s sparse pad.](examples/held-pad-message.jpg)

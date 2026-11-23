@@ -12,3 +12,9 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/seasons-style-key.jpg
+    caption: Style key for a seasons explainer, with a wooden globe and warm studio light.
+  - file: examples/tilted-globe-sheet.jpg
+    caption: Tilted globe reference sheet with the same painted finish and a brass cradle.
+examplesCredit: "Test outputs made with this skill in Subclip"

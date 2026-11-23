@@ -12,3 +12,11 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/sharpener-style-lock.jpg
+    caption: Claymation style lock with a cobalt hand-crank sharpener and a pencil character.
+  - file: examples/sharpening-beat.jpg
+    caption: Use beat showing the crank, the inserted pencil and shavings falling into the drawer.
+  - file: examples/sharpener-payoff.jpg
+    caption: Payoff beat with the sharpened pencil beside the same clay sharpener.
+examplesCredit: "Test outputs made with this skill in Subclip"

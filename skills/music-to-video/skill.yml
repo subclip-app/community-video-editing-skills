@@ -9,3 +9,9 @@ adaptedBySubclip: true
 license: AGPL-3.0
 upstream: { repo: OpenMontageInc/OpenMontage, author: OpenMontageInc, license: AGPL-3.0, commit: "2e003e65fa99a0f329478a2c1cdcf26bc481933a", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/percussive-cascade.mp4
+    caption: "A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line."
+  - file: examples/held-pad-message.jpg
+    caption: "A still message over the midpoint of a drifting field for the track’s sparse pad."
+examplesCredit: "Test outputs made with this skill in Subclip"

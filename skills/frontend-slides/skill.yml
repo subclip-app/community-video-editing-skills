@@ -9,3 +9,11 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: zarazhangrui/frontend-slides, author: zarazhangrui, license: MIT, commit: "9906a34d640d2111f724544cbc50f7f130569ae1", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/swiss-modern.jpg
+    caption: "Swiss Modern opener with a stark asymmetric grid and red botanical accent."
+  - file: examples/grove.jpg
+    caption: "Grove opener with forest green, warm serif type, and a terracotta leaf study."
+  - file: examples/field-notebook.jpg
+    caption: "Field notebook wildcard with ruled paper and a teal specimen drawing."
+examplesCredit: "Test outputs made with this skill in Subclip"

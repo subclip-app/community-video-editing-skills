@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.futurepedia.io/resources/ai-style-atlas/view", author: Futurepedia, license: Not stated, note: "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed." }
 addedAt: 2026-11-23
+examples:
+  - file: examples/shadow-puppet.jpg
+    caption: "Shadow Puppet Theatre still with a cutout dinosaur against an amber cloth screen."
+  - file: examples/shadow-puppet.mp4
+    caption: "Shadow Puppet Theatre motion test with stepped neck rotation at a pinned joint."
+  - file: examples/halftone-pop-panel.jpg
+    caption: "Halftone Pop Panel still with regular dots, heavy ink, and a leaf litter fact."
+  - file: examples/halftone-pop-panel.mp4
+    caption: "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
+examplesCredit: "Test outputs made with this skill in Subclip"

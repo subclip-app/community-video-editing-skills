@@ -23,3 +23,13 @@ The list shows no license for this skill. This folder copies no upstream text, c
 This skill comes from the Notion list Claude Creative Skill Library Vol 2: https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1
 
 Author shown on the list: PYNK Society (PYNK Society - AI Creative Lab, https://www.skool.com/pynk-society/about).
+
+## Examples
+
+Codex Image style and object reference sheets for a short about why Earth has seasons.
+
+These reference-stage tests were produced outside the Subclip editor.
+
+![Style key for a seasons explainer, with a wooden globe and warm studio light.](examples/seasons-style-key.jpg)
+
+![Tilted globe reference sheet with the same painted finish and a brass cradle.](examples/tilted-globe-sheet.jpg)

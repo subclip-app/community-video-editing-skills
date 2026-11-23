@@ -27,7 +27,20 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d812cabb9d81b0c4e309a"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/3d-myth-short/examples/seasons-style-key.jpg",
+          "kind": "image",
+          "caption": "Style key for a seasons explainer, with a wooden globe and warm studio light."
+        },
+        {
+          "path": "skills/3d-myth-short/examples/tilted-globe-sheet.jpg",
+          "kind": "image",
+          "caption": "Tilted globe reference sheet with the same painted finish and a brass cradle."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "ai-ad-formats",
@@ -55,7 +68,25 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3b5b5f1fde2d81928e67dfee2cfb6d6c"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-ad-formats/examples/sharpener-style-lock.jpg",
+          "kind": "image",
+          "caption": "Claymation style lock with a cobalt hand-crank sharpener and a pencil character."
+        },
+        {
+          "path": "skills/ai-ad-formats/examples/sharpening-beat.jpg",
+          "kind": "image",
+          "caption": "Use beat showing the crank, the inserted pencil and shavings falling into the drawer."
+        },
+        {
+          "path": "skills/ai-ad-formats/examples/sharpener-payoff.jpg",
+          "kind": "image",
+          "caption": "Payoff beat with the sharpened pencil beside the same clay sharpener."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "ai-camera-shots",
@@ -214,7 +245,20 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-edit-battle/examples/shared-edit-brief.jpg",
+          "kind": "image",
+          "caption": "Sample frozen brief with a shared source, voice cues, and delivery constraints."
+        },
+        {
+          "path": "skills/ai-edit-battle/examples/blind-scorecard.jpg",
+          "kind": "image",
+          "caption": "Illustrative blind scorecard with pass checks, seven scored categories, and evidence."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "ai-illustration-styles",
@@ -332,7 +376,30 @@
         "license": "Not stated",
         "note": "Public catalog page with no stated license. Style names are listed as facts; all descriptions and recipes are written in our own words. No atlas text, prompts, images or clips are copied. Creator permission must be confirmed."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-style-atlas/examples/shadow-puppet.jpg",
+          "kind": "image",
+          "caption": "Shadow Puppet Theatre still with a cutout dinosaur against an amber cloth screen."
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/shadow-puppet.mp4",
+          "kind": "video",
+          "caption": "Shadow Puppet Theatre motion test with stepped neck rotation at a pinned joint."
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/halftone-pop-panel.jpg",
+          "kind": "image",
+          "caption": "Halftone Pop Panel still with regular dots, heavy ink, and a leaf litter fact."
+        },
+        {
+          "path": "skills/ai-style-atlas/examples/halftone-pop-panel.mp4",
+          "kind": "video",
+          "caption": "Halftone Pop Panel motion test with a snapping panel and popping speech balloon."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "ai-video-editor-cooked",
@@ -361,7 +428,20 @@
         "commit": "e56fad2c46ed0998dfa74ecd414d81aa3dc53b59",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/ai-video-editor-cooked/examples/retake-cut-log.jpg",
+          "kind": "image",
+          "caption": "A last-take-wins cut log with exact words, source ranges and the retained complete take."
+        },
+        {
+          "path": "skills/ai-video-editor-cooked/examples/default-style-brief.jpg",
+          "kind": "image",
+          "caption": "A numeric style brief and a visual cue tied to the exact word that triggers it."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "anatomy",
@@ -544,7 +624,30 @@
         "commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/cartoon-animation/examples/snail-dashes-for-cover.jpg",
+          "kind": "image",
+          "caption": "Wide shot of a painted snail reaching the shelter of a leaf."
+        },
+        {
+          "path": "skills/cartoon-animation/examples/snail-dashes-for-cover.mp4",
+          "kind": "video",
+          "caption": "A raindrop startles the snail into a dash, followed by the outgoing brush wipe."
+        },
+        {
+          "path": "skills/cartoon-animation/examples/snail-peeks-out.jpg",
+          "kind": "image",
+          "caption": "Closer painted shot of the snail peeking out while rain falls around the leaf."
+        },
+        {
+          "path": "skills/cartoon-animation/examples/snail-peeks-out.mp4",
+          "kind": "video",
+          "caption": "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "cartoon-episodes",
@@ -571,7 +674,20 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d8143b8ead2e99edf1796"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/cartoon-episodes/examples/juniper-cast-sheet.jpg",
+          "kind": "image",
+          "caption": "Juniper the watering can robot from three angles, with three expressions."
+        },
+        {
+          "path": "skills/cartoon-episodes/examples/greenhouse-set.jpg",
+          "kind": "image",
+          "caption": "Empty greenhouse establishing view in the same flat ink and pastel style."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "character-animation-qa",
@@ -599,7 +715,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/character-animation-qa/examples/wave-draft-review.jpg",
+          "kind": "image",
+          "caption": "A sampled contact sheet flags a detached shoulder at 1.36 seconds."
+        },
+        {
+          "path": "skills/character-animation-qa/examples/wave-fixed-review.jpg",
+          "kind": "image",
+          "caption": "The same five sample times after the shoulder translation was removed."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "claude-drawing-skill",
@@ -691,7 +820,30 @@
         "commit": "92aee2f586ac0715cb3cbcb6384834f98a33383d",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/code-video-recipes/examples/widget-line-draw.jpg",
+          "kind": "image",
+          "caption": "Settled seedling count widget with the full plot and final data point."
+        },
+        {
+          "path": "skills/code-video-recipes/examples/widget-line-draw.mp4",
+          "kind": "video",
+          "caption": "A seedling count widget assembles, draws its plot, and sweeps two highlights."
+        },
+        {
+          "path": "skills/code-video-recipes/examples/butterfly-wing-loop.jpg",
+          "kind": "image",
+          "caption": "A butterfly wing pose drawn from mirrored SVG paths."
+        },
+        {
+          "path": "skills/code-video-recipes/examples/butterfly-wing-loop.mp4",
+          "kind": "video",
+          "caption": "A seekable butterfly study uses one shared phase for both wings and loops at the boundary."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "commercial-pipeline",
@@ -718,7 +870,20 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/commercial-pipeline/examples/desk-lamp-off.jpg",
+          "kind": "image",
+          "caption": "Hero product reference for a mustard desk lamp in its off state on white."
+        },
+        {
+          "path": "skills/commercial-pipeline/examples/desk-lamp-on.jpg",
+          "kind": "image",
+          "caption": "After-state reference for the same lamp, switched on in matching framing."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "cut-to-the-beat",
@@ -740,7 +905,20 @@
       "adaptedBySubclip": false,
       "license": "ISC",
       "upstream": null,
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/cut-to-the-beat/examples/third-beat-fan.jpg",
+          "kind": "image",
+          "caption": "The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid."
+        },
+        {
+          "path": "skills/cut-to-the-beat/examples/paper-beat-cuts.mp4",
+          "kind": "video",
+          "caption": "Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "documentary-case-file",
@@ -767,7 +945,25 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/documentary-case-file/examples/empty-gauge-case-file.jpg",
+          "kind": "image",
+          "caption": "Fictional case file with three timed chapters, asset IDs and narrator direction."
+        },
+        {
+          "path": "skills/documentary-case-file/examples/greenhouse-location.jpg",
+          "kind": "image",
+          "caption": "LOC-01, the empty greenhouse at blue hour with its lit utility alcove."
+        },
+        {
+          "path": "skills/documentary-case-file/examples/float-gauge-prop.jpg",
+          "kind": "image",
+          "caption": "PROP-01, a brass gauge with its needle stuck at the low end."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "frontend-slides",
@@ -796,7 +992,25 @@
         "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/frontend-slides/examples/swiss-modern.jpg",
+          "kind": "image",
+          "caption": "Swiss Modern opener with a stark asymmetric grid and red botanical accent."
+        },
+        {
+          "path": "skills/frontend-slides/examples/grove.jpg",
+          "kind": "image",
+          "caption": "Grove opener with forest green, warm serif type, and a terracotta leaf study."
+        },
+        {
+          "path": "skills/frontend-slides/examples/field-notebook.jpg",
+          "kind": "image",
+          "caption": "Field notebook wildcard with ruled paper and a teal specimen drawing."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "gbro-collage-broll",
@@ -876,7 +1090,25 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/higgsfield-to-subclip/examples/ceramicist-source.jpg",
+          "kind": "image",
+          "caption": "Neutral source still with soft daylight from the studio window."
+        },
+        {
+          "path": "skills/higgsfield-to-subclip/examples/amber.jpg",
+          "kind": "image",
+          "caption": "Amber sunset through the same window creates a warm rim against teal shadows."
+        },
+        {
+          "path": "skills/higgsfield-to-subclip/examples/rain.jpg",
+          "kind": "image",
+          "caption": "Cold blue storm light with rain confined to the window glass."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "huashu-art-motion",
@@ -952,7 +1184,20 @@
       "adaptedBySubclip": false,
       "license": "MIT",
       "upstream": null,
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/long-to-shorts/examples/ranked-clip-picks.jpg",
+          "kind": "image",
+          "caption": "Two candidates scored against the five-part rubric, with source ranges, hooks and concrete reasons."
+        },
+        {
+          "path": "skills/long-to-shorts/examples/vertical-caption-plan.jpg",
+          "kind": "image",
+          "caption": "A 9:16 tutorial crop and timed opening caption pages for the crease clip."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "manim-composer",
@@ -981,7 +1226,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/manim-composer/examples/shear-area.mp4",
+          "kind": "video",
+          "caption": "A rectangle shears slowly while its highlighted horizontal rows keep the same length."
+        },
+        {
+          "path": "skills/manim-composer/examples/equal-row-widths.jpg",
+          "kind": "image",
+          "caption": "The settled comparison explains area preservation by comparing equal-width rows."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "motion-polish",
@@ -1020,7 +1278,30 @@
         "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/motion-polish/examples/anchored-callout.jpg",
+          "kind": "image",
+          "caption": "Settled callout with its leader anchored to the sea star in the diagram."
+        },
+        {
+          "path": "skills/motion-polish/examples/anchored-callout.mp4",
+          "kind": "video",
+          "caption": "A short ease-out introduces the sea star callout, then it exits on the same path."
+        },
+        {
+          "path": "skills/motion-polish/examples/spring-marker.jpg",
+          "kind": "image",
+          "caption": "Settled illustrated check marker in the tide pool guide."
+        },
+        {
+          "path": "skills/motion-polish/examples/spring-marker.mp4",
+          "kind": "video",
+          "caption": "A check marker lands with a small overshoot before it settles."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "music-to-video",
@@ -1049,7 +1330,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/music-to-video/examples/percussive-cascade.mp4",
+          "kind": "video",
+          "caption": "A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line."
+        },
+        {
+          "path": "skills/music-to-video/examples/held-pad-message.jpg",
+          "kind": "image",
+          "caption": "A still message over the midpoint of a drifting field for the track’s sparse pad."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "open-design-motion",
@@ -1184,7 +1478,25 @@
         "license": "Not stated",
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/38db5f1fde2d80b4a7a0ecb96e5f6770"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/paper-cut-motion/examples/sailboat-collage.jpg",
+          "kind": "image",
+          "caption": "Finished torn paper sailboat with layered teal waves and visible torn edges."
+        },
+        {
+          "path": "skills/paper-cut-motion/examples/sailboat-storyboard.jpg",
+          "kind": "image",
+          "caption": "Nine panels showing how the sailboat scene builds from an empty sheet."
+        },
+        {
+          "path": "skills/paper-cut-motion/examples/sailboat-assembly.mp4",
+          "kind": "video",
+          "caption": "Silent seven-second paper assembly, following the storyboard order before holding on the collage."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "pixelfx",
@@ -1261,7 +1573,25 @@
         "license": "Not stated",
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/portrait-style-prompts/examples/ceramicist-source.jpg",
+          "kind": "image",
+          "caption": "Fictional ceramicist source still with a clear gaze and both hands visible."
+        },
+        {
+          "path": "skills/portrait-style-prompts/examples/anime.jpg",
+          "kind": "image",
+          "caption": "Cel-shaded restyle with a hard window beam and bold shadows."
+        },
+        {
+          "path": "skills/portrait-style-prompts/examples/watercolour.jpg",
+          "kind": "image",
+          "caption": "Watercolour restyle with soft light, bleeding pigment, and visible paper grain."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "r3f-physics-and-effects",
@@ -1347,7 +1677,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/svg-character-animation/examples/raised-wave-pose.jpg",
+          "kind": "image",
+          "caption": "The held wave pose after the eyes lead and the shoulder rotates."
+        },
+        {
+          "path": "skills/svg-character-animation/examples/robot-wave.mp4",
+          "kind": "video",
+          "caption": "A jointed SVG robot notices something, waves, blinks and settles."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "threejs-3d-scenes",
@@ -1486,7 +1829,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/video-translate/examples/french-cue-fit.jpg",
+          "kind": "image",
+          "caption": "French paper-folding cues with original timing windows and measured speech fit."
+        },
+        {
+          "path": "skills/video-translate/examples/spanish-cue-fit.jpg",
+          "kind": "image",
+          "caption": "Spanish paper-folding cues with original timing windows and measured speech fit."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "vox-director",
@@ -1571,7 +1927,20 @@
         "commit": "7003225dc3ed1dee9e2ef8b91b05b82c04691aa9",
         "syncedAt": "2026-11-22"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/vox-explainer/examples/paper-fan-anchor.jpg",
+          "kind": "image",
+          "caption": "Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid."
+        },
+        {
+          "path": "skills/vox-explainer/examples/accordion-cross-section.jpg",
+          "kind": "image",
+          "caption": "A close view of alternating creases, generated using the paper fan keyframe as a style reference."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     },
     {
       "slug": "wan-animation-styles",
@@ -1656,7 +2025,20 @@
         "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
         "syncedAt": "2026-11-23"
       },
-      "addedAt": "2026-11-23"
+      "addedAt": "2026-11-23",
+      "examples": [
+        {
+          "path": "skills/website-to-video/examples/trail-tour.mp4",
+          "kind": "video",
+          "caption": "A local field guide’s captured map pushes in behind a two-line tour opener."
+        },
+        {
+          "path": "skills/website-to-video/examples/trail-closeup.jpg",
+          "kind": "image",
+          "caption": "A close-up reuses the site’s original contour map to show how to spot the ridge."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip"
     }
   ],
   "installYourself": [

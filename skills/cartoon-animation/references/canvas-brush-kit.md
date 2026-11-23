@@ -136,13 +136,27 @@ function camBegin(ctx, cx, cy, zoom = 1, rot = 0) {
 }
 const camEnd = ctx => ctx.restore();
 function brushWipe(ctx, p, cols = [PAL.clay, PAL.night]) { // fat strokes cover the frame (0 to .5), then drag off (.5 to 1)
-  const bars = 6, bh = H / bars + 24;
+  const bars = 6, bh = H / bars, stagger = .035;
+  const strokeDuration = .5 - (bars - 1) * stagger;
   for (let i = 0; i < bars; i++) {
-    const d = i * .05, a = clamp((p - d) / .5, 0, 1), b = clamp((p - .5 - d) / .5, 0, 1);
-    const x0 = lerp(-W * .1, W * 1.1, easeOut(b)), x1 = lerp(-W * .1, W * 1.1, easeOut(a));
+    const delay = i * stagger;
+    const a = seg(p, delay, delay + strokeDuration);
+    const b = seg(p - .5, delay, delay + strokeDuration);
+    const x0 = lerp(-W * .15, W * 1.15, easeOut(b));
+    const x1 = lerp(-W * .15, W * 1.15, easeOut(a));
     if (x1 <= x0) continue;
+    const top = i * bh - 4, bottom = (i + 1) * bh + 4;
+    const mid = (top + bottom) / 2;
+    const taper = Math.min(W * .045, (x1 - x0) / 3);
     ctx.fillStyle = cols[i % cols.length];
-    path(ctx, [[x0, i * bh - 12], [x1 + 40, i * bh - 6], [x1, i * bh + bh], [x0 - 30, i * bh + bh - 8]]); ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(x0, top);
+    ctx.lineTo(x1, top);
+    ctx.quadraticCurveTo(x1 + taper, mid, x1 - taper, bottom);
+    ctx.lineTo(x0 - taper, bottom);
+    ctx.quadraticCurveTo(x0 + taper, mid, x0, top);
+    ctx.closePath();
+    ctx.fill();
   }
 }
 function iris(ctx, cx, cy, r, col = PAL.ink) {           // everything outside radius r is covered

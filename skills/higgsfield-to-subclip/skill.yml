@@ -12,3 +12,11 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: "Model and service names describe Subclip's live catalog and the guide's origin; the workflow uses Subclip tools only, no outside provider calls."
+examples:
+  - file: examples/ceramicist-source.jpg
+    caption: "Neutral source still with soft daylight from the studio window."
+  - file: examples/amber.jpg
+    caption: "Amber sunset through the same window creates a warm rim against teal shadows."
+  - file: examples/rain.jpg
+    caption: "Cold blue storm light with rain confined to the window glass."
+examplesCredit: "Test outputs made with this skill in Subclip"

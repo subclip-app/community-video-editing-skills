@@ -9,3 +9,13 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: JohnHeibel/ClaudeAnimationBase, author: JohnHeibel, license: MIT, commit: "0ac8bf2b31942376cb6b8c4074715595d512acd2", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
+examples:
+  - file: examples/snail-dashes-for-cover.jpg
+    caption: "Wide shot of a painted snail reaching the shelter of a leaf."
+  - file: examples/snail-dashes-for-cover.mp4
+    caption: "A raindrop startles the snail into a dash, followed by the outgoing brush wipe."
+  - file: examples/snail-peeks-out.jpg
+    caption: "Closer painted shot of the snail peeking out while rain falls around the leaf."
+  - file: examples/snail-peeks-out.mp4
+    caption: "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
+examplesCredit: "Test outputs made with this skill in Subclip"

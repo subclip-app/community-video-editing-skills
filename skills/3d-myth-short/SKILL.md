@@ -72,7 +72,7 @@ Read `references/subclip-assembly.md`. In short:
 
 - Place the three blocks back to back and trim with `trim_media_item` or `update_media_item` so the cuts land on a narration beat.
 - Zoom-ins on reveals: `add_media_keyframe` with `scale` from 1 to 1.12 over the reveal beat. Impact shakes: three or four quick keyframes of small `x` and `y` offsets (about 1 to 2 percent), then back to rest.
-- Mix: `update_audio_item` on the narrator (volume near 1) and on each block's own audio (volume about 0.35 to 0.5) so the voice stays clear.
+- Mix: use `update_audio_item` for the narrator (volume near 1) and `update_media_item` for each video block's own sound (volume about 0.35 to 0.5).
 - Optional captions with `transcribe_project`, local mode, then `update_caption_style`.
 - `set_project_duration` to the end of the last block plus a short tail. Check with `get_timeline_contact_sheet` and `view_current_frame` at every cut and every effect. Export only when asked, using `get_export_configuration`, `list_render_queue`, then `export_video`.
 - Record decisions with `update_project_director_brief` and `write_session_summary`.

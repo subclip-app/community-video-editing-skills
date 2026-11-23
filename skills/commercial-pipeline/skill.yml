@@ -12,3 +12,9 @@ addedAt: 2026-11-23
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/desk-lamp-off.jpg
+    caption: Hero product reference for a mustard desk lamp in its off state on white.
+  - file: examples/desk-lamp-on.jpg
+    caption: After-state reference for the same lamp, switched on in matching framing.
+examplesCredit: "Test outputs made with this skill in Subclip"
