@@ -46,4 +46,4 @@ A vocabulary of 44 camera angles and moves, plus our own method for choosing the
 - `references/prompt-formula.md`: the angle prompt formula and failure rules.
 - `references/our-guide.md`: choose by emotion and use case, set order, pairing, continuity, generate or fake.
 - `references/subclip-tools.md`: models, credits, the workflow and the native fake recipes.
-- `examples/`: illustrated example frames of the main angle families and the capability video.
+- `examples/`: example frames numbered `01` to `44` as in `angle-index.md` (`NN-<angle>.jpg`) and the capability video.

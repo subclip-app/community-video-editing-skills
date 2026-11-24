@@ -1194,88 +1194,228 @@
           "caption": "Capability reference, ten camera angles in one montage with labels"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/worms-eye.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/01-eye-level.jpg",
+          "kind": "image",
+          "caption": "01 Eye level: camera at the subject's eyes, neutral and honest"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/02-low-angle.jpg",
+          "kind": "image",
+          "caption": "02 Low angle: camera below, tilted up, subject feels powerful"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/03-high-angle.jpg",
+          "kind": "image",
+          "caption": "03 High angle: camera above looking down, subject feels small"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/04-birds-eye.jpg",
+          "kind": "image",
+          "caption": "04 Bird's eye: straight down from overhead, the god view"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/05-worms-eye.jpg",
           "kind": "image",
           "caption": "05 Worm's eye: camera on the floor, subject towers above"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/knee-level.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/06-over-the-shoulder.jpg",
           "kind": "image",
-          "caption": "36 Knee level: low height, whole figure in frame"
+          "caption": "06 Over the shoulder: behind one shoulder, we share her view"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/cowboy-shot.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/07-close-up.jpg",
           "kind": "image",
-          "caption": "23 Cowboy shot: head to mid-thigh, hands in view"
+          "caption": "07 Close up: the face fills the frame, emotion first"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/pov.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/08-extreme-close-up.jpg",
           "kind": "image",
-          "caption": "14 POV: first person, no hands visible"
+          "caption": "08 Extreme close up: one feature, the eyes, tells the story"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/hidden-camera.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/09-medium-shot.jpg",
           "kind": "image",
-          "caption": "29 Hidden camera: a real object blocks part of the frame"
+          "caption": "09 Medium shot: waist up, face plus body language"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/dolly-zoom.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/10-full-body.jpg",
           "kind": "image",
-          "caption": "32 Dolly zoom: same face size, stretched background"
+          "caption": "10 Full body: head to toe, posture and wardrobe"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/fisheye.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/11-wide-shot.jpg",
           "kind": "image",
-          "caption": "34 Fisheye: ultra wide lens inches from the face"
+          "caption": "11 Wide shot: the subject in her world, place established"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/whip-pan.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/12-extreme-wide.jpg",
           "kind": "image",
-          "caption": "21 Whip pan: heavy motion blur landing on the subject"
+          "caption": "12 Extreme wide: tiny subject, scale and isolation"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/drone-overview.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/13-dutch-angle.jpg",
           "kind": "image",
-          "caption": "20 Drone: sweeping high view of the whole place"
+          "caption": "13 Dutch angle: frame rolled about 20 degrees, unease"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/snorricam.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/14-pov.jpg",
           "kind": "image",
-          "caption": "31 Snorricam: face locked, world swings behind"
+          "caption": "14 POV: first person, the viewer becomes a character"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/crash-zoom.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/15-tracking.jpg",
           "kind": "image",
-          "caption": "30 Crash zoom: sudden punch-in to the face"
+          "caption": "15 Tracking: camera travels beside the subject"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/extreme-wide.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/16-dolly-in.jpg",
           "kind": "image",
-          "caption": "12 Extreme wide: tiny subject framed through an arch"
+          "caption": "16 Dolly in: steady glide forward for emphasis"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/insert.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/17-dolly-out.jpg",
           "kind": "image",
-          "caption": "24 Insert: detail of the hands, face out of frame"
+          "caption": "17 Dolly out: pull back to reveal the world"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/split-diopter.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/18-orbit.jpg",
           "kind": "image",
-          "caption": "39 Split diopter: near mug and far subject both sharp"
+          "caption": "18 Orbit: arc around the subject for a hero moment"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/steadicam-follow.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/19-crane.jpg",
           "kind": "image",
-          "caption": "42 Steadicam: smooth glide behind the subject"
+          "caption": "19 Crane: rising reveal to a bigger scale"
         },
         {
-          "path": "skills/camera-angle-prompts-guide/examples/hip-shot.jpg",
+          "path": "skills/camera-angle-prompts-guide/examples/20-drone.jpg",
           "kind": "image",
-          "caption": "37 Hip shot: loose low camera angled up"
+          "caption": "20 Drone: aerial sweep over the whole space"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/21-whip-pan.jpg",
+          "kind": "image",
+          "caption": "21 Whip pan: fast blur that slams into the next moment"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/22-profile.jpg",
+          "kind": "image",
+          "caption": "22 Profile: clean side view of the face"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/23-cowboy-shot.jpg",
+          "kind": "image",
+          "caption": "23 Cowboy shot: head to mid-thigh, attitude and hands"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/24-insert.jpg",
+          "kind": "image",
+          "caption": "24 Insert: detail of hands and objects, face out of frame"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/25-reflection.jpg",
+          "kind": "image",
+          "caption": "25 Reflection: we see her only in a mirror"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/26-dirty-frame.jpg",
+          "kind": "image",
+          "caption": "26 Dirty frame: soft foreground object adds depth"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/27-rack-focus.jpg",
+          "kind": "image",
+          "caption": "27 Rack focus: focus shifts from foreground to subject"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/28-tilt-reveal.jpg",
+          "kind": "image",
+          "caption": "28 Tilt reveal: tilt up the body, the face lands last"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/29-hidden-camera.jpg",
+          "kind": "image",
+          "caption": "29 Hidden camera: a real object blocks the frame, we feel watched"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/30-crash-zoom.jpg",
+          "kind": "image",
+          "caption": "30 Crash zoom: sudden fast punch-in for shock or comedy"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/31-snorricam.jpg",
+          "kind": "image",
+          "caption": "31 Snorricam: face locked, the world swings around it"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/32-dolly-zoom.jpg",
+          "kind": "image",
+          "caption": "32 Dolly zoom: vertigo, background stretches behind a steady face"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/33-barrel-roll.jpg",
+          "kind": "image",
+          "caption": "33 Barrel roll: the whole world turns over and lands level"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/34-fisheye.jpg",
+          "kind": "image",
+          "caption": "34 Fisheye: ultra wide glass bends the room, playful"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/35-ground-level.jpg",
+          "kind": "image",
+          "caption": "35 Ground level: camera on the floor, feet first, world towers above"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/36-knee-level.jpg",
+          "kind": "image",
+          "caption": "36 Knee level: low but whole figure in frame"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/37-hip-shot.jpg",
+          "kind": "image",
+          "caption": "37 Hip shot: raw, loose camera held at the hip"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/38-frame-within-a-frame.jpg",
+          "kind": "image",
+          "caption": "38 Frame within a frame: a doorway boxes the subject in"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/39-split-diopter.jpg",
+          "kind": "image",
+          "caption": "39 Split diopter: near and far both sharp"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/40-macro.jpg",
+          "kind": "image",
+          "caption": "40 Macro: intimate texture and tiny detail"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/41-handheld.jpg",
+          "kind": "image",
+          "caption": "41 Handheld: loose camera that breathes, real and urgent"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/42-steadicam.jpg",
+          "kind": "image",
+          "caption": "42 Steadicam: smooth glide with the character"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/43-pedestal-up.jpg",
+          "kind": "image",
+          "caption": "43 Pedestal up: camera rises straight up without tilting"
+        },
+        {
+          "path": "skills/camera-angle-prompts-guide/examples/44-slow-pan.jpg",
+          "kind": "image",
+          "caption": "44 Slow pan: camera turns on the spot to find her"
         }
       ],
-      "examplesCredit": "Original illustrated frames made for this skill by Subclip. Images: gpt-image-2 (Codex CLI image generation). Montage clip assembled from those frames, no video model.",
-      "examplesKind": "original"
+      "examplesCredit": "Our own illustrated frames. Image: gpt-image-2 (Codex CLI). Video montage built in HyperFrames. Angle list from the guide by Digital Windows AI.",
+      "examplesKind": "test"
     },
     {
       "slug": "cartoon-animation",

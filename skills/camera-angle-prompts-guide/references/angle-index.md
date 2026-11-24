@@ -4,6 +4,8 @@ The angle names follow the list in the guide "44 Cinematic Camera Angles: The Pr
 
 Where an angle is already written up in the `ai-camera-shots` skill, this table points to it by slug instead of repeating it. Everything else is written out in the family file.
 
+The numbers match the PDF order and the example images: `examples/NN-<angle>.jpg` (for example `01-eye-level.jpg`, `44-slow-pan.jpg`) is our own illustration of angle NN.
+
 | # | Angle | Written in | Native fake? |
 | --- | --- | --- | --- |
 | 1 | Eye level | `ai-camera-shots` (eye level) | yes |

@@ -17,37 +17,93 @@ allowlist:
 examples:
   - file: examples/capability-camera-angles.mp4
     caption: Capability reference, ten camera angles in one montage with labels
-  - file: examples/worms-eye.jpg
-    caption: 05 Worm's eye: camera on the floor, subject towers above
-  - file: examples/knee-level.jpg
-    caption: 36 Knee level: low height, whole figure in frame
-  - file: examples/cowboy-shot.jpg
-    caption: 23 Cowboy shot: head to mid-thigh, hands in view
-  - file: examples/pov.jpg
-    caption: 14 POV: first person, no hands visible
-  - file: examples/hidden-camera.jpg
-    caption: 29 Hidden camera: a real object blocks part of the frame
-  - file: examples/dolly-zoom.jpg
-    caption: 32 Dolly zoom: same face size, stretched background
-  - file: examples/fisheye.jpg
-    caption: 34 Fisheye: ultra wide lens inches from the face
-  - file: examples/whip-pan.jpg
-    caption: 21 Whip pan: heavy motion blur landing on the subject
-  - file: examples/drone-overview.jpg
-    caption: 20 Drone: sweeping high view of the whole place
-  - file: examples/snorricam.jpg
-    caption: 31 Snorricam: face locked, world swings behind
-  - file: examples/crash-zoom.jpg
-    caption: 30 Crash zoom: sudden punch-in to the face
-  - file: examples/extreme-wide.jpg
-    caption: 12 Extreme wide: tiny subject framed through an arch
-  - file: examples/insert.jpg
-    caption: 24 Insert: detail of the hands, face out of frame
-  - file: examples/split-diopter.jpg
-    caption: 39 Split diopter: near mug and far subject both sharp
-  - file: examples/steadicam-follow.jpg
-    caption: 42 Steadicam: smooth glide behind the subject
-  - file: examples/hip-shot.jpg
-    caption: 37 Hip shot: loose low camera angled up
-examplesCredit: "Original illustrated frames made for this skill by Subclip. Images: gpt-image-2 (Codex CLI image generation). Montage clip assembled from those frames, no video model."
-examplesKind: original
+  - file: examples/01-eye-level.jpg
+    caption: "01 Eye level: camera at the subject's eyes, neutral and honest"
+  - file: examples/02-low-angle.jpg
+    caption: "02 Low angle: camera below, tilted up, subject feels powerful"
+  - file: examples/03-high-angle.jpg
+    caption: "03 High angle: camera above looking down, subject feels small"
+  - file: examples/04-birds-eye.jpg
+    caption: "04 Bird's eye: straight down from overhead, the god view"
+  - file: examples/05-worms-eye.jpg
+    caption: "05 Worm's eye: camera on the floor, subject towers above"
+  - file: examples/06-over-the-shoulder.jpg
+    caption: "06 Over the shoulder: behind one shoulder, we share her view"
+  - file: examples/07-close-up.jpg
+    caption: "07 Close up: the face fills the frame, emotion first"
+  - file: examples/08-extreme-close-up.jpg
+    caption: "08 Extreme close up: one feature, the eyes, tells the story"
+  - file: examples/09-medium-shot.jpg
+    caption: "09 Medium shot: waist up, face plus body language"
+  - file: examples/10-full-body.jpg
+    caption: "10 Full body: head to toe, posture and wardrobe"
+  - file: examples/11-wide-shot.jpg
+    caption: "11 Wide shot: the subject in her world, place established"
+  - file: examples/12-extreme-wide.jpg
+    caption: "12 Extreme wide: tiny subject, scale and isolation"
+  - file: examples/13-dutch-angle.jpg
+    caption: "13 Dutch angle: frame rolled about 20 degrees, unease"
+  - file: examples/14-pov.jpg
+    caption: "14 POV: first person, the viewer becomes a character"
+  - file: examples/15-tracking.jpg
+    caption: "15 Tracking: camera travels beside the subject"
+  - file: examples/16-dolly-in.jpg
+    caption: "16 Dolly in: steady glide forward for emphasis"
+  - file: examples/17-dolly-out.jpg
+    caption: "17 Dolly out: pull back to reveal the world"
+  - file: examples/18-orbit.jpg
+    caption: "18 Orbit: arc around the subject for a hero moment"
+  - file: examples/19-crane.jpg
+    caption: "19 Crane: rising reveal to a bigger scale"
+  - file: examples/20-drone.jpg
+    caption: "20 Drone: aerial sweep over the whole space"
+  - file: examples/21-whip-pan.jpg
+    caption: "21 Whip pan: fast blur that slams into the next moment"
+  - file: examples/22-profile.jpg
+    caption: "22 Profile: clean side view of the face"
+  - file: examples/23-cowboy-shot.jpg
+    caption: "23 Cowboy shot: head to mid-thigh, attitude and hands"
+  - file: examples/24-insert.jpg
+    caption: "24 Insert: detail of hands and objects, face out of frame"
+  - file: examples/25-reflection.jpg
+    caption: "25 Reflection: we see her only in a mirror"
+  - file: examples/26-dirty-frame.jpg
+    caption: "26 Dirty frame: soft foreground object adds depth"
+  - file: examples/27-rack-focus.jpg
+    caption: "27 Rack focus: focus shifts from foreground to subject"
+  - file: examples/28-tilt-reveal.jpg
+    caption: "28 Tilt reveal: tilt up the body, the face lands last"
+  - file: examples/29-hidden-camera.jpg
+    caption: "29 Hidden camera: a real object blocks the frame, we feel watched"
+  - file: examples/30-crash-zoom.jpg
+    caption: "30 Crash zoom: sudden fast punch-in for shock or comedy"
+  - file: examples/31-snorricam.jpg
+    caption: "31 Snorricam: face locked, the world swings around it"
+  - file: examples/32-dolly-zoom.jpg
+    caption: "32 Dolly zoom: vertigo, background stretches behind a steady face"
+  - file: examples/33-barrel-roll.jpg
+    caption: "33 Barrel roll: the whole world turns over and lands level"
+  - file: examples/34-fisheye.jpg
+    caption: "34 Fisheye: ultra wide glass bends the room, playful"
+  - file: examples/35-ground-level.jpg
+    caption: "35 Ground level: camera on the floor, feet first, world towers above"
+  - file: examples/36-knee-level.jpg
+    caption: "36 Knee level: low but whole figure in frame"
+  - file: examples/37-hip-shot.jpg
+    caption: "37 Hip shot: raw, loose camera held at the hip"
+  - file: examples/38-frame-within-a-frame.jpg
+    caption: "38 Frame within a frame: a doorway boxes the subject in"
+  - file: examples/39-split-diopter.jpg
+    caption: "39 Split diopter: near and far both sharp"
+  - file: examples/40-macro.jpg
+    caption: "40 Macro: intimate texture and tiny detail"
+  - file: examples/41-handheld.jpg
+    caption: "41 Handheld: loose camera that breathes, real and urgent"
+  - file: examples/42-steadicam.jpg
+    caption: "42 Steadicam: smooth glide with the character"
+  - file: examples/43-pedestal-up.jpg
+    caption: "43 Pedestal up: camera rises straight up without tilting"
+  - file: examples/44-slow-pan.jpg
+    caption: "44 Slow pan: camera turns on the spot to find her"
+examplesCredit: "Our own illustrated frames. Image: gpt-image-2 (Codex CLI). Video montage built in HyperFrames. Angle list from the guide by Digital Windows AI."
+examplesKind: test
