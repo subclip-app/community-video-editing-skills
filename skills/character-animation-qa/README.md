@@ -28,7 +28,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 <p align="center"><img src="examples/wave-fixed-review.jpg" alt="The same five sample times after the shoulder translation was removed." width="720"><br><sub>The same five sample times after the shoulder translation was removed.</sub></p>
 
-<p align="center"><video src="examples/robot-wave-shoulder-review.mp4" controls muted loop playsinline width="720"></video><br><sub>A robot waves with a detached shoulder, then repeats the wave after the shoulder fix.</sub></p>
+<p align="center"><a href="examples/robot-wave-shoulder-review.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/character-animation-qa/robot-wave-shoulder-review.gif" alt="A robot waves with a detached shoulder, then repeats the wave after the shoulder fix." width="480"></a><br><sub>A robot waves with a detached shoulder, then repeats the wave after the shoulder fix. <a href="examples/robot-wave-shoulder-review.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
 

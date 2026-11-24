@@ -32,7 +32,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 <p align="center"><img src="examples/third-beat-fan.jpg" alt="The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid." width="720"><br><sub>The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid.</sub></p>
 
-<p align="center"><video src="examples/paper-beat-cuts.mp4" controls muted loop playsinline width="720"></video><br><sub>Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four.</sub></p>
+<p align="center"><a href="examples/paper-beat-cuts.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cut-to-the-beat/paper-beat-cuts.gif" alt="Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four." width="480"></a><br><sub>Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four. <a href="examples/paper-beat-cuts.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
 

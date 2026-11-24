@@ -45,11 +45,11 @@ It uses only Subclip's own tools. No outside API keys, no scripts to run.
 
 <p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=aXMPh927_fI">Alexander H. King Interview</a>, Purdue University Archives and Special Collections, CC BY</sub></p>
 
-<p align="center"><video src="examples/short-1.mp4" controls muted loop playsinline width="720"></video><br><sub>King takes up fencing to avoid rugby and goes on to represent the United Kingdom.</sub></p>
+<p align="center"><a href="examples/short-1.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-1.gif" alt="King takes up fencing to avoid rugby and goes on to represent the United Kingdom." width="480"></a><br><sub>King takes up fencing to avoid rugby and goes on to represent the United Kingdom. <a href="examples/short-1.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/short-2.mp4" controls muted loop playsinline width="720"></video><br><sub>A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line.</sub></p>
+<p align="center"><a href="examples/short-2.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-2.gif" alt="A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line." width="480"></a><br><sub>A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line. <a href="examples/short-2.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/short-3.mp4" controls muted loop playsinline width="720"></video><br><sub>King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool.</sub></p>
+<p align="center"><a href="examples/short-3.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-3.gif" alt="King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool." width="480"></a><br><sub>King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool. <a href="examples/short-3.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/plan.jpg" alt="Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions." width="720"><br><sub>Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions.</sub></p>
 

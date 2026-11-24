@@ -40,21 +40,21 @@ No keys are needed. Layers cannot install packages, fetch data or read your file
 
 ## Examples
 
-<p align="center"><video src="examples/capability-remotion-motion-layers.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: maps, charts, titles and device scenes as Remotion layers</sub></p>
+<p align="center"><a href="examples/capability-remotion-motion-layers.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/capability-remotion-motion-layers.gif" alt="Capability reference: maps, charts, titles and device scenes as Remotion layers" width="480"></a><br><sub>Capability reference: maps, charts, titles and device scenes as Remotion layers <a href="examples/capability-remotion-motion-layers.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-map-explainer.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: Cesium globe route between two cities</sub></p>
+<p align="center"><a href="examples/remotion-map-explainer.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-map-explainer.gif" alt="Remotion template: Cesium globe route between two cities" width="480"></a><br><sub>Remotion template: Cesium globe route between two cities <a href="examples/remotion-map-explainer.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-river-sequence.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: flat vector map with an ordered route line</sub></p>
+<p align="center"><a href="examples/remotion-river-sequence.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-river-sequence.gif" alt="Remotion template: flat vector map with an ordered route line" width="480"></a><br><sub>Remotion template: flat vector map with an ordered route line <a href="examples/remotion-river-sequence.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-animated-pie-chart.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: animated pie chart with a legend, driven by props</sub></p>
+<p align="center"><a href="examples/remotion-animated-pie-chart.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-animated-pie-chart.gif" alt="Remotion template: animated pie chart with a legend, driven by props" width="480"></a><br><sub>Remotion template: animated pie chart with a legend, driven by props <a href="examples/remotion-animated-pie-chart.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-glitch-text.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: glitch text title</sub></p>
+<p align="center"><a href="examples/remotion-glitch-text.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-glitch-text.gif" alt="Remotion template: glitch text title" width="480"></a><br><sub>Remotion template: glitch text title <a href="examples/remotion-glitch-text.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-golden-bounce-3d.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: 3D golden spheres bouncing, rendered with Three.js</sub></p>
+<p align="center"><a href="examples/remotion-golden-bounce-3d.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-golden-bounce-3d.gif" alt="Remotion template: 3D golden spheres bouncing, rendered with Three.js" width="480"></a><br><sub>Remotion template: 3D golden spheres bouncing, rendered with Three.js <a href="examples/remotion-golden-bounce-3d.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-phone-frame.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: phone frame holding a clip on screen</sub></p>
+<p align="center"><a href="examples/remotion-phone-frame.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-phone-frame.gif" alt="Remotion template: phone frame holding a clip on screen" width="480"></a><br><sub>Remotion template: phone frame holding a clip on screen <a href="examples/remotion-phone-frame.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/remotion-terminal-simulator.mp4" controls muted loop playsinline width="720"></video><br><sub>Remotion template: terminal simulator with a typed command</sub></p>
+<p align="center"><a href="examples/remotion-terminal-simulator.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers/remotion-terminal-simulator.gif" alt="Remotion template: terminal simulator with a typed command" width="480"></a><br><sub>Remotion template: terminal simulator with a typed command <a href="examples/remotion-terminal-simulator.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Subclip motion graphics template previews, each listed as a Remotion template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.</sub></p>
 

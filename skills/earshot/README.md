@@ -28,7 +28,7 @@ No API keys, and the agent never installs or runs anything without your yes. Cre
 
 ## Examples
 
-<p align="center"><video src="examples/capability-sound-design.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS.</sub></p>
+<p align="center"><a href="examples/capability-sound-design.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/earshot/capability-sound-design.gif" alt="Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS." width="480"></a><br><sub>Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS. <a href="examples/capability-sound-design.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/waveform-markers.jpg" alt="Frame from the reference clip at the impact, with cue labels on the mixed waveform." width="720"><br><sub>Frame from the reference clip at the impact, with cue labels on the mixed waveform.</sub></p>
 

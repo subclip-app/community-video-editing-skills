@@ -34,7 +34,7 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 <p align="center"><img src="examples/rain.jpg" alt="Cold blue storm light with rain confined to the window glass. Image: gpt-image-2." width="720"><br><sub>Cold blue storm light with rain confined to the window glass. Image: gpt-image-2.</sub></p>
 
-<p align="center"><video src="examples/ceramicist-lighting-study.mp4" controls muted loop playsinline width="720"></video><br><sub>Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model.</sub></p>
+<p align="center"><a href="examples/ceramicist-lighting-study.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/higgsfield-to-subclip/ceramicist-lighting-study.gif" alt="Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model." width="480"></a><br><sub>Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model. <a href="examples/ceramicist-lighting-study.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
 

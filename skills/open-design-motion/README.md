@@ -17,7 +17,7 @@ The cover is an original illustration of the Motion Frames recipe. Open Design p
 
 ## Examples
 
-<p align="center"><video src="examples/studio-motion-demo.mp4" controls muted loop playsinline width="720"></video><br><sub>Open Design Studio preview of an animated product headline and scrolling text.</sub></p>
+<p align="center"><a href="examples/studio-motion-demo.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-motion/studio-motion-demo.gif" alt="Open Design Studio preview of an animated product headline and scrolling text." width="480"></a><br><sub>Open Design Studio preview of an animated product headline and scrolling text. <a href="examples/studio-motion-demo.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/studio-title-frame.jpg" alt="Studio still with a lime highlight and a line of scrolling deliverables." width="720"><br><sub>Studio still with a lime highlight and a line of scrolling deliverables.</sub></p>
 

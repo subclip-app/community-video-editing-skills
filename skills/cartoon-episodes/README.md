@@ -20,7 +20,7 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 <p align="center"><img src="examples/greenhouse-set.jpg" alt="Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2." width="720"><br><sub>Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2.</sub></p>
 
-<p align="center"><video src="examples/juniper-and-the-greenhouse.mp4" controls muted loop playsinline width="720"></video><br><sub>Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model.</sub></p>
+<p align="center"><a href="examples/juniper-and-the-greenhouse.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-episodes/juniper-and-the-greenhouse.gif" alt="Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model." width="480"></a><br><sub>Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model. <a href="examples/juniper-and-the-greenhouse.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
 

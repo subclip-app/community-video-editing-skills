@@ -28,9 +28,9 @@ The original is a Node library with render tools, a gallery, sprite sheet export
 
 ## Examples
 
-<p align="center"><video src="examples/pixel-effects.mp4" controls muted loop playsinline width="720"></video><br><sub>Looping pixel effects include fire, waterfalls and portals</sub></p>
+<p align="center"><a href="examples/pixel-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/pixel-effects.gif" alt="Looping pixel effects include fire, waterfalls and portals" width="480"></a><br><sub>Looping pixel effects include fire, waterfalls and portals <a href="examples/pixel-effects.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/character-effects.mp4" controls muted loop playsinline width="720"></video><br><sub>A pixel dummy winds up and strikes as sparks and impacts play</sub></p>
+<p align="center"><a href="examples/character-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/character-effects.gif" alt="A pixel dummy winds up and strikes as sparks and impacts play" width="480"></a><br><sub>A pixel dummy winds up and strikes as sparks and impacts play <a href="examples/character-effects.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/elemental-effects.jpg" alt="A close look at five effects from the original gallery grid" width="720"><br><sub>A close look at five effects from the original gallery grid</sub></p>
 

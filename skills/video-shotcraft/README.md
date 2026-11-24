@@ -19,11 +19,11 @@ This edition rewrites the production workflow for native Subclip layers, timelin
 
 ## Examples
 
-<p align="center"><video src="examples/exploded-view.mp4" controls muted loop playsinline width="720"></video><br><sub>A camera tilts around an interface as its panels separate</sub></p>
+<p align="center"><a href="examples/exploded-view.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-shotcraft/exploded-view.gif" alt="A camera tilts around an interface as its panels separate" width="480"></a><br><sub>A camera tilts around an interface as its panels separate <a href="examples/exploded-view.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/chart-rescale.mp4" controls muted loop playsinline width="720"></video><br><sub>A spike in monthly renders forces the chart axis to rescale</sub></p>
+<p align="center"><a href="examples/chart-rescale.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-shotcraft/chart-rescale.gif" alt="A spike in monthly renders forces the chart axis to rescale" width="480"></a><br><sub>A spike in monthly renders forces the chart axis to rescale <a href="examples/chart-rescale.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/spotlight-title.mp4" controls muted loop playsinline width="720"></video><br><sub>A moving spotlight reveals a title against a dark stage</sub></p>
+<p align="center"><a href="examples/spotlight-title.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-shotcraft/spotlight-title.gif" alt="A moving spotlight reveals a title against a dark stage" width="480"></a><br><sub>A moving spotlight reveals a title against a dark stage <a href="examples/spotlight-title.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/text-mask.jpg" alt="A dashboard shows through oversized title letters" width="720"><br><sub>A dashboard shows through oversized title letters</sub></p>
 

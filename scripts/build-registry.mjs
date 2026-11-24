@@ -80,13 +80,20 @@ export function examplesBlock(m) {
   if (!items.length) return null;
   const out = ['<!-- examples:start -->', '', '## Examples', ''];
   if (m.sourceVideo) out.push(`<p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=${attr(m.sourceVideo.youtube)}">${attr(m.sourceVideo.title)}</a>, ${attr(m.sourceVideo.channel)}, ${attr(m.sourceVideo.license)}</sub></p>`, '');
+  // GitHub strips video tags from READMEs, so every clip is a looping GIF (hosted on the CDN) that links to the MP4.
+  // Only the first EXAMPLE_GIF_LIMIT clips get a GIF; the rest are listed as links.
+  let gifs = 0; const links = [];
   for (const item of items) {
     const src = item.file.split('/').map(encodeURIComponent).join('/');
     const caption = item.caption ? `<br><sub>${attr(item.caption)}</sub>` : '';
-    out.push(/\.mp4$/i.test(item.file)
-      ? `<p align="center"><video src="${src}" controls muted loop playsinline width="720"></video>${caption}</p>`
-      : `<p align="center"><img src="${src}" alt="${attr(item.caption ?? m.name)}" width="720">${caption}</p>`, '');
+    if (!/\.mp4$/i.test(item.file)) { out.push(`<p align="center"><img src="${src}" alt="${attr(item.caption ?? m.name)}" width="720">${caption}</p>`, ''); continue; }
+    const name = item.file.replace(/^examples\//, '').replace(/\.mp4$/i, '');
+    if (gifs < EXAMPLE_GIF_LIMIT) {
+      gifs += 1;
+      out.push(`<p align="center"><a href="${src}"><img src="${README_PREVIEW_BASE}/${attr(m.slug)}/${encodeURIComponent(name)}.gif" alt="${attr(item.caption ?? m.name)}" width="480"></a><br><sub>${item.caption ? `${attr(item.caption)} ` : ''}<a href="${src}">Play with sound</a></sub></p>`, '');
+    } else links.push(`<li><a href="${src}">${attr(item.caption ?? name)}</a></li>`);
   }
+  if (links.length) out.push('<details><summary>More example videos</summary>', '', `<ul>${links.join('')}</ul>`, '', '</details>', '');
   if (m.examplesCredit) out.push(`<p align="center"><sub>${attr(m.examplesCredit)}</sub></p>`, '');
   out.push('<!-- examples:end -->');
   return out.join('\n');
@@ -98,6 +105,7 @@ function withExamples(readme, block) {
   return at === -1 ? `${readme.replace(/\s*$/, '')}\n\n${block}\n` : `${readme.slice(0, at)}${block}\n\n${readme.slice(at)}`;
 }
 /** Looping preview GIFs for the README (GitHub cannot play repo MP4s inline). Made from each skill's preview.mp4 and hosted on the public CDN (see subclip-web scripts/publish-community-readme-previews.mjs). */
+export const EXAMPLE_GIF_LIMIT = 12;
 export const README_PREVIEW_BASE = 'https://subclipweb.subclip.app/agent-skills/community-readme';
 const SITE_SKILL = 'https://www.subclip.app/agent-skills/community';
 /** README catalog: a jump bar, then one section per category with a 2-column grid of looping previews, name, summary, credit and links. */

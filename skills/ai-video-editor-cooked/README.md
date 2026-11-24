@@ -16,7 +16,7 @@ What changed from the original: the Python pipeline, Remotion renderer, browser 
 
 <p align="center"><img src="examples/default-style-brief.jpg" alt="A numeric style brief and a visual cue tied to the exact word that triggers it." width="720"><br><sub>A numeric style brief and a visual cue tied to the exact word that triggers it.</sub></p>
 
-<p align="center"><video src="examples/retake-log-to-style-brief.mp4" controls muted loop playsinline width="720"></video><br><sub>A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take.</sub></p>
+<p align="center"><a href="examples/retake-log-to-style-brief.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-video-editor-cooked/retake-log-to-style-brief.gif" alt="A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take." width="480"></a><br><sub>A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take. <a href="examples/retake-log-to-style-brief.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
 

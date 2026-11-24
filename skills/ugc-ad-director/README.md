@@ -26,7 +26,7 @@ The method came from a master prompt written for another video generator, with H
 
 <p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=nqRugrnnKmc">How to Create AI UGC Ads with ChatGPT + Google Flow Agent Mode (Full Course)</a>, Lyra Ai, Standard YouTube License</sub></p>
 
-<p align="center"><video src="examples/capability-ugc-ad-director.mp4" controls muted loop playsinline width="720"></video><br><sub>The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard.</sub></p>
+<p align="center"><a href="examples/capability-ugc-ad-director.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-director/capability-ugc-ad-director.gif" alt="The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard." width="480"></a><br><sub>The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard. <a href="examples/capability-ugc-ad-director.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/character-sheet.jpg" alt="Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions)." width="720"><br><sub>Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions).</sub></p>
 

@@ -18,11 +18,11 @@ The original MIT notice is in [LICENSE](LICENSE). The cover is original artwork.
 
 ## Examples
 
-<p align="center"><video src="examples/early-football.mp4" controls muted loop playsinline width="720"></video><br><sub>An excerpt on early football told with animated paper cutouts</sub></p>
+<p align="center"><a href="examples/early-football.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-director/early-football.gif" alt="An excerpt on early football told with animated paper cutouts" width="480"></a><br><sub>An excerpt on early football told with animated paper cutouts <a href="examples/early-football.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/early-money.mp4" controls muted loop playsinline width="720"></video><br><sub>A vertical collage excerpt about barter and early coins</sub></p>
+<p align="center"><a href="examples/early-money.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-director/early-money.gif" alt="A vertical collage excerpt about barter and early coins" width="480"></a><br><sub>A vertical collage excerpt about barter and early coins <a href="examples/early-money.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/silk-road.mp4" controls muted loop playsinline width="720"></video><br><sub>An illustrated Tang dynasty excerpt with a Silk Road caravan</sub></p>
+<p align="center"><a href="examples/silk-road.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-director/silk-road.gif" alt="An illustrated Tang dynasty excerpt with a Silk Road caravan" width="480"></a><br><sub>An illustrated Tang dynasty excerpt with a Silk Road caravan <a href="examples/silk-road.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/football-collage.jpg" alt="A football and a bold date layered over old paper" width="720"><br><sub>A football and a bold date layered over old paper</sub></p>
 

@@ -28,7 +28,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 ## Examples
 
-<p align="center"><video src="examples/shear-area.mp4" controls muted loop playsinline width="720"></video><br><sub>A rectangle shears slowly while its highlighted horizontal rows keep the same length.</sub></p>
+<p align="center"><a href="examples/shear-area.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/manim-composer/shear-area.gif" alt="A rectangle shears slowly while its highlighted horizontal rows keep the same length." width="480"></a><br><sub>A rectangle shears slowly while its highlighted horizontal rows keep the same length. <a href="examples/shear-area.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/equal-row-widths.jpg" alt="The settled comparison explains area preservation by comparing equal-width rows." width="720"><br><sub>The settled comparison explains area preservation by comparing equal-width rows.</sub></p>
 

@@ -28,7 +28,7 @@ Pair it with the `character-animation-qa` skill to review the result.
 
 <p align="center"><img src="examples/raised-wave-pose.jpg" alt="The held wave pose after the eyes lead and the shoulder rotates." width="720"><br><sub>The held wave pose after the eyes lead and the shoulder rotates.</sub></p>
 
-<p align="center"><video src="examples/robot-wave.mp4" controls muted loop playsinline width="720"></video><br><sub>A jointed SVG robot notices something, waves, blinks and settles.</sub></p>
+<p align="center"><a href="examples/robot-wave.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/svg-character-animation/robot-wave.gif" alt="A jointed SVG robot notices something, waves, blinks and settles." width="480"></a><br><sub>A jointed SVG robot notices something, waves, blinks and settles. <a href="examples/robot-wave.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
 

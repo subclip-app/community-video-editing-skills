@@ -24,7 +24,7 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
-<p align="center"><video src="examples/capability-camera-angles.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference, ten camera angles in one montage with labels</sub></p>
+<p align="center"><a href="examples/capability-camera-angles.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/camera-angle-prompts-guide/capability-camera-angles.gif" alt="Capability reference, ten camera angles in one montage with labels" width="480"></a><br><sub>Capability reference, ten camera angles in one montage with labels <a href="examples/capability-camera-angles.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/01-eye-level.jpg" alt="01 Eye level: camera at the subject's eyes, neutral and honest" width="720"><br><sub>01 Eye level: camera at the subject's eyes, neutral and honest</sub></p>
 

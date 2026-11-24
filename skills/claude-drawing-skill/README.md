@@ -18,7 +18,7 @@ Try asking your agent to draw a small red kite over an ink-wash ridge in six sec
 
 ## Examples
 
-<p align="center"><video src="examples/moon-river.mp4" controls muted loop playsinline width="720"></video><br><sub>An ink wash landscape takes shape in successive drawing passes</sub></p>
+<p align="center"><a href="examples/moon-river.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/claude-drawing-skill/moon-river.gif" alt="An ink wash landscape takes shape in successive drawing passes" width="480"></a><br><sub>An ink wash landscape takes shape in successive drawing passes <a href="examples/moon-river.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/paper-balloons.jpg" alt="Layered paper balloons float over a cutout landscape" width="720"><br><sub>Layered paper balloons float over a cutout landscape</sub></p>
 

@@ -48,7 +48,7 @@ Fictional avatars or your own likeness with your consent only. No health, medica
 
 <p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=UplOo693FMg">How To Create Ultra Real AI Avatar</a>, Website Learners, Standard YouTube License</sub></p>
 
-<p align="center"><video src="examples/capability-ugc-ad.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: a 16 s UGC ad for a fictional mug, three avatar clips, captions, hook, AI label, call to action</sub></p>
+<p align="center"><a href="examples/capability-ugc-ad.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-engine/capability-ugc-ad.gif" alt="Capability reference: a 16 s UGC ad for a fictional mug, three avatar clips, captions, hook, AI label, call to action" width="480"></a><br><sub>Capability reference: a 16 s UGC ad for a fictional mug, three avatar clips, captions, hook, AI label, call to action <a href="examples/capability-ugc-ad.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/angles.jpg" alt="Phase 1 output: the angle table the creator picks from (the single gate)" width="720"><br><sub>Phase 1 output: the angle table the creator picks from (the single gate)</sub></p>
 

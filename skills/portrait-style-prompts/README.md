@@ -31,7 +31,7 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 <p align="center"><img src="examples/watercolour.jpg" alt="Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2." width="720"><br><sub>Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2.</sub></p>
 
-<p align="center"><video src="examples/ceramicist-style-study.mp4" controls muted loop playsinline width="720"></video><br><sub>The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model.</sub></p>
+<p align="center"><a href="examples/ceramicist-style-study.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/portrait-style-prompts/ceramicist-style-study.gif" alt="The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model." width="480"></a><br><sub>The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model. <a href="examples/ceramicist-style-study.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
 

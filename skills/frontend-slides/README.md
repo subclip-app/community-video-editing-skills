@@ -18,7 +18,7 @@ Start with a topic, an outline, an existing Subclip slide project, or slide copy
 
 <p align="center"><img src="examples/field-notebook.jpg" alt="Field notebook wildcard with ruled paper and a teal specimen drawing." width="720"><br><sub>Field notebook wildcard with ruled paper and a teal specimen drawing.</sub></p>
 
-<p align="center"><video src="examples/forest-slide-openers.mp4" controls muted loop playsinline width="720"></video><br><sub>Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles.</sub></p>
+<p align="center"><a href="examples/forest-slide-openers.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/frontend-slides/forest-slide-openers.gif" alt="Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles." width="480"></a><br><sub>Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles. <a href="examples/forest-slide-openers.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
 

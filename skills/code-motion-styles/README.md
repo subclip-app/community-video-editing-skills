@@ -14,39 +14,35 @@ Eighty-six list entries were checked in all; 67 are already covered by other com
 
 ## Examples
 
-<p align="center"><video src="examples/capability-motion-styles.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: eight styles in one 26 second montage</sub></p>
+<p align="center"><a href="examples/capability-motion-styles.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/capability-motion-styles.gif" alt="Capability reference: eight styles in one 26 second montage" width="480"></a><br><sub>Capability reference: eight styles in one 26 second montage <a href="examples/capability-motion-styles.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/01-falling-stack-chart.mp4" controls muted loop playsinline width="720"></video><br><sub>01 Falling-stack 3D chart</sub></p>
+<p align="center"><a href="examples/01-falling-stack-chart.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/01-falling-stack-chart.gif" alt="01 Falling-stack 3D chart" width="480"></a><br><sub>01 Falling-stack 3D chart <a href="examples/01-falling-stack-chart.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/02-proof-machine.mp4" controls muted loop playsinline width="720"></video><br><sub>02 Proof machine (maths as a machine)</sub></p>
+<p align="center"><a href="examples/02-proof-machine.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/02-proof-machine.gif" alt="02 Proof machine (maths as a machine)" width="480"></a><br><sub>02 Proof machine (maths as a machine) <a href="examples/02-proof-machine.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/03-line-art-science-diagram.mp4" controls muted loop playsinline width="720"></video><br><sub>03 Line-art science diagram</sub></p>
+<p align="center"><a href="examples/03-line-art-science-diagram.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/03-line-art-science-diagram.gif" alt="03 Line-art science diagram" width="480"></a><br><sub>03 Line-art science diagram <a href="examples/03-line-art-science-diagram.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/04-chain-reaction.mp4" controls muted loop playsinline width="720"></video><br><sub>04 Chain reaction (flat rube-goldberg)</sub></p>
+<p align="center"><a href="examples/04-chain-reaction.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/04-chain-reaction.gif" alt="04 Chain reaction (flat rube-goldberg)" width="480"></a><br><sub>04 Chain reaction (flat rube-goldberg) <a href="examples/04-chain-reaction.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/05-minimal-line-art.mp4" controls muted loop playsinline width="720"></video><br><sub>05 Minimal line art on black</sub></p>
+<p align="center"><a href="examples/05-minimal-line-art.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/05-minimal-line-art.gif" alt="05 Minimal line art on black" width="480"></a><br><sub>05 Minimal line art on black <a href="examples/05-minimal-line-art.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/06-glow-sketch.mp4" controls muted loop playsinline width="720"></video><br><sub>06 Glow sketch (dotted gold on black)</sub></p>
+<p align="center"><a href="examples/06-glow-sketch.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/06-glow-sketch.gif" alt="06 Glow sketch (dotted gold on black)" width="480"></a><br><sub>06 Glow sketch (dotted gold on black) <a href="examples/06-glow-sketch.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/07-stickman-notebook.mp4" controls muted loop playsinline width="720"></video><br><sub>07 Stickman notebook doodle</sub></p>
+<p align="center"><a href="examples/07-stickman-notebook.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/07-stickman-notebook.gif" alt="07 Stickman notebook doodle" width="480"></a><br><sub>07 Stickman notebook doodle <a href="examples/07-stickman-notebook.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/08-cel-anime-launch.mp4" controls muted loop playsinline width="720"></video><br><sub>08 90s cel-anime launch</sub></p>
+<p align="center"><a href="examples/08-cel-anime-launch.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/08-cel-anime-launch.gif" alt="08 90s cel-anime launch" width="480"></a><br><sub>08 90s cel-anime launch <a href="examples/08-cel-anime-launch.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/09-brick-built-world.mp4" controls muted loop playsinline width="720"></video><br><sub>09 Brick-built world</sub></p>
+<p align="center"><a href="examples/09-brick-built-world.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/09-brick-built-world.gif" alt="09 Brick-built world" width="480"></a><br><sub>09 Brick-built world <a href="examples/09-brick-built-world.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/10-particle-galaxy.mp4" controls muted loop playsinline width="720"></video><br><sub>10 Particle galaxy</sub></p>
+<p align="center"><a href="examples/10-particle-galaxy.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/10-particle-galaxy.gif" alt="10 Particle galaxy" width="480"></a><br><sub>10 Particle galaxy <a href="examples/10-particle-galaxy.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/11-glitch-cut.mp4" controls muted loop playsinline width="720"></video><br><sub>11 Glitch smash cut</sub></p>
+<p align="center"><a href="examples/11-glitch-cut.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles/11-glitch-cut.gif" alt="11 Glitch smash cut" width="480"></a><br><sub>11 Glitch smash cut <a href="examples/11-glitch-cut.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/12-circuit-board.mp4" controls muted loop playsinline width="720"></video><br><sub>12 Circuit-board pulse</sub></p>
+<details><summary>More example videos</summary>
 
-<p align="center"><video src="examples/13-particle-ring-master.mp4" controls muted loop playsinline width="720"></video><br><sub>13 Particle ring master prompt (style swap)</sub></p>
+<ul><li><a href="examples/12-circuit-board.mp4">12 Circuit-board pulse</a></li><li><a href="examples/13-particle-ring-master.mp4">13 Particle ring master prompt (style swap)</a></li><li><a href="examples/14-fur-ring.mp4">14 Fur ring style line</a></li><li><a href="examples/15-matrix-ring.mp4">15 Matrix ring style line</a></li><li><a href="examples/16-minimal-mono-ring.mp4">16 Minimal mono ring style line</a></li></ul>
 
-<p align="center"><video src="examples/14-fur-ring.mp4" controls muted loop playsinline width="720"></video><br><sub>14 Fur ring style line</sub></p>
-
-<p align="center"><video src="examples/15-matrix-ring.mp4" controls muted loop playsinline width="720"></video><br><sub>15 Matrix ring style line</sub></p>
-
-<p align="center"><video src="examples/16-minimal-mono-ring.mp4" controls muted loop playsinline width="720"></video><br><sub>16 Minimal mono ring style line</sub></p>
+</details>
 
 <p align="center"><sub>Clips and posters rendered in code by Subclip from our own prompts (HyperFrames, Three.js for the 3D styles), no image, video or audio model; style ideas from Applied AI (its-applied-ai.com/r/styles)</sub></p>
 

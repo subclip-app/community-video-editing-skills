@@ -40,23 +40,23 @@ No keys are needed. Layers cannot read your files or call outside services with 
 
 ## Examples
 
-<p align="center"><video src="examples/capability-hyperframes-motion-layers.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: charts, maps, captions and device scenes as HyperFrames layers</sub></p>
+<p align="center"><a href="examples/capability-hyperframes-motion-layers.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/capability-hyperframes-motion-layers.gif" alt="Capability reference: charts, maps, captions and device scenes as HyperFrames layers" width="480"></a><br><sub>Capability reference: charts, maps, captions and device scenes as HyperFrames layers <a href="examples/capability-hyperframes-motion-layers.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-line-graph-highlight-point.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: line graph that draws in and highlights one point</sub></p>
+<p align="center"><a href="examples/hyperframes-line-graph-highlight-point.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-line-graph-highlight-point.gif" alt="HyperFrames layer: line graph that draws in and highlights one point" width="480"></a><br><sub>HyperFrames layer: line graph that draws in and highlights one point <a href="examples/hyperframes-line-graph-highlight-point.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-bar-chart-race.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: bar chart race with a ticking year label</sub></p>
+<p align="center"><a href="examples/hyperframes-bar-chart-race.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-bar-chart-race.gif" alt="HyperFrames layer: bar chart race with a ticking year label" width="480"></a><br><sub>HyperFrames layer: bar chart race with a ticking year label <a href="examples/hyperframes-bar-chart-race.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-us-flow-map.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: flow map with animated connections between cities</sub></p>
+<p align="center"><a href="examples/hyperframes-us-flow-map.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-us-flow-map.gif" alt="HyperFrames layer: flow map with animated connections between cities" width="480"></a><br><sub>HyperFrames layer: flow map with animated connections between cities <a href="examples/hyperframes-us-flow-map.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-caption-camera-follow.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: kinetic caption words with a camera that follows them</sub></p>
+<p align="center"><a href="examples/hyperframes-caption-camera-follow.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-caption-camera-follow.gif" alt="HyperFrames layer: kinetic caption words with a camera that follows them" width="480"></a><br><sub>HyperFrames layer: kinetic caption words with a camera that follows them <a href="examples/hyperframes-caption-camera-follow.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-subclip-hinged-laptop-showcase.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: hinged laptop device scene for a product reveal</sub></p>
+<p align="center"><a href="examples/hyperframes-subclip-hinged-laptop-showcase.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-subclip-hinged-laptop-showcase.gif" alt="HyperFrames layer: hinged laptop device scene for a product reveal" width="480"></a><br><sub>HyperFrames layer: hinged laptop device scene for a product reveal <a href="examples/hyperframes-subclip-hinged-laptop-showcase.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-terminal-code-reveal.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: terminal line that types out your title</sub></p>
+<p align="center"><a href="examples/hyperframes-terminal-code-reveal.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-terminal-code-reveal.gif" alt="HyperFrames layer: terminal line that types out your title" width="480"></a><br><sub>HyperFrames layer: terminal line that types out your title <a href="examples/hyperframes-terminal-code-reveal.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-saas-launch-logo-reveal.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: title reveal with a glowing purple floor</sub></p>
+<p align="center"><a href="examples/hyperframes-saas-launch-logo-reveal.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-saas-launch-logo-reveal.gif" alt="HyperFrames layer: title reveal with a glowing purple floor" width="480"></a><br><sub>HyperFrames layer: title reveal with a glowing purple floor <a href="examples/hyperframes-saas-launch-logo-reveal.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/hyperframes-hand-drawn-circle-highlight.mp4" controls muted loop playsinline width="720"></video><br><sub>HyperFrames layer: hand-drawn arc and highlighted label (template text)</sub></p>
+<p align="center"><a href="examples/hyperframes-hand-drawn-circle-highlight.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-hand-drawn-circle-highlight.gif" alt="HyperFrames layer: hand-drawn arc and highlighted label (template text)" width="480"></a><br><sub>HyperFrames layer: hand-drawn arc and highlighted label (template text) <a href="examples/hyperframes-hand-drawn-circle-highlight.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.</sub></p>
 

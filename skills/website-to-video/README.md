@@ -31,7 +31,7 @@ Subclip captures up to 3 page screenshots plus logo and image candidates. It doe
 
 ## Examples
 
-<p align="center"><video src="examples/trail-tour.mp4" controls muted loop playsinline width="720"></video><br><sub>A local field guide’s captured map pushes in behind a two-line tour opener.</sub></p>
+<p align="center"><a href="examples/trail-tour.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video/trail-tour.gif" alt="A local field guide’s captured map pushes in behind a two-line tour opener." width="480"></a><br><sub>A local field guide’s captured map pushes in behind a two-line tour opener. <a href="examples/trail-tour.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/trail-closeup.jpg" alt="A close-up reuses the site’s original contour map to show how to spot the ridge." width="720"><br><sub>A close-up reuses the site’s original contour map to show how to spot the ridge.</sub></p>
 

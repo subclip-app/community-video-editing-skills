@@ -42,17 +42,17 @@ A 9-shot 15 second ad is roughly 3 plates, 9 stills and 7 clips plus one song or
 
 ## Examples
 
-<p align="center"><video src="examples/capability-trending-animated-ad.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music.</sub></p>
+<p align="center"><a href="examples/capability-trending-animated-ad.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/capability-trending-animated-ad.gif" alt="Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music." width="480"></a><br><sub>Capability reference: the drama song ad. Images: gpt-image-2. Video: p-video-2. Song: elevenlabs-music. <a href="examples/capability-trending-animated-ad.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/format-product-song.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro.</sub></p>
+<p align="center"><a href="examples/format-product-song.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/format-product-song.gif" alt="Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro." width="480"></a><br><sub>Format 2, product song ad. Images: gpt-image-2. Video: p-video-2. Song: lyria-3-pro. <a href="examples/format-product-song.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/format-narrated-story.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice.</sub></p>
+<p align="center"><a href="examples/format-narrated-story.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/format-narrated-story.gif" alt="Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice." width="480"></a><br><sub>Format 3, narrated story ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice. <a href="examples/format-narrated-story.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/format-3d-explainer.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice.</sub></p>
+<p align="center"><a href="examples/format-3d-explainer.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/format-3d-explainer.gif" alt="Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice." width="480"></a><br><sub>Format 4, 3D explainer ad. Images: gpt-image-2. Video: p-video-2. Music: lyria-3-pro, local voice. <a href="examples/format-3d-explainer.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/format-skeleton-xray.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects.</sub></p>
+<p align="center"><a href="examples/format-skeleton-xray.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/format-skeleton-xray.gif" alt="Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects." width="480"></a><br><sub>Format 5, skeleton demo ad. Images: gpt-image-2. Video: p-video-2. Local voice, stock effects. <a href="examples/format-skeleton-xray.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/format-photoreal-clone.mp4" controls muted loop playsinline width="720"></video><br><sub>Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice.</sub></p>
+<p align="center"><a href="examples/format-photoreal-clone.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator/format-photoreal-clone.gif" alt="Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice." width="480"></a><br><sub>Format 6, photoreal clone ad. Images: gpt-image-2. Video: p-video-2. Reference and clone, local voice. <a href="examples/format-photoreal-clone.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/format-drama-song-plates.jpg" alt="Format 1 plates, made before any scene still. Image: gpt-image-2." width="720"><br><sub>Format 1 plates, made before any scene still. Image: gpt-image-2.</sub></p>
 

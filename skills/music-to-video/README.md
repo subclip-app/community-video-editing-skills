@@ -34,7 +34,7 @@ Subclip has no beat detection tool yet, so the beat grid is measured by hand fro
 
 ## Examples
 
-<p align="center"><video src="examples/percussive-cascade.mp4" controls muted loop playsinline width="720"></video><br><sub>A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line.</sub></p>
+<p align="center"><a href="examples/percussive-cascade.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/music-to-video/percussive-cascade.gif" alt="A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line." width="480"></a><br><sub>A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line. <a href="examples/percussive-cascade.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/held-pad-message.jpg" alt="A still message over the midpoint of a drifting field for the track’s sparse pad." width="720"><br><sub>A still message over the midpoint of a drifting field for the track’s sparse pad.</sub></p>
 

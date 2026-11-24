@@ -22,7 +22,7 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 <p align="center"><img src="examples/float-gauge-prop.jpg" alt="PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2." width="720"><br><sub>PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2.</sub></p>
 
-<p align="center"><video src="examples/empty-gauge-chapter-plan.mp4" controls muted loop playsinline width="720"></video><br><sub>Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames.</sub></p>
+<p align="center"><a href="examples/empty-gauge-chapter-plan.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/documentary-case-file/empty-gauge-chapter-plan.gif" alt="Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames." width="480"></a><br><sub>Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames. <a href="examples/empty-gauge-chapter-plan.mp4">Play with sound</a></sub></p>
 
 <p align="center"><sub>Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent.</sub></p>
 

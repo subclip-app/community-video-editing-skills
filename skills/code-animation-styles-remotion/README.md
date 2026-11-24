@@ -25,85 +25,35 @@ Many of these looks also exist in `ai-style-atlas`, `code-motion-styles`, `paper
 
 ## Examples
 
-<p align="center"><video src="examples/capability-animation-styles.mp4" controls muted loop playsinline width="720"></video><br><sub>Capability reference: ten of the 39 styles in a 20 second montage</sub></p>
+<p align="center"><a href="examples/capability-animation-styles.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/capability-animation-styles.gif" alt="Capability reference: ten of the 39 styles in a 20 second montage" width="480"></a><br><sub>Capability reference: ten of the 39 styles in a 20 second montage <a href="examples/capability-animation-styles.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/01-whiteboard.mp4" controls muted loop playsinline width="720"></video><br><sub>01 Whiteboard: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/01-whiteboard.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/01-whiteboard.gif" alt="01 Whiteboard: the 5 second chai film" width="480"></a><br><sub>01 Whiteboard: the 5 second chai film <a href="examples/01-whiteboard.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/02-chalkboard.mp4" controls muted loop playsinline width="720"></video><br><sub>02 Chalkboard: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/02-chalkboard.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/02-chalkboard.gif" alt="02 Chalkboard: the 5 second chai film" width="480"></a><br><sub>02 Chalkboard: the 5 second chai film <a href="examples/02-chalkboard.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/05-notepad-doodle.mp4" controls muted loop playsinline width="720"></video><br><sub>05 Notepad doodle: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/05-notepad-doodle.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/05-notepad-doodle.gif" alt="05 Notepad doodle: the 5 second chai film" width="480"></a><br><sub>05 Notepad doodle: the 5 second chai film <a href="examples/05-notepad-doodle.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/06-blueprint.mp4" controls muted loop playsinline width="720"></video><br><sub>06 Blueprint: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/06-blueprint.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/06-blueprint.gif" alt="06 Blueprint: the 5 second chai film" width="480"></a><br><sub>06 Blueprint: the 5 second chai film <a href="examples/06-blueprint.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/08-hand-drawn.mp4" controls muted loop playsinline width="720"></video><br><sub>08 Hand-drawn pencil sketch: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/08-hand-drawn.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/08-hand-drawn.gif" alt="08 Hand-drawn pencil sketch: the 5 second chai film" width="480"></a><br><sub>08 Hand-drawn pencil sketch: the 5 second chai film <a href="examples/08-hand-drawn.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/09-urban-sketch.mp4" controls muted loop playsinline width="720"></video><br><sub>09 Urban sketch: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/09-urban-sketch.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/09-urban-sketch.gif" alt="09 Urban sketch: the 5 second chai film" width="480"></a><br><sub>09 Urban sketch: the 5 second chai film <a href="examples/09-urban-sketch.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/10-crayon-book.mp4" controls muted loop playsinline width="720"></video><br><sub>10 Crayon book: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/10-crayon-book.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/10-crayon-book.gif" alt="10 Crayon book: the 5 second chai film" width="480"></a><br><sub>10 Crayon book: the 5 second chai film <a href="examples/10-crayon-book.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/11-watercolour.mp4" controls muted loop playsinline width="720"></video><br><sub>11 Watercolour: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/11-watercolour.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/11-watercolour.gif" alt="11 Watercolour: the 5 second chai film" width="480"></a><br><sub>11 Watercolour: the 5 second chai film <a href="examples/11-watercolour.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/13-one-line.mp4" controls muted loop playsinline width="720"></video><br><sub>13 One line: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/13-one-line.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/13-one-line.gif" alt="13 One line: the 5 second chai film" width="480"></a><br><sub>13 One line: the 5 second chai film <a href="examples/13-one-line.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/16-cel-line-boil.mp4" controls muted loop playsinline width="720"></video><br><sub>16 Cel line boil: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/16-cel-line-boil.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/16-cel-line-boil.gif" alt="16 Cel line boil: the 5 second chai film" width="480"></a><br><sub>16 Cel line boil: the 5 second chai film <a href="examples/16-cel-line-boil.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/17-flat-vector.mp4" controls muted loop playsinline width="720"></video><br><sub>17 Flat vector: the 5 second chai film</sub></p>
+<p align="center"><a href="examples/17-flat-vector.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-animation-styles-remotion/17-flat-vector.gif" alt="17 Flat vector: the 5 second chai film" width="480"></a><br><sub>17 Flat vector: the 5 second chai film <a href="examples/17-flat-vector.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/21-cel-anime-80s.mp4" controls muted loop playsinline width="720"></video><br><sub>21 80s cel anime: the 5 second chai film</sub></p>
+<details><summary>More example videos</summary>
 
-<p align="center"><video src="examples/22-stick-figure.mp4" controls muted loop playsinline width="720"></video><br><sub>22 Stick figure: the 5 second chai film</sub></p>
+<ul><li><a href="examples/21-cel-anime-80s.mp4">21 80s cel anime: the 5 second chai film</a></li><li><a href="examples/22-stick-figure.mp4">22 Stick figure: the 5 second chai film</a></li><li><a href="examples/23-cut-out.mp4">23 Cut-out collage: the 5 second chai film</a></li><li><a href="examples/24-red-papercut.mp4">24 Red papercut: the 5 second chai film</a></li><li><a href="examples/25-paper-pop-up.mp4">25 Paper pop-up: the 5 second chai film</a></li><li><a href="examples/27-shadow-puppet.mp4">27 Shadow puppet: the 5 second chai film</a></li><li><a href="examples/28-woodcut.mp4">28 Woodcut: the 5 second chai film</a></li><li><a href="examples/29-engraving.mp4">29 Engraving: the 5 second chai film</a></li><li><a href="examples/31-silkscreen-poster.mp4">31 Silkscreen poster: the 5 second chai film</a></li><li><a href="examples/33-ukiyo-e.mp4">33 Ukiyo-e: the 5 second chai film</a></li><li><a href="examples/34-art-deco.mp4">34 Art deco: the 5 second chai film</a></li><li><a href="examples/35-stained-glass.mp4">35 Stained glass: the 5 second chai film</a></li><li><a href="examples/39-memphis-diorama.mp4">39 Memphis diorama: the 5 second chai film</a></li><li><a href="examples/51-sticker-explainer.mp4">51 Sticker explainer: the 5 second chai film</a></li><li><a href="examples/52-math-diagram.mp4">52 Math diagram: the 5 second chai film</a></li><li><a href="examples/57-low-poly-island.mp4">57 Low-poly island: the 5 second chai film</a></li><li><a href="examples/58-brick-toy.mp4">58 Brick toy: the 5 second chai film</a></li><li><a href="examples/59-glass-product.mp4">59 Glass product: the 5 second chai film</a></li><li><a href="examples/62-claymation.mp4">62 Claymation: the 5 second chai film</a></li><li><a href="examples/80-lidar-survey.mp4">80 Lidar survey: the 5 second chai film</a></li><li><a href="examples/70-silent-film.mp4">70 Silent film: the 5 second chai film</a></li><li><a href="examples/71-newsreel.mp4">71 Newsreel: the 5 second chai film</a></li><li><a href="examples/64-pixel-art-rpg.mp4">64 Pixel art RPG: the 5 second chai film</a></li><li><a href="examples/81-microscope.mp4">81 Microscope: the 5 second chai film</a></li><li><a href="examples/84-hologram-hud.mp4">84 Hologram HUD: the 5 second chai film</a></li><li><a href="examples/85-circuit-board.mp4">85 Circuit board: the 5 second chai film</a></li><li><a href="examples/87-liquid-motion.mp4">87 Liquid motion: the 5 second chai film</a></li><li><a href="examples/89-generative-abstract.mp4">89 Generative abstract: the 5 second chai film</a></li></ul>
 
-<p align="center"><video src="examples/23-cut-out.mp4" controls muted loop playsinline width="720"></video><br><sub>23 Cut-out collage: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/24-red-papercut.mp4" controls muted loop playsinline width="720"></video><br><sub>24 Red papercut: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/25-paper-pop-up.mp4" controls muted loop playsinline width="720"></video><br><sub>25 Paper pop-up: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/27-shadow-puppet.mp4" controls muted loop playsinline width="720"></video><br><sub>27 Shadow puppet: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/28-woodcut.mp4" controls muted loop playsinline width="720"></video><br><sub>28 Woodcut: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/29-engraving.mp4" controls muted loop playsinline width="720"></video><br><sub>29 Engraving: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/31-silkscreen-poster.mp4" controls muted loop playsinline width="720"></video><br><sub>31 Silkscreen poster: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/33-ukiyo-e.mp4" controls muted loop playsinline width="720"></video><br><sub>33 Ukiyo-e: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/34-art-deco.mp4" controls muted loop playsinline width="720"></video><br><sub>34 Art deco: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/35-stained-glass.mp4" controls muted loop playsinline width="720"></video><br><sub>35 Stained glass: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/39-memphis-diorama.mp4" controls muted loop playsinline width="720"></video><br><sub>39 Memphis diorama: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/51-sticker-explainer.mp4" controls muted loop playsinline width="720"></video><br><sub>51 Sticker explainer: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/52-math-diagram.mp4" controls muted loop playsinline width="720"></video><br><sub>52 Math diagram: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/57-low-poly-island.mp4" controls muted loop playsinline width="720"></video><br><sub>57 Low-poly island: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/58-brick-toy.mp4" controls muted loop playsinline width="720"></video><br><sub>58 Brick toy: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/59-glass-product.mp4" controls muted loop playsinline width="720"></video><br><sub>59 Glass product: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/62-claymation.mp4" controls muted loop playsinline width="720"></video><br><sub>62 Claymation: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/80-lidar-survey.mp4" controls muted loop playsinline width="720"></video><br><sub>80 Lidar survey: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/70-silent-film.mp4" controls muted loop playsinline width="720"></video><br><sub>70 Silent film: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/71-newsreel.mp4" controls muted loop playsinline width="720"></video><br><sub>71 Newsreel: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/64-pixel-art-rpg.mp4" controls muted loop playsinline width="720"></video><br><sub>64 Pixel art RPG: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/81-microscope.mp4" controls muted loop playsinline width="720"></video><br><sub>81 Microscope: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/84-hologram-hud.mp4" controls muted loop playsinline width="720"></video><br><sub>84 Hologram HUD: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/85-circuit-board.mp4" controls muted loop playsinline width="720"></video><br><sub>85 Circuit board: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/87-liquid-motion.mp4" controls muted loop playsinline width="720"></video><br><sub>87 Liquid motion: the 5 second chai film</sub></p>
-
-<p align="center"><video src="examples/89-generative-abstract.mp4" controls muted loop playsinline width="720"></video><br><sub>89 Generative abstract: the 5 second chai film</sub></p>
+</details>
 
 <p align="center"><sub>Examples by deenukhan, MIT, from the animation-styles repo (github.com/deenukhan/animation-styles)</sub></p>
 

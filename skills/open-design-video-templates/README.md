@@ -16,11 +16,11 @@ The cover is a collage of four of the original preview frames, used under the Ap
 
 ## Examples
 
-<p align="center"><video src="examples/glitch-title.mp4" controls muted loop playsinline width="720"></video><br><sub>A signal-loss title with split-color lettering and digital distortion.</sub></p>
+<p align="center"><a href="examples/glitch-title.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates/glitch-title.gif" alt="A signal-loss title with split-color lettering and digital distortion." width="480"></a><br><sub>A signal-loss title with split-color lettering and digital distortion. <a href="examples/glitch-title.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/light-leak-title.mp4" controls muted loop playsinline width="720"></video><br><sub>A cinematic title framed by an amber light leak.</sub></p>
+<p align="center"><a href="examples/light-leak-title.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates/light-leak-title.gif" alt="A cinematic title framed by an amber light leak." width="480"></a><br><sub>A cinematic title framed by an amber light leak. <a href="examples/light-leak-title.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/logo-outro.mp4" controls muted loop playsinline width="720"></video><br><sub>A purple monogram reveals itself against a dark background.</sub></p>
+<p align="center"><a href="examples/logo-outro.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates/logo-outro.gif" alt="A purple monogram reveals itself against a dark background." width="480"></a><br><sub>A purple monogram reveals itself against a dark background. <a href="examples/logo-outro.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/liquid-background.jpg" alt="A bold headline over a soft field of blue and purple light." width="720"><br><sub>A bold headline over a soft field of blue and purple light.</sub></p>
 

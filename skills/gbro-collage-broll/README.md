@@ -12,11 +12,11 @@ What changed from the original: the Python scripts, Gemini API key setup, ffmpeg
 
 ## Examples
 
-<p align="center"><video src="examples/chessboard-blocking.mp4" controls muted loop playsinline width="720"></video><br><sub>A paper chessboard becomes a staging plan under a projector beam.</sub></p>
+<p align="center"><a href="examples/chessboard-blocking.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/gbro-collage-broll/chessboard-blocking.gif" alt="A paper chessboard becomes a staging plan under a projector beam." width="480"></a><br><sub>A paper chessboard becomes a staging plan under a projector beam. <a href="examples/chessboard-blocking.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/cutting-film.mp4" controls muted loop playsinline width="720"></video><br><sub>A map, camera and filmstrip assemble before scissors cut the strip.</sub></p>
+<p align="center"><a href="examples/cutting-film.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/gbro-collage-broll/cutting-film.gif" alt="A map, camera and filmstrip assemble before scissors cut the strip." width="480"></a><br><sub>A map, camera and filmstrip assemble before scissors cut the strip. <a href="examples/cutting-film.mp4">Play with sound</a></sub></p>
 
-<p align="center"><video src="examples/printing-press.mp4" controls muted loop playsinline width="720"></video><br><sub>A printing press turns one flawed picture into a run of copies.</sub></p>
+<p align="center"><a href="examples/printing-press.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/gbro-collage-broll/printing-press.gif" alt="A printing press turns one flawed picture into a run of copies." width="480"></a><br><sub>A printing press turns one flawed picture into a run of copies. <a href="examples/printing-press.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/film-collage-still.jpg" alt="The finished teal collage shows a camera, a filmstrip and red scissors." width="720"><br><sub>The finished teal collage shows a camera, a filmstrip and red scissors.</sub></p>
 
