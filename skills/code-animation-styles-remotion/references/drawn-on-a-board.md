@@ -4,7 +4,7 @@ Build the drawing as stroked SVG paths revealed with stroke-dashoffset, driven b
 
 Each recipe below is a short build brief. The example clip named in the title is the visual target: open it before building. The chai film (kettle pours into a clay cup, steam rises, 5 s) is the demo story; replace it with the creator's story using `our-guide.md`.
 
-## 01 Whiteboard
+## 1 Whiteboard
 
 - Example: `examples/01-whiteboard.mp4`
 - Look: A marker hand draws black outlines on a white board, then fills the cup with colour.
@@ -15,7 +15,7 @@ Each recipe below is a short build brief. The example clip named in the title is
 - Best for: Teaching, how-to, product explainers
 - Also see: ai-style-atlas 04; claude-drawing-skill
 
-## 02 Chalkboard
+## 2 Chalkboard
 
 - Example: `examples/02-chalkboard.mp4`
 - Look: Dusty coloured chalk on a green-black board in a wooden frame.
@@ -26,9 +26,9 @@ Each recipe below is a short build brief. The example clip named in the title is
 - Best for: Lessons, school topics, recipes
 - Also see: ai-style-atlas 23
 
-## 05 Notepad doodle
+## 3 Notepad doodle
 
-- Example: `examples/05-notepad-doodle.mp4`
+- Example: `examples/03-notepad-doodle.mp4`
 - Look: Blue and red ballpoint doodles on lined, spiral-bound notebook paper.
 - Palette: Paper #fbfaf3 with blue rule lines #b9d3ee and a red margin, pen blue #1f4fd1, pen red #d6322c
 - Motion rules: Ballpoint strokes with small wobble, doubled lines, scribble fills; step on twos.
@@ -37,9 +37,9 @@ Each recipe below is a short build brief. The example clip named in the title is
 - Best for: Casual tips, study notes, personal stories
 - Also see: code-motion-styles 07; ai-style-atlas 68
 
-## 06 Blueprint
+## 4 Blueprint
 
-- Example: `examples/06-blueprint.mp4`
+- Example: `examples/04-blueprint.mp4`
 - Look: White technical drawing on blueprint blue, with grid, dimensions and a title block.
 - Palette: Blue #1b4f9c, line white #e8f1ff, grid at 25 percent white
 - Motion rules: Thin lines draw in sequence, dimension arrows and tick marks appear after the part, grid fades in first.

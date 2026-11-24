@@ -3,17 +3,17 @@
 ## 1. Choose a style by topic and audience
 | Topic | Good styles | Why |
 | --- | --- | --- |
-| How something works, engineering | 06 Blueprint, 52 Math diagram, 85 Circuit board, 84 Hologram HUD | Lines and labels carry the explanation |
-| Teaching, lessons, tutorials | 01 Whiteboard, 02 Chalkboard, 05 Notepad doodle | Drawing on screen matches the pace of explaining |
-| Software, AI, data | 84 Hologram HUD, 85 Circuit board, 17 Flat vector, 87 Liquid motion, 89 Generative abstract | Clean, modern, tech tone |
-| Finance, premium, heritage | 34 Art deco, 29 Engraving, 59 Glass product | Calm, expensive feel |
-| Food, drink, wellness, nature | 11 Watercolour, 09 Urban sketch, 33 Ukiyo-e, 59 Glass product | Soft and warm |
-| Kids and families | 10 Crayon book, 62 Claymation, 58 Brick toy, 23 Cut-out | Tactile and friendly |
-| Games and retro | 64 Pixel art RPG, 57 Low-poly island, 39 Memphis diorama | Familiar to the audience |
-| History, folk tales, culture | 28 Woodcut, 27 Shadow puppet, 24 Red papercut, 35 Stained glass, 70 Silent film, 71 Newsreel | Period feel |
-| Music, youth, launches | 21 80s cel anime, 31 Silkscreen poster, 51 Sticker explainer | Loud, graphic, short |
-| Logos, intros, transitions | 13 One line, 87 Liquid motion, 16 Cel line boil | Short, abstract, brandable |
-| Science and nature close-ups | 81 Microscope, 80 Lidar survey | The look says "science" |
+| How something works, engineering | 4 Blueprint, 26 Math diagram, 37 Circuit board, 36 Hologram HUD | Lines and labels carry the explanation |
+| Teaching, lessons, tutorials | 1 Whiteboard, 2 Chalkboard, 3 Notepad doodle | Drawing on screen matches the pace of explaining |
+| Software, AI, data | 36 Hologram HUD, 37 Circuit board, 11 Flat vector, 38 Liquid motion, 39 Generative abstract | Clean, modern, tech tone |
+| Finance, premium, heritage | 22 Art deco, 19 Engraving, 29 Glass product | Calm, expensive feel |
+| Food, drink, wellness, nature | 8 Watercolour, 6 Urban sketch, 21 Ukiyo-e, 29 Glass product | Soft and warm |
+| Kids and families | 7 Crayon book, 30 Claymation, 28 Brick toy, 23 Cut-out | Tactile and friendly |
+| Games and retro | 31 Pixel art RPG, 27 Low-poly island, 24 Memphis diorama | Familiar to the audience |
+| History, folk tales, culture | 18 Woodcut, 17 Shadow puppet, 15 Red papercut, 23 Stained glass, 32 Silent film, 33 Newsreel | Period feel |
+| Music, youth, launches | 12 80s cel anime, 20 Silkscreen poster, 25 Sticker explainer | Loud, graphic, short |
+| Logos, intros, transitions | 9 One line, 38 Liquid motion, 10 Cel line boil | Short, abstract, brandable |
+| Science and nature close-ups | 35 Microscope, 34 Lidar survey | The look says "science" |
 
 Audience checks: kids need big shapes and bright colour; professionals need quiet palettes and little text; vertical social needs one idea per clip and bold shapes; older or formal audiences suit print and engraving looks. Offer three candidates with their example clips; never show more than three at once.
 
@@ -45,7 +45,7 @@ Rules:
 3. Keep the style's own materials, palette logic, filters and motion character (stepped for hand-made, smooth for digital, flicker for film).
 4. Never overwrite an earlier style version; add the new layer beside it.
 5. A longer story: add beats to the table, give each a start and end time, and build in 5 to 10 second layers.
-6. The 3D styles (57, 58, 59, 62, 80) take more work when objects change: describe objects as simple lathe, box or sphere meshes.
+6. The 3D styles (27, 28, 29, 30, 34) take more work when objects change: describe objects as simple lathe, box or sphere meshes.
 
 ## 3. Durations
 - Hook or card: 3 to 5 s. The demo film: 5 s.

@@ -44,6 +44,6 @@ The code route spends no AI credits. If the creator wants a look that code canno
 
 ## Credit
 
-The 39 styles, their numbering, the chai story and the example clips come from the animation-styles collection by deenukhan (MIT). The descriptions, recipes and guide here are our own wording.
+The 39 styles (renumbered 1 to 39 here; the upstream numbers are in `references/style-index.md`), the chai story and the example clips come from the animation-styles collection by deenukhan (MIT). The descriptions, recipes and guide here are our own wording.
 
 Adapted for Subclip from https://github.com/deenukhan/animation-styles by deenukhan, MIT

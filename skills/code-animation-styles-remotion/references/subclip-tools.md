@@ -12,7 +12,7 @@ Check names with the live tool list if a call fails; schemas can change. All edi
 | --- | --- |
 | SVG drawing, strokes, filters, paper, print, boards (families 1 to 6, 8, 10) | HyperFrames layer: inline SVG plus a paused GSAP timeline |
 | Canvas (pixel art, microscope, generative strokes, film grain) | HyperFrames layer with a canvas drawn from time |
-| Three.js (57, 58, 59, 62, 80) | HyperFrames Three.js scene, read `threejs-3d-scenes` first. Use the Remotion layer only if the creator asks for it |
+| Three.js (27, 28, 29, 30, 34) | HyperFrames Three.js scene, read `threejs-3d-scenes` first. Use the Remotion layer only if the creator asks for it |
 | The creator wants React or Remotion code | `subclip-remotion-layer`. Drive everything from `useCurrentFrame()`; load fonts through the layer's supported route; do not start a GSAP timeline on its own clock, seek it from the frame |
 
 A Remotion version of a style keeps the same story timing in frames at 30 fps. 150 frames is 5 seconds.
