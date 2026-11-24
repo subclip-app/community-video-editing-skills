@@ -426,7 +426,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/website-to-video">Website to video</a></h4>
 <sub>Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/website-to-video">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/website-to-video">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/website-to-video">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/website-to-video">Open on subclip.app</a></sub>
 </td>
 </tr>
 </table>

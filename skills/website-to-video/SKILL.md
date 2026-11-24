@@ -86,4 +86,18 @@ Beat count comes from the storyboard, not from the video type. Formats: landscap
 - No bundled sound effect files: create them with `elevenlabs-sound-effects` or find licensed ones with `search_public_audio`.
 - The original verification script (`w2h-verify`) is replaced by the manual checklist in Step 6.
 
+## Reference output
+
+[examples/subclip-site-tour.mp4](examples/subclip-site-tour.mp4) is a 16.7 second site tour made with this skill from https://www.subclip.app, no narration, music bed plus a whoosh on each cut. It shows the bar to aim for:
+
+| Beat | What it shows | Skill step |
+| --- | --- | --- |
+| Capture the site | The real page capture from `inspect_public_website` in a browser frame, a scan line, then a push in to the h1 | Step 0 |
+| Brand cheat sheet | The four page colors, the font and the real logo (still: [examples/subclip-brand-sheet.jpg](examples/subclip-brand-sheet.jpg)) | Step 1 |
+| Headline beat | The site's own h1 as kinetic type on the brand gradient | Steps 2 and 3 |
+| Templates | The site's own template posters with a 0 to 200+ counter and a slow drift | Step 5 |
+| Call to action | Real logo, closing line from the page and the URL | Step 5 |
+
+Every beat is one HyperFrames layer at 1920x1080. A local page capture is embedded in its layer as image data, because HyperFrames layers only load public HTTPS files.
+
 Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (skill website-to-video) by OpenMontageInc, AGPL-3.0

@@ -14,6 +14,10 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 > Make a 20 second vertical clip for Instagram from https://example.com. Fast and punchy, no voice, music only.
 
+## Reference
+
+[examples/subclip-site-tour.mp4](examples/subclip-site-tour.mp4) is a site tour of subclip.app made with this skill: page capture, brand cheat sheet, the site's own headline, its templates and a call to action, all as editable HyperFrames layers. SKILL.md explains each beat.
+
 ## What's inside
 
 | File | What it covers |
@@ -31,11 +35,15 @@ Subclip captures up to 3 page screenshots plus logo and image candidates. It doe
 
 ## Examples
 
-<p align="center"><a href="examples/trail-tour.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video/trail-tour.gif" alt="A local field guide’s captured map pushes in behind a two-line tour opener." width="480"></a><br><sub>A local field guide’s captured map pushes in behind a two-line tour opener. <a href="examples/trail-tour.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/subclip-site-tour.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video/subclip-site-tour.gif" alt="1. Site tour: subclip.app captured, brand sheet, its own headline, 200+ templates, call to action. Rendered in code, no video model." width="480"></a><br><sub>1. Site tour: subclip.app captured, brand sheet, its own headline, 200+ templates, call to action. Rendered in code, no video model. <a href="examples/subclip-site-tour.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/trail-closeup.jpg" alt="A close-up reuses the site’s original contour map to show how to spot the ridge." width="720"><br><sub>A close-up reuses the site’s original contour map to show how to spot the ridge.</sub></p>
+<p align="center"><img src="examples/subclip-brand-sheet.jpg" alt="2. Brand sheet: colors, font and logo read from the captured page. Rendered in code, no image model." width="720"><br><sub>2. Brand sheet: colors, font and logo read from the captured page. Rendered in code, no image model.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><a href="examples/trail-tour.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video/trail-tour.gif" alt="3. Trail tour: a field guide's captured map pushes in behind a two-line opener." width="480"></a><br><sub>3. Trail tour: a field guide's captured map pushes in behind a two-line opener. <a href="examples/trail-tour.mp4">Play with sound</a></sub></p>
+
+<p align="center"><img src="examples/trail-closeup.jpg" alt="4. Trail close-up: the site's own contour map shows how to spot the ridge." width="720"><br><sub>4. Trail close-up: the site's own contour map shows how to spot the ridge.</sub></p>
+
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HyperFrames layers): no image, video or audio model. Site tour music: Angel-techno pop music loop by frankum, CC BY 4.0.</sub></p>
 
 <!-- examples:end -->
 

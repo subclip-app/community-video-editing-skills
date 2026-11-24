@@ -4908,20 +4908,30 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/website-to-video/examples/subclip-site-tour.mp4",
+          "kind": "video",
+          "caption": "1. Site tour: subclip.app captured, brand sheet, its own headline, 200+ templates, call to action. Rendered in code, no video model."
+        },
+        {
+          "path": "skills/website-to-video/examples/subclip-brand-sheet.jpg",
+          "kind": "image",
+          "caption": "2. Brand sheet: colors, font and logo read from the captured page. Rendered in code, no image model."
+        },
         {
           "path": "skills/website-to-video/examples/trail-tour.mp4",
           "kind": "video",
-          "caption": "A local field guide’s captured map pushes in behind a two-line tour opener."
+          "caption": "3. Trail tour: a field guide's captured map pushes in behind a two-line opener."
         },
         {
           "path": "skills/website-to-video/examples/trail-closeup.jpg",
           "kind": "image",
-          "caption": "A close-up reuses the site’s original contour map to show how to spot the ridge."
+          "caption": "4. Trail close-up: the site's own contour map shows how to spot the ridge."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HyperFrames layers): no image, video or audio model. Site tour music: Angel-techno pop music loop by frankum, CC BY 4.0.",
       "examplesKind": "test"
     }
   ],
