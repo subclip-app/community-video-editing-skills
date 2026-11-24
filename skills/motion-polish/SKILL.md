@@ -29,4 +29,16 @@ Start with `animate` for new work, `review-animations` for existing work.
 - Shared values: [references/video-motion-values.md](references/video-motion-values.md).
 - Record decisions with `update_project_director_brief` and `write_session_summary`. Never claim a visual check you did not do.
 
+## Reference output
+
+[examples/aero-one-before-after.mp4](examples/aero-one-before-after.mp4) shows the pack at work on one product callout scene (stills: [after](examples/aero-one-after.jpg), [review](examples/aero-one-review.jpg)):
+
+| Part | What happens |
+| --- | --- |
+| Before (0 to 5 s) | The title scales up from 0 on a linear curve and wobbles, cards fly in from off screen with an ease in, the text bounces, leader lines pop on with no anchor |
+| After (5 to 10.6 s) | `review-animations` and `animate` applied: the title rises 40 px from 0.96 scale with a strong ease out, each callout starts as a dot on the product, its leader draws outward and the card follows, staggers are uneven and short, a small spring only on the dots, and everything exits on the same path, faster |
+| Review (10.6 to 14.2 s) | The five fixes as a checklist, with the strong ease out curve drawn against ease in |
+
+Each part is one HyperFrames layer; music and the soft pops sit on native audio lanes.
+
 Adapted for Subclip from https://github.com/emilkowalski/skills by Emil Kowalski, MIT

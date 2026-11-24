@@ -303,7 +303,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/motion-polish">Motion polish</a></h4>
 <sub>Eight skills to animate, review, simplify and name motion on video layers, text and transitions with a high craft bar.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/emilkowalski/skills">emilkowalski/skills</a> by Emil Kowalski</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/motion-polish">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-polish">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/motion-polish">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-polish">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/paper-cut-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/paper-cut-motion.gif" alt="Paper-cut motion preview" width="100%"></a><br>

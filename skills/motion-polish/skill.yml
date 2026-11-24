@@ -10,15 +10,21 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: emilkowalski/skills, author: Emil Kowalski, license: MIT, commit: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 examples:
+  - file: examples/aero-one-before-after.mp4
+    caption: "1. Before and after: one product callout scene animated badly, then fixed by the review. Image: gpt-image-2. No video model."
+  - file: examples/aero-one-after.jpg
+    caption: "2. After, settled: callouts grown from their anchor points on the headphones. Image: gpt-image-2. Rendered in code."
+  - file: examples/aero-one-review.jpg
+    caption: "3. Review: the five fixes and the strong ease out curve against ease in. Rendered in code, no image model."
   - file: examples/anchored-callout.jpg
-    caption: "Settled callout with its leader anchored to the sea star in the diagram."
+    caption: "4. Anchored callout: the leader stays anchored to the sea star in the diagram."
   - file: examples/anchored-callout.mp4
-    caption: "A short ease-out introduces the sea star callout, then it exits on the same path."
+    caption: "5. Callout motion: a short ease out brings in the sea star callout, then it exits on the same path."
   - file: examples/spring-marker.jpg
-    caption: "Settled illustrated check marker in the tide pool guide."
+    caption: "6. Spring marker: the settled check marker in the tide pool guide."
   - file: examples/spring-marker.mp4
-    caption: "A check marker lands with a small overshoot before it settles."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+    caption: "7. Spring marker motion: the check marker lands with a small overshoot before it settles."
+examplesCredit: "Test outputs made with this skill in Subclip. Product still: gpt-image-2 through the Codex CLI. Scenes rendered in code (HyperFrames): no video model. Music: Airport Lounge by code_box, CC0."
 examplesKind: test
