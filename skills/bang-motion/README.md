@@ -214,6 +214,6 @@ The cover is the upstream hero grid and the gallery images come from the upstrea
 
 <p align="center"><img src="examples/cartoon-collage.jpg" alt="10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author." width="720"><br><sub>10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author.</sub></p>
 
-<p align="center"><sub>Stills by bangtutorial, MIT, from github.com/bangtutorial/bang-motion. Clips 1 to 5 and the opener preview are our own deterministic code animations of those compositions, made in Subclip with no image, video or audio model.</sub></p>
+<p align="center"><sub>Stills by bangtutorial, MIT, from github.com/bangtutorial/bang-motion. Clips 1 to 5 are our own deterministic code animations of those compositions, and the hero preview is a reel cut from them, made in Subclip with no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
