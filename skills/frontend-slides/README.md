@@ -20,6 +20,6 @@ Start with a topic, an outline, an existing Subclip slide project, or slide copy
 
 <p align="center"><a href="examples/forest-slide-openers.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/frontend-slides/forest-slide-openers.gif" alt="Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles." width="480"></a><br><sub>Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles. <a href="examples/forest-slide-openers.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model. The hero preview adds text from Subclip's own text templates.</sub></p>
 
 <!-- examples:end -->

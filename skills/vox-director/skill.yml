@@ -22,4 +22,4 @@ examples:
     caption: "A football and a bold date layered over old paper"
   - file: examples/street-food-collage.jpg
     caption: "A Mexican street food collage with hand-cut illustrations"
-examplesCredit: "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director"
+examplesCredit: "Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director. The hero preview is our own cut of those examples with text from Subclip's own text templates, no image, video or audio model."

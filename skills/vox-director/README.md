@@ -28,6 +28,6 @@ The original MIT notice is in [LICENSE](LICENSE). The cover is original artwork.
 
 <p align="center"><img src="examples/street-food-collage.jpg" alt="A Mexican street food collage with hand-cut illustrations" width="720"><br><sub>A Mexican street food collage with hand-cut illustrations</sub></p>
 
-<p align="center"><sub>Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director</sub></p>
+<p align="center"><sub>Examples by Alisa0808, MIT, from github.com/Alisa0808/vox-director. The hero preview is our own cut of those examples with text from Subclip's own text templates, no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
