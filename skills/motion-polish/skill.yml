@@ -20,5 +20,5 @@ examples:
     caption: "Settled illustrated check marker in the tide pool guide."
   - file: examples/spring-marker.mp4
     caption: "A check marker lands with a small overshoot before it settles."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
 examplesKind: test

@@ -20,9 +20,9 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 <p align="center"><img src="examples/tilted-globe-sheet.jpg" alt="Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2." width="720"><br><sub>Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/seasons-globe.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/3d-myth-short/seasons-globe.gif" alt="A slow push from the warm studio globe to its tilted reference sheet. Clip: ffmpeg push-in, no video model." width="480"></a><br><sub>A slow push from the warm studio globe to its tilted reference sheet. Clip: ffmpeg push-in, no video model. <a href="examples/seasons-globe.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/seasons-globe.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/3d-myth-short/seasons-globe.gif" alt="A slow push from the warm studio globe to its tilted reference sheet. Clip: push-in, no video model." width="480"></a><br><sub>A slow push from the warm studio globe to its tilted reference sheet. Clip: push-in, no video model. <a href="examples/seasons-globe.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
 
 <!-- examples:end -->
 

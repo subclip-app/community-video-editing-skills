@@ -20,5 +20,5 @@ examples:
     caption: "Closer painted shot of the snail peeking out while rain falls around the leaf."
   - file: examples/snail-peeks-out.mp4
     caption: "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
 examplesKind: test

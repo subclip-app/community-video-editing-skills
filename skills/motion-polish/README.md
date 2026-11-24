@@ -47,6 +47,6 @@ Hover and press states, keyboard shortcut rules, `prefers-reduced-motion` code, 
 
 <p align="center"><a href="examples/spring-marker.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-polish/spring-marker.gif" alt="A check marker lands with a small overshoot before it settles." width="480"></a><br><sub>A check marker lands with a small overshoot before it settles. <a href="examples/spring-marker.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->

@@ -33,7 +33,7 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 <p align="center"><a href="examples/blind-scorecard-reveal.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-edit-battle/blind-scorecard-reveal.gif" alt="Seven scoring rows appear before the sample totals for the two blind edits." width="480"></a><br><sub>Seven scoring rows appear before the sample totals for the two blind edits. <a href="examples/blind-scorecard-reveal.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
 

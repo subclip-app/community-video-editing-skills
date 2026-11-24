@@ -15,140 +15,140 @@ examples:
   - file: examples/capability-product-launch-motion.mp4
     caption: "Capability reel: scene types, recipes, easings and camera moves. Rendered in code, no AI model."
   - file: examples/01-kinetic-type-beats.mp4
-    caption: "01 Kinetic type beats: Cold open for a pain that is a list of chores. Code render, no AI model."
+    caption: "1. Kinetic type beats: Cold open for a pain that is a list of chores. Code render, no AI model."
   - file: examples/02-crowding-problem.mp4
-    caption: "02 Crowding problem: Agitate a workflow problem: tool sprawl, handoffs, manual steps. Code render, no AI model."
+    caption: "2. Crowding problem: Agitate a workflow problem: tool sprawl, handoffs, manual steps. Code render, no AI model."
   - file: examples/03-held-thesis.mp4
-    caption: "03 Held thesis: The one positioning line the film earns. Code render, no AI model."
+    caption: "3. Held thesis: The one positioning line the film earns. Code render, no AI model."
   - file: examples/04-prompt-composer.mp4
-    caption: "04 Prompt and composer: First product act for anything with an input: search, chat, CLI, form. Code render, no AI model."
+    caption: "4. Prompt and composer: First product act for anything with an input: search, chat, CLI, form. Code render, no AI model."
   - file: examples/05-results-surface.mp4
-    caption: "05 Results surface: The product answers and the answer is specific: lists, grids, tables, feeds. Code render, no AI model."
+    caption: "5. Results surface: The product answers and the answer is specific: lists, grids, tables, feeds. Code render, no AI model."
   - file: examples/06-two-pane-workspace.mp4
-    caption: "06 Two-pane workspace: The beat that has to feel like using the product: inbox, editor, CRM, IDE. Code render, no AI model."
+    caption: "6. Two-pane workspace: The beat that has to feel like using the product: inbox, editor, CRM, IDE. Code render, no AI model."
   - file: examples/07-pipeline-tracker.mp4
-    caption: "07 Pipeline tracker: Fulfilment, orders, builds, jobs, approvals: steps completing without you. Code render, no AI model."
+    caption: "7. Pipeline tracker: Fulfilment, orders, builds, jobs, approvals: steps completing without you. Code render, no AI model."
   - file: examples/08-hero-stat-count-up.mp4
-    caption: "08 Hero stat count-up: One approved number and what it means. Code render, no AI model."
+    caption: "8. Hero stat count-up: One approved number and what it means. Code render, no AI model."
   - file: examples/09-testimonial-with-a-face.mp4
-    caption: "09 Testimonial with a face: A named, consenting customer with a result. Code render, no AI model."
+    caption: "9. Testimonial with a face: A named, consenting customer with a result. Code render, no AI model."
   - file: examples/10-comparison-columns.mp4
-    caption: "10 Comparison columns: Crowded categories and replacement sells. Code render, no AI model."
+    caption: "10. Comparison columns: Crowded categories and replacement sells. Code render, no AI model."
   - file: examples/11-end-card-cta.mp4
-    caption: "11 End card and CTA: The close of every film. Code render, no AI model."
+    caption: "11. End card and CTA: The close of every film. Code render, no AI model."
   - file: examples/12-hardware-hero.mp4
-    caption: "12 Hardware hero: A physical object reveal. Code render, no AI model."
+    caption: "12. Hardware hero: A physical object reveal. Code render, no AI model."
   - file: examples/13-terminal-dev-tool.mp4
-    caption: "13 Terminal and dev tool: One command and the thing exists. Code render, no AI model."
+    caption: "13. Terminal and dev tool: One command and the thing exists. Code render, no AI model."
   - file: examples/14-map-reveal.mp4
-    caption: "14 Map reveal: Coverage, logistics, marketplaces, travel. Code render, no AI model."
+    caption: "14. Map reveal: Coverage, logistics, marketplaces, travel. Code render, no AI model."
   - file: examples/15-chart-reveal.mp4
-    caption: "15 Chart reveal: The number moved and here is the shape of the move. Code render, no AI model."
+    caption: "15. Chart reveal: The number moved and here is the shape of the move. Code render, no AI model."
   - file: examples/16-state-button.mp4
-    caption: "16 One shape: button: State 1 of 11. Code render, no AI model."
+    caption: "16. One shape: button: State 1 of 11. Code render, no AI model."
   - file: examples/17-state-loader.mp4
-    caption: "17 One shape: loader: State 2. Code render, no AI model."
+    caption: "17. One shape: loader: State 2. Code render, no AI model."
   - file: examples/18-state-check.mp4
-    caption: "18 One shape: check: State 3. Code render, no AI model."
+    caption: "18. One shape: check: State 3. Code render, no AI model."
   - file: examples/19-state-dynamic-island.mp4
-    caption: "19 One shape: dynamic island: State 4. Code render, no AI model."
+    caption: "19. One shape: dynamic island: State 4. Code render, no AI model."
   - file: examples/20-state-video-reel.mp4
-    caption: "20 One shape: reel preview: State 5. Code render, no AI model."
+    caption: "20. One shape: reel preview: State 5. Code render, no AI model."
   - file: examples/21-state-slider.mp4
-    caption: "21 One shape: slider: State 6. Code render, no AI model."
+    caption: "21. One shape: slider: State 6. Code render, no AI model."
   - file: examples/22-state-toggle.mp4
-    caption: "22 One shape: toggle: State 7. Code render, no AI model."
+    caption: "22. One shape: toggle: State 7. Code render, no AI model."
   - file: examples/23-state-tabs.mp4
-    caption: "23 One shape: liquid tabs: State 8. Code render, no AI model."
+    caption: "23. One shape: liquid tabs: State 8. Code render, no AI model."
   - file: examples/24-state-chart.mp4
-    caption: "24 One shape: chart: State 9. Code render, no AI model."
+    caption: "24. One shape: chart: State 9. Code render, no AI model."
   - file: examples/25-state-command-palette.mp4
-    caption: "25 One shape: command palette: State 10. Code render, no AI model."
+    caption: "25. One shape: command palette: State 10. Code render, no AI model."
   - file: examples/26-state-toast.mp4
-    caption: "26 One shape: toast: State 11. Code render, no AI model."
+    caption: "26. One shape: toast: State 11. Code render, no AI model."
   - file: examples/27-odometer-real-numbers.mp4
-    caption: "27 Odometer of real numbers: Real figures rolling in. Code render, no AI model."
+    caption: "27. Odometer of real numbers: Real figures rolling in. Code render, no AI model."
   - file: examples/28-logo-slam.mp4
-    caption: "28 Logo slam: Customer logos one per beat instead of a trusted-by row. Code render, no AI model."
+    caption: "28. Logo slam: Customer logos one per beat instead of a trusted-by row. Code render, no AI model."
   - file: examples/29-search-wall-pullback.mp4
-    caption: "29 Search wall pull-back: A pull-back that reveals scale: one card becomes a wall of hundreds. Code render, no AI model."
+    caption: "29. Search wall pull-back: A pull-back that reveals scale: one card becomes a wall of hundreds. Code render, no AI model."
   - file: examples/30-closed-form-spring.mp4
-    caption: "30 Closed-form spring: Every move in the one-shape style: pure functions of time, no CSS transitions. Code render, no AI model."
+    caption: "30. Closed-form spring: Every move in the one-shape style: pure functions of time, no CSS transitions. Code render, no AI model."
   - file: examples/31-blur-content-swap.mp4
-    caption: "31 Blur content swap: Text swaps inside a morphing container without overlap. Code render, no AI model."
+    caption: "31. Blur content swap: Text swaps inside a morphing container without overlap. Code render, no AI model."
   - file: examples/32-edge-split-stretch.mp4
-    caption: "32 Edge-split stretch: Toggle knobs and tab indicators that stretch like liquid. Code render, no AI model."
+    caption: "32. Edge-split stretch: Toggle knobs and tab indicators that stretch like liquid. Code render, no AI model."
   - file: examples/33-agent-cursor-and-trail.mp4
-    caption: "33 Agent cursor and trail: A cursor that is a character: gradient arrow, name pill, lean, trail, ripple. Code render, no AI model."
+    caption: "33. Agent cursor and trail: A cursor that is a character: gradient arrow, name pill, lean, trail, ripple. Code render, no AI model."
   - file: examples/34-camera-log-zoom.mp4
-    caption: "34 Camera on log-zoom: Zooms that feel even. Code render, no AI model."
+    caption: "34. Camera on log-zoom: Zooms that feel even. Code render, no AI model."
   - file: examples/35-seamless-loop.mp4
-    caption: "35 Seamless loop: Loops where the last frame is the first frame. Code render, no AI model."
+    caption: "35. Seamless loop: Loops where the last frame is the first frame. Code render, no AI model."
   - file: examples/36-beat-grid-cues.mp4
-    caption: "36 Beat grid and cues: Timing from a measured beat grid instead of voice. Code render, no AI model."
+    caption: "36. Beat grid and cues: Timing from a measured beat grid instead of voice. Code render, no AI model."
   - file: examples/37-motion-blur-subframes.mp4
-    caption: "37 Motion blur by subframes: Real motion blur from a deterministic page. Code render, no AI model."
+    caption: "37. Motion blur by subframes: Real motion blur from a deterministic page. Code render, no AI model."
   - file: examples/38-ease-entrance-power3-out.mp4
-    caption: "38 Entrance: power3.out: The house default. Code render, no AI model."
+    caption: "38. Entrance: power3.out: The house default. Code render, no AI model."
   - file: examples/39-ease-secondary-power2-out.mp4
-    caption: "39 Secondary: power2.out: Same gesture, softer, for support elements. Code render, no AI model."
+    caption: "39. Secondary: power2.out: Same gesture, softer, for support elements. Code render, no AI model."
   - file: examples/40-ease-exit-power2-in.mp4
-    caption: "40 Exit: power2.in: Leaving accelerates away. Code render, no AI model."
+    caption: "40. Exit: power2.in: Leaving accelerates away. Code render, no AI model."
   - file: examples/41-ease-camera-power2-inout.mp4
-    caption: "41 Camera: power2.inOut: Long travel and parallax: a body with mass. Code render, no AI model."
+    caption: "41. Camera: power2.inOut: Long travel and parallax: a body with mass. Code render, no AI model."
   - file: examples/42-ease-flip-back-out.mp4
-    caption: "42 State flip: back.out: The one sanctioned bounce. Code render, no AI model."
+    caption: "42. State flip: back.out: The one sanctioned bounce. Code render, no AI model."
   - file: examples/43-ease-count-power2-out.mp4
-    caption: "43 Count-up: power2.out: Magnitude reads early, then resolves. Code render, no AI model."
+    caption: "43. Count-up: power2.out: Magnitude reads early, then resolves. Code render, no AI model."
   - file: examples/44-ease-sequential-swap.mp4
-    caption: "44 Sequential text swap: No double print in a cell. Code render, no AI model."
+    caption: "44. Sequential text swap: No double print in a cell. Code render, no AI model."
   - file: examples/45-ease-streak-expo-out.mp4
-    caption: "45 Blur streak: expo.out: Arrival from off-screen with extreme deceleration. Code render, no AI model."
+    caption: "45. Blur streak: expo.out: Arrival from off-screen with extreme deceleration. Code render, no AI model."
   - file: examples/46-ease-clock-none.mp4
-    caption: "46 Clocks: ease none: Typewriters, counts and blinks are drivers, not gestures. Code render, no AI model."
+    caption: "46. Clocks: ease none: Typewriters, counts and blinks are drivers, not gestures. Code render, no AI model."
   - file: examples/47-ease-bounded-sine.mp4
-    caption: "47 Bounded sine life: Life without loops. Code render, no AI model."
+    caption: "47. Bounded sine life: Life without loops. Code render, no AI model."
   - file: examples/48-stagger-offsets.mp4
-    caption: "48 Stagger offsets: Pick the offset by content. Code render, no AI model."
+    caption: "48. Stagger offsets: Pick the offset by content. Code render, no AI model."
   - file: examples/49-anticipation-bowed-travel.mp4
-    caption: "49 Anticipation and bowed travel: A cursor that decides instead of slides. Code render, no AI model."
+    caption: "49. Anticipation and bowed travel: A cursor that decides instead of slides. Code render, no AI model."
   - file: examples/50-speed-ramp.mp4
-    caption: "50 Speed ramp: Traverses use inOut, entrances use out. Code render, no AI model."
+    caption: "50. Speed ramp: Traverses use inOut, entrances use out. Code render, no AI model."
   - file: examples/51-holds-and-rhythm.mp4
-    caption: "51 Holds and rhythm: Dynamics: busy, still, busy. Code render, no AI model."
+    caption: "51. Holds and rhythm: Dynamics: busy, still, busy. Code render, no AI model."
   - file: examples/52-kinetic-type-variants.mp4
-    caption: "52 Kinetic type variants: Four ways to reveal type, each with a cost. Code render, no AI model."
+    caption: "52. Kinetic type variants: Four ways to reveal type, each with a cost. Code render, no AI model."
   - file: examples/53-underline-hug.mp4
-    caption: "53 Underline that hugs: A stroke that sits below the word. Code render, no AI model."
+    caption: "53. Underline that hugs: A stroke that sits below the word. Code render, no AI model."
   - file: examples/54-typewriter-snapped-index.mp4
-    caption: "54 Typewriter on a snapped index: Typing as a pure function of time. Code render, no AI model."
+    caption: "54. Typewriter on a snapped index: Typing as a pure function of time. Code render, no AI model."
   - file: examples/55-bounded-sine-life.mp4
-    caption: "55 Bounded sine settle and pulse: Keep one hero element alive during a hold. Code render, no AI model."
+    caption: "55. Bounded sine settle and pulse: Keep one hero element alive during a hold. Code render, no AI model."
   - file: examples/56-exits-and-cuts.mp4
-    caption: "56 Exits and cuts: When to exit and when to cut. Code render, no AI model."
+    caption: "56. Exits and cuts: When to exit and when to cut. Code render, no AI model."
   - file: examples/57-camera-two-node-turn.mp4
-    caption: "57 Two-node camera turn: A whole-shot rotation and a mid-shot scale on different elements. Code render, no AI model."
+    caption: "57. Two-node camera turn: A whole-shot rotation and a mid-shot scale on different elements. Code render, no AI model."
   - file: examples/58-camera-dolly-fixed-point.mp4
-    caption: "58 Dolly and fixed point: A push that keeps the cursor aligned with no maths. Code render, no AI model."
+    caption: "58. Dolly and fixed point: A push that keeps the cursor aligned with no maths. Code render, no AI model."
   - file: examples/59-camera-z-depth-parallax.mp4
-    caption: "59 Z depth and parallax: Depth without a 3D engine. Code render, no AI model."
+    caption: "59. Z depth and parallax: Depth without a 3D engine. Code render, no AI model."
   - file: examples/60-camera-rack-focus.mp4
-    caption: "60 Rack focus: Take the dead region out of focus when the camera commits. Code render, no AI model."
+    caption: "60. Rack focus: Take the dead region out of focus when the camera commits. Code render, no AI model."
   - file: examples/61-camera-click-stack.mp4
-    caption: "61 Click stack: A click is three layers on one frame. Code render, no AI model."
+    caption: "61. Click stack: A click is three layers on one frame. Code render, no AI model."
   - file: examples/62-look-two-registers.mp4
-    caption: "62 Two registers: Two grounds, one accent. Code render, no AI model."
+    caption: "62. Two registers: Two grounds, one accent. Code render, no AI model."
   - file: examples/63-look-aurora-drift.mp4
-    caption: "63 Aurora drift: Depth for long type-only shots. Code render, no AI model."
+    caption: "63. Aurora drift: Depth for long type-only shots. Code render, no AI model."
   - file: examples/64-look-glass-band.mp4
-    caption: "64 Glass band: Frosted borders without backdrop-filter. Code render, no AI model."
+    caption: "64. Glass band: Frosted borders without backdrop-filter. Code render, no AI model."
   - file: examples/65-look-film-grade.mp4
-    caption: "65 Film grade: Grain, vignette, sweep on one overlay. Code render, no AI model."
+    caption: "65. Film grade: Grain, vignette, sweep on one overlay. Code render, no AI model."
   - file: examples/66-look-specular-sweep.mp4
-    caption: "66 Specular sweep: Punctuation on a story beat. Code render, no AI model."
+    caption: "66. Specular sweep: Punctuation on a story beat. Code render, no AI model."
   - file: examples/67-sound-cue-table.mp4
-    caption: "67 Sound cue table: Sound is arithmetic. Code render, no AI model."
+    caption: "67. Sound cue table: Sound is arithmetic. Code render, no AI model."
   - file: examples/68-three-directions.mp4
-    caption: "68 Three directions, kill two: Avoid the house style. Code render, no AI model."
-examplesCredit: "All clips are our own renders of a fictional product, made in code (HTML, headless Chrome, ffmpeg) with no AI model. They are rough references of each move. The upstream sample films are not reused."
+    caption: "68. Three directions, kill two: Avoid the house style. Code render, no AI model."
+examplesCredit: "All clips are our own renders of a fictional product, made in code (HTML) with no AI model. They are rough references of each move. The upstream sample films are not reused."
 examplesKind: test

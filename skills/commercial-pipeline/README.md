@@ -20,9 +20,9 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 <p align="center"><img src="examples/desk-lamp-on.jpg" alt="After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2." width="720"><br><sub>After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/desk-lamp-switch-on.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline/desk-lamp-switch-on.gif" alt="The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model." width="480"></a><br><sub>The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model. <a href="examples/desk-lamp-switch-on.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/desk-lamp-switch-on.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline/desk-lamp-switch-on.gif" alt="The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model." width="480"></a><br><sub>The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model. <a href="examples/desk-lamp-switch-on.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
 
 <!-- examples:end -->
 

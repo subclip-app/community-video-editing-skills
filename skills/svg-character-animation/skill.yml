@@ -16,5 +16,5 @@ examples:
     caption: "The held wave pose after the eyes lead and the shoulder rotates."
   - file: examples/robot-wave.mp4
     caption: "A jointed SVG robot notices something, waves, blinks and settles."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
 examplesKind: test

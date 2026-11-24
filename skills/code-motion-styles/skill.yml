@@ -15,37 +15,37 @@ examples:
   - file: examples/capability-motion-styles.mp4
     caption: "Capability reference: eight styles in one 26 second montage"
   - file: examples/01-falling-stack-chart.mp4
-    caption: "01 Falling-stack 3D chart"
+    caption: "1. Falling-stack 3D chart"
   - file: examples/02-proof-machine.mp4
-    caption: "02 Proof machine (maths as a machine)"
+    caption: "2. Proof machine (maths as a machine)"
   - file: examples/03-line-art-science-diagram.mp4
-    caption: "03 Line-art science diagram"
+    caption: "3. Line-art science diagram"
   - file: examples/04-chain-reaction.mp4
-    caption: "04 Chain reaction (flat rube-goldberg)"
+    caption: "4. Chain reaction (flat rube-goldberg)"
   - file: examples/05-minimal-line-art.mp4
-    caption: "05 Minimal line art on black"
+    caption: "5. Minimal line art on black"
   - file: examples/06-glow-sketch.mp4
-    caption: "06 Glow sketch (dotted gold on black)"
+    caption: "6. Glow sketch (dotted gold on black)"
   - file: examples/07-stickman-notebook.mp4
-    caption: "07 Stickman notebook doodle"
+    caption: "7. Stickman notebook doodle"
   - file: examples/08-cel-anime-launch.mp4
-    caption: "08 90s cel-anime launch"
+    caption: "8. 90s cel-anime launch"
   - file: examples/09-brick-built-world.mp4
-    caption: "09 Brick-built world"
+    caption: "9. Brick-built world"
   - file: examples/10-particle-galaxy.mp4
-    caption: "10 Particle galaxy"
+    caption: "10. Particle galaxy"
   - file: examples/11-glitch-cut.mp4
-    caption: "11 Glitch smash cut"
+    caption: "11. Glitch smash cut"
   - file: examples/12-circuit-board.mp4
-    caption: "12 Circuit-board pulse"
+    caption: "12. Circuit-board pulse"
   - file: examples/13-particle-ring-master.mp4
-    caption: "13 Particle ring master prompt (style swap)"
+    caption: "13. Particle ring master prompt (style swap)"
   - file: examples/14-fur-ring.mp4
-    caption: "14 Fur ring style line"
+    caption: "14. Fur ring style line"
   - file: examples/15-matrix-ring.mp4
-    caption: "15 Matrix ring style line"
+    caption: "15. Matrix ring style line"
   - file: examples/16-minimal-mono-ring.mp4
-    caption: "16 Minimal mono ring style line"
+    caption: "16. Minimal mono ring style line"
 examplesCredit: "Clips and posters rendered in code by Subclip from our own prompts (HyperFrames, Three.js for the 3D styles), no image, video or audio model; style ideas from Applied AI (its-applied-ai.com/r/styles)"
 examplesKind: original
 allowlist:

@@ -22,7 +22,7 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 <p align="center"><a href="examples/sailboat-assembly.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/paper-cut-motion/sailboat-assembly.gif" alt="Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model." width="480"></a><br><sub>Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model. <a href="examples/sailboat-assembly.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation in headless Chrome encoded with ffmpeg, no video model. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation rendered in code, no video model. Silent.</sub></p>
 
 <!-- examples:end -->
 

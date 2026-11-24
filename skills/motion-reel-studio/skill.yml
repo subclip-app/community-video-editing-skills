@@ -18,26 +18,26 @@ examples:
   - file: examples/capability-motion-reel-studio.mp4
     caption: "Capability reference: the five reel styles. Images: gpt-image-2. Rendered in code."
   - file: examples/01-kinetic-reel.mp4
-    caption: "01 Kinetic motion reel with a voxel mascot. Rendered in code with HyperFrames, no AI model."
+    caption: "1. Kinetic motion reel with a voxel mascot. Rendered in code with HyperFrames, no AI model."
   - file: examples/01-kinetic-reel-upstream.jpg
-    caption: "01 Kinetic reel, a frame from the original template. By the original author."
+    caption: "1. Kinetic reel, a frame from the original template. By the original author."
   - file: examples/02-cozy-tower.mp4
-    caption: "02 Cozy 3D elevator tower. Rough reference. Images: gpt-image-2, animated in code, no video model."
+    caption: "2. Cozy 3D elevator tower. Rough reference. Images: gpt-image-2, animated in code, no video model."
   - file: examples/02-cozy-tower-upstream.jpg
-    caption: "02 Elevator tower, a frame from the original. By the original author."
+    caption: "2. Elevator tower, a frame from the original. By the original author."
   - file: examples/03-film-set.mp4
-    caption: "03 Cozy 3D film set with a clapperboard. Rough reference. Images: gpt-image-2, animated in code, no video model."
+    caption: "3. Cozy 3D film set with a clapperboard. Rough reference. Images: gpt-image-2, animated in code, no video model."
   - file: examples/03-film-set-upstream.jpg
-    caption: "03 Film set, a frame from the original. By the original author."
+    caption: "3. Film set, a frame from the original. By the original author."
   - file: examples/04-anime-opening.mp4
-    caption: "04 Anime opening. Rough reference. Images: gpt-image-2, animated in code, no video model."
+    caption: "4. Anime opening. Rough reference. Images: gpt-image-2, animated in code, no video model."
   - file: examples/04-anime-opening-upstream.jpg
-    caption: "04 Anime opening, a frame from the original. By the original author."
+    caption: "4. Anime opening, a frame from the original. By the original author."
   - file: examples/04-anime-impact-upstream.jpg
-    caption: "04 Anime impact frame with onomatopoeia. By the original author."
+    caption: "4. Anime impact frame with onomatopoeia. By the original author."
   - file: examples/05-phone-shot.mp4
-    caption: "05 Shot on a phone. Rough reference. Images: gpt-image-2, animated in code, no video model."
+    caption: "5. Shot on a phone. Rough reference. Images: gpt-image-2, animated in code, no video model."
   - file: examples/05-phone-shot-upstream.jpg
-    caption: "05 Shot on a phone, a frame from the original. By the original author."
+    caption: "5. Shot on a phone, a frame from the original. By the original author."
 examplesCredit: "Files marked By the original author are frames from Vladic20's tvhead-studio (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: 01 is a code render, the rest are gpt-image-2 stills animated in code. No Subclip credits spent."
 examplesKind: test

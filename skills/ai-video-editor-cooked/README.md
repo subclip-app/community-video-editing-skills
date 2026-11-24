@@ -18,6 +18,6 @@ What changed from the original: the Python pipeline, Remotion renderer, browser 
 
 <p align="center"><a href="examples/retake-log-to-style-brief.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-video-editor-cooked/retake-log-to-style-brief.gif" alt="A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take." width="480"></a><br><sub>A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take. <a href="examples/retake-log-to-style-brief.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->

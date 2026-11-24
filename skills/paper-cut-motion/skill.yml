@@ -21,5 +21,5 @@ examples:
     caption: "Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2."
   - file: examples/sailboat-assembly.mp4
     caption: "Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation in headless Chrome encoded with ffmpeg, no video model. Silent."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation rendered in code, no video model. Silent."
 examplesKind: test

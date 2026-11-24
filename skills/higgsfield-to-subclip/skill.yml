@@ -22,6 +22,6 @@ examples:
   - file: examples/rain.jpg
     caption: "Cold blue storm light with rain confined to the window glass. Image: gpt-image-2."
   - file: examples/ceramicist-lighting-study.mp4
-    caption: "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: ffmpeg push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
+    caption: "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
 examplesKind: test

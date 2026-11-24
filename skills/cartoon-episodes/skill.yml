@@ -20,6 +20,6 @@ examples:
   - file: examples/greenhouse-set.jpg
     caption: "Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2."
   - file: examples/juniper-and-the-greenhouse.mp4
-    caption: "Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: ffmpeg push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
+    caption: "Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
 examplesKind: test

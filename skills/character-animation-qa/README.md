@@ -30,7 +30,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 <p align="center"><a href="examples/robot-wave-shoulder-review.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/character-animation-qa/robot-wave-shoulder-review.gif" alt="A robot waves with a detached shoulder, then repeats the wave after the shoulder fix." width="480"></a><br><sub>A robot waves with a detached shoulder, then repeats the wave after the shoulder fix. <a href="examples/robot-wave-shoulder-review.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
 

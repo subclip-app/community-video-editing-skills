@@ -22,6 +22,6 @@ The upstream collection credits each video and prompt to its creator. The catalo
 
 <p align="center"><a href="examples/butterfly-wing-loop.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-video-recipes/butterfly-wing-loop.gif" alt="A seekable butterfly study uses one shared phase for both wings and loops at the boundary." width="480"></a><br><sub>A seekable butterfly study uses one shared phase for both wings and loops at the boundary. <a href="examples/butterfly-wing-loop.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->

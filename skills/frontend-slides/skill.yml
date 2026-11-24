@@ -20,5 +20,5 @@ examples:
     caption: "Field notebook wildcard with ruled paper and a teal specimen drawing."
   - file: examples/forest-slide-openers.mp4
     caption: "Three animated openers for the same forest lesson in Swiss Modern, Grove and Field Notebook styles."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
 examplesKind: test

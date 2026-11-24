@@ -38,7 +38,7 @@ The p5.brush look (WebGL watercolor, pigment mixing) is approximated in plain ca
 
 <p align="center"><a href="examples/snail-peeks-out.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-animation/snail-peeks-out.gif" alt="The brush wipe reveals the sheltered snail, which peeks out before the iris closes." width="480"></a><br><sub>The brush wipe reveals the sheltered snail, which peeks out before the iris closes. <a href="examples/snail-peeks-out.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
 

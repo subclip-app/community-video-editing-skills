@@ -22,6 +22,6 @@ examples:
   - file: examples/watercolour.jpg
     caption: "Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2."
   - file: examples/ceramicist-style-study.mp4
-    caption: "The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: ffmpeg push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
+    caption: "The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
 examplesKind: test

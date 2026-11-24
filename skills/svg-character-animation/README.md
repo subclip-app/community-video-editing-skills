@@ -30,7 +30,7 @@ Pair it with the `character-animation-qa` skill to review the result.
 
 <p align="center"><a href="examples/robot-wave.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/svg-character-animation/robot-wave.gif" alt="A jointed SVG robot notices something, waves, blinks and settles." width="480"></a><br><sub>A jointed SVG robot notices something, waves, blinks and settles. <a href="examples/robot-wave.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
 

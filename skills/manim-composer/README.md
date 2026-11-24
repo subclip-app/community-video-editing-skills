@@ -32,7 +32,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 <p align="center"><img src="examples/equal-row-widths.jpg" alt="The settled comparison explains area preservation by comparing equal-width rows." width="720"><br><sub>The settled comparison explains area preservation by comparing equal-width rows.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (SVG animation in headless Chrome, ffmpeg): no image or video model. Timing used local text-to-speech, the clip is silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (SVG animation): no image or video model. Timing used local text-to-speech, the clip is silent.</sub></p>
 
 <!-- examples:end -->
 

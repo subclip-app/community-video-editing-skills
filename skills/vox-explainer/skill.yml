@@ -17,6 +17,6 @@ examples:
   - file: examples/accordion-cross-section.jpg
     caption: "A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2."
   - file: examples/paper-fan-pleats.mp4
-    caption: "A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: ffmpeg push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
+    caption: "A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
 examplesKind: test

@@ -34,7 +34,7 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 <p align="center"><a href="examples/paper-beat-cuts.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cut-to-the-beat/paper-beat-cuts.gif" alt="Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four." width="480"></a><br><sub>Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four. <a href="examples/paper-beat-cuts.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
 

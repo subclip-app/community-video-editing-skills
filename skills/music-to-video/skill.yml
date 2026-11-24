@@ -16,5 +16,5 @@ examples:
     caption: "A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line."
   - file: examples/held-pad-message.jpg
     caption: "A still message over the midpoint of a drifting field for the track’s sparse pad."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model."
+examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
 examplesKind: test

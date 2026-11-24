@@ -47,9 +47,9 @@ A 7-beat, 60-second film with 3 animated beats is about 100 Subclip credits (fra
 
 <p align="center"><img src="examples/accordion-cross-section.jpg" alt="A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2." width="720"><br><sub>A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/paper-fan-pleats.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-explainer/paper-fan-pleats.gif" alt="A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: ffmpeg push-in, no video model." width="480"></a><br><sub>A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: ffmpeg push-in, no video model. <a href="examples/paper-fan-pleats.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/paper-fan-pleats.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-explainer/paper-fan-pleats.gif" alt="A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model." width="480"></a><br><sub>A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model. <a href="examples/paper-fan-pleats.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
 
 <!-- examples:end -->
 

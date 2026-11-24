@@ -20,6 +20,6 @@ examples:
   - file: examples/desk-lamp-on.jpg
     caption: "After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2."
   - file: examples/desk-lamp-switch-on.mp4
-    caption: "The mustard desk lamp fades from off to on in matching framing. Clip: ffmpeg crossfade, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an ffmpeg edit of the stills. Silent."
+    caption: "The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
 examplesKind: test
