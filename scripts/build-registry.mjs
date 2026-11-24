@@ -146,13 +146,27 @@ export async function readInstallYourself(root) {
   const list = parseYaml(raw);
   assert(Array.isArray(list), 'install-yourself.yml must be a list');
   return Promise.all(list.map(async (item, i) => {
-    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit','mirror','examples'], `install-yourself.yml item ${i + 1}`);
+    keys(item, ['slug','name','repo','category','what','why','preview','video','gallery','galleryCredit','mirror','examples','references'], `install-yourself.yml item ${i + 1}`);
     assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug ?? ''), `install-yourself.yml item ${i + 1} needs a kebab-case slug`);
     assert(item.category === undefined || CATEGORY_LABELS[item.category], `Unknown install-yourself category: ${item.category}`);
     const gallery = item.gallery ?? []; assert(Array.isArray(gallery) && gallery.every(u => typeof u === 'string' && u.startsWith('https://')), 'install-yourself gallery must list https URLs');
     text(item.name, 'install-yourself name', 80); text(item.what, 'install-yourself what', 300); text(item.why, 'install-yourself why', 400);
     assert(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(item.repo), `Invalid install-yourself repo: ${item.repo}`);
     for (const v of [item.name, item.what, item.why]) assert(!/[—·]/u.test(v), 'install-yourself.yml contains an em dash or middle dot');
+    const references = [];
+    if (item.references !== undefined) {
+      assert(Array.isArray(item.references) && item.references.length <= 30, 'install-yourself references must list up to 30 groups');
+      for (const group of item.references) {
+        keys(group, ['group','links'], 'install-yourself references group'); text(group.group, 'install-yourself references group', 80);
+        assert(Array.isArray(group.links) && group.links.length >= 1 && group.links.length <= 120, 'install-yourself references links must list 1 to 120 links');
+        for (const link of group.links) {
+          keys(link, ['label','url'], 'install-yourself references link'); text(link.label, 'install-yourself reference label', 120);
+          assert(typeof link.url === 'string' && link.url.startsWith('https://'), 'install-yourself reference urls must be https');
+          assert(!/[\u2014\u00b7]/u.test(link.label + group.group), 'install-yourself reference contains an em dash or middle dot');
+        }
+        references.push({ group: group.group, links: group.links.map(l => ({ label: l.label, url: l.url })) });
+      }
+    }
     let video;
     if (item.video !== undefined) {
       const prefix = `install-yourself/${item.slug}/`;
@@ -174,7 +188,7 @@ export async function readInstallYourself(root) {
         examples.push({ path: ex.file, kind: isVideo ? 'video' : 'image', caption: ex.caption });
       }
     }
-    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', ...(item.mirror ? { mirror: item.mirror } : {}), ...(examples.length ? { examples } : {}), what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
+    return { slug: item.slug, name: item.name, repo: item.repo, url: `https://github.com/${item.repo}`, category: item.category ?? 'workflow', ...(item.mirror ? { mirror: item.mirror } : {}), ...(examples.length ? { examples } : {}), ...(references.length ? { references } : {}), what: item.what, why: item.why, preview: item.preview ?? `https://opengraph.githubassets.com/1/${item.repo}`, ...(video ? { video } : {}), gallery, ...(item.galleryCredit ? { galleryCredit: item.galleryCredit } : {}) };
   }));
 }
 export function installYourselfMarkdown(items) {

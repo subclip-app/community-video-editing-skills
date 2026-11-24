@@ -21,6 +21,151 @@
       caption: "Our own example: A circle, triangle and square overlap on a Bauhaus grid."
     - file: install-yourself/lemo-opuscar/examples/neon-noir.jpg
       caption: "Our own example: A pink sun sets behind a dark city and a neon street grid."
+  references:
+    - group: "Site and films"
+      links:
+        - { label: "Lemo-Opuscar site and workbench", url: "https://lemomo-ai.github.io/lemo-opuscar/" }
+        - { label: "OPUSCAR 98 film and all 98 styles", url: "https://lemomo-ai.github.io/lemo-opuscar/opuscar98/" }
+        - { label: "OPUSCAR 98 styles list", url: "https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles" }
+        - { label: "Film: OPUSCAR 98 (1080p)", url: "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/opuscar98.mp4" }
+        - { label: "Film: Swiss motion", url: "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/swiss-motion.mp4" }
+        - { label: "Film: My style material grid", url: "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/my-style-material-grid.mp4" }
+    - group: "More from LemoLab"
+      links:
+        - { label: "lemo-wake: one picture in, a seamless loop out", url: "https://github.com/lemomo-ai/lemo-wake" }
+        - { label: "lemo-mod: re-skin Claude Code with 21 styles", url: "https://github.com/lemomo-ai/lemo-mod" }
+        - { label: "Stampy: Mac menu bar stamp", url: "https://github.com/lemomo-ai/lemo-stampy" }
+        - { label: "LemoLab on GitHub", url: "https://github.com/lemomo-ai" }
+        - { label: "Licence: CC BY-NC 4.0", url: "https://creativecommons.org/licenses/by-nc/4.0/" }
+    - group: "Edit & Documentary"
+      links:
+        - { label: "Caption News", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/caption-news/" }
+        - { label: "1920s Newsreel", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/newsreel/" }
+        - { label: "Live Countdown Split-screen", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/countdown/" }
+        - { label: "City Symphony", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/city-symphony/" }
+        - { label: "Visual Investigation", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/visual-investigation/" }
+        - { label: "Constructivist Montage", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/kino-montage/" }
+        - { label: "Sports Telestrator", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/telestrator/" }
+        - { label: "Broadcast News Package", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/news-package/" }
+    - group: "Painting & Illustration"
+      links:
+        - { label: "Crayon Picture Book", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/crayon-book/" }
+        - { label: "Watercolor Brush", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/watercolor/" }
+        - { label: "Impasto Oil Painting", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/impasto/" }
+        - { label: "Urban Sketch: Pen & Wash", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/urban-sketch/" }
+        - { label: "Colored-Pencil Science Illustration", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/colored-pencil/" }
+    - group: "Sketch & Board"
+      links:
+        - { label: "One-line Drawing", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/one-line/" }
+        - { label: "Whiteboard Explainer", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/whiteboard/" }
+        - { label: "Chalkboard", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/chalkboard/" }
+        - { label: "Sketchnote", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/sketchnote/" }
+        - { label: "Stick-figure Explainer", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/stick-explainer/" }
+        - { label: "Tablet Sketch Explainer", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/ipad-sketch/" }
+        - { label: "Marker on Paper", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/marker-paper/" }
+    - group: "Traditional Crafts"
+      links:
+        - { label: "Chinese Ink Wash", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/ink-wash/" }
+        - { label: "Shadow Puppetry", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/shadow-puppet/" }
+        - { label: "Ukiyo-e", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/ukiyoe/" }
+        - { label: "Red Paper-cut", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/papercut-red/" }
+        - { label: "Paper-cut Lightbox", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/paper-lantern/" }
+        - { label: "Stained Glass", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/stained-glass/" }
+        - { label: "Gilded Illumination", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/gilded-illumination/" }
+    - group: "Print & Printmaking"
+      links:
+        - { label: "Risograph Print", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/risograph/" }
+        - { label: "Halftone Dossier", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/halftone-dossier/" }
+        - { label: "Woodcut Print", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/woodcut/" }
+        - { label: "Copperplate Engraving", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/engraving/" }
+        - { label: "Silkscreen Travel Poster", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/silkscreen-poster/" }
+        - { label: "Scratchboard Long Take", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/printed-long-take/" }
+        - { label: "Pop Art", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/pop-art/" }
+        - { label: "Vintage Engraving Collage", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/vintage-collage/" }
+    - group: "Graphic & Type"
+      links:
+        - { label: "Swiss Motion Graphics", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/swiss-motion/" }
+        - { label: "60s Spy Title Sequence", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/spy-titles/" }
+        - { label: "Art Deco", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/art-deco/" }
+        - { label: "Pictogram Motion", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/pictogram-motion/" }
+        - { label: "Bauhaus Shapes", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/bauhaus-shapes/" }
+        - { label: "Scale Zoom Explainer", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/flat-space-explainer/" }
+        - { label: "Text Flash Cuts", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/text-flash-cuts/" }
+        - { label: "Silhouette Rhythm", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/silhouette-rhythm/" }
+    - group: "Line Diagrams"
+      links:
+        - { label: "Blueprint", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/blueprint/" }
+        - { label: "Isometric Infographic", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/iso-infographic/" }
+        - { label: "Exploded Teardown", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/teardown/" }
+        - { label: "Line-Art Cutaway", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/hardcore-info/" }
+        - { label: "Color-Coded Mechanism", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/precise-mechanism/" }
+        - { label: "Instruction Manual Art", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/instruction-manual/" }
+        - { label: "Pen Plotter", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/pen-plotter/" }
+        - { label: "Assembly-Line Diagram", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/assembly-line-diagram/" }
+    - group: "Cartoons"
+      links:
+        - { label: "1930s Rubber Hose Cartoon", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/rubber-hose/" }
+        - { label: "80s Cel Anime", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/cel-anime-80s/" }
+        - { label: "Sci-Fi Sitcom Toon", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/scifi-toon/" }
+        - { label: "Mid-century Cartoon", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/midcentury-toon/" }
+        - { label: "Comic History Cartoon", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/comic-history/" }
+        - { label: "Manga Panels", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/manga-panels/" }
+    - group: "Games"
+      links:
+        - { label: "16-bit Pixel RPG", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/pixel-rpg/" }
+        - { label: "2.5D Pixel Art", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/hd-2d/" }
+        - { label: "Microgame Frenzy", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/microgame/" }
+        - { label: "Rhythm Game Show", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/game-show/" }
+    - group: "Film & Tape"
+      links:
+        - { label: "CRT ASCII Terminal", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/ascii-crt/" }
+        - { label: "1920s Silent Film", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/silent-film/" }
+        - { label: "Liminal Found Footage", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/backrooms/" }
+        - { label: "Scratch Film", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/scratch-film/" }
+        - { label: "Double Exposure", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/double-exposure/" }
+    - group: "Screens & Interfaces"
+      links:
+        - { label: "Dark Tech Keynote", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/dark-keynote/" }
+        - { label: "Mascot Screencast", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/living-screencast/" }
+        - { label: "Sci-fi Hologram HUD", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/hologram-hud/" }
+        - { label: "Tabletop App Flythrough", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/desktop-flythrough/" }
+        - { label: "Spreadsheet Film", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/spreadsheet/" }
+        - { label: "1-bit Dither", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/one-bit-dither/" }
+    - group: "Light & Lines"
+      links:
+        - { label: "Circuit Board", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/circuit-board/" }
+        - { label: "Firefly Pointillism", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/firefly-pointillism/" }
+        - { label: "Flow-field Wind Lines", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/flow-field/" }
+        - { label: "Oscilloscope Math", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/oscilloscope-math/" }
+        - { label: "Neon Tubes", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/neon-tubes/" }
+    - group: "3D & Miniature"
+      links:
+        - { label: "Brick Toy", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/brick-toy/" }
+        - { label: "Paper Pop-up Book", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/paper-popup/" }
+        - { label: "Tilt-Shift Miniature", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/tilt-shift/" }
+        - { label: "Low-poly Isometric Island", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/lowpoly-island/" }
+        - { label: "Glass Product Render", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/glass-product/" }
+        - { label: "Memphis Diorama", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/memphis-diorama/" }
+        - { label: "Isometric People Scene", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/isometric-picture-book/" }
+        - { label: "Crayon World 3D", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/crayon-world/" }
+    - group: "Instruments & Evidence"
+      links:
+        - { label: "Satellite Briefing", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/satellite-briefing/" }
+        - { label: "Engineering Briefing Board", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/briefing-board/" }
+        - { label: "LiDAR Survey", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/lidar-survey/" }
+        - { label: "Under the Microscope", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/microscope/" }
+        - { label: "Archive Light Table", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/archive-lighttable/" }
+        - { label: "Security X-ray", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/security-xray/" }
+        - { label: "Radar Sweep Documentary", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/dark-documentary/" }
+        - { label: "Thermal Camera", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/thermal-camera/" }
+    - group: "Data & Maps"
+      links:
+        - { label: "Data Storytelling", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/dataviz/" }
+        - { label: "Projection-Mapped Model", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/white-model/" }
+        - { label: "Data Physicalization", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/data-physical/" }
+        - { label: "Transit Map", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/transit-map/" }
+        - { label: "3D Map Explainer", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/map-explainer/" }
+        - { label: "Blob Simulation", url: "https://lemomo-ai.github.io/lemo-opuscar/styles/pip-simulation/" }
 - slug: opus-video-prompts
   name: Opus video prompts
   repo: joeseesun/opus-video-prompts
