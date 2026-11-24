@@ -4491,6 +4491,11 @@
       "updatedAt": "2026-11-24",
       "examples": [
         {
+          "path": "skills/ugc-ad-director/examples/final-ugc-ad.mp4",
+          "kind": "video",
+          "caption": "Final output: 15 s 9:16 ad. Images: gpt-image-2. Video: p-video-2, 3 clips. Voice: ElevenLabs Flash v2.5 (Rachel)."
+        },
+        {
           "path": "skills/ugc-ad-director/examples/capability-ugc-ad-director.mp4",
           "kind": "video",
           "caption": "The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard."
@@ -4516,7 +4521,7 @@
           "caption": "Storyboard image: six 9:16 phone-style panels using the locked character, product and location."
         }
       ],
-      "examplesCredit": "Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI image generation). No video model used. Workflow idea from the Lyra Ai course video.",
+      "examplesCredit": "Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI). Final ad: p-video-2 clips, ElevenLabs Flash v2.5 voice. Workflow idea from the Lyra Ai course video.",
       "examplesKind": "test",
       "sourceVideo": {
         "youtube": "nqRugrnnKmc",

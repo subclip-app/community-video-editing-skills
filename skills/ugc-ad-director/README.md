@@ -26,6 +26,8 @@ The method came from a master prompt written for another video generator, with H
 
 <p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=nqRugrnnKmc">How to Create AI UGC Ads with ChatGPT + Google Flow Agent Mode (Full Course)</a>, Lyra Ai, Standard YouTube License</sub></p>
 
+<p align="center"><a href="examples/final-ugc-ad.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-director/final-ugc-ad.gif" alt="Final output: 15 s 9:16 ad. Images: gpt-image-2. Video: p-video-2, 3 clips. Voice: ElevenLabs Flash v2.5 (Rachel)." width="480"></a><br><sub>Final output: 15 s 9:16 ad. Images: gpt-image-2. Video: p-video-2, 3 clips. Voice: ElevenLabs Flash v2.5 (Rachel). <a href="examples/final-ugc-ad.mp4">Play with sound</a></sub></p>
+
 <p align="center"><a href="examples/capability-ugc-ad-director.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-director/capability-ugc-ad-director.gif" alt="The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard." width="480"></a><br><sub>The four separate 9:16 sheets this skill builds before any clip is made: character, product, location, storyboard. <a href="examples/capability-ugc-ad-director.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/character-sheet.jpg" alt="Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions)." width="720"><br><sub>Character sheet: one fictional creator in 8 panels (front, three-quarter, side, back, face, three expressions).</sub></p>
@@ -36,7 +38,7 @@ The method came from a master prompt written for another video generator, with H
 
 <p align="center"><img src="examples/storyboard.jpg" alt="Storyboard image: six 9:16 phone-style panels using the locked character, product and location." width="720"><br><sub>Storyboard image: six 9:16 phone-style panels using the locked character, product and location.</sub></p>
 
-<p align="center"><sub>Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI image generation). No video model used. Workflow idea from the Lyra Ai course video.</sub></p>
+<p align="center"><sub>Our own test output for a fictional creator, product and kitchen. Images: gpt-image-2 (Codex CLI). Final ad: p-video-2 clips, ElevenLabs Flash v2.5 voice. Workflow idea from the Lyra Ai course video.</sub></p>
 
 <!-- examples:end -->
 
