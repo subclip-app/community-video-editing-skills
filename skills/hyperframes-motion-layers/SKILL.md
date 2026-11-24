@@ -45,6 +45,21 @@ Use HyperFrames when the creator says HyperFrames, GSAP, Lottie, Three.js or "HT
 7. Keep each layer short. Split a long piece into scene-sized layers, each with its own source and start time.
 8. Export only when the creator asks, and check a short range first.
 
+## GSAP references
+
+Official GSAP guidance (from GreenSock's gsap-skills, MIT) summarized for layers, each with a runnable snippet and a 10 second reference clip. Read the one that matches the question. GSAP is free to use; see gsap.com for the license.
+
+- `references/gsap-core.md`: tweens, eases, stagger. Clip `examples/gsap-01-core.mp4`.
+- `references/gsap-timeline.md`: one paused timeline, position parameter, labels. Clip `examples/gsap-02-timeline.mp4`.
+- `references/gsap-scrolltrigger.md`: not for renders, use the playhead as the scrub. Clip `examples/gsap-03-scrolltrigger.mp4`.
+- `references/gsap-plugins.md`: which plugins suit a render, and the core fallback inside a layer. Clip `examples/gsap-04-plugins.mp4`.
+- `references/gsap-utils.md`: mapRange, snap, interpolate, distribute, seeded values. Clip `examples/gsap-05-utils.mp4`.
+- `references/gsap-react.md`: scope and revert. Clip `examples/gsap-06-react.mp4`.
+- `references/gsap-performance.md`: transforms, opacity, one stagger. Clip `examples/gsap-07-performance.mp4`.
+- `references/gsap-frameworks.md`: scoped selectors and cleanup. Clip `examples/gsap-08-frameworks.mp4`.
+
+Two facts hold across all of them: a Subclip layer loads only the pinned core GSAP, so plugin files are not available there, and everything must stay finite, seekable and free of unseeded randomness.
+
 ## Rules that prevent most failures
 
 - Never apply CSS `filter` or `backdrop-filter` to text or to anything that contains text, even `blur(0px)`. Text can vanish in the exported frames. Animate opacity and transforms instead.

@@ -1,0 +1,57 @@
+slug: stickman-video-director
+name: Stickman video director
+seoTitle: "Stickman Animated Explainer Videos From a Script (stickman-video-director)"
+summary: Turn a script into a stick figure video: director proposal with checks, 15 locked looks, gender-matched local voice, scenes, captions, sound and export.
+category: animation
+tags: [stickman, stick-figure, explainer, storyboard, faceless, script-to-video]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: kaomei/stickman-video-director, author: kaomei, license: MIT, commit: "8394bec0148fa281ea59171d90fddc13afb80c4e", syncedAt: "2026-11-24" }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+allowlist:
+  - code: external-provider
+    reason: Model and service names (Google Flow, Veo, Omni, Gemini, Codex, gpt-image-2) describe the original author's samples and what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
+examples:
+  - file: examples/capability-stickman-video-director.mp4
+    caption: "Capability montage of all 15 looks, labeled. Cut from the author's clips with ffmpeg and Chrome labels, no AI model."
+  - file: examples/director-storyboard-table.jpg
+    caption: "Worked director's proposal: storyboard table, checks and cost line for a 30 s film. Rendered in code from HTML, no AI model."
+  - file: examples/01-classic-black-on-white.mp4
+    caption: "01 A1.1 Classic black on white: hollow-head figure, flat canvas, red accent. Original author, Google Flow video model."
+  - file: examples/02-classic-white-on-black.mp4
+    caption: "02 A1.2 Classic white on black: the dramatic variant of the same figure. Original author, Google Flow video model."
+  - file: examples/03-modern-pop-minimal-tech.mp4
+    caption: "03 A2.1 Modern pop, minimal tech: red beanie, white studio, cyan glass UI. Original author, Google Flow video model."
+  - file: examples/04-modern-pop-colorful-story.mp4
+    caption: "04 A2.2 Modern pop, colorful story: the beanie figure in cinematic light. Original author, Google Flow video model."
+  - file: examples/05-prehistoric-cave.mp4
+    caption: "05 A3 Prehistoric cave: caveman satire with a twist. Original author, Google Flow video model. Burned-in subtitles are the sample's."
+  - file: examples/06-cozy-storytelling.mp4
+    caption: "06 A4 Cozy storytelling: a quiet cafe break, warm light. Original author, Google Flow video model."
+  - file: examples/07-historical-cartoon.mp4
+    caption: "07 A5 Historical cartoon: an Edo samurai and street life. Original author, Google Flow video model."
+  - file: examples/08-amber-noir.mp4
+    caption: "08 A6 Amber noir: orange hoodie in a warm-lit city, 8 s original. Original author, Veo 3.1 Fast in Google Flow."
+  - file: examples/09-rubber-hose.mp4
+    caption: "09 A7 Rubber hose: elastic acting chased by a cloud, 1930s scenery. Original author, Omni 1.2 Flash in Google Flow."
+  - file: examples/10-hand-painted-adventure.mp4
+    caption: "10 A8 Hand-painted adventure: gouache mountain workshop. Original author, Google Flow video model."
+  - file: examples/11-minimal-line-art.mp4
+    caption: "11 B1 Minimal line art: handwritten hook on paper. Original author, gpt-image-2 stills animated and rendered in code."
+  - file: examples/12-colorful-hand-drawn.mp4
+    caption: "12 B2 Colorful hand-drawn: why trying to sleep keeps you awake. Original author, gpt-image-2 stills and code."
+  - file: examples/13-retro-tv.mp4
+    caption: "13 B3 Retro TV: a 3 AM broadcast mystery, white figures on dark. Original author, gpt-image-2 stills and code."
+  - file: examples/14-survival-thriller.mp4
+    caption: "14 B4 Survival thriller: night dispatcher rules and a rule 01 hook. Original author, gpt-image-2 stills and code."
+  - file: examples/15-avatar-explainer.mp4
+    caption: "15 B5 Avatar explainer: presenter bottom right, metaphors on the left stage. Original author, gpt-image-2 and code."
+  - file: examples/16-meme-story-animation.mp4
+    caption: "16 B6 Meme story animation: 1990s Hong Kong breakfast, painted layers. Original author, gpt-image-2 and code."
+  - file: examples/17-pixel-theater.mp4
+    caption: "17 B7 Pixel theater: a choice story drawn fully in code. Original author, no image model, rendered in code."
+examplesCredit: "Clips 01 to 17 are the original author's samples from github.com/kaomei/stickman-video-director (MIT), trimmed to about 10 s, sound removed. The montage and the proposal table were made for this skill in code. No Subclip credits were spent."
+examplesKind: original

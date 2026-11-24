@@ -32,7 +32,10 @@ HyperFrames is the default for new motion graphics in Subclip. Ask for Remotion,
 - `references/authoring-contract.md`: the document shape, timing rules, pinned runtime and Three.js notes.
 - `references/captions.md`: the caption conversion workflow.
 - `references/maps.md`: when and how to build a HyperFrames map.
+- `references/gsap-*.md`: eight GSAP references (core, timeline, scrolltrigger, plugins, utils, react, performance, frameworks), each with a validated snippet.
+- `references/GSAP-SKILLS-LICENSE`: the MIT license of the upstream GSAP skills, unchanged.
 - `examples/capability-hyperframes-motion-layers.mp4`: a 17 second reference reel.
+- `examples/gsap-01-core.mp4` to `examples/gsap-08-frameworks.mp4`: one 10 second clip per GSAP reference, rendered in code with HyperFrames.
 
 No keys are needed. Layers cannot read your files or call outside services with credentials. The agent asks before spending credits.
 
@@ -58,10 +61,24 @@ No keys are needed. Layers cannot read your files or call outside services with 
 
 <p align="center"><a href="examples/hyperframes-hand-drawn-circle-highlight.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/hyperframes-hand-drawn-circle-highlight.gif" alt="HyperFrames layer: hand-drawn arc and highlighted label (template text)" width="480"></a><br><sub>HyperFrames layer: hand-drawn arc and highlighted label (template text) <a href="examples/hyperframes-hand-drawn-circle-highlight.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.</sub></p>
+<p align="center"><a href="examples/gsap-01-core.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/gsap-01-core.gif" alt="gsap-core: tweens, eases and a centre-out stagger. Rendered in code with HyperFrames, no AI model" width="480"></a><br><sub>gsap-core: tweens, eases and a centre-out stagger. Rendered in code with HyperFrames, no AI model <a href="examples/gsap-01-core.mp4">Play with sound</a></sub></p>
+
+<p align="center"><a href="examples/gsap-02-timeline.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/gsap-02-timeline.gif" alt="gsap-timeline: position parameter, labels and a playhead. Rendered in code with HyperFrames, no AI model" width="480"></a><br><sub>gsap-timeline: position parameter, labels and a playhead. Rendered in code with HyperFrames, no AI model <a href="examples/gsap-02-timeline.mp4">Play with sound</a></sub></p>
+
+<p align="center"><a href="examples/gsap-03-scrolltrigger.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers/gsap-03-scrolltrigger.gif" alt="gsap-scrolltrigger: why a render uses the playhead as the scrub. Rendered in code with HyperFrames, no AI model" width="480"></a><br><sub>gsap-scrolltrigger: why a render uses the playhead as the scrub. Rendered in code with HyperFrames, no AI model <a href="examples/gsap-03-scrolltrigger.mp4">Play with sound</a></sub></p>
+
+<details><summary>More example videos</summary>
+
+<ul><li><a href="examples/gsap-04-plugins.mp4">gsap-plugins: DrawSVG and CustomEase, and what to skip. Rendered in code with HyperFrames, no AI model</a></li><li><a href="examples/gsap-05-utils.mp4">gsap-utils: mapRange, snap, interpolate, distribute. Rendered in code with HyperFrames, no AI model</a></li><li><a href="examples/gsap-06-react.mp4">gsap-react: scope, animate, revert. Rendered in code with HyperFrames, no AI model</a></li><li><a href="examples/gsap-07-performance.mp4">gsap-performance: transforms and one staggered grid. Rendered in code with HyperFrames, no AI model</a></li><li><a href="examples/gsap-08-frameworks.mp4">gsap-frameworks: scoped selectors and cleanup. Rendered in code with HyperFrames, no AI model</a></li></ul>
+
+</details>
+
+<p align="center"><sub>Template previews from the Subclip catalog and a capability reel rendered by Subclip with HyperFrames. The eight gsap-NN clips were rendered by Subclip in code with HyperFrames, no AI model. Template text is placeholder copy.</sub></p>
 
 <!-- examples:end -->
 
 ## Credits
 
 HyperFrames is an open-source video framework by [HeyGen](https://github.com/heygen-com/hyperframes), licensed Apache-2.0. Subclip runs it inside the AI Editor. This listing and its text are written by Subclip and released under the MIT license in `LICENSE`. The example clips are previews from Subclip's own template catalog.
+
+The GSAP references summarize the official [GSAP skills](https://github.com/greensock/gsap-skills) by GreenSock (MIT, commit `aed9cfd3277740755f6bfc1155c7aa645403b760`) in Subclip's own words, adapted for HyperFrames layers. GSAP itself is free to use; see gsap.com for the license.

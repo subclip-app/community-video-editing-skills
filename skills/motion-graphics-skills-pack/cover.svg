@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#153592"/><stop offset="1" stop-color="#26c9d5"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1533"/><stop offset="1" stop-color="#12245f"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="70" y="140" font-size="84" font-weight="700" fill="#ffffff">Motion graphics</text>
+<text x="70" y="235" font-size="84" font-weight="700" fill="#26c9d5">skills pack</text>
+<text x="70" y="305" font-size="34" fill="#c7d2f0">15 launch-grade recipes. Every frame is code.</text>
+<rect x="70" y="345" width="330" height="52" rx="26" fill="#26c9d5"/><text x="235" y="381" font-size="26" font-weight="700" fill="#0b1533" text-anchor="middle">Adapted for Subclip</text>
+</g>
+<!-- tiles -->
+<g transform="translate(70,450)">
+<rect width="440" height="400" rx="28" fill="#0a1230" stroke="#3b4f9a" stroke-width="3"/>
+<rect x="40" y="50" width="360" height="240" rx="18" fill="url(#g)"/>
+<circle cx="220" cy="170" r="42" fill="#153592" opacity=".85"/><path d="M205 148 L205 192 L243 170 Z" fill="#fff"/>
+<rect x="40" y="320" width="360" height="8" rx="4" fill="#3b4f9a"/><rect x="40" y="320" width="170" height="8" rx="4" fill="#26c9d5"/><circle cx="210" cy="324" r="10" fill="#fff"/>
+</g>
+<g transform="translate(550,450)">
+<rect width="440" height="400" rx="28" fill="#f8fafc"/>
+<g fill="#153592"><rect x="50" y="230" width="42" height="110" rx="6"/><rect x="112" y="200" width="42" height="140" rx="6"/><rect x="174" y="170" width="42" height="170" rx="6"/><rect x="236" y="140" width="42" height="200" rx="6"/><rect x="298" y="100" width="42" height="240" rx="6"/></g>
+<path d="M71 200 C 130 170, 190 150, 257 120 S 330 70, 380 50" stroke="#26c9d5" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="380" cy="50" r="14" fill="#26c9d5"/>
+</g>
+<g transform="translate(1030,450)">
+<rect width="500" height="400" rx="28" fill="#0a1230" stroke="#3b4f9a" stroke-width="3"/>
+<rect x="150" y="26" width="200" height="34" rx="17" fill="#000"/>
+<text x="250" y="190" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" fill="#ffffff" text-anchor="middle">250,000</text>
+<rect x="110" y="215" width="280" height="4" fill="#26c9d5"/>
+<g fill="#c7d2f0"><circle cx="70" cy="330" r="3"/><circle cx="130" cy="360" r="3"/><circle cx="210" cy="320" r="3"/><circle cx="290" cy="350" r="3"/><circle cx="370" cy="325" r="3"/><circle cx="430" cy="355" r="3"/><circle cx="250" cy="280" r="3"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#c7d2f0"><text x="1030" y="120">launch film</text><text x="1030" y="160">milestone reveal</text><text x="1030" y="200">16 effects</text><text x="1030" y="240">loop cover</text><text x="1030" y="280">reel export</text></g>
+<g fill="#26c9d5"><circle cx="1000" cy="112" r="6"/><circle cx="1000" cy="152" r="6"/><circle cx="1000" cy="192" r="6"/><circle cx="1000" cy="232" r="6"/><circle cx="1000" cy="272" r="6"/></g>
+</svg>

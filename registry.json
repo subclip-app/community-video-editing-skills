@@ -2582,9 +2582,49 @@
           "path": "skills/hyperframes-motion-layers/examples/hyperframes-hand-drawn-circle-highlight.mp4",
           "kind": "video",
           "caption": "HyperFrames layer: hand-drawn arc and highlighted label (template text)"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-01-core.mp4",
+          "kind": "video",
+          "caption": "gsap-core: tweens, eases and a centre-out stagger. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-02-timeline.mp4",
+          "kind": "video",
+          "caption": "gsap-timeline: position parameter, labels and a playhead. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-03-scrolltrigger.mp4",
+          "kind": "video",
+          "caption": "gsap-scrolltrigger: why a render uses the playhead as the scrub. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-04-plugins.mp4",
+          "kind": "video",
+          "caption": "gsap-plugins: DrawSVG and CustomEase, and what to skip. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-05-utils.mp4",
+          "kind": "video",
+          "caption": "gsap-utils: mapRange, snap, interpolate, distribute. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-06-react.mp4",
+          "kind": "video",
+          "caption": "gsap-react: scope, animate, revert. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-07-performance.mp4",
+          "kind": "video",
+          "caption": "gsap-performance: transforms and one staggered grid. Rendered in code with HyperFrames, no AI model"
+        },
+        {
+          "path": "skills/hyperframes-motion-layers/examples/gsap-08-frameworks.mp4",
+          "kind": "video",
+          "caption": "gsap-frameworks: scoped selectors and cleanup. Rendered in code with HyperFrames, no AI model"
         }
       ],
-      "examplesCredit": "Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.",
+      "examplesCredit": "Template previews from the Subclip catalog and a capability reel rendered by Subclip with HyperFrames. The eight gsap-NN clips were rendered by Subclip in code with HyperFrames, no AI model. Template text is placeholder copy.",
       "examplesKind": "original"
     },
     {
@@ -2693,6 +2733,205 @@
       "examplesKind": "test"
     },
     {
+      "slug": "motion-graphics-skills-pack",
+      "name": "Motion graphics skills pack",
+      "seoTitle": "15 Launch-Grade Motion Graphics Recipes: Every Frame Is Code (motion-graphics-skills)",
+      "summary": "Fifteen code-built motion recipes as editable layers - Mac-style launch film, milestone reveal, 16 premium effects, loop cover, reel export and more.",
+      "category": "motion",
+      "tags": [
+        "motion-graphics",
+        "launch-video",
+        "code-animation",
+        "hyperframes",
+        "brand",
+        "effects",
+        "loop",
+        "reel"
+      ],
+      "path": "skills/motion-graphics-skills-pack",
+      "skills": [
+        "motion-graphics-skills-pack"
+      ],
+      "cover": "skills/motion-graphics-skills-pack/cover.svg",
+      "preview": "skills/motion-graphics-skills-pack/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "charlie947/motion-graphics-skills",
+        "url": "https://github.com/charlie947/motion-graphics-skills",
+        "author": "Charlie Hills",
+        "license": "MIT",
+        "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+        "syncedAt": "2026-11-24"
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/capability-motion-graphics-skills-pack.mp4",
+          "kind": "video",
+          "caption": "Capability reference: eight of the recipes in one 20 second reel. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/01-brand-intake.mp4",
+          "kind": "video",
+          "caption": "01 Brand intake: brand.md and MOTION.md assemble, then a read-first rule. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/02-motion-brief-writer.mp4",
+          "kind": "video",
+          "caption": "02 Motion brief writer: a rough idea passes five questions and becomes a build brief. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/03-motion-prompt-writer.mp4",
+          "kind": "video",
+          "caption": "03 Motion prompt writer: the 8-part brief fills in, only the scene changes. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/04-reference-to-motion.mp4",
+          "kind": "video",
+          "caption": "04 Reference to motion: moves and look references become scene timings. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/05-launch-video.mp4",
+          "kind": "video",
+          "caption": "05 Launch video: the original author's own 20 second sample. By the original author. Covered by product-launch-motion."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/06-apple-launch-film.mp4",
+          "kind": "video",
+          "caption": "06 Apple-style launch film: a notch that grows into widgets per scene. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/07-vox-explainer.mp4",
+          "kind": "video",
+          "caption": "07 Vox-style explainer: torn paper, halftone, motion on twos. Rough look sample. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/08-animated-chart.mp4",
+          "kind": "video",
+          "caption": "08 Animated chart: exact bars morph to a line and loop back. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/09-milestone-reveal.mp4",
+          "kind": "video",
+          "caption": "09 Milestone reveal: points pull into a real number. By the original author, 12 second loop."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/10-motion-effects.mp4",
+          "kind": "video",
+          "caption": "10 Motion effects: all 16 effects in one montage. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/11-title-sequence-3d.mp4",
+          "kind": "video",
+          "caption": "11 3D title sequence: neon night street, then the title lands. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/12-model-showdown.mp4",
+          "kind": "video",
+          "caption": "12 Model showdown: same prompt, three outputs, one renderer. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/13-newsletter-promo.mp4",
+          "kind": "video",
+          "caption": "13 Newsletter promo: hook, three proof frames, end card. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/14-loop-cover.mp4",
+          "kind": "video",
+          "caption": "14 Loop cover: only the beam moves, frame 1 is the finished picture. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/15-reel-export.mp4",
+          "kind": "video",
+          "caption": "15 Reel export: wide clip in a 9:16 safe zone with delivery checks. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-01-button-to-player.mp4",
+          "kind": "video",
+          "caption": "fx-01 Button to player: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-02-search-to-results.mp4",
+          "kind": "video",
+          "caption": "fx-02 Search to results: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-03-card-to-workspace.mp4",
+          "kind": "video",
+          "caption": "fx-03 Card to workspace: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-04-tabs-to-panels.mp4",
+          "kind": "video",
+          "caption": "fx-04 Tabs to panels: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-05-chart-morph.mp4",
+          "kind": "video",
+          "caption": "fx-05 Chart morph: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-06-dashboard-zoom.mp4",
+          "kind": "video",
+          "caption": "fx-06 Dashboard zoom: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-07-spring-stack.mp4",
+          "kind": "video",
+          "caption": "fx-07 Spring stack: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-08-magnetic-dock.mp4",
+          "kind": "video",
+          "caption": "fx-08 Magnetic dock: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-09-masked-type.mp4",
+          "kind": "video",
+          "caption": "fx-09 Masked type: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-10-elastic-type.mp4",
+          "kind": "video",
+          "caption": "fx-10 Elastic type: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-11-text-to-layout.mp4",
+          "kind": "video",
+          "caption": "fx-11 Text to layout: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-12-image-reveal.mp4",
+          "kind": "video",
+          "caption": "fx-12 Image reveal: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-13-perspective-shift.mp4",
+          "kind": "video",
+          "caption": "fx-13 Perspective shift: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-14-glass-focus.mp4",
+          "kind": "video",
+          "caption": "fx-14 Glass focus: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-15-flowing-paths.mp4",
+          "kind": "video",
+          "caption": "fx-15 Flowing paths: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/motion-graphics-skills-pack/examples/fx-16-particle-logo.mp4",
+          "kind": "video",
+          "caption": "fx-16 Particle logo: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+        }
+      ],
+      "examplesCredit": "Clips 05 and 09 are the original author's sample animations. All other clips were rendered in code by Subclip (seekable canvas pages, ffmpeg), no image, video or audio model. Rough references.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "motion-polish",
       "name": "Motion polish",
       "seoTitle": "Motion Polish: Animation Craft Rules for Editable Video (emilkowalski/skills)",
@@ -2755,6 +2994,106 @@
         }
       ],
       "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames, ffmpeg): no image, video or audio model.",
+      "examplesKind": "test"
+    },
+    {
+      "slug": "motion-reel-studio",
+      "name": "Motion Reel Studio",
+      "seoTitle": "Motion Reel Studio: 5 Remotion Reel Styles From One Prompt (tvhead-studio)",
+      "summary": "Make a vertical reel in 5 code-built styles (kinetic mascot, 3D tower, film set, anime opening, phone shot) with safe zones and a -14 LUFS master.",
+      "category": "motion",
+      "tags": [
+        "reel",
+        "remotion",
+        "hyperframes",
+        "anime",
+        "3d",
+        "kinetic-type",
+        "safe-zone",
+        "loudness"
+      ],
+      "path": "skills/motion-reel-studio",
+      "skills": [
+        "motion-reel-studio"
+      ],
+      "cover": "skills/motion-reel-studio/cover.jpg",
+      "preview": "skills/motion-reel-studio/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Vladic20/tvhead-studio",
+        "url": "https://github.com/Vladic20/tvhead-studio",
+        "author": "Vladic20",
+        "license": "MIT",
+        "commit": "c18305fcf214dc625c675eaee1da2bb7bfd95904",
+        "syncedAt": "2026-11-24",
+        "note": "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The upstream vendors recipes from charlie947/motion-graphics-skills and howseen-ai/claude-motion-design (both MIT). Original LICENSE kept."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/motion-reel-studio/examples/capability-motion-reel-studio.mp4",
+          "kind": "video",
+          "caption": "Capability reference: the five reel styles. Images: gpt-image-2. Rendered in code."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/01-kinetic-reel.mp4",
+          "kind": "video",
+          "caption": "01 Kinetic motion reel with a voxel mascot. Rendered in code with HyperFrames, no AI model."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/01-kinetic-reel-upstream.jpg",
+          "kind": "image",
+          "caption": "01 Kinetic reel, a frame from the original template. By the original author."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/02-cozy-tower.mp4",
+          "kind": "video",
+          "caption": "02 Cozy 3D elevator tower. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/02-cozy-tower-upstream.jpg",
+          "kind": "image",
+          "caption": "02 Elevator tower, a frame from the original. By the original author."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/03-film-set.mp4",
+          "kind": "video",
+          "caption": "03 Cozy 3D film set with a clapperboard. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/03-film-set-upstream.jpg",
+          "kind": "image",
+          "caption": "03 Film set, a frame from the original. By the original author."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/04-anime-opening.mp4",
+          "kind": "video",
+          "caption": "04 Anime opening. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/04-anime-opening-upstream.jpg",
+          "kind": "image",
+          "caption": "04 Anime opening, a frame from the original. By the original author."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/04-anime-impact-upstream.jpg",
+          "kind": "image",
+          "caption": "04 Anime impact frame with onomatopoeia. By the original author."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/05-phone-shot.mp4",
+          "kind": "video",
+          "caption": "05 Shot on a phone. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/motion-reel-studio/examples/05-phone-shot-upstream.jpg",
+          "kind": "image",
+          "caption": "05 Shot on a phone, a frame from the original. By the original author."
+        }
+      ],
+      "examplesCredit": "Files marked By the original author are frames from Vladic20's tvhead-studio (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: 01 is a code render, the rest are gpt-image-2 stills animated in code. No Subclip credits spent.",
       "examplesKind": "test"
     },
     {
@@ -3071,6 +3410,388 @@
       "examplesKind": "test"
     },
     {
+      "slug": "product-launch-motion",
+      "name": "Product launch motion",
+      "seoTitle": "Product Launch Videos From Code: Dribbble-Level Motion (product-launch-motion)",
+      "summary": "A launch film from code with one shape that never cuts, springs and a cursor, plus 68 scene types, recipes and easings with clips.",
+      "category": "promos",
+      "tags": [
+        "launch-video",
+        "product-film",
+        "ui-motion",
+        "springs",
+        "hyperframes",
+        "remotion"
+      ],
+      "path": "skills/product-launch-motion",
+      "skills": [
+        "product-launch-motion"
+      ],
+      "cover": "skills/product-launch-motion/cover.svg",
+      "preview": "skills/product-launch-motion/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "AbubakrChan/product-launch-motion",
+        "url": "https://github.com/AbubakrChan/product-launch-motion",
+        "author": "Abubakr Chan",
+        "license": "MIT",
+        "commit": "edbfb105382f21507bad895d8b5f6e0faa67487c",
+        "syncedAt": "2026-11-24"
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/product-launch-motion/examples/capability-product-launch-motion.mp4",
+          "kind": "video",
+          "caption": "Capability reel: scene types, recipes, easings and camera moves. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/01-kinetic-type-beats.mp4",
+          "kind": "video",
+          "caption": "01 Kinetic type beats: Cold open for a pain that is a list of chores. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/02-crowding-problem.mp4",
+          "kind": "video",
+          "caption": "02 Crowding problem: Agitate a workflow problem: tool sprawl, handoffs, manual steps. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/03-held-thesis.mp4",
+          "kind": "video",
+          "caption": "03 Held thesis: The one positioning line the film earns. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/04-prompt-composer.mp4",
+          "kind": "video",
+          "caption": "04 Prompt and composer: First product act for anything with an input: search, chat, CLI, form. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/05-results-surface.mp4",
+          "kind": "video",
+          "caption": "05 Results surface: The product answers and the answer is specific: lists, grids, tables, feeds. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/06-two-pane-workspace.mp4",
+          "kind": "video",
+          "caption": "06 Two-pane workspace: The beat that has to feel like using the product: inbox, editor, CRM, IDE. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/07-pipeline-tracker.mp4",
+          "kind": "video",
+          "caption": "07 Pipeline tracker: Fulfilment, orders, builds, jobs, approvals: steps completing without you. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/08-hero-stat-count-up.mp4",
+          "kind": "video",
+          "caption": "08 Hero stat count-up: One approved number and what it means. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/09-testimonial-with-a-face.mp4",
+          "kind": "video",
+          "caption": "09 Testimonial with a face: A named, consenting customer with a result. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/10-comparison-columns.mp4",
+          "kind": "video",
+          "caption": "10 Comparison columns: Crowded categories and replacement sells. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/11-end-card-cta.mp4",
+          "kind": "video",
+          "caption": "11 End card and CTA: The close of every film. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/12-hardware-hero.mp4",
+          "kind": "video",
+          "caption": "12 Hardware hero: A physical object reveal. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/13-terminal-dev-tool.mp4",
+          "kind": "video",
+          "caption": "13 Terminal and dev tool: One command and the thing exists. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/14-map-reveal.mp4",
+          "kind": "video",
+          "caption": "14 Map reveal: Coverage, logistics, marketplaces, travel. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/15-chart-reveal.mp4",
+          "kind": "video",
+          "caption": "15 Chart reveal: The number moved and here is the shape of the move. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/16-state-button.mp4",
+          "kind": "video",
+          "caption": "16 One shape: button: State 1 of 11. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/17-state-loader.mp4",
+          "kind": "video",
+          "caption": "17 One shape: loader: State 2. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/18-state-check.mp4",
+          "kind": "video",
+          "caption": "18 One shape: check: State 3. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/19-state-dynamic-island.mp4",
+          "kind": "video",
+          "caption": "19 One shape: dynamic island: State 4. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/20-state-video-reel.mp4",
+          "kind": "video",
+          "caption": "20 One shape: reel preview: State 5. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/21-state-slider.mp4",
+          "kind": "video",
+          "caption": "21 One shape: slider: State 6. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/22-state-toggle.mp4",
+          "kind": "video",
+          "caption": "22 One shape: toggle: State 7. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/23-state-tabs.mp4",
+          "kind": "video",
+          "caption": "23 One shape: liquid tabs: State 8. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/24-state-chart.mp4",
+          "kind": "video",
+          "caption": "24 One shape: chart: State 9. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/25-state-command-palette.mp4",
+          "kind": "video",
+          "caption": "25 One shape: command palette: State 10. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/26-state-toast.mp4",
+          "kind": "video",
+          "caption": "26 One shape: toast: State 11. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/27-odometer-real-numbers.mp4",
+          "kind": "video",
+          "caption": "27 Odometer of real numbers: Real figures rolling in. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/28-logo-slam.mp4",
+          "kind": "video",
+          "caption": "28 Logo slam: Customer logos one per beat instead of a trusted-by row. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/29-search-wall-pullback.mp4",
+          "kind": "video",
+          "caption": "29 Search wall pull-back: A pull-back that reveals scale: one card becomes a wall of hundreds. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/30-closed-form-spring.mp4",
+          "kind": "video",
+          "caption": "30 Closed-form spring: Every move in the one-shape style: pure functions of time, no CSS transitions. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/31-blur-content-swap.mp4",
+          "kind": "video",
+          "caption": "31 Blur content swap: Text swaps inside a morphing container without overlap. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/32-edge-split-stretch.mp4",
+          "kind": "video",
+          "caption": "32 Edge-split stretch: Toggle knobs and tab indicators that stretch like liquid. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/33-agent-cursor-and-trail.mp4",
+          "kind": "video",
+          "caption": "33 Agent cursor and trail: A cursor that is a character: gradient arrow, name pill, lean, trail, ripple. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/34-camera-log-zoom.mp4",
+          "kind": "video",
+          "caption": "34 Camera on log-zoom: Zooms that feel even. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/35-seamless-loop.mp4",
+          "kind": "video",
+          "caption": "35 Seamless loop: Loops where the last frame is the first frame. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/36-beat-grid-cues.mp4",
+          "kind": "video",
+          "caption": "36 Beat grid and cues: Timing from a measured beat grid instead of voice. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/37-motion-blur-subframes.mp4",
+          "kind": "video",
+          "caption": "37 Motion blur by subframes: Real motion blur from a deterministic page. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/38-ease-entrance-power3-out.mp4",
+          "kind": "video",
+          "caption": "38 Entrance: power3.out: The house default. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/39-ease-secondary-power2-out.mp4",
+          "kind": "video",
+          "caption": "39 Secondary: power2.out: Same gesture, softer, for support elements. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/40-ease-exit-power2-in.mp4",
+          "kind": "video",
+          "caption": "40 Exit: power2.in: Leaving accelerates away. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/41-ease-camera-power2-inout.mp4",
+          "kind": "video",
+          "caption": "41 Camera: power2.inOut: Long travel and parallax: a body with mass. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/42-ease-flip-back-out.mp4",
+          "kind": "video",
+          "caption": "42 State flip: back.out: The one sanctioned bounce. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/43-ease-count-power2-out.mp4",
+          "kind": "video",
+          "caption": "43 Count-up: power2.out: Magnitude reads early, then resolves. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/44-ease-sequential-swap.mp4",
+          "kind": "video",
+          "caption": "44 Sequential text swap: No double print in a cell. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/45-ease-streak-expo-out.mp4",
+          "kind": "video",
+          "caption": "45 Blur streak: expo.out: Arrival from off-screen with extreme deceleration. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/46-ease-clock-none.mp4",
+          "kind": "video",
+          "caption": "46 Clocks: ease none: Typewriters, counts and blinks are drivers, not gestures. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/47-ease-bounded-sine.mp4",
+          "kind": "video",
+          "caption": "47 Bounded sine life: Life without loops. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/48-stagger-offsets.mp4",
+          "kind": "video",
+          "caption": "48 Stagger offsets: Pick the offset by content. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/49-anticipation-bowed-travel.mp4",
+          "kind": "video",
+          "caption": "49 Anticipation and bowed travel: A cursor that decides instead of slides. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/50-speed-ramp.mp4",
+          "kind": "video",
+          "caption": "50 Speed ramp: Traverses use inOut, entrances use out. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/51-holds-and-rhythm.mp4",
+          "kind": "video",
+          "caption": "51 Holds and rhythm: Dynamics: busy, still, busy. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/52-kinetic-type-variants.mp4",
+          "kind": "video",
+          "caption": "52 Kinetic type variants: Four ways to reveal type, each with a cost. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/53-underline-hug.mp4",
+          "kind": "video",
+          "caption": "53 Underline that hugs: A stroke that sits below the word. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/54-typewriter-snapped-index.mp4",
+          "kind": "video",
+          "caption": "54 Typewriter on a snapped index: Typing as a pure function of time. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/55-bounded-sine-life.mp4",
+          "kind": "video",
+          "caption": "55 Bounded sine settle and pulse: Keep one hero element alive during a hold. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/56-exits-and-cuts.mp4",
+          "kind": "video",
+          "caption": "56 Exits and cuts: When to exit and when to cut. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/57-camera-two-node-turn.mp4",
+          "kind": "video",
+          "caption": "57 Two-node camera turn: A whole-shot rotation and a mid-shot scale on different elements. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/58-camera-dolly-fixed-point.mp4",
+          "kind": "video",
+          "caption": "58 Dolly and fixed point: A push that keeps the cursor aligned with no maths. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/59-camera-z-depth-parallax.mp4",
+          "kind": "video",
+          "caption": "59 Z depth and parallax: Depth without a 3D engine. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/60-camera-rack-focus.mp4",
+          "kind": "video",
+          "caption": "60 Rack focus: Take the dead region out of focus when the camera commits. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/61-camera-click-stack.mp4",
+          "kind": "video",
+          "caption": "61 Click stack: A click is three layers on one frame. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/62-look-two-registers.mp4",
+          "kind": "video",
+          "caption": "62 Two registers: Two grounds, one accent. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/63-look-aurora-drift.mp4",
+          "kind": "video",
+          "caption": "63 Aurora drift: Depth for long type-only shots. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/64-look-glass-band.mp4",
+          "kind": "video",
+          "caption": "64 Glass band: Frosted borders without backdrop-filter. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/65-look-film-grade.mp4",
+          "kind": "video",
+          "caption": "65 Film grade: Grain, vignette, sweep on one overlay. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/66-look-specular-sweep.mp4",
+          "kind": "video",
+          "caption": "66 Specular sweep: Punctuation on a story beat. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/67-sound-cue-table.mp4",
+          "kind": "video",
+          "caption": "67 Sound cue table: Sound is arithmetic. Code render, no AI model."
+        },
+        {
+          "path": "skills/product-launch-motion/examples/68-three-directions.mp4",
+          "kind": "video",
+          "caption": "68 Three directions, kill two: Avoid the house style. Code render, no AI model."
+        }
+      ],
+      "examplesCredit": "All clips are our own renders of a fictional product, made in code (HTML, headless Chrome, ffmpeg) with no AI model. They are rough references of each move. The upstream sample films are not reused.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "r3f-physics-and-effects",
       "name": "R3F Physics and Effects",
       "seoTitle": "R3F Physics and Effects: React Three Fiber Scenes for Video (react-three-rapier)",
@@ -3200,6 +3921,138 @@
         }
       ],
       "examplesCredit": "Subclip motion graphics template previews, each listed as a Remotion template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy.",
+      "examplesKind": "original"
+    },
+    {
+      "slug": "stickman-video-director",
+      "name": "Stickman video director",
+      "seoTitle": "Stickman Animated Explainer Videos From a Script (stickman-video-director)",
+      "summary": "Turn a script into a stick figure video: director proposal with checks, 15 locked looks, gender-matched local voice, scenes, captions, sound and export.",
+      "category": "animation",
+      "tags": [
+        "stickman",
+        "stick-figure",
+        "explainer",
+        "storyboard",
+        "faceless",
+        "script-to-video"
+      ],
+      "path": "skills/stickman-video-director",
+      "skills": [
+        "stickman-video-director"
+      ],
+      "cover": "skills/stickman-video-director/cover.svg",
+      "preview": "skills/stickman-video-director/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "kaomei/stickman-video-director",
+        "url": "https://github.com/kaomei/stickman-video-director",
+        "author": "kaomei",
+        "license": "MIT",
+        "commit": "8394bec0148fa281ea59171d90fddc13afb80c4e",
+        "syncedAt": "2026-11-24"
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/stickman-video-director/examples/capability-stickman-video-director.mp4",
+          "kind": "video",
+          "caption": "Capability montage of all 15 looks, labeled. Cut from the author's clips with ffmpeg and Chrome labels, no AI model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/director-storyboard-table.jpg",
+          "kind": "image",
+          "caption": "Worked director's proposal: storyboard table, checks and cost line for a 30 s film. Rendered in code from HTML, no AI model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/01-classic-black-on-white.mp4",
+          "kind": "video",
+          "caption": "01 A1.1 Classic black on white: hollow-head figure, flat canvas, red accent. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/02-classic-white-on-black.mp4",
+          "kind": "video",
+          "caption": "02 A1.2 Classic white on black: the dramatic variant of the same figure. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/03-modern-pop-minimal-tech.mp4",
+          "kind": "video",
+          "caption": "03 A2.1 Modern pop, minimal tech: red beanie, white studio, cyan glass UI. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/04-modern-pop-colorful-story.mp4",
+          "kind": "video",
+          "caption": "04 A2.2 Modern pop, colorful story: the beanie figure in cinematic light. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/05-prehistoric-cave.mp4",
+          "kind": "video",
+          "caption": "05 A3 Prehistoric cave: caveman satire with a twist. Original author, Google Flow video model. Burned-in subtitles are the sample's."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/06-cozy-storytelling.mp4",
+          "kind": "video",
+          "caption": "06 A4 Cozy storytelling: a quiet cafe break, warm light. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/07-historical-cartoon.mp4",
+          "kind": "video",
+          "caption": "07 A5 Historical cartoon: an Edo samurai and street life. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/08-amber-noir.mp4",
+          "kind": "video",
+          "caption": "08 A6 Amber noir: orange hoodie in a warm-lit city, 8 s original. Original author, Veo 3.1 Fast in Google Flow."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/09-rubber-hose.mp4",
+          "kind": "video",
+          "caption": "09 A7 Rubber hose: elastic acting chased by a cloud, 1930s scenery. Original author, Omni 1.2 Flash in Google Flow."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/10-hand-painted-adventure.mp4",
+          "kind": "video",
+          "caption": "10 A8 Hand-painted adventure: gouache mountain workshop. Original author, Google Flow video model."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/11-minimal-line-art.mp4",
+          "kind": "video",
+          "caption": "11 B1 Minimal line art: handwritten hook on paper. Original author, gpt-image-2 stills animated and rendered in code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/12-colorful-hand-drawn.mp4",
+          "kind": "video",
+          "caption": "12 B2 Colorful hand-drawn: why trying to sleep keeps you awake. Original author, gpt-image-2 stills and code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/13-retro-tv.mp4",
+          "kind": "video",
+          "caption": "13 B3 Retro TV: a 3 AM broadcast mystery, white figures on dark. Original author, gpt-image-2 stills and code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/14-survival-thriller.mp4",
+          "kind": "video",
+          "caption": "14 B4 Survival thriller: night dispatcher rules and a rule 01 hook. Original author, gpt-image-2 stills and code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/15-avatar-explainer.mp4",
+          "kind": "video",
+          "caption": "15 B5 Avatar explainer: presenter bottom right, metaphors on the left stage. Original author, gpt-image-2 and code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/16-meme-story-animation.mp4",
+          "kind": "video",
+          "caption": "16 B6 Meme story animation: 1990s Hong Kong breakfast, painted layers. Original author, gpt-image-2 and code."
+        },
+        {
+          "path": "skills/stickman-video-director/examples/17-pixel-theater.mp4",
+          "kind": "video",
+          "caption": "17 B7 Pixel theater: a choice story drawn fully in code. Original author, no image model, rendered in code."
+        }
+      ],
+      "examplesCredit": "Clips 01 to 17 are the original author's samples from github.com/kaomei/stickman-video-director (MIT), trimmed to about 10 s, sound removed. The montage and the proposal table were made for this skill in code. No Subclip credits were spent.",
       "examplesKind": "original"
     },
     {
@@ -3426,6 +4279,150 @@
         }
       ],
       "examplesCredit": "Made with this skill in Subclip for fictional products. Images: gpt-image-2 (Codex CLI). Video: p-video-2 and songs by Subclip models. Voices: local TTS.",
+      "examplesKind": "test"
+    },
+    {
+      "slug": "tvhead-story-looks",
+      "name": "TV-Head story looks",
+      "seoTitle": "TV-Head Doodle and Cartoon Story Videos in 15 Looks (tvhead-studio)",
+      "summary": "Turn a topic into a narrated story video in 15 looks (doodle, cartoon, stickman, game), with a director's proposal and 10 second AI-video prompts.",
+      "category": "animation",
+      "tags": [
+        "story",
+        "doodle",
+        "cartoon",
+        "stickman",
+        "looks",
+        "storyboard",
+        "prompt-package"
+      ],
+      "path": "skills/tvhead-story-looks",
+      "skills": [
+        "tvhead-story-looks"
+      ],
+      "cover": "skills/tvhead-story-looks/cover.jpg",
+      "preview": "skills/tvhead-story-looks/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Vladic20/tvhead-studio",
+        "url": "https://github.com/Vladic20/tvhead-studio",
+        "author": "Vladic20",
+        "license": "MIT",
+        "commit": "c18305fcf214dc625c675eaee1da2bb7bfd95904",
+        "syncedAt": "2026-11-24",
+        "note": "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The five stickman looks and the director module adapt kaomei/stickman-video-director (MIT). Original LICENSE kept."
+      },
+      "addedAt": "2026-11-24",
+      "updatedAt": "2026-11-24",
+      "examples": [
+        {
+          "path": "skills/tvhead-story-looks/examples/capability-tvhead-story-looks.mp4",
+          "kind": "video",
+          "caption": "Capability reference: nine looks and the proposal. Images: gpt-image-2. Rendered in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/01-doodle.jpg",
+          "kind": "image",
+          "caption": "01 Doodle: one frame per scene of the demo episode. By the original author."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/01-doodle-vertical.jpg",
+          "kind": "image",
+          "caption": "01 Doodle, vertical 9:16 sheet of the same story. By the original author."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/02-cartoon.jpg",
+          "kind": "image",
+          "caption": "02 Cartoon, warm garage: one frame per scene of the promo. By the original author."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/03-desk-3d.mp4",
+          "kind": "video",
+          "caption": "03 3D desk: a UI slab and a clay mascot. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/04-neon-noir.mp4",
+          "kind": "video",
+          "caption": "04 Neon noir: painted scene and a clean card. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/05-dark-fantasy.mp4",
+          "kind": "video",
+          "caption": "05 Dark fantasy: heroes face off, LANE PUSH, game HUD. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/06-brick-game.mp4",
+          "kind": "video",
+          "caption": "06 Toy-block game: rounded blocks, coin pickup, leaderboard. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/07-8-bit.mp4",
+          "kind": "video",
+          "caption": "07 8-bit pixel: dungeon and overworld with dialog boxes. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/08-comic.mp4",
+          "kind": "video",
+          "caption": "08 Comic book: halftone panels, POW and caption boxes. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/09-stickman-classic.mp4",
+          "kind": "video",
+          "caption": "09 Stickman 1, classic: white canvas, then black canvas. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/10-stickman-zeke.mp4",
+          "kind": "video",
+          "caption": "10 Stickman 2: Zeke in a red beanie, studio and summit. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/11-stickman-prehistoric.mp4",
+          "kind": "video",
+          "caption": "11 Stickman 3, prehistoric: cave and a sign gag. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/12-stickman-cozy.mp4",
+          "kind": "video",
+          "caption": "12 Stickman 4, cozy: a platform and a lamp-lit desk. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/13-stickman-history.mp4",
+          "kind": "video",
+          "caption": "13 Stickman 5, historical: Edo, then Egypt and Rome. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/14-underground.mp4",
+          "kind": "video",
+          "caption": "14 Underground sim: cutaway diorama, HUD, stamps. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/15-marker.mp4",
+          "kind": "video",
+          "caption": "15 Marker sketch: problem in red, fixes in green. Rough reference. Images: gpt-image-2, animated in code, no video model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/16-directors-proposal.jpg",
+          "kind": "image",
+          "caption": "16 Director's proposal: 5-stage storyboard with checks. Rendered in code, no AI model."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/17-ai-video-package.mp4",
+          "kind": "video",
+          "caption": "17 AI-video prompt package: one 10 s clip from the locked prompt. Video and audio: p-video (24 credits)."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/18-cast-parts-sheet.jpg",
+          "kind": "image",
+          "caption": "18 Cast parts sheet: heads, bodies, hats and props. By the original author."
+        },
+        {
+          "path": "skills/tvhead-story-looks/examples/19-sets-sheet.jpg",
+          "kind": "image",
+          "caption": "19 Sets sheet: the environments. By the original author."
+        }
+      ],
+      "examplesCredit": "Files marked By the original author are by Vladic20 (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: images gpt-image-2, animated in code; one clip by p-video. No Subclip credits except 24 for the clip.",
       "examplesKind": "test"
     },
     {

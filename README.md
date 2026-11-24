@@ -41,9 +41,9 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 
 <!-- skills:start -->
 
-<p align="center"><b>49</b> skills in 12 categories. Newest first inside each category.</p>
+<p align="center"><b>54</b> skills in 12 categories. Newest first inside each category.</p>
 
-<p align="center"><a href="#explainers">Explainers</a> <sub>(5)</sub> &nbsp;|&nbsp; <a href="#slides">Slides</a> <sub>(1)</sub> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> <sub>(6)</sub> &nbsp;|&nbsp; <a href="#3d">3D</a> <sub>(4)</sub> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> <sub>(1)</sub> &nbsp;|&nbsp; <a href="#animation">Animation</a> <sub>(10)</sub> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#promos">Promos</a> <sub>(7)</sub> &nbsp;|&nbsp; <a href="#templates">Templates</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> <sub>(5)</sub> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> <sub>(1)</sub></p>
+<p align="center"><a href="#explainers">Explainers</a> <sub>(5)</sub> &nbsp;|&nbsp; <a href="#slides">Slides</a> <sub>(1)</sub> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> <sub>(8)</sub> &nbsp;|&nbsp; <a href="#3d">3D</a> <sub>(4)</sub> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> <sub>(1)</sub> &nbsp;|&nbsp; <a href="#animation">Animation</a> <sub>(12)</sub> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#promos">Promos</a> <sub>(8)</sub> &nbsp;|&nbsp; <a href="#templates">Templates</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> <sub>(5)</sub> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a> <sub>(3)</sub> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> <sub>(1)</sub></p>
 
 ### Explainers
 
@@ -117,6 +117,22 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub>Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.</sub><br>
 <sub><b>Pre-installed in Subclip</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; written for Subclip</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/hyperframes-motion-layers">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/hyperframes-motion-layers">Open on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="skills/motion-graphics-skills-pack"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-graphics-skills-pack.gif" alt="Motion graphics skills pack preview" width="100%"></a><br>
+<h4><a href="skills/motion-graphics-skills-pack">Motion graphics skills pack</a></h4>
+<sub>Fifteen code-built motion recipes as editable layers - Mac-style launch film, milestone reveal, 16 premium effects, loop cover, reel export and more.</sub><br>
+<sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/charlie947/motion-graphics-skills">charlie947/motion-graphics-skills</a> by Charlie Hills</sub><br>
+<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/motion-graphics-skills-pack">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-graphics-skills-pack">Open on subclip.app</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="skills/motion-reel-studio"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-reel-studio.gif" alt="Motion Reel Studio preview" width="100%"></a><br>
+<h4><a href="skills/motion-reel-studio">Motion Reel Studio</a></h4>
+<sub>Make a vertical reel in 5 code-built styles (kinetic mascot, 3D tower, film set, anime opening, phone shot) with safe zones and a -14 LUFS master.</sub><br>
+<sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/Vladic20/tvhead-studio">Vladic20/tvhead-studio</a> by Vladic20</sub><br>
+<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/motion-reel-studio">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-reel-studio">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/code-motion-styles"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles.gif" alt="Motion style prompts preview" width="100%"></a><br>
@@ -222,6 +238,22 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub>Pick one of 39 code-drawn looks (whiteboard, papercut, pixel art, hologram and more) and retell your story in it as an editable layer, with no AI credits.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/deenukhan/animation-styles">deenukhan/animation-styles</a> by deenukhan</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/code-animation-styles-remotion">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/code-animation-styles-remotion">Open on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="skills/stickman-video-director"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/stickman-video-director.gif" alt="Stickman video director preview" width="100%"></a><br>
+<h4><a href="skills/stickman-video-director">Stickman video director</a></h4>
+<sub>Turn a script into a stick figure video: director proposal with checks, 15 locked looks, gender-matched local voice, scenes, captions, sound and export.</sub><br>
+<sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/kaomei/stickman-video-director">kaomei/stickman-video-director</a> by kaomei</sub><br>
+<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/stickman-video-director">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/stickman-video-director">Open on subclip.app</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="skills/tvhead-story-looks"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks.gif" alt="TV-Head story looks preview" width="100%"></a><br>
+<h4><a href="skills/tvhead-story-looks">TV-Head story looks</a></h4>
+<sub>Turn a topic into a narrated story video in 15 looks (doodle, cartoon, stickman, game), with a director's proposal and 10 second AI-video prompts.</sub><br>
+<sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/Vladic20/tvhead-studio">Vladic20/tvhead-studio</a> by Vladic20</sub><br>
+<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/tvhead-story-looks">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/tvhead-story-looks">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/ai-style-atlas"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-style-atlas.gif" alt="AI Style Atlas preview" width="100%"></a><br>
@@ -333,12 +365,21 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/product-launch-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/product-launch-motion.gif" alt="Product launch motion preview" width="100%"></a><br>
+<h4><a href="skills/product-launch-motion">Product launch motion</a></h4>
+<sub>A launch film from code with one shape that never cuts, springs and a cursor, plus 68 scene types, recipes and easings with clips.</sub><br>
+<sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/AbubakrChan/product-launch-motion">AbubakrChan/product-launch-motion</a> by Abubakr Chan</sub><br>
+<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/product-launch-motion">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/product-launch-motion">Open on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/trendjack-animator"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator.gif" alt="Trending animated ads preview" width="100%"></a><br>
 <h4><a href="skills/trendjack-animator">Trending animated ads</a></h4>
 <sub>Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/holy-templar/drama-song-ad">holy-templar/drama-song-ad</a> by Maxfusion AI s.r.o</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/trendjack-animator">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/trendjack-animator">Open on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/ugc-ad-director"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-director.gif" alt="UGC ad director preview" width="100%"></a><br>
 <h4><a href="skills/ugc-ad-director">UGC ad director</a></h4>
@@ -346,8 +387,6 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit">docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit</a> by Lyra Ai (video) / unknown (doc)</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/ugc-ad-director">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ugc-ad-director">Open on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/ugc-ad-engine"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-engine.gif" alt="UGC ad engine preview" width="100%"></a><br>
 <h4><a href="skills/ugc-ad-engine">UGC ad engine</a></h4>
@@ -355,6 +394,8 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0">www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0</a> by Website Learners</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/ugc-ad-engine">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ugc-ad-engine">Open on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/ai-ad-formats"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-ad-formats.gif" alt="AI ad formats preview" width="100%"></a><br>
 <h4><a href="skills/ai-ad-formats">AI ad formats</a></h4>
@@ -362,8 +403,6 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub><br>
 <sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/ai-ad-formats">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ai-ad-formats">Open on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/commercial-pipeline"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline.gif" alt="Commercial pipeline preview" width="100%"></a><br>
 <h4><a href="skills/commercial-pipeline">Commercial pipeline</a></h4>
@@ -371,6 +410,8 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub><br>
 <sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/commercial-pipeline">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/commercial-pipeline">Open on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/video-shotcraft"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-shotcraft.gif" alt="Video Shotcraft preview" width="100%"></a><br>
 <h4><a href="skills/video-shotcraft">Video Shotcraft</a></h4>
@@ -378,8 +419,6 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; from <a href="https://github.com/Vincentwei1021/video-shotcraft">Vincentwei1021/video-shotcraft</a> by Vincentwei1021</sub><br>
 <sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/video-shotcraft">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/video-shotcraft">Open on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/website-to-video"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video.gif" alt="Website to video preview" width="100%"></a><br>
 <h4><a href="skills/website-to-video">Website to video</a></h4>
@@ -387,7 +426,6 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <sub><b>Adapted</b> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub><br>
 <sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/website-to-video">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/website-to-video">Open on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 

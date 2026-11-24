@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><rect width="1600" height="900" fill="#fff"/>
+<text x="90" y="170" font-family="Helvetica,Arial,sans-serif" font-size="104" font-weight="700" fill="#153592">Stickman video director</text>
+<text x="94" y="240" font-family="Helvetica,Arial,sans-serif" font-size="46" fill="#26c9d5">Adapted for Subclip</text>
+<rect x="90" y="270" width="260" height="8" rx="4" fill="#26c9d5"/>
+<text x="90" y="345" font-family="Helvetica,Arial,sans-serif" font-size="34" fill="#444">Script in, director proposal, locked look, storyboard, voice, scenes, captions, export</text>
+<g><rect x="90" y="400" width="215" height="300" rx="16" fill="#ffffff" stroke="#153592" stroke-width="4"/><g stroke="#111" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="197" cy="502.5" r="25" fill="#fff"/>
+<path d="M197 527.5 L197 596.25"/>
+<path d="M197 545 L154.5 587.5 M197 545 L242 557.5"/>
+<path d="M197 596.25 L164.5 665 M197 596.25 L232 665"/></g></g>
+<g><rect x="331" y="400" width="215" height="300" rx="16" fill="#101418" stroke="#26c9d5" stroke-width="4"/><g stroke="#fff" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="438" cy="502.5" r="25" fill="#101418"/>
+<path d="M438 527.5 L438 596.25"/>
+<path d="M438 545 L395.5 587.5 M438 545 L483 557.5"/>
+<path d="M438 596.25 L405.5 665 M438 596.25 L473 665"/></g></g>
+<g><rect x="572" y="400" width="215" height="300" rx="16" fill="#f4efe6" stroke="#153592" stroke-width="4"/><g stroke="#222" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="679" cy="502.5" r="25" fill="#fff"/>
+<path d="M679 527.5 L679 596.25"/>
+<path d="M679 545 L636.5 587.5 M679 545 L724 557.5"/>
+<path d="M679 596.25 L646.5 665 M679 596.25 L714 665"/></g><rect x="657" y="477" width="44" height="16" rx="8" fill="#e14b4b"/></g>
+<g><rect x="813" y="400" width="215" height="300" rx="16" fill="#e9f7fa" stroke="#26c9d5" stroke-width="4"/><g stroke="#222" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="920" cy="502.5" r="25" fill="#fff"/>
+<path d="M920 527.5 L920 596.25"/>
+<path d="M920 545 L877.5 587.5 M920 545 L965 557.5"/>
+<path d="M920 596.25 L887.5 665 M920 596.25 L955 665"/></g><rect x="899" y="475" width="42" height="14" rx="7" fill="#e14b4b"/><rect x="893" y="523" width="54" height="40" fill="#f2c230" opacity=".0"/></g>
+<g><rect x="1054" y="400" width="215" height="300" rx="16" fill="#2a2140" stroke="#153592" stroke-width="4"/><g stroke="#ffb454" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="1161" cy="502.5" r="25" fill="#2a2140"/>
+<path d="M1161 527.5 L1161 596.25"/>
+<path d="M1161 545 L1118.5 587.5 M1161 545 L1206 557.5"/>
+<path d="M1161 596.25 L1128.5 665 M1161 596.25 L1196 665"/></g></g>
+<g><rect x="1295" y="400" width="215" height="300" rx="16" fill="#1d3a2b" stroke="#26c9d5" stroke-width="4"/><g stroke="#fff" stroke-width="6.25" stroke-linecap="round" fill="none">
+<circle cx="1402" cy="502.5" r="25" fill="#fff"/>
+<path d="M1402 527.5 L1402 596.25"/>
+<path d="M1402 545 L1359.5 587.5 M1402 545 L1447 557.5"/>
+<path d="M1402 596.25 L1369.5 665 M1402 596.25 L1437 665"/></g></g>
+<text x="90" y="780" font-family="Helvetica,Arial,sans-serif" font-size="30" fill="#153592">15 looks, each with a prompt file and a 10 second reference clip</text>
+<text x="90" y="830" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#666">From kaomei/stickman-video-director, MIT</text>
+</svg>

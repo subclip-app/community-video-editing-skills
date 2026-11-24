@@ -31,7 +31,23 @@ examples:
     caption: "HyperFrames layer: title reveal with a glowing purple floor"
   - file: examples/hyperframes-hand-drawn-circle-highlight.mp4
     caption: "HyperFrames layer: hand-drawn arc and highlighted label (template text)"
-examplesCredit: "Subclip motion graphics template previews, each listed as a HyperFrames template in the Subclip catalog, plus a capability reel rendered by Subclip with HyperFrames. Template text is placeholder copy."
+  - file: examples/gsap-01-core.mp4
+    caption: "gsap-core: tweens, eases and a centre-out stagger. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-02-timeline.mp4
+    caption: "gsap-timeline: position parameter, labels and a playhead. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-03-scrolltrigger.mp4
+    caption: "gsap-scrolltrigger: why a render uses the playhead as the scrub. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-04-plugins.mp4
+    caption: "gsap-plugins: DrawSVG and CustomEase, and what to skip. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-05-utils.mp4
+    caption: "gsap-utils: mapRange, snap, interpolate, distribute. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-06-react.mp4
+    caption: "gsap-react: scope, animate, revert. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-07-performance.mp4
+    caption: "gsap-performance: transforms and one staggered grid. Rendered in code with HyperFrames, no AI model"
+  - file: examples/gsap-08-frameworks.mp4
+    caption: "gsap-frameworks: scoped selectors and cleanup. Rendered in code with HyperFrames, no AI model"
+examplesCredit: "Template previews from the Subclip catalog and a capability reel rendered by Subclip with HyperFrames. The eight gsap-NN clips were rendered by Subclip in code with HyperFrames, no AI model. Template text is placeholder copy."
 examplesKind: original
 allowlist:
   - code: external-provider

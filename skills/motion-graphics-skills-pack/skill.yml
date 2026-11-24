@@ -1,0 +1,80 @@
+slug: motion-graphics-skills-pack
+name: Motion graphics skills pack
+seoTitle: "15 Launch-Grade Motion Graphics Recipes: Every Frame Is Code (motion-graphics-skills)"
+summary: Fifteen code-built motion recipes as editable layers - Mac-style launch film, milestone reveal, 16 premium effects, loop cover, reel export and more.
+category: motion
+tags: [motion-graphics, launch-video, code-animation, hyperframes, brand, effects, loop, reel]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: charlie947/motion-graphics-skills, author: Charlie Hills, license: MIT, commit: "229022ebca76972e119e36ada23a1648d51665ab", syncedAt: "2026-11-24" }
+addedAt: 2026-11-24
+updatedAt: 2026-11-24
+examples:
+  - file: examples/capability-motion-graphics-skills-pack.mp4
+    caption: "Capability reference: eight of the recipes in one 20 second reel. Rendered in code, no AI model."
+  - file: examples/01-brand-intake.mp4
+    caption: "01 Brand intake: brand.md and MOTION.md assemble, then a read-first rule. Rendered in code, no AI model."
+  - file: examples/02-motion-brief-writer.mp4
+    caption: "02 Motion brief writer: a rough idea passes five questions and becomes a build brief. Rendered in code, no AI model."
+  - file: examples/03-motion-prompt-writer.mp4
+    caption: "03 Motion prompt writer: the 8-part brief fills in, only the scene changes. Rendered in code, no AI model."
+  - file: examples/04-reference-to-motion.mp4
+    caption: "04 Reference to motion: moves and look references become scene timings. Rendered in code, no AI model."
+  - file: examples/05-launch-video.mp4
+    caption: "05 Launch video: the original author's own 20 second sample. By the original author. Covered by product-launch-motion."
+  - file: examples/06-apple-launch-film.mp4
+    caption: "06 Apple-style launch film: a notch that grows into widgets per scene. Rough reference. Rendered in code, no AI model."
+  - file: examples/07-vox-explainer.mp4
+    caption: "07 Vox-style explainer: torn paper, halftone, motion on twos. Rough look sample. Rendered in code, no AI model."
+  - file: examples/08-animated-chart.mp4
+    caption: "08 Animated chart: exact bars morph to a line and loop back. Rendered in code, no AI model."
+  - file: examples/09-milestone-reveal.mp4
+    caption: "09 Milestone reveal: points pull into a real number. By the original author, 12 second loop."
+  - file: examples/10-motion-effects.mp4
+    caption: "10 Motion effects: all 16 effects in one montage. Rendered in code, no AI model."
+  - file: examples/11-title-sequence-3d.mp4
+    caption: "11 3D title sequence: neon night street, then the title lands. Rough reference. Rendered in code, no AI model."
+  - file: examples/12-model-showdown.mp4
+    caption: "12 Model showdown: same prompt, three outputs, one renderer. Rough reference. Rendered in code, no AI model."
+  - file: examples/13-newsletter-promo.mp4
+    caption: "13 Newsletter promo: hook, three proof frames, end card. Rendered in code, no AI model."
+  - file: examples/14-loop-cover.mp4
+    caption: "14 Loop cover: only the beam moves, frame 1 is the finished picture. Rendered in code, no AI model."
+  - file: examples/15-reel-export.mp4
+    caption: "15 Reel export: wide clip in a 9:16 safe zone with delivery checks. Rendered in code, no AI model."
+  - file: examples/fx-01-button-to-player.mp4
+    caption: "fx-01 Button to player: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-02-search-to-results.mp4
+    caption: "fx-02 Search to results: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-03-card-to-workspace.mp4
+    caption: "fx-03 Card to workspace: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-04-tabs-to-panels.mp4
+    caption: "fx-04 Tabs to panels: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-05-chart-morph.mp4
+    caption: "fx-05 Chart morph: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-06-dashboard-zoom.mp4
+    caption: "fx-06 Dashboard zoom: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-07-spring-stack.mp4
+    caption: "fx-07 Spring stack: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-08-magnetic-dock.mp4
+    caption: "fx-08 Magnetic dock: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-09-masked-type.mp4
+    caption: "fx-09 Masked type: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-10-elastic-type.mp4
+    caption: "fx-10 Elastic type: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-11-text-to-layout.mp4
+    caption: "fx-11 Text to layout: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-12-image-reveal.mp4
+    caption: "fx-12 Image reveal: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-13-perspective-shift.mp4
+    caption: "fx-13 Perspective shift: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-14-glass-focus.mp4
+    caption: "fx-14 Glass focus: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-15-flowing-paths.mp4
+    caption: "fx-15 Flowing paths: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+  - file: examples/fx-16-particle-logo.mp4
+    caption: "fx-16 Particle logo: one of the 16 effects, 8 second loop. Rough reference. Rendered in code, no AI model."
+examplesCredit: "Clips 05 and 09 are the original author's sample animations. All other clips were rendered in code by Subclip (seekable canvas pages, ffmpeg), no image, video or audio model. Rough references."
+examplesKind: test
