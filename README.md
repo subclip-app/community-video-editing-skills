@@ -503,7 +503,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/video-translate">Video translate</a></h4>
 <sub>Translate and dub a video into one or more languages with per-speaker voices, timing checks and optional lip-sync.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/video-translate">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/video-translate">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/video-translate">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/video-translate">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

@@ -90,4 +90,16 @@ Translation by the agent costs no credits. Cloud speech is billed per output; lo
 - Say what needs a human listen: pronunciation of names, tone, timing against lip movement.
 - Save decisions with `update_project_director_brief` and `write_session_summary`.
 
+## Reference output
+
+Three 13 second versions of one pour-over coffee tutorial show what a finished run delivers:
+
+| File | What it shows |
+| --- | --- |
+| [examples/coffee-english-source.mp4](examples/coffee-english-source.mp4) | The source: three photo scenes, English narration, English captions |
+| [examples/coffee-spanish-dub.mp4](examples/coffee-spanish-dub.mp4) | The Spanish dub: same scenes, each translated line placed in its original timing window, Spanish captions |
+| [examples/coffee-french-dub.mp4](examples/coffee-french-dub.mp4) | The French dub, built the same way |
+
+How they were made: the agent translated the three segments itself, kept "20" and "three minutes" exact, voiced each line with the free local Supertonic voice (`generate_local_speech`, the free test path), placed every line at its source window and checked the fit (the longest line used 1.03 of its window), then captioned each language with local `transcribe_project` and fixed two words with `update_caption_words`. On-screen graphics are language neutral (step numbers, a gram counter, a timer), so only voice and captions change per language. The stills are gpt-image-2 images made with the Codex CLI; the scenes are HyperFrames layers. A paid run uses the dubbing workspace above instead of local speech.
+
 Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (skill video-translate) by OpenMontageInc, AGPL-3.0

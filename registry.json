@@ -4690,25 +4690,40 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/video-translate/examples/coffee-spanish-dub.mp4",
+          "kind": "video",
+          "caption": "1. Spanish dub: the coffee tutorial voiced in Spanish on the original timing, Spanish captions. Images: gpt-image-2. No video model."
+        },
+        {
+          "path": "skills/video-translate/examples/coffee-french-dub.mp4",
+          "kind": "video",
+          "caption": "2. French dub: same video and timing, French voice and captions. Images: gpt-image-2. Rendered in code, no video model."
+        },
+        {
+          "path": "skills/video-translate/examples/coffee-english-source.mp4",
+          "kind": "video",
+          "caption": "3. English source: the original video both dubs follow. Images: gpt-image-2. Rendered in code, no video model."
+        },
         {
           "path": "skills/video-translate/examples/french-cue-fit.jpg",
           "kind": "image",
-          "caption": "French paper-folding cues with original timing windows and measured speech fit."
+          "caption": "4. French cue fit: paper-folding cues with original timing windows and measured speech fit."
         },
         {
           "path": "skills/video-translate/examples/spanish-cue-fit.jpg",
           "kind": "image",
-          "caption": "Spanish paper-folding cues with original timing windows and measured speech fit."
+          "caption": "5. Spanish cue fit: paper-folding cues with original timing windows and measured speech fit."
         },
         {
           "path": "skills/video-translate/examples/dubbing-cue-fit.mp4",
           "kind": "video",
-          "caption": "French and Spanish paper-folding cues appear with their original time windows and measured speech fit."
+          "caption": "6. Cue fit check: French and Spanish cues appear with their original time windows and measured speech fit."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML cards and HyperFrames): no image or video model. Speech fit measured with the local Supertonic speech model, the clip is silent.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Stills: gpt-image-2 through the Codex CLI. Voices: the free local Supertonic model. Captions: local transcription. Scenes rendered in code (HyperFrames): no video model.",
       "examplesKind": "test"
     },
     {
