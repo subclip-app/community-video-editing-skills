@@ -1094,32 +1094,57 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/bang-motion/examples/01-grainy-gradient.mp4",
+          "kind": "video",
+          "caption": "1. Grainy gradient: arches rise, an orb falls and floats, words blur in, slow push-in. Code scene, no AI model."
+        },
+        {
+          "path": "skills/bang-motion/examples/02-kinetic-typography.mp4",
+          "kind": "video",
+          "caption": "2. Kinetic typography: letters slam in, blocks slide, a counter hits 48, camera pulses on the beat. Code scene, no AI model."
+        },
+        {
+          "path": "skills/bang-motion/examples/03-flat-vector.mp4",
+          "kind": "video",
+          "caption": "3. Flat vector: a paper plane flies in, the button sends it, it returns. One persistent subject. Code scene, no AI model."
+        },
+        {
+          "path": "skills/bang-motion/examples/04-continuous-action.mp4",
+          "kind": "video",
+          "caption": "4. Continuous action: one unbroken shot, parallax scenery, speed readout and gauge tied to the train. Code scene, no AI model."
+        },
+        {
+          "path": "skills/bang-motion/examples/05-cartoon-collage.mp4",
+          "kind": "video",
+          "caption": "5. Cartoon collage: headline and highlight pop in, volcano smoke and embers move. Original still plus code layers, no AI model."
+        },
+        {
           "path": "skills/bang-motion/examples/grainy-gradient.jpg",
           "kind": "image",
-          "caption": "A glowing blue opener with layered shapes and soft grain"
+          "caption": "6. Grainy gradient still: a glowing blue opener with layered shapes and soft grain. Original author."
         },
         {
           "path": "skills/bang-motion/examples/kinetic-typography.jpg",
           "kind": "image",
-          "caption": "Oversized words cropped across bright poster blocks"
+          "caption": "7. Kinetic typography still: oversized words cropped across bright poster blocks. Original author."
         },
         {
           "path": "skills/bang-motion/examples/flat-vector.jpg",
           "kind": "image",
-          "caption": "A product promo made with flat shapes and illustrated controls"
+          "caption": "8. Flat vector still: a product promo made with flat shapes and illustrated controls. Original author."
         },
         {
           "path": "skills/bang-motion/examples/continuous-action.jpg",
           "kind": "image",
-          "caption": "A train explainer that places the speed readout in the scene"
+          "caption": "9. Continuous action still: a train explainer that places the speed readout in the scene. Original author."
         },
         {
           "path": "skills/bang-motion/examples/cartoon-collage.jpg",
           "kind": "image",
-          "caption": "A volcano explainer with illustrated cutouts on a paper background"
+          "caption": "10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author."
         }
       ],
-      "examplesCredit": "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion",
+      "examplesCredit": "Stills by bangtutorial, MIT, from github.com/bangtutorial/bang-motion. Clips 1 to 5 and the opener preview are our own deterministic code animations of those compositions, made in Subclip with no image, video or audio model.",
       "examplesKind": "original"
     },
     {
@@ -3032,7 +3057,7 @@
         "license": "MIT",
         "commit": "c18305fcf214dc625c675eaee1da2bb7bfd95904",
         "syncedAt": "2026-11-24",
-        "note": "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The upstream vendors recipes from charlie947/motion-graphics-skills and howseen-ai/claude-motion-design (both MIT). Original LICENSE kept."
+        "note": "Adapts the motion-studio sub-skill of tvhead-studio. Its tvhead-video is our separate TV-Head Doodle and Cartoon Stories skill; ai-montage and blender-3d are not adapted. Portions derive from lubluniky/garazh-skill, charlie947/motion-graphics-skills and howseen-ai/claude-motion-design (MIT). LICENSE kept."
       },
       "addedAt": "2026-11-24",
       "updatedAt": "2026-11-24",
@@ -4288,8 +4313,8 @@
     },
     {
       "slug": "tvhead-story-looks",
-      "name": "TV-Head story looks",
-      "seoTitle": "TV-Head Doodle and Cartoon Story Videos in 15 Looks (tvhead-studio)",
+      "name": "TV-Head Doodle and Cartoon Stories",
+      "seoTitle": "TV-Head Doodle and Cartoon Story Videos: 15 Narrated Looks (tvhead-studio)",
       "summary": "Turn a topic into a narrated story video in 15 looks (doodle, cartoon, stickman, game), with a director's proposal and 10 second AI-video prompts.",
       "category": "animation",
       "tags": [
@@ -4316,15 +4341,20 @@
         "license": "MIT",
         "commit": "c18305fcf214dc625c675eaee1da2bb7bfd95904",
         "syncedAt": "2026-11-24",
-        "note": "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The five stickman looks and the director module adapt kaomei/stickman-video-director (MIT). Original LICENSE kept."
+        "note": "Adapts the tvhead-video sub-skill of tvhead-studio. Its motion-studio is our separate Motion Reel Studio skill; ai-montage and blender-3d are not adapted. Portions derive from lubluniky/garazh-skill (MIT). Stickman looks and director module adapt kaomei/stickman-video-director (MIT). LICENSE kept."
       },
       "addedAt": "2026-11-24",
       "updatedAt": "2026-11-24",
       "examples": [
         {
+          "path": "skills/tvhead-story-looks/examples/00-doodle-reference-episode.mp4",
+          "kind": "video",
+          "caption": "Reference episode: a 33 s doodle story. Voice: Gemini 3.1 Flash TTS. Images: gpt-image-2. Scene 3 clip: p-video from a still."
+        },
+        {
           "path": "skills/tvhead-story-looks/examples/capability-tvhead-story-looks.mp4",
           "kind": "video",
-          "caption": "Capability reference: nine looks and the proposal. Images: gpt-image-2. Rendered in code, no video model."
+          "caption": "Capability reference: doodle and cartoon first, then 11 more looks and the proposal. Images: gpt-image-2. Rendered in code."
         },
         {
           "path": "skills/tvhead-story-looks/examples/01-doodle.jpg",
@@ -4427,7 +4457,7 @@
           "caption": "19. Sets sheet: the environments. By the original author."
         }
       ],
-      "examplesCredit": "Files marked By the original author are by Vladic20 (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: images gpt-image-2, animated in code; one clip by p-video. No Subclip credits except 24 for the clip.",
+      "examplesCredit": "Files marked By the original author are by Vladic20 (MIT). The rest: images gpt-image-2 animated in code; episode voice Gemini 3.1 Flash TTS (1.32 credits); episode scene 3 and the AI-video package clip p-video (10 and 24 credits).",
       "examplesKind": "test"
     },
     {

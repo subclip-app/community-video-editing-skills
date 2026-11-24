@@ -6,6 +6,8 @@
 
 **Ready-made video editing workflows for Claude Code, Codex, Cursor and the in-app agent of the [Subclip AI video editor](https://www.subclip.app).**
 
+**Browse every skill with previews, search and ratings: [subclip.app/agent-skills/community](https://www.subclip.app/agent-skills/community)**
+
 [![Browse on subclip.app](https://img.shields.io/badge/browse-subclip.app-153592?style=for-the-badge)](https://www.subclip.app/agent-skills/community)
 [![Submit a skill](https://img.shields.io/badge/submit-a%20skill-26c9d5?style=for-the-badge)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3fa34d?style=for-the-badge)](LICENSE)
@@ -249,8 +251,8 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="skills/tvhead-story-looks"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks.gif" alt="TV-Head story looks preview" width="100%"></a><br>
-<h4><a href="skills/tvhead-story-looks">TV-Head story looks</a></h4>
+<a href="skills/tvhead-story-looks"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks.gif" alt="TV-Head Doodle and Cartoon Stories preview" width="100%"></a><br>
+<h4><a href="skills/tvhead-story-looks">TV-Head Doodle and Cartoon Stories</a></h4>
 <sub>Turn a topic into a narrated story video in 15 looks (doodle, cartoon, stickman, game), with a director's proposal and 10 second AI-video prompts.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/Vladic20/tvhead-studio">Vladic20/tvhead-studio</a> by Vladic20</sub><br>
 <sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/tvhead-story-looks">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/tvhead-story-looks">Open on subclip.app</a></sub>

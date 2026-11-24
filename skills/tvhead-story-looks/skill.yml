@@ -1,6 +1,6 @@
 slug: tvhead-story-looks
-name: TV-Head story looks
-seoTitle: "TV-Head Doodle and Cartoon Story Videos in 15 Looks (tvhead-studio)"
+name: TV-Head Doodle and Cartoon Stories
+seoTitle: "TV-Head Doodle and Cartoon Story Videos: 15 Narrated Looks (tvhead-studio)"
 summary: Turn a topic into a narrated story video in 15 looks (doodle, cartoon, stickman, game), with a director's proposal and 10 second AI-video prompts.
 category: animation
 tags: [story, doodle, cartoon, stickman, looks, storyboard, prompt-package]
@@ -8,15 +8,17 @@ cover: cover.jpg
 preview: preview.mp4
 adaptedBySubclip: true
 license: MIT
-upstream: { repo: Vladic20/tvhead-studio, author: Vladic20, license: MIT, commit: "c18305fcf214dc625c675eaee1da2bb7bfd95904", syncedAt: "2026-11-24", note: "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The five stickman looks and the director module adapt kaomei/stickman-video-director (MIT). Original LICENSE kept." }
+upstream: { repo: Vladic20/tvhead-studio, author: Vladic20, license: MIT, commit: "c18305fcf214dc625c675eaee1da2bb7bfd95904", syncedAt: "2026-11-24", note: "Adapts the tvhead-video sub-skill of tvhead-studio. Its motion-studio is our separate Motion Reel Studio skill; ai-montage and blender-3d are not adapted. Portions derive from lubluniky/garazh-skill (MIT). Stickman looks and director module adapt kaomei/stickman-video-director (MIT). LICENSE kept." }
 addedAt: 2026-11-24
 updatedAt: 2026-11-24
 allowlist:
   - code: external-provider
     reason: Model and provider names (video, image, voice models) describe Subclip's live catalog and are used only through Subclip tools, not direct provider API calls.
 examples:
+  - file: examples/00-doodle-reference-episode.mp4
+    caption: "Reference episode: a 33 s doodle story. Voice: Gemini 3.1 Flash TTS. Images: gpt-image-2. Scene 3 clip: p-video from a still."
   - file: examples/capability-tvhead-story-looks.mp4
-    caption: "Capability reference: nine looks and the proposal. Images: gpt-image-2. Rendered in code, no video model."
+    caption: "Capability reference: doodle and cartoon first, then 11 more looks and the proposal. Images: gpt-image-2. Rendered in code."
   - file: examples/01-doodle.jpg
     caption: "1. Doodle: one frame per scene of the demo episode. By the original author."
   - file: examples/01-doodle-vertical.jpg
@@ -57,5 +59,5 @@ examples:
     caption: "18. Cast parts sheet: heads, bodies, hats and props. By the original author."
   - file: examples/19-sets-sheet.jpg
     caption: "19. Sets sheet: the environments. By the original author."
-examplesCredit: "Files marked By the original author are by Vladic20 (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: images gpt-image-2, animated in code; one clip by p-video. No Subclip credits except 24 for the clip."
+examplesCredit: "Files marked By the original author are by Vladic20 (MIT). The rest: images gpt-image-2 animated in code; episode voice Gemini 3.1 Flash TTS (1.32 credits); episode scene 3 and the AI-video package clip p-video (10 and 24 credits)."
 examplesKind: test

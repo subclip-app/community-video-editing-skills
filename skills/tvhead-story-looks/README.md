@@ -1,10 +1,12 @@
 Adapted for Subclip from https://github.com/Vladic20/tvhead-studio by Vladic20, MIT
 
-# TV-Head story looks (Subclip edition)
+# TV-Head Doodle and Cartoon Stories (Subclip edition)
 
 A skill for AI agents working in [Subclip](https://subclip.app) that turns one topic into a narrated story video in a named look: doodle, warm cartoon, 3D desk, neon noir, dark fantasy, toy-block game, 8-bit, comic, five stickman styles, an underground engineering sim and a marker sketch. It writes a director's proposal with checks first, locks the style, cast and voice, then builds the video as an editable timeline, or writes standalone 10 second prompts for a video model.
 
 **Topic in, narrated story video out. No outside API keys, no scripts, no local studio app.**
+
+This adapts the `tvhead-video` sub-skill of Vladic20/tvhead-studio. The same plugin also holds `motion-studio` (our separate Motion Reel Studio skill), `ai-montage` and `blender-3d` (not adapted).
 
 [Watch the silent preview](preview.mp4). The capability reference is `examples/capability-tvhead-story-looks.mp4`. Every look has its own reference in `examples/`.
 
@@ -43,7 +45,9 @@ A 60 second story is 14 to 18 scenes. Route B (code-drawn layers) and local spee
 
 ## Examples
 
-<p align="center"><a href="examples/capability-tvhead-story-looks.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks/capability-tvhead-story-looks.gif" alt="Capability reference: nine looks and the proposal. Images: gpt-image-2. Rendered in code, no video model." width="480"></a><br><sub>Capability reference: nine looks and the proposal. Images: gpt-image-2. Rendered in code, no video model. <a href="examples/capability-tvhead-story-looks.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/00-doodle-reference-episode.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks/00-doodle-reference-episode.gif" alt="Reference episode: a 33 s doodle story. Voice: Gemini 3.1 Flash TTS. Images: gpt-image-2. Scene 3 clip: p-video from a still." width="480"></a><br><sub>Reference episode: a 33 s doodle story. Voice: Gemini 3.1 Flash TTS. Images: gpt-image-2. Scene 3 clip: p-video from a still. <a href="examples/00-doodle-reference-episode.mp4">Play with sound</a></sub></p>
+
+<p align="center"><a href="examples/capability-tvhead-story-looks.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks/capability-tvhead-story-looks.gif" alt="Capability reference: doodle and cartoon first, then 11 more looks and the proposal. Images: gpt-image-2. Rendered in code." width="480"></a><br><sub>Capability reference: doodle and cartoon first, then 11 more looks and the proposal. Images: gpt-image-2. Rendered in code. <a href="examples/capability-tvhead-story-looks.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/01-doodle.jpg" alt="1. Doodle: one frame per scene of the demo episode. By the original author." width="720"><br><sub>1. Doodle: one frame per scene of the demo episode. By the original author.</sub></p>
 
@@ -71,8 +75,6 @@ A 60 second story is 14 to 18 scenes. Route B (code-drawn layers) and local spee
 
 <p align="center"><a href="examples/12-stickman-cozy.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks/12-stickman-cozy.gif" alt="12. Stickman 4, cozy: a platform and a lamp-lit desk. Rough reference. Images: gpt-image-2, animated in code, no video model." width="480"></a><br><sub>12. Stickman 4, cozy: a platform and a lamp-lit desk. Rough reference. Images: gpt-image-2, animated in code, no video model. <a href="examples/12-stickman-cozy.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/13-stickman-history.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/tvhead-story-looks/13-stickman-history.gif" alt="13. Stickman 5, historical: Edo, then Egypt and Rome. Rough reference. Images: gpt-image-2, animated in code, no video model." width="480"></a><br><sub>13. Stickman 5, historical: Edo, then Egypt and Rome. Rough reference. Images: gpt-image-2, animated in code, no video model. <a href="examples/13-stickman-history.mp4">Play with sound</a></sub></p>
-
 <p align="center"><img src="examples/16-directors-proposal.jpg" alt="16. Director's proposal: 5-stage storyboard with checks. Rendered in code, no AI model." width="720"><br><sub>16. Director's proposal: 5-stage storyboard with checks. Rendered in code, no AI model.</sub></p>
 
 <p align="center"><img src="examples/18-cast-parts-sheet.jpg" alt="18. Cast parts sheet: heads, bodies, hats and props. By the original author." width="720"><br><sub>18. Cast parts sheet: heads, bodies, hats and props. By the original author.</sub></p>
@@ -81,11 +83,11 @@ A 60 second story is 14 to 18 scenes. Route B (code-drawn layers) and local spee
 
 <details><summary>More example videos</summary>
 
-<ul><li><a href="examples/14-underground.mp4">14. Underground sim: cutaway diorama, HUD, stamps. Rough reference. Images: gpt-image-2, animated in code, no video model.</a></li><li><a href="examples/15-marker.mp4">15. Marker sketch: problem in red, fixes in green. Rough reference. Images: gpt-image-2, animated in code, no video model.</a></li><li><a href="examples/17-ai-video-package.mp4">17. AI-video prompt package: one 10 s clip from the locked prompt. Video and audio: p-video (24 credits).</a></li></ul>
+<ul><li><a href="examples/13-stickman-history.mp4">13. Stickman 5, historical: Edo, then Egypt and Rome. Rough reference. Images: gpt-image-2, animated in code, no video model.</a></li><li><a href="examples/14-underground.mp4">14. Underground sim: cutaway diorama, HUD, stamps. Rough reference. Images: gpt-image-2, animated in code, no video model.</a></li><li><a href="examples/15-marker.mp4">15. Marker sketch: problem in red, fixes in green. Rough reference. Images: gpt-image-2, animated in code, no video model.</a></li><li><a href="examples/17-ai-video-package.mp4">17. AI-video prompt package: one 10 s clip from the locked prompt. Video and audio: p-video (24 credits).</a></li></ul>
 
 </details>
 
-<p align="center"><sub>Files marked By the original author are by Vladic20 (MIT, github.com/Vladic20/tvhead-studio). Others were made for this skill: images gpt-image-2, animated in code; one clip by p-video. No Subclip credits except 24 for the clip.</sub></p>
+<p align="center"><sub>Files marked By the original author are by Vladic20 (MIT). The rest: images gpt-image-2 animated in code; episode voice Gemini 3.1 Flash TTS (1.32 credits); episode scene 3 and the AI-video package clip p-video (10 and 24 credits).</sub></p>
 
 <!-- examples:end -->
 

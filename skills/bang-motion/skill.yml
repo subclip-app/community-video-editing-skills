@@ -12,14 +12,24 @@ upstream: { repo: bangtutorial/bang-motion, author: bangtutorial, license: MIT, 
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
+  - file: examples/01-grainy-gradient.mp4
+    caption: "1. Grainy gradient: arches rise, an orb falls and floats, words blur in, slow push-in. Code scene, no AI model."
+  - file: examples/02-kinetic-typography.mp4
+    caption: "2. Kinetic typography: letters slam in, blocks slide, a counter hits 48, camera pulses on the beat. Code scene, no AI model."
+  - file: examples/03-flat-vector.mp4
+    caption: "3. Flat vector: a paper plane flies in, the button sends it, it returns. One persistent subject. Code scene, no AI model."
+  - file: examples/04-continuous-action.mp4
+    caption: "4. Continuous action: one unbroken shot, parallax scenery, speed readout and gauge tied to the train. Code scene, no AI model."
+  - file: examples/05-cartoon-collage.mp4
+    caption: "5. Cartoon collage: headline and highlight pop in, volcano smoke and embers move. Original still plus code layers, no AI model."
   - file: examples/grainy-gradient.jpg
-    caption: "A glowing blue opener with layered shapes and soft grain"
+    caption: "6. Grainy gradient still: a glowing blue opener with layered shapes and soft grain. Original author."
   - file: examples/kinetic-typography.jpg
-    caption: "Oversized words cropped across bright poster blocks"
+    caption: "7. Kinetic typography still: oversized words cropped across bright poster blocks. Original author."
   - file: examples/flat-vector.jpg
-    caption: "A product promo made with flat shapes and illustrated controls"
+    caption: "8. Flat vector still: a product promo made with flat shapes and illustrated controls. Original author."
   - file: examples/continuous-action.jpg
-    caption: "A train explainer that places the speed readout in the scene"
+    caption: "9. Continuous action still: a train explainer that places the speed readout in the scene. Original author."
   - file: examples/cartoon-collage.jpg
-    caption: "A volcano explainer with illustrated cutouts on a paper background"
-examplesCredit: "Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion"
+    caption: "10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author."
+examplesCredit: "Stills by bangtutorial, MIT, from github.com/bangtutorial/bang-motion. Clips 1 to 5 and the opener preview are our own deterministic code animations of those compositions, made in Subclip with no image, video or audio model."

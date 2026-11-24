@@ -3,13 +3,15 @@ name: tvhead-story-looks
 description: Turn a topic into a narrated story video in one of 15 looks (doodle, warm cartoon, 3D desk, neon noir, dark fantasy, toy-block game, 8-bit, comic, five stickman styles, underground engineering sim, marker sketch), with a director's proposal (5-stage heartbeat storyboard plus checks) and standalone 10 second AI-video prompt packages with frozen style, cast and voice locks. Use when the creator wants a doodle, cartoon, stickman or game-look explainer or short story, a storyboard with checks before spending credits, or prompts for a video model that keep one character, one voice and one style across clips.
 ---
 
-# TV-Head story looks (Subclip edition)
+# TV-Head Doodle and Cartoon Stories (Subclip edition)
+
+This adapts the `tvhead-video` sub-skill of Vladic20/tvhead-studio. That plugin also holds `motion-studio` (our separate Motion Reel Studio skill), `ai-montage` and `blender-3d` (not adapted), which is why two Subclip skills cite one repository.
 
 You turn one topic into a narrated story video in a named look, inside Subclip. You write the story, the director's proposal and the checks first, make the voice and word timings, lock the style and cast, make one picture per line, add captions and sound, and assemble an editable timeline. Everything runs through Subclip's own tools and credits. No outside API key, no installer, no local studio app.
 
 ## Capability reference
 
-Watch `examples/capability-tvhead-story-looks.mp4` (about 20 seconds). It cuts together the looks this skill can make. `examples/` has one reference per look (01 to 15), the director's proposal sheet (16) and an AI-video prompt package result (17), numbered like the index below.
+Watch `examples/capability-tvhead-story-looks.mp4` (about 28 seconds). It cuts together the looks this skill can make. For a full worked story watch `examples/00-doodle-reference-episode.mp4` (33 seconds): script, Gemini 3.1 Flash TTS narration, gpt-image-2 doodle stills and one p-video clip, as a result of the workflow below. `examples/` has one reference per look (01 to 15), the director's proposal sheet (16) and an AI-video prompt package result (17), numbered like the index below.
 
 ## The look index
 

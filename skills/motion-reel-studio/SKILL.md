@@ -5,6 +5,8 @@ description: Build a 35 to 60 second vertical social reel (Reels, TikTok, Shorts
 
 # Motion Reel Studio (Subclip edition)
 
+This adapts the `motion-studio` sub-skill of Vladic20/tvhead-studio. That plugin also holds `tvhead-video` (our separate TV-Head Doodle and Cartoon Stories skill), `ai-montage` and `blender-3d` (not adapted), which is why two Subclip skills cite one repository.
+
 Topic in, finished vertical reel out. You pick one of five code-built styles, write a tight script, make the voice and word timings first, key every accent to a spoken word, build the scenes as editable layers, check contact sheets and seams, and deliver with safe zones and a measured loudness. Everything runs through Subclip tools. No outside API key, no installer, no local template project.
 
 ## Capability reference

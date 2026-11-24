@@ -8,7 +8,7 @@ cover: cover.jpg
 preview: preview.mp4
 adaptedBySubclip: true
 license: MIT
-upstream: { repo: Vladic20/tvhead-studio, author: Vladic20, license: MIT, commit: "c18305fcf214dc625c675eaee1da2bb7bfd95904", syncedAt: "2026-11-24", note: "Portions of the upstream derive from lubluniky/garazh-skill (MIT, https://github.com/lubluniky/garazh-skill). The upstream vendors recipes from charlie947/motion-graphics-skills and howseen-ai/claude-motion-design (both MIT). Original LICENSE kept." }
+upstream: { repo: Vladic20/tvhead-studio, author: Vladic20, license: MIT, commit: "c18305fcf214dc625c675eaee1da2bb7bfd95904", syncedAt: "2026-11-24", note: "Adapts the motion-studio sub-skill of tvhead-studio. Its tvhead-video is our separate TV-Head Doodle and Cartoon Stories skill; ai-montage and blender-3d are not adapted. Portions derive from lubluniky/garazh-skill, charlie947/motion-graphics-skills and howseen-ai/claude-motion-design (MIT). LICENSE kept." }
 addedAt: 2026-11-24
 updatedAt: 2026-11-24
 allowlist:

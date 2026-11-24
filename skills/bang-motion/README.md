@@ -194,16 +194,26 @@ The cover is the upstream hero grid and the gallery images come from the upstrea
 
 ## Examples
 
-<p align="center"><img src="examples/grainy-gradient.jpg" alt="A glowing blue opener with layered shapes and soft grain" width="720"><br><sub>A glowing blue opener with layered shapes and soft grain</sub></p>
+<p align="center"><a href="examples/01-grainy-gradient.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion/01-grainy-gradient.gif" alt="1. Grainy gradient: arches rise, an orb falls and floats, words blur in, slow push-in. Code scene, no AI model." width="480"></a><br><sub>1. Grainy gradient: arches rise, an orb falls and floats, words blur in, slow push-in. Code scene, no AI model. <a href="examples/01-grainy-gradient.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/kinetic-typography.jpg" alt="Oversized words cropped across bright poster blocks" width="720"><br><sub>Oversized words cropped across bright poster blocks</sub></p>
+<p align="center"><a href="examples/02-kinetic-typography.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion/02-kinetic-typography.gif" alt="2. Kinetic typography: letters slam in, blocks slide, a counter hits 48, camera pulses on the beat. Code scene, no AI model." width="480"></a><br><sub>2. Kinetic typography: letters slam in, blocks slide, a counter hits 48, camera pulses on the beat. Code scene, no AI model. <a href="examples/02-kinetic-typography.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/flat-vector.jpg" alt="A product promo made with flat shapes and illustrated controls" width="720"><br><sub>A product promo made with flat shapes and illustrated controls</sub></p>
+<p align="center"><a href="examples/03-flat-vector.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion/03-flat-vector.gif" alt="3. Flat vector: a paper plane flies in, the button sends it, it returns. One persistent subject. Code scene, no AI model." width="480"></a><br><sub>3. Flat vector: a paper plane flies in, the button sends it, it returns. One persistent subject. Code scene, no AI model. <a href="examples/03-flat-vector.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/continuous-action.jpg" alt="A train explainer that places the speed readout in the scene" width="720"><br><sub>A train explainer that places the speed readout in the scene</sub></p>
+<p align="center"><a href="examples/04-continuous-action.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion/04-continuous-action.gif" alt="4. Continuous action: one unbroken shot, parallax scenery, speed readout and gauge tied to the train. Code scene, no AI model." width="480"></a><br><sub>4. Continuous action: one unbroken shot, parallax scenery, speed readout and gauge tied to the train. Code scene, no AI model. <a href="examples/04-continuous-action.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/cartoon-collage.jpg" alt="A volcano explainer with illustrated cutouts on a paper background" width="720"><br><sub>A volcano explainer with illustrated cutouts on a paper background</sub></p>
+<p align="center"><a href="examples/05-cartoon-collage.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion/05-cartoon-collage.gif" alt="5. Cartoon collage: headline and highlight pop in, volcano smoke and embers move. Original still plus code layers, no AI model." width="480"></a><br><sub>5. Cartoon collage: headline and highlight pop in, volcano smoke and embers move. Original still plus code layers, no AI model. <a href="examples/05-cartoon-collage.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Examples by bangtutorial, MIT, from github.com/bangtutorial/bang-motion</sub></p>
+<p align="center"><img src="examples/grainy-gradient.jpg" alt="6. Grainy gradient still: a glowing blue opener with layered shapes and soft grain. Original author." width="720"><br><sub>6. Grainy gradient still: a glowing blue opener with layered shapes and soft grain. Original author.</sub></p>
+
+<p align="center"><img src="examples/kinetic-typography.jpg" alt="7. Kinetic typography still: oversized words cropped across bright poster blocks. Original author." width="720"><br><sub>7. Kinetic typography still: oversized words cropped across bright poster blocks. Original author.</sub></p>
+
+<p align="center"><img src="examples/flat-vector.jpg" alt="8. Flat vector still: a product promo made with flat shapes and illustrated controls. Original author." width="720"><br><sub>8. Flat vector still: a product promo made with flat shapes and illustrated controls. Original author.</sub></p>
+
+<p align="center"><img src="examples/continuous-action.jpg" alt="9. Continuous action still: a train explainer that places the speed readout in the scene. Original author." width="720"><br><sub>9. Continuous action still: a train explainer that places the speed readout in the scene. Original author.</sub></p>
+
+<p align="center"><img src="examples/cartoon-collage.jpg" alt="10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author." width="720"><br><sub>10. Cartoon collage still: a volcano explainer with illustrated cutouts on a paper background. Original author.</sub></p>
+
+<p align="center"><sub>Stills by bangtutorial, MIT, from github.com/bangtutorial/bang-motion. Clips 1 to 5 and the opener preview are our own deterministic code animations of those compositions, made in Subclip with no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
