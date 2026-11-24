@@ -356,7 +356,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/music-to-video">Music to video</a></h4>
 <sub>Turn a music track into a beat-synced video with kinetic type, your own clips and editable motion layers.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/music-to-video">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/music-to-video">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/music-to-video">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/music-to-video">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

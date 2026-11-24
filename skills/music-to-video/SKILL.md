@@ -111,4 +111,19 @@ Layers, local captions and local checks cost no credits. Music generation, and a
 - No native beat or onset detection tool: the beat map is built by hand from the waveform, a known tempo, or the creator's numbers.
 - The original ready-made template HTML files and texture masks are not shipped. The catalog describes each treatment so you can build it as layer code.
 
+## Reference output
+
+[examples/night-shift-promo.mp4](examples/night-shift-promo.mp4) is a 20 second kinetic type promo for a fictional club night, made with this skill on "Euro Club Loop" by YellowTree (CC BY 4.0). Its beat map: about 120 BPM, beats at 0.49 s plus every 0.5 s, a quiet four on the floor intro, hats building from about 4.5 s, a hard stop at 6.99 s, a hit at 7.49 s and the full drop on the downbeat at 7.99 s, then 2 s bars. Six frames tile the track:
+
+| Frame | Span | What it does |
+| --- | --- | --- |
+| 01 intro | 0 to 3.99 s | One word per kick, then a held line with an underline that grows per beat |
+| 02 build | 3.99 to 6.99 s | Letters land on the beat while the camera pushes in, ticks fill on the eighths |
+| 03 stop and hit | 6.99 to 7.99 s | Black for the silence, then a full screen "Go" on the hit |
+| 04 drop | 7.99 to 11.99 s | One 0 ms slam per beat, each with its own color pair |
+| 05 equalizer | 11.99 to 15.99 s | Bars pulse on every beat, a three word line builds, colors flip on the bar line ([still](examples/night-shift-equalizer.jpg)) |
+| 06 poster | 15.99 to 19.99 s | Name, date and entry land on downbeats while a ring pulses per beat ([still](examples/night-shift-poster.jpg)) |
+
+The music is one native audio item; each frame is one HyperFrames layer. Sync was checked against the exported file: the silence, the hit and the drop sit on the same frames as the cuts.
+
 Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (skill music-to-video) by OpenMontageInc, AGPL-3.0

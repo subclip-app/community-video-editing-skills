@@ -3170,20 +3170,35 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/music-to-video/examples/night-shift-promo.mp4",
+          "kind": "video",
+          "caption": "1. Night Shift promo: 20 s kinetic type cut to a 120 BPM club loop, hard stop, hit, drop. Rendered in code, no video model."
+        },
+        {
+          "path": "skills/music-to-video/examples/night-shift-equalizer.jpg",
+          "kind": "image",
+          "caption": "2. Equalizer frame: bars pulse on every beat under a three word line. Rendered in code, no image model."
+        },
+        {
+          "path": "skills/music-to-video/examples/night-shift-poster.jpg",
+          "kind": "image",
+          "caption": "3. Poster frame: name, date and entry land on the downbeats. Rendered in code, no image model."
+        },
         {
           "path": "skills/music-to-video/examples/percussive-cascade.mp4",
           "kind": "video",
-          "caption": "A kinetic cascade reveals each word on a steady onset and swaps phrases on the bar line."
+          "caption": "4. Percussive cascade: each word lands on a steady onset and phrases swap on the bar line."
         },
         {
           "path": "skills/music-to-video/examples/held-pad-message.jpg",
           "kind": "image",
-          "caption": "A still message over the midpoint of a drifting field for the track’s sparse pad."
+          "caption": "5. Held pad message: a still message over a drifting field for a sparse pad."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HyperFrames layers): no image, video or audio model. Music: Euro Club Loop by YellowTree, CC BY 4.0.",
       "examplesKind": "test"
     },
     {
