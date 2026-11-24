@@ -29,6 +29,6 @@ This edition rewrites the production workflow for native Subclip layers, timelin
 
 <p align="center"><img src="examples/card-entrance.jpg" alt="A product showcase card pairs a large metric with a small line chart" width="720"><br><sub>A product showcase card pairs a large metric with a small line chart</sub></p>
 
-<p align="center"><sub>Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft</sub></p>
+<p align="center"><sub>Examples by Vincentwei1021, Apache-2.0, from github.com/Vincentwei1021/video-shotcraft. The hero preview is our own cut of those examples with text cards by Subclip, no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
