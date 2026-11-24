@@ -230,6 +230,11 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/ai-camera-shots/examples/all-20-camera-shots.mp4",
+          "kind": "video",
+          "caption": "All 20 camera shots in one reel, numbered 1 to 20. Stills from the original guide, edited in a silent montage with no AI model."
+        },
+        {
           "path": "skills/ai-camera-shots/examples/top-down.jpg",
           "kind": "image",
           "caption": "Top-down shot, example from the original guide"

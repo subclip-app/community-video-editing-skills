@@ -26,6 +26,8 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
+<p align="center"><a href="examples/all-20-camera-shots.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-camera-shots/all-20-camera-shots.gif" alt="All 20 camera shots in one reel, numbered 1 to 20. Stills from the original guide, edited in a silent montage with no AI model." width="480"></a><br><sub>All 20 camera shots in one reel, numbered 1 to 20. Stills from the original guide, edited in a silent montage with no AI model. <a href="examples/all-20-camera-shots.mp4">Play with sound</a></sub></p>
+
 <p align="center"><img src="examples/top-down.jpg" alt="Top-down shot, example from the original guide" width="720"><br><sub>Top-down shot, example from the original guide</sub></p>
 
 <p align="center"><img src="examples/silhouette.jpg" alt="Silhouette shot, example from the original guide" width="720"><br><sub>Silhouette shot, example from the original guide</sub></p>

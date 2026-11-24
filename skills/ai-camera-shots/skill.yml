@@ -15,6 +15,8 @@ allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
 examples:
+  - file: examples/all-20-camera-shots.mp4
+    caption: "All 20 camera shots in one reel, numbered 1 to 20. Stills from the original guide, edited in a silent montage with no AI model."
   - file: examples/top-down.jpg
     caption: Top-down shot, example from the original guide
   - file: examples/silhouette.jpg
