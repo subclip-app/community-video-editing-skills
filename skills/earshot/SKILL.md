@@ -46,7 +46,7 @@ The tool measures but does not hear: it cannot tell a pleasant whoosh from a har
 
 ## Capability reference
 
-A short clip with its sound design markers on a waveform, the audio rendered locally with earshot and mixed to about -16 LUFS: `examples/capability-sound-design.mp4`. Use it as the target look of a cue sheet (clicks, typewriter, whooshes at cuts, riser into impact, notification).
+A 12 second clip made with this skill in Subclip (route 1, library sounds only): `examples/sound-design-reference.mp4`. Soft typing under the prompt, a UI click on the button press, a whoosh whose peak lands on the cut, a riser into an impact on the reveal and a chime on the confirmation, over a quiet music bed, about -17 LUFS with peaks under -1 dB. `examples/sound-design-reference-sheet.jpg` shows one frame per second, and `examples/audio-timeline-sheet.jpg` is the `get_audio_timeline_sheet` image the agent read to check it (both cuts in sync, no warnings). Use them as the target for cue density, timing and levels.
 
 ## Do not
 

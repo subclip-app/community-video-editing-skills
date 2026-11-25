@@ -421,7 +421,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/earshot">Sound effects from words</a></h4>
 <sub>Ask for UI clicks, whooshes, risers, impacts and typing in plain words, then place them on the timeline with levels and ducking.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/Leonxlnx/earshot">Leonxlnx/earshot</a> by Leon Lin</sub><br>
-<sub>Updated 2026-11-24 &nbsp;|&nbsp; <a href="skills/earshot">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/earshot">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/earshot">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/earshot">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/cut-to-the-beat"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cut-to-the-beat.gif" alt="Cut to the beat preview" width="100%"></a><br>

@@ -2243,30 +2243,35 @@
         "syncedAt": "2026-11-24"
       },
       "addedAt": "2026-11-24",
-      "updatedAt": "2026-11-24",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/earshot/examples/capability-sound-design.mp4",
+          "path": "skills/earshot/examples/sound-design-reference.mp4",
           "kind": "video",
-          "caption": "Capability reference: 18 s clip with cue markers on a waveform, audio rendered with earshot, about -16 LUFS."
+          "caption": "1. Sound design: typing, click, whoosh, riser, impact and chime placed on cue in Subclip. Sounds: CC0 and Subclip library. No AI model."
         },
         {
-          "path": "skills/earshot/examples/waveform-markers.jpg",
+          "path": "skills/earshot/examples/sound-design-reference-sheet.jpg",
           "kind": "image",
-          "caption": "Frame from the reference clip at the impact, with cue labels on the mixed waveform."
+          "caption": "2. Contact sheet: one frame per second of the sound design reference. No AI model."
+        },
+        {
+          "path": "skills/earshot/examples/audio-timeline-sheet.jpg",
+          "kind": "image",
+          "caption": "3. Audio sheet: lanes, cut sync, spectrogram and loudness the agent read to check the mix. No AI model."
         },
         {
           "path": "skills/earshot/examples/earshot-launch-sheet.jpg",
           "kind": "image",
-          "caption": "By the original author: what an agent sees when it listens to earshot's 22 s launch film (cue events, spectrogram, loudness and sync)."
+          "caption": "4. By the original author: what an agent sees when it listens to the earshot launch film: cue events, loudness and sync. No AI model."
         },
         {
           "path": "skills/earshot/examples/earshot-launch-frames.png",
           "kind": "image",
-          "caption": "By the original author: frames of the earshot launch film, which was cut to its own code-made sounds."
+          "caption": "5. By the original author: frames of the earshot launch film, cut to its own code-made sounds. No AI model."
         }
       ],
-      "examplesCredit": "Clip and waveform frame made for Subclip in code with HyperFrames, sounds synthesized locally with earshot, no image or video model. Launch sheet and frames from the earshot README by Leon Lin (MIT).",
+      "examplesCredit": "Made for Subclip in the AI Editor from code scenes, no AI model. Sounds: Subclip SFX library, Remotion mouse-click, Freesound CC0 by aikighost (ElectronicPerk3, ElectronicPerk4) and Qvantor (Success chime). Launch sheet and frames from the earshot README by Leon Lin (MIT).",
       "examplesKind": "original"
     },
     {
