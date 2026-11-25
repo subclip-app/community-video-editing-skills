@@ -506,7 +506,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/higgsfield-to-subclip">Relight and background swap</a></h4>
 <sub>Change the background or lighting of real footage and keep face, lips and timing. Five relight looks, edit by prompt and a stacked reel, all in Subclip.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://www.instagram.com/sferro21">www.instagram.com/sferro21</a> by sferro21</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/higgsfield-to-subclip">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/higgsfield-to-subclip">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/higgsfield-to-subclip">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/higgsfield-to-subclip">Open on subclip.app</a></sub>
 </td>
 </tr>
 <tr>

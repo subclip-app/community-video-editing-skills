@@ -1,4 +1,4 @@
-Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
+Adapted for Subclip from [the original guides](https://www.instagram.com/sferro21) by sferro21. The guides state no license.
 
 # Relight and background swap (Subclip edition)
 
@@ -9,6 +9,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 Merges two guides that ran on an outside video service. Every step is re-expressed with Subclip tools and models: relight a still, run a clip-plus-still video pass, swap backgrounds with no green screen, check the result, edit the whole video by prompt and stack five looks into one reel.
 
 Background swap, five relights, edit by prompt.
+
+Watch the [ceramic studio lighting study with sound](examples/ceramicist-lighting-study.mp4) and the [silent hero](preview.mp4). The demo repeats one synthetic talking-head take with editable Subclip lighting effects, keeping the voice and captions in sync. Seedance 2 animates the closing pottery shot from the [window lighting plate](examples/window-light.jpg).
+
+Ambient sound by kkenny101, CC0. [Loopable Filtered Rain Resonance Drone](https://freesound.org/people/kkenny101/sounds/864683/)
 
 ## Install
 
@@ -32,15 +36,17 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
-<p align="center"><img src="examples/ceramicist-source.jpg" alt="Neutral source still with soft daylight from the studio window. Image: gpt-image-2." width="720"><br><sub>Neutral source still with soft daylight from the studio window. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/ceramicist-lighting-study.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/higgsfield-to-subclip/ceramicist-lighting-study.gif" alt="1. Amber relight: Studio study. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Pocket TTS. Captions: Whisper Small." width="480"></a><br><sub>1. Amber relight: Studio study. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Pocket TTS. Captions: Whisper Small. <a href="examples/ceramicist-lighting-study.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/amber.jpg" alt="Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2." width="720"><br><sub>Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/window-light.jpg" alt="2. Window light: Amber sunset and teal shadows across the pottery bench. Images: gpt-image-2." width="720"><br><sub>2. Window light: Amber sunset and teal shadows across the pottery bench. Images: gpt-image-2.</sub></p>
 
-<p align="center"><img src="examples/rain.jpg" alt="Cold blue storm light with rain confined to the window glass. Image: gpt-image-2." width="720"><br><sub>Cold blue storm light with rain confined to the window glass. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/ceramicist-source.jpg" alt="3. Daylight: Neutral ceramicist source portrait by the studio window. Images: gpt-image-2." width="720"><br><sub>3. Daylight: Neutral ceramicist source portrait by the studio window. Images: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/ceramicist-lighting-study.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/higgsfield-to-subclip/ceramicist-lighting-study.gif" alt="Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: push-in, no video model." width="480"></a><br><sub>Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: push-in, no video model. <a href="examples/ceramicist-lighting-study.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/amber.jpg" alt="4. Amber haze: A warm rim against teal shadows in the same studio. Images: gpt-image-2." width="720"><br><sub>4. Amber haze: A warm rim against teal shadows in the same studio. Images: gpt-image-2.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><img src="examples/rain.jpg" alt="5. Rain on glass: Cool storm light with droplets confined to the window. Images: gpt-image-2." width="720"><br><sub>5. Rain on glass: Cool storm light with droplets confined to the window. Images: gpt-image-2.</sub></p>
+
+<p align="center"><sub>Original synthetic studio demo. Native Subclip effects relight the spoken take. Seedance 2 animates the pottery insert. Ambient sound by kkenny101 (CC0).</sub></p>
 
 <!-- examples:end -->
 

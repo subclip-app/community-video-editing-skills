@@ -12,6 +12,12 @@ FILM ONE TAKE -> FRAME 0 -> RELIT STILL -> VIDEO RELIGHT -> CHECK -> EDIT / STAC
 (your clip)     (export)   (image model)  (video model)    (draft)   (Subclip)
 ```
 
+## Watch the reference
+
+[Ceramic studio lighting study](examples/ceramicist-lighting-study.mp4) plays the same spoken take in daylight and amber window light, with the original voice and native captions carried through both shots. When the video model declined the synthetic portrait, editable Subclip effects supplied the amber look. The closing shot shows the light on the pottery bench, animated from a separate still with Seedance 2.
+
+See the [silent hero](preview.mp4) for the short comparison and the [window lighting plate](examples/window-light.jpg) for the sunset reference.
+
 ## Step 0: Choose generators and quote
 
 - **Stills (relight frame):** offer the creator's own Codex CLI first (see Subclip's `subclip-ai-generation` skill, `references/creator-cli-generators.md`). Otherwise `generate_ai_media`, kind `image`, with a model that accepts two reference images from `list_ai_models`: `seedream-5-lite` (the closest Subclip model to the Seedream 5.0 Pro the guide used), `nano-banana-2.1` or `gpt-image-2.5-flare`.

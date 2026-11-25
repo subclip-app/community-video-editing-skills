@@ -2427,30 +2427,35 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/higgsfield-to-subclip/examples/ceramicist-lighting-study.mp4",
+          "kind": "video",
+          "caption": "1. Amber relight: Studio study. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Pocket TTS. Captions: Whisper Small."
+        },
+        {
+          "path": "skills/higgsfield-to-subclip/examples/window-light.jpg",
+          "kind": "image",
+          "caption": "2. Window light: Amber sunset and teal shadows across the pottery bench. Images: gpt-image-2."
+        },
         {
           "path": "skills/higgsfield-to-subclip/examples/ceramicist-source.jpg",
           "kind": "image",
-          "caption": "Neutral source still with soft daylight from the studio window. Image: gpt-image-2."
+          "caption": "3. Daylight: Neutral ceramicist source portrait by the studio window. Images: gpt-image-2."
         },
         {
           "path": "skills/higgsfield-to-subclip/examples/amber.jpg",
           "kind": "image",
-          "caption": "Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2."
+          "caption": "4. Amber haze: A warm rim against teal shadows in the same studio. Images: gpt-image-2."
         },
         {
           "path": "skills/higgsfield-to-subclip/examples/rain.jpg",
           "kind": "image",
-          "caption": "Cold blue storm light with rain confined to the window glass. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/higgsfield-to-subclip/examples/ceramicist-lighting-study.mp4",
-          "kind": "video",
-          "caption": "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: push-in, no video model."
+          "caption": "5. Rain on glass: Cool storm light with droplets confined to the window. Images: gpt-image-2."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.",
+      "examplesCredit": "Original synthetic studio demo. Native Subclip effects relight the spoken take. Seedance 2 animates the pottery insert. Ambient sound by kkenny101 (CC0).",
       "examplesKind": "test"
     },
     {

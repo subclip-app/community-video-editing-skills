@@ -6,6 +6,7 @@ Outside sources that inspired or are credited in this repository, other than ada
 | --- | --- | --- |
 | [AI Style Atlas by Futurepedia](https://www.futurepedia.io/resources/ai-style-atlas/view) | The idea of a named catalog of visual styles for explainers. Style names are listed as facts with links back. Descriptions and recipes are our own. No license is stated. | ai-style-atlas |
 | [sferro21 on Instagram](https://www.instagram.com/sferro21) | Creative guide ideas, rewritten as our own workflows. Credit goes to the creator. | see each skill's README |
+| [sferro21 on Instagram](https://www.instagram.com/sferro21) | The clip and still method for relighting a talking-head shot. We made the [ceramic studio reference](skills/higgsfield-to-subclip/examples/ceramicist-lighting-study.mp4) and [silent hero](skills/higgsfield-to-subclip/preview.mp4). | higgsfield-to-subclip |
 | [Claude Creative Skill Library Vol 2 (Notion)](https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) | A list that pointed us to skill ideas worth adapting. | see each skill's README |
 | [SupoClip](https://github.com/FujiwaraChoki/supoclip) | Inspiration for the long-video to short-clips flow: find strong moments, cut, caption. | long-to-shorts |
 | [librosa](https://librosa.org) | The idea of detecting beats in music to time cuts. In Subclip this uses native tools, not the library. | cut-to-the-beat |

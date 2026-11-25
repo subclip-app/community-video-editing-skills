@@ -10,18 +10,20 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 allowlist:
   - code: external-provider
     reason: "Model and service names describe Subclip's live catalog and the guide's origin; the workflow uses Subclip tools only, no outside provider calls."
 examples:
-  - file: examples/ceramicist-source.jpg
-    caption: "Neutral source still with soft daylight from the studio window. Image: gpt-image-2."
-  - file: examples/amber.jpg
-    caption: "Amber sunset through the same window creates a warm rim against teal shadows. Image: gpt-image-2."
-  - file: examples/rain.jpg
-    caption: "Cold blue storm light with rain confined to the window glass. Image: gpt-image-2."
   - file: examples/ceramicist-lighting-study.mp4
-    caption: "Daylight gives way to amber sunset, then cold storm light in the same ceramic studio. Clip: push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
+    caption: "1. Amber relight: Studio study. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Pocket TTS. Captions: Whisper Small."
+  - file: examples/window-light.jpg
+    caption: "2. Window light: Amber sunset and teal shadows across the pottery bench. Images: gpt-image-2."
+  - file: examples/ceramicist-source.jpg
+    caption: "3. Daylight: Neutral ceramicist source portrait by the studio window. Images: gpt-image-2."
+  - file: examples/amber.jpg
+    caption: "4. Amber haze: A warm rim against teal shadows in the same studio. Images: gpt-image-2."
+  - file: examples/rain.jpg
+    caption: "5. Rain on glass: Cool storm light with droplets confined to the window. Images: gpt-image-2."
+examplesCredit: "Original synthetic studio demo. Native Subclip effects relight the spoken take. Seedance 2 animates the pottery insert. Ambient sound by kkenny101 (CC0)."
 examplesKind: test
