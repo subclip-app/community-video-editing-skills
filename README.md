@@ -530,7 +530,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/long-to-shorts">Long video to shorts</a></h4>
 <sub>Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.</sub><br>
 <sub><b>Original</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; written for Subclip</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/long-to-shorts">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/long-to-shorts">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/long-to-shorts">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/long-to-shorts">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

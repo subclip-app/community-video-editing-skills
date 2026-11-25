@@ -95,6 +95,10 @@ Only when the creator asks. Read `subclip-social-media`, `subclip-youtube` or `s
 
 For each clip: number, title, `M:SS` duration, score out of 100, one specific reason, file path, and schedule state. Say what was checked on screen and what still needs a human listen. Never claim a check you did not do.
 
+## Reference
+
+A finished run of this skill, cut from [If I could start over in business, I'd do this sooner](https://www.youtube.com/watch?v=H8QfAfCbOXs) by Alex Hormozi (clipping allowed by the creator): [Your worst person sets the bar](examples/worst-person-sets-the-bar.mp4), [Napoleon wanted lucky generals](examples/napoleon-lucky-generals.mp4), [Removing the 80 beats hiring a 140](examples/remove-the-80.mp4) and a [one-second contact sheet](examples/shorts-contact-sheet.jpg). Each short keeps the speaker's audio, has a hook bar, the default Dynamic Captions and a credit line. Scores and settings are in [references/worked-example.md](references/worked-example.md).
+
 ## Rules
 
 - Source video stays untouched. Everything is editable in Subclip afterwards.

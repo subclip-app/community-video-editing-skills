@@ -32,7 +32,7 @@ The agent shows you its picks and scores before it cuts anything, so you can dro
 
 ## Example
 
-The three example shorts were cut in Subclip from the first 35 minutes of the [Alexander H. King Interview](https://www.youtube.com/watch?v=aXMPh927_fI), published under Creative Commons Attribution by Purdue University Archives and Special Collections. The [worked example](references/worked-example.md) documents the scores, caption import and framing choices.
+The three example shorts were cut in Subclip from [If I could start over in business, I'd do this sooner](https://www.youtube.com/watch?v=H8QfAfCbOXs) by Alex Hormozi, who allows clipping of his videos. Credit goes to him for the words and the footage. The skill picked three moments from the 16 minute talk, cut them to 9:16 with a hook bar, word-timed captions and a credit line, and kept his original audio: [Your worst person sets the bar](examples/worst-person-sets-the-bar.mp4), [Napoleon wanted lucky generals](examples/napoleon-lucky-generals.mp4) and [Removing the 80 beats hiring a 140](examples/remove-the-80.mp4). The [contact sheet](examples/shorts-contact-sheet.jpg) shows the first 8 seconds of each, one frame per second. The [worked example](references/worked-example.md) documents the scores, caption import and framing choices.
 
 ## What is inside
 
@@ -47,18 +47,16 @@ It uses only Subclip's own tools. No outside API keys, no scripts to run.
 
 ## Examples
 
-<p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=aXMPh927_fI">Alexander H. King Interview</a>, Purdue University Archives and Special Collections, CC BY</sub></p>
+<p align="center"><sub>Source video: <a href="https://www.youtube.com/watch?v=H8QfAfCbOXs">If I could start over in business, I'd do this sooner</a>, Alex Hormozi, Clipping allowed by the creator</sub></p>
 
-<p align="center"><a href="examples/short-1.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-1.gif" alt="King takes up fencing to avoid rugby and goes on to represent the United Kingdom." width="480"></a><br><sub>King takes up fencing to avoid rugby and goes on to represent the United Kingdom. <a href="examples/short-1.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/worst-person-sets-the-bar.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/worst-person-sets-the-bar.gif" alt="1. Your worst person sets the bar: Alex Hormozi, If I could start over in business, I'd do this sooner. No AI model." width="480"></a><br><sub>1. Your worst person sets the bar: Alex Hormozi, If I could start over in business, I'd do this sooner. No AI model. <a href="examples/worst-person-sets-the-bar.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/short-2.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-2.gif" alt="A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line." width="480"></a><br><sub>A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line. <a href="examples/short-2.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/napoleon-lucky-generals.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/napoleon-lucky-generals.gif" alt="2. Napoleon wanted lucky generals: a 39 s short from the same Alex Hormozi video, pause cut, word captions. No AI model." width="480"></a><br><sub>2. Napoleon wanted lucky generals: a 39 s short from the same Alex Hormozi video, pause cut, word captions. No AI model. <a href="examples/napoleon-lucky-generals.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/short-3.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/short-3.gif" alt="King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool." width="480"></a><br><sub>King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool. <a href="examples/short-3.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/remove-the-80.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts/remove-the-80.gif" alt="3. Removing the 80 beats hiring a 140: Alex Hormozi on team quality, 36 s, hook bar and word captions. No AI model." width="480"></a><br><sub>3. Removing the 80 beats hiring a 140: Alex Hormozi on team quality, 36 s, hook bar and word captions. No AI model. <a href="examples/remove-the-80.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/plan.jpg" alt="Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions." width="720"><br><sub>Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions.</sub></p>
+<p align="center"><img src="examples/shorts-contact-sheet.jpg" alt="4. Contact sheet at 1 s: the first 8 s of each Alex Hormozi short with hook, captions and credit line. No AI model." width="720"><br><sub>4. Contact sheet at 1 s: the first 8 s of each Alex Hormozi short with hook, captions and credit line. No AI model.</sub></p>
 
-<p align="center"><img src="examples/timeline.jpg" alt="Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions." width="720"><br><sub>Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions.</sub></p>
-
-<p align="center"><sub>Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI. Real footage, no image, video or audio generation model.</sub></p>
+<p align="center"><sub>Shorts cut with this skill in Subclip from Alex Hormozi, If I could start over in business, I'd do this sooner (https://www.youtube.com/watch?v=H8QfAfCbOXs). Clipping allowed by the creator. Real footage and his own words, no image, video or audio model, zero credits.</sub></p>
 
 <!-- examples:end -->

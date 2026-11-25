@@ -2690,41 +2690,36 @@
       "license": "MIT",
       "upstream": null,
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/long-to-shorts/examples/short-1.mp4",
+          "path": "skills/long-to-shorts/examples/worst-person-sets-the-bar.mp4",
           "kind": "video",
-          "caption": "King takes up fencing to avoid rugby and goes on to represent the United Kingdom."
+          "caption": "1. Your worst person sets the bar: Alex Hormozi, If I could start over in business, I'd do this sooner. No AI model."
         },
         {
-          "path": "skills/long-to-shorts/examples/short-2.mp4",
+          "path": "skills/long-to-shorts/examples/napoleon-lucky-generals.mp4",
           "kind": "video",
-          "caption": "A temporary job at MIT becomes a life in the United States, with better ice cream as the punch line."
+          "caption": "2. Napoleon wanted lucky generals: a 39 s short from the same Alex Hormozi video, pause cut, word captions. No AI model."
         },
         {
-          "path": "skills/long-to-shorts/examples/short-3.mp4",
+          "path": "skills/long-to-shorts/examples/remove-the-80.mp4",
           "kind": "video",
-          "caption": "King uses a lab crate and its manual to compare how students at MIT and Purdue approach a new tool."
+          "caption": "3. Removing the 80 beats hiring a 140: Alex Hormozi on team quality, 36 s, hook bar and word captions. No AI model."
         },
         {
-          "path": "skills/long-to-shorts/examples/plan.jpg",
+          "path": "skills/long-to-shorts/examples/shorts-contact-sheet.jpg",
           "kind": "image",
-          "caption": "Five real candidates ranked by the five-part rubric, with exact source ranges and cut decisions."
-        },
-        {
-          "path": "skills/long-to-shorts/examples/timeline.jpg",
-          "kind": "image",
-          "caption": "Three Subclip timeline frames from the manual story show its portrait crop, hook and dynamic captions."
+          "caption": "4. Contact sheet at 1 s: the first 8 s of each Alex Hormozi short with hook, captions and credit line. No AI model."
         }
       ],
-      "examplesCredit": "Shorts cut with this skill in Subclip from Alexander H. King Interview by Purdue University Archives and Special Collections (CC BY), https://www.youtube.com/watch?v=aXMPh927_fI. Real footage, no image, video or audio generation model.",
+      "examplesCredit": "Shorts cut with this skill in Subclip from Alex Hormozi, If I could start over in business, I'd do this sooner (https://www.youtube.com/watch?v=H8QfAfCbOXs). Clipping allowed by the creator. Real footage and his own words, no image, video or audio model, zero credits.",
       "examplesKind": "test",
       "sourceVideo": {
-        "youtube": "aXMPh927_fI",
-        "title": "Alexander H. King Interview",
-        "channel": "Purdue University Archives and Special Collections",
-        "license": "CC BY"
+        "youtube": "H8QfAfCbOXs",
+        "title": "If I could start over in business, I'd do this sooner",
+        "channel": "Alex Hormozi",
+        "license": "Clipping allowed by the creator"
       }
     },
     {
