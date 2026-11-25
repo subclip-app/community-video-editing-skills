@@ -110,7 +110,9 @@ export const README_PREVIEW_BASE = 'https://subclipweb.subclip.app/agent-skills/
 const SITE_SKILL = 'https://www.subclip.app/agent-skills/community';
 /** README catalog: a jump bar, then one section per category with a 2-column grid of looping previews, name, summary, credit and links. */
 export function catalog(skills) {
-  const order = Object.keys(CATEGORY_LABELS);
+  // README order: Promos, Motion graphics and Animation first, then the rest, then B-roll last.
+  const first = ['promos', 'motion', 'animation'], last = ['broll'];
+  const order = [...first, ...Object.keys(CATEGORY_LABELS).filter(c => !first.includes(c) && !last.includes(c)), ...last];
   const groups = [...new Set(skills.map(s => s.category))].sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99) || a.localeCompare(b));
   const anchor = g => (CATEGORY_LABELS[g] ?? g).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const cellHtml = s => [
