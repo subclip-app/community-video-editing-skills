@@ -10,19 +10,23 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
 examples:
+  - file: examples/wan-styles-reference.mp4
+    caption: "1. One photo, four looks: rubber hose, Expressionism, gothic toon, PS1. Images: gpt-image-2. Video: Wan 3 720p. Sound: ElevenLabs SFX."
+  - file: examples/wan-styles-reference-sheet.jpg
+    caption: "2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Wan 3 720p."
   - file: examples/german-expressionism.jpg
-    caption: "German Expressionism"
+    caption: "3. By the original author: German Expressionism style frame. Image: GPT Image."
   - file: examples/rubber-hose.jpg
-    caption: "Rubber Hose"
+    caption: "4. By the original author: rubber hose style frame. Image: GPT Image."
   - file: examples/gothic-toon.jpg
-    caption: "Gothic Toon"
+    caption: "5. By the original author: gothic toon style frame. Image: GPT Image."
   - file: examples/surreal-spooky.jpg
-    caption: "Surreal Spooky"
+    caption: "6. By the original author: surreal spooky style frame. Image: GPT Image."
   - file: examples/low-poly-ps1.jpg
-    caption: "Low Poly PS1"
-examplesCredit: "Example images from the guides by sferro21 (instagram.com/sferro21)"
+    caption: "7. By the original author: low poly PS1 style frame. Image: GPT Image."
+examplesCredit: "Items 1 and 2 made for Subclip: photo and style frames with gpt-image-2 (Codex CLI), clips with Wan 3 720p, sound with ElevenLabs Sound Effects, Remotion page-turn and the Subclip whoosh. Items 3 to 7 from the guides by sferro21 (instagram.com/sferro21)."

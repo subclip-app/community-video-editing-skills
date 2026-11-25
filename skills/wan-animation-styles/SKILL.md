@@ -63,7 +63,10 @@ Import each finished clip with `import_ai_operation_to_timeline`. Trim with `tri
 - Number of frames or seconds can come back slightly short. Check the imported duration before building the timeline on it.
 - No on-screen text from the model. Add titles natively.
 
-See [examples/](examples/) for an image for every style from [sferro21’s guides](https://www.instagram.com/sferro21).
+## Reference
+
+- [wan-styles-reference.mp4](examples/wan-styles-reference.mp4): one photo restyled into rubber hose, German Expressionism, gothic toon and low poly PS1 style frames (gpt-image-2), each animated for four seconds with Wan 3 at 720p from the frame as start frame, with per-look sound from ElevenLabs Sound Effects. Built with this skill in Subclip. [Contact sheet](examples/wan-styles-reference-sheet.jpg), one frame per second.
+- The other images in [examples/](examples/) are one style frame per look from [sferro21’s guides](https://www.instagram.com/sferro21).
 
 ## Credit
 

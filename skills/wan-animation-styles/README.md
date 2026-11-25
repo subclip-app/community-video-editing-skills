@@ -10,6 +10,8 @@ Restyle a photo or video frame into one of five animation looks with an image mo
 
 Five looks and a ten second scene recipe.
 
+The [reference video](examples/wan-styles-reference.mp4) shows the skill run in Subclip: one photo turned into four style frames with gpt-image-2, each animated with Wan 3 at 720p, with sound from ElevenLabs Sound Effects ([contact sheet](examples/wan-styles-reference-sheet.jpg)).
+
 ## Install
 
 Add this skill from **Skills > Community** in Subclip, or point your agent at this folder. It works with Claude Code, Codex, Cursor and the in-app agent through Subclip's MCP tools.
@@ -30,17 +32,21 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
-<p align="center"><img src="examples/german-expressionism.jpg" alt="German Expressionism" width="720"><br><sub>German Expressionism</sub></p>
+<p align="center"><a href="examples/wan-styles-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/wan-animation-styles/wan-styles-reference.gif" alt="1. One photo, four looks: rubber hose, Expressionism, gothic toon, PS1. Images: gpt-image-2. Video: Wan 3 720p. Sound: ElevenLabs SFX." width="480"></a><br><sub>1. One photo, four looks: rubber hose, Expressionism, gothic toon, PS1. Images: gpt-image-2. Video: Wan 3 720p. Sound: ElevenLabs SFX. <a href="examples/wan-styles-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/rubber-hose.jpg" alt="Rubber Hose" width="720"><br><sub>Rubber Hose</sub></p>
+<p align="center"><img src="examples/wan-styles-reference-sheet.jpg" alt="2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Wan 3 720p." width="720"><br><sub>2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Wan 3 720p.</sub></p>
 
-<p align="center"><img src="examples/gothic-toon.jpg" alt="Gothic Toon" width="720"><br><sub>Gothic Toon</sub></p>
+<p align="center"><img src="examples/german-expressionism.jpg" alt="3. By the original author: German Expressionism style frame. Image: GPT Image." width="720"><br><sub>3. By the original author: German Expressionism style frame. Image: GPT Image.</sub></p>
 
-<p align="center"><img src="examples/surreal-spooky.jpg" alt="Surreal Spooky" width="720"><br><sub>Surreal Spooky</sub></p>
+<p align="center"><img src="examples/rubber-hose.jpg" alt="4. By the original author: rubber hose style frame. Image: GPT Image." width="720"><br><sub>4. By the original author: rubber hose style frame. Image: GPT Image.</sub></p>
 
-<p align="center"><img src="examples/low-poly-ps1.jpg" alt="Low Poly PS1" width="720"><br><sub>Low Poly PS1</sub></p>
+<p align="center"><img src="examples/gothic-toon.jpg" alt="5. By the original author: gothic toon style frame. Image: GPT Image." width="720"><br><sub>5. By the original author: gothic toon style frame. Image: GPT Image.</sub></p>
 
-<p align="center"><sub>Example images from the guides by sferro21 (instagram.com/sferro21)</sub></p>
+<p align="center"><img src="examples/surreal-spooky.jpg" alt="6. By the original author: surreal spooky style frame. Image: GPT Image." width="720"><br><sub>6. By the original author: surreal spooky style frame. Image: GPT Image.</sub></p>
+
+<p align="center"><img src="examples/low-poly-ps1.jpg" alt="7. By the original author: low poly PS1 style frame. Image: GPT Image." width="720"><br><sub>7. By the original author: low poly PS1 style frame. Image: GPT Image.</sub></p>
+
+<p align="center"><sub>Items 1 and 2 made for Subclip: photo and style frames with gpt-image-2 (Codex CLI), clips with Wan 3 720p, sound with ElevenLabs Sound Effects, Remotion page-turn and the Subclip whoosh. Items 3 to 7 from the guides by sferro21 (instagram.com/sferro21).</sub></p>
 
 <!-- examples:end -->
 

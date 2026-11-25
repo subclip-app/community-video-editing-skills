@@ -4928,35 +4928,45 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/wan-animation-styles/examples/wan-styles-reference.mp4",
+          "kind": "video",
+          "caption": "1. One photo, four looks: rubber hose, Expressionism, gothic toon, PS1. Images: gpt-image-2. Video: Wan 3 720p. Sound: ElevenLabs SFX."
+        },
+        {
+          "path": "skills/wan-animation-styles/examples/wan-styles-reference-sheet.jpg",
+          "kind": "image",
+          "caption": "2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Wan 3 720p."
+        },
         {
           "path": "skills/wan-animation-styles/examples/german-expressionism.jpg",
           "kind": "image",
-          "caption": "German Expressionism"
+          "caption": "3. By the original author: German Expressionism style frame. Image: GPT Image."
         },
         {
           "path": "skills/wan-animation-styles/examples/rubber-hose.jpg",
           "kind": "image",
-          "caption": "Rubber Hose"
+          "caption": "4. By the original author: rubber hose style frame. Image: GPT Image."
         },
         {
           "path": "skills/wan-animation-styles/examples/gothic-toon.jpg",
           "kind": "image",
-          "caption": "Gothic Toon"
+          "caption": "5. By the original author: gothic toon style frame. Image: GPT Image."
         },
         {
           "path": "skills/wan-animation-styles/examples/surreal-spooky.jpg",
           "kind": "image",
-          "caption": "Surreal Spooky"
+          "caption": "6. By the original author: surreal spooky style frame. Image: GPT Image."
         },
         {
           "path": "skills/wan-animation-styles/examples/low-poly-ps1.jpg",
           "kind": "image",
-          "caption": "Low Poly PS1"
+          "caption": "7. By the original author: low poly PS1 style frame. Image: GPT Image."
         }
       ],
-      "examplesCredit": "Example images from the guides by sferro21 (instagram.com/sferro21)",
+      "examplesCredit": "Items 1 and 2 made for Subclip: photo and style frames with gpt-image-2 (Codex CLI), clips with Wan 3 720p, sound with ElevenLabs Sound Effects, Remotion page-turn and the Subclip whoosh. Items 3 to 7 from the guides by sferro21 (instagram.com/sferro21).",
       "examplesKind": "original"
     },
     {
