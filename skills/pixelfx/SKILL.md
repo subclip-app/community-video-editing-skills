@@ -19,6 +19,8 @@ What changed from the original pixelfx: the Node tools (render, check, gallery),
 - [references/recipes.md](references/recipes.md): nine effects as shot lists with start values.
 - [references/palettes.md](references/palettes.md): 24 hue-shifted color ramps.
 
+See it working: the [reference video](examples/pixel-effects-reference.mp4) shows torches, a ground blast and a frost nova built with this engine, and the [contact sheet](examples/one-second-contact-sheet.jpg) shows it frame by frame.
+
 ## Workflow
 
 ### 1. Read the project and the brief

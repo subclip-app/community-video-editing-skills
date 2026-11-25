@@ -3402,22 +3402,32 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/pixelfx/examples/pixel-effects-reference.mp4",
+          "kind": "video",
+          "caption": "1. Torches, a ground blast and a frost nova from the skill's engine. Code only, no AI model. Sound: CC0 and CC BY."
+        },
+        {
+          "path": "skills/pixelfx/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the reference: each shot is a seekable HyperFrames canvas layer."
+        },
+        {
           "path": "skills/pixelfx/examples/pixel-effects.mp4",
           "kind": "video",
-          "caption": "Looping pixel effects include fire, waterfalls and portals"
+          "caption": "3. Looping pixel effects include fire, waterfalls and portals"
         },
         {
           "path": "skills/pixelfx/examples/character-effects.mp4",
           "kind": "video",
-          "caption": "A pixel dummy winds up and strikes as sparks and impacts play"
+          "caption": "4. A pixel dummy winds up and strikes as sparks and impacts play"
         },
         {
           "path": "skills/pixelfx/examples/elemental-effects.jpg",
           "kind": "image",
-          "caption": "A close look at five effects from the original gallery grid"
+          "caption": "5. A close look at five effects from the original gallery grid"
         }
       ],
-      "examplesCredit": "Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx",
+      "examplesCredit": "Items 1 and 2 made for Subclip with this skill (code-rendered, no image or video model; fire loop CC0 by soundofsong, boom CC BY 4.0 by zimbot, sparkle CC0 by Qvantor, whoosh from the Subclip catalog). Other examples by patch-gg, MIT, from github.com/patch-gg/pixelfx",
       "examplesKind": "original"
     },
     {

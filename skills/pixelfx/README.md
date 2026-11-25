@@ -16,6 +16,8 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 ## What is inside
 
+See the [reference video](examples/pixel-effects-reference.mp4): torches, a ground blast and a frost nova rendered from this engine.
+
 - `SKILL.md`: the workflow.
 - `references/catalog.md`: all 244 effects as text, by category.
 - `references/engine.md`: a small deterministic two-buffer pixel engine, two worked examples and layer templates.
@@ -32,12 +34,16 @@ The original is a Node library with render tools, a gallery, sprite sheet export
 
 ## Examples
 
-<p align="center"><a href="examples/pixel-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/pixel-effects.gif" alt="Looping pixel effects include fire, waterfalls and portals" width="480"></a><br><sub>Looping pixel effects include fire, waterfalls and portals <a href="examples/pixel-effects.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/pixel-effects-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/pixel-effects-reference.gif" alt="1. Torches, a ground blast and a frost nova from the skill's engine. Code only, no AI model. Sound: CC0 and CC BY." width="480"></a><br><sub>1. Torches, a ground blast and a frost nova from the skill's engine. Code only, no AI model. Sound: CC0 and CC BY. <a href="examples/pixel-effects-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/character-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/character-effects.gif" alt="A pixel dummy winds up and strikes as sparks and impacts play" width="480"></a><br><sub>A pixel dummy winds up and strikes as sparks and impacts play <a href="examples/character-effects.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second of the reference: each shot is a seekable HyperFrames canvas layer." width="720"><br><sub>2. One frame per second of the reference: each shot is a seekable HyperFrames canvas layer.</sub></p>
 
-<p align="center"><img src="examples/elemental-effects.jpg" alt="A close look at five effects from the original gallery grid" width="720"><br><sub>A close look at five effects from the original gallery grid</sub></p>
+<p align="center"><a href="examples/pixel-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/pixel-effects.gif" alt="3. Looping pixel effects include fire, waterfalls and portals" width="480"></a><br><sub>3. Looping pixel effects include fire, waterfalls and portals <a href="examples/pixel-effects.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Examples by patch-gg, MIT, from github.com/patch-gg/pixelfx</sub></p>
+<p align="center"><a href="examples/character-effects.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/pixelfx/character-effects.gif" alt="4. A pixel dummy winds up and strikes as sparks and impacts play" width="480"></a><br><sub>4. A pixel dummy winds up and strikes as sparks and impacts play <a href="examples/character-effects.mp4">Play with sound</a></sub></p>
+
+<p align="center"><img src="examples/elemental-effects.jpg" alt="5. A close look at five effects from the original gallery grid" width="720"><br><sub>5. A close look at five effects from the original gallery grid</sub></p>
+
+<p align="center"><sub>Items 1 and 2 made for Subclip with this skill (code-rendered, no image or video model; fire loop CC0 by soundofsong, boom CC BY 4.0 by zimbot, sparkle CC0 by Qvantor, whoosh from the Subclip catalog). Other examples by patch-gg, MIT, from github.com/patch-gg/pixelfx</sub></p>
 
 <!-- examples:end -->
