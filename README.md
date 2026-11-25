@@ -376,7 +376,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/blender-to-subclip">Blender to Subclip</a></h4>
 <sub>Build and review a short Blender shot, then place the rendered clip or stills on an editable Subclip timeline.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/ahujasid/mcp-for-blender">ahujasid/mcp-for-blender</a> by Siddharth Ahuja</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/blender-to-subclip">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/blender-to-subclip">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/blender-to-subclip">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/blender-to-subclip">Open on subclip.app</a></sub>
 </td>
 </tr>
 <tr>

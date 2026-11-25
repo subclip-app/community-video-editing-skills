@@ -1206,16 +1206,21 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/blender-to-subclip/examples/wooden-pyramid.jpg",
+          "path": "skills/blender-to-subclip/examples/mug-turntable-reference.mp4",
+          "kind": "video",
+          "caption": "1. Mug turntable: Blender blockout, lights, camera keys and render, then the clip titled in Subclip. No AI model."
+        },
+        {
+          "path": "skills/blender-to-subclip/examples/mug-turntable-contact.jpg",
           "kind": "image",
-          "caption": "A wooden pyramid selected in the Blender viewport."
+          "caption": "2. One frame per second: four Blender steps and the final turntable with its title in Subclip. No AI model."
         }
       ],
-      "examplesCredit": "Examples by Siddharth Ahuja, MIT, from github.com/ahujasid/mcp-for-blender",
-      "examplesKind": "original"
+      "examplesCredit": "Test output made with this skill in Subclip for 0 credits. Blender 5.3 driven through the Blender MCP, EEVEE render, muted step recordings. Music: Electronic Perk loops by aikighost (CC0).",
+      "examplesKind": "test"
     },
     {
       "slug": "camera-angle-prompts-guide",

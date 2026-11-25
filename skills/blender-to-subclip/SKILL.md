@@ -33,4 +33,8 @@ Use `view_current_frame` with the project ID and exact `timeSeconds` at the star
 
 If the creator requests a finished Subclip export, read `get_export_configuration` and `list_render_queue`, then call `export_video` once. Omit range fields for the full project. Use `get_export_status` when an external client needs to check progress. Record the source version, render settings, placement and unresolved checks with `update_project_director_brief` and `write_session_summary`.
 
+## Reference
+
+A [mug turntable reference with sound](examples/mug-turntable-reference.mp4) and its [one-frame-per-second sheet](examples/mug-turntable-contact.jpg) were made with this skill in Subclip for 0 credits. Blender 5.3 was driven through the Blender MCP in a new scene: blockout, four area lights and ceramic materials, a tracked camera with a 360 degree linear turntable, then a 96 frame EEVEE render to MP4. Each step was a short muted window recording. The render was imported with `import_external_media`, placed twice as a seamless loop and titled on the left, where the shot left room. The [silent preview](preview.mp4) shows the render and the Blender viewport.
+
 Adapted for Subclip from [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) by Siddharth Ahuja, MIT.
