@@ -118,4 +118,8 @@ Common fixes: weak assembly, cut the number of elements and write an explicit sl
 
 Say plainly what you did not check, for example that no one listened to audio or that the clip was seen only at sampled frames.
 
+## Reference
+
+A [three-line reference with sound](examples/one-line-collage-broll.mp4) and its [one-frame-per-second sheet](examples/one-line-collage-broll-contact.jpg) were made with this skill in Subclip. Line 1 uses Route A with a twist: the model had no end-frame input, so Wan 3 took the approved still apart and the clip plays in reverse, assembling from the empty field. Lines 2 and 3 use Route B: gpt-image-2 cut-outs with transparent backgrounds animated in Remotion layers, with blurred silhouette images as shadows (a CSS drop shadow can make a piece vanish in rendered frames) and motion on twos. The [silent preview](preview.mp4) shows all three.
+
 Adapted for Subclip from [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) by pyang5166, MIT.

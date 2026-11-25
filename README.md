@@ -561,7 +561,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/gbro-collage-broll">Collage B-roll</a></h4>
 <sub>Turn one spoken line into a halftone paper-collage B-roll clip, approved at two gates before any video credits are spent.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/pyang5166/gbro-collage-broll">pyang5166/gbro-collage-broll</a> by pyang5166</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/gbro-collage-broll">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/gbro-collage-broll">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/gbro-collage-broll">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/gbro-collage-broll">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

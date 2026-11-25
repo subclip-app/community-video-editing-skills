@@ -2373,31 +2373,21 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/gbro-collage-broll/examples/chessboard-blocking.mp4",
+          "path": "skills/gbro-collage-broll/examples/one-line-collage-broll.mp4",
           "kind": "video",
-          "caption": "A paper chessboard becomes a staging plan under a projector beam."
+          "caption": "1. Three lines, three collages: clock, plan board and clean cut, each built from an empty field. Images: gpt-image-2. Video: Wan 3 720p."
         },
         {
-          "path": "skills/gbro-collage-broll/examples/cutting-film.mp4",
-          "kind": "video",
-          "caption": "A map, camera and filmstrip assemble before scissors cut the strip."
-        },
-        {
-          "path": "skills/gbro-collage-broll/examples/printing-press.mp4",
-          "kind": "video",
-          "caption": "A printing press turns one flawed picture into a run of copies."
-        },
-        {
-          "path": "skills/gbro-collage-broll/examples/film-collage-still.jpg",
+          "path": "skills/gbro-collage-broll/examples/one-line-collage-broll-contact.jpg",
           "kind": "image",
-          "caption": "The finished teal collage shows a camera, a filmstrip and red scissors."
+          "caption": "2. One frame per second: orange clock pile, teal storyboard, purple cut and paper plane. Images: gpt-image-2. Video: Wan 3 720p."
         }
       ],
-      "examplesCredit": "Examples by pyang5166, MIT, from github.com/pyang5166/gbro-collage-broll",
-      "examplesKind": "original"
+      "examplesCredit": "Test output made with this skill in Subclip for 17 credits. Cut-outs: gpt-image-2 via Codex CLI. Line 1: Wan 3 720p played in reverse; lines 2 and 3: Remotion layers. Voice: local alba. Captions: Whisper Small. Music: Lofi Hip Hop Loop by TheWandermiles (CC0).",
+      "examplesKind": "test"
     },
     {
       "slug": "higgsfield-to-subclip",
