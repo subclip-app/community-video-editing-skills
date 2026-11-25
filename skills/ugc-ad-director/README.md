@@ -1,5 +1,9 @@
 # UGC ad director for Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ugc-ad-director`
+<!-- cli:end -->
+
 A strict, stage-gated way to direct a 9:16 UGC style ad in Subclip. The agent builds three reference sheets first (character in 8 panels, product, location), then writes 10 concepts, a script and a storyboard plan, makes one storyboard image, runs a consistency check and only then makes clips, voice, captions and the timeline.
 
 ## Use it

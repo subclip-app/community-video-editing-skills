@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/alchaincyf/huashu-art-motion by alch
 
 # Huashu art motion
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install huashu-art-motion`
+<!-- cli:end -->
+
 Make paintings that move, art-history journeys, horizontal painted worlds and narration-led explainers. Design the frame first. Give the subject an action and the painting its own small movements.
 
 ![A painted landscape becomes geometric shapes](cover.svg)

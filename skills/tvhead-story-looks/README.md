@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/Vladic20/tvhead-studio by Vladic20, 
 
 # TV-Head Doodle and Cartoon Stories (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install tvhead-story-looks`
+<!-- cli:end -->
+
 A skill for AI agents working in [Subclip](https://subclip.app) that turns one topic into a narrated story video in a named look: doodle, warm cartoon, 3D desk, neon noir, dark fantasy, toy-block game, 8-bit, comic, five stickman styles, an underground engineering sim and a marker sketch. It writes a director's proposal with checks first, locks the style, cast and voice, then builds the video as an editable timeline, or writes standalone 10 second prompts for a video model.
 
 **Topic in, narrated story video out. No outside API keys, no scripts, no local studio app.**

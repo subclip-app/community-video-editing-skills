@@ -2,6 +2,10 @@ Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMon
 
 # music-to-video (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install music-to-video`
+<!-- cli:end -->
+
 Give the agent a song (or ask it to generate one) and get a beat-synced video: kinetic typography, a lyric video, a beat-cut montage of your own clips and photos, or a calm phrase-paced piece. The agent reads the track into a beat map, cuts it into frames, plans each frame with you, and builds every frame as an editable motion layer on the Subclip timeline.
 
 The original ran a Python beat analyzer and the HyperFrames command line. This version uses Subclip's editor tools only: no Python, no ffmpeg, no outside API keys, no scripts to run.

@@ -2,6 +2,10 @@ Adapted for Subclip from [wheresryan22/anatomy](https://github.com/wheresryan22/
 
 # Anatomy (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install anatomy`
+<!-- cli:end -->
+
 Isometric explanatory figures for video. The idea is the original's: explain a technical idea by building it as a real, well made physical object (a test rig, a dial gauge, a lock) with many small precise parts, four-tone shading and calm eased motion. Here the figure is an animated scene in a Subclip HyperFrames layer, so it becomes an explainer clip with optional narration, exported as video.
 
 ## Use it

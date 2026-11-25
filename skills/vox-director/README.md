@@ -2,6 +2,10 @@ Adapted for Subclip from [Vox Director](https://github.com/Alisa0808/vox-directo
 
 # Vox director
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install vox-director`
+<!-- cli:end -->
+
 Direct the shots for a paper-collage explainer. Map the narration into beats, compare looks for the same shot, then plan where to cut from the whole scene to a telling detail. Apply the plan to a topic, a recorded presenter, a single photo or selected digital-host beats.
 
 > Turn my existing narration into a 30-second vertical collage. Show me the beat map and three looks for the opening shot. Keep the lettering on my product photo intact.

@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # Paper-cut motion
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install paper-cut-motion`
+<!-- cli:end -->
+
 Takes one finished image and makes a handcrafted paper collage motion video where the scene builds itself out of torn paper. Three steps: the paper-cut still, a nine panel storyboard sheet, then the animation.
 
 ## Use it

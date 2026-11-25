@@ -2,6 +2,10 @@ Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMon
 
 # svg-character-animation (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install svg-character-animation`
+<!-- cli:end -->
+
 Rig a character from SVG parts and animate it in an editable Subclip motion layer. The agent builds the parts with stable pivots, then animates with a paused GSAP timeline: anticipation, follow-through, blinks, gaze, mouth shapes timed to your narration, and pose holds long enough to read.
 
 No outside API keys, no Python, no ffmpeg. Narration, music and sound effects stay in native Subclip audio lanes.

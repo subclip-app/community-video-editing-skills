@@ -1,5 +1,9 @@
 # Remotion motion layers
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install remotion-motion-layers`
+<!-- cli:end -->
+
 **Pre-installed in Subclip: you do not need to install this skill.**
 
 This is the listing for the Remotion engine that ships inside the Subclip AI Editor. Ask your agent for Remotion, React or TSX graphics, or choose a Remotion template, and it writes an editable layer on your timeline: a title, a chart, a globe or flat map, a 3D shot, a device frame or an overlay. The layer is one React component with typed props, so you can change copy, colours and numbers without touching code, and move, resize or fade it like any other item.

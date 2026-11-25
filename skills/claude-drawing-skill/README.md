@@ -2,6 +2,10 @@ Adapted for Subclip from [cloveric/claude-drawing-skill](https://github.com/clov
 
 # Claude Drawing
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install claude-drawing-skill`
+<!-- cli:end -->
+
 Paint with code in Subclip. Build an ink wash, a paper collage, or a continuous-line drawing, then show how it comes together with timed brush passes or a stroke reveal. The artwork and animation stay in an editable Motion layer. Drawing uses zero Subclip AI credits.
 
 ![Continuous gold line connecting two houses by way of a paper plane](cover.jpg)

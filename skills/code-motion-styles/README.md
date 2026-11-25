@@ -2,6 +2,10 @@ Adapted for Subclip from https://www.its-applied-ai.com/r/styles by Applied AI, 
 
 # Motion style prompts for Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install code-motion-styles`
+<!-- cli:end -->
+
 Sixteen short animation styles you can ask for by name: a falling-stack 3D chart, a maths proof machine, a line-art science diagram, a chain reaction, minimal line art, glow sketch, a stickman notebook doodle, a 90s cel-anime launch, a brick-built world, a particle galaxy, a glitch smash cut, a circuit board and a particle ring in three looks. The agent fills the prompt with your subject, builds one editable layer on your timeline, checks the frames and exports when you ask.
 
 Every style has a prompt file with the technique, the repo behind it, how to run it in Subclip, the credit cost and a tip, plus a short example clip and a poster in `examples/`. A 26 second capability video shows eight of them together.

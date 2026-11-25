@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # Documentary case file
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install documentary-case-file`
+<!-- cli:end -->
+
 Plans and builds a cinematic 3D documentary from a single sentence. It produces a case file with chapters and a scene table, locked stills for every character, place and prop, one video prompt per scene with sound design, and one narrator script, then assembles it on the Subclip timeline.
 
 ## Use it

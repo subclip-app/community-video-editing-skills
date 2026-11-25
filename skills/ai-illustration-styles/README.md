@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # AI illustration styles (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ai-illustration-styles`
+<!-- cli:end -->
+
 A reusable restyle prompt and twelve style recipes. Take a frame from your video, pick a look, and optionally animate the result or restyle the whole clip over your original footage.
 
 A prompt wrapper and twelve style recipes.

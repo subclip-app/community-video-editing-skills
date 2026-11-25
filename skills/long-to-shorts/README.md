@@ -1,5 +1,9 @@
 # Long video to shorts
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install long-to-shorts`
+<!-- cli:end -->
+
 An original Subclip skill, written by Subclip and released under MIT. It was inspired by the idea behind [SupoClip](https://github.com/FujiwaraChoki/supoclip) (long video in, short clips out). No SupoClip code, prompts or text were used.
 
 Give your agent a podcast, interview, lecture, stream or talk. It finds the moments most likely to hold a viewer, cuts them into vertical clips, adds captions and a hook, and exports several shorts. It can then schedule them to your connected accounts after you approve.

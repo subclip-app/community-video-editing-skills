@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # AI ad formats
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ai-ad-formats`
+<!-- cli:end -->
+
 Five short ad formats for e-commerce brands in one skill: claymation, paper animation, a singing ad with an original song, a talking object, and a skeleton "what happens if" progression. Each format has its own beats, prompts and edit.
 
 ## Use it

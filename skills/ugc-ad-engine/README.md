@@ -2,6 +2,10 @@ Adapted for Subclip from the UGC ad pipeline and the 6C avatar method taught by 
 
 # UGC ad engine (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ugc-ad-engine`
+<!-- cli:end -->
+
 A skill for AI agents working in [Subclip](https://subclip.app) that turns a product and an avatar into a finished vertical UGC ad. It finds sales angles, waits for you to pick one (the only gate), writes a direct-response script, writes a prompt sheet with one block per talking clip, then makes the speech, the avatar clips and the timeline: captions, a hook in the first second, an AI label and one call to action.
 
 **Product in, 9:16 ad out, as an editable Subclip timeline. No outside API keys, no scripts.**

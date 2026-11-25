@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/nexu-io/open-design by nexu-io, Apac
 
 # Open Design Motion
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install open-design-motion`
+<!-- cli:end -->
+
 These six skills replace Open Design artifact pages, provider dispatch and render scripts with native Subclip tools.
 
 - [motion-frames](motion-frames/SKILL.md) Build a looping kinetic poster, title card or animated hero with a wireframe globe, type ring or monogram.

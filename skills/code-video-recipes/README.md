@@ -2,6 +2,10 @@ Adapted for Subclip from [awesome-opus5-5-videos](https://github.com/yihui-dev/a
 
 # Code video recipes
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install code-video-recipes`
+<!-- cli:end -->
+
 Use a code-made video as a reference for an editable Subclip scene. Pick a technique such as staggered type, a musical reveal, a procedural orbit or a scripted walkthrough. Give your agent the subject, assets, duration and aspect ratio.
 
 > Use the music machine recipe for a 20-second spot. Start silently, then sync the moving parts to my percussion track. Keep the end title editable.

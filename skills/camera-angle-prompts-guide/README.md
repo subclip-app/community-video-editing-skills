@@ -1,5 +1,9 @@
 # 44 Cinematic Camera Angles Prompt Guide for AI Video (Digital Windows AI)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install camera-angle-prompts-guide`
+<!-- cli:end -->
+
 A Subclip community skill that turns a list of 44 camera angles into something an agent can use: pick the right angle for the feeling, write the prompt, decide whether Subclip can fake it with a crop, zoom or keyframe or needs a video model, quote the credits, and pair the angles into a cut.
 
 Includes our own guide: how to choose angles, a prompt formula, an angle by emotion and use case table, and pairing rules.

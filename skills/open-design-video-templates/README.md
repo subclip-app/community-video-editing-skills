@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/nexu-io/open-design by nexu-io, Apac
 
 # Open Design Video Templates
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install open-design-video-templates`
+<!-- cli:end -->
+
 Twenty-two motion recipes for title cards, statement frames, stat and chart reveals, flowcharts, product promos and logo outros. Each one keeps the original template's palette, type, layout and timeline beats, and tells your agent how to rebuild it as an editable Subclip HyperFrames layer (or a Remotion layer for the data roll-up) with your own copy, numbers and brand.
 
 - Start with [SKILL.md](SKILL.md), which lists every recipe and the Subclip workflow.

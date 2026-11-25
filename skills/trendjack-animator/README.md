@@ -2,6 +2,10 @@ Adapted for Subclip from the "trendjack-animator" skill by Agent Chad (https://a
 
 # Trending animated ads (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install trendjack-animator`
+<!-- cli:end -->
+
 A skill for AI agents working in [Subclip](https://subclip.app) that makes the animated ad formats that are trending now: drama song ad, product song, narrated cartoon story, 3D how-it-works explainer, skeleton or X-ray demo and photoreal phone-footage clone. It works audio first: the song or one continuous voiceover is made and measured, then every shot is cut to a line of it.
 
 **Product in, vertical 9:16 ad out, as an editable Subclip timeline. No outside API keys, no scripts.**

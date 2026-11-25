@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # AI edit battle (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ai-edit-battle`
+<!-- cli:end -->
+
 A head-to-head format for any two AI contenders. Each edits the same raw clip from the same brief, alone, in its own cloned Subclip project. You then compare the exports with hard checks and a scorecard and the creator picks a winner. Built from a guide that ran Fable 5.2 against Opus 5.5, rewritten so it works for any two models or agents.
 
 Fair setup, native edits, a scorecard and a side-by-side reveal.

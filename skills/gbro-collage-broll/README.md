@@ -2,6 +2,10 @@ Adapted for Subclip from [pyang5166/gbro-collage-broll](https://github.com/pyang
 
 # Collage B-roll
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install gbro-collage-broll`
+<!-- cli:end -->
+
 Turn one spoken line of about 5 seconds into a halftone paper-collage B-roll clip that assembles itself from an empty color field. The creator approves the metaphor, then the still, then the animation, so credits go only to approved ideas.
 
 Example request: "Make collage b-roll for the line 'every edit starts from scratch'. Vertical, 5 seconds, burnt orange."

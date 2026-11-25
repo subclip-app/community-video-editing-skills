@@ -1,5 +1,9 @@
 # 39 code-drawn animation styles for Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install code-animation-styles-remotion`
+<!-- cli:end -->
+
 Adapted for Subclip from https://github.com/deenukhan/animation-styles by deenukhan, MIT
 
 Pick one of 39 animation looks that are drawn entirely in code, then retell your own story in it. The agent builds one editable HyperFrames layer (or a Remotion layer if you ask for React) on your Subclip timeline, checks the frames, adds one sound if you want it and exports when you ask.

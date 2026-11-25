@@ -1,10 +1,11 @@
 import { readFile, writeFile, readdir, stat } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { resolve, relative, basename } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { parseYaml } from './yaml.mjs';
 import { walk, localFile } from './files.mjs';
 import { checkCover, checkPreview } from './media.mjs';
-import { readSkillFrontmatter } from './desktop-scan.mjs';
+import { readSkillFrontmatter, scanSkillFiles } from './desktop-scan.mjs';
 export const licenses = ['MIT','Apache-2.0','BSD-2-Clause','BSD-3-Clause','ISC','AGPL-3.0','GPL-3.0','MPL-2.0','CC-BY-4.0','CC0-1.0','Unlicense'];
 export const notStated = 'Not stated';
 export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow','broll','clipping'];
@@ -97,6 +98,41 @@ export function examplesBlock(m) {
   if (m.examplesCredit) out.push(`<p align="center"><sub>${attr(m.examplesCredit)}</sub></p>`, '');
   out.push('<!-- examples:end -->');
   return out.join('\n');
+}
+
+/** Per-skill file list for the npx installer (packages/cli): path, size and sha256 of every file it may download, plus the scan notes.
+ *  Lives in files.json, NOT in registry.json, so the website and the app keep reading the same small registry.
+ *  core = what an install writes (SKILL.md, references, other text); examples = examples/ and media/ (--with-examples).
+ *  Never installed: README.md, skill.yml, cover.* and preview.mp4 (they exist for the directory, not for the agent). */
+const NOT_INSTALLED = /^(?:README\.md|skill\.yml|cover\.[A-Za-z0-9]+|preview\.mp4)$/u;
+const BINARY = /\.(?:png|webp|jpe?g|gif|mp4|mp3|wav|woff2?|ttf|otf|pdf|zip)$/iu;
+export async function skillFileIndex(folder, metadata) {
+  const core = []; const examples = []; const scanned = []; let skipped = 0;
+  for (const path of await walk(folder)) {
+    const rel = relative(folder, path).replaceAll('\\', '/');
+    if (NOT_INSTALLED.test(rel)) continue;
+    const bytes = await readFile(path);
+    const entry = [rel, bytes.length, createHash('sha256').update(bytes).digest('hex')];
+    if (/^(?:examples|media)\//u.test(rel)) { examples.push(entry); continue; }
+    core.push(entry);
+    if (BINARY.test(rel) || bytes.includes(0)) skipped++; else scanned.push({ path: rel, text: bytes.toString('utf8') });
+  }
+  const allow = metadata.allowlist ?? [];
+  const warnings = scanSkillFiles(scanned, skipped)
+    .filter(f => f.severity !== 'info' && !allow.some(a => a.code === f.code && (a.file === undefined || a.file === f.file)))
+    .map(f => ({ code: f.code, severity: f.severity, message: f.message }));
+  const unique = [...new Map(warnings.map(w => [`${w.code}:${w.message}`, w])).values()];
+  return { core, examples, ...(unique.length ? { notes: unique } : {}) };
+}
+const CLI_BLOCK = /<!-- cli:start -->[\s\S]*?<!-- cli:end -->/u;
+/** One generated install line right under the README title, so the terminal install is visible on GitHub and on the skill page. */
+function withCli(readme, slug) {
+  const block = `<!-- cli:start -->\n> Install from your terminal: \`npx @subclip/community-skills install ${slug}\`\n<!-- cli:end -->`;
+  if (CLI_BLOCK.test(readme)) return readme.replace(CLI_BLOCK, () => block);
+  const heading = /^# .+$/mu.exec(readme);
+  if (!heading) return readme;
+  const at = heading.index + heading[0].length;
+  return `${readme.slice(0, at)}\n\n${block}${readme.slice(at)}`;
 }
 function withExamples(readme, block) {
   if (block === null) return readme;
@@ -200,8 +236,9 @@ export function installYourselfMarkdown(items) {
   });
   return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
 }
-export async function build(root = process.cwd(), check = false) {
-  const skills = []; const readmeWrites = [];
+/** options.files: also write (or, with check, verify) files.json. Off by default: a skill commit never touches it, only a release does (scripts/release.mjs). */
+export async function build(root = process.cwd(), check = false, options = {}) {
+  const skills = []; const readmeWrites = []; const fileIndex = {};
   const entries = await readdir(resolve(root, 'skills'), { withFileTypes: true });
   for (const entry of entries.sort((a,b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) {
     assert(entry.isDirectory() && !entry.isSymbolicLink(), `Expected skill folder: ${entry.name}`);
@@ -217,7 +254,7 @@ export async function build(root = process.cwd(), check = false) {
       assert(size > 0 && size <= (video ? 8_000_000 : 600_000), `Example too large (images 600 KB, videos 8 MB): ${item.file}`);
       examples.push({ path: `skills/${m.slug}/${item.file}`, kind: video ? 'video' : 'image', ...(item.caption ? { caption: item.caption } : {}) });
     }
-    { const file = resolve(folder, 'README.md'); const current = await readFile(file, 'utf8'); readmeWrites.push([file, withExamples(current, examplesBlock(m))]); }
+    { const file = resolve(folder, 'README.md'); const current = await readFile(file, 'utf8'); readmeWrites.push([file, withCli(withExamples(current, examplesBlock(m)), m.slug)]); }
     const names = [];
     for (const file of files.filter(f => basename(f) === 'SKILL.md')) {
       const front = readSkillFrontmatter(await readFile(file, 'utf8'));
@@ -226,21 +263,23 @@ export async function build(root = process.cwd(), check = false) {
     }
     for (const file of files.filter(f => /\.(md|yml|yaml|txt|svg)$/i.test(f))) assert(!/[\u2014\u00b7]/u.test(await readFile(file,'utf8')), `Text contains an em dash or middle dot: ${relative(root,file)}`);
     const upstream = m.upstream === null ? null : { ...(m.upstream.repo ? { repo: m.upstream.repo } : {}), url: m.upstream.repo ? `https://github.com/${m.upstream.repo}` : m.upstream.url, author: m.upstream.author, license: m.upstream.license, ...(m.upstream.commit ? { commit: m.upstream.commit } : {}), ...(m.upstream.syncedAt ? { syncedAt: m.upstream.syncedAt } : {}), ...(m.upstream.note ? { note: m.upstream.note } : {}) };
+    if (options.files) fileIndex[m.slug] = await skillFileIndex(folder, m);
     skills.push({ slug:m.slug, name:m.name, ...(m.seoTitle ? { seoTitle: m.seoTitle } : {}), ...(m.preinstalled ? { preinstalled: true } : {}), summary:m.summary, category:m.category, tags:m.tags, path:`skills/${m.slug}`, skills:names.sort(), cover:`skills/${m.slug}/${m.cover}`, ...(m.preview ? {preview:`skills/${m.slug}/${m.preview}`} : {}), adaptedBySubclip:m.adaptedBySubclip, license:m.license, upstream, addedAt:m.addedAt, updatedAt:m.updatedAt ?? m.addedAt, ...(examples.length ? { examples, examplesCredit: m.examplesCredit, examplesKind: m.examplesKind ?? 'original', ...(m.sourceVideo ? { sourceVideo: m.sourceVideo } : {}) } : {}) });
   }
   const installYourself = await readInstallYourself(root);
   const registry = JSON.stringify({version:1, repository:'subclip-app/community-video-editing-skills', skills, ...(installYourself ? { installYourself } : {})}, null, 2) + '\n';
+  const filesJson = JSON.stringify({ version: 1, repository: 'subclip-app/community-video-editing-skills', skills: fileIndex }) + '\n';
   const readmePath = resolve(root, 'README.md'); const readme = await readFile(readmePath,'utf8');
   assert((readme.match(/<!-- skills:start -->/g) ?? []).length === 1 && (readme.match(/<!-- skills:end -->/g) ?? []).length === 1 && readme.indexOf('<!-- skills:start -->') < readme.indexOf('<!-- skills:end -->'), 'README needs one ordered pair of skills markers');
   const table = catalog(skills);
   const nextReadme = readme.replace(/<!-- skills:start -->[\s\S]*?<!-- skills:end -->/, `<!-- skills:start -->\n\n${table}\n\n<!-- skills:end -->`);
-  for (const [file, next] of [[resolve(root,'registry.json'),registry],[readmePath,nextReadme], ...readmeWrites, ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
+  for (const [file, next] of [[resolve(root,'registry.json'),registry],...(options.files ? [[resolve(root,'files.json'),filesJson]] : []),[readmePath,nextReadme], ...readmeWrites, ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
     const current = await readFile(file,'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });
     if (current !== next) { assert(!check, `${basename(file)} is stale. Run npm run build.`); await writeFile(file,next); }
   }
   return skills;
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  try { assert(process.argv.slice(2).every(a => a === '--check'), 'Usage: node scripts/build-registry.mjs [--check]'); const skills = await build(process.cwd(),process.argv.includes('--check')); console.log(`Validated ${skills.length} skill(s). Registry and README ${process.argv.includes('--check') ? 'are current' : 'built'}.`); }
+  try { assert(process.argv.slice(2).every(a => a === '--check' || a === '--files'), 'Usage: node scripts/build-registry.mjs [--check] [--files]'); const skills = await build(process.cwd(),process.argv.includes('--check'),{ files: process.argv.includes('--files') }); console.log(`Validated ${skills.length} skill(s). Registry and README ${process.argv.includes('--check') ? 'are current' : 'built'}.`); }
   catch(e) { console.error(e.message); process.exitCode = 1; }
 }

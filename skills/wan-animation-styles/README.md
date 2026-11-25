@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # Wan animation styles (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install wan-animation-styles`
+<!-- cli:end -->
+
 Restyle a photo or video frame into one of five animation looks with an image model, then animate it with Wan 3 on Subclip. Includes a template for a full multi-shot scene from one style frame.
 
 Five looks and a ten second scene recipe.

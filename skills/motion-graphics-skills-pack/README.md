@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/charlie947/motion-graphics-skills by
 
 # Motion graphics skills pack for Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install motion-graphics-skills-pack`
+<!-- cli:end -->
+
 Fifteen recipes for launch-grade motion graphics where every frame is code. You describe the piece; your agent builds an editable layer on the Subclip timeline. No screen recording, no video model, no credits.
 
 What you can ask for:

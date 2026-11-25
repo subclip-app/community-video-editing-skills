@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # Cartoon episodes
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install cartoon-episodes`
+<!-- cli:end -->
+
 Builds an animated series the way a studio does: define the cast, the places and the props once, then describe each scene in a sentence and get a full production prompt that reuses those assets. Clips are cut into an episode on the Subclip timeline.
 
 ## Use it

@@ -2,6 +2,10 @@ Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMon
 
 # website-to-video (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install website-to-video`
+<!-- cli:end -->
+
 Paste a URL and get a video made from that site's own brand: its colors, fonts, copy, logo and imagery. The agent captures the page, writes a short brand sheet, agrees the message with you, storyboards concept-first, voices it, designs sound, builds every beat as an editable motion layer and checks the result frame by frame.
 
 The original used a command line capture tool, a hosted image describer and several voice API keys. This version uses Subclip's own site inspector, voices, music and sound effects, motion layers and export. No outside API keys, no Python, no ffmpeg, no scripts to run.

@@ -2,6 +2,10 @@ Adapted for Subclip from [nextwork-projects/ai-video-editor-cooked](https://gith
 
 # Cooked edit method
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ai-video-editor-cooked`
+<!-- cli:end -->
+
 A careful method for editing talking-head video in Subclip: cut retakes and false starts with a last-take-wins rule, measure how reference videos are edited into a style, then add captions, zooms and real visuals timed to the spoken words, while avoiding looks that read as AI-made.
 
 Example request: "Cut my take, then edit it like these four reels: same caption size, same zoom rate. Use my screenshots and real captures, no stock."

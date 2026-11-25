@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # Commercial pipeline
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install commercial-pipeline`
+<!-- cli:end -->
+
 A three stage pipeline for a 30 second AI commercial: plan and generate the reference images the film needs, assemble them into one structured video prompt, then fix only what broke.
 
 ## Use it

@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/Vladic20/tvhead-studio by Vladic20, 
 
 # Motion Reel Studio (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install motion-reel-studio`
+<!-- cli:end -->
+
 This adapts the `motion-studio` sub-skill of Vladic20/tvhead-studio. The same plugin also holds `tvhead-video` (our separate TV-Head Doodle and Cartoon Stories skill), `ai-montage` and `blender-3d` (not adapted).
 
 A skill for AI agents working in [Subclip](https://subclip.app) that makes 35 to 60 second vertical reels in five code-built styles: kinetic motion with a voxel mascot, a cozy 3D elevator tower, a cozy 3D film set with a clapperboard, an anime opening with cel shading and impact frames, and a "shot on a phone" laptop screen look. It works audio first, keys every accent to a spoken word, keeps text inside the Reels, TikTok and Shorts safe zone and delivers a -14 LUFS master.

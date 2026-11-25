@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/AbubakrChan/product-launch-motion by
 
 # Product launch motion
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install product-launch-motion`
+<!-- cli:end -->
+
 Make a Dribbble-level product launch film from code inside Subclip. The idea: one shape that never cuts, morphing through your product's states while a cursor drives every change, springs give the motion weight, text swaps with a short blur, and every move lands on a beat.
 
 The skill carries the original author's creative direction and a style index of 68 entries: 15 scene types, 11 one-shape UI states, 3 flourishes, 8 motion recipes, 10 easings, 9 motion-grammar rules, 5 camera and cursor moves, 5 look and grade recipes, a sound cue table and a three-directions method. Each entry has its own prompt file and its own 10 second reference clip, made in code with a fictional product.

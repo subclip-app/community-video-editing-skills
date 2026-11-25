@@ -2,6 +2,10 @@ Adapted for Subclip from [mrdoob/three.js](https://github.com/mrdoob/three.js) b
 
 # Three.js 3D scenes
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install threejs-3d-scenes`
+<!-- cli:end -->
+
 Build an editable 3D shot with a bundled model, a readable camera angle, and timed motion. Use it for a phone reveal, a laptop walkthrough, or a turntable of an available product model. Screen media, model transforms, camera movement, and timing can be revised in Subclip.
 
 Try asking: “Put my checkout recording on the screen of a bundled phone. Start at a shallow angle, turn toward the viewer, then hold so the checkout is readable.”

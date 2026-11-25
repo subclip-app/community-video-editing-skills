@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/kaomei/stickman-video-director by ka
 
 # Stickman video director for Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install stickman-video-director`
+<!-- cli:end -->
+
 Give your agent a script, a topic or an article and it directs a stick figure film inside Subclip. It writes a director's proposal with a storyboard table and a checks list, locks the character and the look, voices it with a local voice that matches the character's gender, makes the scenes, adds captions and sound, and exports when you ask.
 
 Fifteen looks, each with its own prompt file and a 10 second reference clip: classic black and white (light and dark), modern pop, prehistoric cave, cozy storytelling, historical cartoon, amber noir, rubber hose, hand-painted adventure, minimal line art, colorful hand-drawn, retro TV, survival thriller, avatar explainer, meme story animation and pixel theater.

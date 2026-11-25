@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/patch-gg/pixelfx by patch-gg, MIT
 
 # Pixelfx
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install pixelfx`
+<!-- cli:end -->
+
 244 pixel art effects, as recipes for Subclip motion layers: fire, explosions, water, ice, lightning, sci-fi, melee, impacts, projectiles, spawn and death, arcane, holy, shadow, status, nature, weather, UI rewards, pickups, transitions and critters.
 
 Ask your agent for "a frost nova over this clip", "a coin pickup sparkle in the corner" or "a pixel dissolve between these two shots". It picks the closest recipe, builds it as an editable canvas layer, looks at real frames, and refines.

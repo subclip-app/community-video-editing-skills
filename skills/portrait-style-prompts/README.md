@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # Portrait style prompts (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install portrait-style-prompts`
+<!-- cli:end -->
+
 A seven-slot portrait style prompt and a frame-to-style workflow. Export a frame from your video, restyle it with an image model, then use the styled image as a start frame or as the look reference for a generated video.
 
 Seven slots, five looks, a start-frame workflow.

@@ -2,6 +2,10 @@ Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMon
 
 # manim-composer (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install manim-composer`
+<!-- cli:end -->
+
 Plan and build a 3Blue1Brown-style math or science explainer inside Subclip. You give a vague idea, the agent researches it, asks a few questions, writes a scene-by-scene plan, voices it, and builds each scene as an editable animated motion layer with captions and optional music.
 
 The original skill planned scenes for Manim (a Python math animation library). Subclip has no Manim runtime, so this version keeps the planning craft and rebuilds the scenes as HyperFrames layers (SVG, HTML and GSAP). No outside API keys, no Python, no ffmpeg.

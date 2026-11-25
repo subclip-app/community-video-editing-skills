@@ -2,6 +2,10 @@ Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (ht
 
 # 3D myth short
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install 3d-myth-short`
+<!-- cli:end -->
+
 Turns one idea into a narrated 30 second 3D animated short. It states the story everyone believes, flips it, shows the real mechanism and ends on a kicker. Characters, places and objects are locked once as reference sheets so every shot matches.
 
 ## Use it

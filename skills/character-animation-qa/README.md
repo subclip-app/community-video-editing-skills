@@ -2,6 +2,10 @@ Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMon
 
 # character-animation-qa (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install character-animation-qa`
+<!-- cli:end -->
+
 A review pass for character animation in Subclip. Before the agent shows you a preview, it validates the layer, samples frames across the animation, checks that things actually move, looks for detached limbs, wrong layer order and unreadable faces, and gives a pass, revise or fail verdict with exact items and times.
 
 Playwright and ffprobe from the original are replaced by Subclip's own tools: layer validation, `seek_timeline` with `view_current_frame`, contact sheets and export checks.

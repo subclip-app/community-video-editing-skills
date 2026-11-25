@@ -2,6 +2,10 @@ Adapted for Subclip from [ahujasid/mcp-for-blender](https://github.com/ahujasid/
 
 # Blender to Subclip
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install blender-to-subclip`
+<!-- cli:end -->
+
 Build a short product turntable, stylized diorama or camera move. Review the scene and motion with a connected Blender MCP, render through Blender's interface, and place the result as native media in Subclip. Keep the Blender project for changes to geometry, lights and animation. Edit cuts, framing, titles and audio in Subclip.
 
 The workflow uses local rendering and media import with no Subclip AI credits. A connected Blender MCP is optional for inspection. Scene building and file rendering use Blender's interface through Subclip desktop control when available, or a creator-supplied render when desktop access is unavailable.

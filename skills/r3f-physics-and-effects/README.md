@@ -4,6 +4,10 @@ Adapted for Subclip from [pmndrs/react-postprocessing](https://github.com/pmndrs
 
 # R3F Physics and Effects
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install r3f-physics-and-effects`
+<!-- cli:end -->
+
 Build editable 3D shots around one visible event, such as a ball hitting the floor, a stack settling, or an impact lighting up a ring. The skill carries forward Rapier's collider and contact techniques and react-postprocessing's selective bloom, glitch, and depth-of-field recipes.
 
 **Runtime status.** Subclip does not expose either wrapper to authored layers. The current fallback uses seekable Three.js motion and material-based glow. See the [skill](SKILL.md) and [runtime notes](references/runtime-and-recipes.md).

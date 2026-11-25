@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/emilkowalski/skills by Emil Kowalski
 
 # Motion polish
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install motion-polish`
+<!-- cli:end -->
+
 Eight animation skills from Emil Kowalski, re-aimed at video. The original skills judge interface motion in code. These judge motion in a Subclip project: media keyframes, text keyframes, transitions, and HyperFrames or Remotion motion layers.
 
 The craft stays: should it animate at all, what is its purpose, which easing and duration, how it enters and exits, what is cheap to render. What changed is how things get made. Everything runs through Subclip's editing tools. No code base to scan, no npm packages to install.

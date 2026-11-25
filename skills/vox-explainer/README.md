@@ -2,6 +2,10 @@ Adapted for Subclip from [CK42BB/vox-explainer-skill](https://github.com/CK42BB/
 
 # vox-explainer (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install vox-explainer`
+<!-- cli:end -->
+
 A skill for AI agents working in [Subclip](https://subclip.app) that turns one topic into a finished Vox-style explainer: script, voiceover, art-directed paper-collage keyframes, subtle animation, music, captions and export, all inside the Subclip editor.
 
 **One topic in, finished film out. No outside API keys, no ffmpeg.**

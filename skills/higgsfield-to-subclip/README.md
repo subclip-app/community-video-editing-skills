@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # Relight and background swap (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install higgsfield-to-subclip`
+<!-- cli:end -->
+
 Merges two guides that ran on an outside video service. Every step is re-expressed with Subclip tools and models: relight a still, run a clip-plus-still video pass, swap backgrounds with no green screen, check the result, edit the whole video by prompt and stack five looks into one reel.
 
 Background swap, five relights, edit by prompt.

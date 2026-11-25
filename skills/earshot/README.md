@@ -2,6 +2,10 @@ Adapted for Subclip from https://github.com/Leonxlnx/earshot by Leon Lin, MIT
 
 # Sound effects from words
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install earshot`
+<!-- cli:end -->
+
 Tell your agent what a moment should sound like, in plain words: "a soft UI click when the button is pressed", "a whoosh on the cut", "a riser into the logo hit". The agent writes a cue sheet from your video, finds or makes each sound, and places it on the timeline at the right frame with levels, fades and ducking.
 
 ## Install

@@ -6,6 +6,10 @@ Adapted for Subclip from [bangtutorial/bang-motion](https://github.com/bangtutor
 
 # Bang Motion
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install bang-motion`
+<!-- cli:end -->
+
 **An agent skill that turns your AI agent into a motion designer, inside Subclip.**<br>
 Openers, promos, product demos, kinetic typography and explainers, built as editable layers on a Subclip timeline that play like video, not like slides.
 

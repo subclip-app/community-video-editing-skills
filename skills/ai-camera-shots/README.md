@@ -2,6 +2,10 @@ Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21)
 
 # AI camera shots (Subclip edition)
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install ai-camera-shots`
+<!-- cli:end -->
+
 Take one base frame of a person in a place and generate the same moment from twenty camera positions, or fake the angle on footage you already have with keyframes and effects. Includes the beat-cut method for a fast reel.
 
 Prompt formula, shot catalog and native fakes.

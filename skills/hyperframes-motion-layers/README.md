@@ -1,5 +1,9 @@
 # HyperFrames motion layers
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install hyperframes-motion-layers`
+<!-- cli:end -->
+
 **Pre-installed in Subclip: you do not need to install this skill.**
 
 This is the listing for the HyperFrames engine that ships inside the Subclip AI Editor. When you ask your agent for animated graphics, it writes an editable layer on your timeline: a title, kinetic text, a chart, a map, word-by-word captions, a device scene or an overlay. The layer is plain HTML, CSS and a GSAP timeline. You can change its copy, colours and timing later, move it, resize it and fade it like any other item.

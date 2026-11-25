@@ -2,6 +2,10 @@ Written for Subclip. Beat tracking method after [librosa/librosa](https://github
 
 # cut-to-the-beat
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install cut-to-the-beat`
+<!-- cli:end -->
+
 Cut footage, captions and motion to the beat of your music in Subclip. The agent builds a beat map, turns it into a frame-snapped cut list, chooses how often to cut in each part of the song (slow in calm sections, every beat in dense ones, accelerating through a build), then splits and trims clips, moves caption changes to beats and adds pulses and hits.
 
 librosa's method (onset strength, tempo estimate, evenly spaced beats on strong onsets) is the model. Subclip runs no Python, so the agent applies it by hand to the audio waveform, a known tempo or numbers you give it.

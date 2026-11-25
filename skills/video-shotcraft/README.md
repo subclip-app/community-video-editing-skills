@@ -2,6 +2,10 @@ Adapted for Subclip from [Vincentwei1021/video-shotcraft](https://github.com/Vin
 
 # Video Shotcraft
 
+<!-- cli:start -->
+> Install from your terminal: `npx @subclip/community-skills install video-shotcraft`
+<!-- cli:end -->
+
 Turn real product screenshots and recordings into an editable launch film. Plan a rise from a quiet brand opening to a feature payoff. Build shots from recipes like Spotlight Hero Card, Deck Deal Fly-In and Row Embed, then time the cuts and sound to the score.
 
 Try asking for a full promo, an Ink Press-inspired sequence for your product, one named shot, or sound effects for an existing edit. For example:
