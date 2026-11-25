@@ -107,7 +107,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/commercial-pipeline">Commercial pipeline</a></h4>
 <sub>Plan 5 to 8 locked reference images, then assemble a 30 second multi-cut AI commercial and fix only what broke.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/commercial-pipeline">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/commercial-pipeline">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/commercial-pipeline">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/commercial-pipeline">Open on subclip.app</a></sub>
 </td>
 </tr>
 <tr>

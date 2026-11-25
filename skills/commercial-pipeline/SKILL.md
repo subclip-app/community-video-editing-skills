@@ -74,6 +74,10 @@ Three things people get wrong: generating one version instead of four, writing t
 - The logo is the client's real file, not a generated one.
 - Text and prices are native layers.
 
+## Reference output
+
+A finished test of this method: [After Hours](examples/after-hours-commercial.mp4), a concept ad for a mustard desk lamp. It opens at blue hour, the lamp switches on with a click, then an enamel detail, a lit hero shot and a packshot with native end-card text. The [contact sheet](examples/after-hours-contact-sheet.jpg) shows it one frame per second, and the [product reference on white](examples/lamp-product-lock.jpg) is the locked Stage 1 asset. Stills: gpt-image-2. Video: Seedance 2 at 720p, started from the reviewed stills. Music: Lyria 3 Pro, with a CC0 switch click.
+
 ---
 
 Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society. No license is stated for the original; this skill is written in new words.

@@ -16,17 +16,21 @@ Tell your agent: "Use commercial-pipeline for <product and idea>". Describe the 
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
 
+## Reference output
+
+[After Hours](examples/after-hours-commercial.mp4) is a 17 second concept ad for a mustard desk lamp made with this skill in Subclip: blue hour, a switch-on with a click, an enamel detail, a lit hero shot and a packshot. Stills: gpt-image-2. Video: Seedance 2 at 720p. Music: Lyria 3 Pro.
+
 <!-- examples:start -->
 
 ## Examples
 
-<p align="center"><img src="examples/desk-lamp-off.jpg" alt="Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2." width="720"><br><sub>Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/after-hours-commercial.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline/after-hours-commercial.gif" alt="1. After Hours lamp ad: switch on, enamel detail, lit hero, packshot. Images: gpt-image-2. Video: Seedance 2 720p. Music: Lyria 3 Pro." width="480"></a><br><sub>1. After Hours lamp ad: switch on, enamel detail, lit hero, packshot. Images: gpt-image-2. Video: Seedance 2 720p. Music: Lyria 3 Pro. <a href="examples/after-hours-commercial.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/desk-lamp-on.jpg" alt="After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2." width="720"><br><sub>After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/after-hours-contact-sheet.jpg" alt="2. The After Hours ad one frame per second, cut by cut. Images: gpt-image-2. Video: Seedance 2 720p." width="720"><br><sub>2. The After Hours ad one frame per second, cut by cut. Images: gpt-image-2. Video: Seedance 2 720p.</sub></p>
 
-<p align="center"><a href="examples/desk-lamp-switch-on.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline/desk-lamp-switch-on.gif" alt="The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model." width="480"></a><br><sub>The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model. <a href="examples/desk-lamp-switch-on.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/lamp-product-lock.jpg" alt="3. Hero product reference on white, the locked asset every shot matches. Image: gpt-image-2." width="720"><br><sub>3. Hero product reference on white, the locked asset every shot matches. Image: gpt-image-2.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: Seedance 2 at 720p, image to video from the reviewed stills. Music: Lyria 3 Pro. Switch click: CC0 by jsbarrett on Freesound.</sub></p>
 
 <!-- examples:end -->
 

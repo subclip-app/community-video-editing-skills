@@ -2101,25 +2101,25 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/commercial-pipeline/examples/desk-lamp-off.jpg",
-          "kind": "image",
-          "caption": "Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/commercial-pipeline/examples/desk-lamp-on.jpg",
-          "kind": "image",
-          "caption": "After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/commercial-pipeline/examples/desk-lamp-switch-on.mp4",
+          "path": "skills/commercial-pipeline/examples/after-hours-commercial.mp4",
           "kind": "video",
-          "caption": "The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model."
+          "caption": "1. After Hours lamp ad: switch on, enamel detail, lit hero, packshot. Images: gpt-image-2. Video: Seedance 2 720p. Music: Lyria 3 Pro."
+        },
+        {
+          "path": "skills/commercial-pipeline/examples/after-hours-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. The After Hours ad one frame per second, cut by cut. Images: gpt-image-2. Video: Seedance 2 720p."
+        },
+        {
+          "path": "skills/commercial-pipeline/examples/lamp-product-lock.jpg",
+          "kind": "image",
+          "caption": "3. Hero product reference on white, the locked asset every shot matches. Image: gpt-image-2."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: Seedance 2 at 720p, image to video from the reviewed stills. Music: Lyria 3 Pro. Switch click: CC0 by jsbarrett on Freesound.",
       "examplesKind": "test"
     },
     {

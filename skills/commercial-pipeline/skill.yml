@@ -10,16 +10,16 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill description on the list: https://app.notion.com/p/3f3b5f1fde2d81ebad88d8fb334405e5" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
-  - file: examples/desk-lamp-off.jpg
-    caption: "Hero product reference for a mustard desk lamp in its off state on white. Image: gpt-image-2."
-  - file: examples/desk-lamp-on.jpg
-    caption: "After-state reference for the same lamp, switched on in matching framing. Image: gpt-image-2."
-  - file: examples/desk-lamp-switch-on.mp4
-    caption: "The mustard desk lamp fades from off to on in matching framing. Clip: crossfade, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
+  - file: examples/after-hours-commercial.mp4
+    caption: "1. After Hours lamp ad: switch on, enamel detail, lit hero, packshot. Images: gpt-image-2. Video: Seedance 2 720p. Music: Lyria 3 Pro."
+  - file: examples/after-hours-contact-sheet.jpg
+    caption: "2. The After Hours ad one frame per second, cut by cut. Images: gpt-image-2. Video: Seedance 2 720p."
+  - file: examples/lamp-product-lock.jpg
+    caption: "3. Hero product reference on white, the locked asset every shot matches. Image: gpt-image-2."
+examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: Seedance 2 at 720p, image to video from the reviewed stills. Music: Lyria 3 Pro. Switch click: CC0 by jsbarrett on Freesound."
 examplesKind: test
