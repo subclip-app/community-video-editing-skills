@@ -75,6 +75,11 @@ For one sequence (a teaser or a test) skip the case file: 2 to 4 asset prompts, 
 - Overlay clock times match the case file.
 - Say honestly which audio parts need a listen.
 
+
+## Reference
+
+A finished example made with these stages: [The Empty Gauge](examples/empty-gauge-reference.mp4), a fictional 16 s incident reconstruction in three chapters (06:12 First reading, 06:14 Valve test, 06:19 Fault found). The opening is the empty greenhouse plate with a slow push in; the valve test and the reveal are Seedance 2 shots at 720p made from the locked stills. A flat narrator reads one line per chapter over a low drone and pump hum, with a monospaced clock and a chapter title on screen. The [contact sheet](examples/empty-gauge-contact-sheet.jpg) shows one frame per second. [Watch the silent hero](preview.mp4).
+
 ---
 
 Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society. No license is stated for the original; this skill is written in new words.

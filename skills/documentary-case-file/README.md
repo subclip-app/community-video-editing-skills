@@ -12,6 +12,10 @@ Plans and builds a cinematic 3D documentary from a single sentence. It produces 
 
 Tell your agent: "Use documentary-case-file: <one sentence about the story>". Approve the case file, then it makes the stills, scenes and narration.
 
+## Reference film
+
+[The Empty Gauge](examples/empty-gauge-reference.mp4) is a fictional greenhouse incident built with this skill in Subclip: three chapters with clock overlays, two Seedance 2 shots (720p) made from gpt-image-2 stills, a local narrator voice, and a CC0 drone and pump hum from Freesound. See the [contact sheet](examples/empty-gauge-contact-sheet.jpg) and the [silent hero](preview.mp4).
+
 ## What changed for Subclip
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
@@ -20,15 +24,13 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 ## Examples
 
-<p align="center"><img src="examples/empty-gauge-case-file.jpg" alt="Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model." width="720"><br><sub>Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model.</sub></p>
+<p align="center"><a href="examples/empty-gauge-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/documentary-case-file/empty-gauge-reference.gif" alt="1. The Empty Gauge: a fictional 3 chapter case file with a narrator. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS." width="480"></a><br><sub>1. The Empty Gauge: a fictional 3 chapter case file with a narrator. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS. <a href="examples/empty-gauge-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/greenhouse-location.jpg" alt="LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2." width="720"><br><sub>LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/empty-gauge-contact-sheet.jpg" alt="2. Contact sheet: one frame per second of the film. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS." width="720"><br><sub>2. Contact sheet: one frame per second of the film. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS.</sub></p>
 
-<p align="center"><img src="examples/float-gauge-prop.jpg" alt="PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2." width="720"><br><sub>PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/greenhouse-location.jpg" alt="3. LOC-01: the empty greenhouse plate, used as the opening shot with a slow push in. Image: gpt-image-2." width="720"><br><sub>3. LOC-01: the empty greenhouse plate, used as the opening shot with a slow push in. Image: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/empty-gauge-chapter-plan.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/documentary-case-file/empty-gauge-chapter-plan.gif" alt="Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames." width="480"></a><br><sub>Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames. <a href="examples/empty-gauge-chapter-plan.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent.</sub></p>
+<p align="center"><sub>Made in Subclip with this skill. Stills: gpt-image-2. Valve and reveal shots: Seedance 2 at 720p from the stills. Narration: Subclip local voice. CC0 drone by CVLTIV8R and pump hum by gecop on Freesound.</sub></p>
 
 <!-- examples:end -->
 

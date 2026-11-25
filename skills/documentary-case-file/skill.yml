@@ -10,18 +10,16 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1", author: PYNK Society, license: Not stated, note: "Written in new words from the skill description on the list: https://app.notion.com/p/3ecb5f1fde2d81d38618c797fe848179" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 allowlist:
   - code: external-provider
     reason: Model family names (Seedream, Seedance, Gemini Omni) describe what to look for in Subclip's live list_ai_models catalog, not direct provider API calls.
 examples:
-  - file: examples/empty-gauge-case-file.jpg
-    caption: "Fictional case file with three timed chapters, asset IDs and narrator direction. Made in code, no AI model."
+  - file: examples/empty-gauge-reference.mp4
+    caption: "1. The Empty Gauge: a fictional 3 chapter case file with a narrator. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS."
+  - file: examples/empty-gauge-contact-sheet.jpg
+    caption: "2. Contact sheet: one frame per second of the film. Images: gpt-image-2. Video: Seedance 2 720p. Voice: local TTS."
   - file: examples/greenhouse-location.jpg
-    caption: "LOC-01, the empty greenhouse at blue hour with its lit utility alcove. Image: gpt-image-2."
-  - file: examples/float-gauge-prop.jpg
-    caption: "PROP-01, a brass gauge with its needle stuck at the low end. Image: gpt-image-2."
-  - file: examples/empty-gauge-chapter-plan.mp4
-    caption: "Three timed chapters reveal how a fictional greenhouse mystery leads to a stuck gauge. Rendered in code with HyperFrames."
-examplesCredit: "Test outputs made with this skill in Subclip. Location and prop images: gpt-image-2 (Codex CLI image generation). Case file page: HTML screenshot. Clip: rendered in code with HyperFrames, no video model. Silent."
+    caption: "3. LOC-01: the empty greenhouse plate, used as the opening shot with a slow push in. Image: gpt-image-2."
+examplesCredit: "Made in Subclip with this skill. Stills: gpt-image-2. Valve and reveal shots: Seedance 2 at 720p from the stills. Narration: Subclip local voice. CC0 drone by CVLTIV8R and pump hum by gecop on Freesound."
 examplesKind: test
