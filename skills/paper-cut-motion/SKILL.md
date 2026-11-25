@@ -68,6 +68,10 @@ Renders differ each time. Offer 2 variants if budget allows; a set of variants i
 - Pieces appear in the sheet's order, back to front, hero last, and nothing pops in without a paper move; nothing folds, bends or morphs.
 - Any text is native and correct.
 
+## Reference
+
+A finished example: [lighthouse-assembly-reference.mp4](examples/lighthouse-assembly-reference.mp4). A ten second paper scene builds back to front: sky and torn clouds, the sun, distant hills, layered sea, waves, the cliff, birds, and the lighthouse last, each piece sliding in with a hard paper shadow, under real paper foley. It was drawn in code as one editable HyperFrames layer, so it costs no credits. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 ---
 
 Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society. No license is stated for the original; this skill is written in new words.

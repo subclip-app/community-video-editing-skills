@@ -20,13 +20,11 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 ## Examples
 
-<p align="center"><img src="examples/sailboat-collage.jpg" alt="Finished torn paper sailboat with layered teal waves and visible torn edges. Image: gpt-image-2." width="720"><br><sub>Finished torn paper sailboat with layered teal waves and visible torn edges. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/lighthouse-assembly-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/paper-cut-motion/lighthouse-assembly-reference.gif" alt="1. Paper lighthouse scene assembling piece by piece, back to front. Paper foley: CC0. No AI model." width="480"></a><br><sub>1. Paper lighthouse scene assembling piece by piece, back to front. Paper foley: CC0. No AI model. <a href="examples/lighthouse-assembly-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/sailboat-storyboard.jpg" alt="Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2." width="720"><br><sub>Nine panels showing how the sailboat scene builds from an empty sheet. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second: sky, sun, sea, cliff, lighthouse, birds. Built in code, no AI model." width="720"><br><sub>2. One frame per second: sky, sun, sea, cliff, lighthouse, birds. Built in code, no AI model.</sub></p>
 
-<p align="center"><a href="examples/sailboat-assembly.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/paper-cut-motion/sailboat-assembly.gif" alt="Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model." width="480"></a><br><sub>Silent seven-second paper assembly, following the storyboard order before holding on the collage. Animated in canvas code, no video model. <a href="examples/sailboat-assembly.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Clip: canvas animation rendered in code, no video model. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. The scene is drawn as torn paper layers in code (a HyperFrames layer): no image or video model. Sound: Tapping and handling paper by IENBA and Paper Shuffle and Slide noises by khenshom on Freesound (CC0).</sub></p>
 
 <!-- examples:end -->
 
