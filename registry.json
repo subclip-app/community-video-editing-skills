@@ -3287,6 +3287,11 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/open-design-video-templates/examples/open-design-reference.mp4",
+          "kind": "video",
+          "caption": "1. Poster, rollup, glitch: three recipes as editable layers. Code only, no AI media."
+        },
+        {
           "path": "skills/open-design-video-templates/examples/glitch-title.mp4",
           "kind": "video",
           "caption": "A signal-loss title with split-color lettering and digital distortion."

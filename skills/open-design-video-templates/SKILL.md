@@ -63,4 +63,6 @@ The recipes are code only, so building one costs no credits. Credits are spent o
 - No text sits under a filter or blur (see the layer rules). Fonts verified.
 - Audio, if any, sits in native lanes and is listened to; say which listening checks remain.
 
+A finished example: [open-design-reference.mp4](examples/open-design-reference.mp4). Three recipes built as HyperFrames layers with the skill's own cards: the bold poster, a data rollup with bars and counting numbers, and the glitch title with split-color bursts. Percussion loops change per scene, with a whoosh at each cut, typing under the status line and a glitch hit on each burst.
+
 Adapted for Subclip from https://github.com/nexu-io/open-design/tree/e033aad1d15a9d4084316e5223f2c6597fd32619/plugins/_official/video-templates by nexu-io, Apache-2.0.

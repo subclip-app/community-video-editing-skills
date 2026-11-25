@@ -12,6 +12,8 @@ upstream: { repo: nexu-io/open-design, author: nexu-io, license: Apache-2.0, com
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
+  - file: examples/open-design-reference.mp4
+    caption: "1. Poster, rollup, glitch: three recipes as editable layers. Code only, no AI media."
   - file: examples/glitch-title.mp4
     caption: "A signal-loss title with split-color lettering and digital distortion."
   - file: examples/light-leak-title.mp4

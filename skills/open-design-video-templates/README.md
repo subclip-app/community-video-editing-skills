@@ -9,6 +9,7 @@ Adapted for Subclip from https://github.com/nexu-io/open-design by nexu-io, Apac
 Twenty-two motion recipes for title cards, statement frames, stat and chart reveals, flowcharts, product promos and logo outros. Each one keeps the original template's palette, type, layout and timeline beats, and tells your agent how to rebuild it as an editable Subclip HyperFrames layer (or a Remotion layer for the data roll-up) with your own copy, numbers and brand.
 
 - Start with [SKILL.md](SKILL.md), which lists every recipe and the Subclip workflow.
+- See the [reference video](examples/open-design-reference.mp4): poster, rollup and glitch rebuilt as editable layers.
 - Read [references/layer-rules.md](references/layer-rules.md) for how CSS-keyframe sources become seekable timelines and what is export-safe.
 - Each recipe has a card in [references/](references/), named after the original template folder.
 
@@ -19,6 +20,8 @@ The cover is a collage of four of the original preview frames, used under the Ap
 <!-- examples:start -->
 
 ## Examples
+
+<p align="center"><a href="examples/open-design-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates/open-design-reference.gif" alt="1. Poster, rollup, glitch: three recipes as editable layers. Code only, no AI media." width="480"></a><br><sub>1. Poster, rollup, glitch: three recipes as editable layers. Code only, no AI media. <a href="examples/open-design-reference.mp4">Play with sound</a></sub></p>
 
 <p align="center"><a href="examples/glitch-title.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates/glitch-title.gif" alt="A signal-loss title with split-color lettering and digital distortion." width="480"></a><br><sub>A signal-loss title with split-color lettering and digital distortion. <a href="examples/glitch-title.mp4">Play with sound</a></sub></p>
 
