@@ -15,6 +15,10 @@ Read [runtime and recipes](references/runtime-and-recipes.md) for the supported 
 6. Use `view_current_frame` at release, just before impact, at the effect peak, at the settled pose and at the last visible frame. Use the layer's item ID and `targetType: "motion-graphics"` for authored scenes or `"3d"` for native models. Revisit the impact after seeking past it and compare the same frame. Confirm that the sphere meets the floor at its radius, the halo follows the subject, the effect reads against the rest of the canvas, and the cut leaves no blank tail. For sound, keep the audio item editable and verify impact alignment and audible balance where possible.
 7. Record the implementation, frame checks and any missing checks with `update_project_director_brief` and `write_session_summary`. Export only on request. Use `get_export_configuration` and `list_render_queue`, then call `export_video` once. Omit range fields for the full film. External clients can check `get_export_status`; in-app agents resume on completion.
 
+## Reference
+
+A finished example: [physics-impact-reference.mp4](examples/physics-impact-reference.mp4). One 12.5 s Remotion layer with `@remotion/three`: a cyan sphere drops and bounces with restitution 0.42, 34 spheres burst into a walled arena, then a heavy sphere lands and scatters them. A fixed 1/120 s simulation is baked once and sampled per frame, so every frame is seekable. Contact rings, halo pulses and a two-frame color split fire on the computed contacts. Light is a key with soft shadows, a fill and two rim lights over a gradient backdrop, with a slow camera orbit and push. Sound clips sit on native audio lanes at the contact times. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier) by Poimandres, MIT.
 
 Adapted for Subclip from [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing) by Poimandres, MIT.

@@ -385,7 +385,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/r3f-physics-and-effects">R3F Physics and Effects</a></h4>
 <sub>Build editable 3D impact shots with bouncing bodies, contact cues, and luminous accents.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/pmndrs/react-three-rapier">pmndrs/react-three-rapier</a> by Poimandres</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/r3f-physics-and-effects">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/r3f-physics-and-effects">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/r3f-physics-and-effects">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/r3f-physics-and-effects">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/threejs-3d-scenes"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/threejs-3d-scenes.gif" alt="Three.js 3D scenes preview" width="100%"></a><br>
