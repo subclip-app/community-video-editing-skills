@@ -12,14 +12,16 @@ upstream: { repo: wheresryan22/anatomy, author: Ryan, license: MIT, commit: "148
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
+  - file: examples/token-bucket-reference.mp4
+    caption: "1. Token bucket rig: coins pay each request and a gate blocks at zero. Code-rendered scenes, no AI model."
   - file: examples/raptor-engine-firing.webp
-    caption: Isometric rocket engine test stand during a firing.
+    caption: "2. Isometric rocket engine test stand during a firing, by Ryan."
   - file: examples/raptor-engine-apart.webp
-    caption: Exploded view of the engine, piping and test stand.
+    caption: "3. Exploded view of the engine, piping and test stand, by Ryan."
   - file: examples/ripple-tank.webp
-    caption: A ripple tank shows where two sets of waves meet.
+    caption: "4. A ripple tank shows where two sets of waves meet, by Ryan."
   - file: examples/turning-dial.webp
-    caption: A mechanical hand turns a combination dial.
+    caption: "5. A mechanical hand turns a combination dial, by Ryan."
   - file: examples/dial-indicator.webp
-    caption: A dial indicator measures a block on a sliding carriage.
-examplesCredit: "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy"
+    caption: "6. A dial indicator measures a block on a sliding carriage, by Ryan."
+examplesCredit: "Video 1 made with this skill in Subclip: HTML and SVG scenes in code, no image or video model. Sound: ambient bed by levelclearer (CC0) and chip click by TheRealISA (CC BY) on Freesound. Stills 2 to 6 by Ryan, MIT, from github.com/wheresryan22/anatomy."

@@ -1047,32 +1047,37 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/anatomy/examples/token-bucket-reference.mp4",
+          "kind": "video",
+          "caption": "1. Token bucket rig: coins pay each request and a gate blocks at zero. Code-rendered scenes, no AI model."
+        },
+        {
           "path": "skills/anatomy/examples/raptor-engine-firing.webp",
           "kind": "image",
-          "caption": "Isometric rocket engine test stand during a firing."
+          "caption": "2. Isometric rocket engine test stand during a firing, by Ryan."
         },
         {
           "path": "skills/anatomy/examples/raptor-engine-apart.webp",
           "kind": "image",
-          "caption": "Exploded view of the engine, piping and test stand."
+          "caption": "3. Exploded view of the engine, piping and test stand, by Ryan."
         },
         {
           "path": "skills/anatomy/examples/ripple-tank.webp",
           "kind": "image",
-          "caption": "A ripple tank shows where two sets of waves meet."
+          "caption": "4. A ripple tank shows where two sets of waves meet, by Ryan."
         },
         {
           "path": "skills/anatomy/examples/turning-dial.webp",
           "kind": "image",
-          "caption": "A mechanical hand turns a combination dial."
+          "caption": "5. A mechanical hand turns a combination dial, by Ryan."
         },
         {
           "path": "skills/anatomy/examples/dial-indicator.webp",
           "kind": "image",
-          "caption": "A dial indicator measures a block on a sliding carriage."
+          "caption": "6. A dial indicator measures a block on a sliding carriage, by Ryan."
         }
       ],
-      "examplesCredit": "Examples by Ryan, MIT, from github.com/wheresryan22/anatomy",
+      "examplesCredit": "Video 1 made with this skill in Subclip: HTML and SVG scenes in code, no image or video model. Sound: ambient bed by levelclearer (CC0) and chip click by TheRealISA (CC BY) on Freesound. Stills 2 to 6 by Ryan, MIT, from github.com/wheresryan22/anatomy.",
       "examplesKind": "original"
     },
     {

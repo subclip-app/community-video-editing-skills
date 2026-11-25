@@ -10,6 +10,8 @@ Isometric explanatory figures for video. The idea is the original's: explain a t
 
 ## Use it
 
+See the [token bucket reference clip](examples/token-bucket-reference.mp4) for the result.
+
 Tell your agent: "Use anatomy to make a 30 second explainer clip of how a token bucket rate limiter works". It invents the object, writes the parts list, builds one short layer per scene from a small isometric kit, adds narration if you want it and checks real frames.
 
 ## What changed for Subclip
@@ -31,17 +33,19 @@ Tell your agent: "Use anatomy to make a 30 second explainer clip of how a token 
 
 ## Examples
 
-<p align="center"><img src="examples/raptor-engine-firing.webp" alt="Isometric rocket engine test stand during a firing." width="720"><br><sub>Isometric rocket engine test stand during a firing.</sub></p>
+<p align="center"><a href="examples/token-bucket-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/anatomy/token-bucket-reference.gif" alt="1. Token bucket rig: coins pay each request and a gate blocks at zero. Code-rendered scenes, no AI model." width="480"></a><br><sub>1. Token bucket rig: coins pay each request and a gate blocks at zero. Code-rendered scenes, no AI model. <a href="examples/token-bucket-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/raptor-engine-apart.webp" alt="Exploded view of the engine, piping and test stand." width="720"><br><sub>Exploded view of the engine, piping and test stand.</sub></p>
+<p align="center"><img src="examples/raptor-engine-firing.webp" alt="2. Isometric rocket engine test stand during a firing, by Ryan." width="720"><br><sub>2. Isometric rocket engine test stand during a firing, by Ryan.</sub></p>
 
-<p align="center"><img src="examples/ripple-tank.webp" alt="A ripple tank shows where two sets of waves meet." width="720"><br><sub>A ripple tank shows where two sets of waves meet.</sub></p>
+<p align="center"><img src="examples/raptor-engine-apart.webp" alt="3. Exploded view of the engine, piping and test stand, by Ryan." width="720"><br><sub>3. Exploded view of the engine, piping and test stand, by Ryan.</sub></p>
 
-<p align="center"><img src="examples/turning-dial.webp" alt="A mechanical hand turns a combination dial." width="720"><br><sub>A mechanical hand turns a combination dial.</sub></p>
+<p align="center"><img src="examples/ripple-tank.webp" alt="4. A ripple tank shows where two sets of waves meet, by Ryan." width="720"><br><sub>4. A ripple tank shows where two sets of waves meet, by Ryan.</sub></p>
 
-<p align="center"><img src="examples/dial-indicator.webp" alt="A dial indicator measures a block on a sliding carriage." width="720"><br><sub>A dial indicator measures a block on a sliding carriage.</sub></p>
+<p align="center"><img src="examples/turning-dial.webp" alt="5. A mechanical hand turns a combination dial, by Ryan." width="720"><br><sub>5. A mechanical hand turns a combination dial, by Ryan.</sub></p>
 
-<p align="center"><sub>Examples by Ryan, MIT, from github.com/wheresryan22/anatomy</sub></p>
+<p align="center"><img src="examples/dial-indicator.webp" alt="6. A dial indicator measures a block on a sliding carriage, by Ryan." width="720"><br><sub>6. A dial indicator measures a block on a sliding carriage, by Ryan.</sub></p>
+
+<p align="center"><sub>Video 1 made with this skill in Subclip: HTML and SVG scenes in code, no image or video model. Sound: ambient bed by levelclearer (CC0) and chip click by TheRealISA (CC BY) on Freesound. Stills 2 to 6 by Ryan, MIT, from github.com/wheresryan22/anatomy.</sub></p>
 
 <!-- examples:end -->
 

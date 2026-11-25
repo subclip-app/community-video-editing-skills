@@ -109,6 +109,6 @@ Saved state and successful calls are not visual proof.
 - `set_project_duration`, then export only on request: `get_export_configuration`, `list_render_queue`, `export_video`.
 - Record the model, parts list and decisions with `update_project_director_brief` and `write_session_summary`.
 
----
+## Reference clip
 
-
+A finished example built with these steps: [token bucket rig](examples/token-bucket-reference.mp4). Four HyperFrames scenes share one camera and one machine: the parts land one by one, five coins pay five requests, a gate holds a request when the tray is empty, and a refill dial returns a coin every 3 s. The readout, the coin motion and the gate all come from one small simulation of the rule. Sound is a quiet ambient bed and a chip click on each paid request.
