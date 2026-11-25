@@ -18,6 +18,8 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 > Make a 2 minute 3b1b-style video that explains why the dot product works.
 
+A finished example is [odd-squares-reference.mp4](examples/odd-squares-reference.mp4): three narrated, captioned scenes showing why odd numbers add up to squares, with a [one-second contact sheet](examples/one-second-contact-sheet.jpg).
+
 ## What's inside
 
 | File | What it covers |
@@ -32,11 +34,11 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 ## Examples
 
-<p align="center"><a href="examples/shear-area.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/manim-composer/shear-area.gif" alt="A rectangle shears slowly while its highlighted horizontal rows keep the same length." width="480"></a><br><sub>A rectangle shears slowly while its highlighted horizontal rows keep the same length. <a href="examples/shear-area.mp4">Play with sound</a></sub></p>
+<p align="center"><a href="examples/odd-squares-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/manim-composer/odd-squares-reference.gif" alt="1. Why odd numbers sum to squares: three narrated, captioned motion-layer scenes. Local speech, no AI model." width="480"></a><br><sub>1. Why odd numbers sum to squares: three narrated, captioned motion-layer scenes. Local speech, no AI model. <a href="examples/odd-squares-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/equal-row-widths.jpg" alt="The settled comparison explains area preservation by comparing equal-width rows." width="720"><br><sub>The settled comparison explains area preservation by comparing equal-width rows.</sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second: borders of 1, 3, 5 and 7 build a 4 by 4 square. Rendered in code, no AI model." width="720"><br><sub>2. One frame per second: borders of 1, 3, 5 and 7 build a 4 by 4 square. Rendered in code, no AI model.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (SVG animation): no image or video model. Timing used local text-to-speech, the clip is silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image or video model. Voice: Subclip local speech (Marius). Captions: local transcription.</sub></p>
 
 <!-- examples:end -->
 

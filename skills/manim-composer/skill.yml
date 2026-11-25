@@ -12,9 +12,9 @@ upstream: { repo: OpenMontageInc/OpenMontage, author: OpenMontageInc, license: A
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
-  - file: examples/shear-area.mp4
-    caption: "A rectangle shears slowly while its highlighted horizontal rows keep the same length."
-  - file: examples/equal-row-widths.jpg
-    caption: "The settled comparison explains area preservation by comparing equal-width rows."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (SVG animation): no image or video model. Timing used local text-to-speech, the clip is silent."
+  - file: examples/odd-squares-reference.mp4
+    caption: "1. Why odd numbers sum to squares: three narrated, captioned motion-layer scenes. Local speech, no AI model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: borders of 1, 3, 5 and 7 build a 4 by 4 square. Rendered in code, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image or video model. Voice: Subclip local speech (Marius). Captions: local transcription."
 examplesKind: test

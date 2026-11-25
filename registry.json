@@ -1491,30 +1491,20 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/cartoon-animation/examples/snail-dashes-for-cover.jpg",
-          "kind": "image",
-          "caption": "Wide shot of a painted snail reaching the shelter of a leaf."
-        },
-        {
-          "path": "skills/cartoon-animation/examples/snail-dashes-for-cover.mp4",
+          "path": "skills/cartoon-animation/examples/bean-and-butterfly-reference.mp4",
           "kind": "video",
-          "caption": "A raindrop startles the snail into a dash, followed by the outgoing brush wipe."
+          "caption": "1. Bean and butterfly: 14 s cartoon with takes, hops, brush wipes and irises. Code-painted layers, no AI model."
         },
         {
-          "path": "skills/cartoon-animation/examples/snail-peeks-out.jpg",
+          "path": "skills/cartoon-animation/examples/one-second-contact-sheet.jpg",
           "kind": "image",
-          "caption": "Closer painted shot of the snail peeking out while rain falls around the leaf."
-        },
-        {
-          "path": "skills/cartoon-animation/examples/snail-peeks-out.mp4",
-          "kind": "video",
-          "caption": "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
+          "caption": "2. One frame per second: morning meadow, chase, tumble, sunset landing. Code-painted layers, no AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Scenes painted in code (HyperFrames canvas layers): no image, video or audio model. Music: Marimba loop 2 by BrickDeveloper171 (CC0); boing by Hajisounds (CC0); whoosh and pop from the Subclip SFX library.",
       "examplesKind": "test"
     },
     {

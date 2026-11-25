@@ -238,7 +238,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/cartoon-animation">Cartoon animation</a></h4>
 <sub>Hand-painted cartoon shots with boiling ink linework, acted emotions and brush-wipe transitions in motion layers.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> by JohnHeibel</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/cartoon-animation">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/cartoon-animation">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/cartoon-animation">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/cartoon-animation">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/cartoon-episodes"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-episodes.gif" alt="Cartoon episodes preview" width="100%"></a><br>

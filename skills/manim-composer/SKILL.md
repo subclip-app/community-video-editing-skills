@@ -105,4 +105,8 @@ Voice is free with local speech, a few credits with cloud speech. Motion layers 
 - No Manim, LaTeX or Python runtime. Heavy 3D and long proofs are approximated with SVG and short layer scenes.
 - Math typesetting is limited to what SVG and HTML text can show unless KaTeX validates.
 
+## Reference
+
+A finished example: [odd-squares-reference.mp4](examples/odd-squares-reference.mp4). A 27 second explainer in three motion-layer scenes: the question 1 + 3 + 5 + 7, borders of 1, 3, 5 and 7 that build a 4 by 4 square, and the n squared rule. Local speech voices it, word timings drive each reveal and captions sit below the drawing. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (skill manim-composer) by OpenMontageInc, AGPL-3.0
