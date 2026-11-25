@@ -468,7 +468,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/portrait-style-prompts">Portrait style prompts</a></h4>
 <sub>Turn a frame of your video into a styled portrait (anime, watercolour, pixel art, noir, paper cut) with a seven-slot prompt, then make a video in that style.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://www.instagram.com/sferro21">www.instagram.com/sferro21</a> by sferro21</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/portrait-style-prompts">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/portrait-style-prompts">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/portrait-style-prompts">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/portrait-style-prompts">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

@@ -63,6 +63,10 @@ Import finished operations with `import_ai_operation_to_timeline`. Check start, 
 - No text, no logos, no drifting back to realism mid-clip.
 - Voice or music: generated video may bring its own sound; turn it off or replace it on purpose.
 
+## Reference
+
+A finished example: [luthier-style-reference.mp4](examples/luthier-style-reference.mp4). A fictional luthier speaks to camera (Kling Avatar v2 with a local voice), one frame is picked, the seven slots are filled for an anime look, and the styled frame becomes a five-second anime clip (Seedance 2 at 720p). The same frame then appears as watercolour, paper cut and noir comic, ending on all four looks side by side. Stills: gpt-image-2 through the Codex CLI. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second and [four-looks.jpg](examples/four-looks.jpg) shows the four styled stills.
+
 ## Credit
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words; the creator's guides state no license, so please confirm permission with the creator before relying on this skill.

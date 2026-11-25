@@ -10,6 +10,8 @@ A seven-slot portrait style prompt and a frame-to-style workflow. Export a frame
 
 Seven slots, five looks, a start-frame workflow.
 
+For a finished example, see the [luthier reference](examples/luthier-style-reference.mp4): a talking source clip, one picked frame, the seven-slot prompt, an anime clip made from the styled frame, and the same frame as watercolour, paper cut and noir comic.
+
 ## Install
 
 Add this skill from **Skills > Community** in Subclip, or point your agent at this folder. It works with Claude Code, Codex, Cursor and the in-app agent through Subclip's MCP tools.
@@ -29,15 +31,13 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
-<p align="center"><img src="examples/ceramicist-source.jpg" alt="Fictional ceramicist source still with a clear gaze and both hands visible. Image: gpt-image-2." width="720"><br><sub>Fictional ceramicist source still with a clear gaze and both hands visible. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/luthier-style-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/portrait-style-prompts/luthier-style-reference.gif" alt="1. One frame, four looks. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Subclip local TTS." width="480"></a><br><sub>1. One frame, four looks. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p. Voice: Subclip local TTS. <a href="examples/luthier-style-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/anime.jpg" alt="Cel-shaded restyle with a hard window beam and bold shadows. Image: gpt-image-2." width="720"><br><sub>Cel-shaded restyle with a hard window beam and bold shadows. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second of the reference. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p." width="720"><br><sub>2. One frame per second of the reference. Images: gpt-image-2. Video: Kling Avatar v2, Seedance 2 720p.</sub></p>
 
-<p align="center"><img src="examples/watercolour.jpg" alt="Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2." width="720"><br><sub>Watercolour restyle with soft light, bleeding pigment, and visible paper grain. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/four-looks.jpg" alt="3. The same frame as anime, watercolour, paper cut and noir comic. Images: gpt-image-2." width="720"><br><sub>3. The same frame as anime, watercolour, paper cut and noir comic. Images: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/ceramicist-style-study.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/portrait-style-prompts/ceramicist-style-study.gif" alt="The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: push-in, no video model." width="480"></a><br><sub>The same ceramicist portrait shifts from the source still to cel shading and watercolour. Clip: push-in, no video model. <a href="examples/ceramicist-style-study.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. The luthier is fictional. Images: gpt-image-2 (Codex CLI image generation). Video: Kling Avatar v2 (talking source), Seedance 2 at 720p (anime clip). Voice: Subclip local TTS. Music: Nylon Guitar Strumming by Alex_hears_things on Freesound (CC0).</sub></p>
 
 <!-- examples:end -->
 
