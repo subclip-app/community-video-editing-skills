@@ -12,6 +12,17 @@
 [![Submit a skill](https://img.shields.io/badge/submit-a%20skill-26c9d5?style=for-the-badge)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3fa34d?style=for-the-badge)](LICENSE)
 
+### Install with one command
+
+```sh
+npx @subclip/community-skills install --all --yes        # every skill, for Claude Code
+npx @subclip/community-skills install earshot             # one skill
+npx @subclip/community-skills list                        # browse in the terminal
+npx @subclip/community-skills update                      # move to the latest release
+```
+
+Add `--agent codex`, `--agent cursor` or `--agent all`. Files are verified against their sha256, nothing is executed, and releases pin what you get. Details: [@subclip/community-skills on npm](https://www.npmjs.com/package/@subclip/community-skills) and [packages/cli](packages/cli).
+
 <table>
 <tr>
 <td width="33%"><a href="skills/long-to-shorts"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts.gif" alt="Long video to shorts" width="100%"></a><br><sub><b>Long video to shorts</b></sub></td>
