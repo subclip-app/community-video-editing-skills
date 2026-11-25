@@ -1643,8 +1643,18 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/claude-drawing-skill/examples/three-drawings-reference.mp4",
+          "kind": "video",
+          "caption": "1. Three drawings: ink wash with a red kite, a continuous gold line, a paper collage. Drawn in code. No AI model."
+        },
+        {
+          "path": "skills/claude-drawing-skill/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the three drawings: canvas and SVG marks in HyperFrames layers. No AI model."
+        },
         {
           "path": "skills/claude-drawing-skill/examples/moon-river.mp4",
           "kind": "video",
@@ -1676,7 +1686,7 @@
           "caption": "Fern and flower silhouettes on a deep blue ground"
         }
       ],
-      "examplesCredit": "Examples by cloveric, MIT, from github.com/cloveric/claude-drawing-skill",
+      "examplesCredit": "Examples 3 to 8 by cloveric, MIT, from github.com/cloveric/claude-drawing-skill. Examples 1 and 2 made with this skill in Subclip, drawn in code: no image or video model. Sound: CC0 clips from Freesound, Subclip and Remotion sound libraries.",
       "examplesKind": "original"
     },
     {

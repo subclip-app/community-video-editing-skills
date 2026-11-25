@@ -29,4 +29,8 @@ Build a still, a staged drawing, or a short character action from deliberately p
 
 Each authored scene is editable as one runtime layer. For marks that need independent timeline placement, make separately timed runtime items or use native Elements for simple geometry.
 
+## Reference
+
+A finished example: [three-drawings-reference.mp4](examples/three-drawings-reference.mp4). Three HyperFrames layers, each one canvas or SVG drawing seeked from its own clock. Ink wash (7 s): far, middle and near ridges painted as opaque washes that fade into mist, dry brush strokes along the slope, moss dots and pines, then a vermilion kite and seal as the one accent. Continuous line (6 s): the gold sprout stroke from the [SVG recipe](references/svg-draw-on.md) drawn by a moving pen, a light travel arc, a sun loop and green leaf fills. Paper collage (6.5 s): torn paper hills with white fiber edges drop in far to near under one light, two striped balloons rise and crayon birds finish the hold. Labels are static text items, and paper, pencil and stroke sounds sit on native audio lanes. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second. Zero AI credits.
+
 Adapted for Subclip from [cloveric/claude-drawing-skill](https://github.com/cloveric/claude-drawing-skill) by cloveric, MIT.

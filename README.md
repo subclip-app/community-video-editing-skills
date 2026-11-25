@@ -261,7 +261,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/claude-drawing-skill">Claude Drawing</a></h4>
 <sub>Draw ink washes, paper collages and line art in code, then reveal the marks in editable Subclip motion layers.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/cloveric/claude-drawing-skill">cloveric/claude-drawing-skill</a> by cloveric</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/claude-drawing-skill">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/claude-drawing-skill">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/claude-drawing-skill">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/claude-drawing-skill">Open on subclip.app</a></sub>
 </td>
 </tr>
 <tr>
