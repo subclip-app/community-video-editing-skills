@@ -1,0 +1,39 @@
+{
+  "name": "@subclip/community-skills",
+  "version": "0.1.0",
+  "description": "Install community video editing skills for Claude Code, Codex, Cursor and other agents with one command",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://www.subclip.app/agent-skills/community",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subclip-app/community-video-editing-skills.git",
+    "directory": "packages/cli"
+  },
+  "bin": {
+    "subclip-community-skills": "bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "subclip",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "video-editing",
+    "community"
+  ]
+}
