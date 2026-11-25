@@ -12,9 +12,9 @@ upstream: null
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
-  - file: examples/third-beat-fan.jpg
-    caption: "The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid."
-  - file: examples/paper-beat-cuts.mp4
-    caption: "Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+  - file: examples/beat-cut-reference.mp4
+    caption: "1. Beat-cut montage: 13 shots at 120 BPM, four-beat to one-beat cuts. Code-rendered scenes, CC0 loop. No AI model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: each shot change lands on a bar line or beat. Code-rendered scenes, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Scenes rendered in code (HTML and SVG): no image or video model. Music: drum and bass loop at 120 BPM by josefpres on Freesound (CC0)."
 examplesKind: test

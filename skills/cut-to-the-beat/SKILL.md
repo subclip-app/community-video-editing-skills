@@ -77,6 +77,10 @@ Set the music volume with `update_audio_item`. Mute clip audio unless the creato
 
 Export only when asked: `get_export_configuration`, `list_render_queue`, then `export_video` once.
 
+## Reference
+
+A finished example: [beat-cut-reference.mp4](examples/beat-cut-reference.mp4). Thirteen shots cut to a 120 BPM loop with four-beat shots in the first two bars, two-beat shots in the next two, a one-beat roll, and a held final shot with a punch-in on the last downbeat. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 ## Cost
 
 Beat mapping, cutting, captions and layers cost no credits. Music generation costs credits: quote first, stay in scope, stop on credit or storage limits.

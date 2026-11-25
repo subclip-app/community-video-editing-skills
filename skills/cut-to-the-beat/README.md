@@ -14,6 +14,10 @@ librosa's method (onset strength, tempo estimate, evenly spaced beats on strong 
 
 Subclip has no beat detection tool yet. The beat grid is measured from the waveform or taken from a tempo you know, and it needs a human listen. A native tool returning tempo, beat times, downbeats and onsets would make this skill exact.
 
+## Reference
+
+See the finished [beat-cut reference video](examples/beat-cut-reference.mp4): 13 shots cut to a 120 BPM loop, with the four-beat, two-beat and one-beat sections described in `SKILL.md`.
+
 ## Install
 
 In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/community-video-editing-skills/tree/main/skills/cut-to-the-beat`.
@@ -34,11 +38,11 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 ## Examples
 
-<p align="center"><img src="examples/third-beat-fan.jpg" alt="The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid." width="720"><br><sub>The final fan angle lands one frame ahead of the 3-second beat on a 30 fps grid.</sub></p>
+<p align="center"><a href="examples/beat-cut-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cut-to-the-beat/beat-cut-reference.gif" alt="1. Beat-cut montage: 13 shots at 120 BPM, four-beat to one-beat cuts. Code-rendered scenes, CC0 loop. No AI model." width="480"></a><br><sub>1. Beat-cut montage: 13 shots at 120 BPM, four-beat to one-beat cuts. Code-rendered scenes, CC0 loop. No AI model. <a href="examples/beat-cut-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/paper-beat-cuts.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cut-to-the-beat/paper-beat-cuts.gif" alt="Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four." width="480"></a><br><sub>Paper studies change from a four-beat hold to two-beat shots, with small pulses on beats two and four. <a href="examples/paper-beat-cuts.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second: each shot change lands on a bar line or beat. Code-rendered scenes, no AI model." width="720"><br><sub>2. One frame per second: each shot change lands on a bar line or beat. Code-rendered scenes, no AI model.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Scenes rendered in code (HTML and SVG): no image or video model. Music: drum and bass loop at 120 BPM by josefpres on Freesound (CC0).</sub></p>
 
 <!-- examples:end -->
 
