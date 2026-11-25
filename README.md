@@ -8,6 +8,7 @@
 
 **Browse every skill with previews, search and ratings: [subclip.app/agent-skills/community](https://www.subclip.app/agent-skills/community)**
 
+[![Star us on GitHub](https://img.shields.io/github/stars/subclip-app/community-video-editing-skills?style=for-the-badge&logo=github&label=Star%20us%20on%20GitHub&color=153592)](https://github.com/subclip-app/community-video-editing-skills)
 [![Browse on subclip.app](https://img.shields.io/badge/browse-subclip.app-153592?style=for-the-badge)](https://www.subclip.app/agent-skills/community)
 [![Submit a skill](https://img.shields.io/badge/submit-a%20skill-26c9d5?style=for-the-badge)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3fa34d?style=for-the-badge)](LICENSE)
