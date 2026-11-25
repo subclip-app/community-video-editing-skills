@@ -84,6 +84,10 @@ Use the character-animation-qa skill for the full review pass. At minimum seek t
 
 Record decisions with `update_project_director_brief` and `write_session_summary`.
 
+## Reference
+
+A finished example: [bolt-reference.mp4](examples/bolt-reference.mp4). Bolt is a robot drawn from separate SVG parts in three short HyperFrames layers (walk in, talk and wave, celebrate). Mouth shapes switch on the loudness of a local text-to-speech voice in steps of 0.1 s, the eyes lead the head and arm, pivot markers fade in on the word pivot, and a hop ends the clip. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 ## Sources
 
 - GSAP core transform properties and SVG handling: https://gsap.com/docs/v3/GSAP/CorePlugins/CSS/

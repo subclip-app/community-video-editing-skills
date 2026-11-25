@@ -24,17 +24,17 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 |---|---|
 | `SKILL.md` | Rig structure, pivots, acting rules, placing the layer, Remotion pattern, quality checklist |
 
-Pair it with the `character-animation-qa` skill to review the result.
+Pair it with the `character-animation-qa` skill to review the result. For a finished example, see the [Bolt reference](examples/bolt-reference.mp4): a robot that walks in, waves, speaks with lip-flap, shows its pivots and hops, all in three editable layers.
 
 <!-- examples:start -->
 
 ## Examples
 
-<p align="center"><img src="examples/raised-wave-pose.jpg" alt="The held wave pose after the eyes lead and the shoulder rotates." width="720"><br><sub>The held wave pose after the eyes lead and the shoulder rotates.</sub></p>
+<p align="center"><a href="examples/bolt-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/svg-character-animation/bolt-reference.gif" alt="1. Bolt, an SVG robot rig: walk in, wave, lip-flap, pivots, hop. Voice: Pocket TTS. Music: CC0 loop. No image or video model." width="480"></a><br><sub>1. Bolt, an SVG robot rig: walk in, wave, lip-flap, pivots, hop. Voice: Pocket TTS. Music: CC0 loop. No image or video model. <a href="examples/bolt-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/robot-wave.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/svg-character-animation/robot-wave.gif" alt="A jointed SVG robot notices something, waves, blinks and settles." width="480"></a><br><sub>A jointed SVG robot notices something, waves, blinks and settles. <a href="examples/robot-wave.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second: each beat is a seekable HyperFrames layer. Rendered in code, no AI model." width="720"><br><sub>2. One frame per second: each beat is a seekable HyperFrames layer. Rendered in code, no AI model.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Character rendered in code (HyperFrames: SVG and GSAP): no image or video model. Voice: Pocket TTS, local. Music: Upbeat loop by mistermender on Freesound (CC0). Sound effects from the Subclip catalog.</sub></p>
 
 <!-- examples:end -->
 

@@ -12,9 +12,9 @@ upstream: { repo: OpenMontageInc/OpenMontage, author: OpenMontageInc, license: A
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
-  - file: examples/raised-wave-pose.jpg
-    caption: "The held wave pose after the eyes lead and the shoulder rotates."
-  - file: examples/robot-wave.mp4
-    caption: "A jointed SVG robot notices something, waves, blinks and settles."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+  - file: examples/bolt-reference.mp4
+    caption: "1. Bolt, an SVG robot rig: walk in, wave, lip-flap, pivots, hop. Voice: Pocket TTS. Music: CC0 loop. No image or video model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: each beat is a seekable HyperFrames layer. Rendered in code, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Character rendered in code (HyperFrames: SVG and GSAP): no image or video model. Voice: Pocket TTS, local. Music: Upbeat loop by mistermender on Freesound (CC0). Sound effects from the Subclip catalog."
 examplesKind: test
