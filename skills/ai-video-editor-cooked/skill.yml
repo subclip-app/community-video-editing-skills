@@ -12,11 +12,9 @@ upstream: { repo: nextwork-projects/ai-video-editor-cooked, author: NextWork, li
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
-  - file: examples/retake-cut-log.jpg
-    caption: "A last-take-wins cut log with exact words, source ranges and the retained complete take."
-  - file: examples/default-style-brief.jpg
-    caption: "A numeric style brief and a visual cue tied to the exact word that triggers it."
-  - file: examples/retake-log-to-style-brief.mp4
-    caption: "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+  - file: examples/cooked-edit-reference.mp4
+    caption: "1. Cooked edit of a real interview take: dead pauses cut, 3-word captions, punch-ins. No AI model."
+  - file: examples/cooked-edit-contact-sheet.jpg
+    caption: "2. One frame per second of the edit: captions clear of the mouth, four punch-ins. No AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Footage: Alexander H. King Interview, Purdue University Archives and Special Collections (CC BY). Cut, captions and zooms made in the Subclip editor: no image, video or audio model."
 examplesKind: test

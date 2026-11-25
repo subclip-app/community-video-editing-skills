@@ -79,4 +79,8 @@ Use `subclip-ai-clipping` for selection and assembly. Add this method's judgment
 - Personal data is blurred or avoided in screen captures, including the account's own name.
 - Smooth before varied.
 
+## Reference
+
+A finished example: [cooked-edit-reference.mp4](examples/cooked-edit-reference.mp4). A real interview take (archival footage, CC BY) goes through Stages 1 to 4: the transcript shows no retakes or fillers, so the cut is four dead pauses trimmed to the 0.3 s wide-take target, then 3-word captions sit below the mouth and four punch-ins land on the named words. The [contact sheet](examples/cooked-edit-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [nextwork-projects/ai-video-editor-cooked](https://github.com/nextwork-projects/ai-video-editor-cooked) by NextWork, MIT.

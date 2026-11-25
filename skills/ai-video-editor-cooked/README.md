@@ -16,12 +16,10 @@ What changed from the original: the Python pipeline, Remotion renderer, browser 
 
 ## Examples
 
-<p align="center"><img src="examples/retake-cut-log.jpg" alt="A last-take-wins cut log with exact words, source ranges and the retained complete take." width="720"><br><sub>A last-take-wins cut log with exact words, source ranges and the retained complete take.</sub></p>
+<p align="center"><a href="examples/cooked-edit-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-video-editor-cooked/cooked-edit-reference.gif" alt="1. Cooked edit of a real interview take: dead pauses cut, 3-word captions, punch-ins. No AI model." width="480"></a><br><sub>1. Cooked edit of a real interview take: dead pauses cut, 3-word captions, punch-ins. No AI model. <a href="examples/cooked-edit-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/default-style-brief.jpg" alt="A numeric style brief and a visual cue tied to the exact word that triggers it." width="720"><br><sub>A numeric style brief and a visual cue tied to the exact word that triggers it.</sub></p>
+<p align="center"><img src="examples/cooked-edit-contact-sheet.jpg" alt="2. One frame per second of the edit: captions clear of the mouth, four punch-ins. No AI model." width="720"><br><sub>2. One frame per second of the edit: captions clear of the mouth, four punch-ins. No AI model.</sub></p>
 
-<p align="center"><a href="examples/retake-log-to-style-brief.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-video-editor-cooked/retake-log-to-style-brief.gif" alt="A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take." width="480"></a><br><sub>A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take. <a href="examples/retake-log-to-style-brief.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Footage: Alexander H. King Interview, Purdue University Archives and Special Collections (CC BY). Cut, captions and zooms made in the Subclip editor: no image, video or audio model.</sub></p>
 
 <!-- examples:end -->
