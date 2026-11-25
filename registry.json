@@ -4207,6 +4207,16 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/threejs-3d-scenes/examples/ridge-3d-shots-reference.mp4",
+          "kind": "video",
+          "caption": "1. Phone, watch and laptop shots, each a Three.js scene with a slow camera orbit. Music: CC BY loop. No AI model."
+        },
+        {
+          "path": "skills/threejs-3d-scenes/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: three seekable Remotion layers rendered in code. No AI model."
+        },
+        {
           "path": "skills/threejs-3d-scenes/examples/camera-views.jpg",
           "kind": "image",
           "caption": "A split view shows the scene and the position of its active camera."
@@ -4227,7 +4237,7 @@
           "caption": "Selected spheres glow among neighboring objects with the bloom effect switched off."
         }
       ],
-      "examplesCredit": "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js",
+      "examplesCredit": "Examples 3 to 6 by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js. Examples 1 and 2 made with this skill in Subclip, scenes rendered in code with Three.js: no image or video model. Music: Synth Loop Polaris by orangefreesounds on Freesound (CC BY 3.0).",
       "examplesKind": "original"
     },
     {

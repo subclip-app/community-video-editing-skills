@@ -12,6 +12,10 @@ upstream: { repo: mrdoob/three.js, author: "mrdoob and the three.js contributors
 addedAt: 2026-11-23
 updatedAt: 2026-11-23
 examples:
+  - file: examples/ridge-3d-shots-reference.mp4
+    caption: "1. Phone, watch and laptop shots, each a Three.js scene with a slow camera orbit. Music: CC BY loop. No AI model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: three seekable Remotion layers rendered in code. No AI model."
   - file: examples/camera-views.jpg
     caption: "A split view shows the scene and the position of its active camera."
   - file: examples/extruded-shapes.jpg
@@ -20,4 +24,4 @@ examples:
     caption: "Colored spotlights cross above a dark stage."
   - file: examples/selective-bloom.jpg
     caption: "Selected spheres glow among neighboring objects with the bloom effect switched off."
-examplesCredit: "Examples by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js"
+examplesCredit: "Examples 3 to 6 by mrdoob and the three.js contributors, MIT, from github.com/mrdoob/three.js. Examples 1 and 2 made with this skill in Subclip, scenes rendered in code with Three.js: no image or video model. Music: Synth Loop Polaris by orangefreesounds on Freesound (CC BY 3.0)."

@@ -35,4 +35,6 @@ The native track accepts approved registry models and semantic edits. A creator-
 - Export only on request. Read the installed export skill, then use `get_export_configuration` and `list_render_queue` before `export_video`. Omit range fields for the full film and avoid duplicate queue entries. Check exported frames when an export is part of delivery.
 - Record the shot, source segment, decisions, and any failed or pending checks through `update_project_director_brief` and `write_session_summary`. Report which frames and audio were actually reviewed.
 
+A finished example: [ridge-3d-shots-reference.mp4](examples/ridge-3d-shots-reference.mp4). Three 4.5 s Three.js shots, each its own Remotion layer with a drawn screen texture, a three-point light rig and a slow camera orbit with a push: a phone, a watch and a laptop. Labels are native text overlays. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [mrdoob/three.js](https://github.com/mrdoob/three.js) by mrdoob and the three.js contributors, MIT.
