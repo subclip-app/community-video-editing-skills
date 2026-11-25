@@ -24,3 +24,4 @@ Outside sources that inspired or are credited in this repository, other than ada
 | [Vladic20/tvhead-studio](https://github.com/Vladic20/tvhead-studio) (MIT, commit c18305f, portions from lubluniky/garazh-skill, MIT) | The tvhead-video skill: 15 look recipes (doodle, cartoon, 3D desk, neon noir, dark fantasy, brick game, 8-bit, comic, five stickman looks, underground, marker), the director proposal and checks, the AI-video prompt package, writing rules; the author doc sheets as references; plus our own 10 s references and one p-video clip | tvhead-story-looks |
 
 If you are a source owner and want a change or removal, open an issue.
+| [Alexander H. King Interview, Purdue University Archives and Special Collections](https://www.youtube.com/results?search_query=Alexander+H.+King+Interview+Purdue) (CC BY) | The 29 s speech excerpt used as the raw clip in the reference edits. We cut one excerpt and added our own graphics. | ai-edit-battle |

@@ -86,3 +86,11 @@ Give the creator: both project IDs, both export files, the hard-check results, t
 - No outside API keys, no shell assembly, no provider SDKs.
 
 Adapted for Subclip from guides by sferro21 (https://www.instagram.com/sferro21). Rewritten in our own words; the creator's guides state no license, so please confirm permission with the creator before relying on this skill.
+
+## Reference run (what the examples show)
+
+The examples are a real run of this method: one 29 s talking-head clip, one frozen brief, zero credits, one shot each, each contender in its own cloned project.
+
+- **Codex gpt-6.2-astra** finished. It built "Fold Lines": an illustrated toy that comes apart, a cyan page edge that wipes back to the speaker, and a two-page STOP / READ spread at the peak, with sound design under the voice (about -16.8 LUFS integrated).
+- **Claude Opus 5.5** did not finish. Its run hit the account's usage limit after 78 steps. The edit has four graphic scenes (hook, MIT, trial and error, Purdue) up to about 24 s, built around one cyan manual card and a try counter, but no sound design and no graphics for the last 5 s. One wipe near 16 s clips the word "Purdue".
+- **No winner is claimed.** An unfinished edit cannot be scored against a finished one. The side-by-side example is there to show the format, not a result. Re-run the Opus contender with the same brief to get a fair score.

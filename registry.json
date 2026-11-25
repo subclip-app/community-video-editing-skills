@@ -369,6 +369,21 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/ai-edit-battle/examples/codex-gpt-6-2-astra-edit.mp4",
+          "kind": "video",
+          "caption": "1. Codex gpt-6.2-astra edit: Fold Lines, all 29 s with sound design. Same brief, same clip, zero credits."
+        },
+        {
+          "path": "skills/ai-edit-battle/examples/claude-opus-5-5-edit.mp4",
+          "kind": "video",
+          "caption": "2. Claude Opus 5.5 edit: manual-card idea, graphics for the first 24 s. A usage limit stopped it, so the end has none."
+        },
+        {
+          "path": "skills/ai-edit-battle/examples/battle-side-by-side.mp4",
+          "kind": "video",
+          "caption": "3. Side by side over the original voice: Codex left, Opus right. The Opus run is unfinished, so no winner is claimed."
+        },
+        {
           "path": "skills/ai-edit-battle/examples/shared-edit-brief.jpg",
           "kind": "image",
           "caption": "Sample frozen brief with a shared source, voice cues, and delivery constraints."
@@ -384,7 +399,7 @@
           "caption": "Seven scoring rows appear before the sample totals for the two blind edits."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Edits by Codex CLI (gpt-6.2-astra) and Claude Opus 5.5 in the Subclip editor with HyperFrames layers: no image, video or audio model, zero credits. Source clip: Alexander H. King Interview, Purdue University Archives and Special Collections (CC BY).",
       "examplesKind": "test"
     },
     {

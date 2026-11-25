@@ -31,13 +31,19 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 
 ## Examples
 
+<p align="center"><a href="examples/codex-gpt-6-2-astra-edit.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-edit-battle/codex-gpt-6-2-astra-edit.gif" alt="1. Codex gpt-6.2-astra edit: Fold Lines, all 29 s with sound design. Same brief, same clip, zero credits." width="480"></a><br><sub>1. Codex gpt-6.2-astra edit: Fold Lines, all 29 s with sound design. Same brief, same clip, zero credits. <a href="examples/codex-gpt-6-2-astra-edit.mp4">Play with sound</a></sub></p>
+
+<p align="center"><a href="examples/claude-opus-5-5-edit.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-edit-battle/claude-opus-5-5-edit.gif" alt="2. Claude Opus 5.5 edit: manual-card idea, graphics for the first 24 s. A usage limit stopped it, so the end has none." width="480"></a><br><sub>2. Claude Opus 5.5 edit: manual-card idea, graphics for the first 24 s. A usage limit stopped it, so the end has none. <a href="examples/claude-opus-5-5-edit.mp4">Play with sound</a></sub></p>
+
+<p align="center"><a href="examples/battle-side-by-side.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-edit-battle/battle-side-by-side.gif" alt="3. Side by side over the original voice: Codex left, Opus right. The Opus run is unfinished, so no winner is claimed." width="480"></a><br><sub>3. Side by side over the original voice: Codex left, Opus right. The Opus run is unfinished, so no winner is claimed. <a href="examples/battle-side-by-side.mp4">Play with sound</a></sub></p>
+
 <p align="center"><img src="examples/shared-edit-brief.jpg" alt="Sample frozen brief with a shared source, voice cues, and delivery constraints." width="720"><br><sub>Sample frozen brief with a shared source, voice cues, and delivery constraints.</sub></p>
 
 <p align="center"><img src="examples/blind-scorecard.jpg" alt="Illustrative blind scorecard with pass checks, seven scored categories, and evidence." width="720"><br><sub>Illustrative blind scorecard with pass checks, seven scored categories, and evidence.</sub></p>
 
 <p align="center"><a href="examples/blind-scorecard-reveal.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-edit-battle/blind-scorecard-reveal.gif" alt="Seven scoring rows appear before the sample totals for the two blind edits." width="480"></a><br><sub>Seven scoring rows appear before the sample totals for the two blind edits. <a href="examples/blind-scorecard-reveal.mp4">Play with sound</a></sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Edits by Codex CLI (gpt-6.2-astra) and Claude Opus 5.5 in the Subclip editor with HyperFrames layers: no image, video or audio model, zero credits. Source clip: Alexander H. King Interview, Purdue University Archives and Special Collections (CC BY).</sub></p>
 
 <!-- examples:end -->
 
