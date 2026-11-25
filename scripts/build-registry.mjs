@@ -156,14 +156,13 @@ export function catalog(skills) {
     `<a href="${attr(s.path)}"><img src="${s.preview ? `${README_PREVIEW_BASE}/${attr(s.slug)}.gif` : attr(s.cover)}" alt="${attr(s.name)} preview" width="100%"></a><br>`,
     `<h4><a href="${attr(s.path)}">${attr(s.name)}</a></h4>`,
     `<sub>${attr(s.summary)}</sub><br>`,
-    `<sub><b>${s.preinstalled ? 'Pre-installed in Subclip' : s.upstream ? 'Adapted' : 'Original'}</b> &nbsp;|&nbsp; ${attr(s.license)} &nbsp;|&nbsp; ${s.upstream ? `from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo ?? s.upstream.url.replace(/^https:\/\//, ''))}</a> by ${attr(s.upstream.author)}` : 'written for Subclip'}</sub><br>`,
-    `<sub>Updated ${attr(s.updatedAt ?? s.addedAt)} &nbsp;|&nbsp; <a href="${attr(s.path)}">Folder</a> &nbsp;|&nbsp; <a href="${SITE_SKILL}/${attr(s.slug)}">Open on subclip.app</a></sub>`,
+    `<sub>${s.upstream ? `Adapted from <a href="${attr(s.upstream.url)}">${attr(s.upstream.repo ?? s.upstream.url.replace(/^https:\/\//, ''))}</a>` : 'Written for Subclip'} &nbsp;|&nbsp; ${attr(s.license)} &nbsp;|&nbsp; <a href="${SITE_SKILL}/${attr(s.slug)}">View on subclip.app</a></sub>`,
     `</td>`,
   ].join('\n');
   const out = [
-    `<p align="center"><b>${skills.length}</b> skill${skills.length === 1 ? '' : 's'} in ${groups.length} categor${groups.length === 1 ? 'y' : 'ies'}. Newest first inside each category.</p>`,
+    `<p align="center"><b>${skills.length} skills</b> in ${groups.length} categories</p>`,
     '',
-    `<p align="center">${groups.map(g => `<a href="#${anchor(g)}">${CATEGORY_LABELS[g] ?? g}</a> <sub>(${skills.filter(s => s.category === g).length})</sub>`).join(' &nbsp;|&nbsp; ')}</p>`,
+    `<p align="center">${groups.map(g => `<a href="#${anchor(g)}">${CATEGORY_LABELS[g] ?? g}</a>`).join(' &nbsp;|&nbsp; ')}</p>`,
   ];
   for (const group of groups) {
     const items = skills.filter(s => s.category === group).sort((a, b) => (b.addedAt).localeCompare(a.addedAt) || a.name.localeCompare(b.name));
