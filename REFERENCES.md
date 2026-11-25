@@ -28,3 +28,4 @@ Outside sources that inspired or are credited in this repository, other than ada
 
 If you are a source owner and want a change or removal, open an issue.
 | [Alexander H. King Interview, Purdue University Archives and Special Collections](https://www.youtube.com/results?search_query=Alexander+H.+King+Interview+Purdue) (CC BY) | The 29 s speech excerpt used as the raw clip in the reference edits. We cut one excerpt and added our own graphics. | ai-edit-battle |
+| [Electronic Percussion Loops by aikighost (Freesound)](https://freesound.org/people/aikighost/packs/1148/) | CC0 percussion loops used as the music in the [three-shot reference](skills/code-video-recipes/examples/code-recipes-reference.mp4). We made the reference and [silent hero](skills/code-video-recipes/preview.mp4) with code-rendered scenes. | code-video-recipes |

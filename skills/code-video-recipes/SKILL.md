@@ -45,4 +45,8 @@ Re-read timeline state and inspect live frames after entrances, around cuts, ins
 
 Read `subclip-export` when export is requested. Check `get_export_configuration` and `list_render_queue`, then call `export_video` once. Omit range fields for a full project and use explicit start and end for a requested segment. External clients can track the request with `get_export_status`. Record recipe choice, source credit, timing decisions and failed or pending checks via `update_project_director_brief` and `write_session_summary`.
 
+## Reference
+
+A finished example: [code-recipes-reference.mp4](examples/code-recipes-reference.mp4). Three six-second shots, each its own HyperFrames layer: a widget that scales in and draws its line, an exploded stack of layers with labels, and a butterfly loop driven by one shared phase. Percussion loops change at each shot and a whoosh marks each cut. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) by yihui-dev, MIT.
