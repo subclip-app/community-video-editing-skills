@@ -10,7 +10,7 @@ A skill for AI agents working in [Subclip](https://subclip.app) that turns one t
 
 **One topic in, finished film out. No outside API keys, no ffmpeg.**
 
-[Watch the silent preview](preview.mp4).
+[Watch the silent preview](preview.mp4). [Watch the reference film with sound](examples/why-summer-is-hot.mp4): "Why is summer hot", 44 seconds, made with this skill at zero credits, with collage scenes drawn in code, a local voice, captions and music.
 
 ```
 TOPIC → Script → Voiceover → Keyframes → Animation → Music → Assembly
@@ -47,13 +47,11 @@ A 7-beat, 60-second film with 3 animated beats is about 100 Subclip credits (fra
 
 ## Examples
 
-<p align="center"><img src="examples/paper-fan-anchor.jpg" alt="Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2." width="720"><br><sub>Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/why-summer-is-hot.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-explainer/why-summer-is-hot.gif" alt="1. Why is summer hot: a 44 s Vox-style explainer, collage scenes drawn in code. Voice: local jean. Captions: Whisper Small. No AI model." width="480"></a><br><sub>1. Why is summer hot: a 44 s Vox-style explainer, collage scenes drawn in code. Voice: local jean. Captions: Whisper Small. No AI model. <a href="examples/why-summer-is-hot.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/accordion-cross-section.jpg" alt="A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2." width="720"><br><sub>A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/why-summer-is-hot-contact.jpg" alt="2. One frame per second: myth, orbit gap, 23.5 degree tilt, daylight cards and the Chicago and Sydney proof. No AI model." width="720"><br><sub>2. One frame per second: myth, orbit gap, 23.5 degree tilt, daylight cards and the Chicago and Sydney proof. No AI model.</sub></p>
 
-<p align="center"><a href="examples/paper-fan-pleats.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-explainer/paper-fan-pleats.gif" alt="A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model." width="480"></a><br><sub>A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model. <a href="examples/paper-fan-pleats.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test output made with this skill in Subclip at zero credits. Scenes rendered in code (HTML and SVG): no image or video model. Voice: local jean voice. Captions: local Whisper Small. Music: Evening Sunset by Muyo5438 on Freesound (CC BY 4.0). Page-turn sound from the Remotion library.</sub></p>
 
 <!-- examples:end -->
 

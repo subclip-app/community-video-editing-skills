@@ -10,13 +10,11 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: CK42BB/vox-explainer-skill, author: Kingsley, license: MIT, commit: "7003225dc3ed1dee9e2ef8b91b05b82c04691aa9", syncedAt: "2026-11-22" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 examples:
-  - file: examples/paper-fan-anchor.jpg
-    caption: "Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2."
-  - file: examples/accordion-cross-section.jpg
-    caption: "A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2."
-  - file: examples/paper-fan-pleats.mp4
-    caption: "A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model."
-examplesCredit: "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent."
+  - file: examples/why-summer-is-hot.mp4
+    caption: "1. Why is summer hot: a 44 s Vox-style explainer, collage scenes drawn in code. Voice: local jean. Captions: Whisper Small. No AI model."
+  - file: examples/why-summer-is-hot-contact.jpg
+    caption: "2. One frame per second: myth, orbit gap, 23.5 degree tilt, daylight cards and the Chicago and Sydney proof. No AI model."
+examplesCredit: "Test output made with this skill in Subclip at zero credits. Scenes rendered in code (HTML and SVG): no image or video model. Voice: local jean voice. Captions: local Whisper Small. Music: Evening Sunset by Muyo5438 on Freesound (CC BY 4.0). Page-turn sound from the Remotion library."
 examplesKind: test

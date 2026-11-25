@@ -339,7 +339,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/vox-explainer">Vox explainer</a></h4>
 <sub>One topic in, a finished Vox-style explainer.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; from <a href="https://github.com/CK42BB/vox-explainer-skill">CK42BB/vox-explainer-skill</a> by Kingsley</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/vox-explainer">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/vox-explainer">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/vox-explainer">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/vox-explainer">Open on subclip.app</a></sub>
 </td>
 <td width="50%"></td>
 </tr>

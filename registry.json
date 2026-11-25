@@ -4879,25 +4879,20 @@
         "syncedAt": "2026-11-22"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/vox-explainer/examples/paper-fan-anchor.jpg",
-          "kind": "image",
-          "caption": "Style anchor for a paper fan explainer, with ivory cutouts, orange pleats and a blueprint grid. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/vox-explainer/examples/accordion-cross-section.jpg",
-          "kind": "image",
-          "caption": "A close view of alternating creases, generated using the paper fan keyframe as a style reference. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/vox-explainer/examples/paper-fan-pleats.mp4",
+          "path": "skills/vox-explainer/examples/why-summer-is-hot.mp4",
           "kind": "video",
-          "caption": "A slow push into a paper fan crossfades to a close view of its alternating accordion creases. Clip: push-in, no video model."
+          "caption": "1. Why is summer hot: a 44 s Vox-style explainer, collage scenes drawn in code. Voice: local jean. Captions: Whisper Small. No AI model."
+        },
+        {
+          "path": "skills/vox-explainer/examples/why-summer-is-hot-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: myth, orbit gap, 23.5 degree tilt, daylight cards and the Chicago and Sydney proof. No AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.",
+      "examplesCredit": "Test output made with this skill in Subclip at zero credits. Scenes rendered in code (HTML and SVG): no image or video model. Voice: local jean voice. Captions: local Whisper Small. Music: Evening Sunset by Muyo5438 on Freesound (CC BY 4.0). Page-turn sound from the Remotion library.",
       "examplesKind": "test"
     },
     {

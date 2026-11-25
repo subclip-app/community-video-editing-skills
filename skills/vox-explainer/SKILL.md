@@ -118,6 +118,10 @@ Fix problems at the stage they started (re-voice a beat, regenerate a frame), no
 - Start all Stage 4 clips together, then collect them; video takes 1 to 4 minutes each.
 - Report credits spent at the end (`get_ai_credit_status`).
 
+## Reference video
+
+[Why is summer hot](examples/why-summer-is-hot.mp4) is a 44 second film made with this skill in Subclip at zero credits: five beats, local voice narration, collage scenes drawn in code instead of generated keyframes, clause captions, a quiet piano bed and page-turn cuts. [One frame per second](examples/why-summer-is-hot-contact.jpg). [Silent hero](preview.mp4).
+
 ## References
 
 - `references/vox-style-guide.md`: writing arc, visual grammar, prompt templates. Read before Stage 1 and Stage 3.
