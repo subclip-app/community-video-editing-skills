@@ -192,7 +192,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/open-design-motion">Open Design Motion</a></h4>
 <sub>Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; from <a href="https://github.com/nexu-io/open-design">nexu-io/open-design</a> by nexu-io</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/open-design-motion">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/open-design-motion">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/open-design-motion">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/open-design-motion">Open on subclip.app</a></sub>
 </td>
 </tr>
 </table>

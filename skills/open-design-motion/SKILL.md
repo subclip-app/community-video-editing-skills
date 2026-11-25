@@ -14,6 +14,8 @@ Choose the installed skill by name. Each is a separate entry point with its own 
 - `video-hyperframes` Turn a short script into consecutive editable motion scenes with a hook, evidence and a CTA.
 - `mockup-device-3d` Build a native 3D phone and optional laptop product showcase with real screen media and an optional turntable.
 
+Reference: the [Motion Frames poster](examples/motion-frames-reference.mp4) shows the finished look, a looping wireframe globe with orbiting labels and a serif headline, built from the recipe with no AI models.
+
 In a repository checkout, [README.md](README.md) links to the six skill files. In Subclip, use `list_subclip_skills` and read the matching name through `read_subclip_skill`.
 
 Adapted for Subclip from https://github.com/nexu-io/open-design by nexu-io, Apache-2.0.

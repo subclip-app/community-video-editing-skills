@@ -10,12 +10,14 @@ adaptedBySubclip: true
 license: Apache-2.0
 upstream: { repo: nexu-io/open-design, author: nexu-io, license: Apache-2.0, commit: "e033aad1d15a9d4084316e5223f2c6597fd32619", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 examples:
+  - file: examples/motion-frames-reference.mp4
+    caption: "1. Motion Frames: a looping globe poster with orbiting labels. Built from the skill recipe, no AI models. Music: CC0 loop."
   - file: examples/studio-motion-demo.mp4
     caption: "Open Design Studio preview of an animated product headline and scrolling text."
   - file: examples/studio-title-frame.jpg
     caption: "Studio still with a lime highlight and a line of scrolling deliverables."
   - file: examples/motion-template-explainer.jpg
     caption: "A typographic explainer about what goes into a design template."
-examplesCredit: "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"
+examplesCredit: "Poster made for Subclip from the Motion Frames recipe. Other examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design"

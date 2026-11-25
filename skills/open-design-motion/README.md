@@ -21,12 +21,14 @@ The cover is an original illustration of the Motion Frames recipe. Open Design p
 
 ## Examples
 
+<p align="center"><a href="examples/motion-frames-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-motion/motion-frames-reference.gif" alt="1. Motion Frames: a looping globe poster with orbiting labels. Built from the skill recipe, no AI models. Music: CC0 loop." width="480"></a><br><sub>1. Motion Frames: a looping globe poster with orbiting labels. Built from the skill recipe, no AI models. Music: CC0 loop. <a href="examples/motion-frames-reference.mp4">Play with sound</a></sub></p>
+
 <p align="center"><a href="examples/studio-motion-demo.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-motion/studio-motion-demo.gif" alt="Open Design Studio preview of an animated product headline and scrolling text." width="480"></a><br><sub>Open Design Studio preview of an animated product headline and scrolling text. <a href="examples/studio-motion-demo.mp4">Play with sound</a></sub></p>
 
 <p align="center"><img src="examples/studio-title-frame.jpg" alt="Studio still with a lime highlight and a line of scrolling deliverables." width="720"><br><sub>Studio still with a lime highlight and a line of scrolling deliverables.</sub></p>
 
 <p align="center"><img src="examples/motion-template-explainer.jpg" alt="A typographic explainer about what goes into a design template." width="720"><br><sub>A typographic explainer about what goes into a design template.</sub></p>
 
-<p align="center"><sub>Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design</sub></p>
+<p align="center"><sub>Poster made for Subclip from the Motion Frames recipe. Other examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design</sub></p>
 
 <!-- examples:end -->

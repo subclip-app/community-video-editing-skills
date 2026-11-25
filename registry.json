@@ -3233,8 +3233,13 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/open-design-motion/examples/motion-frames-reference.mp4",
+          "kind": "video",
+          "caption": "1. Motion Frames: a looping globe poster with orbiting labels. Built from the skill recipe, no AI models. Music: CC0 loop."
+        },
         {
           "path": "skills/open-design-motion/examples/studio-motion-demo.mp4",
           "kind": "video",
@@ -3251,7 +3256,7 @@
           "caption": "A typographic explainer about what goes into a design template."
         }
       ],
-      "examplesCredit": "Examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design",
+      "examplesCredit": "Poster made for Subclip from the Motion Frames recipe. Other examples by nexu-io, Apache-2.0, from github.com/nexu-io/open-design",
       "examplesKind": "original"
     },
     {
