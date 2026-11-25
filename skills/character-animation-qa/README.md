@@ -10,6 +10,8 @@ A review pass for character animation in Subclip. Before the agent shows you a p
 
 Playwright and ffprobe from the original are replaced by Subclip's own tools: layer validation, `seek_timeline` with `view_current_frame`, contact sheets and export checks.
 
+For a finished example, see the [robot wave review](examples/qa-review-reference.mp4): a draft fails at 1.36 s, the shoulder is fixed in place, and the same five sampled frames pass.
+
 ## Install
 
 In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/community-video-editing-skills/tree/main/skills/character-animation-qa`.
@@ -28,13 +30,11 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 
 ## Examples
 
-<p align="center"><img src="examples/wave-draft-review.jpg" alt="A sampled contact sheet flags a detached shoulder at 1.36 seconds." width="720"><br><sub>A sampled contact sheet flags a detached shoulder at 1.36 seconds.</sub></p>
+<p align="center"><a href="examples/qa-review-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/character-animation-qa/qa-review-reference.gif" alt="1. QA review: a robot wave fails at 1.36 s, gets fixed, then passes. Code-rendered, no AI model. Music: CC0 loops." width="480"></a><br><sub>1. QA review: a robot wave fails at 1.36 s, gets fixed, then passes. Code-rendered, no AI model. Music: CC0 loops. <a href="examples/qa-review-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/wave-fixed-review.jpg" alt="The same five sample times after the shoulder translation was removed." width="720"><br><sub>The same five sample times after the shoulder translation was removed.</sub></p>
+<p align="center"><img src="examples/qa-review-contact-sheet.jpg" alt="2. One frame per second of the review: draft verdict, fix, pass verdict. Code-rendered, no AI model." width="720"><br><sub>2. One frame per second of the review: draft verdict, fix, pass verdict. Code-rendered, no AI model.</sub></p>
 
-<p align="center"><a href="examples/robot-wave-shoulder-review.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/character-animation-qa/robot-wave-shoulder-review.gif" alt="A robot waves with a detached shoulder, then repeats the wave after the shoulder fix." width="480"></a><br><sub>A robot waves with a detached shoulder, then repeats the wave after the shoulder fix. <a href="examples/robot-wave-shoulder-review.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image, video or audio model. Music: Electronic Percussion Loops by aikighost on Freesound (CC0). Whooshes from the Subclip sound catalog.</sub></p>
 
 <!-- examples:end -->
 

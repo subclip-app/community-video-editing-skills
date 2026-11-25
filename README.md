@@ -254,7 +254,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/character-animation-qa">Character animation QA</a></h4>
 <sub>Review a character animation with sampled frames, motion checks and a pass, revise or fail verdict.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> by OpenMontageInc</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/character-animation-qa">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/character-animation-qa">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/character-animation-qa">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/character-animation-qa">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/claude-drawing-skill"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/claude-drawing-skill.gif" alt="Claude Drawing preview" width="100%"></a><br>

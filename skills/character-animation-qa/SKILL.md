@@ -35,4 +35,8 @@ Fix `revise` items in place with `edit_layer_source` (pass the returned source h
 
 Give the creator a short list: verdict, the frames you inspected (with times), what you fixed, and what you could not verify (for example, audio sync that needs a listen). Save it with `write_session_summary`.
 
+## Finished example
+
+[qa-review-reference.mp4](examples/qa-review-reference.mp4) shows the review on a code-rendered robot wave: a seven-item checklist, five sampled frames with the detached shoulder flagged at 1.36 s and a revise verdict, the one-line fix, then the same five times with a pass verdict. The [contact sheet](examples/qa-review-contact-sheet.jpg) shows one frame per second.
+
 Adapted for Subclip from [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (skill character-animation-qa) by OpenMontageInc, AGPL-3.0

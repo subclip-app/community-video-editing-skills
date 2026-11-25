@@ -10,13 +10,11 @@ adaptedBySubclip: true
 license: AGPL-3.0
 upstream: { repo: OpenMontageInc/OpenMontage, author: OpenMontageInc, license: AGPL-3.0, commit: "2e003e65fa99a0f329478a2c1cdcf26bc481933a", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 examples:
-  - file: examples/wave-draft-review.jpg
-    caption: "A sampled contact sheet flags a detached shoulder at 1.36 seconds."
-  - file: examples/wave-fixed-review.jpg
-    caption: "The same five sample times after the shoulder translation was removed."
-  - file: examples/robot-wave-shoulder-review.mp4
-    caption: "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+  - file: examples/qa-review-reference.mp4
+    caption: "1. QA review: a robot wave fails at 1.36 s, gets fixed, then passes. Code-rendered, no AI model. Music: CC0 loops."
+  - file: examples/qa-review-contact-sheet.jpg
+    caption: "2. One frame per second of the review: draft verdict, fix, pass verdict. Code-rendered, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image, video or audio model. Music: Electronic Percussion Loops by aikighost on Freesound (CC0). Whooshes from the Subclip sound catalog."
 examplesKind: test

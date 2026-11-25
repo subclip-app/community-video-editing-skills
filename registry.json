@@ -1001,22 +1001,17 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
-          "path": "skills/ai-video-editor-cooked/examples/retake-cut-log.jpg",
-          "kind": "image",
-          "caption": "A last-take-wins cut log with exact words, source ranges and the retained complete take."
-        },
-        {
-          "path": "skills/ai-video-editor-cooked/examples/default-style-brief.jpg",
-          "kind": "image",
-          "caption": "A numeric style brief and a visual cue tied to the exact word that triggers it."
-        },
-        {
-          "path": "skills/ai-video-editor-cooked/examples/retake-log-to-style-brief.mp4",
+          "path": "skills/ai-video-editor-cooked/examples/cooked-edit-reference.mp4",
           "kind": "video",
-          "caption": "A retake log marks cuts and keeps the complete instruction, then a style brief shows how to edit the take."
+          "caption": "1. Cooked edit of a real interview take: dead pauses cut, 3-word captions, punch-ins. No AI model."
+        },
+        {
+          "path": "skills/ai-video-editor-cooked/examples/cooked-edit-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the edit: captions clear of the mouth, four punch-ins. No AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Footage: Alexander H. King Interview, Purdue University Archives and Special Collections (CC BY). Cut, captions and zooms made in the Subclip editor: no image, video or audio model.",
       "examplesKind": "test"
     },
     {
@@ -1598,25 +1593,20 @@
         "syncedAt": "2026-11-23"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
         {
-          "path": "skills/character-animation-qa/examples/wave-draft-review.jpg",
-          "kind": "image",
-          "caption": "A sampled contact sheet flags a detached shoulder at 1.36 seconds."
-        },
-        {
-          "path": "skills/character-animation-qa/examples/wave-fixed-review.jpg",
-          "kind": "image",
-          "caption": "The same five sample times after the shoulder translation was removed."
-        },
-        {
-          "path": "skills/character-animation-qa/examples/robot-wave-shoulder-review.mp4",
+          "path": "skills/character-animation-qa/examples/qa-review-reference.mp4",
           "kind": "video",
-          "caption": "A robot waves with a detached shoulder, then repeats the wave after the shoulder fix."
+          "caption": "1. QA review: a robot wave fails at 1.36 s, gets fixed, then passes. Code-rendered, no AI model. Music: CC0 loops."
+        },
+        {
+          "path": "skills/character-animation-qa/examples/qa-review-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the review: draft verdict, fix, pass verdict. Code-rendered, no AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image, video or audio model. Music: Electronic Percussion Loops by aikighost on Freesound (CC0). Whooshes from the Subclip sound catalog.",
       "examplesKind": "test"
     },
     {
@@ -2764,17 +2754,17 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
-          "path": "skills/manim-composer/examples/shear-area.mp4",
+          "path": "skills/manim-composer/examples/odd-squares-reference.mp4",
           "kind": "video",
-          "caption": "A rectangle shears slowly while its highlighted horizontal rows keep the same length."
+          "caption": "1. Why odd numbers sum to squares: three narrated, captioned motion-layer scenes. Local speech, no AI model."
         },
         {
-          "path": "skills/manim-composer/examples/equal-row-widths.jpg",
+          "path": "skills/manim-composer/examples/one-second-contact-sheet.jpg",
           "kind": "image",
-          "caption": "The settled comparison explains area preservation by comparing equal-width rows."
+          "caption": "2. One frame per second: borders of 1, 3, 5 and 7 build a 4 by 4 square. Rendered in code, no AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (SVG animation): no image or video model. Timing used local text-to-speech, the clip is silent.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML, SVG and GSAP): no image or video model. Voice: Subclip local speech (Marius). Captions: local transcription.",
       "examplesKind": "test"
     },
     {
@@ -4162,17 +4152,17 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
-          "path": "skills/svg-character-animation/examples/raised-wave-pose.jpg",
-          "kind": "image",
-          "caption": "The held wave pose after the eyes lead and the shoulder rotates."
+          "path": "skills/svg-character-animation/examples/bolt-reference.mp4",
+          "kind": "video",
+          "caption": "1. Bolt, an SVG robot rig: walk in, wave, lip-flap, pivots, hop. Voice: Pocket TTS. Music: CC0 loop. No image or video model."
         },
         {
-          "path": "skills/svg-character-animation/examples/robot-wave.mp4",
-          "kind": "video",
-          "caption": "A jointed SVG robot notices something, waves, blinks and settles."
+          "path": "skills/svg-character-animation/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: each beat is a seekable HyperFrames layer. Rendered in code, no AI model."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Character rendered in code (HyperFrames: SVG and GSAP): no image or video model. Voice: Pocket TTS, local. Music: Upbeat loop by mistermender on Freesound (CC0). Sound effects from the Subclip catalog.",
       "examplesKind": "test"
     },
     {
