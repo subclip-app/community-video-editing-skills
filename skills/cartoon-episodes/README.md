@@ -12,6 +12,8 @@ Builds an animated series the way a studio does: define the cast, the places and
 
 Tell your agent: "Use cartoon-episodes for a show about <your idea>". It writes the show bible, makes the character, place and prop sheets, then plans and generates one scene at a time.
 
+See the [greenhouse episode reference](examples/juniper-blooms-reference.mp4) for a finished scene with voice and captions.
+
 ## What changed for Subclip
 
 The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
@@ -20,13 +22,13 @@ The original skill runs in Claude Code and hands you prompts to paste into outsi
 
 ## Examples
 
-<p align="center"><img src="examples/juniper-cast-sheet.jpg" alt="Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2." width="720"><br><sub>Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/juniper-blooms-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-episodes/juniper-blooms-reference.gif" alt="1. Juniper's greenhouse scene: wilt, watering, bloom, with voice. Images: gpt-image-2. Video: Seedance 2 720p." width="480"></a><br><sub>1. Juniper's greenhouse scene: wilt, watering, bloom, with voice. Images: gpt-image-2. Video: Seedance 2 720p. <a href="examples/juniper-blooms-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/greenhouse-set.jpg" alt="Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2." width="720"><br><sub>Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/juniper-cast-sheet.jpg" alt="2. Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2." width="720"><br><sub>2. Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/juniper-and-the-greenhouse.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-episodes/juniper-and-the-greenhouse.gif" alt="Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: push-in, no video model." width="480"></a><br><sub>Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: push-in, no video model. <a href="examples/juniper-and-the-greenhouse.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/greenhouse-set.jpg" alt="3. Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2." width="720"><br><sub>3. Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: Seedance 2 at 720p. Voice: Subclip local speech and the clip's own voice. Captions: Whisper Small.</sub></p>
 
 <!-- examples:end -->
 

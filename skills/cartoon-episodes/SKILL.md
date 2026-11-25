@@ -74,6 +74,10 @@ Open the same project and the bible. Do not redefine anything. Describe the next
 - Dialogue is the lines you wrote, in the right voice. Tell the creator what needs a listen.
 - No generated lettering disagrees with the script.
 
+## Reference output
+
+A finished test of this method: [Juniper's greenhouse scene](examples/juniper-blooms-reference.mp4), one wilted seedling, a watering and a bloom, with Juniper's voice and captions. The stills (cast sheet and set) are [Juniper](examples/juniper-cast-sheet.jpg) and the [greenhouse](examples/greenhouse-set.jpg). The video came from one Seedance 2 720p shot started from a reviewed still.
+
 ---
 
 Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society. No license is stated for the original; this skill is written in new words.

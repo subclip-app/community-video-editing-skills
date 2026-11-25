@@ -1552,22 +1552,22 @@
       "updatedAt": "2026-11-23",
       "examples": [
         {
+          "path": "skills/cartoon-episodes/examples/juniper-blooms-reference.mp4",
+          "kind": "video",
+          "caption": "1. Juniper's greenhouse scene: wilt, watering, bloom, with voice. Images: gpt-image-2. Video: Seedance 2 720p."
+        },
+        {
           "path": "skills/cartoon-episodes/examples/juniper-cast-sheet.jpg",
           "kind": "image",
-          "caption": "Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2."
+          "caption": "2. Juniper the watering can robot from three angles, with three expressions. Image: gpt-image-2."
         },
         {
           "path": "skills/cartoon-episodes/examples/greenhouse-set.jpg",
           "kind": "image",
-          "caption": "Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2."
-        },
-        {
-          "path": "skills/cartoon-episodes/examples/juniper-and-the-greenhouse.mp4",
-          "kind": "video",
-          "caption": "Juniper’s character sheet dissolves into the pastel greenhouse set. Clip: push-in, no video model."
+          "caption": "3. Empty greenhouse establishing view in the same flat ink and pastel style. Image: gpt-image-2."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.",
+      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: Seedance 2 at 720p. Voice: Subclip local speech and the clip's own voice. Captions: Whisper Small.",
       "examplesKind": "test"
     },
     {
