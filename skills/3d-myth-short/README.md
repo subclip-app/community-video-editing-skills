@@ -1,4 +1,4 @@
-Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society
+Adapted for Subclip from the Notion list Claude Creative Skill Library Vol 2 (https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1) by PYNK Society, with no stated upstream license.
 
 # 3D myth short
 
@@ -14,19 +14,25 @@ Tell your agent: "Use 3d-myth-short to make a short about <idea>". It writes the
 
 ## What changed for Subclip
 
-The original skill runs in Claude Code and hands you prompts to paste into outside generators, then cuts with ffmpeg. This version keeps the creative method and does the work in Subclip: generation through `generate_ai_media` (or your own Codex CLI for images), voice through Subclip speech tools, and assembly on the editable timeline. Nothing here needs an outside key, ffmpeg or a script.
+This version keeps the original workflow for scripting and visual continuity. Generate video with `generate_ai_media`, make stills in Codex or Subclip, and use Subclip speech tools for the narrator. The finished timeline keeps the visuals, narration and captions editable.
+
+## Finished reference
+
+A workshop globe and two patches of light show why the seasons change. The January reveal sets up the final snowman gag. [Watch the narrated reference](examples/seasons-globe.mp4). [Watch the silent hero](preview.mp4).
 
 <!-- examples:start -->
 
 ## Examples
 
-<p align="center"><img src="examples/seasons-style-key.jpg" alt="Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2." width="720"><br><sub>Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2.</sub></p>
+<p align="center"><a href="examples/seasons-globe.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/3d-myth-short/seasons-globe.gif" alt="1. Seasons: how tilt shapes sunlight. Images: gpt-image-2. Video: Seedance 2 720p. Voice: Supertonic F2. Captions: Whisper Small." width="480"></a><br><sub>1. Seasons: how tilt shapes sunlight. Images: gpt-image-2. Video: Seedance 2 720p. Voice: Supertonic F2. Captions: Whisper Small. <a href="examples/seasons-globe.mp4">Play with sound</a></sub></p>
 
-<p align="center"><img src="examples/tilted-globe-sheet.jpg" alt="Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2." width="720"><br><sub>Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2.</sub></p>
+<p align="center"><img src="examples/seasons-style-key.jpg" alt="2. Style key: the Sun and painted globe on a workshop table. Images: gpt-image-2." width="720"><br><sub>2. Style key: the Sun and painted globe on a workshop table. Images: gpt-image-2.</sub></p>
 
-<p align="center"><a href="examples/seasons-globe.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/3d-myth-short/seasons-globe.gif" alt="A slow push from the warm studio globe to its tilted reference sheet. Clip: push-in, no video model." width="480"></a><br><sub>A slow push from the warm studio globe to its tilted reference sheet. Clip: push-in, no video model. <a href="examples/seasons-globe.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/tilted-globe-sheet.jpg" alt="3. Globe sheet: the tilted axle, painted continents and brass cradle. Images: gpt-image-2." width="720"><br><sub>3. Globe sheet: the tilted axle, painted continents and brass cradle. Images: gpt-image-2.</sub></p>
 
-<p align="center"><sub>Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.</sub></p>
+<p align="center"><img src="examples/sunlight-footprint.jpg" alt="4. Light footprints: a round patch on an upright card and an oval on an angled card. Images: gpt-image-2." width="720"><br><sub>4. Light footprints: a round patch on an upright card and an oval on an angled card. Images: gpt-image-2.</sub></p>
+
+<p align="center"><sub>Made in Subclip with gpt-image-2 storyboard stills, a Seedance 2 snowman shot with scene sound, Supertonic F2 narration and Whisper Small captions. Other shots use native image motion and editable diagrams.</sub></p>
 
 <!-- examples:end -->
 

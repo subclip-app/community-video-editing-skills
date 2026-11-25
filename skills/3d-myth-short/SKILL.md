@@ -5,11 +5,19 @@ description: Build a narrated 30 second 3D animated short from one idea in Subcl
 
 # 3D myth short (Subclip edition)
 
-A 30 second short with a fixed shape: the myth, the twist, the mechanism, the kicker. Everything is generated with Subclip tools and cut on the native timeline. There is no outside key, no ffmpeg and no script.
+A 30 second short with a fixed shape: the myth, the twist, the mechanism, the kicker. Cut it on Subclip's editable timeline with a separate narration track.
 
 ```
 IDEA -> 1 Brief -> 2 Reference sheets -> 3 Three video blocks -> 4 Voice -> 5 Cut on the timeline
 ```
+
+## Finished reference
+
+The seasons short opens with the myth that Earth is closer to the Sun in summer. It uses Earth's closest approach in January to set up a demonstration of how axial tilt changes the angle of sunlight and the length of the day. It pairs a Seedance 2 snowman shot with native image motion, editable diagrams, a separate narration track and captions. [Watch with sound](examples/seasons-globe.mp4). [Watch the silent hero](preview.mp4).
+
+The example uses a warm workshop look, a tilted globe and a two-card experiment to show how angled light spreads. [Workshop style key](examples/seasons-style-key.jpg). [Tilted globe sheet](examples/tilted-globe-sheet.jpg). [Sunlight footprint plate](examples/sunlight-footprint.jpg).
+
+Science sources for the seasons short. [NASA Space Place](https://spaceplace.nasa.gov/seasons/en/). [NOAA NESDIS](https://www.nesdis.noaa.gov/our-environment/solar-phenomena/changing-of-the-seasons).
 
 ## Before you start
 

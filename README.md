@@ -369,7 +369,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/3d-myth-short">3D myth short</a></h4>
 <sub>One idea in, a narrated 30 second 3D animated short: the myth, the twist and the real mechanism, built on the timeline.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> by PYNK Society</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/3d-myth-short">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/3d-myth-short">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/3d-myth-short">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/3d-myth-short">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/blender-to-subclip"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/blender-to-subclip.gif" alt="Blender to Subclip preview" width="100%"></a><br>

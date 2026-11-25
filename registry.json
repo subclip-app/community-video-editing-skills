@@ -29,25 +29,30 @@
         "note": "Written in new words from the skill description on the list: https://app.notion.com/p/3ffb5f1fde2d812cabb9d81b0c4e309a"
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/3d-myth-short/examples/seasons-globe.mp4",
+          "kind": "video",
+          "caption": "1. Seasons: how tilt shapes sunlight. Images: gpt-image-2. Video: Seedance 2 720p. Voice: Supertonic F2. Captions: Whisper Small."
+        },
         {
           "path": "skills/3d-myth-short/examples/seasons-style-key.jpg",
           "kind": "image",
-          "caption": "Style key for a seasons explainer, with a wooden globe and warm studio light. Image: gpt-image-2."
+          "caption": "2. Style key: the Sun and painted globe on a workshop table. Images: gpt-image-2."
         },
         {
           "path": "skills/3d-myth-short/examples/tilted-globe-sheet.jpg",
           "kind": "image",
-          "caption": "Tilted globe reference sheet with the same painted finish and a brass cradle. Image: gpt-image-2."
+          "caption": "3. Globe sheet: the tilted axle, painted continents and brass cradle. Images: gpt-image-2."
         },
         {
-          "path": "skills/3d-myth-short/examples/seasons-globe.mp4",
-          "kind": "video",
-          "caption": "A slow push from the warm studio globe to its tilted reference sheet. Clip: push-in, no video model."
+          "path": "skills/3d-myth-short/examples/sunlight-footprint.jpg",
+          "kind": "image",
+          "caption": "4. Light footprints: a round patch on an upright card and an oval on an angled card. Images: gpt-image-2."
         }
       ],
-      "examplesCredit": "Test outputs made with this skill in Subclip. Images: gpt-image-2 (Codex CLI image generation). Video: no video model, the clip is an edit of the stills. Silent.",
+      "examplesCredit": "Made in Subclip with gpt-image-2 storyboard stills, a Seedance 2 snowman shot with scene sound, Supertonic F2 narration and Whisper Small captions. Other shots use native image motion and editable diagrams.",
       "examplesKind": "test"
     },
     {
