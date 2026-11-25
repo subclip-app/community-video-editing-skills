@@ -11,6 +11,8 @@
     "check": "node scripts/build-registry.mjs --check",
     "scan": "node scripts/scan-skills.mjs",
     "test": "node --test",
-    "upstream:check": "node scripts/check-upstream.mjs"
+    "upstream:check": "node scripts/check-upstream.mjs",
+    "build:files": "node scripts/build-registry.mjs --files",
+    "release": "node scripts/release.mjs"
   }
 }
