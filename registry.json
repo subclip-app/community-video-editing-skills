@@ -435,8 +435,18 @@
         "note": "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator."
       },
       "addedAt": "2026-11-23",
-      "updatedAt": "2026-11-23",
+      "updatedAt": "2026-11-25",
       "examples": [
+        {
+          "path": "skills/ai-illustration-styles/examples/reference-four-styles.mp4",
+          "kind": "video",
+          "caption": "1. Four styles: one photo restyled as noir, anime, gouache and superflat. Images: gpt-image-2. Video: Seedance 2 720p."
+        },
+        {
+          "path": "skills/ai-illustration-styles/examples/reference-four-styles-sheet.jpg",
+          "kind": "image",
+          "caption": "2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Seedance 2 720p."
+        },
         {
           "path": "skills/ai-illustration-styles/examples/cartoon-modern-upa.jpg",
           "kind": "image",

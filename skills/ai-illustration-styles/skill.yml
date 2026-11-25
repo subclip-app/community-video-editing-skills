@@ -10,11 +10,15 @@ adaptedBySubclip: true
 license: Not stated
 upstream: { url: "https://www.instagram.com/sferro21", author: sferro21, license: Not stated, note: "Guides by sferro21 with no stated license. Rewritten in our own words; permission to adapt must be confirmed with the creator." }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 allowlist:
   - code: external-provider
     reason: "Model names describe Subclip's live catalog and the creator CLI option, not direct provider API calls."
 examples:
+  - file: examples/reference-four-styles.mp4
+    caption: "1. Four styles: one photo restyled as noir, anime, gouache and superflat. Images: gpt-image-2. Video: Seedance 2 720p."
+  - file: examples/reference-four-styles-sheet.jpg
+    caption: "2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Seedance 2 720p."
   - file: examples/cartoon-modern-upa.jpg
     caption: "Cartoon Modern (UPA)"
   - file: examples/graphic-noir.jpg

@@ -48,6 +48,10 @@ Send it with the photo as a reference (`sourceAssets`, `role: "reference"`). Gen
 - Face still readable at thumbnail size.
 - For video: compare duration and voice sync against the original before editing around it.
 
+## Reference
+
+A finished example: [reference-four-styles.mp4](examples/reference-four-styles.mp4). One photo (made with gpt-image-2) is restyled with the wrapper above into Graphic noir, Neon punk anime, Gouache and Superflat. Neon punk anime and Superflat are animated from their stills with Seedance 2 at 720p; the other two get a slow push-in. A white pill names each style, a CC0 loop and a whoosh on each cut carry the audio, and the last shot puts all four side by side. The [contact sheet](examples/reference-four-styles-sheet.jpg) shows one frame per second.
+
 See [examples/](examples/) for an image for every style from [sferro21’s guides](https://www.instagram.com/sferro21).
 
 ## Credit

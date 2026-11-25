@@ -452,7 +452,7 @@ Generated from each folder's `skill.yml` by `npm run build`. Previews loop autom
 <h4><a href="skills/ai-illustration-styles">AI illustration styles</a></h4>
 <sub>Restyle any photo or video frame into 12 illustration looks (UPA, noir, superflat, risograph, anime, gouache and more) with one reusable prompt wrapper.</sub><br>
 <sub><b>Adapted</b> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; from <a href="https://www.instagram.com/sferro21">www.instagram.com/sferro21</a> by sferro21</sub><br>
-<sub>Updated 2026-11-23 &nbsp;|&nbsp; <a href="skills/ai-illustration-styles">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ai-illustration-styles">Open on subclip.app</a></sub>
+<sub>Updated 2026-11-25 &nbsp;|&nbsp; <a href="skills/ai-illustration-styles">Folder</a> &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ai-illustration-styles">Open on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/open-design-video-templates"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-video-templates.gif" alt="Open Design Video Templates preview" width="100%"></a><br>

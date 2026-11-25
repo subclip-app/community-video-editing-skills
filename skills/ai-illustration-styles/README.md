@@ -10,6 +10,8 @@ A reusable restyle prompt and twelve style recipes. Take a frame from your video
 
 A prompt wrapper and twelve style recipes.
 
+The [reference video](examples/reference-four-styles.mp4) shows one photo restyled into Graphic noir, Neon punk anime, Gouache and Superflat, two of them animated with Seedance 2 at 720p (images: gpt-image-2). Music: city-loop by wi-photos on Freesound (CC0).
+
 ## Install
 
 Add this skill from **Skills > Community** in Subclip, or point your agent at this folder. It works with Claude Code, Codex, Cursor and the in-app agent through Subclip's MCP tools.
@@ -28,6 +30,10 @@ Add this skill from **Skills > Community** in Subclip, or point your agent at th
 <!-- examples:start -->
 
 ## Examples
+
+<p align="center"><a href="examples/reference-four-styles.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-illustration-styles/reference-four-styles.gif" alt="1. Four styles: one photo restyled as noir, anime, gouache and superflat. Images: gpt-image-2. Video: Seedance 2 720p." width="480"></a><br><sub>1. Four styles: one photo restyled as noir, anime, gouache and superflat. Images: gpt-image-2. Video: Seedance 2 720p. <a href="examples/reference-four-styles.mp4">Play with sound</a></sub></p>
+
+<p align="center"><img src="examples/reference-four-styles-sheet.jpg" alt="2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Seedance 2 720p." width="720"><br><sub>2. Contact sheet: one frame per second of the reference. Images: gpt-image-2. Video: Seedance 2 720p.</sub></p>
 
 <p align="center"><img src="examples/cartoon-modern-upa.jpg" alt="Cartoon Modern (UPA)" width="720"><br><sub>Cartoon Modern (UPA)</sub></p>
 
