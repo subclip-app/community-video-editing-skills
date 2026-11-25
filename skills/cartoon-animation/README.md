@@ -26,6 +26,10 @@ In Subclip: **Skills > Add skill**, paste `https://github.com/subclip-app/commun
 | `references/acting-guide.md` | The rules, principles, acting vocabulary, storyboard format, review loop, failures, a worked timing example |
 | `references/canvas-brush-kit.md` | The canvas painting kit, a starter character, camera and transition helpers, the layer template and an example shot |
 
+## Reference
+
+[bean-and-butterfly-reference.mp4](examples/bean-and-butterfly-reference.mp4) is a 14 second cartoon made with this skill: a bored bean chases a butterfly with three hops and a missed lunge, sulks at sunset, and the butterfly lands on its head. It is painted entirely in code (three HyperFrames canvas layers, no image, video or audio model), cut on a 120 BPM marimba loop with boings and whooshes on native audio lanes. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 ## Limits
 
 The p5.brush look (WebGL watercolor, pigment mixing) is approximated in plain canvas. The original mascot and model sheets are left out on purpose, because the character is a brand mascot and the repository license is a code license.
@@ -34,15 +38,11 @@ The p5.brush look (WebGL watercolor, pigment mixing) is approximated in plain ca
 
 ## Examples
 
-<p align="center"><img src="examples/snail-dashes-for-cover.jpg" alt="Wide shot of a painted snail reaching the shelter of a leaf." width="720"><br><sub>Wide shot of a painted snail reaching the shelter of a leaf.</sub></p>
+<p align="center"><a href="examples/bean-and-butterfly-reference.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-animation/bean-and-butterfly-reference.gif" alt="1. Bean and butterfly: 14 s cartoon with takes, hops, brush wipes and irises. Code-painted layers, no AI model." width="480"></a><br><sub>1. Bean and butterfly: 14 s cartoon with takes, hops, brush wipes and irises. Code-painted layers, no AI model. <a href="examples/bean-and-butterfly-reference.mp4">Play with sound</a></sub></p>
 
-<p align="center"><a href="examples/snail-dashes-for-cover.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-animation/snail-dashes-for-cover.gif" alt="A raindrop startles the snail into a dash, followed by the outgoing brush wipe." width="480"></a><br><sub>A raindrop startles the snail into a dash, followed by the outgoing brush wipe. <a href="examples/snail-dashes-for-cover.mp4">Play with sound</a></sub></p>
+<p align="center"><img src="examples/one-second-contact-sheet.jpg" alt="2. One frame per second: morning meadow, chase, tumble, sunset landing. Code-painted layers, no AI model." width="720"><br><sub>2. One frame per second: morning meadow, chase, tumble, sunset landing. Code-painted layers, no AI model.</sub></p>
 
-<p align="center"><img src="examples/snail-peeks-out.jpg" alt="Closer painted shot of the snail peeking out while rain falls around the leaf." width="720"><br><sub>Closer painted shot of the snail peeking out while rain falls around the leaf.</sub></p>
-
-<p align="center"><a href="examples/snail-peeks-out.mp4"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/cartoon-animation/snail-peeks-out.gif" alt="The brush wipe reveals the sheltered snail, which peeks out before the iris closes." width="480"></a><br><sub>The brush wipe reveals the sheltered snail, which peeks out before the iris closes. <a href="examples/snail-peeks-out.mp4">Play with sound</a></sub></p>
-
-<p align="center"><sub>Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model.</sub></p>
+<p align="center"><sub>Test outputs made with this skill in Subclip. Scenes painted in code (HyperFrames canvas layers): no image, video or audio model. Music: Marimba loop 2 by BrickDeveloper171 (CC0); boing by Hajisounds (CC0); whoosh and pop from the Subclip SFX library.</sub></p>
 
 <!-- examples:end -->
 

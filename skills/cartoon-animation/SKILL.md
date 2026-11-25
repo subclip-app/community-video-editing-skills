@@ -63,6 +63,10 @@ Cartoons work with a beat. If the creator wants music: `generate_music` (instrum
 - Tell the creator what you could not check: boil smoothness and motion feel need a play-through, and the preview has no zoom crop tool.
 - Save decisions and failed checks with `update_project_director_brief` and `write_session_summary`. Export only when asked: `get_export_configuration`, `list_render_queue`, `export_video`.
 
+## Reference
+
+A finished example: [bean-and-butterfly-reference.mp4](examples/bean-and-butterfly-reference.mp4). A bored bean spots a butterfly, tries three hops on the beat and a lunge that misses, sulks at sunset, and the butterfly lands on its head. Three shots of about 4.5 seconds, each its own HyperFrames layer built from the kit: a take with a painted exclamation mark, a chase with parallax hills, a tumble with dizzy stars, hearts at the end. A brush wipe and two irises join the shots, a CC0 marimba loop at 120 BPM carries the beat, and boings and whooshes sit on the hops and wipes. The [contact sheet](examples/one-second-contact-sheet.jpg) shows one frame per second.
+
 ## Known limits
 
 - The original used p5.js and p5.brush (WebGL watercolor and real pigment mixing). Subclip's layer runtime does not offer them as verified scripts, so the look is an approximation in plain canvas: soft stacked-alpha watercolor, two-pass ink lines, additive glow. If p5 is later allowed in the runtime, check it with `validate_runtime_layer_source` before relying on it.

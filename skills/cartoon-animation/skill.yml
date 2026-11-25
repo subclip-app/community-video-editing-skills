@@ -10,15 +10,11 @@ adaptedBySubclip: true
 license: MIT
 upstream: { repo: JohnHeibel/ClaudeAnimationBase, author: JohnHeibel, license: MIT, commit: "0ac8bf2b31942376cb6b8c4074715595d512acd2", syncedAt: "2026-11-23" }
 addedAt: 2026-11-23
-updatedAt: 2026-11-23
+updatedAt: 2026-11-25
 examples:
-  - file: examples/snail-dashes-for-cover.jpg
-    caption: "Wide shot of a painted snail reaching the shelter of a leaf."
-  - file: examples/snail-dashes-for-cover.mp4
-    caption: "A raindrop startles the snail into a dash, followed by the outgoing brush wipe."
-  - file: examples/snail-peeks-out.jpg
-    caption: "Closer painted shot of the snail peeking out while rain falls around the leaf."
-  - file: examples/snail-peeks-out.mp4
-    caption: "The brush wipe reveals the sheltered snail, which peeks out before the iris closes."
-examplesCredit: "Test outputs made with this skill in Subclip. Rendered in code (HTML, SVG or canvas, HyperFrames): no image, video or audio model."
+  - file: examples/bean-and-butterfly-reference.mp4
+    caption: "1. Bean and butterfly: 14 s cartoon with takes, hops, brush wipes and irises. Code-painted layers, no AI model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: morning meadow, chase, tumble, sunset landing. Code-painted layers, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Scenes painted in code (HyperFrames canvas layers): no image, video or audio model. Music: Marimba loop 2 by BrickDeveloper171 (CC0); boing by Hajisounds (CC0); whoosh and pop from the Subclip SFX library."
 examplesKind: test
