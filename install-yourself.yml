@@ -220,6 +220,7 @@
 - slug: kubai-icons
   name: Kubai Icons
   repo: kubai087/kubai-icons
+  mirror: subclip-app/kubai-icons
   category: motion
   what: An agent skill that draws icons in one consistent style, with hover motion. Three looks (layered, two-tone solid and line), 4,800+ ready icons for React, Vue and plain SVG, and a website to browse them.
   why: Its source-available license lets you install and use it, also for paid work, and the icons you draw are yours. It does not allow sharing a changed version, so Subclip cannot adapt it. Install the original yourself, export your icons as SVG files or record their hover motion on its gallery page, then import them into Subclip.
@@ -240,6 +241,7 @@
 - slug: idol
   name: Idol
   repo: speridlabs/idol-sdk
+  mirror: subclip-app/idol-sdk
   category: 3d
   what: Turns one picture of an object into a 3D Gaussian splat (.ply file), including the sides the picture never showed. A Python inference SDK and a local demo app, best on an NVIDIA GPU with about 8 GB of memory.
   why: "Does not work inside Subclip. It is not a video editing skill: it needs a local Python and GPU setup and makes 3D Gaussian splats, which Subclip cannot load as a 3D layer. Install it yourself (pip install -e .), run python -m idol.sample on your image, turn the result in its demo viewer or any splat viewer, record that as a video and import it into Subclip."

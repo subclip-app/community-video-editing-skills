@@ -3494,7 +3494,7 @@
       "name": "Product launch motion",
       "seoTitle": "Product Launch Videos From Code: Dribbble-Level Motion (product-launch-motion)",
       "summary": "A launch film from code with one shape that never cuts, springs and a cursor, plus 68 scene types, recipes and easings with clips.",
-      "category": "promos",
+      "category": "ui-saas",
       "tags": [
         "launch-video",
         "product-film",
@@ -4675,7 +4675,7 @@
       "name": "Video Shotcraft",
       "seoTitle": "Video Shotcraft: Shot Planning for AI Video (Vincentwei1021/video-shotcraft)",
       "summary": "Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.",
-      "category": "promos",
+      "category": "ui-saas",
       "tags": [
         "product-promo",
         "shot-recipes",
@@ -4974,7 +4974,7 @@
       "name": "Website to video",
       "seoTitle": "Website to Video: Turn a URL Into a Branded Video",
       "summary": "Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.",
-      "category": "promos",
+      "category": "ui-saas",
       "tags": [
         "website",
         "brand",
@@ -5703,6 +5703,7 @@
       "repo": "kubai087/kubai-icons",
       "url": "https://github.com/kubai087/kubai-icons",
       "category": "motion",
+      "mirror": "subclip-app/kubai-icons",
       "references": [
         {
           "group": "Site and docs",
@@ -5762,6 +5763,7 @@
       "repo": "speridlabs/idol-sdk",
       "url": "https://github.com/speridlabs/idol-sdk",
       "category": "3d",
+      "mirror": "subclip-app/idol-sdk",
       "references": [
         {
           "group": "Model and demo",

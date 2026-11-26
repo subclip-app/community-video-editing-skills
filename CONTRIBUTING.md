@@ -47,7 +47,7 @@ addedAt: 2026-11-23
 | `slug` | Required, unique kebab-case, equal to the folder name. |
 | `name` | Required display name, at most 100 characters. |
 | `summary` | Required, at most 160 characters. Say what the skill makes. |
-| `category` | One of `explainers`, `slides`, `motion`, `3d`, `pixel-art`, `animation`, `captions`, `audio`, `promos`, `templates`, `workflow`. |
+| `category` | One of `explainers`, `slides`, `motion`, `3d`, `pixel-art`, `animation`, `captions`, `audio`, `promos`, `templates`, `workflow`, `broll`, `clipping`, `ui-saas` (product UI, SaaS demos, websites and app screens). |
 | `tags` | Required list of unique kebab-case strings. |
 | `cover` | Required relative image path inside the folder. |
 | `preview` | Optional relative path to a silent MP4 loop. |

@@ -8,7 +8,7 @@ import { checkCover, checkPreview } from './media.mjs';
 import { readSkillFrontmatter, scanSkillFiles } from './desktop-scan.mjs';
 export const licenses = ['MIT','Apache-2.0','BSD-2-Clause','BSD-3-Clause','ISC','AGPL-3.0','GPL-3.0','MPL-2.0','CC-BY-4.0','CC0-1.0','Unlicense'];
 export const notStated = 'Not stated';
-export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow','broll','clipping'];
+export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow','broll','clipping','ui-saas'];
 export const flagCodes = ['prompt-injection','exfiltration','remote-code','api-key','html-injection','hidden-text','missing-frontmatter','scripts','external-provider','files-skipped'];
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 function assert(ok, message) { if (!ok) throw Error(message); }
@@ -73,7 +73,7 @@ export function validateMetadata(m, slug) {
 }
 export async function readMetadata(folder) { return validateMetadata(parseYaml(await readFile(resolve(folder, 'skill.yml'), 'utf8')), basename(folder)); }
 function cell(s) { return s.replaceAll('&', '&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('|','&#124;').replaceAll('[','&#91;').replaceAll(']','&#93;'); }
-const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows', broll: 'B-roll', clipping: 'Clipping' };
+const CATEGORY_LABELS = { explainers: 'Explainers', slides: 'Slides', motion: 'Motion graphics', '3d': '3D', 'pixel-art': 'Pixel art', animation: 'Animation', captions: 'Captions', audio: 'Audio and music', promos: 'Promos', templates: 'Templates', workflow: 'Workflows', broll: 'B-roll', clipping: 'Clipping', 'ui-saas': 'UI and SaaS' };
 function attr(s) { return s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
 /** The "Examples" section of a skill README, generated from skill.yml so GitHub shows the same references and examples as subclip.app. */
 export function examplesBlock(m) {
@@ -233,7 +233,7 @@ export function installYourselfMarkdown(items) {
     const video = i.video ? `<br><a href="${i.video.split('/').map(encodeURIComponent).join('/')}">Watch the silent preview</a>` : '';
     return `| [<img src="${attr(i.preview)}" alt="${attr(i.repo)} on GitHub" width="240">](${i.url})${video} | **[${cell(i.name)}](${i.url})**<br>${cell(i.repo)}${i.mirror ? `<br>Backup fork: [${cell(i.mirror)}](https://github.com/${i.mirror})` : ''} | ${cell(i.what)} | ${cell(i.why)} |`;
   });
-  return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository because their licenses do not grant the permissions needed. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
+  return ['# Install it yourself', '', 'These projects are not adapted or copied into this repository. Most are listed because their licenses do not grant the permissions needed; a few do not run inside Subclip, and each row says why. Installing an original does not change its license. Check its terms before using its material.', '', 'This file is generated from `install-yourself.yml` by `npm run build`.', '', '| Preview | Skill | What it does | Why it is not adapted |', '| --- | --- | --- | --- |', ...rows, '', '## How to install it yourself in Subclip', '', 'Open the **Skills** window, choose **Add skill**, and paste the original GitHub link above (click a preview to open it). The app scans it and your own agent reviews it before you confirm installation. Follow the original author\'s license and attribution terms, including any limits on commercial use.', ''].join('\n');
 }
 /** options.files: also write (or, with check, verify) files.json. Off by default: a skill commit never touches it, only a release does (scripts/release.mjs). */
 export async function build(root = process.cwd(), check = false, options = {}) {
