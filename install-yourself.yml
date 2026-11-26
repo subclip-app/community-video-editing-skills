@@ -217,3 +217,46 @@
       caption: "Our own example: The boat and clouds drift as the sun rises above the lake."
     - file: install-yourself/lemo-wake/examples/return-motion.jpg
       caption: "Our own example: The boat tilts as it sails back toward the opening pose."
+- slug: kubai-icons
+  name: Kubai Icons
+  repo: kubai087/kubai-icons
+  category: motion
+  what: An agent skill that draws icons in one consistent style, with hover motion. Three looks (layered, two-tone solid and line), 4,800+ ready icons for React, Vue and plain SVG, and a website to browse them.
+  why: Its source-available license lets you install and use it, also for paid work, and the icons you draw are yours. It does not allow sharing a changed version, so Subclip cannot adapt it. Install the original yourself, export your icons as SVG files or record their hover motion on its gallery page, then import them into Subclip.
+  references:
+    - group: "Site and docs"
+      links:
+        - { label: "Browse the icons", url: "https://icons.kubai.design/icons/" }
+        - { label: "Docs", url: "https://icons.kubai.design/docs/" }
+        - { label: "Skill release v2.1.0", url: "https://github.com/kubai087/kubai-icons/releases/tag/v2.1.0" }
+        - { label: "Which license covers what", url: "https://github.com/kubai087/kubai-icons/blob/main/LICENSING.md" }
+        - { label: "Licence: Kubai Icons License", url: "https://github.com/kubai087/kubai-icons/blob/main/LICENSE" }
+    - group: "Icon packages (MIT)"
+      links:
+        - { label: "kubai-icons-react", url: "https://github.com/kubai087/kubai-icons/tree/main/packages/react" }
+        - { label: "kubai-icons-vue", url: "https://github.com/kubai087/kubai-icons/tree/main/packages/vue" }
+        - { label: "kubai-icons (plain JavaScript)", url: "https://github.com/kubai087/kubai-icons/tree/main/packages/core" }
+        - { label: "kubai-icons-static (SVG files)", url: "https://github.com/kubai087/kubai-icons/tree/main/packages/static" }
+- slug: idol
+  name: Idol
+  repo: speridlabs/idol-sdk
+  category: 3d
+  what: Turns one picture of an object into a 3D Gaussian splat (.ply file), including the sides the picture never showed. A Python inference SDK and a local demo app, best on an NVIDIA GPU with about 8 GB of memory.
+  why: "Does not work inside Subclip. It is not a video editing skill: it needs a local Python and GPU setup and makes 3D Gaussian splats, which Subclip cannot load as a 3D layer. Install it yourself (pip install -e .), run python -m idol.sample on your image, turn the result in its demo viewer or any splat viewer, record that as a video and import it into Subclip."
+  gallery:
+    - https://raw.githubusercontent.com/speridlabs/idol-sdk/52e558a77b8a4d5a59c68dcf1472a3b4f9ecd11a/assets/gallery/armchair.webp
+    - https://raw.githubusercontent.com/speridlabs/idol-sdk/52e558a77b8a4d5a59c68dcf1472a3b4f9ecd11a/assets/gallery/lamp.webp
+  galleryCredit: Input image and generated object turning, from the Idol README by Speridlabs, Apache-2.0.
+  references:
+    - group: "Model and demo"
+      links:
+        - { label: "Model weights on Hugging Face", url: "https://huggingface.co/speridlabs/idol" }
+        - { label: "Try it online: Idol demo", url: "https://huggingface.co/spaces/speridlabs/idol" }
+        - { label: "idol-cuda: faster sampling build", url: "https://github.com/suvadityamuk/idol-cuda" }
+        - { label: "TripoSplat, which Idol builds on", url: "https://github.com/VAST-AI-Research/TripoSplat" }
+        - { label: "Speridlabs", url: "https://speridlabs.com" }
+    - group: "Access needed before the first run"
+      links:
+        - { label: "DINOv3 image encoder (DINOv3 License)", url: "https://huggingface.co/facebook/dinov3-vith16plus-pretrain-lvd1689m" }
+        - { label: "FLUX.2 dev autoencoder (FLUX Non-Commercial License)", url: "https://huggingface.co/black-forest-labs/FLUX.2-dev" }
+        - { label: "Licence: Apache-2.0", url: "https://github.com/speridlabs/idol-sdk/blob/main/LICENSE" }
