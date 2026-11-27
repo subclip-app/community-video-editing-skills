@@ -144,11 +144,12 @@ function withExamples(readme, block) {
 export const EXAMPLE_GIF_LIMIT = 12;
 export const README_PREVIEW_BASE = 'https://subclipweb.subclip.app/agent-skills/community-readme';
 const SITE_SKILL = 'https://www.subclip.app/agent-skills/community';
-/** README catalog: a jump bar, then one section per category with a 2-column grid of looping previews, name, summary, credit and links. */
-export function catalog(skills) {
-  // README order: Promos, Motion graphics and Animation first, then the rest, then B-roll last.
-  const first = ['promos', 'motion', 'animation'], last = ['broll'];
-  const order = [...first, ...Object.keys(CATEGORY_LABELS).filter(c => !first.includes(c) && !last.includes(c)), ...last];
+// Same category order as the chips on subclip.app (CommunityDirectory.tsx CATEGORY_ORDER) and the desktop app.
+export const README_CATEGORY_ORDER = ['explainers', 'ui-saas', 'animation', 'templates', 'motion', '3d', 'pixel-art', 'captions', 'audio', 'promos', 'workflow', 'broll', 'clipping', 'slides'];
+/** README catalog: categories in the website's chip order; inside each, the website's default order (featured-order.json, then slug). */
+export function catalog(skills, featuredOrder = []) {
+  const order = [...README_CATEGORY_ORDER, ...Object.keys(CATEGORY_LABELS).filter(c => !README_CATEGORY_ORDER.includes(c))];
+  const rank = slug => { const i = featuredOrder.indexOf(slug); return i === -1 ? 999 : i; };
   const groups = [...new Set(skills.map(s => s.category))].sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99) || a.localeCompare(b));
   const anchor = g => (CATEGORY_LABELS[g] ?? g).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const cellHtml = s => [
@@ -165,7 +166,7 @@ export function catalog(skills) {
     `<p align="center">${groups.map(g => `<a href="#${anchor(g)}">${CATEGORY_LABELS[g] ?? g}</a>`).join(' &nbsp;|&nbsp; ')}</p>`,
   ];
   for (const group of groups) {
-    const items = skills.filter(s => s.category === group).sort((a, b) => (b.addedAt).localeCompare(a.addedAt) || a.name.localeCompare(b.name));
+    const items = skills.filter(s => s.category === group).sort((a, b) => rank(a.slug) - rank(b.slug) || a.slug.localeCompare(b.slug));
     out.push('', `### ${CATEGORY_LABELS[group] ?? group}`, '', '<table>');
     for (let i = 0; i < items.length; i += 2) {
       const row = items.slice(i, i + 2).map(cellHtml);
@@ -270,7 +271,10 @@ export async function build(root = process.cwd(), check = false, options = {}) {
   const filesJson = JSON.stringify({ version: 1, repository: 'subclip-app/community-video-editing-skills', skills: fileIndex }) + '\n';
   const readmePath = resolve(root, 'README.md'); const readme = await readFile(readmePath,'utf8');
   assert((readme.match(/<!-- skills:start -->/g) ?? []).length === 1 && (readme.match(/<!-- skills:end -->/g) ?? []).length === 1 && readme.indexOf('<!-- skills:start -->') < readme.indexOf('<!-- skills:end -->'), 'README needs one ordered pair of skills markers');
-  const table = catalog(skills);
+  const featuredFile = resolve(root, 'featured-order.json');
+  const featuredOrder = await readFile(featuredFile, 'utf8').then(text => JSON.parse(text).order ?? [], () => []);
+  assert(Array.isArray(featuredOrder) && featuredOrder.every(slug => typeof slug === 'string'), 'featured-order.json needs an "order" array of skill slugs');
+  const table = catalog(skills, featuredOrder);
   const nextReadme = readme.replace(/<!-- skills:start -->[\s\S]*?<!-- skills:end -->/, `<!-- skills:start -->\n\n${table}\n\n<!-- skills:end -->`);
   for (const [file, next] of [[resolve(root,'registry.json'),registry],...(options.files ? [[resolve(root,'files.json'),filesJson]] : []),[readmePath,nextReadme], ...readmeWrites, ...(installYourself ? [[resolve(root,'INSTALL_YOURSELF.md'),installYourselfMarkdown(installYourself)]] : [])]) {
     const current = await readFile(file,'utf8').catch(e => { if (e.code === 'ENOENT') return null; throw e; });
