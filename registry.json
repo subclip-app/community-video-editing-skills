@@ -4533,6 +4533,53 @@
       "examplesKind": "test"
     },
     {
+      "slug": "taste-skill",
+      "name": "Taste skill",
+      "seoTitle": "Taste Skill: Anti-Slop Art Direction for SaaS Videos and Websites (Leonxlnx/taste-skill)",
+      "summary": "Anti-slop art direction for websites and SaaS videos: one system, real product UI, one hero entrance, one or two moments, plain copy, checked frame by frame.",
+      "category": "ui-saas",
+      "tags": [
+        "saas",
+        "product-ui",
+        "website",
+        "art-direction",
+        "hyperframes",
+        "launch-video"
+      ],
+      "path": "skills/taste-skill",
+      "skills": [
+        "taste-skill"
+      ],
+      "cover": "skills/taste-skill/cover.svg",
+      "preview": "skills/taste-skill/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Leonxlnx/taste-skill",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "author": "Leon Lin",
+        "license": "MIT",
+        "commit": "d1a2bb41d927083ac7118f60cfc9cdf711810ea0",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/taste-skill/examples/taste-skill-reference.mp4",
+          "kind": "video",
+          "caption": "1. SaaS explainer for a made-up product: one system, product UI as layers, one hero entrance, two dealt moments. No AI model."
+        },
+        {
+          "path": "skills/taste-skill/examples/taste-skill-reference-sheet.jpg",
+          "kind": "image",
+          "caption": "2. Contact sheet: one frame per second of the explainer, the frame review the agent reads. No AI model."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip from code-rendered HyperFrames scenes, no AI model. Fonts Geist and Geist Mono (OFL). Sounds: ElectronicPerk1 and ElectronicPerk2 by aikighost (CC0, Freesound), Remotion mouse-click and page-turn, Subclip Short whoosh.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "threejs-3d-scenes",
       "name": "Three.js 3D scenes",
       "seoTitle": "Three.js 3D Scenes for Video (mrdoob/three.js)",
