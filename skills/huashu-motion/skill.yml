@@ -1,0 +1,19 @@
+slug: huashu-motion
+name: Huashu motion
+seoTitle: "Huashu Motion: Director Method for Launch Films as Code (alchaincyf)"
+summary: The director method for launch films as code. Real product material, three directions, a treatment, an energy shape and frame-pointed fixes.
+category: ui-saas
+tags: [launch-video, product-film, director, hyperframes, gsap, explainers]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: alchaincyf/huashu-motion, author: alchaincyf, license: MIT, commit: "f4f38bfe295a3f768753857be9236cc3277c7dad", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+examples:
+  - file: examples/huashu-motion-reference.mp4
+    caption: "A 25 s launch film for Subclip: real homepage, prompt, six template cuts on the beat, a stop, a wall of tools, the logo. No AI model."
+  - file: examples/huashu-motion-contact-sheet.jpg
+    caption: "The same film at one frame per second: hook, burst, stop, peak and landing on one sheet. No AI model."
+examplesCredit: "Made with this skill in Subclip from real subclip.app material, HyperFrames scenes and a CC0 loop by josefpres (freesound.org/s/621770). No AI model, 0 credits."
+examplesKind: test

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect x="0" y="560" width="1600" height="340" fill="#0b1b4a"/>
+<text x="90" y="170" font-family="Helvetica,Arial,sans-serif" font-size="112" font-weight="700" fill="#153592">Huashu motion</text>
+<text x="94" y="240" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#26c9d5">Adapted for Subclip</text>
+<rect x="90" y="270" width="260" height="8" rx="4" fill="#26c9d5"/>
+<text x="94" y="350" font-family="Helvetica,Arial,sans-serif" font-size="40" fill="#153592">The director method for launch films as code</text>
+<g font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="700">
+<rect x="94" y="400" width="250" height="70" rx="35" fill="#153592"/><text x="219" y="446" text-anchor="middle" fill="#ffffff">Real material</text>
+<rect x="364" y="400" width="270" height="70" rx="35" fill="#26c9d5"/><text x="499" y="446" text-anchor="middle" fill="#0b1b4a">Three directions</text>
+<rect x="654" y="400" width="210" height="70" rx="35" fill="#153592"/><text x="759" y="446" text-anchor="middle" fill="#ffffff">Treatment</text>
+<rect x="884" y="400" width="250" height="70" rx="35" fill="#26c9d5"/><text x="1009" y="446" text-anchor="middle" fill="#0b1b4a">Point to edit</text>
+</g>
+<path d="M90 800 L230 700 L330 730 L470 640 L560 610 L650 625 L740 595 L800 840 L880 840 L940 600 L1060 610 L1150 660 L1300 720 L1510 740" fill="none" stroke="#26c9d5" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+<g fill="#ffffff"><circle cx="230" cy="700" r="12"/><circle cx="560" cy="610" r="12"/><circle cx="840" cy="840" r="12"/><circle cx="940" cy="600" r="12"/><circle cx="1510" cy="740" r="12"/></g>
+<g font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#ffffff">
+<text x="230" y="665" text-anchor="middle">Hook</text>
+<text x="560" y="590" text-anchor="middle">Burst</text>
+<text x="840" y="810" text-anchor="middle">Stop</text>
+<text x="1010" y="585" text-anchor="middle">Peak</text>
+<text x="1480" y="700" text-anchor="middle">Landing</text>
+</g>
+</svg>
