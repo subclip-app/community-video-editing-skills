@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>54 skills</b> in 13 categories</p>
+<p align="center"><b>55 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -251,40 +251,45 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/video-explainer"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-explainer.gif" alt="Video explainer preview" width="100%"></a><br>
+<h4><a href="skills/video-explainer">Video explainer</a></h4>
+<sub>Any topic, doc or URL to a tight 60 to 75 second explainer in Motion, Illustrated or 3D, with narration, word-timed animation and captions.</sub><br>
+<sub>Adapted from <a href="https://github.com/petergyang/video-explainer">petergyang/video-explainer</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/video-explainer">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/anatomy"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/anatomy.gif" alt="Anatomy isometric figures preview" width="100%"></a><br>
 <h4><a href="skills/anatomy">Anatomy isometric figures</a></h4>
 <sub>Isometric explainer figures for video: a real object, many small parts and calm motion, built as HyperFrames scenes with optional narration.</sub><br>
 <sub>Adapted from <a href="https://github.com/wheresryan22/anatomy">wheresryan22/anatomy</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/anatomy">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/documentary-case-file"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/documentary-case-file.gif" alt="Documentary case file preview" width="100%"></a><br>
 <h4><a href="skills/documentary-case-file">Documentary case file</a></h4>
 <sub>One sentence in, a documentary plan with chapters, locked stills, scene clips and a narrator, assembled on the Subclip timeline.</sub><br>
 <sub>Adapted from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/documentary-case-file">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/manim-composer"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/manim-composer.gif" alt="Manim composer preview" width="100%"></a><br>
 <h4><a href="skills/manim-composer">Manim composer</a></h4>
 <sub>Plan and build a 3Blue1Brown-style math explainer as animated, narrated motion-layer scenes.</sub><br>
 <sub>Adapted from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/manim-composer">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/vox-director"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-director.gif" alt="Vox director preview" width="100%"></a><br>
 <h4><a href="skills/vox-director">Vox director</a></h4>
 <sub>Direct paper-collage explainers with beat maps, theme comparisons, wide-to-detail shot plans and editable motion in Subclip.</sub><br>
 <sub>Adapted from <a href="https://github.com/Alisa0808/vox-director">Alisa0808/vox-director</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/vox-director">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/vox-explainer"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/vox-explainer.gif" alt="Vox explainer preview" width="100%"></a><br>
 <h4><a href="skills/vox-explainer">Vox explainer</a></h4>
 <sub>One topic in, a finished Vox-style explainer.</sub><br>
 <sub>Adapted from <a href="https://github.com/CK42BB/vox-explainer-skill">CK42BB/vox-explainer-skill</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/vox-explainer">View on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 

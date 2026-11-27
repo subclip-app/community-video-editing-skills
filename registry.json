@@ -4671,6 +4671,53 @@
       }
     },
     {
+      "slug": "video-explainer",
+      "name": "Video explainer",
+      "seoTitle": "Video Explainer: Any Topic to a 60 Second Animated Explainer (petergyang)",
+      "summary": "Any topic, doc or URL to a tight 60 to 75 second explainer in Motion, Illustrated or 3D, with narration, word-timed animation and captions.",
+      "category": "explainers",
+      "tags": [
+        "explainer",
+        "motion-graphics",
+        "hyperframes",
+        "narration",
+        "illustrated",
+        "3d"
+      ],
+      "path": "skills/video-explainer",
+      "skills": [
+        "video-explainer"
+      ],
+      "cover": "skills/video-explainer/cover.svg",
+      "preview": "skills/video-explainer/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "petergyang/video-explainer",
+        "url": "https://github.com/petergyang/video-explainer",
+        "author": "Peter Yang",
+        "license": "MIT",
+        "commit": "be2f729161585be2482f6a5699e8cfb47da3daeb",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/video-explainer/examples/card-payment-2-seconds.mp4",
+          "kind": "video",
+          "caption": "1. How a card payment travels in 2 seconds: 32.5 s Motion mode, three HyperFrames scenes. Voice: local jean. No AI model."
+        },
+        {
+          "path": "skills/video-explainer/examples/card-payment-2-seconds-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: card tap hook, encrypted packet, card network, three checks, YES returns, money settles at night. No AI model."
+        }
+      ],
+      "examplesCredit": "Test output made with this skill in Subclip at zero credits. Scenes drawn in code (HyperFrames HTML and SVG), no image or video model. Voice: local jean voice. Captions: local Whisper Small. Music: ElectronicPerk1 by aikighost on Freesound (CC0). Whoosh, whip and ding from the Remotion library.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "video-shotcraft",
       "name": "Video Shotcraft",
       "seoTitle": "Video Shotcraft: Shot Planning for AI Video (Vincentwei1021/video-shotcraft)",
