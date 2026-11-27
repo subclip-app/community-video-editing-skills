@@ -4418,15 +4418,15 @@
       "cover": "skills/transitions-dev/cover.svg",
       "preview": "skills/transitions-dev/preview.mp4",
       "adaptedBySubclip": true,
-      "license": "MIT",
+      "license": "Transitions.dev License",
       "upstream": {
         "repo": "Jakubantalik/transitions.dev",
         "url": "https://github.com/Jakubantalik/transitions.dev",
         "author": "Jakub Antalik",
-        "license": "MIT",
+        "license": "Transitions.dev License",
         "commit": "ec4d48f5aa49a068fc89cbc07d69fa378a9b67f1",
         "syncedAt": "2026-11-27",
-        "note": "The repo tooling (agent/, cli/) is MIT; its transitions/ and skills/ folders use the Transitions.dev License (free use, no redistribution of the library). The builder needs an allowed identifier, so MIT is listed. This adaptation copies no transitions, links to them by name and keeps the original LICENSE."
+        "note": "The repo tooling (agent/, cli/) is MIT; its transitions/ and skills/ folders use the Transitions.dev License (free use, no redistribution of the library). This adaptation copies no transitions, links to them by name and keeps the original LICENSE."
       },
       "addedAt": "2026-11-27",
       "updatedAt": "2026-11-27",

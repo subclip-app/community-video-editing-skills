@@ -497,7 +497,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <a href="skills/transitions-dev"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/transitions-dev.gif" alt="transitions-dev for video preview" width="100%"></a><br>
 <h4><a href="skills/transitions-dev">transitions-dev for video</a></h4>
 <sub>Pick the right UI transition for each state change in a SaaS explainer, build seekable product UI scenes and polish the motion frame by frame.</sub><br>
-<sub>Adapted from <a href="https://github.com/Jakubantalik/transitions.dev">Jakubantalik/transitions.dev</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/transitions-dev">View on subclip.app</a></sub>
+<sub>Adapted from <a href="https://github.com/Jakubantalik/transitions.dev">Jakubantalik/transitions.dev</a> &nbsp;|&nbsp; Transitions.dev License &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/transitions-dev">View on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/product-launch-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/product-launch-motion.gif" alt="Product launch motion preview" width="100%"></a><br>

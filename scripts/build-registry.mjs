@@ -6,7 +6,7 @@ import { parseYaml } from './yaml.mjs';
 import { walk, localFile } from './files.mjs';
 import { checkCover, checkPreview } from './media.mjs';
 import { readSkillFrontmatter, scanSkillFiles } from './desktop-scan.mjs';
-export const licenses = ['MIT','Apache-2.0','BSD-2-Clause','BSD-3-Clause','ISC','AGPL-3.0','GPL-3.0','MPL-2.0','CC-BY-4.0','CC0-1.0','Unlicense'];
+export const licenses = ['MIT','Apache-2.0','BSD-2-Clause','BSD-3-Clause','ISC','AGPL-3.0','GPL-3.0','MPL-2.0','CC-BY-4.0','CC0-1.0','Unlicense','Transitions.dev License'];
 export const notStated = 'Not stated';
 export const categories = ['explainers','slides','motion','3d','pixel-art','animation','captions','audio','promos','templates','workflow','broll','clipping','ui-saas'];
 export const flagCodes = ['prompt-injection','exfiltration','remote-code','api-key','html-injection','hidden-text','missing-frontmatter','scripts','external-provider','files-skipped'];
