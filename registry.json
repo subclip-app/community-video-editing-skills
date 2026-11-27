@@ -4262,6 +4262,53 @@
       "examplesKind": "original"
     },
     {
+      "slug": "rough-sketch",
+      "name": "Rough sketch",
+      "seoTitle": "Rough Sketch: Hand-Drawn Whiteboard Explainer Videos with Rough.js",
+      "summary": "Hand-drawn whiteboard explainers with Rough.js: sketchy diagrams, charts, arrows and circled callouts drawn on in sync with the voice.",
+      "category": "explainers",
+      "tags": [
+        "whiteboard",
+        "hand-drawn",
+        "diagrams",
+        "roughjs",
+        "hyperframes",
+        "callouts"
+      ],
+      "path": "skills/rough-sketch",
+      "skills": [
+        "rough-sketch"
+      ],
+      "cover": "skills/rough-sketch/cover.jpg",
+      "preview": "skills/rough-sketch/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "rough-stuff/rough",
+        "url": "https://github.com/rough-stuff/rough",
+        "author": "Preet Shihn",
+        "license": "MIT",
+        "commit": "56a2762171b1294d643501e8d14f120db6b27bd7",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/rough-sketch/examples/rough-sketch-reference.mp4",
+          "kind": "video",
+          "caption": "1. Whiteboard explainer: a web request drawn on stroke by stroke, then a bar chart with the slow part circled. No AI model."
+        },
+        {
+          "path": "skills/rough-sketch/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: two HyperFrames layers drawn with Rough.js and fixed seeds. Local voice, no AI model."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip. Drawn in code with Rough.js in HyperFrames layers: no image or video model. Voice: Subclip local speech. Music: Zimbalom by BuytheField on Freesound (CC0).",
+      "examplesKind": "test"
+    },
+    {
       "slug": "stickman-video-director",
       "name": "Stickman video director",
       "seoTitle": "Stickman Animated Explainer Videos From a Script (stickman-video-director)",

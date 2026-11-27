@@ -1,0 +1,24 @@
+slug: rough-sketch
+name: Rough sketch
+seoTitle: "Rough Sketch: Hand-Drawn Whiteboard Explainer Videos with Rough.js"
+summary: Hand-drawn whiteboard explainers with Rough.js: sketchy diagrams, charts, arrows and circled callouts drawn on in sync with the voice.
+category: explainers
+tags: [whiteboard, hand-drawn, diagrams, roughjs, hyperframes, callouts]
+cover: cover.jpg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: rough-stuff/rough, author: Preet Shihn, license: MIT, commit: "56a2762171b1294d643501e8d14f120db6b27bd7", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+updatedAt: 2026-11-27
+examples:
+  - file: examples/rough-sketch-reference.mp4
+    caption: "1. Whiteboard explainer: a web request drawn on stroke by stroke, then a bar chart with the slow part circled. No AI model."
+  - file: examples/one-second-contact-sheet.jpg
+    caption: "2. One frame per second: two HyperFrames layers drawn with Rough.js and fixed seeds. Local voice, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Drawn in code with Rough.js in HyperFrames layers: no image or video model. Voice: Subclip local speech. Music: Zimbalom by BuytheField on Freesound (CC0)."
+examplesKind: test
+allowlist:
+  - code: html-injection
+    file: references/layer-template.md
+    reason: The template shows the HyperFrames document an agent pastes into add_runtime_layer, so it contains script tags by design. Nothing in it runs outside a Subclip layer.
