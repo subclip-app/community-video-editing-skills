@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><rect width="1600" height="900" fill="#fff"/>
+<text x="90" y="190" font-family="Helvetica,Arial,sans-serif" font-size="112" font-weight="700" fill="#153592">Archify</text>
+<text x="94" y="258" font-family="Helvetica,Arial,sans-serif" font-size="42" fill="#26c9d5">Adapted for Subclip</text>
+<rect x="90" y="290" width="240" height="8" rx="4" fill="#26c9d5"/>
+<text x="94" y="410" font-family="Helvetica,Arial,sans-serif" font-size="38" fill="#0b1b4a">Codebases as story videos.</text>
+<text x="94" y="466" font-family="Helvetica,Arial,sans-serif" font-size="38" fill="#0b1b4a">10 diagram types.</text>
+<text x="94" y="522" font-family="Helvetica,Arial,sans-serif" font-size="38" fill="#0b1b4a">Every arrow has a source.</text>
+<g font-family="Menlo,monospace" font-size="20">
+<rect x="820" y="330" width="220" height="90" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/><rect x="820" y="330" width="8" height="90" fill="#d97706"/><text x="846" y="370" font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="600" fill="#111827">http.Server</text><text x="846" y="400" fill="#92400e">node:http</text>
+<rect x="1150" y="330" width="300" height="90" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="3"/><rect x="1150" y="330" width="8" height="90" fill="#059669"/><text x="1176" y="370" font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="600" fill="#111827">Application</text><text x="1176" y="400" fill="#065f46">lib/application.js</text>
+<rect x="1150" y="560" width="300" height="90" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="3"/><rect x="1150" y="560" width="8" height="90" fill="#059669"/><text x="1176" y="600" font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="600" fill="#111827">Context</text><text x="1176" y="630" fill="#065f46">lib/context.js</text>
+<rect x="820" y="560" width="240" height="90" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/><rect x="820" y="560" width="8" height="90" fill="#ea580c"/><text x="846" y="600" font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="600" fill="#111827">Middleware</text><text x="846" y="630" fill="#9a3412">koa-compose</text>
+<path d="M1040 375 L1140 375" stroke="#153592" stroke-width="5"/><path d="M1148 375 L1134 367 L1134 383 Z" fill="#153592"/>
+<path d="M1300 420 L1300 550" stroke="#64748b" stroke-width="3"/><path d="M1300 556 L1292 542 L1308 542 Z" fill="#64748b"/>
+<path d="M1200 420 L1200 490 L940 490 L940 550" stroke="#64748b" stroke-width="3" fill="none"/><path d="M940 556 L932 542 L948 542 Z" fill="#64748b"/>
+<circle cx="1100" cy="375" r="12" fill="#153592"/><circle cx="1100" cy="375" r="19" fill="none" stroke="#26c9d5" stroke-width="6" opacity="0.5"/>
+</g>
+<text x="94" y="800" font-family="Menlo,monospace" font-size="24" fill="#64748b">Source: github.com/koajs/koa at 98a19bc</text>
+</svg>

@@ -1138,6 +1138,53 @@
       "examplesKind": "test"
     },
     {
+      "slug": "archify",
+      "name": "Archify",
+      "seoTitle": "Archify in Subclip: Narrated Architecture and Story Videos From Real Code",
+      "summary": "Turn an idea, plan, codebase or PR into a narrated diagram video: 10 diagram types, source-backed story scenes, code highlights and captions.",
+      "category": "ui-saas",
+      "tags": [
+        "architecture-diagram",
+        "story-video",
+        "code-explainer",
+        "sequence-diagram",
+        "pr-walkthrough",
+        "hyperframes"
+      ],
+      "path": "skills/archify",
+      "skills": [
+        "archify"
+      ],
+      "cover": "skills/archify/cover.svg",
+      "preview": "skills/archify/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "tt-a1i/archify",
+        "url": "https://github.com/tt-a1i/archify",
+        "author": "tt-a1i",
+        "license": "Apache-2.0",
+        "commit": "d6b0f71f25a3337ed2fcd09c973cacf67be7baba",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/archify/examples/archify-koa-reference.mp4",
+          "kind": "video",
+          "caption": "1. How Koa handles a request, from koajs/koa source. Edited by Claude Opus 5.5 (claude-opus-5-5) over MCP. Voice: Subclip local TTS."
+        },
+        {
+          "path": "skills/archify/examples/archify-koa-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: architecture, sequence with code, respond() and the loop. Edited by Claude Opus 5.5, no AI generation model."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip for 0 credits. Edited by Claude Opus 5.5 (claude-opus-5-5) over MCP; no AI generation model (voice: Subclip local TTS). Source: koajs/koa at 98a19bc. Music: Chill Background Music by Seth_Makes_Sounds (CC0). SFX: Subclip catalog.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "bang-motion",
       "name": "Bang Motion",
       "seoTitle": "Bang Motion: Code-Driven Motion Graphics for Video (bangtutorial/bang-motion)",
