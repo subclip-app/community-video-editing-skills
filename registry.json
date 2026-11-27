@@ -4398,6 +4398,54 @@
       "examplesKind": "original"
     },
     {
+      "slug": "transitions-dev",
+      "name": "transitions-dev for video",
+      "seoTitle": "UI Transitions for SaaS Explainer Videos (transitions-dev for Subclip)",
+      "summary": "Pick the right UI transition for each state change in a SaaS explainer, build seekable product UI scenes and polish the motion frame by frame.",
+      "category": "ui-saas",
+      "tags": [
+        "ui-transitions",
+        "saas-explainer",
+        "product-ui",
+        "motion-tokens",
+        "hyperframes",
+        "polish"
+      ],
+      "path": "skills/transitions-dev",
+      "skills": [
+        "transitions-dev"
+      ],
+      "cover": "skills/transitions-dev/cover.svg",
+      "preview": "skills/transitions-dev/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "Jakubantalik/transitions.dev",
+        "url": "https://github.com/Jakubantalik/transitions.dev",
+        "author": "Jakub Antalik",
+        "license": "MIT",
+        "commit": "ec4d48f5aa49a068fc89cbc07d69fa378a9b67f1",
+        "syncedAt": "2026-11-27",
+        "note": "The repo tooling (agent/, cli/) is MIT; its transitions/ and skills/ folders use the Transitions.dev License (free use, no redistribution of the library). The builder needs an allowed identifier, so MIT is listed. This adaptation copies no transitions, links to them by name and keeps the original LICENSE."
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/transitions-dev/examples/transitions-dev-reference.mp4",
+          "kind": "video",
+          "caption": "Tasknook, a made-up task app: six labelled transitions from tabs to page slide, built as HyperFrames layers. No AI model."
+        },
+        {
+          "path": "skills/transitions-dev/examples/transitions-dev-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "The reference walkthrough at one frame per second. No AI model."
+        }
+      ],
+      "examplesCredit": "Our own test renders of a fictional product, made in code with no AI model. Music: joyful bells by solarpsychedelic, CC0. No transitions.dev media or code is reused.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "trendjack-animator",
       "name": "Trending animated ads",
       "seoTitle": "Trending Animated Ads: Song, Story, 3D and Skeleton Ad Maker (trendjack-animator)",
