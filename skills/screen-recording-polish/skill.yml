@@ -1,0 +1,22 @@
+slug: screen-recording-polish
+name: Screen recording polish
+seoTitle: "Screen Recording Polish in Subclip: Oversized Cursor and Overlay Captions for Product Demos (HyperFrames)"
+summary: "Polish screen demos: an oversized cursor whose every click causes the next beat, and captions that ride on top: drop, rail or one embed."
+category: ui-saas
+tags: [screen-recording, cursor, captions, product-demo, saas, hyperframes]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Apache-2.0
+upstream: { repo: heygen-com/hyperframes, author: HeyGen, license: Apache-2.0, commit: "b4f47cec1f0fc6ac1dff91de597423b7edc460c5", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+examples:
+  - file: examples/screen-recording-polish-reference.mp4
+    caption: "1. excalidraw.com demo: oversized cursor, a click per beat, rail captions, one LIVE embed. Edited by Claude Opus 5.5 over MCP."
+  - file: examples/screen-recording-polish-contact.jpg
+    caption: "2. One frame per second of the demo. Edited by Claude Opus 5.5 (claude-opus-5-5), voice: Subclip local TTS, no cloud model."
+examplesCredit: "Made with this skill in Subclip for 0 credits from a capture of excalidraw.com. Edited by Claude Opus 5.5 (claude-opus-5-5) over MCP. Voice: Subclip local TTS (Alba), captions: local Whisper, no cloud model. Music: Upbeat Piano Loop by deadrobotmusic (CC0). Click and whoosh: Subclip catalog."
+examplesKind: test
+allowlist:
+  - code: external-provider
+    reason: HeyGen is named only as the author of the open-source HyperFrames skills this adapts. Nothing calls a HeyGen service.

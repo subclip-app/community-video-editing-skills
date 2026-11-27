@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>70 skills</b> in 13 categories</p>
+<p align="center"><b>72 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -518,30 +518,44 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/figma-to-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/figma-to-motion.gif" alt="Figma to motion preview" width="100%"></a><br>
+<h4><a href="skills/figma-to-motion">Figma to motion</a></h4>
+<sub>Figma frames, layers and brand tokens into editable motion: storyboard frames become states of one element, UI frames become click-driven mocks.</sub><br>
+<sub>Adapted from <a href="https://github.com/heygen-com/hyperframes">heygen-com/hyperframes</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/figma-to-motion">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/hallmark"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hallmark.gif" alt="Hallmark preview" width="100%"></a><br>
 <h4><a href="skills/hallmark">Hallmark</a></h4>
 <sub>Pages, product UI and SaaS promo videos that look designed, not generated, checked against a numbered list of AI slop tells.</sub><br>
 <sub>Adapted from <a href="https://github.com/Nutlope/hallmark">Nutlope/hallmark</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/hallmark">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/huashu-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/huashu-motion.gif" alt="Huashu motion preview" width="100%"></a><br>
 <h4><a href="skills/huashu-motion">Huashu motion</a></h4>
 <sub>The director method for launch films as code. Real product material, three directions, a treatment, an energy shape and frame-pointed fixes.</sub><br>
 <sub>Adapted from <a href="https://github.com/alchaincyf/huashu-motion">alchaincyf/huashu-motion</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/huashu-motion">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/impeccable"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/impeccable.gif" alt="Impeccable preview" width="100%"></a><br>
 <h4><a href="skills/impeccable">Impeccable</a></h4>
 <sub>Critique, polish, typeset, colorize and lay out product UI and SaaS videos with one design vocabulary, plus the original website commands.</sub><br>
 <sub>Adapted from <a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/impeccable">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/motionmaxxing"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motionmaxxing.gif" alt="motionmaxxing preview" width="100%"></a><br>
 <h4><a href="skills/motionmaxxing">motionmaxxing</a></h4>
 <sub>Launch films and brand stings with a brand-owned idea, a built world, eases measured on 53 pro moments and six honest frame review gates.</sub><br>
 <sub>Adapted from <a href="https://github.com/Tejashmakwana/motionmaxxing">Tejashmakwana/motionmaxxing</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motionmaxxing">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="skills/screen-recording-polish"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/screen-recording-polish.gif" alt="Screen recording polish preview" width="100%"></a><br>
+<h4><a href="skills/screen-recording-polish">Screen recording polish</a></h4>
+<sub>Polish screen demos: an oversized cursor whose every click causes the next beat, and captions that ride on top: drop, rail or one embed.</sub><br>
+<sub>Adapted from <a href="https://github.com/heygen-com/hyperframes">heygen-com/hyperframes</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/screen-recording-polish">View on subclip.app</a></sub>
 </td>
 </tr>
 <tr>

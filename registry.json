@@ -2535,6 +2535,53 @@
       "examplesKind": "test"
     },
     {
+      "slug": "figma-to-motion",
+      "name": "Figma to motion",
+      "seoTitle": "Figma to Motion in Subclip: Storyboard Frames Become States of One Moving Element (HyperFrames figma skill)",
+      "summary": "Figma frames, layers and brand tokens into editable motion: storyboard frames become states of one element, UI frames become click-driven mocks.",
+      "category": "ui-saas",
+      "tags": [
+        "figma",
+        "storyboard",
+        "design-tokens",
+        "ui-mock",
+        "hyperframes",
+        "cursor"
+      ],
+      "path": "skills/figma-to-motion",
+      "skills": [
+        "figma-to-motion"
+      ],
+      "cover": "skills/figma-to-motion/cover.svg",
+      "preview": "skills/figma-to-motion/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "author": "HeyGen",
+        "license": "Apache-2.0",
+        "commit": "b4f47cec1f0fc6ac1dff91de597423b7edc460c5",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/figma-to-motion/examples/figma-to-motion-reference.mp4",
+          "kind": "video",
+          "caption": "1. Three storyboard frames become one live habit card moved by two clicks. Edited by Claude Opus 5.5 over MCP, no AI model."
+        },
+        {
+          "path": "skills/figma-to-motion/examples/figma-to-motion-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the storyboard film. Edited by Claude Opus 5.5 (claude-opus-5-5), no AI generation model."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip for 0 credits from a storyboard designed for the test. Edited by Claude Opus 5.5 (claude-opus-5-5) driving Subclip over MCP. One HyperFrames layer, no AI generation model. Music: cute loop ambient by deadrobotmusic (CC0). Click and whoosh from the Subclip catalog.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "frontend-slides",
       "name": "Frontend Slides",
       "seoTitle": "Frontend Slides: Turn Slide Outlines Into Animated Video (zarazhangrui)",
@@ -4640,6 +4687,53 @@
         }
       ],
       "examplesCredit": "Test outputs made with this skill in Subclip. Drawn in code with Rough.js in HyperFrames layers: no image or video model. Voice: Subclip local speech. Music: Zimbalom by BuytheField on Freesound (CC0).",
+      "examplesKind": "test"
+    },
+    {
+      "slug": "screen-recording-polish",
+      "name": "Screen recording polish",
+      "seoTitle": "Screen Recording Polish in Subclip: Oversized Cursor and Overlay Captions for Product Demos (HyperFrames)",
+      "summary": "Polish screen demos: an oversized cursor whose every click causes the next beat, and captions that ride on top: drop, rail or one embed.",
+      "category": "ui-saas",
+      "tags": [
+        "screen-recording",
+        "cursor",
+        "captions",
+        "product-demo",
+        "saas",
+        "hyperframes"
+      ],
+      "path": "skills/screen-recording-polish",
+      "skills": [
+        "screen-recording-polish"
+      ],
+      "cover": "skills/screen-recording-polish/cover.svg",
+      "preview": "skills/screen-recording-polish/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "author": "HeyGen",
+        "license": "Apache-2.0",
+        "commit": "b4f47cec1f0fc6ac1dff91de597423b7edc460c5",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/screen-recording-polish/examples/screen-recording-polish-reference.mp4",
+          "kind": "video",
+          "caption": "1. excalidraw.com demo: oversized cursor, a click per beat, rail captions, one LIVE embed. Edited by Claude Opus 5.5 over MCP."
+        },
+        {
+          "path": "skills/screen-recording-polish/examples/screen-recording-polish-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the demo. Edited by Claude Opus 5.5 (claude-opus-5-5), voice: Subclip local TTS, no cloud model."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip for 0 credits from a capture of excalidraw.com. Edited by Claude Opus 5.5 (claude-opus-5-5) over MCP. Voice: Subclip local TTS (Alba), captions: local Whisper, no cloud model. Music: Upbeat Piano Loop by deadrobotmusic (CC0). Click and whoosh: Subclip catalog.",
       "examplesKind": "test"
     },
     {
