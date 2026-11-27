@@ -3,7 +3,7 @@ name: Remotion motion layers
 seoTitle: "Remotion Motion Graphics in Subclip: Editable React Video Layers (Remotion)"
 preinstalled: true
 summary: Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.
-category: motion
+category: ui-saas
 tags: [remotion, react, motion-graphics, typed-props, maps, three-js, preinstalled]
 cover: cover.svg
 preview: preview.mp4

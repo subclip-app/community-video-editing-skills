@@ -2607,7 +2607,7 @@
       "seoTitle": "HyperFrames Motion Graphics in Subclip: Editable HTML and GSAP Video Layers (HeyGen HyperFrames)",
       "preinstalled": true,
       "summary": "Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.",
-      "category": "motion",
+      "category": "ui-saas",
       "tags": [
         "hyperframes",
         "motion-graphics",
@@ -4242,7 +4242,7 @@
       "seoTitle": "Remotion Motion Graphics in Subclip: Editable React Video Layers (Remotion)",
       "preinstalled": true,
       "summary": "Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.",
-      "category": "motion",
+      "category": "ui-saas",
       "tags": [
         "remotion",
         "react",

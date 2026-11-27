@@ -115,38 +115,24 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="skills/hyperframes-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers.gif" alt="HyperFrames motion layers preview" width="100%"></a><br>
-<h4><a href="skills/hyperframes-motion-layers">HyperFrames motion layers</a></h4>
-<sub>Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.</sub><br>
-<sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/hyperframes-motion-layers">View on subclip.app</a></sub>
-</td>
-<td width="50%" valign="top">
 <a href="skills/motion-graphics-skills-pack"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-graphics-skills-pack.gif" alt="Motion graphics skills pack preview" width="100%"></a><br>
 <h4><a href="skills/motion-graphics-skills-pack">Motion graphics skills pack</a></h4>
 <sub>Fifteen code-built motion recipes as editable layers - Mac-style launch film, milestone reveal, 16 premium effects, loop cover, reel export and more.</sub><br>
 <sub>Adapted from <a href="https://github.com/charlie947/motion-graphics-skills">charlie947/motion-graphics-skills</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-graphics-skills-pack">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/motion-reel-studio"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-reel-studio.gif" alt="Motion Reel Studio preview" width="100%"></a><br>
 <h4><a href="skills/motion-reel-studio">Motion Reel Studio</a></h4>
 <sub>Make a vertical reel in 5 code-built styles (kinetic mascot, 3D tower, film set, anime opening, phone shot) with safe zones and a -14 LUFS master.</sub><br>
 <sub>Adapted from <a href="https://github.com/Vladic20/tvhead-studio">Vladic20/tvhead-studio</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-reel-studio">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/code-motion-styles"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles.gif" alt="Motion style prompts preview" width="100%"></a><br>
 <h4><a href="skills/code-motion-styles">Motion style prompts</a></h4>
 <sub>Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.</sub><br>
 <sub>Adapted from <a href="https://www.its-applied-ai.com/r/styles">www.its-applied-ai.com/r/styles</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/code-motion-styles">View on subclip.app</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="skills/remotion-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers.gif" alt="Remotion motion layers preview" width="100%"></a><br>
-<h4><a href="skills/remotion-motion-layers">Remotion motion layers</a></h4>
-<sub>Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.</sub><br>
-<sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/remotion-motion-layers">View on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="skills/bang-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion.gif" alt="Bang Motion preview" width="100%"></a><br>
@@ -533,10 +519,24 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <sub>Adapted from <a href="https://github.com/Jakubantalik/transitions.dev">Jakubantalik/transitions.dev</a> &nbsp;|&nbsp; Transitions.dev License &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/transitions-dev">View on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
+<a href="skills/hyperframes-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers.gif" alt="HyperFrames motion layers preview" width="100%"></a><br>
+<h4><a href="skills/hyperframes-motion-layers">HyperFrames motion layers</a></h4>
+<sub>Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.</sub><br>
+<sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/hyperframes-motion-layers">View on subclip.app</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="skills/product-launch-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/product-launch-motion.gif" alt="Product launch motion preview" width="100%"></a><br>
 <h4><a href="skills/product-launch-motion">Product launch motion</a></h4>
 <sub>A launch film from code with one shape that never cuts, springs and a cursor, plus 68 scene types, recipes and easings with clips.</sub><br>
 <sub>Adapted from <a href="https://github.com/AbubakrChan/product-launch-motion">AbubakrChan/product-launch-motion</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/product-launch-motion">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="skills/remotion-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers.gif" alt="Remotion motion layers preview" width="100%"></a><br>
+<h4><a href="skills/remotion-motion-layers">Remotion motion layers</a></h4>
+<sub>Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.</sub><br>
+<sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/remotion-motion-layers">View on subclip.app</a></sub>
 </td>
 </tr>
 <tr>

@@ -3,7 +3,7 @@ name: HyperFrames motion layers
 seoTitle: "HyperFrames Motion Graphics in Subclip: Editable HTML and GSAP Video Layers (HeyGen HyperFrames)"
 preinstalled: true
 summary: Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.
-category: motion
+category: ui-saas
 tags: [hyperframes, motion-graphics, gsap, lottie, captions, maps, charts, preinstalled]
 cover: cover.svg
 preview: preview.mp4
