@@ -1,0 +1,22 @@
+slug: neonclipping
+name: NeonClipping stream clips
+seoTitle: "NeonClipping for Subclip: Stream to Shorts With Facecam Layouts"
+summary: Clip YouTube, Twitch or Kick streams into 9:16 shorts with facecam layouts, GTA Neon style captions and an opening heading on each clip.
+category: clipping
+tags: [clipping, twitch, gaming, facecam, captions, shorts]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: AGPL-3.0
+upstream: { repo: iamajmeena/neonclipping, author: Ajay K Meena, license: AGPL-3.0, commit: "6a3b9e758a1ddf25af47be45120888735cde29bd", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+examples:
+  - file: examples/they-killed-me-face-gameplay.mp4
+    caption: "1. They killed me: facecam above gameplay, GTA Neon captions, 8 s heading. Inde Navarrette stream, CC BY. No AI model."
+  - file: examples/spirit-box-circle-cam.mp4
+    caption: "2. Spirit box: circle facecam over gameplay, GTA Neon captions, 8 s heading. Inde Navarrette stream, CC BY. No AI model."
+  - file: examples/neonclipping-contact-sheet.jpg
+    caption: "3. Contact sheet at 1 s: the first 10 s of both clips with heading, captions and credit line. No AI model."
+examplesCredit: "Clips cut with this skill in Subclip from Inde Navarrette, Lets Play Phasmophobia Part 01 (https://www.youtube.com/watch?v=voQeFH0DXYk), CC BY. Her own stream, voice and webcam; YouTube captions, no AI model, zero credits."
+examplesKind: test
+sourceVideo: { youtube: voQeFH0DXYk, title: "Inde Navarrette | Lets Play Phasmophobia [Part 01]", channel: "Inde Navarrette", license: "CC BY" }

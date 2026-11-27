@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>60 skills</b> in 13 categories</p>
+<p align="center"><b>61 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -471,12 +471,17 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/neonclipping"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/neonclipping.gif" alt="NeonClipping stream clips preview" width="100%"></a><br>
+<h4><a href="skills/neonclipping">NeonClipping stream clips</a></h4>
+<sub>Clip YouTube, Twitch or Kick streams into 9:16 shorts with facecam layouts, GTA Neon style captions and an opening heading on each clip.</sub><br>
+<sub>Adapted from <a href="https://github.com/iamajmeena/neonclipping">iamajmeena/neonclipping</a> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/neonclipping">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/long-to-shorts"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/long-to-shorts.gif" alt="Long video to shorts preview" width="100%"></a><br>
 <h4><a href="skills/long-to-shorts">Long video to shorts</a></h4>
 <sub>Turn a long video into several ready-to-post vertical shorts with hooks, captions and music.</sub><br>
 <sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/long-to-shorts">View on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
