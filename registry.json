@@ -2393,6 +2393,54 @@
       "examplesKind": "original"
     },
     {
+      "slug": "faceless-channel-video",
+      "name": "Faceless channel video",
+      "seoTitle": "Faceless Channel Video: Narrated Episodes With a Story Arc, Sized Shots and a Pacing Gate",
+      "summary": "Faceless channel episodes planned as hook, build, turn and payoff, five sized shots per 10 s block, a 20 to 23 word pacing gate and one locked look.",
+      "category": "explainers",
+      "tags": [
+        "faceless-video",
+        "youtube-automation",
+        "narration",
+        "story-arc",
+        "editorial-collage",
+        "kids-video",
+        "hyperframes"
+      ],
+      "path": "skills/faceless-channel-video",
+      "skills": [
+        "faceless-channel-video"
+      ],
+      "cover": "skills/faceless-channel-video/cover.svg",
+      "preview": "skills/faceless-channel-video/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "higgsfield-ai/skills",
+        "url": "https://github.com/higgsfield-ai/skills",
+        "author": "Higgsfield AI",
+        "license": "MIT",
+        "commit": "27000402070db19d958789d05b3b52b6f4718d7c",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/faceless-channel-video/examples/pisa-reference.mp4",
+          "kind": "video",
+          "caption": "1. Why Pisa still leans, 30 s, hook to payoff. Edited by Claude Opus 5.5 (claude-opus-5-5). Voice: Pocket TTS. No image model."
+        },
+        {
+          "path": "skills/faceless-channel-video/examples/pisa-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second: 15 sized shots, editorial collage, the lean as through-line. Claude Opus 5.5, no image model."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip for 0 credits by Claude Opus 5.5 (claude-opus-5-5) over MCP. HyperFrames code scenes, voice Eponine (Pocket TTS), Whisper captions. Music: Sleepy Upright Piano by blankie.rest (CC0). No image or video model.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "frontend-slides",
       "name": "Frontend Slides",
       "seoTitle": "Frontend Slides: Turn Slide Outlines Into Animated Video (zarazhangrui)",
