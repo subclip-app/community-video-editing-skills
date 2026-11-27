@@ -3342,6 +3342,53 @@
       "examplesKind": "test"
     },
     {
+      "slug": "motionmaxxing",
+      "name": "motionmaxxing",
+      "seoTitle": "motionmaxxing in Subclip: Launch Films With Measured Motion Curves and Honest Review Gates",
+      "summary": "Launch films and brand stings with a brand-owned idea, a built world, eases measured on 53 pro moments and six honest frame review gates.",
+      "category": "ui-saas",
+      "tags": [
+        "launch-video",
+        "brand-sting",
+        "motion-design",
+        "measured-easing",
+        "hyperframes",
+        "review-gates"
+      ],
+      "path": "skills/motionmaxxing",
+      "skills": [
+        "motionmaxxing"
+      ],
+      "cover": "skills/motionmaxxing/cover.svg",
+      "preview": "skills/motionmaxxing/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "Tejashmakwana/motionmaxxing",
+        "url": "https://github.com/Tejashmakwana/motionmaxxing",
+        "author": "Tejas Makwana",
+        "license": "Apache-2.0",
+        "commit": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/motionmaxxing/examples/knotwork-reference.mp4",
+          "kind": "video",
+          "caption": "1. Knotwork sting: loose task threads pulled taut become the knot logo. Code layers, measured eases, no AI model."
+        },
+        {
+          "path": "skills/motionmaxxing/examples/knotwork-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the Knotwork sting: hook, five tasks tied off, knot lockup. No AI model."
+        }
+      ],
+      "examplesCredit": "Test output made with this skill in Subclip for 0 credits, for an invented product. Three HyperFrames layers with the Motion runtime. Music: Electronic Perk loops by aikighost (CC0). Click, whoosh and ding from the Subclip catalog.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "music-to-video",
       "name": "Music to video",
       "seoTitle": "Music to Video: AI Music Video Workflow",
