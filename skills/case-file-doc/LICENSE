@@ -1,0 +1,24 @@
+Notice for case-file-doc
+
+No license is stated for the original. The source is the public GitHub repository
+https://github.com/Tejashmakwana/case-file-doc by Tejas Makwana, which has no
+LICENSE file. The original skill, its text, scene templates, scripts and media
+belong to its author, and no rights in them are granted or implied here.
+
+The Subclip maintainers decided to adapt it with full credit to Tejas Makwana.
+Permission from the author is being confirmed. This folder describes the same
+method, scene list and look in new words for the Subclip AI Editor. It does not
+copy the original's scene templates, scripts, texture images or example media,
+except the example video noted below.
+
+examples/tejas-t3-code-excerpt.mp4 is an excerpt of a film by Tejas Makwana made
+with the original skill, published at
+https://x.com/makwanatejas170/status/2125608178385821824 . It is shown with
+credit and belongs to its author.
+
+The fonts in assets/fonts (Anton, Old Standard TT, Courier Prime) are licensed
+under the SIL Open Font License 1.1; their license texts are in the same folder.
+
+The original wording in this folder is offered under the MIT License of the
+community-video-editing-skills repository (see the LICENSE file at the repository
+root), without affecting the author's rights in the original.

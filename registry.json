@@ -1623,6 +1623,57 @@
       "examplesKind": "test"
     },
     {
+      "slug": "case-file-doc",
+      "name": "Case file doc",
+      "seoTitle": "Case File Doc: Investigative Documentary Cold Opens Built in Code",
+      "summary": "Narrated investigative doc cold opens from real reporting, with date stamps, highlighted documents and a dark evidence board, all built in code.",
+      "category": "explainers",
+      "tags": [
+        "documentary",
+        "investigative",
+        "cold-open",
+        "narrator",
+        "hyperframes",
+        "letterbox",
+        "evidence-board"
+      ],
+      "path": "skills/case-file-doc",
+      "skills": [
+        "case-file-doc"
+      ],
+      "cover": "skills/case-file-doc/cover.svg",
+      "preview": "skills/case-file-doc/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Not stated",
+      "upstream": {
+        "url": "https://github.com/Tejashmakwana/case-file-doc",
+        "author": "Tejas Makwana",
+        "license": "Not stated",
+        "note": "The repository has no license file. The owner approved adapting it in new words with full credit; permission from the author is being confirmed."
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/case-file-doc/examples/case-file-doc-reference.mp4",
+          "kind": "video",
+          "caption": "1. The Cooper File: a 58 s cold open on the 1971 Flight 305 hijacking, sourced to the National Archives. No AI model."
+        },
+        {
+          "path": "skills/case-file-doc/examples/case-file-doc-reference-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of The Cooper File: wall date, archive document, cork board, title. No AI model."
+        },
+        {
+          "path": "skills/case-file-doc/examples/tejas-t3-code-excerpt.mp4",
+          "kind": "video",
+          "caption": "3. By Tejas Makwana, made with the original case-file-doc skill: The T3 Code situation, first 66 s (x.com post)."
+        }
+      ],
+      "examplesCredit": "Examples 1 and 2 made with this skill in Subclip for 0 credits: HyperFrames scenes, local voice, CC0 sound by kkenny101, Qvantor, I.fekry and nvmbky (Freesound). Example 3 by Tejas Makwana with the original skill: x.com/makwanatejas170/status/2125608178385821824",
+      "examplesKind": "original"
+    },
+    {
       "slug": "character-animation-qa",
       "name": "Character animation QA",
       "seoTitle": "Character Animation QA Checklist for AI Video",
