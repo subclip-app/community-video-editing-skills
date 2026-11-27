@@ -1,0 +1,20 @@
+slug: mg-styles-15
+name: 15 Motion Design Styles
+seoTitle: "15 Motion Design Styles: Full Prompts and a Jury Rubric (Vincentwei1021/mg-styles-15)"
+summary: Pick one of 15 deeply specified motion design styles and make your own 10 second film in it as editable layers, reviewed with a jury rubric.
+category: motion
+tags: [motion-graphics, styles, isometric, hud, bauhaus, hyperframes, review-rubric]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: Vincentwei1021/mg-styles-15, author: Vincentwei1021, license: MIT, commit: "3164c24e188899fd79b155124cfa7eefc7a906e9", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+updatedAt: 2026-11-27
+examples:
+  - file: examples/mg-styles-reference.mp4
+    caption: "1. One seed in three styles: isometric, cyberpunk HUD, Bauhaus. HyperFrames layers, CC0 music, no AI model."
+  - file: examples/mg-styles-contact-sheet.jpg
+    caption: "2. One frame per second of the three styles, each a seekable HyperFrames layer. Rendered in code, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames Canvas2D), no image, video or audio model. Music: Happy Trance Plucked Arpeggiator by elaineaeris, Cyberpunk snippet by cabled_mess, 120 bpm ravish loop by waveplaySFX (all CC0, Freesound)."
+examplesKind: test

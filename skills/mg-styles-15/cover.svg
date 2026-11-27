@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">15 Motion Design Styles. Adapted for Subclip.</title>
+  <rect width="1600" height="900" fill="#fff"/>
+  <text x="110" y="300" fill="#153592" font-family="Arial, sans-serif" font-size="118" font-weight="700" letter-spacing="-5">15 Motion</text>
+  <text x="110" y="428" fill="#153592" font-family="Arial, sans-serif" font-size="118" font-weight="700" letter-spacing="-5">Design Styles</text>
+  <rect x="115" y="494" width="76" height="9" rx="4" fill="#26c9d5"/>
+  <text x="114" y="575" fill="#153592" font-family="Arial, sans-serif" font-size="42">Adapted for Subclip</text>
+  <text x="114" y="640" fill="#153592" fill-opacity=".6" font-family="Arial, sans-serif" font-size="28">Full prompts and a jury rubric</text>
+  <g transform="translate(900 150)">
+    <rect width="300" height="270" rx="26" fill="#E6E0FA"/>
+    <path d="M150 70 240 122 150 174 60 122z" fill="#C4EFD9"/>
+    <path d="M60 122v24l90 52v-24z" fill="#A79DDC"/>
+    <path d="M240 122v24l-90 52v-24z" fill="#8E84C8"/>
+    <path d="M112 64v58l38 22V86z" fill="#BBAEF2"/>
+    <path d="M188 64v58l-38 22V86z" fill="#9C8BE0"/>
+    <path d="M150 42 188 64 150 86 112 64z" fill="#F4F0FF"/>
+    <rect x="320" width="300" height="270" rx="26" fill="#041a1e"/>
+    <circle cx="470" cy="135" r="78" fill="none" stroke="#00E5FF" stroke-width="4"/>
+    <circle cx="470" cy="135" r="98" fill="none" stroke="#00E5FF" stroke-width="8" stroke-dasharray="40 26" stroke-opacity=".7"/>
+    <path d="M440 105h-14v14M500 105h14v14M440 165h-14v-14M500 165h14v-14" fill="none" stroke="#FF6A00" stroke-width="5"/>
+    <circle cx="470" cy="135" r="6" fill="#FF6A00"/>
+    <rect y="290" width="300" height="270" rx="26" fill="#F1E9DA"/>
+    <circle cx="105" cy="420" r="62" fill="#E03C31"/>
+    <path d="M200 420v-90a90 90 0 0 0-90 90z" fill="#1E4FA3" fill-opacity=".92"/>
+    <path d="M200 330h70l-35 60z" fill="#F2B705"/>
+    <rect x="252" y="400" width="10" height="130" fill="#111"/>
+    <rect x="40" y="510" width="170" height="8" fill="#111"/>
+    <rect x="320" y="290" width="300" height="270" rx="26" fill="#2b1055"/>
+    <path d="M340 500h260M360 520h220M380 540h180M470 470 340 560M470 470 600 560M470 470v90" stroke="#ff4fd8" stroke-width="3"/>
+    <circle cx="470" cy="420" r="56" fill="#ff9e3d"/>
+    <rect x="410" y="420" width="120" height="7" fill="#2b1055"/>
+    <rect x="410" y="438" width="120" height="9" fill="#2b1055"/>
+    <rect x="400" y="460" width="140" height="10" fill="#2b1055"/>
+  </g>
+</svg>
