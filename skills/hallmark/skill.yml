@@ -1,0 +1,23 @@
+slug: hallmark
+name: Hallmark
+seoTitle: "Hallmark: Anti AI Slop Design for Websites and SaaS Videos"
+summary: Pages, product UI and SaaS promo videos that look designed, not generated, checked against a numbered list of AI slop tells.
+category: ui-saas
+tags: [anti-slop, web-design, saas-promo, product-ui, design-system, frame-review]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: Nutlope/hallmark, author: "Nutlope (Hassan El Mghari)", license: MIT, commit: "04977e15f3dfd6ee4b74c887dac3eb52665d6c92", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+allowlist:
+  - code: html-injection
+    file: references/patterns.md
+    reason: A one-line page snippet that adds a js class so reveals stay visible without scripting; it is example page code for website mode, not an instruction to the agent.
+examples:
+  - file: examples/hallmark-reference.mp4
+    caption: "1. The same 26 s SaaS promo twice: nine AI slop tells labelled, then rebuilt with hallmark rules. Music CC0. No AI model."
+  - file: examples/hallmark-reference-sheet.jpg
+    caption: "2. Contact sheet: one frame per second of the reference, the frame review the agent ran. No AI model."
+examplesCredit: "Made for Subclip in the AI Editor from HyperFrames code scenes, no AI model. Music: ElectronicPerk1, 3 and 4 by aikighost (Freesound, CC0); Whoosh from the Subclip SFX library."
+examplesKind: test

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="110" y="250" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" fill="#153592" letter-spacing="-4">Hallmark</text>
+<text x="116" y="330" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#0b1b4a">Anti AI slop design for SaaS videos</text>
+<rect x="116" y="380" width="380" height="64" rx="32" fill="#153592"/>
+<text x="306" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Adapted for Subclip</text>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="110" y="520" width="660" height="290" rx="20" fill="#f4f6fb" stroke="#d5dbea" stroke-width="2"/>
+<text x="150" y="580" font-size="30" font-weight="700" fill="#0b1b4a">Slop tells caught</text>
+<g font-size="27" fill="#3a4466">
+<text x="150" y="635">Eyebrow in tracked capitals</text>
+<text x="150" y="680">One accented word</text>
+<text x="150" y="725">Invented metrics</text>
+<text x="150" y="770">Drawn browser bar</text>
+</g>
+<g stroke="#d6452b" stroke-width="5" stroke-linecap="round">
+<line x1="660" y1="625" x2="700" y2="625"/><line x1="660" y1="670" x2="700" y2="670"/><line x1="660" y1="715" x2="700" y2="715"/><line x1="660" y1="760" x2="700" y2="760"/>
+</g>
+<rect x="830" y="120" width="660" height="690" rx="20" fill="#ffffff" stroke="#d5dbea" stroke-width="2"/>
+<text x="870" y="190" font-size="30" font-weight="700" fill="#0b1b4a">This week, sample data</text>
+<g font-size="26" fill="#3a4466">
+<line x1="870" y1="230" x2="1450" y2="230" stroke="#e3e7f0" stroke-width="2"/>
+<text x="870" y="285">Sat 7:00</text><text x="1060" y="285">Front counter</text>
+<rect x="1300" y="255" width="150" height="44" rx="10" fill="#26c9d5"/><text x="1375" y="286" text-anchor="middle" font-weight="700" fill="#0b1b4a">Covered</text>
+<line x1="870" y1="325" x2="1450" y2="325" stroke="#e3e7f0" stroke-width="2"/>
+<text x="870" y="380">Sat 12:00</text><text x="1060" y="380">Kitchen</text>
+<rect x="1300" y="350" width="150" height="44" rx="10" fill="#eef1f8"/><text x="1375" y="381" text-anchor="middle" font-weight="700" fill="#153592">Offer sent</text>
+<line x1="870" y1="420" x2="1450" y2="420" stroke="#e3e7f0" stroke-width="2"/>
+<text x="870" y="475">Sun 8:00</text><text x="1060" y="475">Barista</text>
+<rect x="1300" y="445" width="150" height="44" rx="10" fill="#eef1f8"/><text x="1375" y="476" text-anchor="middle" font-weight="700" fill="#153592">Open</text>
+<line x1="870" y1="515" x2="1450" y2="515" stroke="#e3e7f0" stroke-width="2"/>
+</g>
+<text x="870" y="610" font-size="40" font-weight="700" fill="#153592">One system</text>
+<text x="870" y="660" font-size="40" font-weight="700" fill="#153592">in every frame</text>
+<text x="870" y="740" font-size="26" fill="#3a4466">Frame review with Subclip contact sheets</text>
+</g>
+</svg>
