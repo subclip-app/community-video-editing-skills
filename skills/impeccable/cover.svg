@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="slop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b2bd9"/><stop offset="1" stop-color="#1fa2ff"/></linearGradient>
+<linearGradient id="gt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="#f5f1ea"/>
+<text x="80" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="104" fill="#1b1a17">Impeccable</text>
+<text x="84" y="212" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#57524a">Design vocabulary for UI and SaaS videos</text>
+<g font-family="Menlo, Consolas, monospace" font-size="26" font-weight="700">
+<rect x="80" y="262" width="172" height="52" rx="10" fill="#1b1a17"/><text x="102" y="297" fill="#fff">critique</text>
+<rect x="266" y="262" width="140" height="52" rx="10" fill="#ece5d9"/><text x="288" y="297" fill="#1b1a17">polish</text>
+<rect x="420" y="262" width="156" height="52" rx="10" fill="#ece5d9"/><text x="442" y="297" fill="#1b1a17">typeset</text>
+<rect x="590" y="262" width="172" height="52" rx="10" fill="#ece5d9"/><text x="612" y="297" fill="#1b1a17">colorize</text>
+<rect x="776" y="262" width="140" height="52" rx="10" fill="#ece5d9"/><text x="798" y="297" fill="#1b1a17">layout</text>
+<rect x="930" y="262" width="156" height="52" rx="10" fill="#ece5d9"/><text x="952" y="297" fill="#1b1a17">distill</text>
+</g>
+<rect x="80" y="370" width="660" height="400" rx="24" fill="#120d33"/>
+<rect x="80" y="370" width="660" height="400" rx="24" fill="url(#slop)" opacity=".45"/>
+<text x="410" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="url(#gt)">Supercharge your</text>
+<text x="410" y="518" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="url(#gt)">workflow with AI</text>
+<g fill="#ffffff" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".5"><rect x="120" y="590" width="180" height="130" rx="14"/><rect x="320" y="590" width="180" height="130" rx="14"/><rect x="520" y="590" width="180" height="130" rx="14"/></g>
+<g fill="#ff4d3d"><circle cx="128" cy="440" r="22"/><circle cx="128" cy="590" r="22"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#fff"><text x="121" y="449">1</text><text x="121" y="599">2</text></g>
+<text x="96" y="810" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#7a7368">Before</text>
+<path d="M770 570 L830 570" stroke="#1b1a17" stroke-width="5" stroke-linecap="round"/><path d="M812 552 L832 570 L812 588" fill="none" stroke="#1b1a17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="860" y="370" width="660" height="400" rx="24" fill="#ffffff" stroke="#e4ddd1" stroke-width="3"/>
+<text x="900" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#1b1a17">Know which invoices</text>
+<text x="900" y="502" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#1b1a17">will be paid late.</text>
+<g font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1b1a17">
+<rect x="890" y="548" width="600" height="56" rx="10" fill="#f3e6ee"/>
+<text x="910" y="585">Northfield Studio</text><text x="1180" y="585">6,200.00</text>
+<rect x="1310" y="560" width="166" height="34" rx="17" fill="#6d2a57"/><text x="1326" y="584" fill="#fff" font-size="20" font-weight="700">Likely late</text>
+<text x="910" y="645">Okafor and Lind</text><text x="1180" y="645">4,850.00</text>
+<text x="910" y="700">Harbor Bakery</text><text x="1180" y="700">1,370.00</text>
+</g>
+<rect x="900" y="716" width="250" height="40" rx="8" fill="#6d2a57"/><text x="1025" y="743" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#fff">Connect your ledger</text>
+<text x="876" y="810" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#7a7368">After</text>
+<text x="1520" y="858" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#153592">Adapted for Subclip</text>
+</svg>

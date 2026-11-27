@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>56 skills</b> in 13 categories</p>
+<p align="center"><b>57 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -480,26 +480,31 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/impeccable"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/impeccable.gif" alt="Impeccable preview" width="100%"></a><br>
+<h4><a href="skills/impeccable">Impeccable</a></h4>
+<sub>Critique, polish, typeset, colorize and lay out product UI and SaaS videos with one design vocabulary, plus the original website commands.</sub><br>
+<sub>Adapted from <a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/impeccable">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/product-launch-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/product-launch-motion.gif" alt="Product launch motion preview" width="100%"></a><br>
 <h4><a href="skills/product-launch-motion">Product launch motion</a></h4>
 <sub>A launch film from code with one shape that never cuts, springs and a cursor, plus 68 scene types, recipes and easings with clips.</sub><br>
 <sub>Adapted from <a href="https://github.com/AbubakrChan/product-launch-motion">AbubakrChan/product-launch-motion</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/product-launch-motion">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/video-shotcraft"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/video-shotcraft.gif" alt="Video Shotcraft preview" width="100%"></a><br>
 <h4><a href="skills/video-shotcraft">Video Shotcraft</a></h4>
 <sub>Build product promos from shot recipes, real product captures, beat-aligned cuts, and editable music and sound effects.</sub><br>
 <sub>Adapted from <a href="https://github.com/Vincentwei1021/video-shotcraft">Vincentwei1021/video-shotcraft</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/video-shotcraft">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/website-to-video"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/website-to-video.gif" alt="Website to video preview" width="100%"></a><br>
 <h4><a href="skills/website-to-video">Website to video</a></h4>
 <sub>Turn any public website into a branded video: capture, storyboard, voice, sound and editable motion layers.</sub><br>
 <sub>Adapted from <a href="https://github.com/OpenMontageInc/OpenMontage">OpenMontageInc/OpenMontage</a> &nbsp;|&nbsp; AGPL-3.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/website-to-video">View on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 

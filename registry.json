@@ -2673,6 +2673,53 @@
       "examplesKind": "original"
     },
     {
+      "slug": "impeccable",
+      "name": "Impeccable",
+      "seoTitle": "Impeccable: Design Vocabulary for UI and SaaS Videos (pbakaus/impeccable)",
+      "summary": "Critique, polish, typeset, colorize and lay out product UI and SaaS videos with one design vocabulary, plus the original website commands.",
+      "category": "ui-saas",
+      "tags": [
+        "design-system",
+        "ui-review",
+        "saas-video",
+        "product-ui",
+        "typography",
+        "critique"
+      ],
+      "path": "skills/impeccable",
+      "skills": [
+        "impeccable"
+      ],
+      "cover": "skills/impeccable/cover.svg",
+      "preview": "skills/impeccable/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "pbakaus/impeccable",
+        "url": "https://github.com/pbakaus/impeccable",
+        "author": "Paul Bakaus",
+        "license": "Apache-2.0",
+        "commit": "2fc5e1459efbbf06d92c7306517c286bf12490cf",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/impeccable/examples/impeccable-reference.mp4",
+          "kind": "video",
+          "caption": "Before and after: a generic AI landing page, a numbered critique, then the same page fixed command by command. No AI model."
+        },
+        {
+          "path": "skills/impeccable/examples/impeccable-reference-sheet.jpg",
+          "kind": "image",
+          "caption": "The same video one frame per second: before, critique, then distill, clarify, typeset, colorize, layout, animate, polish. No AI model."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip. Plumtrace is an invented product. Scenes rendered in code (HyperFrames), no AI model. Music: Tape No. R-S 5 (Lo-fi loop) by Dwy, CC0.",
+      "examplesKind": "test"
+    },
+    {
       "slug": "long-to-shorts",
       "name": "Long video to shorts",
       "seoTitle": "Long Video to Shorts: Podcast Clipping With Captions and Hooks",
