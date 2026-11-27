@@ -1721,6 +1721,53 @@
       "examplesKind": "original"
     },
     {
+      "slug": "changelog-video",
+      "name": "Changelog video",
+      "seoTitle": "Changelog Video in Subclip: Release Notes Into a Short Video Where Mocks of Your UI Act Out Each Change",
+      "summary": "Release notes in, a 40 to 60 s release video out, where an animated mock of your real UI acts out each change, with voice, captions and music.",
+      "category": "ui-saas",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "product-update",
+        "ui-mock",
+        "hyperframes",
+        "saas"
+      ],
+      "path": "skills/changelog-video",
+      "skills": [
+        "changelog-video"
+      ],
+      "cover": "skills/changelog-video/cover.svg",
+      "preview": "skills/changelog-video/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "Apache-2.0",
+      "upstream": {
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "author": "HeyGen",
+        "license": "Apache-2.0",
+        "commit": "b4f47cec1f0fc6ac1dff91de597423b7edc460c5",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/changelog-video/examples/changelog-1050-reference.mp4",
+          "kind": "video",
+          "caption": "1. Subclip AI Editor 1.0.50 recap: Home, Skills, Exports, Fixes as UI mocks. Edited by Claude Opus 5.5 over MCP."
+        },
+        {
+          "path": "skills/changelog-video/examples/changelog-1050-contact.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the 1.0.50 recap. Edited by Claude Opus 5.5 (claude-opus-5-5), voice: local Pocket TTS."
+        }
+      ],
+      "examplesCredit": "Made with this skill in Subclip for 0 credits. Edited by Claude Opus 5.5 (claude-opus-5-5) driving Subclip over MCP. Six HyperFrames layers, voice: Subclip local Pocket TTS (Alba), no cloud AI model. Music: Ambient Lofi Melody Loop by holizna (CC0).",
+      "examplesKind": "test"
+    },
+    {
       "slug": "character-animation-qa",
       "name": "Character animation QA",
       "seoTitle": "Character Animation QA Checklist for AI Video",
