@@ -2915,6 +2915,54 @@
       "examplesKind": "test"
     },
     {
+      "slug": "motion-design-principles",
+      "name": "Motion design principles",
+      "seoTitle": "Motion Design Principles: Timing, Easing and the 12 Principles for Video (LottieFiles)",
+      "summary": "Timing, easing, choreography and the 12 principles of animation applied to every keyframe and motion layer, with a frame review checklist.",
+      "category": "motion",
+      "tags": [
+        "motion-design",
+        "timing",
+        "easing",
+        "choreography",
+        "animation-principles",
+        "keyframes",
+        "hyperframes"
+      ],
+      "path": "skills/motion-design-principles",
+      "skills": [
+        "motion-design-principles"
+      ],
+      "cover": "skills/motion-design-principles/cover.svg",
+      "preview": "skills/motion-design-principles/preview.mp4",
+      "adaptedBySubclip": true,
+      "license": "MIT",
+      "upstream": {
+        "repo": "LottieFiles/motion-design-skill",
+        "url": "https://github.com/LottieFiles/motion-design-skill",
+        "author": "LottieFiles",
+        "license": "MIT",
+        "commit": "d77a9fc8cb371cab1ba5420df5bfd232cd14c9bb",
+        "syncedAt": "2026-11-27"
+      },
+      "addedAt": "2026-11-27",
+      "updatedAt": "2026-11-27",
+      "examples": [
+        {
+          "path": "skills/motion-design-principles/examples/motion-principles-reference.mp4",
+          "kind": "video",
+          "caption": "1. Six principles without and with: slow in and out, squash and stretch, anticipation, arcs, follow-through, staging. No AI model."
+        },
+        {
+          "path": "skills/motion-design-principles/examples/one-second-contact-sheet.jpg",
+          "kind": "image",
+          "caption": "2. One frame per second of the reference: three seekable HyperFrames layers. Rendered in code, no AI model."
+        }
+      ],
+      "examplesCredit": "Test outputs made with this skill in Subclip. Scenes rendered in code (HyperFrames: HTML and GSAP): no image or video model. Music: Airport Lounge by code_box on Freesound (CC0).",
+      "examplesKind": "test"
+    },
+    {
       "slug": "motion-graphics-skills-pack",
       "name": "Motion graphics skills pack",
       "seoTitle": "15 Launch-Grade Motion Graphics Recipes: Every Frame Is Code (motion-graphics-skills)",

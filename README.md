@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>59 skills</b> in 13 categories</p>
+<p align="center"><b>60 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -107,62 +107,67 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <sub>Adapted from <a href="https://github.com/Vincentwei1021/mg-styles-15">Vincentwei1021/mg-styles-15</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/mg-styles-15">View on subclip.app</a></sub>
 </td>
 <td width="50%" valign="top">
+<a href="skills/motion-design-principles"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-design-principles.gif" alt="Motion design principles preview" width="100%"></a><br>
+<h4><a href="skills/motion-design-principles">Motion design principles</a></h4>
+<sub>Timing, easing, choreography and the 12 principles of animation applied to every keyframe and motion layer, with a frame review checklist.</sub><br>
+<sub>Adapted from <a href="https://github.com/LottieFiles/motion-design-skill">LottieFiles/motion-design-skill</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-design-principles">View on subclip.app</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="skills/hyperframes-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/hyperframes-motion-layers.gif" alt="HyperFrames motion layers preview" width="100%"></a><br>
 <h4><a href="skills/hyperframes-motion-layers">HyperFrames motion layers</a></h4>
 <sub>Built into Subclip: an agent builds editable HTML, GSAP and Lottie layers for titles, charts, maps, captions and device scenes.</sub><br>
 <sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/hyperframes-motion-layers">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/motion-graphics-skills-pack"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-graphics-skills-pack.gif" alt="Motion graphics skills pack preview" width="100%"></a><br>
 <h4><a href="skills/motion-graphics-skills-pack">Motion graphics skills pack</a></h4>
 <sub>Fifteen code-built motion recipes as editable layers - Mac-style launch film, milestone reveal, 16 premium effects, loop cover, reel export and more.</sub><br>
 <sub>Adapted from <a href="https://github.com/charlie947/motion-graphics-skills">charlie947/motion-graphics-skills</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-graphics-skills-pack">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/motion-reel-studio"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/motion-reel-studio.gif" alt="Motion Reel Studio preview" width="100%"></a><br>
 <h4><a href="skills/motion-reel-studio">Motion Reel Studio</a></h4>
 <sub>Make a vertical reel in 5 code-built styles (kinetic mascot, 3D tower, film set, anime opening, phone shot) with safe zones and a -14 LUFS master.</sub><br>
 <sub>Adapted from <a href="https://github.com/Vladic20/tvhead-studio">Vladic20/tvhead-studio</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/motion-reel-studio">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/code-motion-styles"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/code-motion-styles.gif" alt="Motion style prompts preview" width="100%"></a><br>
 <h4><a href="skills/code-motion-styles">Motion style prompts</a></h4>
 <sub>Sixteen new code-built motion styles (3D charts, line-art diagrams, glow sketch, cel anime, brick world, galaxy, glitch cut) as editable layers.</sub><br>
 <sub>Adapted from <a href="https://www.its-applied-ai.com/r/styles">www.its-applied-ai.com/r/styles</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/code-motion-styles">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/remotion-motion-layers"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/remotion-motion-layers.gif" alt="Remotion motion layers preview" width="100%"></a><br>
 <h4><a href="skills/remotion-motion-layers">Remotion motion layers</a></h4>
 <sub>Built into Subclip: an agent builds editable React and TSX layers for titles, charts, globe maps, 3D and device scenes with typed props.</sub><br>
 <sub>Written for Subclip &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/remotion-motion-layers">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/bang-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/bang-motion.gif" alt="Bang Motion preview" width="100%"></a><br>
 <h4><a href="skills/bang-motion">Bang Motion</a></h4>
 <sub>Brand-led openers, kinetic type, product demos and six explainer styles as editable Subclip motion layers.</sub><br>
 <sub>Adapted from <a href="https://github.com/bangtutorial/bang-motion">bangtutorial/bang-motion</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/bang-motion">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/huashu-art-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/huashu-art-motion.gif" alt="Huashu art motion preview" width="100%"></a><br>
 <h4><a href="skills/huashu-art-motion">Huashu art motion</a></h4>
 <sub>Living paintings, art-history journeys and nine explainer animation grammars on an editable Subclip timeline.</sub><br>
 <sub>Adapted from <a href="https://github.com/alchaincyf/huashu-art-motion">alchaincyf/huashu-art-motion</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/huashu-art-motion">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/open-design-motion"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/open-design-motion.gif" alt="Open Design Motion preview" width="100%"></a><br>
 <h4><a href="skills/open-design-motion">Open Design Motion</a></h4>
 <sub>Six editable Subclip workflows for animated posters, short shots, pixel sprites, audio, explainers and 3D device showcases.</sub><br>
 <sub>Adapted from <a href="https://github.com/nexu-io/open-design">nexu-io/open-design</a> &nbsp;|&nbsp; Apache-2.0 &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/open-design-motion">View on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
