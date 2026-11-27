@@ -50,7 +50,7 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 
 <!-- skills:start -->
 
-<p align="center"><b>64 skills</b> in 13 categories</p>
+<p align="center"><b>65 skills</b> in 13 categories</p>
 
 <p align="center"><a href="#promos">Promos</a> &nbsp;|&nbsp; <a href="#motion-graphics">Motion graphics</a> &nbsp;|&nbsp; <a href="#animation">Animation</a> &nbsp;|&nbsp; <a href="#explainers">Explainers</a> &nbsp;|&nbsp; <a href="#slides">Slides</a> &nbsp;|&nbsp; <a href="#3d">3D</a> &nbsp;|&nbsp; <a href="#pixel-art">Pixel art</a> &nbsp;|&nbsp; <a href="#audio-and-music">Audio and music</a> &nbsp;|&nbsp; <a href="#templates">Templates</a> &nbsp;|&nbsp; <a href="#workflows">Workflows</a> &nbsp;|&nbsp; <a href="#clipping">Clipping</a> &nbsp;|&nbsp; <a href="#ui-and-saas">UI and SaaS</a> &nbsp;|&nbsp; <a href="#b-roll">B-roll</a></p>
 
@@ -59,40 +59,45 @@ Add `--agent codex`, `--agent cursor` or `--agent all` for other agents. Files a
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="skills/anatomy-reveal"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/anatomy-reveal.gif" alt="Anatomy reveal preview" width="100%"></a><br>
+<h4><a href="skills/anatomy-reveal">Anatomy reveal</a></h4>
+<sub>Exploded views and product highlight shots of any physical product, built part by part from real dimensions as one editable HyperFrames layer.</sub><br>
+<sub>Adapted from <a href="https://github.com/annnguyentt/anatomy-reveal-skill">annnguyentt/anatomy-reveal-skill</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/anatomy-reveal">View on subclip.app</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="skills/trendjack-animator"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/trendjack-animator.gif" alt="Trending animated ads preview" width="100%"></a><br>
 <h4><a href="skills/trendjack-animator">Trending animated ads</a></h4>
 <sub>Make trending vertical animated ads (song ad, cartoon story, 3D explainer, skeleton) with audio-first timing and safe-zone captions.</sub><br>
 <sub>Adapted from <a href="https://github.com/holy-templar/drama-song-ad">holy-templar/drama-song-ad</a> &nbsp;|&nbsp; MIT &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/trendjack-animator">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/ugc-ad-director"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-director.gif" alt="UGC ad director preview" width="100%"></a><br>
 <h4><a href="skills/ugc-ad-director">UGC ad director</a></h4>
 <sub>Stage-gated UGC ad director: character, product and location sheets, concepts, script, storyboard and a consistency check before any video is made.</sub><br>
 <sub>Adapted from <a href="https://docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit">docs.google.com/document/d/1Fl1YmUx7ODrjNEjzBcFIZbW3x6wTN2uhee5SMgSFX6s/edit</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ugc-ad-director">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/ugc-ad-engine"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ugc-ad-engine.gif" alt="UGC ad engine preview" width="100%"></a><br>
 <h4><a href="skills/ugc-ad-engine">UGC ad engine</a></h4>
 <sub>Product and avatar in, finished vertical UGC ad out: angles, one gate, script, prompt sheet, avatar clips, captions and CTA on the timeline.</sub><br>
 <sub>Adapted from <a href="https://www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0">www.skool.com/learn-ai-with-websitelearners-5339/new-video-how-to-create-ai-ugc-ad-full-tutorial?p=5220d4a0</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ugc-ad-engine">View on subclip.app</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="skills/ai-ad-formats"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/ai-ad-formats.gif" alt="AI ad formats preview" width="100%"></a><br>
 <h4><a href="skills/ai-ad-formats">AI ad formats</a></h4>
 <sub>Five ad formats from one product photo: claymation (4 styles), paper animation (5 styles), singing ad, talking object and skeleton progression.</sub><br>
 <sub>Adapted from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/ai-ad-formats">View on subclip.app</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="skills/commercial-pipeline"><img src="https://subclipweb.subclip.app/agent-skills/community-readme/commercial-pipeline.gif" alt="Commercial pipeline preview" width="100%"></a><br>
 <h4><a href="skills/commercial-pipeline">Commercial pipeline</a></h4>
 <sub>Plan 5 to 8 locked reference images, then assemble a 30 second multi-cut AI commercial and fix only what broke.</sub><br>
 <sub>Adapted from <a href="https://app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1">app.notion.com/p/Claude-Creative-Skill-Library-Vol-2-3ffb5f1fde2d81938bb9eb76ea6c60d1</a> &nbsp;|&nbsp; Not stated &nbsp;|&nbsp; <a href="https://www.subclip.app/agent-skills/community/commercial-pipeline">View on subclip.app</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 

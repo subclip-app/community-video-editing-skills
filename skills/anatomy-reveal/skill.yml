@@ -1,0 +1,24 @@
+slug: anatomy-reveal
+name: Anatomy reveal
+seoTitle: "Anatomy Reveal: Exploded Product Views and Highlight Shots for Video"
+summary: Exploded views and product highlight shots of any physical product, built part by part from real dimensions as one editable HyperFrames layer.
+category: promos
+tags: [exploded-view, product-reveal, teardown, product-highlight, hyperframes, svg]
+cover: cover.jpg
+preview: preview.mp4
+adaptedBySubclip: true
+license: MIT
+upstream: { repo: annnguyentt/anatomy-reveal-skill, author: Ann Nguyen, license: MIT, commit: "dd01e1c04559d79002da07862e26f8a5c2a07644", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+updatedAt: 2026-11-27
+examples:
+  - file: examples/anatomy-reveal-reference.mp4
+    caption: "1. A mirrorless camera in 53 parts: details, explode, sensor, battery and board highlights, hero. Music CC0. No AI model."
+  - file: examples/anatomy-reveal-contact-sheet.jpg
+    caption: "2. The reference at one frame per second, the frame review the agent ran. One HyperFrames layer, no AI model."
+examplesCredit: "Test outputs made with this skill in Subclip: one HyperFrames layer drawn in code, no image or video model. Music: crushed-suspense-001 by Johnmode on Freesound (CC0); whooshes from the Subclip sound library."
+examplesKind: test
+allowlist:
+  - code: html-injection
+    file: references/layer-template.md
+    reason: The template shows the HyperFrames document an agent pastes into add_runtime_layer, so it contains script tags by design. Nothing in it runs outside a Subclip layer.
