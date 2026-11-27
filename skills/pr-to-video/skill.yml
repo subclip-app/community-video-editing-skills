@@ -1,0 +1,22 @@
+slug: pr-to-video
+name: PR to video
+seoTitle: "PR to Video in Subclip: Turn a GitHub Pull Request Into a Short Explainer With Real Code and Proof"
+summary: A public pull request in, a 30 to 45 s video out that explains what changed and why, with one legible code diff, proof from the PR and a true end card.
+category: ui-saas
+tags: [github, pull-request, code-diff, fix-explainer, developer-video, hyperframes]
+cover: cover.svg
+preview: preview.mp4
+adaptedBySubclip: true
+license: Apache-2.0
+upstream: { repo: heygen-com/hyperframes, author: HeyGen, license: Apache-2.0, commit: "b4f47cec1f0fc6ac1dff91de597423b7edc460c5", syncedAt: "2026-11-27" }
+addedAt: 2026-11-27
+examples:
+  - file: examples/pr-8965-reference.mp4
+    caption: "1. Fix explainer for hyperframes PR 8965: symptom, cause, diff, proof. Edited by Claude Opus 5.5 over MCP."
+  - file: examples/pr-8965-contact.jpg
+    caption: "2. One frame per second of the PR 8965 explainer. Edited by Claude Opus 5.5 (claude-opus-5-5), voice: local Pocket TTS."
+examplesCredit: "Made with this skill in Subclip for 0 credits. Edited by Claude Opus 5.5 (claude-opus-5-5) driving Subclip over MCP. Five HyperFrames layers, voice: Subclip local Pocket TTS (Alba), captions: local Whisper. Music: Chill Lofi Melody Loop by holizna (CC0)."
+examplesKind: test
+allowlist:
+  - code: external-provider
+    reason: HeyGen is named as the author of the open-source HyperFrames guide this skill is written from, and the kept original guide links its own example videos. Nothing calls HeyGen.
